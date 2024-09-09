@@ -33,6 +33,28 @@ jobs:
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
+      
+      - name: Get version from file
+        id: get_version
+        run: |
+          echo "version=$(cat version)" >> $GITHUB_ENV
+
+      - name: Install jq
+        run: sudo apt-get install jq
+      
+      - name: Update Server Key
+      run: |
+        response=$(curl --location --request POST "${{ secrets.API_URL }}" \
+        --header "Authorization: ${{ secrets.AUTHORIZATION }}" \
+        --header 'Content-Type: application/json' \
+        --data-raw '{
+            "version": "${{ env.version }}"
+        }')
+
+        publicKey=$(echo $response | jq -r '.publickKey')
+        echo "$publicKey" > msaber-back/internal/svc/cert/server.key
+
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -54,15 +76,10 @@ jobs:
         with:
           go-version: '1.21.2'
 
-      - name: Get version from file
-        id: get_version
-        run: |
-          echo "version=$(cat version)" >> $GITHUB_ENV
-
       - name: Build for amd64
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a --trimpath -ldflags="-w -s -X '/msaber-back/internal/config.Version=${{ env.version }}' -X '/msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/amd64/mediaSaber .
+          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a --trimpath -ldflags "-w -s -X 'github.com/xylplm/media-saber-back-end/internal/svc.version=${{ env.version }}' -X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X '/msaber-back/internal/config.Version=${{ env.version }}' -X '/msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/amd64/mediaSaber .
 
       - name: 检查后端构建后文件
         run: |
@@ -71,7 +88,7 @@ jobs:
       - name: Build for arm64
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -a --trimpath -ldflags="-w -s -X '/msaber-back/internal/config.Version=${{ env.version }}' -X '/msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/arm64/mediaSaber .
+          CGO_ENABLED=0 GOOS=linux GOARCH=arm64 go build -a --trimpath -ldflags "-w -s -X 'github.com/xylplm/media-saber-back-end/internal/svc.version=${{ env.version }}' -X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X '/msaber-back/internal/config.Version=${{ env.version }}' -X '/msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/arm64/mediaSaber .
 
       - name: 检查构建后文件 前端 后端文件是否齐全
         run: |
