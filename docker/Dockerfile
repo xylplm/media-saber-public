@@ -8,6 +8,9 @@ ARG TARGETPLATFORM
 RUN mkdir -p /app/mediaSaber
 COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 
+#复制配置文件
+COPY msaber-back/etc/docker_media_saber.yaml /etc/media_saber.yaml
+
 # 复制其他需要的文件或目录，例如 start.sh
 #COPY . ${WORKDIR}
 RUN mkdir -p /app/mediaSaber/front
