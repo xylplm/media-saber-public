@@ -28,6 +28,6 @@ ENV REDIS_HOST="127.0.0.1:6379" \
     TZ="Asia/Shanghai"
 
 EXPOSE 8888
-VOLUME ["/config"]
+VOLUME ["/app/config"]
 # 设置启动命令
 CMD ["./mediaSaber"]
