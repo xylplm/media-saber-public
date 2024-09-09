@@ -5,15 +5,16 @@ WORKDIR /app
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
-ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/app
+COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber ${WORKDIR}/mediaSaber
 
 #复制配置文件
-ADD msaber-back/etc/docker_media_saber.yaml /app/etc/media_saber.yaml
+RUN mkdir -p  ${WORKDIR}/etc
+COPY msaber-back/etc/docker_media_saber.yaml ${WORKDIR}/etc/media_saber.yaml
 
 # 复制其他需要的文件或目录，例如 start.sh
-RUN mkdir /app/mediaSaber && mkdir /app/mediaSaber/front && mkdir /app/mediaSaber/config
-COPY msaber-front/dist/MediaSaber/browser/. /app/mediaSaber/front
-COPY msaber-back/config/. /app/mediaSaber/config
+COPY msaber-front/dist/MediaSaber/browser/. ${WORKDIR}/front
+COPY msaber-back/config/. ${WORKDIR}/config
+
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories && apk --no-cache add tzdata
 
 # 设置环境变量
@@ -29,4 +30,4 @@ ENV REDIS_HOST="127.0.0.1:6379" \
 EXPOSE 8888
 VOLUME ["/config"]
 # 设置启动命令
-ENTRYPOINT ["./app"]
+ENTRYPOINT ["./mediaSaber"]
