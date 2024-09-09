@@ -5,13 +5,13 @@ WORKDIR /app
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
-COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber ${WORKDIR}/mediaSaber
+ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber ${WORKDIR}/mediaSaber
 
 #复制配置文件
-RUN mkdir -p  ${WORKDIR}/etc
-COPY msaber-back/etc/docker_media_saber.yaml ${WORKDIR}/etc/media_saber.yaml
+ADD msaber-back/etc/docker_media_saber.yaml ${WORKDIR}/etc/media_saber.yaml
 
 # 复制其他需要的文件或目录，例如 start.sh
+RUN mkdir ${WORKDIR}/front && mkdir ${WORKDIR}/config
 COPY msaber-front/dist/MediaSaber/browser/. ${WORKDIR}/front
 COPY msaber-back/config/. ${WORKDIR}/config
 
@@ -30,4 +30,4 @@ ENV REDIS_HOST="127.0.0.1:6379" \
 EXPOSE 8888
 VOLUME ["/config"]
 # 设置启动命令
-ENTRYPOINT ["./mediaSaber"]
+CMD ["./mediaSaber"]
