@@ -5,13 +5,13 @@ WORKDIR /app
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
-ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/
+ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/app
 
 #复制配置文件
 ADD msaber-back/etc/docker_media_saber.yaml /app/etc/media_saber.yaml
 
 # 复制其他需要的文件或目录，例如 start.sh
-RUN mkdir -p /app/mediaSaber/front && mkdir -p /app/mediaSaber/config
+RUN mkdir /app/mediaSaber && mkdir /app/mediaSaber/front && mkdir /app/mediaSaber/config
 COPY msaber-front/dist/MediaSaber/browser/. /app/mediaSaber/front
 COPY msaber-back/config/. /app/mediaSaber/config
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories && apk --no-cache add tzdata
