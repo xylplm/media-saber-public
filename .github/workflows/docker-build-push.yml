@@ -79,7 +79,7 @@ jobs:
       - name: Build for amd64
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.version=${{ env.version }}' -X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/amd64/mediaSaber .
+          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o dist/linux/amd64/mediaSaber .
 
       - name: 检查后端构建后文件
         run: |
