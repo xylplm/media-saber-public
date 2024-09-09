@@ -23,7 +23,7 @@ RUN apk add --no-cache tzdata
 ENV REDIS_HOST="127.0.0.1:6379" \
     REDIS_PASS="" \
     MS_PORT="8888" \
-    MS_SITE_CONFIG_DIR="/app/mediaSaber/config/site" \
+    MS_SITE_CONFIG_DIR="./config/site_configs" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_MODE="console" \
