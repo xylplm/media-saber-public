@@ -8,13 +8,14 @@ ARG TARGETPLATFORM
 ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 
 # 复制其他需要的文件或目录，例如 start.sh
-RUN mkdir front config etc \
+RUN mkdir front config etc doc \
     && chmod +x /app/mediaSaber \
     && apk --no-cache add tzdata
 
 COPY msaber-front/dist/MediaSaber/browser/. front
 COPY msaber-back/config/. config
 COPY msaber-back/etc/. etc
+COPY msaber-back/doc/. doc
 
 
 # 设置环境变量
