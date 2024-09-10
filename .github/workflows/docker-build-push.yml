@@ -79,7 +79,7 @@ jobs:
       - name: Build for amd64
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o dist/linux/amd64/mediaSaber .
+          GOOS=linux GOARCH=amd64 go build -o dist/linux/amd64/mediaSaber .
 
       - name: 检查后端构建后文件
         run: |
