@@ -13,7 +13,6 @@ RUN mkdir front config etc \
     && apk --no-cache add tzdata
 
 COPY msaber-front/dist/MediaSaber/browser/. front
-COPY msaber-back/config/. config
 COPY msaber-back/etc/. etc
 
 
