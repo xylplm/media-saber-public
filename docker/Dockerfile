@@ -11,11 +11,13 @@ ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 ADD msaber-back/etc/docker_media_saber.yaml etc/media_saber.yaml
 
 # 复制其他需要的文件或目录，例如 start.sh
-RUN mkdir front && mkdir config
+RUN mkdir front config \
+    && chmod +x /app/mediaSaber \
+    && apk --no-cache add tzdata
+
 COPY msaber-front/dist/MediaSaber/browser/. front
 COPY msaber-back/config/. config
 
-RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories && apk --no-cache add tzdata
 
 # 设置环境变量
 ENV REDIS_HOST="127.0.0.1:6379" \
