@@ -1,5 +1,5 @@
 # 使用 Alpine 作为基础镜像
-FROM alpine
+FROM debian:bullseye
 LABEL authors="xylplm"
 WORKDIR /app
 
@@ -12,9 +12,7 @@ ADD msaber-back/etc/docker_media_saber.yaml etc/media_saber.yaml
 
 # 复制其他需要的文件或目录，例如 start.sh
 RUN mkdir front config \
-    && chmod +x /app/mediaSaber \
-    && apk --no-cache add tzdata \
-    && apk add --no-cache gcompat
+    && chmod +x /app/mediaSaber 
 
 COPY msaber-front/dist/MediaSaber/browser/. front
 COPY msaber-back/config/. config
