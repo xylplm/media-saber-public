@@ -33,6 +33,9 @@ jobs:
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
+      - name: 修改非正式版本号
+        run: |
+          echo "version=DEV_$(date -d '+8 hours' +'%Y%m%d')" > version
       
       - name: Get version from file
         id: get_version
