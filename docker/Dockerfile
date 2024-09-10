@@ -1,5 +1,5 @@
 # 使用 Alpine 作为基础镜像
-FROM debian:bullseye
+FROM alpine
 LABEL authors="xylplm"
 WORKDIR /app
 
@@ -31,4 +31,4 @@ ENV REDIS_HOST="127.0.0.1:6379" \
 EXPOSE 8888
 VOLUME ["/app/config"]
 # 设置启动命令
-CMD ["sh", "-c", "ls -al && ldd mediaSaber && ./mediaSaber"]
+CMD ["sh", "-c", "ls -al && ./mediaSaber"]
