@@ -32,4 +32,4 @@ ENV REDIS_HOST="127.0.0.1:6379" \
 EXPOSE 8888
 VOLUME ["/app/config"]
 # 设置启动命令
-CMD ["./mediaSaber"]
+CMD ["sh", "-c", "ls -al && ldd mediaSaber && ./mediaSaber"]
