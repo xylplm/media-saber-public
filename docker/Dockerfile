@@ -1,16 +1,14 @@
 # 使用 Nginx 作为基础镜像
-FROM alpine
+FROM nginx:alpine-slim
 LABEL authors="xylplm"
 WORKDIR /app
 
-# 更新安装包并安装必要的软件
-RUN apk update && apk add --no-cache nginx tzdata
 
 # 复制并配置 Nginx 配置文件
 COPY nginx.conf.template /etc/nginx/nginx.conf.template
 
 # 拷贝启动脚本到容器中
-COPY start.sh start.sh
+COPY start.sh /app/start.sh
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
@@ -21,7 +19,8 @@ RUN mkdir front config etc \
     && chmod +x /app/mediaSaber \
     && chmod +x /app/start.sh \  
     && echo 'fs.inotify.max_user_watches=5242880' >> /etc/sysctl.conf \
-    && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf
+    && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf \
+    && apk --no-cache add tzdata
 
 COPY msaber-front/dist/MediaSaber/browser/. front
 COPY msaber-back/etc/. etc
