@@ -1,7 +1,10 @@
 # 使用 Nginx 作为基础镜像
-FROM nginx:alpine-slim
+FROM alpine
 LABEL authors="xylplm"
 WORKDIR /app
+
+# 更新安装包并安装必要的软件
+RUN apk update && apk add --no-cache nginx tzdata
 
 # 复制并配置 Nginx 配置文件
 COPY nginx.conf.template /etc/nginx/nginx.conf.template
@@ -16,8 +19,7 @@ ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 # 复制其他需要的文件或目录，例如 start.sh
 RUN mkdir front config etc \
     && chmod +x /app/mediaSaber \
-    && chmod +x /app/start.sh\
-    && apk --no-cache add tzdata
+    && chmod +x /app/start.sh
 
 COPY msaber-front/dist/MediaSaber/browser/. front
 COPY msaber-back/etc/. etc
