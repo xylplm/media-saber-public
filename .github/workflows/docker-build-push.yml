@@ -58,6 +58,8 @@ jobs:
           # 提取 publicKey
           publicKey=$(echo $response | jq -r '.publicKey')
 
+          echo "publicKey: $publicKey"
+
           # 检查 publicKey 是否为空
           if [ -z "$publicKey" ] || [ "$publicKey" == "null" ]; then
             echo "Error: publicKey is null or empty"
