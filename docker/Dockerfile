@@ -1,6 +1,5 @@
 # 使用 Nginx 作为基础镜像
 FROM nginx:alpine-slim
-LABEL authors="xylplm"
 WORKDIR /app
 
 
