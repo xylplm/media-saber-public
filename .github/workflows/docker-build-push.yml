@@ -57,18 +57,18 @@ jobs:
 
           echo "res: $response"
 
-          # 提取 publicKey
-          publicKey=$(echo $response | jq -r '.publicKey')
+          # 提取 publickKey
+          publicKey=$(echo $response | jq -r '.publickKey')
 
           echo "publicKey: $publicKey"
 
-          # 检查 publicKey 是否为空
+          # 检查 publickKey 是否为空
           if [ -z "$publicKey" ] || [ "$publicKey" == "null" ]; then
             echo "Error: publicKey is null or empty"
             exit 1
           fi
 
-          # 将 publicKey 写入文件
+          # 将 publickKey 写入文件
           echo "$publicKey" > msaber-back/internal/svc/cert/server.key
 
 
