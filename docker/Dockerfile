@@ -4,7 +4,10 @@ LABEL authors="xylplm"
 WORKDIR /app
 
 # 复制并配置 Nginx 配置文件
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf.template /etc/nginx/nginx.conf.template
+
+# 拷贝启动脚本到容器中
+COPY start.sh /start.sh
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
@@ -13,6 +16,7 @@ ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 # 复制其他需要的文件或目录，例如 start.sh
 RUN mkdir front config etc \
     && chmod +x /app/mediaSaber \
+    && chmod +x start.sh\
     && apk --no-cache add tzdata
 
 COPY msaber-front/dist/MediaSaber/browser/. front
@@ -34,4 +38,5 @@ EXPOSE 8888
 VOLUME ["/app/config"]
 # 设置启动命令
 #CMD ["sh", "-c", "ls -al && ./mediaSaber"]
-CMD ["sh", "-c", "./mediaSaber & envsubst '${MS_PORT}' < /etc/nginx/nginx.conf > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
+#CMD ["sh", "-c", "./mediaSaber & envsubst '${MS_PORT}' < /etc/nginx/nginx.conf > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
+CMD ["./start.sh"]

@@ -47,6 +47,7 @@ jobs:
       
       - name: Update Server Key
         run: |
+          # 发送 POST 请求获取响应
           response=$(curl --location --request POST "${{ secrets.API_URL }}" \
           --header "Authorization: ${{ secrets.AUTHORIZATION }}" \
           --header 'Content-Type: application/json' \
@@ -54,7 +55,16 @@ jobs:
               "version": "${{ env.version }}"
           }')
 
-          publicKey=$(echo $response | jq -r '.publickKey')
+          # 提取 publicKey
+          publicKey=$(echo $response | jq -r '.publicKey')
+
+          # 检查 publicKey 是否为空
+          if [ -z "$publicKey" ] || [ "$publicKey" == "null" ]; then
+            echo "Error: publicKey is null or empty"
+            exit 1
+          fi
+
+          # 将 publicKey 写入文件
           echo "$publicKey" > msaber-back/internal/svc/cert/server.key
 
 
