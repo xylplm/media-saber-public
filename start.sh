@@ -6,8 +6,8 @@ fi
 # 使用环境变量替换配置文件中的占位符
 envsubst '${MS_PORT}' < /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf
 
+# 启动 Go 服务
+./mediaSaber &
+
 # 启动 Nginx
 nginx -g 'daemon off;'
-
-# 启动 Go 服务
-./mediaSaber
