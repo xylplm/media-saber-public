@@ -1,28 +1,7 @@
-# 使用 Nginx 作为基础镜像
-FROM nginx:alpine-slim
-WORKDIR /app
-
-
-# 复制并配置 Nginx 配置文件
-COPY nginx.template.conf /etc/nginx/nginx.template.conf
+FROM alpine:3.20
 
 ARG TARGETPLATFORM
-# 复制适当的平台二进制文件
-ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 
-# 复制其他需要的文件或目录，例如 start.sh
-RUN mkdir front config etc \
-    && chmod +x /app/mediaSaber \
-    && echo 'fs.inotify.max_user_watches=5242880' >> /etc/sysctl.conf \
-    && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf \
-    && apk --no-cache add tzdata
-
-COPY msaber-front/dist/MediaSaber/browser/. front
-COPY msaber-back/etc/. etc
-
-
-
-# 设置环境变量
 ENV REDIS_HOST="127.0.0.1:6379" \
     REDIS_PASS="" \
     MS_PORT="8888" \
@@ -30,10 +9,35 @@ ENV REDIS_HOST="127.0.0.1:6379" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_MODE="console" \
-    TZ="Asia/Shanghai"
+    TZ="Asia/Shanghai" \
+    PUID=0 \
+    PGID=0 \
+    UMASK=022
+
+WORKDIR /app
+
+COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
+COPY msaber-front/dist/MediaSaber/browser/. /app/front
+COPY msaber-back/etc/. /app/etc
+COPY nginx.template.conf /etc/nginx/nginx.template.conf
+COPY entrypoint.sh /entrypoint.sh
+
+RUN apk --no-cache add \
+        tzdata \
+        nginx \
+        gettext \
+        su-exec \
+        dumb-init \
+        bash \
+        shadow \
+    && addgroup -S msaber -g 1000 \
+    && adduser -S msaber -G msaber -h /app -u 1000 -s /bin/bash \
+    && mkdir /app/config \
+    && chmod +x /app/mediaSaber /entrypoint.sh \
+    && echo 'fs.inotify.max_user_watches=5242880' >> /etc/sysctl.conf \
+    && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf
+
+ENTRYPOINT [ "/entrypoint.sh" ]
 
 EXPOSE 8888
 VOLUME ["/app/config"]
-# 设置启动命令
-#CMD ["sh", "-c", "ls -al && ./mediaSaber"]
-CMD ["sh", "-c", "envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf && nginx && ./mediaSaber"]
