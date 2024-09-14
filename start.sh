@@ -7,7 +7,7 @@ fi
 envsubst '${MS_PORT}' < /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf
 
 # 启动 Nginx
-nginx -g
+nginx &
 
 # 启动 Go 服务
 ./mediaSaber
