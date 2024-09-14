@@ -1,7 +1,10 @@
-# 使用 Alpine 作为基础镜像
-FROM alpine
+# 使用 Nginx 作为基础镜像
+FROM nginx:alpine-slim
 LABEL authors="xylplm"
 WORKDIR /app
+
+# 复制并配置 Nginx 配置文件
+COPY nginx.conf /etc/nginx/nginx.conf
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
@@ -30,4 +33,5 @@ ENV REDIS_HOST="127.0.0.1:6379" \
 EXPOSE 8888
 VOLUME ["/app/config"]
 # 设置启动命令
-CMD ["sh", "-c", "ls -al && ./mediaSaber"]
+#CMD ["sh", "-c", "ls -al && ./mediaSaber"]
+CMD ["sh", "-c", "./mediaSaber & envsubst '${MS_PORT}' < /etc/nginx/nginx.conf > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
