@@ -7,7 +7,7 @@ WORKDIR /app
 COPY nginx.conf.template /etc/nginx/nginx.conf.template
 
 # 拷贝启动脚本到容器中
-COPY start.sh /start.sh
+COPY start.sh start.sh
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
