@@ -1,4 +1,4 @@
-name: docker-build-push
+name: build-dev
 
 on:
   workflow_dispatch:
