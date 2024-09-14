@@ -6,9 +6,6 @@ WORKDIR /app
 # 复制并配置 Nginx 配置文件
 COPY nginx.conf.template /etc/nginx/conf.d/site.template
 
-# 拷贝启动脚本到容器中
-COPY start.sh /app/start.sh
-
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
 ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
@@ -16,7 +13,6 @@ ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 # 复制其他需要的文件或目录，例如 start.sh
 RUN mkdir front config etc \
     && chmod +x /app/mediaSaber \
-    && chmod +x /app/start.sh \  
     && echo 'fs.inotify.max_user_watches=5242880' >> /etc/sysctl.conf \
     && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf \
     && apk --no-cache add tzdata
@@ -40,5 +36,4 @@ EXPOSE 8888
 VOLUME ["/app/config"]
 # 设置启动命令
 #CMD ["sh", "-c", "ls -al && ./mediaSaber"]
-#CMD ["sh", "-c", "./mediaSaber & envsubst '${MS_PORT}' < /etc/nginx/nginx.conf > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
-ENTRYPOINT ["./start.sh"]
+CMD ["sh", "-c", "envsubst '${MS_PORT}' < /etc/nginx/conf.d/site.template > /etc/nginx/conf.d/default.conf && nginx && ./mediaSaber"]
