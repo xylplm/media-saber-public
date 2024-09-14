@@ -43,4 +43,4 @@ VOLUME ["/app/config"]
 # 设置启动命令
 #CMD ["sh", "-c", "ls -al && ./mediaSaber"]
 #CMD ["sh", "-c", "./mediaSaber & envsubst '${MS_PORT}' < /etc/nginx/nginx.conf > /etc/nginx/nginx.conf && nginx -g 'daemon off;'"]
-CMD ["./start.sh"]
+ENTRYPOINT ["./start.sh"]
