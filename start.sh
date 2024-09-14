@@ -4,7 +4,7 @@ if [ -z "$MS_PORT" ]; then
 fi
 
 # 使用环境变量替换配置文件中的占位符
-envsubst '${MS_PORT}' < /etc/nginx/nginx.conf.template > /etc/nginx/nginx.conf
+envsubst '${MS_PORT}' < /etc/nginx/conf.d/site.template > /etc/nginx/conf.d/default.conf
 
 # 启动 Nginx
 nginx &

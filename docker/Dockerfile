@@ -5,7 +5,7 @@ WORKDIR /app
 
 
 # 复制并配置 Nginx 配置文件
-COPY nginx.conf.template /etc/nginx/nginx.conf.template
+COPY nginx.conf.template /etc/nginx/conf.d/site.template
 
 # 拷贝启动脚本到容器中
 COPY start.sh /app/start.sh
