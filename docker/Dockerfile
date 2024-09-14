@@ -16,7 +16,7 @@ ADD msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 # 复制其他需要的文件或目录，例如 start.sh
 RUN mkdir front config etc \
     && chmod +x /app/mediaSaber \
-    && chmod +x start.sh\
+    && chmod +x /app/start.sh\
     && apk --no-cache add tzdata
 
 COPY msaber-front/dist/MediaSaber/browser/. front
