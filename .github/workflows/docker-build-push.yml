@@ -55,6 +55,8 @@ jobs:
               "version": "${{ env.version }}"
           }')
 
+          echo "res: $response"
+
           # 提取 publicKey
           publicKey=$(echo $response | jq -r '.publicKey')
 
