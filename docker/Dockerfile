@@ -4,7 +4,7 @@ WORKDIR /app
 
 
 # 复制并配置 Nginx 配置文件
-COPY nginx.conf.template /etc/nginx/conf.d/site.template
+COPY nginx.template.conf /etc/nginx/nginx.template.conf
 
 ARG TARGETPLATFORM
 # 复制适当的平台二进制文件
@@ -36,4 +36,4 @@ EXPOSE 8888
 VOLUME ["/app/config"]
 # 设置启动命令
 #CMD ["sh", "-c", "ls -al && ./mediaSaber"]
-CMD ["sh", "-c", "envsubst '${MS_PORT}' < /etc/nginx/conf.d/site.template > /etc/nginx/conf.d/default.conf && nginx && ./mediaSaber"]
+CMD ["sh", "-c", "envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf && nginx && ./mediaSaber"]
