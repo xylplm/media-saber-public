@@ -55,12 +55,8 @@ jobs:
               "version": "${{ env.version }}"
           }')
 
-          echo "res: $response"
-
           # 提取 publickKey
           publicKey=$(echo $response | jq -r '.publickKey')
-
-          echo "publicKey: $publicKey"
 
           # 检查 publickKey 是否为空
           if [ -z "$publicKey" ] || [ "$publicKey" == "null" ]; then
