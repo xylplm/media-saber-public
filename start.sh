@@ -1,6 +1,3 @@
-#!/bin/bash
-cd "${WORKDIR}" || exit
-
 # 检查 PORT 环境变量是否设置，如果没有设置则使用默认端口 80
 if [ -z "$MS_PORT" ]; then
   MS_PORT=80
