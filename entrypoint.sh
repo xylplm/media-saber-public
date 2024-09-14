@@ -12,4 +12,4 @@ chown msaber:msaber -R \
 nginx
 cd /app || exit
 umask "${UMASK}"
-exec dumb-init su-exec msaber:msaber /app/mediaSaber
+exec su-exec msaber:msaber /app/mediaSaber

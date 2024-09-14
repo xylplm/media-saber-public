@@ -27,7 +27,6 @@ RUN apk --no-cache add \
         nginx \
         gettext \
         su-exec \
-        dumb-init \
         bash \
         shadow \
     && addgroup -S msaber -g 1000 \
