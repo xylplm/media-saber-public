@@ -37,13 +37,11 @@ jobs:
         run: |
           echo "version=$(cat version)" >> $GITHUB_ENV
 
-      - name: Install jq
-        run: sudo apt-get install jq
-
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies @angular/cli
         run: npm install -g @angular/cli
