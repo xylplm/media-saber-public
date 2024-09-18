@@ -2,8 +2,8 @@ FROM alpine:3.20
 
 ARG TARGETPLATFORM
 
-ENV REDIS_HOST="127.0.0.1:6379" \
-    REDIS_PASS="" \
+ENV MS_REDIS_HOST="127.0.0.1:6379" \
+    MS_REDIS_PASS="" \
     MS_PORT="8888" \
     MS_SITE_CONFIG_DIR="./config/site_configs" \
     MS_AUTH_EMAIL="" \
