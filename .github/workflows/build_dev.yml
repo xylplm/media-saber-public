@@ -36,6 +36,10 @@ jobs:
         id: get_version
         run: |
           echo "version=$(cat version)" >> $GITHUB_ENV
+          
+      - name: Update front version in version.ts
+        run: |
+          echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
 
       - name: Setup Node.js
         uses: actions/setup-node@v2
