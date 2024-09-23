@@ -58,7 +58,7 @@ jobs:
       - name: Build Frontend
         run: |
           cd msaber-front
-          npm install
+          npm install --force
           npm run build
           rm -rf ../msaber-back/front
           cp -r dist/MediaSaber/browser ../msaber-back/front
