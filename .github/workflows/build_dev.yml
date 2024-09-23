@@ -2,9 +2,6 @@ name: build-dev
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 jobs:
   build:
@@ -60,8 +57,6 @@ jobs:
           cd msaber-front
           npm install
           npm run build
-          rm -rf ../msaber-back/front
-          cp -r dist/MediaSaber/browser ../msaber-back/front
 
       - name: Set up Go
         uses: actions/setup-go@v4
