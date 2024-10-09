@@ -40,6 +40,11 @@ jobs:
           cd msaber-front
           npm install
           npm run build
+      - name: Cache Frontend
+        uses: actions/cache@v4
+        with:
+          path: /tmp/my-artifact-frontend
+          key: ${{ runner.os }}-buildx-frontend-${{ github.sha }}
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -66,6 +71,11 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.22.1'
+      - name: Cache Backend
+        uses: actions/cache@v4
+        with:
+          path: /tmp/my-artifact-backend-${{ matrix.arch }}
+          key: ${{ runner.os }}-buildx-backend-${{ matrix.arch }}-${{ github.sha }}
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
