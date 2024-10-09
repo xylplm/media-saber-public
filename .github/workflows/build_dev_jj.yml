@@ -6,9 +6,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        arch: [ amd64, arm64 ]
     steps:
       - name: Checkout code Now Code
         uses: actions/checkout@v3
