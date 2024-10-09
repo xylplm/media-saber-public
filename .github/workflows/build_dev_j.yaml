@@ -41,7 +41,7 @@ jobs:
           npm install
           npm run build
       - name: Compress Frontend Build
-        run: zip -r msaber-front.zip msaber-front/*
+        run: cd msaber-front && zip -r ../msaber-front.zip .
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
