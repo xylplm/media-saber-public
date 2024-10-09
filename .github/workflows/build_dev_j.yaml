@@ -84,7 +84,7 @@ jobs:
       - name: Load Artifacts
         run: |
           cp -r ../artifacts/frontend msaber-front/dist/MediaSaber/browser/
-          cp -r ../artifacts/backend/* msaber-front/dist/
+          cp -r ../artifacts/backend/* msaber-back/dist/
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
       - name: Docker Login
