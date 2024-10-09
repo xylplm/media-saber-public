@@ -1,30 +1,17 @@
-name: build-dev
+name: build-dev-j
 
 on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build-frontend:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code Now Code
-        uses: actions/checkout@v3
-        with:
-          ref: 'main'
-
       - name: Checkout code front end
         uses: actions/checkout@v3
         with:
           repository: ${{ secrets.REPOSITORY_FRONT }}
           path: './msaber-front'
-          ref: 'main'
-          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-
-      - name: Checkout code back end
-        uses: actions/checkout@v3
-        with:
-          repository: ${{ secrets.REPOSITORY_BACK }}
-          path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
@@ -37,10 +24,6 @@ jobs:
         run: |
           echo "version=$(cat version)" >> $GITHUB_ENV
 
-  build_frontend:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Update front version in version.ts
         run: |
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
@@ -64,8 +47,21 @@ jobs:
     needs: build
     strategy:
       matrix:
-        arch: [amd64, arm64]
+        arch: [ amd64, arm64 ]
     steps:
+      - name: Checkout code Now Code
+        uses: actions/checkout@v3
+        with:
+          ref: 'main'
+
+      - name: Checkout code back end
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.REPOSITORY_BACK }}
+          path: './msaber-back'
+          ref: 'main'
+          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
@@ -76,13 +72,9 @@ jobs:
           cd msaber-back
           CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
 
-      - name: 检查后端构建后文件
-        run: |
-          ls -al msaber-back/dist/linux/${{ matrix.arch }}
-
-  docker:
+  docker-setup:
     runs-on: ubuntu-latest
-    needs: [build_frontend, build_backend]
+    needs: [ build-frontend, build-backend ]
     steps:
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
