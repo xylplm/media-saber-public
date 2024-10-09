@@ -42,7 +42,7 @@ jobs:
           npm install
           npm run build
 
-  build_backend:
+  build-backend:
     runs-on: ubuntu-latest
     needs: build
     strategy:
