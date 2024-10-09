@@ -40,16 +40,13 @@ jobs:
           cd msaber-front
           npm install
           npm run build
-      - name: Cache Frontend
-        uses: actions/cache@v4
-        with:
-          path: /tmp/my-artifact-frontend
-          key: ${{ runner.os }}-buildx-frontend-${{ github.sha }}
+      - name: Compress Frontend Build
+        run: zip -r msaber-front.zip msaber-front
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: my-artifact-frontend
-          path: msaber-front
+          path: msaber-front.zip
   build-backend:
     runs-on: ubuntu-latest
     strategy:
@@ -71,11 +68,6 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.22.1'
-      - name: Cache Backend
-        uses: actions/cache@v4
-        with:
-          path: /tmp/my-artifact-backend-${{ matrix.arch }}
-          key: ${{ runner.os }}-buildx-backend-${{ matrix.arch }}-${{ github.sha }}
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
@@ -97,7 +89,9 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: my-artifact-frontend
-          path: msaber-front
+          path: msaber-front.zip
+      - name: Unzip Frontend Build
+        run: unzip msaber-front.zip -d msaber-front
       - run: ls -R msaber-front
       - name: Download Backend Artifacts
         uses: actions/download-artifact@v4
