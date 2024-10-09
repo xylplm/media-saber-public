@@ -7,11 +7,6 @@ jobs:
   build-frontend:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code Now Code
-        uses: actions/checkout@v3
-        with:
-          ref: 'main'
-
       - name: Checkout code front end
         uses: actions/checkout@v3
         with:
@@ -50,11 +45,6 @@ jobs:
   build-backend-amd64:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code Now Code
-        uses: actions/checkout@v3
-        with:
-          ref: 'main'
-
       - name: Checkout code back end
         uses: actions/checkout@v3
         with:
@@ -72,16 +62,11 @@ jobs:
         run: |
           cd msaber-back
           CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/amd64/mediaSaber .
-      
+  
 
   build-backend-arm64:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code Now Code
-        uses: actions/checkout@v3
-        with:
-          ref: 'main'
-
       - name: Checkout code back end
         uses: actions/checkout@v3
         with:
