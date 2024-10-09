@@ -44,7 +44,6 @@ jobs:
 
   build-backend:
     runs-on: ubuntu-latest
-    needs: build
     strategy:
       matrix:
         arch: [ amd64, arm64 ]
