@@ -89,7 +89,6 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: my-artifact-frontend
-          path: msaber-front.zip
       - name: Unzip Frontend Build
         run: unzip msaber-front.zip -d msaber-front
       - run: ls -R msaber-front
