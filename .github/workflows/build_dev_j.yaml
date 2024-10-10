@@ -42,7 +42,7 @@ jobs:
           npm ci
           npm run build
       - name: Compress Frontend Build
-        run: cd msaber-front && tar -czf ../msaber-front.tar.gz .
+        run: tar -czf msaber-front.tar.gz msaber-front
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -96,7 +96,7 @@ jobs:
         with:
           name: my-artifact-frontend
       - name: Unzip Frontend Build
-        run: tar -xzf msaber-front.tar.gz -C msaber-front
+        run: tar -xzf msaber-front.tar.gz
       - run: ls -R msaber-front
       - name: Download Backend Artifacts
         uses: actions/download-artifact@v4
