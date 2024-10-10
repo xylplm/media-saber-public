@@ -91,13 +91,20 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: 'main'
-      - name: Download Artifacts
+      - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: my-artifact-frontend, my-artifact-backend-*
-          merge-multiple: true
+          name: my-artifact-frontend
       - name: Unzip Frontend Build
         run: tar -xzf msaber-front.tar.gz -C msaber-front
+      - run: ls -R msaber-front
+      - name: Download Backend Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: my-artifact-backend-*
+          merge-multiple: true
+          path: msaber-back
+      - run: ls -R msaber-back
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
       - name: Docker Login
