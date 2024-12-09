@@ -8,7 +8,6 @@ ENV MS_REDIS_HOST="127.0.0.1:6379" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_LEVEL="info" \
-    MS_LOG_KEEP_DAYS=14 \
     TZ="Asia/Shanghai" \
     PUID=0 \
     PGID=0 \
