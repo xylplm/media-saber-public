@@ -3,6 +3,9 @@ FROM alpine:3.20
 ARG TARGETPLATFORM
 
 ENV MS_PORT="8888" \
+    MS_REDIS_HOST="127.0.0.1:6379" \
+    MS_REDIS_PASS="" \
+    MS_AUTH_EMAIL="" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_LEVEL="info" \
