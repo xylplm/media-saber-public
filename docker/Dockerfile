@@ -9,6 +9,7 @@ ENV MS_PORT="8888" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_LEVEL="info" \
+    MS_TIMEOUT="15000" \
     TZ="Asia/Shanghai" \
     PUID=0 \
     PGID=0 \
