@@ -34,7 +34,7 @@ RUN apk --no-cache add \
     && addgroup -S msaber -g 1000 \
     && adduser -S msaber -G msaber -h /app -u 1000 -s /bin/bash \
     && mkdir /app/config \
-    && mkdir /app/config/nginx/vhost \
+    && mkdir -p /app/config/nginx/vhost \
     && chmod +x /app/mediaSaber /entrypoint.sh \
     && echo 'fs.inotify.max_user_watches=5242880' >> /etc/sysctl.conf \
     && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf
