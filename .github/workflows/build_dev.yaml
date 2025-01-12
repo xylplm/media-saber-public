@@ -239,7 +239,7 @@ jobs:
             echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
           fi
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
       - name: Create GitHub Release if not exists
         if: env.RELEASE_EXISTS == 'false'
@@ -248,13 +248,13 @@ jobs:
             --title "${{ env.version }}" \
             --notes "Release of version ${{ env.version }}"
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
       - name: Upload Asset
         run: |
           gh release upload ${{ env.version }} mediaSaber-amd64.tar.gz mediaSaber-arm64.tar.gz
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
       - name: Update version_dev File
         run: echo "${{ env.version }}" > version_dev
