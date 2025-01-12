@@ -63,13 +63,12 @@ jobs:
           cd msaber-front
           npm ci
           npm run build
-      - name: Compress Frontend Build
-        run: tar -czf msaber-front.tar.gz msaber-front/dist/MediaSaber/browser
+
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: my-artifact-frontend
-          path: msaber-front.tar.gz
+          name: msaber-front
+          path: msaber-front/dist/MediaSaber/browser
 
   build-backend:
     runs-on: ubuntu-latest
@@ -138,10 +137,8 @@ jobs:
       - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: my-artifact-frontend
+          name: msaber-front
 
-      - name: Unzip Frontend Build
-        run: tar -xzf msaber-front.tar.gz
 
       - run: ls -R msaber-front
 
@@ -193,10 +190,7 @@ jobs:
       - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: my-artifact-frontend
-
-      - name: Unzip Frontend Build
-        run: tar -xzf msaber-front.tar.gz
+          name: msaber-front
 
       - run: ls -R msaber-front
 
