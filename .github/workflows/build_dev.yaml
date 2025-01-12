@@ -67,7 +67,7 @@ jobs:
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: msaber-front
+          name: my-artifact-front-dist
           path: msaber-front/dist/MediaSaber/browser
 
   build-backend:
@@ -137,7 +137,9 @@ jobs:
       - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: msaber-front
+          pattern: my-artifact-front-*
+          merge-multiple: true
+          path: msaber-front
 
 
       - run: ls -R msaber-front
@@ -190,7 +192,9 @@ jobs:
       - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
         with:
-          name: msaber-front
+          pattern: my-artifact-front-*
+          merge-multiple: true
+          path: msaber-front
 
       - run: ls -R msaber-front
 
