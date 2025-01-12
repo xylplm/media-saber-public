@@ -238,6 +238,8 @@ jobs:
 
       - name: Upload Release Asset - amd64
         uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: release/mediaSaber-amd64.tar.gz
@@ -246,6 +248,8 @@ jobs:
   
       - name: Upload Release Asset - arm64
         uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
           asset_path: release/mediaSaber-arm64.tar.gz
