@@ -64,7 +64,7 @@ jobs:
           npm ci
           npm run build
       - name: Compress Frontend Build
-        run: tar -czf msaber-front.tar.gz msaber-front
+        run: tar -czf msaber-front.tar.gz msaber-front/dist/MediaSaber/browser
       - name: Upload Frontend Artifacts
         uses: actions/upload-artifact@v4
         with:
