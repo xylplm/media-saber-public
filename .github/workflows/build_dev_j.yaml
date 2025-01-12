@@ -1,4 +1,4 @@
-name: build-dev-j
+name: build-dev-only-docker
 
 on:
   workflow_dispatch:
@@ -73,15 +73,25 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.23.4'
+
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
           CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
+
+      - name: Prepare Files
+        run: |
+          mkdir -p msaber-back-${{ matrix.arch }}
+          mkdir -p release/msaber-back-${{ matrix.arch }}/doc/static
+          cp -r msaber-back/dist msaber-back-${{ matrix.arch }}/dist
+          cp -r msaber-back/etc msaber-back-${{ matrix.arch }}/etc
+          cp -r msaber-back/doc/static msaber-back-${{ matrix.arch }}/doc/static
+
       - name: Upload Backend Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: my-artifact-backend-${{ matrix.arch }}
-          path: msaber-back
+          path: msaber-back-${{ matrix.arch }}
 
   docker-setup:
     runs-on: ubuntu-latest
