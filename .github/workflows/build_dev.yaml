@@ -1,4 +1,4 @@
-name: build-dev-j
+name: build-dev
 
 on:
   workflow_dispatch:
@@ -20,11 +20,11 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
       - name: 修改非正式版本号
         run: |
-          echo "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')" > version
+          echo "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')" > version_dev
       - name: Get version from file
         id: get_version
         run: |
-          echo "version=$(cat version)" >> $GITHUB_ENV
+          echo "version=$(cat version_dev)" >> $GITHUB_ENV
       - name: Update front version in version.ts
         run: |
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
@@ -121,3 +121,46 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:go-dev
           push: true
+      - name: Prepare Files for Release
+        run: |
+          mkdir -p release/msaber-front
+          mkdir -p release/msaber-back
+          mkdir -p release/msaber-back/doc/static
+          cp -r msaber-front/dist/MediaSaber/browser/* release/msaber-front/
+          cp -r msaber-back/dist release/msaber-back/
+          cp -r msaber-back/etc release/msaber-back/
+          cp -r msaber-back/doc/static release/msaber-back/doc/static
+
+      - name: Create ZIP Archive
+        run: |
+          cd release
+          zip -r msaber.zip msaber-front msaber-back
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.version }}
+          release_name: Release ${{ env.version }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: release/msaber.zip
+          asset_name: msaber.zip
+          asset_content_type: application/zip
+      - name: Update version_dev File
+        run: echo "${{ env.version }}" > version_dev
+  
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add version_dev
+          git commit -m "Update version_dev with ${{ env.version }}"
+          git push origin main
