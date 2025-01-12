@@ -225,36 +225,32 @@ jobs:
           cd release
           tar -czvf mediaSaber-arm64.tar.gz msaber-front msaber-back
 
-
-    
-      - name: Check if release already exists
-        id: check_release
-        run: |
-          exists=$(gh release view ${{ env.version }} 2>&1 | grep "release not found" || true)
-          if [[ -z "$exists" ]]; then
-            echo "Release exists"
-            echo "RELEASE_EXISTS=true" >> $GITHUB_ENV
-          else
-            echo "Release does not exist"
-            echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
-          fi
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
         env:
-          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+        with:
+          tag_name: ${{ env.version }}
+          release_name: Release ${{ env.version }}
+          draft: false
+          prerelease: false
 
-      - name: Create GitHub Release if not exists
-        if: env.RELEASE_EXISTS == 'false'
-        run: |
-          gh release create ${{ env.version }} \
-            --title "${{ env.version }}" \
-            --notes "Release of version ${{ env.version }}"
-        env:
-          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
-
-      - name: Upload Asset
-        run: |
-          gh release upload ${{ env.version }} mediaSaber-amd64.tar.gz mediaSaber-arm64.tar.gz
-        env:
-          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+      - name: Upload Release Asset - amd64
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: release/mediaSaber-amd64.tar.gz
+          asset_name: mediaSaber-amd64.tar.gz
+          asset_content_type: application/gzip
+  
+      - name: Upload Release Asset - arm64
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: release/mediaSaber-arm64.tar.gz
+          asset_name: mediaSaber-arm64.tar.gz
+          asset_content_type: application/gzip
 
       - name: Update version_dev File
         run: echo "${{ env.version }}" > version_dev
