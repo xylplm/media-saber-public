@@ -260,6 +260,8 @@ jobs:
         run: echo "${{ env.version }}" > version_dev
   
       - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
