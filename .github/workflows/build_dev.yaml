@@ -4,8 +4,28 @@ on:
   workflow_dispatch:
 
 jobs:
+  generate-version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.set_version.outputs.version }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: 创建版本号
+        id: set_version
+        run: |
+          echo "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')" > version_number
+          echo "::set-output name=version::$(cat version_number)"
+
+      - name: Upload Version Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: version
+          path: version_number
   build-frontend:
     runs-on: ubuntu-latest
+    needs: [ generate-version ]
     steps:
       - name: Checkout code Now Code
         uses: actions/checkout@v3
@@ -18,16 +38,20 @@ jobs:
           path: './msaber-front'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-      - name: 修改非正式版本号
-        run: |
-          echo "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')" > version_dev
-      - name: Get version from file
-        id: get_version
-        run: |
-          echo "version=$(cat version_dev)" >> $GITHUB_ENV
+
+      - name: Download Version Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: version
+  
+      - name: Read Version
+        id: read_version
+        run: echo "version=$(cat version_number)" >> $GITHUB_ENV
+
       - name: Update front version in version.ts
         run: |
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
@@ -51,10 +75,12 @@ jobs:
 
   build-backend:
     runs-on: ubuntu-latest
+    needs: [ generate-version ]
     strategy:
       matrix:
         arch: [ amd64, arm64 ]
     steps:
+      
       - name: Checkout code back end
         uses: actions/checkout@v3
         with:
@@ -73,6 +99,16 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.23.4'
+
+      - name: Download Version Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: version
+  
+      - name: Read Version
+        id: read_version
+        run: echo "version=$(cat version_number)" >> $GITHUB_ENV
+
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
@@ -91,27 +127,35 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: 'main'
+
       - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
         with:
           name: my-artifact-frontend
+
       - name: Unzip Frontend Build
         run: tar -xzf msaber-front.tar.gz
+
       - run: ls -R msaber-front
+
       - name: Download Backend Artifacts
         uses: actions/download-artifact@v4
         with:
           pattern: my-artifact-backend-*
           merge-multiple: true
           path: msaber-back
+
       - run: ls -R msaber-back
+
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
+
       - name: Docker Login
         uses: docker/login-action@v3.0.0
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+          
       - name: Build and push Docker images
         uses: docker/build-push-action@v5.0.0
         with:
@@ -121,6 +165,43 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:go-dev
           push: true
+  gen-release:
+    runs-on: ubuntu-latest
+    needs: [docker-setup]
+    steps:
+      - name: Checkout code Now Code
+        uses: actions/checkout@v3
+        with:
+          ref: 'main'
+
+      - name: Download Version Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: version
+  
+      - name: Read Version
+        id: read_version
+        run: echo "version=$(cat version_number)" >> $GITHUB_ENV
+
+      - name: Download Frontend Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact-frontend
+
+      - name: Unzip Frontend Build
+        run: tar -xzf msaber-front.tar.gz
+
+      - run: ls -R msaber-front
+
+      - name: Download Backend Artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: my-artifact-backend-*
+          merge-multiple: true
+          path: msaber-back
+
+      - run: ls -R msaber-back
+
       - name: Prepare Files for Release
         run: |
           mkdir -p release/msaber-front
