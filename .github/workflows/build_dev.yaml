@@ -200,39 +200,62 @@ jobs:
 
       - run: ls -R msaber-back
 
-      - name: Prepare Files for Release
+      - name: Prepare Files for Release amd64
         run: |
           mkdir -p release/msaber-front
           mkdir -p release/msaber-back
           mkdir -p release/msaber-back/doc/static
           cp -r msaber-front/dist/MediaSaber/browser/* release/msaber-front/
-          cp -r msaber-back/dist release/msaber-back/
+          cp -r msaber-back/dist/amd64/mediaSaber release/msaber-back/mediaSaber
           cp -r msaber-back/etc release/msaber-back/
           cp -r msaber-back/doc/static release/msaber-back/doc/static
 
-      - name: Create ZIP Archive
+      - name: Create ZIP Archive amd64
         run: |
           cd release
-          zip -r msaber.zip msaber-front msaber-back
+          tar -czvf mediaSaber-amd64.tar.gz msaber-front msaber-back
 
-      - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
+      
+      - name: Prepare Files for Release arm64
+        run: |
+          cp -r msaber-back/dist/arm64/mediaSaber release/msaber-back/mediaSaber
+
+      - name: Create ZIP Archive arm64
+        run: |
+          cd release
+          tar -czvf mediaSaber-arm64.tar.gz msaber-front msaber-back
+
+
+    
+      - name: Check if release already exists
+        id: check_release
+        run: |
+          exists=$(gh release view ${{ env.version }} 2>&1 | grep "release not found" || true)
+          if [[ -z "$exists" ]]; then
+            echo "Release exists"
+            echo "RELEASE_EXISTS=true" >> $GITHUB_ENV
+          else
+            echo "Release does not exist"
+            echo "RELEASE_EXISTS=false" >> $GITHUB_ENV
+          fi
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ env.version }}
-          release_name: Release ${{ env.version }}
-          draft: false
-          prerelease: false
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: release/msaber.zip
-          asset_name: msaber.zip
-          asset_content_type: application/zip
+      - name: Create GitHub Release if not exists
+        if: env.RELEASE_EXISTS == 'false'
+        run: |
+          gh release create ${{ env.version }} \
+            --title "${{ env.version }}" \
+            --notes "Release of version ${{ env.version }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Asset
+        run: |
+          gh release upload ${{ env.version }} mediaSaber-amd64.tar.gz mediaSaber-arm64.tar.gz
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Update version_dev File
         run: echo "${{ env.version }}" > version_dev
   
