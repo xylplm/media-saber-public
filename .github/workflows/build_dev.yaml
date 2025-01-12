@@ -168,7 +168,7 @@ jobs:
     needs: [docker-setup]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: 'main'
 
@@ -265,7 +265,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git remote set-url origin https://xylplm:${{ secrets.GITHUB_TOKEN }}@github.com/xylplm/media-saber-public.git
           git add version_dev
           git commit -m "Update version_dev with ${{ env.version }}"
-          git push
+          git push origin main
