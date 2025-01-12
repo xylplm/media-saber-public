@@ -115,7 +115,7 @@ jobs:
       - name: Prepare Files
         run: |
           mkdir -p msaber-back-${{ matrix.arch }}
-          mkdir -p release/msaber-back-${{ matrix.arch }}/doc/static
+          mkdir -p msaber-back-${{ matrix.arch }}/doc/static
           cp -r msaber-back/dist msaber-back-${{ matrix.arch }}/dist
           cp -r msaber-back/etc msaber-back-${{ matrix.arch }}/etc
           cp -r msaber-back/doc/static msaber-back-${{ matrix.arch }}/doc/static
