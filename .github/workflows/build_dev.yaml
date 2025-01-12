@@ -206,7 +206,7 @@ jobs:
           mkdir -p release/msaber-back
           mkdir -p release/msaber-back/doc/static
           cp -r msaber-front/dist/MediaSaber/browser/* release/msaber-front/
-          cp -r msaber-back/dist/amd64/mediaSaber release/msaber-back/mediaSaber
+          cp -r msaber-back/dist/linux/amd64/mediaSaber release/msaber-back/mediaSaber
           cp -r msaber-back/etc release/msaber-back/
           cp -r msaber-back/doc/static release/msaber-back/doc/static
 
@@ -218,7 +218,7 @@ jobs:
       
       - name: Prepare Files for Release arm64
         run: |
-          cp -r msaber-back/dist/arm64/mediaSaber release/msaber-back/mediaSaber
+          cp -r msaber-back/dist/linux/arm64/mediaSaber release/msaber-back/mediaSaber
 
       - name: Create ZIP Archive arm64
         run: |
