@@ -261,8 +261,8 @@ jobs:
   
       - name: Commit and Push Changes
         run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add version_dev
           git commit -m "Update version_dev with ${{ env.version }}"
-          git push origin main
+          git push
