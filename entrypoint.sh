@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# 检查并创建目录
+mkdir -p /app/config/nginx/vhost
+mkdir -p /app/config/nginx/log
+
 envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
 usermod -o -u "${PUID}" msaber
