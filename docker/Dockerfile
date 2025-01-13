@@ -18,7 +18,7 @@ ENV MS_PORT="8888" \
 WORKDIR /app
 
 COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
-COPY msaber-front/dist/MediaSaber/browser/. /app/front
+COPY msaber-front/. /app/front
 COPY msaber-back/etc/. /app/etc
 COPY msaber-back/doc/static/. /app/doc/static
 COPY nginx.template.conf /etc/nginx/nginx.template.conf
