@@ -27,6 +27,7 @@ COPY entrypoint.sh /entrypoint.sh
 RUN apk --no-cache add \
         tzdata \
         nginx \
+        nginx-mod-http-js \
         gettext \
         su-exec \
         bash \
