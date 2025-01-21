@@ -6,11 +6,13 @@ Docker：https://hub.docker.com/repository/docker/xylplm/media-saber
 
 ## 功能：
 
-一款方便好用的媒体管理工具。
+一款适合自己人用的媒体管理工具。
 
-本项目原基于NasTool，原作者停止维护后，多个热心的peter努力下，重新让它继续走下去。为项目独立发展，项目更名为Media Saber 简称MSaber，意为媒体军刀。
+前端：Angular
+移动客户端：Flutter
+后端：GO
 
-由于NT代码历史包袱太过繁重，维护难度大,python性能较低等原因，为了提升项目体验和发展，MS进行了全面重新开发，采用 Angular + GO 开发。
+由多位热心Pter共同努力，立足于开发自用，完全自主开发，做一款全新、高效、稳定、快速、方便好用、功能强大的媒体管理工具！
 
 鉴于NT MP等项目的不稳定性，本项目为私密项目，仅开发组自用和受邀用户小范围使用。
 
