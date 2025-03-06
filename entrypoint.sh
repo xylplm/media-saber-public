@@ -3,6 +3,8 @@
 # 检查并创建目录
 mkdir -p /app/config/nginx/vhost
 mkdir -p /app/config/nginx/log
+mkdir -p /app/config/data/nginx/emby/images
+mkdir -p /app/config/data/nginx/emby/subtitles
 
 envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
