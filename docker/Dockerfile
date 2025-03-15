@@ -14,6 +14,7 @@ ENV MS_PORT="8888" \
     MS_PGSQL_PATH="127.0.0.1" \
     MS_PGSQL_PORT="5432" \
     MS_PGSQL_DBNAME="ms" \
+    MS_MQ_CONCURRENCY="10" \
     TZ="Asia/Shanghai" \
     PUID=0 \
     PGID=0 \
