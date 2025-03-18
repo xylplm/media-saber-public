@@ -8,6 +8,7 @@ ENV MS_PORT="8888" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_LEVEL="info" \
+    MS_LOG_KEEP_DAYS="14" \
     MS_TIMEOUT="15000" \
     MS_PGSQL_USERNAME="postgres" \
     MS_PGSQL_PASSWORD="ms888888" \
