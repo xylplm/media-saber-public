@@ -26,11 +26,11 @@ jobs:
     needs: [ generate-version ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: 'main'
       - name: Checkout code front end
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ secrets.REPOSITORY_FRONT }}
           path: './msaber-front'
@@ -51,14 +51,13 @@ jobs:
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: msaber-front/package-lock.json
-          always-auth: false
-          check-latest: false
-          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          cache-dependency-path: |
+            msaber-front/package-lock.json
+            msaber-front/package.json
       - name: Build Frontend
         run: |
           cd msaber-front
@@ -80,14 +79,14 @@ jobs:
     steps:
       
       - name: Checkout code back end
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ secrets.REPOSITORY_BACK }}
           path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
       - name: Cache Go Modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/msaber-back/pkg/mod
           key: go-mod-${{ hashFiles('**/go.sum') }}
@@ -131,7 +130,7 @@ jobs:
     needs: [ build-frontend, build-backend ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: 'main'
 
