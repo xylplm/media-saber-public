@@ -167,5 +167,5 @@ jobs:
           file: ./docker/Dockerfile
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:go-dev
+            ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:dev
           push: true
