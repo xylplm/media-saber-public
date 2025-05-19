@@ -20,7 +20,8 @@ ENV MS_PORT="8888" \
     TZ="Asia/Shanghai" \
     PUID=0 \
     PGID=0 \
-    UMASK=022
+    UMASK=022 \
+    ENABLE_DLV=false
 
 WORKDIR /app
 
@@ -48,5 +49,5 @@ RUN apk --no-cache add \
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 
-EXPOSE 8888
+EXPOSE 8888 2345
 VOLUME ["/app/config"]
