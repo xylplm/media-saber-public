@@ -31,9 +31,4 @@ chown msaber:msaber -R \
 nginx
 cd /app || exit
 umask "${UMASK}"
-
-echo "Starting with delve debugger..."
-# 安装 delve
-apk add --no-cache go delve
-# 使用 dlv 以 headless 模式启动应用，允许远程连接
-exec su-exec msaber:msaber dlv --listen=:2345 --headless=true --api-version=2 --accept-multiclient exec /app/mediaSaber
+exec su-exec msaber:msaber /app/mediaSaber
