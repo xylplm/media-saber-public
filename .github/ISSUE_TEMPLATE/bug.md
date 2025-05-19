@@ -3,12 +3,13 @@ name: 问题模板
 about: 如发现Bug，请按此模板提交issues，不按模板提交的问题将直接关闭。提交问题务必描述清楚、附上日志，描述不清导致无法理解和分析的问题也可能会被直接关闭。
 ---
 
-## 你使用的 Media Saber 是什么版本，什么环境？
+## 你使用的 Media Saber 是什么版本，什么环境？群昵称？
 
 > Media Saber 版本: vx.x.x
 >
 > 环境: docker or windows or Synology
 >
+> 群昵称：XXX 方便群里找到你
 
 ## 你遇到什么问题了？
 
