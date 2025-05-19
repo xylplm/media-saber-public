@@ -33,7 +33,7 @@ cd /app || exit
 umask "${UMASK}"
 
 # 判断是否开启调试模式
-if [ "${ENABLE_DLV}" = "true" ]; then
+if [ "$ENABLE_DLV" -eq 0 ]; then
     echo "Starting with delve debugger..."
     # 安装 delve
     apk add --no-cache go delve
