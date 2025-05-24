@@ -23,14 +23,14 @@ ENV MS_PORT="8888" \
     UMASK=022
 
 # 安装 Go 环境（用于编译 dlv）
-RUN apk add --no-cache go
-ENV GOPROXY=https://goproxy.cn,direct
+# RUN apk add --no-cache go
+# ENV GOPROXY=https://goproxy.cn,direct
 
 # 安装 Delve 并清理 Go 环境
-RUN go install github.com/go-delve/delve/cmd/dlv@latest \
-    && cp /root/go/bin/dlv /usr/local/bin/dlv \
-    && apk del go \
-    && rm -rf /root/go /var/cache/apk/*
+# RUN go install github.com/go-delve/delve/cmd/dlv@latest \
+#     && cp /root/go/bin/dlv /usr/local/bin/dlv \
+#     && apk del go \
+#     && rm -rf /root/go /var/cache/apk/*
 
 
 WORKDIR /app
@@ -58,7 +58,7 @@ RUN apk --no-cache add \
     && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf
 
 EXPOSE 8888
-EXPOSE 2345
+# EXPOSE 2345
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 
