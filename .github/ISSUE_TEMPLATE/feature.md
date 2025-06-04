@@ -7,7 +7,9 @@ about: 如有新功能需要需要提交，请按此模板创建issues
 
 > Media Saber 版本: vx.x.x
 >
-> 环境: docker or windows or synology
+> 环境: docker or windows or synology>
+>
+> 群昵称：XXX 方便群里找到你
 
 ## 你想要新增或者改进什么功能？
 
