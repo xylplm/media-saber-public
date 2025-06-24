@@ -1,4 +1,4 @@
-name: build-dev-only-docker
+name: build-cloud
 
 on:
   workflow_dispatch:
