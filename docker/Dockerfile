@@ -18,6 +18,7 @@ ENV MS_PORT="8888" \
     MS_PGSQL_DBNAME="ms" \
     MS_PGSQL_LOG_MODE="prod" \
     MS_MQ_CONCURRENCY="10" \
+    MS_MCP_SERVER_ENABLE="false" \
     MS_MCP_SERVER_BASE_URL="http://0.0.0.0:22699" \
     TZ="Asia/Shanghai" \
     PUID=0 \
