@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 创建版本号
         id: set_version
@@ -26,11 +26,11 @@ jobs:
     needs: [ generate-version ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: 'main'
       - name: Checkout code front end
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ secrets.REPOSITORY_FRONT }}
           path: './msaber-front'
@@ -51,13 +51,12 @@ jobs:
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: |
-            msaber-front/package-lock.json
-            msaber-front/package.json
+          cache-dependency-path: msaber-front/package-lock.json
+
       - name: Build Frontend
         run: |
           cd msaber-front
@@ -79,7 +78,7 @@ jobs:
     steps:
       
       - name: Checkout code back end
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: ${{ secrets.REPOSITORY_BACK }}
           path: './msaber-back'
@@ -130,7 +129,7 @@ jobs:
     needs: [ build-frontend, build-backend ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: 'main'
 
@@ -169,7 +168,7 @@ jobs:
           file: ./docker/Dockerfile
           platforms: linux/amd64,linux/arm64
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:go-dev
+            ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:dev
           push: true
   gen-release:
     runs-on: ubuntu-latest
@@ -239,7 +238,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
         with:
           tag_name: ${{ env.version }}
-          release_name: Release ${{ env.version }}
+          release_name: ${{ env.version }}
           draft: false
           prerelease: false
 

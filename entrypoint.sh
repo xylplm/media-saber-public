@@ -32,3 +32,5 @@ nginx
 cd /app || exit
 umask "${UMASK}"
 exec su-exec msaber:msaber /app/mediaSaber
+
+# exec su-exec msaber:msaber dlv --listen=:2345 --headless=true --api-version=2 --accept-multiclient exec /app/mediaSaber
