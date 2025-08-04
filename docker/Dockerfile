@@ -38,6 +38,7 @@ ENV MS_PORT="8888" \
 WORKDIR /app
 
 COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
+COPY msaber-back/etc/media_saber.template.yaml /app/etc/media_saber.yaml
 COPY msaber-front/. /app/front
 COPY msaber-back/etc/. /app/etc
 COPY msaber-back/doc/static/. /app/doc/static
