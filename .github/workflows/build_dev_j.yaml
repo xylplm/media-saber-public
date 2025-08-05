@@ -93,7 +93,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version-file: go.mod
+          go-version-file: ./msaber-back/go.mod
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
