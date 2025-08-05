@@ -85,7 +85,7 @@ jobs:
           ref: 'prod'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
       - name: Cache Go Modules
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/msaber-back/pkg/mod
           key: go-mod-${{ hashFiles('**/go.sum') }}
@@ -94,7 +94,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version-file: go.mod
+          go-version-file: ./msaber-back/go.mod
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4

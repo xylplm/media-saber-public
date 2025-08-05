@@ -75,7 +75,7 @@ jobs:
       matrix:
         arch: [ amd64, arm64 ]
     steps:
-      
+
       - name: Checkout code back end
         uses: actions/checkout@v4
         with:
@@ -83,32 +83,41 @@ jobs:
           path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-      - name: Cache Go Modules
-        uses: actions/cache@v4
-        with:
-          path: ${{ github.workspace }}/msaber-back/pkg/mod
-          key: go-mod-${{ hashFiles('**/go.sum') }}
-          restore-keys: |
-            go-mod-
+
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
           go-version-file: ./msaber-back/go.mod
+          cache-dependency-path: ./msaber-back/go.sum
+
+      - name: Cache Go Build Cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/go-build
+          key: go-build-${{ runner.os }}-${{ matrix.arch }}-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            go-build-${{ runner.os }}-${{ matrix.arch }}-
+            go-build-${{ runner.os }}-
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
         with:
           name: version
-  
+
       - name: Read Version
         id: read_version
         run: echo "version=$(cat version_number)" >> $GITHUB_ENV
+
+      - name: Download dependencies
+        run: |
+          cd msaber-back
+          go mod download
 
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
           CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
-      
+
       - name: Prepare Files
         run: |
           mkdir -p msaber-back-${{ matrix.arch }}
