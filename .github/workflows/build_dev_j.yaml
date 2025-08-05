@@ -93,11 +93,14 @@ jobs:
       - name: Cache Go Build Cache
         uses: actions/cache@v4
         with:
-          path: ~/.cache/go-build
-          key: go-build-${{ runner.os }}-${{ matrix.arch }}-${{ hashFiles('**/go.sum') }}
+          path: |
+            ~/.cache/go-build
+            ~/go/pkg/mod
+          key: go-cache-${{ runner.os }}-${{ matrix.arch }}-${{ hashFiles('**/go.sum') }}-${{ hashFiles('**/*.go') }}
           restore-keys: |
-            go-build-${{ runner.os }}-${{ matrix.arch }}-
-            go-build-${{ runner.os }}-
+            go-cache-${{ runner.os }}-${{ matrix.arch }}-${{ hashFiles('**/go.sum') }}-
+            go-cache-${{ runner.os }}-${{ matrix.arch }}-
+            go-cache-${{ runner.os }}-
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
@@ -116,7 +119,7 @@ jobs:
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
+          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
 
       - name: Prepare Files
         run: |
