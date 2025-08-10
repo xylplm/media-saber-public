@@ -88,19 +88,8 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version-file: ./msaber-back/go.mod
+          cache: true
           cache-dependency-path: ./msaber-back/go.sum
-
-      - name: Cache Go Build Cache
-        uses: actions/cache@v4
-        with:
-          path: |
-            ~/.cache/go-build
-            ~/go/pkg/mod
-          key: go-cache-${{ runner.os }}-${{ matrix.arch }}-${{ hashFiles('**/go.sum') }}-${{ hashFiles('**/*.go') }}
-          restore-keys: |
-            go-cache-${{ runner.os }}-${{ matrix.arch }}-${{ hashFiles('**/go.sum') }}-
-            go-cache-${{ runner.os }}-${{ matrix.arch }}-
-            go-cache-${{ runner.os }}-
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
