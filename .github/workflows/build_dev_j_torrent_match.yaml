@@ -131,7 +131,7 @@ jobs:
       - name: Checkout code Now Code
         uses: actions/checkout@v4
         with:
-          ref: 'feat/torrent-match'
+          ref: 'main'
 
       - name: Download Frontend Artifacts
         uses: actions/download-artifact@v4
