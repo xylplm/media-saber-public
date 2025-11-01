@@ -2,6 +2,11 @@ name: build-dev-only-docker
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'version_dev'
 
 jobs:
   generate-version:
