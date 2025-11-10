@@ -100,10 +100,15 @@ jobs:
         id: read_version
         run: echo "version=$(cat version_number)" >> $GITHUB_ENV
 
+      - name: Update backend softwareVersion file
+        run: |
+          mkdir -p msaber-back/internal/svc/cert
+          echo "${{ env.version }}" > msaber-back/internal/svc/cert/softwareVersion
+
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false' -X 'msaber-back/internal/config.Version=${{ env.version }}' -X 'msaber-back/internal/config.BuildDate=$(date)'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
+          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
       
       - name: Prepare Files
         run: |
