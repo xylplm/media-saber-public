@@ -50,33 +50,23 @@ else
     LAST_COMMIT=""
 fi
 
-LOG_EXCLUDES=("chore:" "fix: 修复前端佬的 bug")
-LOG_EXCLUDE_PATTERN="^($(printf "%s|" "${EXCLUDES[@]}" | sed 's/|$//'))$"
-LOGS=""
-# 获取提交日志
+#LOG_EXCLUDES=("chore:" "fix: 修复前端佬的 bug")
+#LOG_EXCLUDE_PATTERN="^($(printf "%s|" "${EXCLUDES[@]}" | sed 's/|$//'))$"
+
+# ----------------------------------
+# 获取提交日志，生成新版本块
+# ----------------------------------
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 10 条提交"
-    LOGS=$(git log -n 10 --no-merges --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    NEW_BLOCK=$(git log -n 10 --no-merges --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso \
+        | jq -s --arg v "$VERSION" '{version: $v, items: .}')
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    NEW_BLOCK=$(git log "$LAST_COMMIT"..HEAD --no-merges --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso \
+        | jq -s --arg v "$VERSION" '{version: $v, items: .}')
 fi
-# 调试打印
-echo "==== DEBUG: LOGS ===="
-printf "%s\n" "$LOGS"
-echo "==== END DEBUG ===="
 
 cd "$ROOT_DIR" || exit 1
-
-# ----------------------------------
-# 生成新版本块
-# ----------------------------------
-if [ -z "$LOGS" ]; then
-    NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
-else
-    ITEMS=$(echo "$LOGS" | jq -s '.')
-    NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" '{version:$v, items:$items}')
-fi
 
 # ----------------------------------
 # 写入 JSON 文件（追加 + 保留最新 10 个版本）
