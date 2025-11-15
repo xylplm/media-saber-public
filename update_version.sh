@@ -75,7 +75,7 @@ GIT_LOG_DATA=$(git log --no-merges $RANGE_OPT --invert-grep --grep="$LOG_EXCLUDE
 ITEMS=$(echo "$GIT_LOG_DATA" | jq -R -s '
   split("\n")
   | map(select(length > 0) | split("lovebigbaby\tlovebigbaby") | {
-      hash: .[0],
+      commit: .[0],
       author: .[1],
       date: .[2],
       message: .[3]
