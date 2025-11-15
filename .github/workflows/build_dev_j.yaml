@@ -147,10 +147,10 @@ jobs:
       - name: Prepare Files
         run: |
           mkdir -p msaber-back-${{ matrix.arch }}
-          mkdir -p msaber-back-${{ matrix.arch }}/doc/static
+          mkdir -p msaber-back-${{ matrix.arch }}/static
           cp -r msaber-back/dist msaber-back-${{ matrix.arch }}/dist
           cp -r msaber-back/etc msaber-back-${{ matrix.arch }}/etc
-          cp -r msaber-back/doc/static msaber-back-${{ matrix.arch }}/doc/static
+          cp -r msaber-back/static msaber-back-${{ matrix.arch }}/static
 
       - name: Upload Backend Artifacts
         uses: actions/upload-artifact@v4
