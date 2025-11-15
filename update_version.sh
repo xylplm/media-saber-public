@@ -64,34 +64,20 @@ if [ -z "$LAST_COMMIT" ]; then
 else
     RANGE_OPT="$LAST_COMMIT..HEAD"
     echo "获取 $LAST_COMMIT 到 HEAD 的提交"
-fi
+f
 
-RAW_LOGS=$(git log $RANGE_OPT \
+LOGS=$(git log $RANGE_OPT \
   --no-merges \
   --invert-grep \
   --grep="$LOG_EXCLUDE_PATTERN" \
-  --pretty=format:'%H%x00%an%x00%ad%x00%s%x00' \
+  --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":%q}' \
   --date=iso)
 
-echo "==== DEBUG RAW LOGS ===="
-printf "%q\n" "$RAW_LOGS"
+echo "==== DEBUG LOGS ===="
+printf "%q\n" "$LOGS"
 echo "========================"
 
-# ----------------------------------
-# 使用 jq 生成标准 JSON 数组（100% 安全）
-# ----------------------------------
-ITEMS=$(printf "%s" "$RAW_LOGS" | jq -Rn '
-  [inputs | select(length>0) |
-    split("\u0000") |
-    {
-      commit: .[0],
-      author: .[1],
-      date: .[2],
-      message: .[3]
-    }
-  ] | reverse
-')
-
+ITEMS=$(echo "$LOGS" | jq -s 'reverse')
 
 echo "==== DEBUG ITEMS JSON ===="
 echo "$ITEMS"
