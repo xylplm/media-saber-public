@@ -73,6 +73,10 @@ jobs:
           name: my-artifact-front-dist
           path: msaber-front/dist/MediaSaber/browser
 
+      - name: Upgrade Frontend version json
+        run: |
+          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/front.json -v "${{ env.version }}"
+
   build-backend:
     runs-on: ubuntu-latest
     needs: [ generate-version ]
@@ -133,6 +137,10 @@ jobs:
         with:
           name: my-artifact-backend-${{ matrix.arch }}
           path: msaber-back-${{ matrix.arch }}
+
+      - name: Upgrade Backend version json
+        run: |
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back.json -v "${{ env.version }}"
 
   docker-setup:
     runs-on: ubuntu-latest

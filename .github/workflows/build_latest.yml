@@ -1,4 +1,4 @@
-name: build-prod-release
+name: build-latest-release
 
 on:
   workflow_dispatch:

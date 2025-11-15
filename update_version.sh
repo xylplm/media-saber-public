@@ -38,7 +38,7 @@ fi
 ROOT_DIR=$(pwd)
 
 # ----------------------------------
-# 进入 msaber-back 获取提交日志
+# 进入 REPO_DIR 获取提交日志
 # ----------------------------------
 cd "$REPO_DIR" || { echo "仓库目录不存在：$REPO_DIR"; exit 1; }
 
@@ -50,27 +50,34 @@ else
     LAST_COMMIT=""
 fi
 
-#LOG_EXCLUDES=("chore:" "fix: 修复前端佬的 bug")
-#LOG_EXCLUDE_PATTERN="^($(printf "%s|" "${EXCLUDES[@]}" | sed 's/|$//'))$"
-
-# ----------------------------------
-# 获取提交日志，生成新版本块
-# ----------------------------------
+LOG_EXCLUDE_PATTERN="^\(chore:\|fix\|fix: 修复前端佬的 bug\)$"
+NUM_LOGS=20
+# 获取提交日志
 if [ -z "$LAST_COMMIT" ]; then
-    echo "无版本记录，获取最近 10 条提交"
-    NEW_BLOCK=$(git log -n 10 --no-merges \
-        --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' \
-        --date=iso \
-        | jq -s --arg v "$VERSION" '{version: $v, items: .}')
+    echo "无版本记录，获取最近 $NUM_LOGS 条提交"
+    LOGS=$(git log -n $NUM_LOGS --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    NEW_BLOCK=$(git log "$LAST_COMMIT"..HEAD --no-merges \
-        --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' \
-        --date=iso \
-        | jq -s --arg v "$VERSION" '{version: $v, items: .}')
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
+#LOGS=$(git log -n $NUM_LOGS --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+#echo $LOGS
+# 调试打印
+echo "==== DEBUG: LOGS ===="
+echo $LOGS
+echo "==== END DEBUG ===="
 
 cd "$ROOT_DIR" || exit 1
+
+# ----------------------------------
+# 生成新版本块
+# ----------------------------------
+if [ -z "$LOGS" ]; then
+    NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
+else
+    ITEMS=$(echo "$LOGS" | jq -s '.')
+    NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" '{version:$v, items:$items}')
+fi
 
 # ----------------------------------
 # 写入 JSON 文件（追加 + 保留最新 10 个版本）
