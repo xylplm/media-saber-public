@@ -1,5 +1,142 @@
 [
   {
+    "version": "DEV_202511160535",
+    "items": [
+      {
+        "commit": "705b302988df024a36a4eb6c0a3188d1b4aae5a9",
+        "author": "Jolc",
+        "date": "2025-11-16 05:35:04",
+        "message": "fix: 优化自动更新"
+      },
+      {
+        "commit": "482410c5f9f8bf898f8e650c175036d4cadca58a",
+        "author": "Jolc",
+        "date": "2025-11-16 05:25:15",
+        "message": "fix: 自动更新优化"
+      },
+      {
+        "commit": "09daeb311f93c0a7f93fd16d8c9ee1d09c92b327",
+        "author": "Jolc",
+        "date": "2025-11-16 05:19:21",
+        "message": "feat: 自动更新"
+      },
+      {
+        "commit": "40c1d839adb0829e313023089be84a5616888eb9",
+        "author": "Jolc",
+        "date": "2025-11-16 04:49:22",
+        "message": "feat: 发现新版本"
+      },
+      {
+        "commit": "59678bbdaa202a90d6e2db1f429052d12104928a",
+        "author": "Jolc",
+        "date": "2025-11-15 13:48:39",
+        "message": "feat: 云存储支持原地整理。"
+      },
+      {
+        "commit": "f24bc7f6c0dc170c3e00d6c79db20c339ecb4c15",
+        "author": "Jolc",
+        "date": "2025-11-15 12:48:57",
+        "message": "feat: 同步 oplist 代码、优化 115 列表性能。"
+      },
+      {
+        "commit": "3c3b9dec4ba13b20c74925ff42a129e4ad7d6b38",
+        "author": "Jolc",
+        "date": "2025-11-14 23:22:35",
+        "message": "feat: 修复 115 旧 strm，strm302 时自动填充 pickCode"
+      },
+      {
+        "commit": "e51d24dc4a8019766dfa018382aa96d495268895",
+        "author": "xylplm",
+        "date": "2025-11-14 22:56:25",
+        "message": "fix:去除重复的日志"
+      },
+      {
+        "commit": "d053c38f6fcdfa3813055069742a4663664e24bf",
+        "author": "xylplm",
+        "date": "2025-11-14 22:52:01",
+        "message": "fix:种子匹配 附加规则 所有规则都要满足，但每个规则只需要在任一内容（标题或描述），允许跨内容中匹配"
+      },
+      {
+        "commit": "897dce48a29841cfaf71b1b5c0c762a3428e0479",
+        "author": "Jolc",
+        "date": "2025-11-14 22:16:38",
+        "message": "feat: strm 转移记录恢复"
+      },
+      {
+        "commit": "866624bdbacafcd046f8f1bf4933d93cd31e86bb",
+        "author": "Jolc",
+        "date": "2025-11-14 20:13:31",
+        "message": "fix: 修复种子匹配"
+      },
+      {
+        "commit": "6938f36daf83c89e1bacb149bb5148a90c6b76f1",
+        "author": "Jolc",
+        "date": "2025-11-14 13:59:51",
+        "message": "fix: 优化 strm302 性能"
+      },
+      {
+        "commit": "317c8985514a6f9abdc9e6ed9302d45579725a13",
+        "author": "Jolc",
+        "date": "2025-11-14 10:29:57",
+        "message": "fix: 优化 strm302 性能"
+      },
+      {
+        "commit": "684d77081d81e756ab40023bfdec055242093040",
+        "author": "Jolc",
+        "date": "2025-11-14 00:58:45",
+        "message": "faat: 115 生成 strm 写入 pickcode。"
+      },
+      {
+        "commit": "bb9a87f8124ab20d002991280e23da2e745d8173",
+        "author": "Jolc",
+        "date": "2025-11-13 23:00:22",
+        "message": "Update readme.md"
+      },
+      {
+        "commit": "59a7a97225ce90057c340073ca1cf820d2a7675a",
+        "author": "Jolc",
+        "date": "2025-11-13 22:53:07",
+        "message": "fix: strm302 先屏蔽掉本地代理。"
+      },
+      {
+        "commit": "e35b184b21fc98e110136617da2fb0d57a487131",
+        "author": "Jolc",
+        "date": "2025-11-13 10:41:46",
+        "message": "feat: 关闭优先秒传任务"
+      },
+      {
+        "commit": "3dd632043af16bf92d2c542c90c878566a02e7cd",
+        "author": "LiuMin",
+        "date": "2025-11-13 10:34:42",
+        "message": "feat: 目录监听时间设置为Env获取"
+      },
+      {
+        "commit": "54cfb39266a444f204ea4b6349c33738f0b5bc4a",
+        "author": "Jolc",
+        "date": "2025-11-12 23:44:55",
+        "message": "fix: 目录监控轮询频率降低"
+      },
+      {
+        "commit": "cd2d11f6d7feabe9711f767f61c2b603e554133b",
+        "author": "Jolc",
+        "date": "2025-11-12 19:53:45",
+        "message": "feat: 优化云存储任务队列调度"
+      },
+      {
+        "commit": "92a11945a84d02855c9e9f8e2e4ff9c8dd6f34c1",
+        "author": "Jolc",
+        "date": "2025-11-12 17:04:46",
+        "message": "feat: aes gcm 加密 v2 版本（兼容 v1）、修复等待秒传状态下的任务取消问题。"
+      },
+      {
+        "commit": "0dcdb35a0d247bfed4648c123079db6ed89ad486",
+        "author": "Jolc",
+        "date": "2025-11-12 13:05:20",
+        "message": "feat: 云存储文件夹上传、支持加密、aes 密钥生成的工具。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511160519",
     "items": [
       {
