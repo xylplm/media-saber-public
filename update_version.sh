@@ -52,19 +52,29 @@ else
     echo "无 commit"
 fi
 
-LOG_EXCLUDE_PATTERN="^\(chore:\|fix\|fix: 修复前端佬的 bug\)$"
+LOG_EXCLUDE_PATTERN="^(chore:|fix|fix: 修复前端佬的 bug)$"
 NUM_LOGS=20
 # 获取提交日志
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 $NUM_LOGS 条提交"
-    LOGS=$(git log -n $NUM_LOGS --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log -n $NUM_LOGS \
+      --no-merges \
+      --invert-grep \
+      --grep="$LOG_EXCLUDE_PATTERN" \
+      --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}%n' \
+      --date=iso)
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log "$LAST_COMMIT"..HEAD \
+      --no-merges \
+      --invert-grep \
+      --grep="$LOG_EXCLUDE_PATTERN" \
+      --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}%n' \
+      --date=iso)
 fi
 # 调试打印
 echo "==== DEBUG: LOGS ===="
-echo $LOGS
+printf "%s\n" "$LOGS"
 echo "==== END DEBUG ===="
 
 cd "$ROOT_DIR" || exit 1
@@ -75,7 +85,10 @@ cd "$ROOT_DIR" || exit 1
 if [ -z "$LOGS" ]; then
     NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
 else
-    NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$(echo "$LOGS" | jq -s 'reverse')" '{version:$v, items:$items}')
+    NEW_BLOCK=$(jq -n \
+      --arg v "$VERSION" \
+      --argjson items "$(printf "%s" "$LOGS" | jq -s 'reverse')" \
+      '{version:$v, items:$items}')
 fi
 
 # ----------------------------------
