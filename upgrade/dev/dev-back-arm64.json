@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511160706",
+    "items": [
+      {
+        "commit": "bd3dc242c19e2b6c77664b613aeba610c076d599",
+        "author": "Jolc",
+        "date": "2025-11-16 07:05:48",
+        "message": "fix: 检查更新版本信息倒序"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511160700",
     "items": [
       {
