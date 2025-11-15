@@ -59,12 +59,14 @@ fi
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 10 条提交"
     NEW_BLOCK=$(git log -n 10 --no-merges \
-        --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso \
+        --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' \
+        --date=iso \
         | jq -s --arg v "$VERSION" '{version: $v, items: .}')
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
     NEW_BLOCK=$(git log "$LAST_COMMIT"..HEAD --no-merges \
-        --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso \
+        --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' \
+        --date=iso \
         | jq -s --arg v "$VERSION" '{version: $v, items: .}')
 fi
 
