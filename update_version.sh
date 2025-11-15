@@ -53,7 +53,7 @@ else
 fi
 
 LOG_EXCLUDE_PATTERN="^\(chore:\|fix\|fix: 修复前端佬的 bug\)$"
-NUM_LOGS=2
+NUM_LOGS=20
 # 获取提交日志
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 $NUM_LOGS 条提交"
@@ -104,7 +104,6 @@ git add "$JSON_FILE"
 git commit -m "Update version: $VERSION"
 git fetch origin main
 git rebase origin/main
-git push origin main
-
+git push origin main --force-with-lease
 
 echo "版本 $VERSION 已写入 $JSON_FILE 并推送成功"
