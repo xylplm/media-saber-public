@@ -100,7 +100,10 @@ mv "$JSON_FILE.tmp" "$JSON_FILE"
 git config user.name "github-actions[bot]"
 git config user.email "github-actions[bot]@users.noreply.github.com"
 
+git status
+echo "正在提交 $JSON_FILE..."
 git add $JSON_FILE
+git status
 git commit -m "Update version: $VERSION"
 git fetch origin main
 git rebase origin/main
