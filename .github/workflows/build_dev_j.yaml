@@ -131,7 +131,8 @@ jobs:
             "version": "${{ env.version }}",
             "tag": "dev",
             "arch": "${{ matrix.arch }}",
-            "latestServerDownloadUrl": "https://github.com/xylplm/media-saber-public/archive/main.zip"
+            "latestServerDownloadUrl": "https://github.com/xylplm/media-saber-public/archive/main.zip",
+            "releasesDownloadUrl": "https://github.com/xylplm/media-saber-public/releases/download/${{ env.version}}/mediaSaber-${{ matrix.arch }}.tar.gz"
           }
           EOF
 
