@@ -66,6 +66,8 @@ echo "没有新提交。"
 exit 0
 fi
 
+cd - || exit 1   # 回到项目根目录
+
 # ===============================
 
 # 处理 JSON
@@ -90,7 +92,7 @@ fi
 
 # ===============================
 
-git add "../$JSON_FILE"
+git add "$JSON_FILE"
 git commit -m "Update $JSON_FILE"
 git push origin main
 
