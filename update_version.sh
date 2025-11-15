@@ -80,19 +80,18 @@ echo "========================"
 # ----------------------------------
 # 使用 jq 生成标准 JSON 数组（100% 安全）
 # ----------------------------------
-ITEMS=$(printf "%s" "$RAW_LOGS" | \
-  tr '\0' '\n' | \
-  jq -Rn '
-    [inputs | select(length>0) |
-      split("\n") |
-      {
-        commit: .[0],
-        author: .[1],
-        date: .[2],
-        message: .[3]
-      }
-    ] | reverse
-  ')
+ITEMS=$(printf "%s" "$RAW_LOGS" | jq -Rn '
+  [inputs | select(length>0) |
+    split("\u0000") |
+    {
+      commit: .[0],
+      author: .[1],
+      date: .[2],
+      message: .[3]
+    }
+  ] | reverse
+')
+
 
 echo "==== DEBUG ITEMS JSON ===="
 echo "$ITEMS"
