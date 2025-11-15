@@ -118,7 +118,8 @@ jobs:
 
       - name: Upgrade Backend version json
         run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back.json -v "${{ env.version }}"
+          ls -l
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back-"${{ matrix.arch }}".json -v "${{ env.version }}"
 
       - name: Update Backend version in version.json
         run: |
@@ -126,6 +127,7 @@ jobs:
           {
             "version": "${{ env.version }}",
             "tag": "dev",
+            "arch": "${{ matrix.arch }}",
           }
           EOF
 

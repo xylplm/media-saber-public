@@ -46,22 +46,22 @@ cd "$REPO_DIR" || { echo "仓库目录不存在：$REPO_DIR"; exit 1; }
 if [ -f "$ROOT_DIR/$JSON_FILE" ] && [ -s "$ROOT_DIR/$JSON_FILE" ]; then
     LAST_COMMIT=$(jq -r '.[-1].items[-1].commit' "$ROOT_DIR/$JSON_FILE")
     [ "$LAST_COMMIT" = "null" ] && LAST_COMMIT=""
+    echo "获取到最后一个 commit: $LAST_COMMIT"
 else
     LAST_COMMIT=""
+    echo "无 commit"
 fi
 
 LOG_EXCLUDE_PATTERN="^\(chore:\|fix\|fix: 修复前端佬的 bug\)$"
-NUM_LOGS=20
+NUM_LOGS=2
 # 获取提交日志
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 $NUM_LOGS 条提交"
-    LOGS=$(git log -n $NUM_LOGS --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log -n $NUM_LOGS --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
-#LOGS=$(git log -n $NUM_LOGS --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
-#echo $LOGS
 # 调试打印
 echo "==== DEBUG: LOGS ===="
 echo $LOGS
@@ -75,17 +75,16 @@ cd "$ROOT_DIR" || exit 1
 if [ -z "$LOGS" ]; then
     NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
 else
-    ITEMS=$(echo "$LOGS" | jq -s '.')
-    NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" '{version:$v, items:$items}')
+    NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$(echo "$LOGS" | jq -s 'reverse')" '{version:$v, items:$items}')
 fi
 
 # ----------------------------------
-# 写入 JSON 文件（追加 + 保留最新 10 个版本）
+# 写入 JSON 文件（插入首位 + 保留最新 10 个版本）
 # ----------------------------------
 if [ ! -f "$JSON_FILE" ] || [ ! -s "$JSON_FILE" ]; then
     echo "[$NEW_BLOCK]" > "$JSON_FILE"
 else
-    jq ". + [ $NEW_BLOCK ] | .[-10:]" "$JSON_FILE" > "$JSON_FILE.tmp"
+    jq "[ $NEW_BLOCK ] + . | .[:10]" "$JSON_FILE" > "$JSON_FILE.tmp"
     mv "$JSON_FILE.tmp" "$JSON_FILE"
 fi
 
