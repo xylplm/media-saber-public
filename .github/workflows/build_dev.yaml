@@ -36,6 +36,7 @@ jobs:
           path: './msaber-front'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          fetch-depth: 0
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
@@ -49,6 +50,10 @@ jobs:
       - name: Update front version in version.ts
         run: |
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
+
+      - name: Upgrade Frontend version json
+        run: |
+          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/dev-front.json -v ${{ env.version }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -76,7 +81,11 @@ jobs:
       matrix:
         arch: [ amd64, arm64 ]
     steps:
-      
+      - name: Checkout code Now Code
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
+
       - name: Checkout code back end
         uses: actions/checkout@v4
         with:
@@ -84,6 +93,8 @@ jobs:
           path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          fetch-depth: 0
+
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
@@ -95,7 +106,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: version
-  
+
       - name: Read Version
         id: read_version
         run: echo "version=$(cat version_number)" >> $GITHUB_ENV
@@ -105,11 +116,32 @@ jobs:
           mkdir -p msaber-back/internal/svc/cert
           echo "${{ env.version }}" > msaber-back/internal/svc/cert/softwareVersion
 
+      - name: Upgrade Backend version json
+        run: |
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/dev-back-${{ matrix.arch }}.json -v ${{ env.version }}
+
+      - name: Update Backend version in server.json
+        run: |
+          cat <<EOF > ./msaber-back/doc/server.json
+          {
+            "version": "${{ env.version }}",
+            "tag": "dev",
+            "arch": "${{ matrix.arch }}",
+            "latestServerDownloadUrl": "https://github.com/xylplm/media-saber-public/archive/main.zip",
+            "releasesDownloadUrl": "https://github.com/xylplm/media-saber-public/releases/download/%s/mediaSaber-${{ matrix.arch }}.tar.gz"
+          }
+          EOF
+
+      - name: Download dependencies
+        run: |
+          cd msaber-back
+          go mod download
+
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build -a --trimpath -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
-      
+          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build --trimpath -tags no_k8s -ldflags="-X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
+
       - name: Prepare Files
         run: |
           mkdir -p msaber-back-${{ matrix.arch }}
@@ -171,6 +203,7 @@ jobs:
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/media-saber:dev
           push: true
+
   gen-release:
     runs-on: ubuntu-latest
     needs: [docker-setup]
