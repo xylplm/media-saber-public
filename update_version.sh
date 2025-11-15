@@ -72,19 +72,15 @@ MESSAGE_SEPARATOR="lovebigbaby%x09lovebigbaby"
 GIT_LOG_DATA=$(git log --no-merges $RANGE_OPT --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:"%H$MESSAGE_SEPARATOR%an$MESSAGE_SEPARATOR%ad$MESSAGE_SEPARATOR%s" --date=format:'%Y-%m-%d %H:%M:%S')
 
 # 使用 jq 将输入转换为 JSON 数组，并反转顺序
-ITEMS=$(echo "$GIT_LOG_DATA" | jq -R '
-  [
-    inputs | split("lovebigbaby\tlovebigbaby") | {
+ITEMS=$(echo "$GIT_LOG_DATA" | jq -R -s '
+  split("\n")
+  | map(select(length > 0) | split("lovebigbaby\tlovebigbaby") | {
       hash: .[0],
       author: .[1],
       date: .[2],
       message: .[3]
-    }
-  ]
+    })
 ')
-
-# ITEMS 反转
-ITEMS=$(echo "$ITEMS" | jq -s 'reverse')
 
 NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" \
   '{version:$v, items:$items}')
