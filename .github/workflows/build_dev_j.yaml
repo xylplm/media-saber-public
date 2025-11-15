@@ -85,6 +85,10 @@ jobs:
       matrix:
         arch: [ amd64, arm64 ]
     steps:
+      - name: Checkout code Now Code
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
 
       - name: Checkout code back end
         uses: actions/checkout@v4
@@ -123,7 +127,7 @@ jobs:
 
       - name: Update Backend version in version.json
         run: |
-          cat <<EOF > msaber-back/doc/version.json
+          cat <<EOF > ./msaber-back/doc/version.json
           {
             "version": "${{ env.version }}",
             "tag": "dev",
