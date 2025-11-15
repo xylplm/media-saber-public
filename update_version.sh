@@ -50,13 +50,16 @@ else
     LAST_COMMIT=""
 fi
 
+LOG_EXCLUDES=("chore:" "fix: 修复前端佬的 bug")
+LOG_EXCLUDE_PATTERN="^($(printf "%s|" "${EXCLUDES[@]}" | sed 's/|$//'))$"
+
 # 获取提交日志
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 10 条提交"
-    LOGS=$(git log -n 10 --no-merges --invert-grep --grep="chore:" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log -n 10 --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="chore:" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
 
 echo "$LOGS"
@@ -66,12 +69,14 @@ cd "$ROOT_DIR" || exit 1
 # ----------------------------------
 # 生成新版本块
 # ----------------------------------
+# LOGS 每行一个 JSON 对象
 if [ -z "$LOGS" ]; then
-    echo "没有新增提交"
-  NEW_BLOCK=$(printf '{ "version": "%s", "items": [] }' "$VERSION")
+    NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
 else
-  NEW_BLOCK=$(printf '{ "version": "%s", "items": [ %s ] }' "$VERSION" "$(echo "$LOGS" | sed '$!s/$/,/')")
+    ITEMS=$(echo "$LOGS" | jq -s '.')  # -s 把多行 JSON 合并成数组
+    NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" '{version:$v, items:$items}')
 fi
+
 
 # ----------------------------------
 # 写入 JSON 文件
