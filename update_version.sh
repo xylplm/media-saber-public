@@ -62,35 +62,31 @@ else
     LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
 
-echo "$LOGS"
+# 调试打印
+echo "==== DEBUG: LOGS ===="
+printf "%s\n" "$LOGS"
+echo "==== END DEBUG ===="
 
 cd "$ROOT_DIR" || exit 1
 
 # ----------------------------------
 # 生成新版本块
 # ----------------------------------
-# LOGS 每行一个 JSON 对象
 if [ -z "$LOGS" ]; then
     NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
 else
-    ITEMS=$(echo "$LOGS" | jq -s '.')  # -s 把多行 JSON 合并成数组
+    ITEMS=$(echo "$LOGS" | jq -s '.')
     NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" '{version:$v, items:$items}')
 fi
 
-
 # ----------------------------------
-# 写入 JSON 文件
+# 写入 JSON 文件（追加 + 保留最新 10 个版本）
 # ----------------------------------
 if [ ! -f "$JSON_FILE" ] || [ ! -s "$JSON_FILE" ]; then
-    # 创建新 JSON
-    echo "[ $NEW_BLOCK ]" > "$JSON_FILE"
+    echo "[$NEW_BLOCK]" > "$JSON_FILE"
 else
-    # 追加
-    tmp=$(mktemp)
-    head -n -1 "$JSON_FILE" > "$tmp"
-    echo "  ,$NEW_BLOCK" >> "$tmp"
-    echo "]" >> "$tmp"
-    mv "$tmp" "$JSON_FILE"
+    jq ". + [ $NEW_BLOCK ] | .[-10:]" "$JSON_FILE" > "$JSON_FILE.tmp"
+    mv "$JSON_FILE.tmp" "$JSON_FILE"
 fi
 
 echo "裁剪 JSON，仅保留最新 10 个版本..."
