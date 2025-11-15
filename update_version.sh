@@ -56,13 +56,11 @@ LOGS=""
 # 获取提交日志
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 10 条提交"
-    LOGS=$(git log -n 10 --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log -n 10 --no-merges --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
-#LOGS=$(git log -n 10 --no-merges --invert-grep --grep="^(chore:)$" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
-#printf "%s\n" "$LOGS"
 # 调试打印
 echo "==== DEBUG: LOGS ===="
 printf "%s\n" "$LOGS"
