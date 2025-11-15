@@ -122,7 +122,7 @@ jobs:
 
       - name: Upgrade Backend version json
         run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/dev-back-"${{ matrix.arch }}".json -v "${{ env.version }}"
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/dev-back-${{ matrix.arch }}.json -v ${{ env.version }}
 
       - name: Update Backend version in server.json
         run: |
