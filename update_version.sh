@@ -3,11 +3,10 @@
 # ----------------------------------
 # 参数解析
 # ----------------------------------
-REPO_DIR="" # 如 msaber-back
-JSON_FILE="" # 如 ./upgrade/dev.json
-VERSION="" # 如 DEV_202511151249
+REPO_DIR=""
+JSON_FILE=""
+VERSION=""
 
-# 参数解析
 while [[ $# -gt 0 ]]; do
   case "$1" in
     -r|--repo-dir)
@@ -29,7 +28,6 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-# 必填校验
 if [[ -z "$REPO_DIR" || -z "$JSON_FILE" || -z "$VERSION" ]]; then
   echo "Usage: $0 -r <repo_dir> -f <json_file> -v <version>"
   exit 1
@@ -38,61 +36,82 @@ fi
 ROOT_DIR=$(pwd)
 
 # ----------------------------------
-# 进入 REPO_DIR 获取提交日志
+# 进入仓库
 # ----------------------------------
 cd "$REPO_DIR" || { echo "仓库目录不存在：$REPO_DIR"; exit 1; }
 
-# 读取 JSON 最后一条记录的最后一个 commit
+# ----------------------------------
+# 获取最后一个 commit
+# ----------------------------------
 if [ -f "$ROOT_DIR/$JSON_FILE" ] && [ -s "$ROOT_DIR/$JSON_FILE" ]; then
     LAST_COMMIT=$(jq -r '.[-1].items[-1].commit' "$ROOT_DIR/$JSON_FILE")
     [ "$LAST_COMMIT" = "null" ] && LAST_COMMIT=""
     echo "获取到最后一个 commit: $LAST_COMMIT"
 else
     LAST_COMMIT=""
-    echo "无 commit"
+    echo "无历史版本记录"
 fi
 
-LOG_EXCLUDE_PATTERN="^(chore:|fix|fix: 修复前端佬的 bug)$"
+# ----------------------------------
+# 获取提交日志（使用 NULL 分隔确保安全）
+# ----------------------------------
+LOG_EXCLUDE_PATTERN="^\(chore:\|fix\|fix: 修复前端佬的 bug\)$"
 NUM_LOGS=20
-# 获取提交日志
+
 if [ -z "$LAST_COMMIT" ]; then
+    RANGE_OPT="-n $NUM_LOGS"
     echo "无版本记录，获取最近 $NUM_LOGS 条提交"
-    LOGS=$(git log -n $NUM_LOGS \
-      --no-merges \
-      --invert-grep \
-      --grep="$LOG_EXCLUDE_PATTERN" \
-      --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}%n' \
-      --date=iso)
 else
-    echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD \
-      --no-merges \
-      --invert-grep \
-      --grep="$LOG_EXCLUDE_PATTERN" \
-      --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}%n' \
-      --date=iso)
+    RANGE_OPT="$LAST_COMMIT..HEAD"
+    echo "获取 $LAST_COMMIT 到 HEAD 的提交"
 fi
-# 调试打印
-echo "==== DEBUG: LOGS ===="
-printf "%s\n" "$LOGS"
-echo "==== END DEBUG ===="
+
+RAW_LOGS=$(git log $RANGE_OPT \
+  --no-merges \
+  --invert-grep \
+  --grep="$LOG_EXCLUDE_PATTERN" \
+  --pretty=format:'%H%x00%an%x00%ad%x00%s%x00' \
+  --date=iso)
+
+echo "==== DEBUG RAW LOGS ===="
+printf "%q\n" "$RAW_LOGS"
+echo "========================"
+
+# ----------------------------------
+# 使用 jq 生成标准 JSON 数组（100% 安全）
+# ----------------------------------
+ITEMS=$(printf "%s" "$RAW_LOGS" | \
+  tr '\0' '\n' | \
+  jq -Rn '
+    [inputs | select(length>0) |
+      split("\n") |
+      {
+        commit: .[0],
+        author: .[1],
+        date: .[2],
+        message: .[3]
+      }
+    ] | reverse
+  ')
+
+echo "==== DEBUG ITEMS JSON ===="
+echo "$ITEMS"
+echo "=========================="
 
 cd "$ROOT_DIR" || exit 1
 
 # ----------------------------------
-# 生成新版本块
+# 构建新版本块
 # ----------------------------------
-if [ -z "$LOGS" ]; then
-    NEW_BLOCK=$(jq -n --arg v "$VERSION" '{version:$v, items:[]}')
-else
-    NEW_BLOCK=$(jq -n \
-      --arg v "$VERSION" \
-      --argjson items "$(printf "%s" "$LOGS" | jq -s 'reverse')" \
-      '{version:$v, items:$items}')
-fi
+NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" \
+  '{version:$v, items:$items}')
+
+echo "==== NEW BLOCK ===="
+echo "$NEW_BLOCK"
+echo "==================="
 
 # ----------------------------------
-# 写入 JSON 文件（插入首位 + 保留最新 10 个版本）
+# 写入 JSON
 # ----------------------------------
 if [ ! -f "$JSON_FILE" ] || [ ! -s "$JSON_FILE" ]; then
     echo "[$NEW_BLOCK]" > "$JSON_FILE"
@@ -101,25 +120,20 @@ else
     mv "$JSON_FILE.tmp" "$JSON_FILE"
 fi
 
-echo "裁剪 JSON，仅保留最新 10 个版本..."
-
-# 只保留最新 10 条版本记录
+# 再裁剪一次保证 10 条以内
 jq '.[-10:]' "$JSON_FILE" > "$JSON_FILE.tmp"
 mv "$JSON_FILE.tmp" "$JSON_FILE"
 
 # ----------------------------------
-# Git 提交（项目根目录）
+# Git 提交
 # ----------------------------------
 git config user.name "github-actions[bot]"
 git config user.email "github-actions[bot]@users.noreply.github.com"
 
-git status
-echo "正在提交 $JSON_FILE..."
-git add $JSON_FILE
-git status
+git add "$JSON_FILE"
 git commit -m "Update version: $VERSION"
 git fetch origin main
 git rebase origin/main
 git push origin main --force-with-lease
 
-echo "版本 $VERSION 已写入 $JSON_FILE 并推送成功"
+echo "版本 $VERSION 已写入 $JSON_FILE，并推送成功！"
