@@ -43,10 +43,6 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
           fetch-depth: 0
 
-      - name: Upgrade Frontend version json
-        run: |
-          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/front.json -v "${{ env.version }}"
-
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
         with:
@@ -59,6 +55,10 @@ jobs:
       - name: Update front version in version.ts
         run: |
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
+
+      - name: Upgrade Frontend version json
+        run: |
+          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/front.json -v "${{ env.version }}"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -95,19 +95,6 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
           fetch-depth: 0
 
-      - name: Upgrade Backend version json
-        run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back.json -v "${{ env.version }}"
-
-      - name: Update Backend version in version.json
-        run: |
-          cat <<EOF > msaber-back/doc/version.json
-          {
-            "version": "${{ env.version }}",
-            "tag": "dev",
-          }
-          EOF
-
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
@@ -128,6 +115,19 @@ jobs:
         run: |
           mkdir -p msaber-back/internal/svc/cert
           echo "${{ env.version }}" > msaber-back/internal/svc/cert/softwareVersion
+
+      - name: Upgrade Backend version json
+        run: |
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back.json -v "${{ env.version }}"
+
+      - name: Update Backend version in version.json
+        run: |
+          cat <<EOF > msaber-back/doc/version.json
+          {
+            "version": "${{ env.version }}",
+            "tag": "dev",
+          }
+          EOF
 
       - name: Download dependencies
         run: |
