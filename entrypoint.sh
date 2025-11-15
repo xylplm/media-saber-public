@@ -20,6 +20,8 @@ if [ -f "/app/mediaSaber-new" ]; then
     mv /app/mediaSaber-new /app/mediaSaber
     # 赋予 mediaSaber 执行权限
     chmod +x /app/mediaSaber
+    # 删除 mediaSaber-new
+    rm /app/mediaSaber-new
 fi
 
 chown msaber:msaber -R \

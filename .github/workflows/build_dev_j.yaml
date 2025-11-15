@@ -132,7 +132,7 @@ jobs:
             "tag": "dev",
             "arch": "${{ matrix.arch }}",
             "latestServerDownloadUrl": "https://github.com/xylplm/media-saber-public/archive/main.zip",
-            "releasesDownloadUrl": "https://github.com/xylplm/media-saber-public/releases/download/${{ env.version}}/mediaSaber-${{ matrix.arch }}.tar.gz"
+            "releasesDownloadUrl": "https://github.com/xylplm/media-saber-public/releases/download/%s/mediaSaber-${{ matrix.arch }}.tar.gz"
           }
           EOF
 
