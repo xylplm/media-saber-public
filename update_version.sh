@@ -66,34 +66,27 @@ else
     echo "获取 $LAST_COMMIT 到 HEAD 的提交"
 fi
 
-LOGS=$(git log $RANGE_OPT \
-  --no-merges \
-  --invert-grep \
-  --grep="$LOG_EXCLUDE_PATTERN" \
-  --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":%q}' \
-  --date=iso)
+# 使用 git log 获取提交记录，最新的在前
+# 格式：哈希 作者 日期 主题
+MESSAGE_SEPARATOR="lovebigbaby%x09lovebigbaby"
+GIT_LOG_DATA=$(git log --no-merges $RANGE_OPT --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:"%H$MESSAGE_SEPARATOR%an$MESSAGE_SEPARATOR%ad$MESSAGE_SEPARATOR%s" --date=format:'%Y-%m-%d %H:%M:%S')
 
-echo "==== DEBUG LOGS ===="
-printf "%q\n" "$LOGS"
-echo "========================"
+# 使用 jq 将输入转换为 JSON 数组，并反转顺序
+ITEMS=$(echo "$GIT_LOG_DATA" | jq -R '
+  [
+    inputs | split("lovebigbaby\tlovebigbaby") | {
+      hash: .[0],
+      author: .[1],
+      date: .[2],
+      message: .[3]
+    }
+  ] | reverse
+')
 
-ITEMS=$(echo "$LOGS" | jq -s 'reverse')
-
-echo "==== DEBUG ITEMS JSON ===="
-echo "$ITEMS"
-echo "=========================="
-
-cd "$ROOT_DIR" || exit 1
-
-# ----------------------------------
-# 构建新版本块
-# ----------------------------------
 NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" \
   '{version:$v, items:$items}')
 
-echo "==== NEW BLOCK ===="
-echo "$NEW_BLOCK"
-echo "==================="
+cd "$ROOT_DIR" || exit 1
 
 # ----------------------------------
 # 写入 JSON
