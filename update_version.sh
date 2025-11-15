@@ -14,6 +14,8 @@ fi
 JSON_FILE="$1"                    # 第一个参数：JSON 文件名
 NUM_INITIAL_LOGS="${2:-10}"       # 第二个参数可选，默认 10 条
 
+ls -l
+
 # ===============================
 
 # 配置
@@ -27,7 +29,6 @@ REPO_DIR="./msaber-front"          # 本地仓库目录
 # 进入仓库
 
 # ===============================
-ROOT_DIR=$(pwd)           # 保存根目录
 cd "$REPO_DIR" || { echo "仓库目录不存在"; exit 1; }
 
 # ===============================
@@ -36,8 +37,8 @@ cd "$REPO_DIR" || { echo "仓库目录不存在"; exit 1; }
 
 # ===============================
 
-if [ -f "../$JSON_FILE" ] && [ -s "../$JSON_FILE" ]; then
-LAST_COMMIT=$(jq -r '.[-1].commit' "../$JSON_FILE")
+if [ -f "$JSON_FILE" ] && [ -s "$JSON_FILE" ]; then
+LAST_COMMIT=$(jq -r '.[-1].commit' "$JSON_FILE")
 if [ "$LAST_COMMIT" == "null" ]; then
 LAST_COMMIT=""
 fi
@@ -66,7 +67,8 @@ echo "没有新提交。"
 exit 0
 fi
 
-cd "$ROOT_DIR" || exit 1  # 回到项目根目录
+cd .. || exit 1  # 回到项目根目录
+ls -l
 
 # ===============================
 
@@ -74,16 +76,16 @@ cd "$ROOT_DIR" || exit 1  # 回到项目根目录
 
 # ===============================
 
-if [ -f "../$JSON_FILE" ] && [ -s "../$JSON_FILE" ]; then
+if [ -f "$JSON_FILE" ] && [ -s "$JSON_FILE" ]; then
 tmp=$(mktemp)
-head -n -1 "../$JSON_FILE" > "$tmp"
+head -n -1 "$JSON_FILE" > "$tmp"
 echo "$LOGS" | sed '$!s/$/,/' >> "$tmp"
 echo "]" >> "$tmp"
-mv "$tmp" "../$JSON_FILE"
+mv "$tmp" "$JSON_FILE"
 else
-echo "[" > "../$JSON_FILE"
-echo "$LOGS" | sed '$!s/$/,/' >> "../$JSON_FILE"
-echo "]" >> "../$JSON_FILE"
+echo "[" > "$JSON_FILE"
+echo "$LOGS" | sed '$!s/$/,/' >> "$JSON_FILE"
+echo "]" >> "$JSON_FILE"
 fi
 
 # ===============================
