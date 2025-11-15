@@ -1,0 +1,484 @@
+[
+  {
+    "version": "DEV_202511160541",
+    "items": [
+      {
+        "commit": "71eba8fe88be596ad87acde9a97f6462b83c3550",
+        "author": "github-actions[bot]",
+        "date": "2025-11-16 02:54:12",
+        "message": "Update version: DEV_202511160221"
+      },
+      {
+        "commit": "002554636b8b5f414ff21efda0a2514578de3b28",
+        "author": "liurongjie",
+        "date": "2025-11-14 23:38:02",
+        "message": "refactor(media-tidy): 优化恢复STRM转移记录逻辑"
+      },
+      {
+        "commit": "b2d569b0552028dcf49a0c9bb4b45501e3f78147",
+        "author": "liurongjie",
+        "date": "2025-11-14 22:36:48",
+        "message": "feat(media-tidy): 添加恢复STRM转移记录功能"
+      },
+      {
+        "commit": "00707728d02bdc859e256519e8864e0440b73497",
+        "author": "xylplm",
+        "date": "2025-11-14 15:01:59",
+        "message": "fix: 优化PC和手机的数据展示"
+      },
+      {
+        "commit": "ea5745cac938d6f5f5682d7b1ed4f357cc750c25",
+        "author": "xylplm",
+        "date": "2025-11-14 13:37:39",
+        "message": "fix: 禁用的站点显示灰色和半透明"
+      },
+      {
+        "commit": "7805b3e28cdb2be4e86335c1b671a5b7b55cbc86",
+        "author": "liurongjie",
+        "date": "2025-11-13 18:27:22",
+        "message": "refactor(cloud-storage): 移除秒传优先功能相关代码"
+      },
+      {
+        "commit": "4477e451167e4bb334772a10689c494a3c1456b0",
+        "author": "syueya",
+        "date": "2025-11-13 15:32:06",
+        "message": "add：目录监控一级菜单"
+      },
+      {
+        "commit": "22e185cbb6fb0f5f8008269b94b8782a9f897012",
+        "author": "liurongjie",
+        "date": "2025-11-13 15:19:51",
+        "message": "feat(cloud-storage): 替换目录输入为路径选择组件"
+      },
+      {
+        "commit": "a66179eb9014f5e9d509f50eb8658406df81603b",
+        "author": "syueya",
+        "date": "2025-11-13 13:42:13",
+        "message": "fix: 增加状态为10判断是否开启关闭秒传按钮"
+      },
+      {
+        "commit": "aa7e39877a4ded5a1944a44f6af40d671d402168",
+        "author": "syueya",
+        "date": "2025-11-13 12:42:43",
+        "message": "关闭秒传"
+      },
+      {
+        "commit": "f600eaaf94e5d19c0ceea00bed734e8a7fd03950",
+        "author": "liurongjie",
+        "date": "2025-11-12 17:15:21",
+        "message": "Revert \"fix(cloud-storage): 根据状态选择取消或删除任务接口\""
+      },
+      {
+        "commit": "b50e246c99886607af4e423e720c8b90a9cbce45",
+        "author": "liurongjie",
+        "date": "2025-11-12 16:30:54",
+        "message": "fix(cloud-storage): 根据状态选择取消或删除任务接口"
+      },
+      {
+        "commit": "46f3c01d9400e305e2eadb8457f3fcd6efbe4b29",
+        "author": "LiuMin",
+        "date": "2025-11-12 15:55:27",
+        "message": "fix: 修复任务列表分页总数"
+      },
+      {
+        "commit": "21204010442f1bf780328d504b1388398bf28f31",
+        "author": "liurongjie",
+        "date": "2025-11-12 14:42:49",
+        "message": "feat(common): 新增AES密钥生成器功能"
+      },
+      {
+        "commit": "7a6ee25b4acbdd1854bd1db512d9874f443a0733",
+        "author": "liurongjie",
+        "date": "2025-11-12 13:58:37",
+        "message": "feat(cloud-storage): 添加文件加密支持和AES密钥生成功能"
+      },
+      {
+        "commit": "795e1969dab114bda6bdaa94eacbc74b5e2d8d87",
+        "author": "liurongjie",
+        "date": "2025-11-11 15:02:31",
+        "message": "fix(media-tidy): 修复自定义识别词组件菜单条件渲染错误"
+      },
+      {
+        "commit": "c3c5731e0b31eb52f91f3e0d61e208ed2c3b5e8a",
+        "author": "liurongjie",
+        "date": "2025-11-10 14:08:16",
+        "message": "refactor(cloud-storage): 优化已完成和未完成任务组件分页与数据刷新逻辑"
+      },
+      {
+        "commit": "33515a6c98da2105e8ee5d3b9577173ffb033a69",
+        "author": "liurongjie",
+        "date": "2025-11-10 12:00:26",
+        "message": "feat(file-type): 新增更多文件类型图标及识别支持"
+      },
+      {
+        "commit": "4a00c592def319e4d74fc2c3ca05e957ad9278d1",
+        "author": "xylplm",
+        "date": "2025-11-09 00:42:00",
+        "message": "feat: 短剧削刮插件图标"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202511160535",
+    "items": [
+      {
+        "commit": "71eba8fe88be596ad87acde9a97f6462b83c3550",
+        "author": "github-actions[bot]",
+        "date": "2025-11-16 02:54:12",
+        "message": "Update version: DEV_202511160221"
+      },
+      {
+        "commit": "002554636b8b5f414ff21efda0a2514578de3b28",
+        "author": "liurongjie",
+        "date": "2025-11-14 23:38:02",
+        "message": "refactor(media-tidy): 优化恢复STRM转移记录逻辑"
+      },
+      {
+        "commit": "b2d569b0552028dcf49a0c9bb4b45501e3f78147",
+        "author": "liurongjie",
+        "date": "2025-11-14 22:36:48",
+        "message": "feat(media-tidy): 添加恢复STRM转移记录功能"
+      },
+      {
+        "commit": "00707728d02bdc859e256519e8864e0440b73497",
+        "author": "xylplm",
+        "date": "2025-11-14 15:01:59",
+        "message": "fix: 优化PC和手机的数据展示"
+      },
+      {
+        "commit": "ea5745cac938d6f5f5682d7b1ed4f357cc750c25",
+        "author": "xylplm",
+        "date": "2025-11-14 13:37:39",
+        "message": "fix: 禁用的站点显示灰色和半透明"
+      },
+      {
+        "commit": "7805b3e28cdb2be4e86335c1b671a5b7b55cbc86",
+        "author": "liurongjie",
+        "date": "2025-11-13 18:27:22",
+        "message": "refactor(cloud-storage): 移除秒传优先功能相关代码"
+      },
+      {
+        "commit": "4477e451167e4bb334772a10689c494a3c1456b0",
+        "author": "syueya",
+        "date": "2025-11-13 15:32:06",
+        "message": "add：目录监控一级菜单"
+      },
+      {
+        "commit": "22e185cbb6fb0f5f8008269b94b8782a9f897012",
+        "author": "liurongjie",
+        "date": "2025-11-13 15:19:51",
+        "message": "feat(cloud-storage): 替换目录输入为路径选择组件"
+      },
+      {
+        "commit": "a66179eb9014f5e9d509f50eb8658406df81603b",
+        "author": "syueya",
+        "date": "2025-11-13 13:42:13",
+        "message": "fix: 增加状态为10判断是否开启关闭秒传按钮"
+      },
+      {
+        "commit": "aa7e39877a4ded5a1944a44f6af40d671d402168",
+        "author": "syueya",
+        "date": "2025-11-13 12:42:43",
+        "message": "关闭秒传"
+      },
+      {
+        "commit": "f600eaaf94e5d19c0ceea00bed734e8a7fd03950",
+        "author": "liurongjie",
+        "date": "2025-11-12 17:15:21",
+        "message": "Revert \"fix(cloud-storage): 根据状态选择取消或删除任务接口\""
+      },
+      {
+        "commit": "b50e246c99886607af4e423e720c8b90a9cbce45",
+        "author": "liurongjie",
+        "date": "2025-11-12 16:30:54",
+        "message": "fix(cloud-storage): 根据状态选择取消或删除任务接口"
+      },
+      {
+        "commit": "46f3c01d9400e305e2eadb8457f3fcd6efbe4b29",
+        "author": "LiuMin",
+        "date": "2025-11-12 15:55:27",
+        "message": "fix: 修复任务列表分页总数"
+      },
+      {
+        "commit": "21204010442f1bf780328d504b1388398bf28f31",
+        "author": "liurongjie",
+        "date": "2025-11-12 14:42:49",
+        "message": "feat(common): 新增AES密钥生成器功能"
+      },
+      {
+        "commit": "7a6ee25b4acbdd1854bd1db512d9874f443a0733",
+        "author": "liurongjie",
+        "date": "2025-11-12 13:58:37",
+        "message": "feat(cloud-storage): 添加文件加密支持和AES密钥生成功能"
+      },
+      {
+        "commit": "795e1969dab114bda6bdaa94eacbc74b5e2d8d87",
+        "author": "liurongjie",
+        "date": "2025-11-11 15:02:31",
+        "message": "fix(media-tidy): 修复自定义识别词组件菜单条件渲染错误"
+      },
+      {
+        "commit": "c3c5731e0b31eb52f91f3e0d61e208ed2c3b5e8a",
+        "author": "liurongjie",
+        "date": "2025-11-10 14:08:16",
+        "message": "refactor(cloud-storage): 优化已完成和未完成任务组件分页与数据刷新逻辑"
+      },
+      {
+        "commit": "33515a6c98da2105e8ee5d3b9577173ffb033a69",
+        "author": "liurongjie",
+        "date": "2025-11-10 12:00:26",
+        "message": "feat(file-type): 新增更多文件类型图标及识别支持"
+      },
+      {
+        "commit": "4a00c592def319e4d74fc2c3ca05e957ad9278d1",
+        "author": "xylplm",
+        "date": "2025-11-09 00:42:00",
+        "message": "feat: 短剧削刮插件图标"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202511160519",
+    "items": [
+      {
+        "commit": "71eba8fe88be596ad87acde9a97f6462b83c3550",
+        "author": "github-actions[bot]",
+        "date": "2025-11-16 02:54:12",
+        "message": "Update version: DEV_202511160221"
+      },
+      {
+        "commit": "002554636b8b5f414ff21efda0a2514578de3b28",
+        "author": "liurongjie",
+        "date": "2025-11-14 23:38:02",
+        "message": "refactor(media-tidy): 优化恢复STRM转移记录逻辑"
+      },
+      {
+        "commit": "b2d569b0552028dcf49a0c9bb4b45501e3f78147",
+        "author": "liurongjie",
+        "date": "2025-11-14 22:36:48",
+        "message": "feat(media-tidy): 添加恢复STRM转移记录功能"
+      },
+      {
+        "commit": "00707728d02bdc859e256519e8864e0440b73497",
+        "author": "xylplm",
+        "date": "2025-11-14 15:01:59",
+        "message": "fix: 优化PC和手机的数据展示"
+      },
+      {
+        "commit": "ea5745cac938d6f5f5682d7b1ed4f357cc750c25",
+        "author": "xylplm",
+        "date": "2025-11-14 13:37:39",
+        "message": "fix: 禁用的站点显示灰色和半透明"
+      },
+      {
+        "commit": "7805b3e28cdb2be4e86335c1b671a5b7b55cbc86",
+        "author": "liurongjie",
+        "date": "2025-11-13 18:27:22",
+        "message": "refactor(cloud-storage): 移除秒传优先功能相关代码"
+      },
+      {
+        "commit": "4477e451167e4bb334772a10689c494a3c1456b0",
+        "author": "syueya",
+        "date": "2025-11-13 15:32:06",
+        "message": "add：目录监控一级菜单"
+      },
+      {
+        "commit": "22e185cbb6fb0f5f8008269b94b8782a9f897012",
+        "author": "liurongjie",
+        "date": "2025-11-13 15:19:51",
+        "message": "feat(cloud-storage): 替换目录输入为路径选择组件"
+      },
+      {
+        "commit": "a66179eb9014f5e9d509f50eb8658406df81603b",
+        "author": "syueya",
+        "date": "2025-11-13 13:42:13",
+        "message": "fix: 增加状态为10判断是否开启关闭秒传按钮"
+      },
+      {
+        "commit": "aa7e39877a4ded5a1944a44f6af40d671d402168",
+        "author": "syueya",
+        "date": "2025-11-13 12:42:43",
+        "message": "关闭秒传"
+      },
+      {
+        "commit": "f600eaaf94e5d19c0ceea00bed734e8a7fd03950",
+        "author": "liurongjie",
+        "date": "2025-11-12 17:15:21",
+        "message": "Revert \"fix(cloud-storage): 根据状态选择取消或删除任务接口\""
+      },
+      {
+        "commit": "b50e246c99886607af4e423e720c8b90a9cbce45",
+        "author": "liurongjie",
+        "date": "2025-11-12 16:30:54",
+        "message": "fix(cloud-storage): 根据状态选择取消或删除任务接口"
+      },
+      {
+        "commit": "46f3c01d9400e305e2eadb8457f3fcd6efbe4b29",
+        "author": "LiuMin",
+        "date": "2025-11-12 15:55:27",
+        "message": "fix: 修复任务列表分页总数"
+      },
+      {
+        "commit": "21204010442f1bf780328d504b1388398bf28f31",
+        "author": "liurongjie",
+        "date": "2025-11-12 14:42:49",
+        "message": "feat(common): 新增AES密钥生成器功能"
+      },
+      {
+        "commit": "7a6ee25b4acbdd1854bd1db512d9874f443a0733",
+        "author": "liurongjie",
+        "date": "2025-11-12 13:58:37",
+        "message": "feat(cloud-storage): 添加文件加密支持和AES密钥生成功能"
+      },
+      {
+        "commit": "795e1969dab114bda6bdaa94eacbc74b5e2d8d87",
+        "author": "liurongjie",
+        "date": "2025-11-11 15:02:31",
+        "message": "fix(media-tidy): 修复自定义识别词组件菜单条件渲染错误"
+      },
+      {
+        "commit": "c3c5731e0b31eb52f91f3e0d61e208ed2c3b5e8a",
+        "author": "liurongjie",
+        "date": "2025-11-10 14:08:16",
+        "message": "refactor(cloud-storage): 优化已完成和未完成任务组件分页与数据刷新逻辑"
+      },
+      {
+        "commit": "33515a6c98da2105e8ee5d3b9577173ffb033a69",
+        "author": "liurongjie",
+        "date": "2025-11-10 12:00:26",
+        "message": "feat(file-type): 新增更多文件类型图标及识别支持"
+      },
+      {
+        "commit": "4a00c592def319e4d74fc2c3ca05e957ad9278d1",
+        "author": "xylplm",
+        "date": "2025-11-09 00:42:00",
+        "message": "feat: 短剧削刮插件图标"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202511160455",
+    "items": [
+      {
+        "commit": "71eba8fe88be596ad87acde9a97f6462b83c3550",
+        "author": "github-actions[bot]",
+        "date": "2025-11-16 02:54:12",
+        "message": "Update version: DEV_202511160221"
+      },
+      {
+        "commit": "002554636b8b5f414ff21efda0a2514578de3b28",
+        "author": "liurongjie",
+        "date": "2025-11-14 23:38:02",
+        "message": "refactor(media-tidy): 优化恢复STRM转移记录逻辑"
+      },
+      {
+        "commit": "b2d569b0552028dcf49a0c9bb4b45501e3f78147",
+        "author": "liurongjie",
+        "date": "2025-11-14 22:36:48",
+        "message": "feat(media-tidy): 添加恢复STRM转移记录功能"
+      },
+      {
+        "commit": "00707728d02bdc859e256519e8864e0440b73497",
+        "author": "xylplm",
+        "date": "2025-11-14 15:01:59",
+        "message": "fix: 优化PC和手机的数据展示"
+      },
+      {
+        "commit": "ea5745cac938d6f5f5682d7b1ed4f357cc750c25",
+        "author": "xylplm",
+        "date": "2025-11-14 13:37:39",
+        "message": "fix: 禁用的站点显示灰色和半透明"
+      },
+      {
+        "commit": "7805b3e28cdb2be4e86335c1b671a5b7b55cbc86",
+        "author": "liurongjie",
+        "date": "2025-11-13 18:27:22",
+        "message": "refactor(cloud-storage): 移除秒传优先功能相关代码"
+      },
+      {
+        "commit": "4477e451167e4bb334772a10689c494a3c1456b0",
+        "author": "syueya",
+        "date": "2025-11-13 15:32:06",
+        "message": "add：目录监控一级菜单"
+      },
+      {
+        "commit": "22e185cbb6fb0f5f8008269b94b8782a9f897012",
+        "author": "liurongjie",
+        "date": "2025-11-13 15:19:51",
+        "message": "feat(cloud-storage): 替换目录输入为路径选择组件"
+      },
+      {
+        "commit": "a66179eb9014f5e9d509f50eb8658406df81603b",
+        "author": "syueya",
+        "date": "2025-11-13 13:42:13",
+        "message": "fix: 增加状态为10判断是否开启关闭秒传按钮"
+      },
+      {
+        "commit": "aa7e39877a4ded5a1944a44f6af40d671d402168",
+        "author": "syueya",
+        "date": "2025-11-13 12:42:43",
+        "message": "关闭秒传"
+      },
+      {
+        "commit": "f600eaaf94e5d19c0ceea00bed734e8a7fd03950",
+        "author": "liurongjie",
+        "date": "2025-11-12 17:15:21",
+        "message": "Revert \"fix(cloud-storage): 根据状态选择取消或删除任务接口\""
+      },
+      {
+        "commit": "b50e246c99886607af4e423e720c8b90a9cbce45",
+        "author": "liurongjie",
+        "date": "2025-11-12 16:30:54",
+        "message": "fix(cloud-storage): 根据状态选择取消或删除任务接口"
+      },
+      {
+        "commit": "46f3c01d9400e305e2eadb8457f3fcd6efbe4b29",
+        "author": "LiuMin",
+        "date": "2025-11-12 15:55:27",
+        "message": "fix: 修复任务列表分页总数"
+      },
+      {
+        "commit": "21204010442f1bf780328d504b1388398bf28f31",
+        "author": "liurongjie",
+        "date": "2025-11-12 14:42:49",
+        "message": "feat(common): 新增AES密钥生成器功能"
+      },
+      {
+        "commit": "7a6ee25b4acbdd1854bd1db512d9874f443a0733",
+        "author": "liurongjie",
+        "date": "2025-11-12 13:58:37",
+        "message": "feat(cloud-storage): 添加文件加密支持和AES密钥生成功能"
+      },
+      {
+        "commit": "795e1969dab114bda6bdaa94eacbc74b5e2d8d87",
+        "author": "liurongjie",
+        "date": "2025-11-11 15:02:31",
+        "message": "fix(media-tidy): 修复自定义识别词组件菜单条件渲染错误"
+      },
+      {
+        "commit": "c3c5731e0b31eb52f91f3e0d61e208ed2c3b5e8a",
+        "author": "liurongjie",
+        "date": "2025-11-10 14:08:16",
+        "message": "refactor(cloud-storage): 优化已完成和未完成任务组件分页与数据刷新逻辑"
+      },
+      {
+        "commit": "33515a6c98da2105e8ee5d3b9577173ffb033a69",
+        "author": "liurongjie",
+        "date": "2025-11-10 12:00:26",
+        "message": "feat(file-type): 新增更多文件类型图标及识别支持"
+      },
+      {
+        "commit": "4a00c592def319e4d74fc2c3ca05e957ad9278d1",
+        "author": "xylplm",
+        "date": "2025-11-09 00:42:00",
+        "message": "feat: 短剧削刮插件图标"
+      },
+      {
+        "commit": "15f0fb2f868a7a2c2fe7fbe99aa6f89a8d00236c",
+        "author": "liurongjie",
+        "date": "2025-11-07 19:57:08",
+        "message": "fix(media-detail): 优化默认订阅提示信息"
+      }
+    ]
+  }
+]
