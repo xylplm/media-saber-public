@@ -50,7 +50,7 @@ else
     LAST_COMMIT=""
 fi
 
-LOG_IGNORES = "^\(fix\|fix: 修复前端佬的 bug\|chore:\)$"
+LOG_IGNORES = "^(fix|fix: 修复前端佬的 bug|chore:)$"
 
 # 获取提交日志（去除含 chore: 关键字的日志、merge 日志）
 if [ -z "$LAST_COMMIT" ]; then
