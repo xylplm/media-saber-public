@@ -25,4 +25,4 @@ jobs:
 
       - name: Upgrade version json
         run: |
-          bash update_version.sh ./upgrade/version.json
+          bash update_version.sh ./upgrade/dev.json
