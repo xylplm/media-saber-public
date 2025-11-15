@@ -10,7 +10,8 @@ jobs:
       - name: 创建版本号
         id: set_version
         run: |
-          echo "version=DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')" >> $GITHUB_ENV
+          echo "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')" > version_number
+          echo "version=$(cat version_number)" >> $GITHUB_ENV
       - name: Checkout code back end
         uses: actions/checkout@v4
         with:
@@ -20,7 +21,7 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
       - name: Upgrade back version json
         run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/back-dev.json -v "${{ GITHUB_ENV }}"
+          bash update_version.sh -r ./msaber-back -f ./upgrade/back-dev.json -v "${{ env.version }}"
       - name: Checkout code front end
         uses: actions/checkout@v4
         with:
@@ -30,4 +31,4 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
       - name: Upgrade front version json
         run: |
-          bash update_version.sh -r ./msaber-front -f ./upgrade/front-dev.json -v "${{ GITHUB_ENV }}"
+          bash update_version.sh -r ./msaber-front -f ./upgrade/front-dev.json -v "${{ env.version }}"
