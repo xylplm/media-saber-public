@@ -35,6 +35,8 @@ else
     LOGS=$(git log "$LAST_COMMIT"..HEAD --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
 
+echo "$LOGS"
+
 cd "$ROOT_DIR" || exit 1
 
 # 若无新增提交则退出
@@ -62,6 +64,12 @@ else
     echo "]" >> "$tmp"
     mv "$tmp" "$JSON_FILE"
 fi
+
+echo "裁剪 JSON，仅保留最新 10 个版本..."
+
+# 只保留最新 10 条版本记录
+jq '.[-10:]' "$JSON_FILE" > "$JSON_FILE.tmp"
+mv "$JSON_FILE.tmp" "$JSON_FILE"
 
 # ----------------------------------
 # Git 提交（项目根目录）
