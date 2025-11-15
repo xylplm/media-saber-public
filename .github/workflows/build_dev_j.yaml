@@ -131,6 +131,7 @@ jobs:
             "version": "${{ env.version }}",
             "tag": "dev",
             "arch": "${{ matrix.arch }}",
+            "latestServerDownloadUrl": "https://github.com/xylplm/media-saber-public/archive/main.zip"
           }
           EOF
 
