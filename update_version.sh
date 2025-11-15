@@ -64,7 +64,7 @@ if [ -z "$LAST_COMMIT" ]; then
 else
     RANGE_OPT="$LAST_COMMIT..HEAD"
     echo "获取 $LAST_COMMIT 到 HEAD 的提交"
-f
+fi
 
 LOGS=$(git log $RANGE_OPT \
   --no-merges \
