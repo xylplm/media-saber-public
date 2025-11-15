@@ -50,29 +50,30 @@ else
     LAST_COMMIT=""
 fi
 
+LOG_IGNORES = "^\(fix\|fix: 修复前端佬的 bug\|chore:\)$"
+
 # 获取提交日志（去除含 chore: 关键字的日志、merge 日志）
 if [ -z "$LAST_COMMIT" ]; then
     echo "无版本记录，获取最近 10 条提交"
-    LOGS=$(git log -n 10 --no-merges --invert-grep --grep="chore:" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log -n 10 --no-merges --invert-grep --grep="$LOG_IGNORES" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
     echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="chore:" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="$LOG_IGNORES" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
 
 echo "$LOGS"
 
 cd "$ROOT_DIR" || exit 1
 
-# 若无新增提交则退出
-if [ -z "$LOGS" ]; then
-    echo "没有新增提交"
-    exit 0
-fi
-
 # ----------------------------------
 # 生成新版本块
 # ----------------------------------
-NEW_BLOCK=$(printf '{ "version": "%s", "items": [ %s ] }' "$VERSION" "$(echo "$LOGS" | sed '$!s/$/,/')")
+if [ -z "$LOGS" ]; then
+    echo "没有新增提交"
+  NEW_BLOCK=$(printf '{ "version": "%s", "items": [] }' "$VERSION")
+else
+  NEW_BLOCK=$(printf '{ "version": "%s", "items": [ %s ] }' "$VERSION" "$(echo "$LOGS" | sed '$!s/$/,/')")
+fi
 
 # ----------------------------------
 # 写入 JSON 文件
