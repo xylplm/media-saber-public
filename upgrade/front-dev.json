@@ -1,0 +1,13 @@
+[
+  {
+    "version": "DEV_202511152137",
+    "items": [
+      {
+        "commit": "4875b98bf4f844100c6ff5283ecbf9396589b730",
+        "author": "Jolc",
+        "date": "2025-11-14 23:45:50 +0800",
+        "message": "fix: 修复前端佬的 bug"
+      }
+    ]
+  }
+]
