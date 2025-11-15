@@ -54,6 +54,7 @@ RUN apk --no-cache add \
         su-exec \
         bash \
         shadow \
+        tar \
     && addgroup -S msaber -g 1000 \
     && adduser -S msaber -G msaber -h /app -u 1000 -s /bin/bash \
     && mkdir /app/config \
