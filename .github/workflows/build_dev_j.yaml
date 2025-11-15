@@ -58,7 +58,7 @@ jobs:
 
       - name: Upgrade Frontend version json
         run: |
-          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/front.json -v "${{ env.version }}"
+          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/dev-front.json -v "${{ env.version }}"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -122,7 +122,7 @@ jobs:
 
       - name: Upgrade Backend version json
         run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back-"${{ matrix.arch }}".json -v "${{ env.version }}"
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/dev-back-"${{ matrix.arch }}".json -v "${{ env.version }}"
 
       - name: Update Backend version in server.json
         run: |
