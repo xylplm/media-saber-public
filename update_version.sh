@@ -80,8 +80,11 @@ ITEMS=$(echo "$GIT_LOG_DATA" | jq -R '
       date: .[2],
       message: .[3]
     }
-  ] | reverse
+  ]
 ')
+
+# ITEMS 反转
+ITEMS=$(echo "$ITEMS" | jq -s 'reverse')
 
 NEW_BLOCK=$(jq -n --arg v "$VERSION" --argjson items "$ITEMS" \
   '{version:$v, items:$items}')
