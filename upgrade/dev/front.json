@@ -1,0 +1,19 @@
+[
+  {
+    "version": "DEV_202511152353",
+    "items": [
+      {
+        "commit": "b2d569b0552028dcf49a0c9bb4b45501e3f78147",
+        "author": "liurongjie",
+        "date": "2025-11-14 22:36:48 +0800",
+        "message": "feat(media-tidy): 添加恢复STRM转移记录功能"
+      },
+      {
+        "commit": "002554636b8b5f414ff21efda0a2514578de3b28",
+        "author": "liurongjie",
+        "date": "2025-11-14 23:38:02 +0800",
+        "message": "refactor(media-tidy): 优化恢复STRM转移记录逻辑"
+      }
+    ]
+  }
+]
