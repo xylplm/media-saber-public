@@ -43,6 +43,10 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
           fetch-depth: 0
 
+      - name: Upgrade Frontend version json
+        run: |
+          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/front.json -v "${{ env.version }}"
+
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
         with:
@@ -74,10 +78,6 @@ jobs:
           name: my-artifact-front-dist
           path: msaber-front/dist/MediaSaber/browser
 
-      - name: Upgrade Frontend version json
-        run: |
-          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/front.json -v "${{ env.version }}"
-
   build-backend:
     runs-on: ubuntu-latest
     needs: [ generate-version ]
@@ -94,6 +94,19 @@ jobs:
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
           fetch-depth: 0
+
+      - name: Upgrade Backend version json
+        run: |
+          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back.json -v "${{ env.version }}"
+
+      - name: Update Backend version in version.json
+        run: |
+          cat <<EOF > msaber-back/doc/version.json
+          {
+            "version": "${{ env.version }}",
+            "tag": "dev",
+          }
+          EOF
 
       - name: Set up Go
         uses: actions/setup-go@v5
@@ -139,10 +152,6 @@ jobs:
         with:
           name: my-artifact-backend-${{ matrix.arch }}
           path: msaber-back-${{ matrix.arch }}
-
-      - name: Upgrade Backend version json
-        run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/back.json -v "${{ env.version }}"
 
   docker-setup:
     runs-on: ubuntu-latest

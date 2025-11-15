@@ -41,7 +41,8 @@ COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
 COPY msaber-back/etc/media_saber.template.yaml /app/etc/media_saber.yaml
 COPY msaber-front/. /app/front
 COPY msaber-back/etc/. /app/etc
-COPY msaber-back/doc/static/. /app/doc/static
+COPY msaber-back/doc/. /app/doc
+COPY msaber-back/static/. /app/static
 COPY nginx.template.conf /etc/nginx/nginx.template.conf
 COPY entrypoint.sh /entrypoint.sh
 
