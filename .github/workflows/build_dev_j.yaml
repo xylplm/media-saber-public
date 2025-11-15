@@ -41,6 +41,7 @@ jobs:
           path: './msaber-front'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          fetch-depth: 0
 
       - name: Download Version Artifact
         uses: actions/download-artifact@v4
@@ -92,6 +93,7 @@ jobs:
           path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Go
         uses: actions/setup-go@v5
