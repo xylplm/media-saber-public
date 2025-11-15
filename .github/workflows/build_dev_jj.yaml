@@ -12,14 +12,13 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: 'main'
-      - name: Checkout code front end
+      - name: Checkout code back end
         uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.REPOSITORY_FRONT }}
-          path: './msaber-front'
-          ref: 'main'
+          repository: ${{ secrets.REPOSITORY_BACK }}
+          path: './msaber-back'
+          ref: 'prod'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-
       - name: Upgrade version json
         run: |
           bash update_version.sh ./upgrade/dev.json
