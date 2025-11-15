@@ -1,0 +1,25 @@
+name: build-dev-jj
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code Now Code
+        uses: actions/checkout@v4
+        with:
+          ref: 'main'
+      - name: Checkout code front end
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.REPOSITORY_FRONT }}
+          path: './msaber-front'
+          ref: 'main'
+          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+
+      - name: Upgrade version json
+        run: |
+          bash update_version.sh ./upgrade/version.json
