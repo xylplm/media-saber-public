@@ -20,6 +20,9 @@ jobs:
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
+      - name: List files
+        run: ls -l
+
       - name: Upgrade version json
         run: |
           bash update_version.sh ./upgrade/version.json
