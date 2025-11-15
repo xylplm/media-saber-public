@@ -4,6 +4,8 @@ on:
 jobs:
   generate-version:
     runs-on: ubuntu-latest
+    env:
+      VERSION: DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -14,6 +16,16 @@ jobs:
           path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-      - name: Upgrade version json
+      - name: Upgrade back version json
         run: |
-          bash update_version.sh ./upgrade/dev.json "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')"
+          bash update_version.sh -r ./msaber-back -f ./upgrade/front-dev.json -v "${VERSION}"
+      - name: Checkout code front end
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.REPOSITORY_FRONT }}
+          path: './msaber-front'
+          ref: 'main'
+          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+      - name: Upgrade front version json
+        run: |
+          bash update_version.sh -r ./msaber-front -f ./upgrade/front-dev.json -v "${VERSION}"

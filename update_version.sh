@@ -3,15 +3,37 @@
 # ----------------------------------
 # 参数解析
 # ----------------------------------
-if [ -z "$1" ] || [ -z "$2" ]; then
-    echo "Usage: $0 <json_file> <version>"
-    exit 1
-fi
+REPO_DIR="" # 如 msaber-back
+JSON_FILE="" # 如 ./upgrade/dev.json
+VERSION="" # 如 DEV_202511151249
 
-JSON_FILE="$1"     # 如 ./upgrade/dev.json
-VERSION="$2"       # 如 DEV_202511151249
-REPO_DIR="msaber-back"
-NUM_INITIAL_LOGS=10
+# 参数解析
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    -r|--repo-dir)
+      REPO_DIR="$2"
+      shift 2
+      ;;
+    -f|--file)
+      JSON_FILE="$2"
+      shift 2
+      ;;
+    -v|--version)
+      VERSION="$2"
+      shift 2
+      ;;
+    *)
+      echo "Unknown option: $1"
+      exit 1
+      ;;
+  esac
+done
+
+# 必填校验
+if [[ -z "$REPO_DIR" || -z "$JSON_FILE" || -z "$VERSION" ]]; then
+  echo "Usage: $0 -r <repo_dir> -f <json_file> -v <version>"
+  exit 1
+fi
 
 ROOT_DIR=$(pwd)
 
@@ -28,11 +50,13 @@ else
     LAST_COMMIT=""
 fi
 
-# 获取提交日志
+# 获取提交日志（去除含 chore: 关键字的日志、merge 日志）
 if [ -z "$LAST_COMMIT" ]; then
-    LOGS=$(git log -n $NUM_INITIAL_LOGS --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    echo "无版本记录，获取最近 10 条提交"
+    LOGS=$(git log -n 10 --no-merges --invert-grep --grep="chore:" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
-    LOGS=$(git log "$LAST_COMMIT"..HEAD --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    echo "有版本记录，获取 $LAST_COMMIT 到 HEAD 的提交"
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --no-merges --invert-grep --grep="chore:" --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
 
 echo "$LOGS"
