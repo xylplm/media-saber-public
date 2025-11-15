@@ -51,9 +51,9 @@ jobs:
         run: |
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
 
-      - name: Upgrade Frontend version json
-        run: |
-          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/dev-front.json -v ${{ env.version }}
+#      - name: Upgrade Frontend version json
+#        run: |
+#          bash update_version.sh -r ./msaber-front -f ./upgrade/dev/dev-front.json -v ${{ env.version }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -116,9 +116,9 @@ jobs:
           mkdir -p msaber-back/internal/svc/cert
           echo "${{ env.version }}" > msaber-back/internal/svc/cert/softwareVersion
 
-      - name: Upgrade Backend version json
-        run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/dev-back-${{ matrix.arch }}.json -v ${{ env.version }}
+#      - name: Upgrade Backend version json
+#        run: |
+#          bash update_version.sh -r ./msaber-back -f ./upgrade/dev/dev-back-${{ matrix.arch }}.json -v ${{ env.version }}
 
       - name: Update Backend version in server.json
         run: |
