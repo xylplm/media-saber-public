@@ -1,104 +1,76 @@
 #!/bin/bash
 
-# ===============================
-
+# ----------------------------------
 # 参数解析
-
-# ===============================
-
-if [ -z "$1" ]; then
-echo "Usage: $0 <json_file> [num_initial_logs]"
-exit 1
+# ----------------------------------
+if [ -z "$1" ] || [ -z "$2" ]; then
+    echo "Usage: $0 <json_file> <version>"
+    exit 1
 fi
 
-JSON_FILE="$1"                    # 第一个参数：JSON 文件名
-NUM_INITIAL_LOGS="${2:-10}"       # 第二个参数可选，默认 10 条
+JSON_FILE="$1"     # 如 ./upgrade/dev.json
+VERSION="$2"       # 如 DEV_202511151249
+REPO_DIR="msaber-back"
+NUM_INITIAL_LOGS=10
 
-ls -l
+ROOT_DIR=$(pwd)
 
-# ===============================
+# ----------------------------------
+# 进入 msaber-back 获取提交日志
+# ----------------------------------
+cd "$REPO_DIR" || { echo "仓库目录不存在：$REPO_DIR"; exit 1; }
 
-# 配置
-
-# ===============================
-
-REPO_DIR="./msaber-back"          # 本地仓库目录
-
-# ===============================
-
-# 进入仓库
-
-# ===============================
-cd "$REPO_DIR" || { echo "仓库目录不存在"; exit 1; }
-
-# ===============================
-
-# 获取最后 commit id
-
-# ===============================
-
-if [ -f "$JSON_FILE" ] && [ -s "$JSON_FILE" ]; then
-LAST_COMMIT=$(jq -r '.[-1].commit' "$JSON_FILE")
-if [ "$LAST_COMMIT" == "null" ]; then
-LAST_COMMIT=""
-fi
+# 读取 JSON 最后一条记录的最后一个 commit
+if [ -f "$ROOT_DIR/$JSON_FILE" ] && [ -s "$ROOT_DIR/$JSON_FILE" ]; then
+    LAST_COMMIT=$(jq -r '.[-1].items[-1].commit' "$ROOT_DIR/$JSON_FILE")
+    [ "$LAST_COMMIT" = "null" ] && LAST_COMMIT=""
 else
-LAST_COMMIT=""
+    LAST_COMMIT=""
 fi
-
-# ===============================
 
 # 获取提交日志
-
-# ===============================
-
 if [ -z "$LAST_COMMIT" ]; then
-# 第一次运行，取最近 NUM_INITIAL_LOGS 条
-LOGS=$(git log -n $NUM_INITIAL_LOGS --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log -n $NUM_INITIAL_LOGS --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 else
-# 获取最后 commit 之后的提交
-LOGS=$(git log "$LAST_COMMIT"..HEAD --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
+    LOGS=$(git log "$LAST_COMMIT"..HEAD --pretty=format:'{"commit":"%H","author":"%an","date":"%ad","message":"%s"}' --date=iso)
 fi
 
-# 如果没有新增日志，则退出
+cd "$ROOT_DIR" || exit 1
 
+# 若无新增提交则退出
 if [ -z "$LOGS" ]; then
-echo "没有新提交。"
-exit 0
+    echo "没有新增提交"
+    exit 0
 fi
 
-cd .. || exit 1  # 回到项目根目录
-ls -l
+# ----------------------------------
+# 生成新版本块
+# ----------------------------------
+NEW_BLOCK=$(printf '{ "version": "%s", "items": [ %s ] }' "$VERSION" "$(echo "$LOGS" | sed '$!s/$/,/')")
 
-# ===============================
-
-# 处理 JSON
-
-# ===============================
-
-if [ -f "$JSON_FILE" ] && [ -s "$JSON_FILE" ]; then
-tmp=$(mktemp)
-head -n -1 "$JSON_FILE" > "$tmp"
-echo "$LOGS" | sed '$!s/$/,/' >> "$tmp"
-echo "]" >> "$tmp"
-mv "$tmp" "$JSON_FILE"
+# ----------------------------------
+# 写入 JSON 文件
+# ----------------------------------
+if [ ! -f "$JSON_FILE" ] || [ ! -s "$JSON_FILE" ]; then
+    # 创建新 JSON
+    echo "[ $NEW_BLOCK ]" > "$JSON_FILE"
 else
-echo "[" > "$JSON_FILE"
-echo "$LOGS" | sed '$!s/$/,/' >> "$JSON_FILE"
-echo "]" >> "$JSON_FILE"
+    # 追加
+    tmp=$(mktemp)
+    head -n -1 "$JSON_FILE" > "$tmp"
+    echo "  ,$NEW_BLOCK" >> "$tmp"
+    echo "]" >> "$tmp"
+    mv "$tmp" "$JSON_FILE"
 fi
 
-# ===============================
-
-# 提交并 push JSON
-
-# ===============================
-
+# ----------------------------------
+# Git 提交（项目根目录）
+# ----------------------------------
 git config user.name "github-actions[bot]"
 git config user.email "github-actions[bot]@users.noreply.github.com"
 
 git add "$JSON_FILE"
-git commit -m "Update $JSON_FILE"
+git commit -m "Update version: $VERSION"
 git push origin main
 
-echo "Done! $JSON_FILE 已更新并推送。"
+echo "版本 $VERSION 已写入 $JSON_FILE 并推送成功"

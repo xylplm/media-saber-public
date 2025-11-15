@@ -21,4 +21,4 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
       - name: Upgrade version json
         run: |
-          bash update_version.sh ./upgrade/dev.json
+          bash update_version.sh ./upgrade/dev.json "DEV_$(date -d '+8 hours' +'%Y%m%d%H%M')"
