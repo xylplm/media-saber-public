@@ -19,6 +19,7 @@ jobs:
           path: './msaber-back'
           ref: 'main'
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          fetch-depth: 0
       - name: Upgrade back version json
         run: |
           bash update_version.sh -r ./msaber-back -f ./upgrade/back-dev.json -v "${{ env.version }}"
