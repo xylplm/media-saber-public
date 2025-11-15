@@ -66,7 +66,7 @@ echo "没有新提交。"
 exit 0
 fi
 
-cd - || exit 1   # 回到项目根目录
+cd .. || exit 1   # 回到项目根目录
 
 # ===============================
 
@@ -91,6 +91,9 @@ fi
 # 提交并 push JSON
 
 # ===============================
+
+git config user.name "github-actions[bot]"
+git config user.email "github-actions[bot]@users.noreply.github.com"
 
 git add "$JSON_FILE"
 git commit -m "Update $JSON_FILE"
