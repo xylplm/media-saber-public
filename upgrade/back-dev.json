@@ -1,0 +1,67 @@
+[
+  {
+    "version": "DEV_202511152229",
+    "items": [
+      {
+        "commit": "9c7de9cf254e4c49aaceb3d2b0a76922d055a7bb",
+        "author": "Jolc",
+        "date": "2025-11-15 14:05:00 +0800",
+        "message": "fix"
+      },
+      {
+        "commit": "59678bbdaa202a90d6e2db1f429052d12104928a",
+        "author": "Jolc",
+        "date": "2025-11-15 13:48:39 +0800",
+        "message": "feat: 云存储支持原地整理。"
+      },
+      {
+        "commit": "f24bc7f6c0dc170c3e00d6c79db20c339ecb4c15",
+        "author": "Jolc",
+        "date": "2025-11-15 12:48:57 +0800",
+        "message": "feat: 同步 oplist 代码、优化 115 列表性能。"
+      },
+      {
+        "commit": "82c7510a10cd914fff333908eb31bb17098daf68",
+        "author": "Jolc",
+        "date": "2025-11-15 00:17:52 +0800",
+        "message": "fix"
+      },
+      {
+        "commit": "d30a66fa58244fcaf8da2ce77176b0d28152e632",
+        "author": "Jolc",
+        "date": "2025-11-14 23:57:40 +0800",
+        "message": "fix"
+      },
+      {
+        "commit": "fbb217cdb8ea06a37e5862c020e7868738b07421",
+        "author": "Jolc",
+        "date": "2025-11-14 23:49:26 +0800",
+        "message": "fix"
+      },
+      {
+        "commit": "dfa7e45957cf4a1147266b6234b8cb6dd1afd803",
+        "author": "Jolc",
+        "date": "2025-11-14 23:42:57 +0800",
+        "message": "fix"
+      },
+      {
+        "commit": "3c3b9dec4ba13b20c74925ff42a129e4ad7d6b38",
+        "author": "Jolc",
+        "date": "2025-11-14 23:22:35 +0800",
+        "message": "feat: 修复 115 旧 strm，strm302 时自动填充 pickCode"
+      },
+      {
+        "commit": "e51d24dc4a8019766dfa018382aa96d495268895",
+        "author": "xylplm",
+        "date": "2025-11-14 22:56:25 +0800",
+        "message": "fix:去除重复的日志"
+      },
+      {
+        "commit": "d053c38f6fcdfa3813055069742a4663664e24bf",
+        "author": "xylplm",
+        "date": "2025-11-14 22:52:01 +0800",
+        "message": "fix:种子匹配 附加规则 所有规则都要满足，但每个规则只需要在任一内容（标题或描述），允许跨内容中匹配"
+      }
+    ]
+  }
+]
