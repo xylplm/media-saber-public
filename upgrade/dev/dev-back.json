@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511162124",
+    "items": [
+      {
+        "commit": "3c7ac743cdd1807df719334ac53d0926ccd59cae",
+        "author": "Jolc",
+        "date": "2025-11-16 21:20:31",
+        "message": "fix:版本更新优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511162101",
     "items": [
       {
