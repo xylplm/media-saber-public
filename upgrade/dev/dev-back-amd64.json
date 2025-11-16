@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511161527",
+    "items": [
+      {
+        "commit": "6ee1a10352e861a8d61df238076a43bf844451bb",
+        "author": "Jolc",
+        "date": "2025-11-16 15:27:12",
+        "message": "fix:服务更新问题修复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161457",
     "items": [
       {
