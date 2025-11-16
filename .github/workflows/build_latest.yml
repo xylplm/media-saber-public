@@ -323,7 +323,7 @@ jobs:
 
       - name: Upgrade Frontend version json
         run: |
-          bash update_version.sh -r ./msaber-front -f ./upgrade/latest/latest-front.json -v ${{ env.version }}
+          bash version_update.sh -r ./msaber-front -f ./upgrade/latest/latest-front.json -v ${{ env.version }}
 
       - name: Checkout code back end
         uses: actions/checkout@v4
@@ -336,7 +336,7 @@ jobs:
 
       - name: Upgrade Backend version json
         run: |
-          bash update_version.sh -r ./msaber-back -f ./upgrade/latest/latest-back.json -v ${{ env.version }}
+          bash version_update.sh -r ./msaber-back -f ./upgrade/latest/latest-back.json -v ${{ env.version }}
 
       - name: Commit and Push Changes
         run: |
