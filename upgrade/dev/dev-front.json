@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511162101",
+    "items": [
+      {
+        "commit": "0be5b5b089b5ec56e7f9d654d48758e278ff3755",
+        "author": "xylplm",
+        "date": "2025-11-16 21:01:26",
+        "message": "fix: 优化升级小火箭大小"
+      },
+      {
+        "commit": "cb54cff8242aae56853cf0edef8ec7ab192ae0af",
+        "author": "xylplm",
+        "date": "2025-11-16 20:53:23",
+        "message": "fix:更新成功后自动刷新页面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161910",
     "items": [
       {

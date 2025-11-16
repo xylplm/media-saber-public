@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511162101",
+    "items": [
+      {
+        "commit": "43656621de8f5e6f95713994404c8e0d7cec70b4",
+        "author": "Jolc",
+        "date": "2025-11-16 20:59:13",
+        "message": "fix:消息通知系统升级未显示问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511162043",
     "items": [
       {
