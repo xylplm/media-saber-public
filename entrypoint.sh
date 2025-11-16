@@ -26,11 +26,11 @@ if [ -f "/app/mediaSaber-upgrade.tar.gz" ]; then
     mv /app/mediaSaber-upgrade/msaber-front /app/front
     # 替换配置文件
     rm -rf /app/etc
-    COPY /app/mediaSaber-upgrade/msaber-back/etc /app/etc
+    mv /app/mediaSaber-upgrade/msaber-back/etc /app/etc
     rm -rf /app/doc
-    COPY /app/mediaSaber-upgrade/msaber-back/doc /app/doc
+    mv /app/mediaSaber-upgrade/msaber-back/doc /app/doc
     rm -rf /app/static
-    COPY /app/mediaSaber-upgrade/msaber-back/static /app/static
+    mv /app/mediaSaber-upgrade/msaber-back/static /app/static
     # 删除更新包文件
     rm -rf /app/mediaSaber-upgrade.tar.gz
     rm -rf /app/mediaSaber-upgrade
