@@ -18,7 +18,7 @@ usermod -o -u "${PUID}" msaber
 if [ -f "/app/mediaSaber-upgrade.tar.gz" ]; then
     tar -zxf /app/mediaSaber-upgrade.tar.gz -C /app/mediaSaber-upgrade
     # 替换后端二进制文件
-    mv /app/mediaSaber-upgrade/msaber-back /app/mediaSaber
+    mv /app/mediaSaber-upgrade/msaber-back/mediaSaber /app/mediaSaber
     # 赋予 mediaSaber 执行权限
     chmod +x /app/mediaSaber
     # 替换前端文件
