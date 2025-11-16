@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511170028",
+    "items": [
+      {
+        "commit": "b7991496ca50c8c5402631700d3c7b8a8f596d00",
+        "author": "Jolc",
+        "date": "2025-11-17 00:28:09",
+        "message": "fix:版本检查下载超时调整"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511162229",
     "items": [
       {
@@ -112,17 +123,6 @@
         "commit": "052228639516c2d5c30d3c1ffab50b1ec4b7b06e",
         "author": "Jolc",
         "date": "2025-11-16 16:13:08",
-        "message": "fix:服务更新问题修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161527",
-    "items": [
-      {
-        "commit": "6ee1a10352e861a8d61df238076a43bf844451bb",
-        "author": "Jolc",
-        "date": "2025-11-16 15:27:12",
         "message": "fix:服务更新问题修复"
       }
     ]
