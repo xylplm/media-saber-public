@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511162043",
+    "items": [
+      {
+        "commit": "45ebe2e420ed940d445ea1a07eddc33a71fb9dba",
+        "author": "Jolc",
+        "date": "2025-11-16 20:42:44",
+        "message": "fix:test热更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511162023",
     "items": [
       {
