@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511161754",
+    "items": [
+      {
+        "commit": "505923322627d2d7f3770831baf88518bd1f6ef1",
+        "author": "xylplm",
+        "date": "2025-11-16 17:54:21",
+        "message": "fix:优化更新界面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161642",
     "items": [
       {
