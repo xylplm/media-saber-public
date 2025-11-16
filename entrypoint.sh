@@ -14,26 +14,35 @@ envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
 usermod -o -u "${PUID}" msaber
 
-# 判断是否有更新包
-if [ -f "/app/mediaSaber-upgrade.tar.gz" ]; then
-    tar -zxf /app/mediaSaber-upgrade.tar.gz -C /app/mediaSaber-upgrade
-    # 替换后端二进制文件
-    mv /app/mediaSaber-upgrade/msaber-back/mediaSaber /app/mediaSaber
-    # 赋予 mediaSaber 执行权限
+PACKAGE="/app/mediaSaber-upgrade.tar.gz"
+UPGRADE_DIR="/app/mediaSaber-upgrade"
+
+if [ -f "$PACKAGE" ]; then
+    echo "开始解压..."
+    mkdir -p "$UPGRADE_DIR"
+    tar -zxf "$PACKAGE" -C "$UPGRADE_DIR"
+
+    echo "替换后端..."
+    cp "$UPGRADE_DIR/msaber-back/mediaSaber" /app/mediaSaber
     chmod +x /app/mediaSaber
-    # 替换前端文件
+
+    echo "替换前端..."
     rm -rf /app/front
-    mv /app/mediaSaber-upgrade/msaber-front /app/front
-    # 替换配置文件
+    mv "$UPGRADE_DIR/msaber-front" /app/front
+
+    echo "替换配置..."
     rm -rf /app/etc
-    mv /app/mediaSaber-upgrade/msaber-back/etc /app/etc
+    mv "$UPGRADE_DIR/msaber-back/etc" /app/etc
+
     rm -rf /app/doc
-    mv /app/mediaSaber-upgrade/msaber-back/doc /app/doc
+    mv "$UPGRADE_DIR/msaber-back/doc" /app/doc
+
     rm -rf /app/static
-    mv /app/mediaSaber-upgrade/msaber-back/static /app/static
-    # 删除更新包文件
-    rm -rf /app/mediaSaber-upgrade.tar.gz
-    rm -rf /app/mediaSaber-upgrade
+    mv "$UPGRADE_DIR/msaber-back/static" /app/static
+
+    echo "清理升级包..."
+    rm -rf "$PACKAGE"
+    rm -rf "$UPGRADE_DIR"
 fi
 
 chown msaber:msaber -R \
