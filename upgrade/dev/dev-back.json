@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511162023",
+    "items": [
+      {
+        "commit": "b7e09d2dcdd29fb943811db7adf200a1b5548b0e",
+        "author": "Jolc",
+        "date": "2025-11-16 20:23:25",
+        "message": "feat:消息通知增加系统升级选项"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161942",
     "items": [
       {
