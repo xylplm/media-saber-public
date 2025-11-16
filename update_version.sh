@@ -39,7 +39,7 @@ ROOT_DIR=$(pwd)
 # 进入仓库
 # ----------------------------------
 cd "$REPO_DIR" || { echo "仓库目录不存在：$REPO_DIR"; exit 1; }
-
+ls "$JSON_FILE"
 # ----------------------------------
 # 获取最后一个 commit
 # ----------------------------------
@@ -60,7 +60,7 @@ NUM_LOGS=20
 
 if [ -z "$LAST_COMMIT" ]; then
     RANGE_OPT="-n $NUM_LOGS"
-    echo "无版本记录，获取最近 $NUM_LOGS 条提交"
+    echo "获取最近 $NUM_LOGS 条提交"
 else
     RANGE_OPT="$LAST_COMMIT..HEAD"
     echo "获取 $LAST_COMMIT 到 HEAD 的提交"
@@ -72,6 +72,11 @@ MESSAGE_SEPARATOR="lovebigbaby%x09lovebigbaby"
 GIT_LOG_DATA=$(git log --no-merges $RANGE_OPT --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:"%H$MESSAGE_SEPARATOR%an$MESSAGE_SEPARATOR%ad$MESSAGE_SEPARATOR%s" --date=format:'%Y-%m-%d %H:%M:%S')
 
 echo "$GIT_LOG_DATA"
+
+if [ -z "$GIT_LOG_DATA" ]; then
+    echo "无提交记录"
+    exit 0
+fi
 
 # 使用 jq 将输入转换为 JSON 数组，并反转顺序
 ITEMS=$(echo "$GIT_LOG_DATA" | jq -R -s '
