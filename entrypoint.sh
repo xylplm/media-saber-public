@@ -22,6 +22,8 @@ if [ -f "$PACKAGE" ]; then
     mkdir -p "$UPGRADE_DIR"
     tar -zxf "$PACKAGE" -C "$UPGRADE_DIR"
 
+    ls -l
+
     echo "替换后端..."
     cp "$UPGRADE_DIR/msaber-back/mediaSaber" /app/mediaSaber
     chmod +x /app/mediaSaber
