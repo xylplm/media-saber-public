@@ -67,7 +67,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: my-artifact-front-dist
-          path: msaber-front/dist/MediaSaber/browser
+          path: msaber-front/dist/MediaSaber/browser/
 
   build-backend:
     runs-on: ubuntu-latest
@@ -233,13 +233,11 @@ jobs:
         run: |
           mkdir -p release/msaber-front
           mkdir -p release/msaber-back
-          mkdir -p release/msaber-back/static
-          mkdir -p release/msaber-back/doc
           cp -r msaber-front/* release/msaber-front/
           cp -r msaber-back/dist/linux/amd64/mediaSaber release/msaber-back/mediaSaber
           cp -r msaber-back/etc release/msaber-back/
-          cp -r msaber-back/static release/msaber-back/static
-          cp -r msaber-back/doc release/msaber-back/doc
+          cp -r msaber-back/static release/msaber-back/
+          cp -r msaber-back/doc release/msaber-back/
 
       - name: Create ZIP Archive amd64
         run: |
