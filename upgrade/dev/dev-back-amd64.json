@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511161814",
+    "items": [
+      {
+        "commit": "4d029eaa9600f2d2b316ce4b1e317c0d5d51c64f",
+        "author": "xylplm",
+        "date": "2025-11-16 18:13:14",
+        "message": "fix: 取消默认自动检测提醒"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161642",
     "items": [
       {
