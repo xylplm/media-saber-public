@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511161642",
+    "items": [
+      {
+        "commit": "35f0226400f78d8b1e895016b3d56993e2892529",
+        "author": "xylplm",
+        "date": "2025-11-16 16:05:11",
+        "message": "fix:继承 takeUntil 销毁请求"
+      },
+      {
+        "commit": "ad10c0f217b4e58c1a314c81bee0029dc7052a39",
+        "author": "xylplm",
+        "date": "2025-11-16 16:00:54",
+        "message": "feat: 前端支持版本检查以及更新系统"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161457",
     "items": [
       {
