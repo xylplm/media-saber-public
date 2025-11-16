@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511161814",
+    "items": [
+      {
+        "commit": "fce79d253bd6cbd039c7946223fad4fd7d575dc6",
+        "author": "xylplm",
+        "date": "2025-11-16 18:09:57",
+        "message": "fix:升级接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511161754",
     "items": [
       {
