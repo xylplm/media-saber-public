@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511171837",
+    "items": [
+      {
+        "commit": "d190266fd1ccdaab559a7af860f1adb6db231296",
+        "author": "Jolc",
+        "date": "2025-11-17 18:37:40",
+        "message": "fix:115驱动增加根据路径获取文件信息的接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511171540",
     "items": [
       {
@@ -95,29 +106,6 @@
         "author": "Jolc",
         "date": "2025-11-16 19:37:19",
         "message": "fix:新版本只提醒一次、优化版本更新。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161916",
-    "items": [
-      {
-        "commit": "c1481d107475bd96487318d327565a0a3cf87ab4",
-        "author": "xylplm",
-        "date": "2025-11-16 18:59:12",
-        "message": "fix: 过滤规则绑定的种子匹配不存在时提示信息"
-      },
-      {
-        "commit": "00cb888e90508a325dcc42af64e759e8413ff1d0",
-        "author": "Jolc",
-        "date": "2025-11-16 16:41:17",
-        "message": "fix:服务更新优化"
-      },
-      {
-        "commit": "052228639516c2d5c30d3c1ffab50b1ec4b7b06e",
-        "author": "Jolc",
-        "date": "2025-11-16 16:13:08",
-        "message": "fix:服务更新问题修复"
       }
     ]
   }
