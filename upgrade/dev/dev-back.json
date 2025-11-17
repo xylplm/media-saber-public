@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511172322",
+    "items": [
+      {
+        "commit": "10e4332b91fb923d666aaf851578d9128f28f7fd",
+        "author": "Jolc",
+        "date": "2025-11-17 23:22:42",
+        "message": "feat:恢复strm转移记录打日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511172310",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-11-16 20:42:44",
         "message": "fix:test热更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511162023",
-    "items": [
-      {
-        "commit": "b7e09d2dcdd29fb943811db7adf200a1b5548b0e",
-        "author": "Jolc",
-        "date": "2025-11-16 20:23:25",
-        "message": "feat:消息通知增加系统升级选项"
       }
     ]
   }
