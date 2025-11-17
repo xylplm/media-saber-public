@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511171540",
+    "items": [
+      {
+        "commit": "63b51ff1170c6937a9c76e524a28db0f61e8bc80",
+        "author": "Jolc",
+        "date": "2025-11-17 15:40:36",
+        "message": "feat:strm302通知增加pc和耗时"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511171049",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-16 16:13:08",
         "message": "fix:服务更新问题修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161814",
-    "items": [
-      {
-        "commit": "4d029eaa9600f2d2b316ce4b1e317c0d5d51c64f",
-        "author": "xylplm",
-        "date": "2025-11-16 18:13:14",
-        "message": "fix: 取消默认自动检测提醒"
       }
     ]
   }
