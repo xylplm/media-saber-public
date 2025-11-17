@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511172310",
+    "items": [
+      {
+        "commit": "e473fd3648a74fcdc03502f3b0b8e117280ee682",
+        "author": "Jolc",
+        "date": "2025-11-17 23:09:48",
+        "message": "feat:非识别重命名问题修复、mlist 驱动新增 fix strm 接口。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511171837",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-11-16 20:23:25",
         "message": "feat:消息通知增加系统升级选项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161942",
-    "items": [
-      {
-        "commit": "f3cbb7532c0d6c784cb6d328fab4a53edf6609a7",
-        "author": "Jolc",
-        "date": "2025-11-16 19:37:19",
-        "message": "fix:新版本只提醒一次、优化版本更新。"
       }
     ]
   }
