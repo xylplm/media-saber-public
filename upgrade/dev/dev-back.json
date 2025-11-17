@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511171049",
+    "items": [
+      {
+        "commit": "184103bb2247ca768b5148230c2dc83b76e07e31",
+        "author": "Jolc",
+        "date": "2025-11-17 10:49:14",
+        "message": "fix:修复云存储重试已失败任务无效问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511170028",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "xylplm",
         "date": "2025-11-16 18:13:14",
         "message": "fix: 取消默认自动检测提醒"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161642",
-    "items": [
-      {
-        "commit": "00cb888e90508a325dcc42af64e759e8413ff1d0",
-        "author": "Jolc",
-        "date": "2025-11-16 16:41:17",
-        "message": "fix:服务更新优化"
-      },
-      {
-        "commit": "052228639516c2d5c30d3c1ffab50b1ec4b7b06e",
-        "author": "Jolc",
-        "date": "2025-11-16 16:13:08",
-        "message": "fix:服务更新问题修复"
       }
     ]
   }
