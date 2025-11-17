@@ -14,6 +14,17 @@ envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
 usermod -o -u "${PUID}" msaber
 
+echo "尝试停止旧的服务，释放端口..."
+# 1. 尝试优雅地停止 Nginx。
+nginx -s quit 2>/dev/null || true
+
+# 2. 尝试通过进程名杀死旧的 mediaSaber 进程。
+pkill mediaSaber 2>/dev/null || true
+
+# 3. 等待几秒钟，让操作系统有时间完全释放 TCP 端口
+echo "等待3秒钟，释放端口..."
+sleep 3
+
 PACKAGE="/app/mediaSaber-upgrade.tar.gz"
 UPGRADE_DIR="/app/mediaSaber-upgrade"
 
