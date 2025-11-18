@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511181830",
+    "items": [
+      {
+        "commit": "cbb4477f29fa9441df1487444e5eabfb6136b2ed",
+        "author": "xylplm",
+        "date": "2025-11-18 18:22:43",
+        "message": "feat:后端升级重启前发送升级消息给前端，前端等待重启"
+      },
+      {
+        "commit": "9848ce82bfea6460e117c5bf84571c96530a918c",
+        "author": "GateCross",
+        "date": "2025-11-18 11:07:23",
+        "message": "fix:优化热更新执行脚本"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511181530",
     "items": [
       {
@@ -95,17 +112,6 @@
         "author": "Jolc",
         "date": "2025-11-16 22:33:02",
         "message": "fix:优先秒传异常问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511162124",
-    "items": [
-      {
-        "commit": "3c7ac743cdd1807df719334ac53d0926ccd59cae",
-        "author": "Jolc",
-        "date": "2025-11-16 21:20:31",
-        "message": "fix:版本更新优化"
       }
     ]
   }
