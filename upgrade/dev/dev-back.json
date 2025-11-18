@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511181530",
+    "items": [
+      {
+        "commit": "7f0b221312f18ef9869c823596f8a1320b83b9a1",
+        "author": "Jolc",
+        "date": "2025-11-18 15:28:11",
+        "message": "fix:站点适配配置目录结构更改"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511181108",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-11-16 21:20:31",
         "message": "fix:版本更新优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511162101",
-    "items": [
-      {
-        "commit": "43656621de8f5e6f95713994404c8e0d7cec70b4",
-        "author": "Jolc",
-        "date": "2025-11-16 20:59:13",
-        "message": "fix:消息通知系统升级未显示问题"
       }
     ]
   }
