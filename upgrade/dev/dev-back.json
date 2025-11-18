@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511181108",
+    "items": [
+      {
+        "commit": "9848ce82bfea6460e117c5bf84571c96530a918c",
+        "author": "GateCross",
+        "date": "2025-11-18 11:07:23",
+        "message": "fix:优化热更新执行脚本"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511172322",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-11-16 20:59:13",
         "message": "fix:消息通知系统升级未显示问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511162043",
-    "items": [
-      {
-        "commit": "45ebe2e420ed940d445ea1a07eddc33a71fb9dba",
-        "author": "Jolc",
-        "date": "2025-11-16 20:42:44",
-        "message": "fix:test热更新"
       }
     ]
   }
