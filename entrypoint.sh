@@ -14,50 +14,6 @@ envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
 usermod -o -u "${PUID}" msaber
 
-echo "尝试停止旧的服务，释放端口..."
-# 1. 尝试优雅地停止 Nginx。
-nginx -s quit 2>/dev/null || true
-
-# 2. 尝试通过进程名杀死旧的 mediaSaber 进程。
-pkill mediaSaber 2>/dev/null || true
-
-# 3. 等待几秒钟，让操作系统有时间完全释放 TCP 端口
-echo "等待3秒钟，释放端口..."
-sleep 3
-
-PACKAGE="/app/mediaSaber-upgrade.tar.gz"
-UPGRADE_DIR="/app/mediaSaber-upgrade"
-
-if [ -f "$PACKAGE" ]; then
-    echo "开始解压..."
-    mkdir -p "$UPGRADE_DIR"
-    tar -zxf "$PACKAGE" -C "$UPGRADE_DIR"
-
-    ls -l
-
-    echo "替换后端..."
-    cp "$UPGRADE_DIR/msaber-back/mediaSaber" /app/mediaSaber
-    chmod +x /app/mediaSaber
-
-    echo "替换前端..."
-    rm -rf /app/front
-    mv "$UPGRADE_DIR/msaber-front" /app/front
-
-    echo "替换配置..."
-    rm -rf /app/etc
-    mv "$UPGRADE_DIR/msaber-back/etc" /app/etc
-
-    rm -rf /app/doc
-    mv "$UPGRADE_DIR/msaber-back/doc" /app/doc
-
-    rm -rf /app/static
-    mv "$UPGRADE_DIR/msaber-back/static" /app/static
-
-    echo "清理升级包..."
-    rm -rf "$PACKAGE"
-    rm -rf "$UPGRADE_DIR"
-fi
-
 chown msaber:msaber -R \
     /app \
     /var/lib/nginx \

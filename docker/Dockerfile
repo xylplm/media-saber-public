@@ -45,6 +45,7 @@ COPY msaber-back/doc/. /app/doc
 COPY msaber-back/static/. /app/static
 COPY nginx.template.conf /etc/nginx/nginx.template.conf
 COPY entrypoint.sh /entrypoint.sh
+COPY upgrade.sh /upgrade.sh
 
 RUN apk --no-cache add \
         tzdata \
@@ -58,7 +59,7 @@ RUN apk --no-cache add \
     && addgroup -S msaber -g 1000 \
     && adduser -S msaber -G msaber -h /app -u 1000 -s /bin/bash \
     && mkdir /app/config \
-    && chmod +x /app/mediaSaber /entrypoint.sh \
+    && chmod +x /app/mediaSaber /entrypoint.sh /upgrade.sh \
     && echo 'fs.inotify.max_user_watches=5242880' >> /etc/sysctl.conf \
     && echo 'fs.inotify.max_user_instances=5242880' >> /etc/sysctl.conf
 
