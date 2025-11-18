@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511190003",
+    "items": [
+      {
+        "commit": "8bcad75074e6bec873691a0b3029a1f3cdec4f98",
+        "author": "Jolc",
+        "date": "2025-11-19 00:02:32",
+        "message": "feat:云存储转存任务、open123 支持 FastLink json文件转为转存任务。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511181830",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2025-11-17 00:28:09",
         "message": "fix:版本检查下载超时调整"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511162229",
-    "items": [
-      {
-        "commit": "1095fd2c15a730ff9ae1b07cb050f2b1604c88f0",
-        "author": "Jolc",
-        "date": "2025-11-16 22:33:02",
-        "message": "fix:优先秒传异常问题"
       }
     ]
   }
