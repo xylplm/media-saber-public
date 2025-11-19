@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511192223",
+    "items": [
+      {
+        "commit": "a9e12cca07788c8e727d3e179e7489d21248d1f0",
+        "author": "Jolc",
+        "date": "2025-11-19 22:22:39",
+        "message": "feat: open115 增加使用 ck 获取直链的开关。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511191853",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-17 23:22:42",
         "message": "feat:恢复strm转移记录打日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511172310",
-    "items": [
-      {
-        "commit": "e473fd3648a74fcdc03502f3b0b8e117280ee682",
-        "author": "Jolc",
-        "date": "2025-11-17 23:09:48",
-        "message": "feat:非识别重命名问题修复、mlist 驱动新增 fix strm 接口。"
       }
     ]
   }

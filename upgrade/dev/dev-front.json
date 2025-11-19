@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511192223",
+    "items": [
+      {
+        "commit": "c0999e5e4787c338be8b6c33c6dd6381aaaba300",
+        "author": "xylplm",
+        "date": "2025-11-19 16:30:24",
+        "message": "fix: 优化 禁用版本检测加载动画"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511191853",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2025-11-16 18:09:57",
         "message": "fix:升级接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161754",
-    "items": [
-      {
-        "commit": "505923322627d2d7f3770831baf88518bd1f6ef1",
-        "author": "xylplm",
-        "date": "2025-11-16 17:54:21",
-        "message": "fix:优化更新界面"
       }
     ]
   }
