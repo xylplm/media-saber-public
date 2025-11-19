@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511191002",
+    "items": [
+      {
+        "commit": "fc053ebda359ebdff995485209ebbca0a37cfb34",
+        "author": "xylplm",
+        "date": "2025-11-19 09:59:57",
+        "message": "fix 提示词错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511181830",
     "items": [
       {

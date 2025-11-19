@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511191002",
+    "items": [
+      {
+        "commit": "cbb4477f29fa9441df1487444e5eabfb6136b2ed",
+        "author": "xylplm",
+        "date": "2025-11-18 18:22:43",
+        "message": "feat:后端升级重启前发送升级消息给前端，前端等待重启"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511190003",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2025-11-17 10:49:14",
         "message": "fix:修复云存储重试已失败任务无效问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511170028",
-    "items": [
-      {
-        "commit": "b7991496ca50c8c5402631700d3c7b8a8f596d00",
-        "author": "Jolc",
-        "date": "2025-11-17 00:28:09",
-        "message": "fix:版本检查下载超时调整"
       }
     ]
   }
