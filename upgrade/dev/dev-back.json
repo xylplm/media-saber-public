@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511191853",
+    "items": [
+      {
+        "commit": "a50344a3e76281ab6b88bb9fcfc2a543c8eb15f1",
+        "author": "Jolc",
+        "date": "2025-11-19 17:16:31",
+        "message": "fix:ai models 不异常"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511191442",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-17 23:09:48",
         "message": "feat:非识别重命名问题修复、mlist 驱动新增 fix strm 接口。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511171837",
-    "items": [
-      {
-        "commit": "d190266fd1ccdaab559a7af860f1adb6db231296",
-        "author": "Jolc",
-        "date": "2025-11-17 18:37:40",
-        "message": "fix:115驱动增加根据路径获取文件信息的接口"
       }
     ]
   }

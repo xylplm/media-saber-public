@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511191853",
+    "items": [
+      {
+        "commit": "17e5be0d9134dc621e4349f2b6b277488276fcee",
+        "author": "liurongjie",
+        "date": "2025-11-19 14:39:17",
+        "message": "feat(cloud-storage): 新增123快链转存功能"
+      },
+      {
+        "commit": "d2168fb1b429d5cad5755194a385576cae0aeaf5",
+        "author": "liurongjie",
+        "date": "2025-11-19 13:35:07",
+        "message": "feat(cloud-storage): 增加转存任务设置及容量显示功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511191631",
     "items": [
       {
@@ -107,23 +124,6 @@
         "author": "xylplm",
         "date": "2025-11-16 17:54:21",
         "message": "fix:优化更新界面"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161642",
-    "items": [
-      {
-        "commit": "35f0226400f78d8b1e895016b3d56993e2892529",
-        "author": "xylplm",
-        "date": "2025-11-16 16:05:11",
-        "message": "fix:继承 takeUntil 销毁请求"
-      },
-      {
-        "commit": "ad10c0f217b4e58c1a314c81bee0029dc7052a39",
-        "author": "xylplm",
-        "date": "2025-11-16 16:00:54",
-        "message": "feat: 前端支持版本检查以及更新系统"
       }
     ]
   }
