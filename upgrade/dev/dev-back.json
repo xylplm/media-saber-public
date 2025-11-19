@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511191442",
+    "items": [
+      {
+        "commit": "ab4404ad093d5a1291b44a9bd90143e62618d961",
+        "author": "Jolc",
+        "date": "2025-11-19 13:14:14",
+        "message": "feat:云存储详细信显示开关"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511191308",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-17 18:37:40",
         "message": "fix:115驱动增加根据路径获取文件信息的接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511171540",
-    "items": [
-      {
-        "commit": "63b51ff1170c6937a9c76e524a28db0f61e8bc80",
-        "author": "Jolc",
-        "date": "2025-11-17 15:40:36",
-        "message": "feat:strm302通知增加pc和耗时"
       }
     ]
   }
