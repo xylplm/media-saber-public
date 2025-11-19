@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511191308",
+    "items": [
+      {
+        "commit": "82803092cc5dc6e5ff3ff80e7ee8ef940b143141",
+        "author": "Jolc",
+        "date": "2025-11-19 12:54:04",
+        "message": "feat:云存储列表显示空间"
+      },
+      {
+        "commit": "8bcad75074e6bec873691a0b3029a1f3cdec4f98",
+        "author": "Jolc",
+        "date": "2025-11-19 00:02:32",
+        "message": "feat:云存储转存任务、open123 支持 FastLink json文件转为转存任务。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511191002",
     "items": [
       {
@@ -101,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-17 15:40:36",
         "message": "feat:strm302通知增加pc和耗时"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511171049",
-    "items": [
-      {
-        "commit": "184103bb2247ca768b5148230c2dc83b76e07e31",
-        "author": "Jolc",
-        "date": "2025-11-17 10:49:14",
-        "message": "fix:修复云存储重试已失败任务无效问题"
       }
     ]
   }
