@@ -16,10 +16,10 @@ echo "开始解压升级包..."
 mkdir -p "$UPGRADE_DIR"
 tar -zxf "$PACKAGE" -C "$UPGRADE_DIR"
 
-echo "停止 Nginx ..."
-# 停止 Nginx。应用(mediaSaber)将由Go程序自己退出。
-pkill -9 nginx || true
-sleep 1 # 等待 nginx 释放
+# echo "停止 Nginx ..."
+# # 停止 Nginx。应用(mediaSaber)将由Go程序自己退出。
+# pkill -9 nginx || true
+# sleep 1 # 等待 nginx 释放
 
 echo "替换后端..."
 cp "$UPGRADE_DIR/msaber-back/mediaSaber" /app/mediaSaber
