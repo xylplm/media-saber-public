@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202511192348",
+    "items": [
+      {
+        "commit": "af7a979ae1cfc06bf7b6582dd35109c8d7f2a376",
+        "author": "github-actions[bot]",
+        "date": "2025-11-19 23:48:08",
+        "message": "fix:云存储 ui 优化"
+      },
+      {
+        "commit": "17e5be0d9134dc621e4349f2b6b277488276fcee",
+        "author": "liurongjie",
+        "date": "2025-11-19 14:39:17",
+        "message": "feat(cloud-storage): 新增123快链转存功能"
+      },
+      {
+        "commit": "d2168fb1b429d5cad5755194a385576cae0aeaf5",
+        "author": "liurongjie",
+        "date": "2025-11-19 13:35:07",
+        "message": "feat(cloud-storage): 增加转存任务设置及容量显示功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511192223",
     "items": [
       {
@@ -113,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-11-16 18:23:50",
         "message": "fix: 优化保存按钮样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161814",
-    "items": [
-      {
-        "commit": "fce79d253bd6cbd039c7946223fad4fd7d575dc6",
-        "author": "xylplm",
-        "date": "2025-11-16 18:09:57",
-        "message": "fix:升级接口"
       }
     ]
   }
