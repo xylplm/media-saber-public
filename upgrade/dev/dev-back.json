@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511202129",
+    "items": [
+      {
+        "commit": "092eafff7461356eeead74e9adc9c9510ef4d3bb",
+        "author": "GateCross",
+        "date": "2025-11-20 21:26:13",
+        "message": "fix:取消后端升级后重启逻辑"
+      },
+      {
+        "commit": "20d66c273c74ffe58ba762d2bc22281f96eb85e7",
+        "author": "Jolc",
+        "date": "2025-11-20 18:49:01",
+        "message": "fix:秒传不显示速度"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511201327",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "GateCross",
         "date": "2025-11-18 11:07:23",
         "message": "fix:优化热更新执行脚本"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511181530",
-    "items": [
-      {
-        "commit": "7f0b221312f18ef9869c823596f8a1320b83b9a1",
-        "author": "Jolc",
-        "date": "2025-11-18 15:28:11",
-        "message": "fix:站点适配配置目录结构更改"
       }
     ]
   }
