@@ -37,12 +37,12 @@ ENV MS_PORT="8888" \
 
 WORKDIR /app
 
-COPY msaber-back/dist/$TARGETPLATFORM/mediaSaber /app/mediaSaber
-COPY msaber-back/etc/media_saber.template.yaml /app/etc/media_saber.yaml
+COPY msaber-back-${TARGETPLATFORM}/dist/linux/${TARGETPLATFORM}/mediaSaber /app/mediaSaber
+COPY msaber-back-${TARGETARCH}/etc/media_saber.template.yaml /app/etc/media_saber.yaml
 COPY msaber-front/. /app/front
-COPY msaber-back/etc/. /app/etc
-COPY msaber-back/doc/. /app/doc
-COPY msaber-back/static/. /app/static
+COPY msaber-back-${TARGETPLATFORM}/etc/. /app/etc
+COPY msaber-back-${TARGETPLATFORM}/doc/. /app/doc
+COPY msaber-back-${TARGETPLATFORM}/static/. /app/static
 COPY nginx.template.conf /etc/nginx/nginx.template.conf
 COPY entrypoint.sh /entrypoint.sh
 COPY upgrade.sh /upgrade.sh
