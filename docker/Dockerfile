@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ARG TARGETPLATFORM
+ARG TARGETARCH
 
 ENV MS_PORT="8888" \
     MS_REDIS_HOST="127.0.0.1:6379" \
@@ -37,12 +37,12 @@ ENV MS_PORT="8888" \
 
 WORKDIR /app
 
-COPY msaber-back-${TARGETPLATFORM}/dist/linux/${TARGETPLATFORM}/mediaSaber /app/mediaSaber
+COPY msaber-back-${TARGETARCH}/dist/linux/${TARGETARCH}/mediaSaber /app/mediaSaber
 COPY msaber-back-${TARGETARCH}/etc/media_saber.template.yaml /app/etc/media_saber.yaml
 COPY msaber-front/. /app/front
-COPY msaber-back-${TARGETPLATFORM}/etc/. /app/etc
-COPY msaber-back-${TARGETPLATFORM}/doc/. /app/doc
-COPY msaber-back-${TARGETPLATFORM}/static/. /app/static
+COPY msaber-back-${TARGETARCH}/etc/. /app/etc
+COPY msaber-back-${TARGETARCH}/doc/. /app/doc
+COPY msaber-back-${TARGETARCH}/static/. /app/static
 COPY nginx.template.conf /etc/nginx/nginx.template.conf
 COPY entrypoint.sh /entrypoint.sh
 COPY upgrade.sh /upgrade.sh
