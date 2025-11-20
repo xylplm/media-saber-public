@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511202324",
+    "items": [
+      {
+        "commit": "ae2a90f2ae488d1c482372c3d1a87c24a2b8f54a",
+        "author": "GateCross",
+        "date": "2025-11-20 23:23:04",
+        "message": "fix:恢复热更新重启"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511202129",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-19 00:02:32",
         "message": "feat:云存储转存任务、open123 支持 FastLink json文件转为转存任务。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511181830",
-    "items": [
-      {
-        "commit": "cbb4477f29fa9441df1487444e5eabfb6136b2ed",
-        "author": "xylplm",
-        "date": "2025-11-18 18:22:43",
-        "message": "feat:后端升级重启前发送升级消息给前端，前端等待重启"
-      },
-      {
-        "commit": "9848ce82bfea6460e117c5bf84571c96530a918c",
-        "author": "GateCross",
-        "date": "2025-11-18 11:07:23",
-        "message": "fix:优化热更新执行脚本"
       }
     ]
   }
