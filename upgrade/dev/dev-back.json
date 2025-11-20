@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511201327",
+    "items": [
+      {
+        "commit": "9db3aa4a6de48ab1335cc9985b6d62326bf43f4c",
+        "author": "Jolc",
+        "date": "2025-11-20 13:26:34",
+        "message": "fix:直链通知是否缓存显示错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511201256",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-18 15:28:11",
         "message": "fix:站点适配配置目录结构更改"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511181108",
-    "items": [
-      {
-        "commit": "9848ce82bfea6460e117c5bf84571c96530a918c",
-        "author": "GateCross",
-        "date": "2025-11-18 11:07:23",
-        "message": "fix:优化热更新执行脚本"
       }
     ]
   }
