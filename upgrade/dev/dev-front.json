@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511201034",
+    "items": [
+      {
+        "commit": "f2e5cd0602e581ee3cfee4a51f14e72f253bbf0a",
+        "author": "xylplm",
+        "date": "2025-11-20 10:33:22",
+        "message": "fix: 优化更新日志和提示页面的UI"
+      },
+      {
+        "commit": "cd267e83bc285798af240bdb35cc02eb1abf1e44",
+        "author": "xylplm",
+        "date": "2025-11-20 10:32:55",
+        "message": "feat:flex和宽度scss支持响应式定义"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511200951",
     "items": [
       {
@@ -125,23 +142,6 @@
         "author": "GateCross",
         "date": "2025-11-17 00:09:10",
         "message": "fix: 修改错别字"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511162101",
-    "items": [
-      {
-        "commit": "0be5b5b089b5ec56e7f9d654d48758e278ff3755",
-        "author": "xylplm",
-        "date": "2025-11-16 21:01:26",
-        "message": "fix: 优化升级小火箭大小"
-      },
-      {
-        "commit": "cb54cff8242aae56853cf0edef8ec7ab192ae0af",
-        "author": "xylplm",
-        "date": "2025-11-16 20:53:23",
-        "message": "fix:更新成功后自动刷新页面"
       }
     ]
   }
