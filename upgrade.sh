@@ -57,5 +57,5 @@ rm -rf "$PACKAGE" || echo "警告：清理升级包 $PACKAGE 失败。" >&2
 rm -rf "$UPGRADE_DIR" || echo "警告：清理升级目录 $UPGRADE_DIR 失败。" >&2
 echo "清理完成。"
 
-echo "文件替换完毕。应用已重启。"
+echo "文件替换完毕，等待重启。"
 exit 0
