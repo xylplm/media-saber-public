@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511210033",
+    "items": [
+      {
+        "commit": "abe2e02a0b0ef8e6a267eeccd8e717b3eef97b5e",
+        "author": "Jolc",
+        "date": "2025-11-21 00:32:46",
+        "message": "feat:本地代理分片大小配置"
+      },
+      {
+        "commit": "d0c6bd394f1f661c0c196c8966467edce377ac67",
+        "author": "Jolc",
+        "date": "2025-11-21 00:22:50",
+        "message": "feat:strm播放支持本地代理(云存储打开Web代理开关，WebDAV策略选本地代理)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511202342",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-19 00:02:32",
         "message": "feat:云存储转存任务、open123 支持 FastLink json文件转为转存任务。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511191002",
-    "items": [
-      {
-        "commit": "cbb4477f29fa9441df1487444e5eabfb6136b2ed",
-        "author": "xylplm",
-        "date": "2025-11-18 18:22:43",
-        "message": "feat:后端升级重启前发送升级消息给前端，前端等待重启"
       }
     ]
   }
