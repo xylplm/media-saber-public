@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511201256",
+    "items": [
+      {
+        "commit": "e7ceca67048f96d9719805f1b31ac2321651588d",
+        "author": "Jolc",
+        "date": "2025-11-20 12:55:57",
+        "message": "fix: 修复open115 ck 直链方式 403 问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511192223",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "GateCross",
         "date": "2025-11-18 11:07:23",
         "message": "fix:优化热更新执行脚本"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511172322",
-    "items": [
-      {
-        "commit": "10e4332b91fb923d666aaf851578d9128f28f7fd",
-        "author": "Jolc",
-        "date": "2025-11-17 23:22:42",
-        "message": "feat:恢复strm转移记录打日志"
       }
     ]
   }
