@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511200951",
+    "items": [
+      {
+        "commit": "69cf4606d93fe8192d69369bf2cc8409b07aa5cf",
+        "author": "xylplm",
+        "date": "2025-11-20 09:51:09",
+        "message": "fix:优化存储管理列表样式"
+      },
+      {
+        "commit": "56d237fc90585fa57d757fdf020324ef0156cad9",
+        "author": "xylplm",
+        "date": "2025-11-20 09:28:59",
+        "message": "format code"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511192348",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "xylplm",
         "date": "2025-11-16 20:53:23",
         "message": "fix:更新成功后自动刷新页面"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511161910",
-    "items": [
-      {
-        "commit": "2deea6c57ad09538a9e1288e5d489bd08b53e684",
-        "author": "xylplm",
-        "date": "2025-11-16 18:23:50",
-        "message": "fix: 优化保存按钮样式"
       }
     ]
   }
