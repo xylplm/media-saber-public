@@ -165,14 +165,21 @@ jobs:
 
       - run: ls -R msaber-front
 
-      - name: Download Backend Artifacts
+      # --- 修复：分离后端下载以避免文件冲突 ---
+      - name: Download Backend Artifacts (amd64)
         uses: actions/download-artifact@v4
         with:
-          pattern: my-artifact-backend-*
-          merge-multiple: true
-          path: msaber-back
+          name: my-artifact-backend-amd64
+          path: ./msaber-back-amd64 # 下载到 amd64 专属目录
 
-      - run: ls -R msaber-back
+      - name: Download Backend Artifacts (arm64)
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact-backend-arm64
+          path: ./msaber-back-arm64 # 下载到 arm64 专属目录
+
+      - run: ls -R msaber-back-amd64
+      - run: ls -R msaber-back-arm64
 
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
@@ -220,34 +227,52 @@ jobs:
 
       - run: ls -R msaber-front
 
-      - name: Download Backend Artifacts
+      # --- 修复：分离后端下载以避免文件冲突 ---
+      - name: Download Backend Artifacts (amd64)
         uses: actions/download-artifact@v4
         with:
-          pattern: my-artifact-backend-*
-          merge-multiple: true
-          path: msaber-back
+          name: my-artifact-backend-amd64
+          path: ./msaber-back-amd64 # 下载到 amd64 专属目录
 
-      - run: ls -R msaber-back
+      - name: Download Backend Artifacts (arm64)
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact-backend-arm64
+          path: ./msaber-back-arm64 # 下载到 arm64 专属目录
+
+      - run: ls -R msaber-back-amd64
+      - run: ls -R msaber-back-arm64
+      # --- 修复结束 ---
 
       - name: Prepare Files for Release amd64
         run: |
           mkdir -p release/msaber-front
           mkdir -p release/msaber-back
           cp -r msaber-front/* release/msaber-front/
-          cp -r msaber-back/dist/linux/amd64/mediaSaber release/msaber-back/mediaSaber
-          cp -r msaber-back/etc release/msaber-back/
-          cp -r msaber-back/static release/msaber-back/
-          cp -r msaber-back/doc release/msaber-back/
+          # 修复: 从 amd64 专属路径复制
+          cp -r msaber-back-amd64/dist/linux/amd64/mediaSaber release/msaber-back/mediaSaber
+          cp -r msaber-back-amd64/etc release/msaber-back/
+          cp -r msaber-back-amd64/static release/msaber-back/
+          cp -r msaber-back-amd64/doc release/msaber-back/
 
       - name: Create ZIP Archive amd64
         run: |
           cd release
           tar -czvf mediaSaber-amd64.tar.gz msaber-front msaber-back
 
+      # --- 修复：添加清理步骤 ---
+      - name: Clean up for arm64 build
+        run: |
+          rm -rf release/msaber-back
 
       - name: Prepare Files for Release arm64
         run: |
-          cp -r msaber-back/dist/linux/arm64/mediaSaber release/msaber-back/mediaSaber
+          # 修复: 为 arm64 创建一个完整的包
+          mkdir -p release/msaber-back
+          cp -r msaber-back-arm64/dist/linux/arm64/mediaSaber release/msaber-back/mediaSaber
+          cp -r msaber-back-arm64/etc release/msaber-back/
+          cp -r msaber-back-arm64/static release/msaber-back/
+          cp -r msaber-back-arm64/doc release/msaber-back/
 
       - name: Create ZIP Archive arm64
         run: |
