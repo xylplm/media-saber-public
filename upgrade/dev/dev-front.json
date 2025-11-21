@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511212335",
+    "items": [
+      {
+        "commit": "da0351ef4992dfd51d3c2485c253b95b70d8354e",
+        "author": "liurongjie",
+        "date": "2025-11-21 23:34:24",
+        "message": "feat(cloud-storage): 优化云存储主页功能和界面交互"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511211358",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "xylplm",
         "date": "2025-11-19 16:30:24",
         "message": "fix: 优化 禁用版本检测加载动画"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511191853",
-    "items": [
-      {
-        "commit": "17e5be0d9134dc621e4349f2b6b277488276fcee",
-        "author": "liurongjie",
-        "date": "2025-11-19 14:39:17",
-        "message": "feat(cloud-storage): 新增123快链转存功能"
-      },
-      {
-        "commit": "d2168fb1b429d5cad5755194a385576cae0aeaf5",
-        "author": "liurongjie",
-        "date": "2025-11-19 13:35:07",
-        "message": "feat(cloud-storage): 增加转存任务设置及容量显示功能"
       }
     ]
   }

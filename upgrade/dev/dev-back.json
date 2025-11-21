@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511212335",
+    "items": [
+      {
+        "commit": "2832907d81228b6e3f282289e2dc7ed5ababb98b",
+        "author": "liurongjie",
+        "date": "2025-11-21 23:31:22",
+        "message": "fix(cloudStorage): 修正上传标志逻辑错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511212254",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-20 18:49:01",
         "message": "fix:秒传不显示速度"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511201327",
-    "items": [
-      {
-        "commit": "9db3aa4a6de48ab1335cc9985b6d62326bf43f4c",
-        "author": "Jolc",
-        "date": "2025-11-20 13:26:34",
-        "message": "fix:直链通知是否缓存显示错误"
       }
     ]
   }
