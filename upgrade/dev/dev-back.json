@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511212254",
+    "items": [
+      {
+        "commit": "d5edfe52d0125f49f86b614239c5cd3b425de7c8",
+        "author": "Jolc",
+        "date": "2025-11-21 19:09:11",
+        "message": "feat:云存储根据驱动能力显示上传、转存、离线下载按钮。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511211649",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-20 13:26:34",
         "message": "fix:直链通知是否缓存显示错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511201256",
-    "items": [
-      {
-        "commit": "e7ceca67048f96d9719805f1b31ac2321651588d",
-        "author": "Jolc",
-        "date": "2025-11-20 12:55:57",
-        "message": "fix: 修复open115 ck 直链方式 403 问题"
       }
     ]
   }
