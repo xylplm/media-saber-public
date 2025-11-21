@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511211358",
+    "items": [
+      {
+        "commit": "7cfaacca599c116d633af475712e18d071a3040e",
+        "author": "GateCross",
+        "date": "2025-11-21 13:56:25",
+        "message": "fix:定时任务支持时间段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511202129",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2025-11-19 13:35:07",
         "message": "feat(cloud-storage): 增加转存任务设置及容量显示功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511191631",
-    "items": [
-      {
-        "commit": "c0999e5e4787c338be8b6c33c6dd6381aaaba300",
-        "author": "xylplm",
-        "date": "2025-11-19 16:30:24",
-        "message": "fix: 优化 禁用版本检测加载动画"
       }
     ]
   }
