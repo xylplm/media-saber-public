@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511211458",
+    "items": [
+      {
+        "commit": "91ce5ced8bdeacf180cd361dde4a9be04d5e8b32",
+        "author": "Jolc",
+        "date": "2025-11-21 14:56:59",
+        "message": "fix:fast link"
+      },
+      {
+        "commit": "8a369c9d104c9018b84d6beb8a9494ed7177bd19",
+        "author": "Jolc",
+        "date": "2025-11-21 14:36:13",
+        "message": "fix:版本解析修改"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511211303",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-19 17:16:31",
         "message": "fix:ai models 不异常"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511191442",
-    "items": [
-      {
-        "commit": "ab4404ad093d5a1291b44a9bd90143e62618d961",
-        "author": "Jolc",
-        "date": "2025-11-19 13:14:14",
-        "message": "feat:云存储详细信显示开关"
       }
     ]
   }
