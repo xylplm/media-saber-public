@@ -13,7 +13,7 @@ jobs:
       - name: 创建版本号
         id: set_version
         run: |
-          echo "3.0.$(date -d '+8 hours' +'%Y%m%d%H%M')" > version_number
+          echo "3.0_$(date -d '+8 hours' +'%Y%m%d%H%M')" > version_number
           echo "version=$(cat version_number)" >> $GITHUB_ENV
 
       - name: Upload Version Artifact
@@ -106,6 +106,23 @@ jobs:
           mkdir -p msaber-back/internal/svc/cert
           echo "${{ env.version }}" > msaber-back/internal/svc/cert/softwareVersion
 
+      - name: Update Backend server.json
+        run: |
+          cat <<EOF > ./msaber-back/doc/server.json
+          {
+            "version": "${{ env.version }}",
+            "tag": "latest",
+            "arch": "${{ matrix.arch }}",
+            "latestServerDownloadUrl": "https://github.com/xylplm/media-saber-public/archive/main.zip",
+            "releasesDownloadUrl": "https://github.com/xylplm/media-saber-public/releases/download/%s/mediaSaber-${{ matrix.arch }}.tar.gz"
+          }
+          EOF
+
+      - name: Download dependencies
+        run: |
+          cd msaber-back
+          go mod download
+
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
@@ -153,14 +170,20 @@ jobs:
 
       - run: ls -R msaber-front
 
-      - name: Download Backend Artifacts
+      - name: Download Backend Artifacts (amd64)
         uses: actions/download-artifact@v4
         with:
-          pattern: my-artifact-backend-*
-          merge-multiple: true
-          path: msaber-back
+          name: my-artifact-backend-amd64
+          path: ./msaber-back-amd64
 
-      - run: ls -R msaber-back
+      - name: Download Backend Artifacts (arm64)
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact-backend-arm64
+          path: ./msaber-back-arm64
+
+      - run: ls -R msaber-back-amd64
+      - run: ls -R msaber-back-arm64
 
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
@@ -208,34 +231,47 @@ jobs:
 
       - run: ls -R msaber-front
 
-      - name: Download Backend Artifacts
+      - name: Download Backend Artifacts (amd64)
         uses: actions/download-artifact@v4
         with:
-          pattern: my-artifact-backend-*
-          merge-multiple: true
-          path: msaber-back
+          name: my-artifact-backend-amd64
+          path: ./msaber-back-amd64
 
-      - run: ls -R msaber-back
+      - name: Download Backend Artifacts (arm64)
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact-backend-arm64
+          path: ./msaber-back-arm64
+
+      - run: ls -R msaber-back-amd64
+      - run: ls -R msaber-back-arm64
 
       - name: Prepare Files for Release amd64
         run: |
           mkdir -p release/msaber-front
           mkdir -p release/msaber-back
           cp -r msaber-front/* release/msaber-front/
-          cp -r msaber-back/dist/linux/amd64/mediaSaber release/msaber-back/mediaSaber
-          cp -r msaber-back/etc release/msaber-back/
-          cp -r msaber-back/static release/msaber-back/
-          cp -r msaber-back/doc release/msaber-back/
+          cp -r msaber-back-amd64/dist/linux/amd64/mediaSaber release/msaber-back/mediaSaber
+          cp -r msaber-back-amd64/etc release/msaber-back/
+          cp -r msaber-back-amd64/static release/msaber-back/
+          cp -r msaber-back-amd64/doc release/msaber-back/
 
       - name: Create ZIP Archive amd64
         run: |
           cd release
           tar -czvf mediaSaber-amd64.tar.gz msaber-front msaber-back
 
+      - name: Clean up for arm64 build
+        run: |
+          rm -rf release/msaber-back
 
       - name: Prepare Files for Release arm64
         run: |
-          cp -r msaber-back/dist/linux/arm64/mediaSaber release/msaber-back/mediaSaber
+          mkdir -p release/msaber-back
+          cp -r msaber-back-arm64/dist/linux/arm64/mediaSaber release/msaber-back/mediaSaber
+          cp -r msaber-back-arm64/etc release/msaber-back/
+          cp -r msaber-back-arm64/static release/msaber-back/
+          cp -r msaber-back-arm64/doc release/msaber-back/
 
       - name: Create ZIP Archive arm64
         run: |
