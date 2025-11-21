@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511211303",
+    "items": [
+      {
+        "commit": "abb0f734392b357bccfecc777f620b60db9ea198",
+        "author": "Jolc",
+        "date": "2025-11-21 13:03:01",
+        "message": "feat:远程代理test"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511210033",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-19 13:14:14",
         "message": "feat:云存储详细信显示开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511191308",
-    "items": [
-      {
-        "commit": "82803092cc5dc6e5ff3ff80e7ee8ef940b143141",
-        "author": "Jolc",
-        "date": "2025-11-19 12:54:04",
-        "message": "feat:云存储列表显示空间"
-      },
-      {
-        "commit": "8bcad75074e6bec873691a0b3029a1f3cdec4f98",
-        "author": "Jolc",
-        "date": "2025-11-19 00:02:32",
-        "message": "feat:云存储转存任务、open123 支持 FastLink json文件转为转存任务。"
       }
     ]
   }
