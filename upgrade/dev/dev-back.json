@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511211628",
+    "items": [
+      {
+        "commit": "3bc47bb29cd6f38d24e79331e3f3bb30f64d4aae",
+        "author": "weni09",
+        "date": "2025-11-21 16:15:34",
+        "message": "feat:123pan strm文件添加id"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511211458",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-19 22:22:39",
         "message": "feat: open115 增加使用 ck 获取直链的开关。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511191853",
-    "items": [
-      {
-        "commit": "a50344a3e76281ab6b88bb9fcfc2a543c8eb15f1",
-        "author": "Jolc",
-        "date": "2025-11-19 17:16:31",
-        "message": "fix:ai models 不异常"
       }
     ]
   }
