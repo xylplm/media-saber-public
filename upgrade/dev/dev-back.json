@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202511212347",
+    "items": [
+      {
+        "commit": "bb3d31046e08ba9c3849c2c8974bf024cfcc4360",
+        "author": "weni09",
+        "date": "2025-11-21 23:46:35",
+        "message": "fix:"
+      },
+      {
+        "commit": "dac7838afec3d280df5648174d629c685101b3d9",
+        "author": "Jolc",
+        "date": "2025-11-21 23:39:41",
+        "message": "feat:云存储本地代理，同时支持下载速度限制。"
+      },
+      {
+        "commit": "2832907d81228b6e3f282289e2dc7ed5ababb98b",
+        "author": "liurongjie",
+        "date": "2025-11-21 23:31:22",
+        "message": "fix(cloudStorage): 修正上传标志逻辑错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511212340",
     "items": [
       {
@@ -113,17 +136,6 @@
         "author": "GateCross",
         "date": "2025-11-20 23:41:39",
         "message": "fix:优化提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511202324",
-    "items": [
-      {
-        "commit": "ae2a90f2ae488d1c482372c3d1a87c24a2b8f54a",
-        "author": "GateCross",
-        "date": "2025-11-20 23:23:04",
-        "message": "fix:恢复热更新重启"
       }
     ]
   }
