@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511211649",
+    "items": [
+      {
+        "commit": "16b2ab96cae10d01b8d5b459d36623a8ecd72eda",
+        "author": "weni09",
+        "date": "2025-11-21 16:47:04",
+        "message": "fix:strm串判空，增强健壮性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511211628",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-20 12:55:57",
         "message": "fix: 修复open115 ck 直链方式 403 问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511192223",
-    "items": [
-      {
-        "commit": "a9e12cca07788c8e727d3e179e7489d21248d1f0",
-        "author": "Jolc",
-        "date": "2025-11-19 22:22:39",
-        "message": "feat: open115 增加使用 ck 获取直链的开关。"
       }
     ]
   }
