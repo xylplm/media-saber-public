@@ -26,3 +26,5 @@ umask "${UMASK}"
 exec su-exec msaber:msaber /app/mediaSaber
 
 # exec su-exec msaber:msaber dlv --listen=:2345 --headless=true --api-version=2 --accept-multiclient exec /app/mediaSaber
+
+https://github.com/xylplm/media-saber-public/releases/download/DEV_202511202129/mediaSaber-amd64.tar.gz
