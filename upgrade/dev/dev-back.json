@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511230521",
+    "items": [
+      {
+        "commit": "e4284bf8916f29cedcdd6f85b78203d2ea16f5b9",
+        "author": "Jolc",
+        "date": "2025-11-23 05:21:00",
+        "message": "feat:远程代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511222258",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2025-11-21 23:31:22",
         "message": "fix(cloudStorage): 修正上传标志逻辑错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511212254",
-    "items": [
-      {
-        "commit": "d5edfe52d0125f49f86b614239c5cd3b425de7c8",
-        "author": "Jolc",
-        "date": "2025-11-21 19:09:11",
-        "message": "feat:云存储根据驱动能力显示上传、转存、离线下载按钮。"
       }
     ]
   }
