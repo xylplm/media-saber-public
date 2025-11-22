@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511222248",
+    "items": [
+      {
+        "commit": "f1383cf50ce6423690dc8b6f9a3f9dc0cfdc1318",
+        "author": "GateCross",
+        "date": "2025-11-22 22:44:52",
+        "message": "fix:优化bark通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511222234",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "weni09",
         "date": "2025-11-21 16:47:04",
         "message": "fix:strm串判空，增强健壮性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511211628",
-    "items": [
-      {
-        "commit": "3bc47bb29cd6f38d24e79331e3f3bb30f64d4aae",
-        "author": "weni09",
-        "date": "2025-11-21 16:15:34",
-        "message": "feat:123pan strm文件添加id"
       }
     ]
   }
