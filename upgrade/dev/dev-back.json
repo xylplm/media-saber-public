@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511222234",
+    "items": [
+      {
+        "commit": "7ef56a9c40a3d0a321571f3204f81c7c77513c26",
+        "author": "Jolc",
+        "date": "2025-11-22 22:22:20",
+        "message": "fix:目录同步到云存储支持媒体库刷新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511222156",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "weni09",
         "date": "2025-11-21 16:15:34",
         "message": "feat:123pan strm文件添加id"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511211458",
-    "items": [
-      {
-        "commit": "91ce5ced8bdeacf180cd361dde4a9be04d5e8b32",
-        "author": "Jolc",
-        "date": "2025-11-21 14:56:59",
-        "message": "fix:fast link"
-      },
-      {
-        "commit": "8a369c9d104c9018b84d6beb8a9494ed7177bd19",
-        "author": "Jolc",
-        "date": "2025-11-21 14:36:13",
-        "message": "fix:版本解析修改"
       }
     ]
   }
