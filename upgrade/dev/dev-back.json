@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511221147",
+    "items": [
+      {
+        "commit": "8843774ee94127893c9d8cff2626615b718b1fea",
+        "author": "liurongjie",
+        "date": "2025-11-22 11:45:46",
+        "message": "feat(plex): add debug logging for media library refresh operations"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511221032",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "Jolc",
         "date": "2025-11-21 13:03:01",
         "message": "feat:远程代理test"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511210033",
-    "items": [
-      {
-        "commit": "abe2e02a0b0ef8e6a267eeccd8e717b3eef97b5e",
-        "author": "Jolc",
-        "date": "2025-11-21 00:32:46",
-        "message": "feat:本地代理分片大小配置"
-      },
-      {
-        "commit": "d0c6bd394f1f661c0c196c8966467edce377ac67",
-        "author": "Jolc",
-        "date": "2025-11-21 00:22:50",
-        "message": "feat:strm播放支持本地代理(云存储打开Web代理开关，WebDAV策略选本地代理)"
       }
     ]
   }
