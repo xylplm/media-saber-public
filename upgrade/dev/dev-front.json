@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511221032",
+    "items": [
+      {
+        "commit": "cd923c883faf994b12e3c7c7cfb90cec34a824c2",
+        "author": "liurongjie",
+        "date": "2025-11-22 10:01:08",
+        "message": "fix(cloud-storage): 修复文件大小显示逻辑"
+      },
+      {
+        "commit": "76963b2328fb0fda2038d5713b4114e1b2df778b",
+        "author": "liurongjie",
+        "date": "2025-11-22 09:44:26",
+        "message": "feat(cloud-storage): 优化任务卡片界面并添加路径复制功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511212335",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2025-11-19 13:35:07",
         "message": "feat(cloud-storage): 增加转存任务设置及容量显示功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511192223",
-    "items": [
-      {
-        "commit": "c0999e5e4787c338be8b6c33c6dd6381aaaba300",
-        "author": "xylplm",
-        "date": "2025-11-19 16:30:24",
-        "message": "fix: 优化 禁用版本检测加载动画"
       }
     ]
   }

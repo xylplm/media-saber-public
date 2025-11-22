@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511221032",
+    "items": [
+      {
+        "commit": "958e2445dfb69e87b9404b794ca6bf9e602ee6d5",
+        "author": "Jolc",
+        "date": "2025-11-22 10:32:34",
+        "message": "fix:云存储整理找不到文件问题优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511212347",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "Jolc",
         "date": "2025-11-21 00:22:50",
         "message": "feat:strm播放支持本地代理(云存储打开Web代理开关，WebDAV策略选本地代理)"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511202342",
-    "items": [
-      {
-        "commit": "0439840b43233028eec3d15f125b2040839c4187",
-        "author": "GateCross",
-        "date": "2025-11-20 23:41:39",
-        "message": "fix:优化提示"
       }
     ]
   }
