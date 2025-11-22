@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511222258",
+    "items": [
+      {
+        "commit": "2ddeffa7525e76e6063f6ec917bb14a80447201e",
+        "author": "Jolc",
+        "date": "2025-11-22 22:57:54",
+        "message": "fix:上传云存储成功后支持刷新媒体库。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511222248",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "Jolc",
         "date": "2025-11-21 19:09:11",
         "message": "feat:云存储根据驱动能力显示上传、转存、离线下载按钮。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511211649",
-    "items": [
-      {
-        "commit": "16b2ab96cae10d01b8d5b459d36623a8ecd72eda",
-        "author": "weni09",
-        "date": "2025-11-21 16:47:04",
-        "message": "fix:strm串判空，增强健壮性"
       }
     ]
   }
