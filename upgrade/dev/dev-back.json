@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511231928",
+    "items": [
+      {
+        "commit": "69693d73c93a454f476c129d0f1f906c25fb9cfc",
+        "author": "Jolc",
+        "date": "2025-11-23 19:27:52",
+        "message": "fix:云存储禁用状态无法修改的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511231415",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "liurongjie",
         "date": "2025-11-21 23:31:22",
         "message": "fix(cloudStorage): 修正上传标志逻辑错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511212340",
-    "items": [
-      {
-        "commit": "25a33d9d709e5b8a2b994bf337b019bd0e9b8a36",
-        "author": "weni09",
-        "date": "2025-11-21 23:40:11",
-        "message": "fix:网盘上传标记问题"
-      },
-      {
-        "commit": "dac7838afec3d280df5648174d629c685101b3d9",
-        "author": "Jolc",
-        "date": "2025-11-21 23:39:41",
-        "message": "feat:云存储本地代理，同时支持下载速度限制。"
       }
     ]
   }
