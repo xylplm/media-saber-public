@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511240116",
+    "items": [
+      {
+        "commit": "c7e1a2e0962aa21b68d2fe3b1dd5dec3b62e0aa8",
+        "author": "Jolc",
+        "date": "2025-11-24 01:15:56",
+        "message": "fix:远程代理通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511240054",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2025-11-22 11:45:46",
         "message": "feat(plex): add debug logging for media library refresh operations"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511221032",
-    "items": [
-      {
-        "commit": "958e2445dfb69e87b9404b794ca6bf9e602ee6d5",
-        "author": "Jolc",
-        "date": "2025-11-22 10:32:34",
-        "message": "fix:云存储整理找不到文件问题优化"
       }
     ]
   }
