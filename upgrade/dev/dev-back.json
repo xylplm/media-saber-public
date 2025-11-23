@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511231415",
+    "items": [
+      {
+        "commit": "925ce4cecd9d5388fabfd4a4d7499602655f9f11",
+        "author": "Jolc",
+        "date": "2025-11-23 14:14:48",
+        "message": "fix:通用远程代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511230521",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "Jolc",
         "date": "2025-11-21 23:39:41",
         "message": "feat:云存储本地代理，同时支持下载速度限制。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511212335",
-    "items": [
-      {
-        "commit": "2832907d81228b6e3f282289e2dc7ed5ababb98b",
-        "author": "liurongjie",
-        "date": "2025-11-21 23:31:22",
-        "message": "fix(cloudStorage): 修正上传标志逻辑错误"
       }
     ]
   }
