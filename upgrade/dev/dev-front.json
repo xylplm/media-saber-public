@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202511242153",
+    "items": [
+      {
+        "commit": "c0745f6c99bf3b4f047798044292fb5e1aa3d6b3",
+        "author": "xylplm",
+        "date": "2025-11-24 13:49:15",
+        "message": "fix: 优化 文件类型方法抽出到公共方法中"
+      },
+      {
+        "commit": "a2f5267195070636ac1bfd930e55fd0bf7322d6b",
+        "author": "xylplm",
+        "date": "2025-11-24 13:46:09",
+        "message": "fix: lint error"
+      },
+      {
+        "commit": "208e3734ba3623eefdc52290aa90c269c952f12b",
+        "author": "xylplm",
+        "date": "2025-11-24 13:36:30",
+        "message": "fix:字符串复制方法更换为angular cdk方法"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511221032",
     "items": [
       {
@@ -125,29 +148,6 @@
         "author": "xylplm",
         "date": "2025-11-20 09:28:59",
         "message": "format code"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511192348",
-    "items": [
-      {
-        "commit": "af7a979ae1cfc06bf7b6582dd35109c8d7f2a376",
-        "author": "github-actions[bot]",
-        "date": "2025-11-19 23:48:08",
-        "message": "fix:云存储 ui 优化"
-      },
-      {
-        "commit": "17e5be0d9134dc621e4349f2b6b277488276fcee",
-        "author": "liurongjie",
-        "date": "2025-11-19 14:39:17",
-        "message": "feat(cloud-storage): 新增123快链转存功能"
-      },
-      {
-        "commit": "d2168fb1b429d5cad5755194a385576cae0aeaf5",
-        "author": "liurongjie",
-        "date": "2025-11-19 13:35:07",
-        "message": "feat(cloud-storage): 增加转存任务设置及容量显示功能"
       }
     ]
   }

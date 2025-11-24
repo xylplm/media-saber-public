@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511242153",
+    "items": [
+      {
+        "commit": "10911cf56298aa58619a8b5ca6e2ee301d00c70f",
+        "author": "Jolc",
+        "date": "2025-11-24 21:50:02",
+        "message": "fix: strm302 通知局域网显示问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511240116",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-22 10:32:34",
         "message": "fix:云存储整理找不到文件问题优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511221147",
-    "items": [
-      {
-        "commit": "8843774ee94127893c9d8cff2626615b718b1fea",
-        "author": "liurongjie",
-        "date": "2025-11-22 11:45:46",
-        "message": "feat(plex): add debug logging for media library refresh operations"
       }
     ]
   }
