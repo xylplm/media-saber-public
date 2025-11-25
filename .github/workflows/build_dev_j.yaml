@@ -175,14 +175,22 @@ jobs:
 
       - run: ls -R msaber-front
 
-      - name: Download Backend Artifacts
+      - name: Download Backend Artifacts (amd64)
         uses: actions/download-artifact@v4
         with:
-          pattern: my-artifact-backend-*
-          merge-multiple: true
-          path: msaber-back
+          name: my-artifact-backend-amd64
+          path: ./msaber-back-amd64
 
-      - run: ls -R msaber-back
+      - name: Download Backend Artifacts (arm64)
+        uses: actions/download-artifact@v4
+        with:
+          name: my-artifact-backend-arm64
+          path: ./msaber-back-arm64
+
+      - name: List files for debugging
+        run: |
+          ls -R msaber-back-amd64
+          ls -R msaber-back-arm64
 
       - name: Docker Setup Buildx
         uses: docker/setup-buildx-action@v3.0.0
