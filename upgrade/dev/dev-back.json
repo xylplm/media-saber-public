@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202511251123",
+    "items": [
+      {
+        "commit": "d1eba7bbaf7ba3335f161bf0d5ba5afc39653862",
+        "author": "yii",
+        "date": "2025-11-25 11:21:02",
+        "message": "fix: 增加auth patch难度"
+      },
+      {
+        "commit": "211a91bf1a9269533280549d12c08e95fca4038e",
+        "author": "xylplm",
+        "date": "2025-11-25 10:57:31",
+        "message": "feat:update version"
+      },
+      {
+        "commit": "b27aee13fe1fc00467ca3f41a11518d907474691",
+        "author": "Jolc",
+        "date": "2025-11-24 22:55:20",
+        "message": "fix:离线下载不显示速度"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511242153",
     "items": [
       {
@@ -95,35 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-22 22:22:20",
         "message": "fix:目录同步到云存储支持媒体库刷新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511222156",
-    "items": [
-      {
-        "commit": "af6dba65561f526894fff648b326c92e9df9fc59",
-        "author": "Jolc",
-        "date": "2025-11-22 21:55:33",
-        "message": "feat: 123 分享链接转存（云存储任务）"
-      },
-      {
-        "commit": "20338f50e538e2881907c07f8193ea2b19d840e5",
-        "author": "GateCross",
-        "date": "2025-11-22 21:41:03",
-        "message": "fix:优化bark通知"
-      },
-      {
-        "commit": "239d5c473091ed8a1c8440769232a4560023d607",
-        "author": "Jolc",
-        "date": "2025-11-22 15:55:15",
-        "message": "fix:云整理找不到文件问题"
-      },
-      {
-        "commit": "958e2445dfb69e87b9404b794ca6bf9e602ee6d5",
-        "author": "Jolc",
-        "date": "2025-11-22 10:32:34",
-        "message": "fix:云存储整理找不到文件问题优化"
       }
     ]
   }
