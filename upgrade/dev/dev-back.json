@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511251234",
+    "items": [
+      {
+        "commit": "6a5e64d444f885f0942e9e158f0451d31f26b485",
+        "author": "yii",
+        "date": "2025-11-25 12:15:44",
+        "message": "del: 移除多余日志"
+      },
+      {
+        "commit": "7234e186032fb0ed61038818c074a4b58238a94f",
+        "author": "yii",
+        "date": "2025-11-25 12:15:16",
+        "message": "add: 增加暗桩"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511251123",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "GateCross",
         "date": "2025-11-22 22:44:52",
         "message": "fix:优化bark通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511222234",
-    "items": [
-      {
-        "commit": "7ef56a9c40a3d0a321571f3204f81c7c77513c26",
-        "author": "Jolc",
-        "date": "2025-11-22 22:22:20",
-        "message": "fix:目录同步到云存储支持媒体库刷新"
       }
     ]
   }
