@@ -130,7 +130,7 @@ jobs:
       - name: Build for ${{ matrix.arch }}
         run: |
           cd msaber-back
-          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build --trimpath -tags no_k8s -ldflags="-w -s -X'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
+          CGO_ENABLED=0 GOOS=linux GOARCH=${{ matrix.arch }} go build --trimpath -tags no_k8s -ldflags="-w -s -X 'github.com/xylplm/media-saber-back-end/internal/svc.sqlDebug=false'" -o dist/linux/${{ matrix.arch }}/mediaSaber .
 
       - name: Prepare Files
         run: |
