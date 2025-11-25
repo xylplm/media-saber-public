@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511251629",
+    "items": [
+      {
+        "commit": "76b32974aa8e9cf55902b2e2a7df1b8711e76ca4",
+        "author": "liurongjie",
+        "date": "2025-11-25 16:28:38",
+        "message": "fix(mediaserver): 修复 Plex 媒体库刷新路径处理逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511251320",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-11-23 14:14:48",
         "message": "fix:通用远程代理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511230521",
-    "items": [
-      {
-        "commit": "e4284bf8916f29cedcdd6f85b78203d2ea16f5b9",
-        "author": "Jolc",
-        "date": "2025-11-23 05:21:00",
-        "message": "feat:远程代理"
       }
     ]
   }
