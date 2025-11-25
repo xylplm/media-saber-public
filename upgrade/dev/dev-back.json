@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511251320",
+    "items": [
+      {
+        "commit": "5f66d6d1ad83d71c04f204a28506c66677d64324",
+        "author": "yii",
+        "date": "2025-11-25 13:20:31",
+        "message": "fix: 优化错误提示"
+      },
+      {
+        "commit": "b5226713b0c99cf35f2d0311bfdfb98fb33ab6bc",
+        "author": "yii",
+        "date": "2025-11-25 13:12:12",
+        "message": "fix: 优化错误提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511251303",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-11-23 05:21:00",
         "message": "feat:远程代理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511222258",
-    "items": [
-      {
-        "commit": "2ddeffa7525e76e6063f6ec917bb14a80447201e",
-        "author": "Jolc",
-        "date": "2025-11-22 22:57:54",
-        "message": "fix:上传云存储成功后支持刷新媒体库。"
       }
     ]
   }
