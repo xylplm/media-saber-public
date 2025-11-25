@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511251303",
+    "items": [
+      {
+        "commit": "4c9222c50fedeea6479bf68b858673d841e747e1",
+        "author": "yii",
+        "date": "2025-11-25 13:00:02",
+        "message": "fix: 中间件panic"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511251234",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-11-22 22:57:54",
         "message": "fix:上传云存储成功后支持刷新媒体库。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511222248",
-    "items": [
-      {
-        "commit": "f1383cf50ce6423690dc8b6f9a3f9dc0cfdc1318",
-        "author": "GateCross",
-        "date": "2025-11-22 22:44:52",
-        "message": "fix:优化bark通知"
       }
     ]
   }
