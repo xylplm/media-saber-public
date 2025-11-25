@@ -1,0 +1,127 @@
+[
+  {
+    "version": "3.0_202511251429",
+    "items": [
+      {
+        "commit": "c0745f6c99bf3b4f047798044292fb5e1aa3d6b3",
+        "author": "xylplm",
+        "date": "2025-11-24 13:49:15",
+        "message": "fix: 优化 文件类型方法抽出到公共方法中"
+      },
+      {
+        "commit": "a2f5267195070636ac1bfd930e55fd0bf7322d6b",
+        "author": "xylplm",
+        "date": "2025-11-24 13:46:09",
+        "message": "fix: lint error"
+      },
+      {
+        "commit": "208e3734ba3623eefdc52290aa90c269c952f12b",
+        "author": "xylplm",
+        "date": "2025-11-24 13:36:30",
+        "message": "fix:字符串复制方法更换为angular cdk方法"
+      },
+      {
+        "commit": "cd923c883faf994b12e3c7c7cfb90cec34a824c2",
+        "author": "liurongjie",
+        "date": "2025-11-22 10:01:08",
+        "message": "fix(cloud-storage): 修复文件大小显示逻辑"
+      },
+      {
+        "commit": "76963b2328fb0fda2038d5713b4114e1b2df778b",
+        "author": "liurongjie",
+        "date": "2025-11-22 09:44:26",
+        "message": "feat(cloud-storage): 优化任务卡片界面并添加路径复制功能"
+      },
+      {
+        "commit": "da0351ef4992dfd51d3c2485c253b95b70d8354e",
+        "author": "liurongjie",
+        "date": "2025-11-21 23:34:24",
+        "message": "feat(cloud-storage): 优化云存储主页功能和界面交互"
+      },
+      {
+        "commit": "7cfaacca599c116d633af475712e18d071a3040e",
+        "author": "GateCross",
+        "date": "2025-11-21 13:56:25",
+        "message": "fix:定时任务支持时间段"
+      },
+      {
+        "commit": "b516cc64e2ff881e4c0eaa3bf4d145f1d3cf76bd",
+        "author": "xylplm",
+        "date": "2025-11-20 16:55:01",
+        "message": "fix: 清除冗余文件"
+      },
+      {
+        "commit": "977238071ccd270efca9109713413647d6edaef7",
+        "author": "liurongjie",
+        "date": "2025-11-20 15:48:42",
+        "message": "feat(search): 显示种子详细信息中的分辨率标签"
+      },
+      {
+        "commit": "d9370e9730578894745c52c2fb6518e3d052a759",
+        "author": "liurongjie",
+        "date": "2025-11-20 13:09:50",
+        "message": "style(cloud-storage): 统一进度标签的冒号样式"
+      },
+      {
+        "commit": "29b1ec8aba3da37f86ebfe2ae79db35a33c0e6e3",
+        "author": "liurongjie",
+        "date": "2025-11-20 12:34:09",
+        "message": "style(cloud-storage): 优化未完成任务卡片样式与信息展示"
+      },
+      {
+        "commit": "d1a71224d03df500e584b342cc60591745d28ae7",
+        "author": "liurongjie",
+        "date": "2025-11-20 12:28:09",
+        "message": "style(cloud-storage): 优化完成任务卡片样式与布局"
+      },
+      {
+        "commit": "3a8f61117bbc193f9629c0f1b23c231f7abd8517",
+        "author": "xylplm",
+        "date": "2025-11-20 11:28:16",
+        "message": "Update angular-best-practices.prompt.md"
+      },
+      {
+        "commit": "f2e5cd0602e581ee3cfee4a51f14e72f253bbf0a",
+        "author": "xylplm",
+        "date": "2025-11-20 10:33:22",
+        "message": "fix: 优化更新日志和提示页面的UI"
+      },
+      {
+        "commit": "cd267e83bc285798af240bdb35cc02eb1abf1e44",
+        "author": "xylplm",
+        "date": "2025-11-20 10:32:55",
+        "message": "feat:flex和宽度scss支持响应式定义"
+      },
+      {
+        "commit": "69cf4606d93fe8192d69369bf2cc8409b07aa5cf",
+        "author": "xylplm",
+        "date": "2025-11-20 09:51:09",
+        "message": "fix:优化存储管理列表样式"
+      },
+      {
+        "commit": "56d237fc90585fa57d757fdf020324ef0156cad9",
+        "author": "xylplm",
+        "date": "2025-11-20 09:28:59",
+        "message": "format code"
+      },
+      {
+        "commit": "af7a979ae1cfc06bf7b6582dd35109c8d7f2a376",
+        "author": "github-actions[bot]",
+        "date": "2025-11-19 23:48:08",
+        "message": "fix:云存储 ui 优化"
+      },
+      {
+        "commit": "c0999e5e4787c338be8b6c33c6dd6381aaaba300",
+        "author": "xylplm",
+        "date": "2025-11-19 16:30:24",
+        "message": "fix: 优化 禁用版本检测加载动画"
+      },
+      {
+        "commit": "17e5be0d9134dc621e4349f2b6b277488276fcee",
+        "author": "liurongjie",
+        "date": "2025-11-19 14:39:17",
+        "message": "feat(cloud-storage): 新增123快链转存功能"
+      }
+    ]
+  }
+]

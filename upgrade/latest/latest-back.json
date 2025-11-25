@@ -1,0 +1,127 @@
+[
+  {
+    "version": "3.0_202511251429",
+    "items": [
+      {
+        "commit": "5f66d6d1ad83d71c04f204a28506c66677d64324",
+        "author": "yii",
+        "date": "2025-11-25 13:20:31",
+        "message": "fix: 优化错误提示"
+      },
+      {
+        "commit": "b5226713b0c99cf35f2d0311bfdfb98fb33ab6bc",
+        "author": "yii",
+        "date": "2025-11-25 13:12:12",
+        "message": "fix: 优化错误提示"
+      },
+      {
+        "commit": "4c9222c50fedeea6479bf68b858673d841e747e1",
+        "author": "yii",
+        "date": "2025-11-25 13:00:02",
+        "message": "fix: 中间件panic"
+      },
+      {
+        "commit": "6a5e64d444f885f0942e9e158f0451d31f26b485",
+        "author": "yii",
+        "date": "2025-11-25 12:15:44",
+        "message": "del: 移除多余日志"
+      },
+      {
+        "commit": "7234e186032fb0ed61038818c074a4b58238a94f",
+        "author": "yii",
+        "date": "2025-11-25 12:15:16",
+        "message": "add: 增加暗桩"
+      },
+      {
+        "commit": "d1eba7bbaf7ba3335f161bf0d5ba5afc39653862",
+        "author": "yii",
+        "date": "2025-11-25 11:21:02",
+        "message": "fix: 增加auth patch难度"
+      },
+      {
+        "commit": "211a91bf1a9269533280549d12c08e95fca4038e",
+        "author": "xylplm",
+        "date": "2025-11-25 10:57:31",
+        "message": "feat:update version"
+      },
+      {
+        "commit": "b27aee13fe1fc00467ca3f41a11518d907474691",
+        "author": "Jolc",
+        "date": "2025-11-24 22:55:20",
+        "message": "fix:离线下载不显示速度"
+      },
+      {
+        "commit": "10911cf56298aa58619a8b5ca6e2ee301d00c70f",
+        "author": "Jolc",
+        "date": "2025-11-24 21:50:02",
+        "message": "fix: strm302 通知局域网显示问题。"
+      },
+      {
+        "commit": "c7e1a2e0962aa21b68d2fe3b1dd5dec3b62e0aa8",
+        "author": "Jolc",
+        "date": "2025-11-24 01:15:56",
+        "message": "fix:远程代理通知"
+      },
+      {
+        "commit": "0d2d379f1efbe2091027e68c9716a712bacbaacd",
+        "author": "Jolc",
+        "date": "2025-11-24 00:54:34",
+        "message": "feat:strm302通知分类"
+      },
+      {
+        "commit": "69693d73c93a454f476c129d0f1f906c25fb9cfc",
+        "author": "Jolc",
+        "date": "2025-11-23 19:27:52",
+        "message": "fix:云存储禁用状态无法修改的问题"
+      },
+      {
+        "commit": "925ce4cecd9d5388fabfd4a4d7499602655f9f11",
+        "author": "Jolc",
+        "date": "2025-11-23 14:14:48",
+        "message": "fix:通用远程代理"
+      },
+      {
+        "commit": "e4284bf8916f29cedcdd6f85b78203d2ea16f5b9",
+        "author": "Jolc",
+        "date": "2025-11-23 05:21:00",
+        "message": "feat:远程代理"
+      },
+      {
+        "commit": "2ddeffa7525e76e6063f6ec917bb14a80447201e",
+        "author": "Jolc",
+        "date": "2025-11-22 22:57:54",
+        "message": "fix:上传云存储成功后支持刷新媒体库。"
+      },
+      {
+        "commit": "f1383cf50ce6423690dc8b6f9a3f9dc0cfdc1318",
+        "author": "GateCross",
+        "date": "2025-11-22 22:44:52",
+        "message": "fix:优化bark通知"
+      },
+      {
+        "commit": "7ef56a9c40a3d0a321571f3204f81c7c77513c26",
+        "author": "Jolc",
+        "date": "2025-11-22 22:22:20",
+        "message": "fix:目录同步到云存储支持媒体库刷新"
+      },
+      {
+        "commit": "af6dba65561f526894fff648b326c92e9df9fc59",
+        "author": "Jolc",
+        "date": "2025-11-22 21:55:33",
+        "message": "feat: 123 分享链接转存（云存储任务）"
+      },
+      {
+        "commit": "20338f50e538e2881907c07f8193ea2b19d840e5",
+        "author": "GateCross",
+        "date": "2025-11-22 21:41:03",
+        "message": "fix:优化bark通知"
+      },
+      {
+        "commit": "239d5c473091ed8a1c8440769232a4560023d607",
+        "author": "Jolc",
+        "date": "2025-11-22 15:55:15",
+        "message": "fix:云整理找不到文件问题"
+      }
+    ]
+  }
+]
