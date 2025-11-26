@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511262239",
+    "items": [
+      {
+        "commit": "fcd41d9934bef2d34960bccc08f197211f2da4a0",
+        "author": "Jolc",
+        "date": "2025-11-26 22:38:34",
+        "message": "fix:详情不显示已订阅问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511262222",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "yii",
         "date": "2025-11-25 12:15:16",
         "message": "add: 增加暗桩"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511251123",
-    "items": [
-      {
-        "commit": "d1eba7bbaf7ba3335f161bf0d5ba5afc39653862",
-        "author": "yii",
-        "date": "2025-11-25 11:21:02",
-        "message": "fix: 增加auth patch难度"
-      },
-      {
-        "commit": "211a91bf1a9269533280549d12c08e95fca4038e",
-        "author": "xylplm",
-        "date": "2025-11-25 10:57:31",
-        "message": "feat:update version"
-      },
-      {
-        "commit": "b27aee13fe1fc00467ca3f41a11518d907474691",
-        "author": "Jolc",
-        "date": "2025-11-24 22:55:20",
-        "message": "fix:离线下载不显示速度"
       }
     ]
   }
