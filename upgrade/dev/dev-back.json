@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511261011",
+    "items": [
+      {
+        "commit": "6344355678bc106a2c8041f2b76511004f068e54",
+        "author": "Jolc",
+        "date": "2025-11-25 22:16:21",
+        "message": "feat:搜索自动建议以及全平台搜索，修复爱奇艺和 letterboxd 搜索异常。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511251629",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-11-23 19:27:52",
         "message": "fix:云存储禁用状态无法修改的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511231415",
-    "items": [
-      {
-        "commit": "925ce4cecd9d5388fabfd4a4d7499602655f9f11",
-        "author": "Jolc",
-        "date": "2025-11-23 14:14:48",
-        "message": "fix:通用远程代理"
       }
     ]
   }
