@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511261905",
+    "items": [
+      {
+        "commit": "8af12cb37ee58a24af5839b86520b60f1dc639da",
+        "author": "Jolc",
+        "date": "2025-11-26 18:32:21",
+        "message": "fix:strm 异常通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511261258",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-11-24 01:15:56",
         "message": "fix:远程代理通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511240054",
-    "items": [
-      {
-        "commit": "0d2d379f1efbe2091027e68c9716a712bacbaacd",
-        "author": "Jolc",
-        "date": "2025-11-24 00:54:34",
-        "message": "feat:strm302通知分类"
       }
     ]
   }

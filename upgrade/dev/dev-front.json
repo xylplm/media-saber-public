@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511261905",
+    "items": [
+      {
+        "commit": "eb1b83b16eb18e605a67ed763296ac6f2ebe2a1e",
+        "author": "liurongjie",
+        "date": "2025-11-26 19:04:35",
+        "message": "feat(search): 优化搜索建议显示样式与数据结构"
+      },
+      {
+        "commit": "b524b861057d72f75358cc79858660a93d1667ce",
+        "author": "liurongjie",
+        "date": "2025-11-26 18:59:14",
+        "message": "feat(search): 实现影视作品搜索输入及全平台搜索支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511261258",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "xylplm",
         "date": "2025-11-20 11:28:16",
         "message": "Update angular-best-practices.prompt.md"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511201034",
-    "items": [
-      {
-        "commit": "f2e5cd0602e581ee3cfee4a51f14e72f253bbf0a",
-        "author": "xylplm",
-        "date": "2025-11-20 10:33:22",
-        "message": "fix: 优化更新日志和提示页面的UI"
-      },
-      {
-        "commit": "cd267e83bc285798af240bdb35cc02eb1abf1e44",
-        "author": "xylplm",
-        "date": "2025-11-20 10:32:55",
-        "message": "feat:flex和宽度scss支持响应式定义"
       }
     ]
   }
