@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511262222",
+    "items": [
+      {
+        "commit": "adbe062fe31a93fb7af7f68a17b1afbc5cd51929",
+        "author": "Jolc",
+        "date": "2025-11-26 22:20:56",
+        "message": "fix:修复详情在订阅运行中显示未订阅问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511262153",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "Jolc",
         "date": "2025-11-24 22:55:20",
         "message": "fix:离线下载不显示速度"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511242153",
-    "items": [
-      {
-        "commit": "10911cf56298aa58619a8b5ca6e2ee301d00c70f",
-        "author": "Jolc",
-        "date": "2025-11-24 21:50:02",
-        "message": "fix: strm302 通知局域网显示问题。"
       }
     ]
   }
