@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511261258",
+    "items": [
+      {
+        "commit": "9cf184b2edcabafa32f6f3e08482933bcb069308",
+        "author": "yii",
+        "date": "2025-11-26 10:37:52",
+        "message": "fix: 优化暗装线程安全"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511261011",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-11-24 00:54:34",
         "message": "feat:strm302通知分类"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511231928",
-    "items": [
-      {
-        "commit": "69693d73c93a454f476c129d0f1f906c25fb9cfc",
-        "author": "Jolc",
-        "date": "2025-11-23 19:27:52",
-        "message": "fix:云存储禁用状态无法修改的问题"
       }
     ]
   }

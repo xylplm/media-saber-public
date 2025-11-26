@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511261258",
+    "items": [
+      {
+        "commit": "1d80186be6a5e150586587d27386c14a580a3c96",
+        "author": "liurongjie",
+        "date": "2025-11-26 11:15:55",
+        "message": "style(cloud-storage): 调整云存储设置表单字段宽度"
+      },
+      {
+        "commit": "36670ac5c759ce32859b7cafc5e9b22ebf8b0716",
+        "author": "liurongjie",
+        "date": "2025-11-26 11:04:11",
+        "message": "feat(search): 添加搜索框自动建议功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511242153",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "xylplm",
         "date": "2025-11-20 10:32:55",
         "message": "feat:flex和宽度scss支持响应式定义"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511200951",
-    "items": [
-      {
-        "commit": "69cf4606d93fe8192d69369bf2cc8409b07aa5cf",
-        "author": "xylplm",
-        "date": "2025-11-20 09:51:09",
-        "message": "fix:优化存储管理列表样式"
-      },
-      {
-        "commit": "56d237fc90585fa57d757fdf020324ef0156cad9",
-        "author": "xylplm",
-        "date": "2025-11-20 09:28:59",
-        "message": "format code"
       }
     ]
   }
