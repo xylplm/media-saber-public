@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511272358",
+    "items": [
+      {
+        "commit": "bf78cb472e8e523c11f1da25d55661034179dc34",
+        "author": "Jolc",
+        "date": "2025-11-27 23:57:33",
+        "message": "fix:clean"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511272224",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2025-11-25 16:28:38",
         "message": "fix(mediaserver): 修复 Plex 媒体库刷新路径处理逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511251320",
-    "items": [
-      {
-        "commit": "5f66d6d1ad83d71c04f204a28506c66677d64324",
-        "author": "yii",
-        "date": "2025-11-25 13:20:31",
-        "message": "fix: 优化错误提示"
-      },
-      {
-        "commit": "b5226713b0c99cf35f2d0311bfdfb98fb33ab6bc",
-        "author": "yii",
-        "date": "2025-11-25 13:12:12",
-        "message": "fix: 优化错误提示"
       }
     ]
   }
