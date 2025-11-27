@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511271243",
+    "items": [
+      {
+        "commit": "730a0bcaf3f40eadaea97908a6a972c9a4e8e0e8",
+        "author": "Jolc",
+        "date": "2025-11-27 12:41:48",
+        "message": "feat:详情季显示是否订阅"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511262239",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "yii",
         "date": "2025-11-25 13:00:02",
         "message": "fix: 中间件panic"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511251234",
-    "items": [
-      {
-        "commit": "6a5e64d444f885f0942e9e158f0451d31f26b485",
-        "author": "yii",
-        "date": "2025-11-25 12:15:44",
-        "message": "del: 移除多余日志"
-      },
-      {
-        "commit": "7234e186032fb0ed61038818c074a4b58238a94f",
-        "author": "yii",
-        "date": "2025-11-25 12:15:16",
-        "message": "add: 增加暗桩"
       }
     ]
   }

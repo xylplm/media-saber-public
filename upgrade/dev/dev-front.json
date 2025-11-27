@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511271243",
+    "items": [
+      {
+        "commit": "918874b7af7e43339372be8cda26554f341a1384",
+        "author": "liurongjie",
+        "date": "2025-11-27 11:47:06",
+        "message": "feat(media-detail): 新增季订阅和取消订阅功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511261905",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "liurongjie",
         "date": "2025-11-20 13:09:50",
         "message": "style(cloud-storage): 统一进度标签的冒号样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511201234",
-    "items": [
-      {
-        "commit": "29b1ec8aba3da37f86ebfe2ae79db35a33c0e6e3",
-        "author": "liurongjie",
-        "date": "2025-11-20 12:34:09",
-        "message": "style(cloud-storage): 优化未完成任务卡片样式与信息展示"
-      },
-      {
-        "commit": "d1a71224d03df500e584b342cc60591745d28ae7",
-        "author": "liurongjie",
-        "date": "2025-11-20 12:28:09",
-        "message": "style(cloud-storage): 优化完成任务卡片样式与布局"
-      },
-      {
-        "commit": "3a8f61117bbc193f9629c0f1b23c231f7abd8517",
-        "author": "xylplm",
-        "date": "2025-11-20 11:28:16",
-        "message": "Update angular-best-practices.prompt.md"
       }
     ]
   }
