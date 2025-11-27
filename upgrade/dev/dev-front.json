@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511271427",
+    "items": [
+      {
+        "commit": "5d56b3306f30511ed345b9eccfc2657b681859ff",
+        "author": "liurongjie",
+        "date": "2025-11-27 14:22:10",
+        "message": "style(media-detail): 优化季节列表按钮布局和样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511271243",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2025-11-20 15:48:42",
         "message": "feat(search): 显示种子详细信息中的分辨率标签"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511201327",
-    "items": [
-      {
-        "commit": "d9370e9730578894745c52c2fb6518e3d052a759",
-        "author": "liurongjie",
-        "date": "2025-11-20 13:09:50",
-        "message": "style(cloud-storage): 统一进度标签的冒号样式"
       }
     ]
   }
