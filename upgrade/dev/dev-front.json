@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511271451",
+    "items": [
+      {
+        "commit": "d21b04b91b6f7fee18b2e9e224f20816bfd80a04",
+        "author": "liurongjie",
+        "date": "2025-11-27 14:45:41",
+        "message": "style(search-torrent-result-media-info): 优化媒体信息标题样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511271427",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-11-20 16:55:01",
         "message": "fix: 清除冗余文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511201556",
-    "items": [
-      {
-        "commit": "977238071ccd270efca9109713413647d6edaef7",
-        "author": "liurongjie",
-        "date": "2025-11-20 15:48:42",
-        "message": "feat(search): 显示种子详细信息中的分辨率标签"
       }
     ]
   }
