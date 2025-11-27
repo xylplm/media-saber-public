@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511272224",
+    "items": [
+      {
+        "commit": "9ffef0c2be689ec3bd4c561518011b7aee500807",
+        "author": "GateCross",
+        "date": "2025-11-27 22:21:44",
+        "message": "feat:增加非重命名情况下的tmdb识别"
+      },
+      {
+        "commit": "957b1a80f070e97b7bfbd07f568a4d2f53cf797c",
+        "author": "GateCross",
+        "date": "2025-11-27 22:14:06",
+        "message": "fix:修复无限秒传"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511271243",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "yii",
         "date": "2025-11-25 13:12:12",
         "message": "fix: 优化错误提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511251303",
-    "items": [
-      {
-        "commit": "4c9222c50fedeea6479bf68b858673d841e747e1",
-        "author": "yii",
-        "date": "2025-11-25 13:00:02",
-        "message": "fix: 中间件panic"
       }
     ]
   }
