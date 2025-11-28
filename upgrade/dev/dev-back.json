@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511281811",
+    "items": [
+      {
+        "commit": "14419ed7a83d8c632a77e809720d49651e0efc1c",
+        "author": "xylplm",
+        "date": "2025-11-28 18:09:39",
+        "message": "feat: 增加AilMWeb、Sunny种子匹配制作组"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511281737",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-26 18:32:21",
         "message": "fix:strm 异常通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511261258",
-    "items": [
-      {
-        "commit": "9cf184b2edcabafa32f6f3e08482933bcb069308",
-        "author": "yii",
-        "date": "2025-11-26 10:37:52",
-        "message": "fix: 优化暗装线程安全"
       }
     ]
   }
