@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202511281319",
+    "items": [
+      {
+        "commit": "3e4f448cc16675d985cfa74d30032e0e0a562418",
+        "author": "liurongjie",
+        "date": "2025-11-28 13:03:59",
+        "message": "fix(app-version): 修正版本标签显示逻辑和添加当前版本号变量"
+      },
+      {
+        "commit": "2d6941d2520374871ea2504e14da3adb87398765",
+        "author": "liurongjie",
+        "date": "2025-11-28 11:31:01",
+        "message": "style(cloud-storage): 调整布局宽度和样式"
+      },
+      {
+        "commit": "722ce915b4ef97750dd3017522fbc704f41decd7",
+        "author": "liurongjie",
+        "date": "2025-11-28 10:48:34",
+        "message": "fix(media-tidy): 优化媒体整理历史界面按钮布局和条件渲染"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511272224",
     "items": [
       {
@@ -143,17 +166,6 @@
         "author": "liurongjie",
         "date": "2025-11-21 23:34:24",
         "message": "feat(cloud-storage): 优化云存储主页功能和界面交互"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511211358",
-    "items": [
-      {
-        "commit": "7cfaacca599c116d633af475712e18d071a3040e",
-        "author": "GateCross",
-        "date": "2025-11-21 13:56:25",
-        "message": "fix:定时任务支持时间段"
       }
     ]
   }
