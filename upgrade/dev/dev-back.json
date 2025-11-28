@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511281655",
+    "items": [
+      {
+        "commit": "83c098b6d00affe747feaee7c7a21da4a47cb740",
+        "author": "weni09",
+        "date": "2025-11-28 16:51:35",
+        "message": "fix: 115快链中设置过期时间"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511272358",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2025-11-25 22:16:21",
         "message": "feat:搜索自动建议以及全平台搜索，修复爱奇艺和 letterboxd 搜索异常。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511251629",
-    "items": [
-      {
-        "commit": "76b32974aa8e9cf55902b2e2a7df1b8711e76ca4",
-        "author": "liurongjie",
-        "date": "2025-11-25 16:28:38",
-        "message": "fix(mediaserver): 修复 Plex 媒体库刷新路径处理逻辑"
       }
     ]
   }
