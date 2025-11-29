@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511300019",
+    "items": [
+      {
+        "commit": "3fdc43547698204ba66110b7004064fca18b3b2f",
+        "author": "liurongjie",
+        "date": "2025-11-30 00:18:39",
+        "message": "feat: 新增通知配置项及相关UI支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511281319",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2025-11-22 09:44:26",
         "message": "feat(cloud-storage): 优化任务卡片界面并添加路径复制功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511212335",
-    "items": [
-      {
-        "commit": "da0351ef4992dfd51d3c2485c253b95b70d8354e",
-        "author": "liurongjie",
-        "date": "2025-11-21 23:34:24",
-        "message": "feat(cloud-storage): 优化云存储主页功能和界面交互"
       }
     ]
   }

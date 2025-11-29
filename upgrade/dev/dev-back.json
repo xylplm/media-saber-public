@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511300019",
+    "items": [
+      {
+        "commit": "0cdefccebd62ab1d2b4bc1f2363c997493c36165",
+        "author": "GateCross",
+        "date": "2025-11-29 20:34:45",
+        "message": "fix:修复云存储文件整理定时任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511292246",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "Jolc",
         "date": "2025-11-26 22:38:34",
         "message": "fix:详情不显示已订阅问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511262222",
-    "items": [
-      {
-        "commit": "adbe062fe31a93fb7af7f68a17b1afbc5cd51929",
-        "author": "Jolc",
-        "date": "2025-11-26 22:20:56",
-        "message": "fix:修复详情在订阅运行中显示未订阅问题"
       }
     ]
   }
