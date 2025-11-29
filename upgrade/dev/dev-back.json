@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511292246",
+    "items": [
+      {
+        "commit": "75d90fe9043ec01992fcadc1221c4304a262b1c3",
+        "author": "Jolc",
+        "date": "2025-11-29 22:34:56",
+        "message": "fix:gen strm error 日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511292035",
     "items": [
       {
@@ -167,23 +178,6 @@
         "author": "Jolc",
         "date": "2025-11-26 22:20:56",
         "message": "fix:修复详情在订阅运行中显示未订阅问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511262153",
-    "items": [
-      {
-        "commit": "93b5e65209d3c48a35e30c0cb6c22eab4c95f418",
-        "author": "Jolc",
-        "date": "2025-11-26 21:53:16",
-        "message": "fix:云存储去掉优先秒传（有歧义，本来就是优先秒传），改为只需填秒传重试最大次数。"
-      },
-      {
-        "commit": "9cf184b2edcabafa32f6f3e08482933bcb069308",
-        "author": "yii",
-        "date": "2025-11-26 10:37:52",
-        "message": "fix: 优化暗装线程安全"
       }
     ]
   }
