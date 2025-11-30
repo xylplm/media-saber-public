@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202511302225",
+    "items": [
+      {
+        "commit": "7c6abc5014bb50149b49c40d983d539118a57e21",
+        "author": "Jolc",
+        "date": "2025-11-30 22:24:32",
+        "message": "feat:走目录树整理时不获取文件信息（避免频繁请求）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511302159",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "GateCross",
         "date": "2025-11-27 22:14:06",
         "message": "fix:修复无限秒传"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511271243",
-    "items": [
-      {
-        "commit": "730a0bcaf3f40eadaea97908a6a972c9a4e8e0e8",
-        "author": "Jolc",
-        "date": "2025-11-27 12:41:48",
-        "message": "feat:详情季显示是否订阅"
       }
     ]
   }
