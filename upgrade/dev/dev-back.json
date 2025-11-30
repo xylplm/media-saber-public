@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202511302159",
+    "items": [
+      {
+        "commit": "b16a4d93bcd8981c511f0c4a734f242a3e578e95",
+        "author": "Jolc",
+        "date": "2025-11-30 21:58:03",
+        "message": "feat:123目录树"
+      },
+      {
+        "commit": "75d90fe9043ec01992fcadc1221c4304a262b1c3",
+        "author": "Jolc",
+        "date": "2025-11-29 22:34:56",
+        "message": "fix:gen strm error 日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511300019",
     "items": [
       {
@@ -167,17 +184,6 @@
         "author": "Jolc",
         "date": "2025-11-27 12:41:48",
         "message": "feat:详情季显示是否订阅"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511262239",
-    "items": [
-      {
-        "commit": "fcd41d9934bef2d34960bccc08f197211f2da4a0",
-        "author": "Jolc",
-        "date": "2025-11-26 22:38:34",
-        "message": "fix:详情不显示已订阅问题"
       }
     ]
   }
