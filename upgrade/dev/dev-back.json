@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512012206",
+    "items": [
+      {
+        "commit": "7b188d82a71dffe3ab034f3261b97960f4b90e93",
+        "author": "GateCross",
+        "date": "2025-12-01 22:05:14",
+        "message": "fix:修复云存储文件整理定时任务"
+      },
+      {
+        "commit": "7283bde210f451c096f953d60c60a0db169cdd9d",
+        "author": "xylplm",
+        "date": "2025-12-01 20:09:27",
+        "message": "feat: 增加新的封面样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512011942",
     "items": [
       {
@@ -191,17 +208,6 @@
         "author": "xylplm",
         "date": "2025-11-28 18:09:39",
         "message": "feat: 增加AilMWeb、Sunny种子匹配制作组"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511281737",
-    "items": [
-      {
-        "commit": "e70bb9100173562e87d2aec64517aed4a63f096f",
-        "author": "Jolc",
-        "date": "2025-11-28 17:36:29",
-        "message": "fix:115直链失效 help"
       }
     ]
   }
