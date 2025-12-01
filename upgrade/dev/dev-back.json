@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512011942",
+    "items": [
+      {
+        "commit": "b46632230d21ddd80dea73246f0fa62cf24eed80",
+        "author": "Jolc",
+        "date": "2025-12-01 19:41:56",
+        "message": "fix:云存储上传失败问题"
+      },
+      {
+        "commit": "fa009eb5647ac60290a991ef49587aa2ecbe26ca",
+        "author": "xylplm",
+        "date": "2025-12-01 19:20:51",
+        "message": "fix: 优化封面生成支持低功耗模式传递"
+      },
+      {
+        "commit": "1fbb30b488ab2854b370f9751a446a9385cd213e",
+        "author": "Jolc",
+        "date": "2025-12-01 18:50:34",
+        "message": "fix:云存储上传失败问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512011625",
     "items": [
       {
@@ -179,17 +202,6 @@
         "author": "Jolc",
         "date": "2025-11-28 17:36:29",
         "message": "fix:115直链失效 help"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511281655",
-    "items": [
-      {
-        "commit": "83c098b6d00affe747feaee7c7a21da4a47cb740",
-        "author": "weni09",
-        "date": "2025-11-28 16:51:35",
-        "message": "fix: 115快链中设置过期时间"
       }
     ]
   }
