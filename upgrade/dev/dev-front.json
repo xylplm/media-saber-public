@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512011107",
+    "items": [
+      {
+        "commit": "c76394cd39ae7cd4fa6e85697b8b627cb5ac8275",
+        "author": "liurongjie",
+        "date": "2025-12-01 11:06:37",
+        "message": "feat(cloud-storage): 调整云存储整理界面布局并新增通知开关"
+      }
+    ]
+  },
+  {
     "version": "DEV_202511300019",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "xylplm",
         "date": "2025-11-24 13:36:30",
         "message": "fix:字符串复制方法更换为angular cdk方法"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511221032",
-    "items": [
-      {
-        "commit": "cd923c883faf994b12e3c7c7cfb90cec34a824c2",
-        "author": "liurongjie",
-        "date": "2025-11-22 10:01:08",
-        "message": "fix(cloud-storage): 修复文件大小显示逻辑"
-      },
-      {
-        "commit": "76963b2328fb0fda2038d5713b4114e1b2df778b",
-        "author": "liurongjie",
-        "date": "2025-11-22 09:44:26",
-        "message": "feat(cloud-storage): 优化任务卡片界面并添加路径复制功能"
       }
     ]
   }
