@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512011625",
+    "items": [
+      {
+        "commit": "1b309fbe12afb95dc22ed6ade06364b8f49a254e",
+        "author": "Jolc",
+        "date": "2025-12-01 16:24:54",
+        "message": "fix:115"
+      },
+      {
+        "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
+        "author": "xylplm",
+        "date": "2025-12-01 13:13:16",
+        "message": "fix:emby jellyfin 封面文件类型动态判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512011415",
     "items": [
       {
@@ -173,17 +190,6 @@
         "author": "weni09",
         "date": "2025-11-28 16:51:35",
         "message": "fix: 115快链中设置过期时间"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511272358",
-    "items": [
-      {
-        "commit": "bf78cb472e8e523c11f1da25d55661034179dc34",
-        "author": "Jolc",
-        "date": "2025-11-27 23:57:33",
-        "message": "fix:clean"
       }
     ]
   }
