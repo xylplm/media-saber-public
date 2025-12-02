@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512022347",
+    "items": [
+      {
+        "commit": "d45e9c99b435c7f6a24a8df91984fcad0924eac3",
+        "author": "xylplm",
+        "date": "2025-12-02 17:05:32",
+        "message": "fix: tmdb 配置更新"
+      },
+      {
+        "commit": "2f14e06fb32d084de2c81bb0fd93411e1773715f",
+        "author": "syueya",
+        "date": "2025-12-02 13:25:43",
+        "message": "add：tmdb配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512011107",
     "items": [
       {
@@ -137,29 +154,6 @@
         "author": "liurongjie",
         "date": "2025-11-26 11:04:11",
         "message": "feat(search): 添加搜索框自动建议功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511242153",
-    "items": [
-      {
-        "commit": "c0745f6c99bf3b4f047798044292fb5e1aa3d6b3",
-        "author": "xylplm",
-        "date": "2025-11-24 13:49:15",
-        "message": "fix: 优化 文件类型方法抽出到公共方法中"
-      },
-      {
-        "commit": "a2f5267195070636ac1bfd930e55fd0bf7322d6b",
-        "author": "xylplm",
-        "date": "2025-11-24 13:46:09",
-        "message": "fix: lint error"
-      },
-      {
-        "commit": "208e3734ba3623eefdc52290aa90c269c952f12b",
-        "author": "xylplm",
-        "date": "2025-11-24 13:36:30",
-        "message": "fix:字符串复制方法更换为angular cdk方法"
       }
     ]
   }

@@ -1,5 +1,58 @@
 [
   {
+    "version": "DEV_202512022347",
+    "items": [
+      {
+        "commit": "56590de1816366959189d72c003ce93425d576e5",
+        "author": "Jolc",
+        "date": "2025-12-02 23:46:33",
+        "message": "fix:github api 优化"
+      },
+      {
+        "commit": "9b898ca770ba78c1530b3dcc65a0e21c65898764",
+        "author": "xylplm",
+        "date": "2025-12-02 22:57:06",
+        "message": "fix: 提示删除临时文件异常"
+      },
+      {
+        "commit": "58709718d60b15ee5dc4684dace4f012a31518c1",
+        "author": "xylplm",
+        "date": "2025-12-02 18:10:53",
+        "message": "fix: tmdbconfigs 先检查文件是否存在"
+      },
+      {
+        "commit": "8c98212b2e02dd45cfff45973ad13f98f1860478",
+        "author": "xylplm",
+        "date": "2025-12-02 18:06:56",
+        "message": "fix: tmdbconfigs 未找到文件时不抛出错误"
+      },
+      {
+        "commit": "729264efc08624a769406340947f2efbd7d11f67",
+        "author": "xylplm",
+        "date": "2025-12-02 17:33:48",
+        "message": "fix: 自动更新tmdb配置 及版本检测"
+      },
+      {
+        "commit": "4ab6eefa2d993c29af3ff2c1f5aadaf5612924f3",
+        "author": "yii",
+        "date": "2025-12-02 14:58:32",
+        "message": "fix: 输出认证服务器请求id"
+      },
+      {
+        "commit": "7b98a1666330a5d9b1dc84545d6c079b8909471e",
+        "author": "Jolc",
+        "date": "2025-12-02 13:08:43",
+        "message": "feat:tmdb自维护更好库"
+      },
+      {
+        "commit": "ed6ad797bf7cc90510b37382f782b49c83f21587",
+        "author": "Jolc",
+        "date": "2025-12-02 12:22:03",
+        "message": "feat:tmdb图片兼容处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512021136",
     "items": [
       {
@@ -131,83 +184,6 @@
         "author": "Jolc",
         "date": "2025-11-29 22:34:56",
         "message": "fix:gen strm error 日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511292035",
-    "items": [
-      {
-        "commit": "0cdefccebd62ab1d2b4bc1f2363c997493c36165",
-        "author": "GateCross",
-        "date": "2025-11-29 20:34:45",
-        "message": "fix:修复云存储文件整理定时任务"
-      },
-      {
-        "commit": "1a5a3ad7c6d08972260b6f0270e40807415f01cb",
-        "author": "Jolc",
-        "date": "2025-11-28 23:56:57",
-        "message": "fix:目录同步、本地整理、云存储整理增加通知开关。"
-      },
-      {
-        "commit": "e70bb9100173562e87d2aec64517aed4a63f096f",
-        "author": "Jolc",
-        "date": "2025-11-28 17:36:29",
-        "message": "fix:115直链失效 help"
-      },
-      {
-        "commit": "83c098b6d00affe747feaee7c7a21da4a47cb740",
-        "author": "weni09",
-        "date": "2025-11-28 16:51:35",
-        "message": "fix: 115快链中设置过期时间"
-      },
-      {
-        "commit": "bf78cb472e8e523c11f1da25d55661034179dc34",
-        "author": "Jolc",
-        "date": "2025-11-27 23:57:33",
-        "message": "fix:clean"
-      },
-      {
-        "commit": "9ffef0c2be689ec3bd4c561518011b7aee500807",
-        "author": "GateCross",
-        "date": "2025-11-27 22:21:44",
-        "message": "feat:增加非重命名情况下的tmdb识别"
-      },
-      {
-        "commit": "957b1a80f070e97b7bfbd07f568a4d2f53cf797c",
-        "author": "GateCross",
-        "date": "2025-11-27 22:14:06",
-        "message": "fix:修复无限秒传"
-      },
-      {
-        "commit": "730a0bcaf3f40eadaea97908a6a972c9a4e8e0e8",
-        "author": "Jolc",
-        "date": "2025-11-27 12:41:48",
-        "message": "feat:详情季显示是否订阅"
-      },
-      {
-        "commit": "fcd41d9934bef2d34960bccc08f197211f2da4a0",
-        "author": "Jolc",
-        "date": "2025-11-26 22:38:34",
-        "message": "fix:详情不显示已订阅问题"
-      },
-      {
-        "commit": "adbe062fe31a93fb7af7f68a17b1afbc5cd51929",
-        "author": "Jolc",
-        "date": "2025-11-26 22:20:56",
-        "message": "fix:修复详情在订阅运行中显示未订阅问题"
-      },
-      {
-        "commit": "93b5e65209d3c48a35e30c0cb6c22eab4c95f418",
-        "author": "Jolc",
-        "date": "2025-11-26 21:53:16",
-        "message": "fix:云存储去掉优先秒传（有歧义，本来就是优先秒传），改为只需填秒传重试最大次数。"
-      },
-      {
-        "commit": "8af12cb37ee58a24af5839b86520b60f1dc639da",
-        "author": "Jolc",
-        "date": "2025-11-26 18:32:21",
-        "message": "fix:strm 异常通知"
       }
     ]
   }
