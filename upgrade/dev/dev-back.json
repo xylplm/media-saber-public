@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512040049",
+    "items": [
+      {
+        "commit": "2bc9bc374661299e2d93caddf72856ea57ea2641",
+        "author": "Jolc",
+        "date": "2025-12-04 00:48:51",
+        "message": "fix：刷流同时下载任务数逻辑修改"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512031838",
     "items": [
       {
@@ -167,23 +178,6 @@
         "author": "Jolc",
         "date": "2025-11-30 22:24:32",
         "message": "feat:走目录树整理时不获取文件信息（避免频繁请求）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511302159",
-    "items": [
-      {
-        "commit": "b16a4d93bcd8981c511f0c4a734f242a3e578e95",
-        "author": "Jolc",
-        "date": "2025-11-30 21:58:03",
-        "message": "feat:123目录树"
-      },
-      {
-        "commit": "75d90fe9043ec01992fcadc1221c4304a262b1c3",
-        "author": "Jolc",
-        "date": "2025-11-29 22:34:56",
-        "message": "fix:gen strm error 日志"
       }
     ]
   }

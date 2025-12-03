@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512040049",
+    "items": [
+      {
+        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "author": "GateCross",
+        "date": "2025-12-03 10:05:27",
+        "message": "feat:前端增加定时任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512031838",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2025-11-27 14:22:10",
         "message": "style(media-detail): 优化季节列表按钮布局和样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511271243",
-    "items": [
-      {
-        "commit": "918874b7af7e43339372be8cda26554f341a1384",
-        "author": "liurongjie",
-        "date": "2025-11-27 11:47:06",
-        "message": "feat(media-detail): 新增季订阅和取消订阅功能"
       }
     ]
   }
