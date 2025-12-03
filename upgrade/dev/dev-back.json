@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512031838",
+    "items": [
+      {
+        "commit": "394f9066be3e80d52df15033f8801cee34287c1a",
+        "author": "Jolc",
+        "date": "2025-12-03 18:38:02",
+        "message": "fix: tmdb tar.gz 更新优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512031006",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "Jolc",
         "date": "2025-11-29 22:34:56",
         "message": "fix:gen strm error 日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511300019",
-    "items": [
-      {
-        "commit": "0cdefccebd62ab1d2b4bc1f2363c997493c36165",
-        "author": "GateCross",
-        "date": "2025-11-29 20:34:45",
-        "message": "fix:修复云存储文件整理定时任务"
       }
     ]
   }
