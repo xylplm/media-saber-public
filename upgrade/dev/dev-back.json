@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512031006",
+    "items": [
+      {
+        "commit": "0bc6a4006e191648a51d8f3bb5e2618ff4798bc0",
+        "author": "GateCross",
+        "date": "2025-12-03 10:05:05",
+        "message": "feat:重新添加strm定时任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512022347",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "GateCross",
         "date": "2025-11-29 20:34:45",
         "message": "fix:修复云存储文件整理定时任务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511292246",
-    "items": [
-      {
-        "commit": "75d90fe9043ec01992fcadc1221c4304a262b1c3",
-        "author": "Jolc",
-        "date": "2025-11-29 22:34:56",
-        "message": "fix:gen strm error 日志"
       }
     ]
   }

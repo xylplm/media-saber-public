@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512031006",
+    "items": [
+      {
+        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "author": "GateCross",
+        "date": "2025-12-03 10:05:27",
+        "message": "feat:前端增加定时任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512022347",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "liurongjie",
         "date": "2025-11-26 18:59:14",
         "message": "feat(search): 实现影视作品搜索输入及全平台搜索支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511261258",
-    "items": [
-      {
-        "commit": "1d80186be6a5e150586587d27386c14a580a3c96",
-        "author": "liurongjie",
-        "date": "2025-11-26 11:15:55",
-        "message": "style(cloud-storage): 调整云存储设置表单字段宽度"
-      },
-      {
-        "commit": "36670ac5c759ce32859b7cafc5e9b22ebf8b0716",
-        "author": "liurongjie",
-        "date": "2025-11-26 11:04:11",
-        "message": "feat(search): 添加搜索框自动建议功能"
       }
     ]
   }
