@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202512042056",
+    "items": [
+      {
+        "commit": "26769b1917f7a2d972f035e0c6f66469af5684cc",
+        "author": "Jolc",
+        "date": "2025-12-04 20:49:18",
+        "message": "fix:指定 tmdb 整理无效问题"
+      },
+      {
+        "commit": "e717ed0cda84bd8075537ab7f5673f90d492661e",
+        "author": "xylplm",
+        "date": "2025-12-04 19:31:31",
+        "message": "fix:siteConfig 判断目录不为空"
+      },
+      {
+        "commit": "b70126e76681869f92278e4d7682a8b86759587f",
+        "author": "xylplm",
+        "date": "2025-12-04 18:46:44",
+        "message": "fix:提取环境检测函数"
+      },
+      {
+        "commit": "5f2f884b9e7a5b30dbd9f47067758854af238251",
+        "author": "xylplm",
+        "date": "2025-12-04 18:23:41",
+        "message": "fix: 站点配置版本管理"
+      },
+      {
+        "commit": "683117f8f921cb28d9ba75958165cf61d68b34bc",
+        "author": "xylplm",
+        "date": "2025-12-04 14:32:23",
+        "message": "fix: 优化github 方法"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512040049",
     "items": [
       {
@@ -167,17 +202,6 @@
         "author": "xylplm",
         "date": "2025-12-01 13:13:16",
         "message": "fix:emby jellyfin 封面文件类型动态判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511302225",
-    "items": [
-      {
-        "commit": "7c6abc5014bb50149b49c40d983d539118a57e21",
-        "author": "Jolc",
-        "date": "2025-11-30 22:24:32",
-        "message": "feat:走目录树整理时不获取文件信息（避免频繁请求）"
       }
     ]
   }

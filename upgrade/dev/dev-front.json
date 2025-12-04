@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512042056",
+    "items": [
+      {
+        "commit": "7c61cc4fac6162903e5cde35be3410768e96fcac",
+        "author": "xylplm",
+        "date": "2025-12-03 13:57:11",
+        "message": "feat:表单警告提示组件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512040049",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2025-11-27 14:45:41",
         "message": "style(search-torrent-result-media-info): 优化媒体信息标题样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511271427",
-    "items": [
-      {
-        "commit": "5d56b3306f30511ed345b9eccfc2657b681859ff",
-        "author": "liurongjie",
-        "date": "2025-11-27 14:22:10",
-        "message": "style(media-detail): 优化季节列表按钮布局和样式"
       }
     ]
   }
