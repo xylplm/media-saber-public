@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512052120",
+    "items": [
+      {
+        "commit": "c4999e49a17e1bc64938e65f0c601d9694687218",
+        "author": "Jolc",
+        "date": "2025-12-05 21:19:54",
+        "message": "fix:云存储整理mq改为串行"
+      },
+      {
+        "commit": "fe25696f1cae8bb7a81c642b4f0989a9ece7ba66",
+        "author": "xylplm",
+        "date": "2025-12-05 16:18:23",
+        "message": "feat:秘籍 朱雀签到 技能释放"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512051544",
     "items": [
       {
@@ -179,23 +196,6 @@
         "author": "Jolc",
         "date": "2025-12-01 18:50:34",
         "message": "fix:云存储上传失败问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512011625",
-    "items": [
-      {
-        "commit": "1b309fbe12afb95dc22ed6ade06364b8f49a254e",
-        "author": "Jolc",
-        "date": "2025-12-01 16:24:54",
-        "message": "fix:115"
-      },
-      {
-        "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
-        "author": "xylplm",
-        "date": "2025-12-01 13:13:16",
-        "message": "fix:emby jellyfin 封面文件类型动态判断"
       }
     ]
   }
