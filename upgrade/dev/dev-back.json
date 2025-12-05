@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512052229",
+    "items": [
+      {
+        "commit": "2a6b274273b163c8d74297969cebb7c748cd18c4",
+        "author": "Jolc",
+        "date": "2025-12-05 22:19:44",
+        "message": "feat:oplist sync"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512052120",
     "items": [
       {
@@ -173,29 +184,6 @@
         "author": "xylplm",
         "date": "2025-12-01 20:09:27",
         "message": "feat: 增加新的封面样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512011942",
-    "items": [
-      {
-        "commit": "b46632230d21ddd80dea73246f0fa62cf24eed80",
-        "author": "Jolc",
-        "date": "2025-12-01 19:41:56",
-        "message": "fix:云存储上传失败问题"
-      },
-      {
-        "commit": "fa009eb5647ac60290a991ef49587aa2ecbe26ca",
-        "author": "xylplm",
-        "date": "2025-12-01 19:20:51",
-        "message": "fix: 优化封面生成支持低功耗模式传递"
-      },
-      {
-        "commit": "1fbb30b488ab2854b370f9751a446a9385cd213e",
-        "author": "Jolc",
-        "date": "2025-12-01 18:50:34",
-        "message": "fix:云存储上传失败问题"
       }
     ]
   }
