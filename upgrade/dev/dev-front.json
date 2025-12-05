@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512051544",
+    "items": [
+      {
+        "commit": "86209492b219d24ff76b53aa8f25d283ee915e63",
+        "author": "xylplm",
+        "date": "2025-12-05 15:28:38",
+        "message": "feat:朱雀签到图标"
+      },
+      {
+        "commit": "1832fcbea58b39e35d7531248422617f347594ae",
+        "author": "xylplm",
+        "date": "2025-12-05 13:16:15",
+        "message": "fix: 动态表单alert提示信息增加下边距"
+      },
+      {
+        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "author": "GateCross",
+        "date": "2025-12-03 10:05:27",
+        "message": "feat:前端增加定时任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512042056",
     "items": [
       {
@@ -131,17 +154,6 @@
         "author": "liurongjie",
         "date": "2025-11-27 15:26:03",
         "message": "style(download): 优化下载组件UI布局与样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511271451",
-    "items": [
-      {
-        "commit": "d21b04b91b6f7fee18b2e9e224f20816bfd80a04",
-        "author": "liurongjie",
-        "date": "2025-11-27 14:45:41",
-        "message": "style(search-torrent-result-media-info): 优化媒体信息标题样式"
       }
     ]
   }

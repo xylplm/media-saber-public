@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512051544",
+    "items": [
+      {
+        "commit": "dfd559286cfa2a6861918cae331934ed47d32ace",
+        "author": "GateCross",
+        "date": "2025-12-05 15:39:12",
+        "message": "fix:优化热更新检查逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512042056",
     "items": [
       {
@@ -179,23 +190,6 @@
         "author": "Jolc",
         "date": "2025-12-01 16:24:54",
         "message": "fix:115"
-      },
-      {
-        "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
-        "author": "xylplm",
-        "date": "2025-12-01 13:13:16",
-        "message": "fix:emby jellyfin 封面文件类型动态判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512011415",
-    "items": [
-      {
-        "commit": "4bfa5a53b385da99154abed4ea4dc10e1a2d4048",
-        "author": "Jolc",
-        "date": "2025-12-01 14:15:13",
-        "message": "fix:云存储缓存问题"
       },
       {
         "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
