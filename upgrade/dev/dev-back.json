@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512052255",
+    "items": [
+      {
+        "commit": "9c3233eee424d52ba74e9067ec4ab57d484df88a",
+        "author": "Jolc",
+        "date": "2025-12-05 22:55:15",
+        "message": "fix:刷流插件发布时间判断逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512052229",
     "items": [
       {
@@ -167,23 +178,6 @@
         "author": "Jolc",
         "date": "2025-12-02 11:35:31",
         "message": "feat:自维护tmdb"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512012206",
-    "items": [
-      {
-        "commit": "7b188d82a71dffe3ab034f3261b97960f4b90e93",
-        "author": "GateCross",
-        "date": "2025-12-01 22:05:14",
-        "message": "fix:修复云存储文件整理定时任务"
-      },
-      {
-        "commit": "7283bde210f451c096f953d60c60a0db169cdd9d",
-        "author": "xylplm",
-        "date": "2025-12-01 20:09:27",
-        "message": "feat: 增加新的封面样式"
       }
     ]
   }
