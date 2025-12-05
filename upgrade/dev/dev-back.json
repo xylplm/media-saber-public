@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512052317",
+    "items": [
+      {
+        "commit": "bb7690de7f4e540ab1f6fe93b15411f5e3d0fd5f",
+        "author": "Jolc",
+        "date": "2025-12-05 23:17:25",
+        "message": "fix:nullbr 资源磁力、ed2k 开关搞反"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512052255",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "Jolc",
         "date": "2025-12-02 12:22:03",
         "message": "feat:tmdb图片兼容处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512021136",
-    "items": [
-      {
-        "commit": "18c124e0efc395e025b4f7450344e90454b8ea16",
-        "author": "Jolc",
-        "date": "2025-12-02 11:35:31",
-        "message": "feat:自维护tmdb"
       }
     ]
   }
