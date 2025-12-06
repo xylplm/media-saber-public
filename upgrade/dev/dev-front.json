@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512061834",
+    "items": [
+      {
+        "commit": "ad5df44f9524f3042f43431e1aa4fbf11c1aa774",
+        "author": "xylplm",
+        "date": "2025-12-06 12:02:40",
+        "message": "fix:优化文件列表 虚拟滚动 避免浏览器卡死"
+      },
+      {
+        "commit": "a4af7f0dcfa43362761277713288c1d85ee1fe14",
+        "author": "xylplm",
+        "date": "2025-12-06 11:25:46",
+        "message": "fix:云存储文件列表虚拟滚动，防止大量文件浏览器卡死"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512051544",
     "items": [
       {
@@ -125,35 +142,6 @@
         "author": "liurongjie",
         "date": "2025-11-28 10:48:34",
         "message": "fix(media-tidy): 优化媒体整理历史界面按钮布局和条件渲染"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511272224",
-    "items": [
-      {
-        "commit": "eac45bb8281c7a0f3999c05fa994688711053932",
-        "author": "liurongjie",
-        "date": "2025-11-27 18:54:56",
-        "message": "style(download): 调整下载历史卡片响应式列宽"
-      },
-      {
-        "commit": "fc1b841ab7d1a7f42d5de14e7d25e9f3d134551d",
-        "author": "liurongjie",
-        "date": "2025-11-27 18:02:57",
-        "message": "style(media-detail): 优化title样式调整行高"
-      },
-      {
-        "commit": "cb907459570d4407191177ae9262f03f303cc924",
-        "author": "xylplm",
-        "date": "2025-11-27 15:49:24",
-        "message": "refactor: 优化下拉选择组件 UI交互体验，以及性能优化"
-      },
-      {
-        "commit": "f0cf85038e41a1852b50faead2a01477183fc45b",
-        "author": "liurongjie",
-        "date": "2025-11-27 15:26:03",
-        "message": "style(download): 优化下载组件UI布局与样式"
       }
     ]
   }

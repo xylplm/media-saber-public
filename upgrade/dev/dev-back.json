@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202512061834",
+    "items": [
+      {
+        "commit": "d381fe1af19298dc79aa05a80bb3aab3a7de4451",
+        "author": "Jolc",
+        "date": "2025-12-06 18:34:09",
+        "message": "fix:rss 发布时间为空问题"
+      },
+      {
+        "commit": "852f699c7f16ec1c87c94d08c95ed1e461a0d236",
+        "author": "xylplm",
+        "date": "2025-12-06 17:17:34",
+        "message": "fix: error"
+      },
+      {
+        "commit": "58f1cb20d007952c5296f40427b4f81faa931e00",
+        "author": "xylplm",
+        "date": "2025-12-06 16:59:20",
+        "message": "feat: 新增秘籍 下载器标签限速"
+      },
+      {
+        "commit": "1d08730b6e00627a2280584d01a95cb4293a6bb6",
+        "author": "zyt0339",
+        "date": "2025-12-06 10:36:11",
+        "message": "fix 修复 brush.go pubDate 读取"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512060031",
     "items": [
       {
@@ -131,17 +160,6 @@
         "author": "Jolc",
         "date": "2025-12-03 18:38:02",
         "message": "fix: tmdb tar.gz 更新优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512031006",
-    "items": [
-      {
-        "commit": "0bc6a4006e191648a51d8f3bb5e2618ff4798bc0",
-        "author": "GateCross",
-        "date": "2025-12-03 10:05:05",
-        "message": "feat:重新添加strm定时任务"
       }
     ]
   }
