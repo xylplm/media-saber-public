@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512062319",
+    "items": [
+      {
+        "commit": "ee4be90dcb08b36ca6f212ff4865a00d4fab1d8e",
+        "author": "Jolc",
+        "date": "2025-12-06 23:11:07",
+        "message": "feat:云存储目录监听"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512062154",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2025-12-04 14:32:23",
         "message": "fix: 优化github 方法"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512040049",
-    "items": [
-      {
-        "commit": "2bc9bc374661299e2d93caddf72856ea57ea2641",
-        "author": "Jolc",
-        "date": "2025-12-04 00:48:51",
-        "message": "fix：刷流同时下载任务数逻辑修改"
       }
     ]
   }
