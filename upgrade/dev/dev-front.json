@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512062154",
+    "items": [
+      {
+        "commit": "34917d41693eb4e2954fcf405fadd6321e1193af",
+        "author": "xylplm",
+        "date": "2025-12-06 21:54:18",
+        "message": "fix: 优化文件列表大于100条分页"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512061834",
     "items": [
       {
@@ -119,29 +130,6 @@
         "author": "liurongjie",
         "date": "2025-11-30 00:18:39",
         "message": "feat: 新增通知配置项及相关UI支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511281319",
-    "items": [
-      {
-        "commit": "3e4f448cc16675d985cfa74d30032e0e0a562418",
-        "author": "liurongjie",
-        "date": "2025-11-28 13:03:59",
-        "message": "fix(app-version): 修正版本标签显示逻辑和添加当前版本号变量"
-      },
-      {
-        "commit": "2d6941d2520374871ea2504e14da3adb87398765",
-        "author": "liurongjie",
-        "date": "2025-11-28 11:31:01",
-        "message": "style(cloud-storage): 调整布局宽度和样式"
-      },
-      {
-        "commit": "722ce915b4ef97750dd3017522fbc704f41decd7",
-        "author": "liurongjie",
-        "date": "2025-11-28 10:48:34",
-        "message": "fix(media-tidy): 优化媒体整理历史界面按钮布局和条件渲染"
       }
     ]
   }
