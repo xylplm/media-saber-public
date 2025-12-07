@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512072308",
+    "items": [
+      {
+        "commit": "ed1d69c47d4ecef787da5a1cf9f761f2cc0023bd",
+        "author": "liurongjie",
+        "date": "2025-12-07 23:08:06",
+        "message": "feat(settings): 添加GitHub访问令牌配置项"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512062154",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2025-12-01 11:06:37",
         "message": "feat(cloud-storage): 调整云存储整理界面布局并新增通知开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511300019",
-    "items": [
-      {
-        "commit": "3fdc43547698204ba66110b7004064fca18b3b2f",
-        "author": "liurongjie",
-        "date": "2025-11-30 00:18:39",
-        "message": "feat: 新增通知配置项及相关UI支持"
       }
     ]
   }
