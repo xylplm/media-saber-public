@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512081839",
+    "items": [
+      {
+        "commit": "3e9a8e61a5c7d1174b5d81dfd26d835ce7244471",
+        "author": "xylplm",
+        "date": "2025-12-08 17:50:38",
+        "message": "fix: prompt"
+      },
+      {
+        "commit": "40abcd65e468e763d0e28d3c5548d7fc7a4690cc",
+        "author": "xylplm",
+        "date": "2025-12-08 16:56:05",
+        "message": "fix: code format"
+      },
+      {
+        "commit": "0a86917dbeecfd64f0964b88dabfb8c49edc86a3",
+        "author": "xylplm",
+        "date": "2025-12-08 16:52:28",
+        "message": "Update package.json"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512081643",
     "items": [
       {
@@ -113,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-12-03 13:57:11",
         "message": "feat:表单警告提示组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512031006",
-    "items": [
-      {
-        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
-        "author": "GateCross",
-        "date": "2025-12-03 10:05:27",
-        "message": "feat:前端增加定时任务"
       }
     ]
   }

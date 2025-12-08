@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512081839",
+    "items": [
+      {
+        "commit": "c9043f915184a9e5c86c79a141660d050ccf71d6",
+        "author": "Jolc",
+        "date": "2025-12-08 18:39:14",
+        "message": "fix: 优化"
+      },
+      {
+        "commit": "c37fa4f0e24fe49463dece7ebc2ea39702856de0",
+        "author": "Jolc",
+        "date": "2025-12-08 14:59:38",
+        "message": "feat: 修复云下载整理找不到对象问题、新增 115 生活事件插件。"
+      },
+      {
+        "commit": "a8deb8ffaaae9725eb3c5e7659e960f5a7f56005",
+        "author": "GateCross",
+        "date": "2025-12-08 10:25:18",
+        "message": "fix:增加请求github api失败重试次数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512081643",
     "items": [
       {
@@ -155,17 +178,6 @@
         "author": "Jolc",
         "date": "2025-12-05 23:17:25",
         "message": "fix:nullbr 资源磁力、ed2k 开关搞反"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512052255",
-    "items": [
-      {
-        "commit": "9c3233eee424d52ba74e9067ec4ab57d484df88a",
-        "author": "Jolc",
-        "date": "2025-12-05 22:55:15",
-        "message": "fix:刷流插件发布时间判断逻辑"
       }
     ]
   }
