@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512081643",
+    "items": [
+      {
+        "commit": "81a0b7cd2902d489e15357a0c5775b5156678f13",
+        "author": "xylplm",
+        "date": "2025-12-08 16:16:37",
+        "message": "refactor: 升级angular 21 并更新依赖，修复一些lint问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512081027",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "GateCross",
         "date": "2025-12-03 10:05:27",
         "message": "feat:前端增加定时任务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512022347",
-    "items": [
-      {
-        "commit": "d45e9c99b435c7f6a24a8df91984fcad0924eac3",
-        "author": "xylplm",
-        "date": "2025-12-02 17:05:32",
-        "message": "fix: tmdb 配置更新"
-      },
-      {
-        "commit": "2f14e06fb32d084de2c81bb0fd93411e1773715f",
-        "author": "syueya",
-        "date": "2025-12-02 13:25:43",
-        "message": "add：tmdb配置"
       }
     ]
   }
