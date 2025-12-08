@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512082034",
+    "items": [
+      {
+        "commit": "f8d11fa7fb37b394c7c4de744955ed2739631c25",
+        "author": "Jolc",
+        "date": "2025-12-08 20:33:43",
+        "message": "fix: log"
+      },
+      {
+        "commit": "0ea798cfa4237f1eca4e16fc9e6392b663b1bca2",
+        "author": "zyt0339",
+        "date": "2025-12-08 19:52:15",
+        "message": "fix brush.go加点日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512081839",
     "items": [
       {
@@ -167,17 +184,6 @@
         "author": "Jolc",
         "date": "2025-12-06 00:30:12",
         "message": "fix:11"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512052317",
-    "items": [
-      {
-        "commit": "bb7690de7f4e540ab1f6fe93b15411f5e3d0fd5f",
-        "author": "Jolc",
-        "date": "2025-12-05 23:17:25",
-        "message": "fix:nullbr 资源磁力、ed2k 开关搞反"
       }
     ]
   }
