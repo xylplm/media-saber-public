@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512082232",
+    "items": [
+      {
+        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
+        "author": "liurongjie",
+        "date": "2025-12-08 22:30:22",
+        "message": "style(service): 优化下载和转移消息通知文本格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512082152",
     "items": [
       {
@@ -149,35 +160,6 @@
         "author": "xylplm",
         "date": "2025-12-06 19:18:28",
         "message": "feat: OCR识别接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512061834",
-    "items": [
-      {
-        "commit": "d381fe1af19298dc79aa05a80bb3aab3a7de4451",
-        "author": "Jolc",
-        "date": "2025-12-06 18:34:09",
-        "message": "fix:rss 发布时间为空问题"
-      },
-      {
-        "commit": "852f699c7f16ec1c87c94d08c95ed1e461a0d236",
-        "author": "xylplm",
-        "date": "2025-12-06 17:17:34",
-        "message": "fix: error"
-      },
-      {
-        "commit": "58f1cb20d007952c5296f40427b4f81faa931e00",
-        "author": "xylplm",
-        "date": "2025-12-06 16:59:20",
-        "message": "feat: 新增秘籍 下载器标签限速"
-      },
-      {
-        "commit": "1d08730b6e00627a2280584d01a95cb4293a6bb6",
-        "author": "zyt0339",
-        "date": "2025-12-06 10:36:11",
-        "message": "fix 修复 brush.go pubDate 读取"
       }
     ]
   }
