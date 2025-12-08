@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512082247",
+    "items": [
+      {
+        "commit": "a0a10756de62b03cdd28f3071744764ce995bacd",
+        "author": "Jolc",
+        "date": "2025-12-08 22:46:57",
+        "message": "feat: 115 事件可配置包含路径"
+      },
+      {
+        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
+        "author": "liurongjie",
+        "date": "2025-12-08 22:30:22",
+        "message": "style(service): 优化下载和转移消息通知文本格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512082239",
     "items": [
       {
@@ -461,17 +478,6 @@
         "author": "GateCross",
         "date": "2025-12-07 22:58:43",
         "message": "feat:增加github token"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512062319",
-    "items": [
-      {
-        "commit": "ee4be90dcb08b36ca6f212ff4865a00d4fab1d8e",
-        "author": "Jolc",
-        "date": "2025-12-06 23:11:07",
-        "message": "feat:云存储目录监听"
       }
     ]
   }
