@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512082152",
+    "items": [
+      {
+        "commit": "72c5c934a154ba7f88205b5eda10aa563be1c843",
+        "author": "Jolc",
+        "date": "2025-12-08 21:52:31",
+        "message": "fix: log"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512082034",
     "items": [
       {
@@ -167,23 +178,6 @@
         "author": "zyt0339",
         "date": "2025-12-06 10:36:11",
         "message": "fix 修复 brush.go pubDate 读取"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512060031",
-    "items": [
-      {
-        "commit": "2d60808c331b93b1595ce6fd2faebde67e95e486",
-        "author": "Jolc",
-        "date": "2025-12-06 00:31:11",
-        "message": "fix:11"
-      },
-      {
-        "commit": "4a4795858c2b773c2d2661d4b671578530edfadc",
-        "author": "Jolc",
-        "date": "2025-12-06 00:30:12",
-        "message": "fix:11"
       }
     ]
   }
