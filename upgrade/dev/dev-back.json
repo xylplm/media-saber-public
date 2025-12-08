@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512081027",
+    "items": [
+      {
+        "commit": "215706163fb84b85e617048d82040b78a07697b2",
+        "author": "xylplm",
+        "date": "2025-12-08 10:26:37",
+        "message": "fix: 网络诊断结果不显示"
+      },
+      {
+        "commit": "a8deb8ffaaae9725eb3c5e7659e960f5a7f56005",
+        "author": "GateCross",
+        "date": "2025-12-08 10:25:18",
+        "message": "fix:增加请求github api失败重试次数"
+      },
+      {
+        "commit": "4d4b438069c7361214983f646df809831ff1fb21",
+        "author": "zyt0339",
+        "date": "2025-12-08 01:37:21",
+        "message": "fix:刷流插件，由于qb获取最新添加种子有延迟，导致一轮rss添加完种子后，总下载数会超过配置的最大值"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512072308",
     "items": [
       {
@@ -125,17 +148,6 @@
         "author": "xylplm",
         "date": "2025-12-05 16:18:23",
         "message": "feat:秘籍 朱雀签到 技能释放"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512051544",
-    "items": [
-      {
-        "commit": "dfd559286cfa2a6861918cae331934ed47d32ace",
-        "author": "GateCross",
-        "date": "2025-12-05 15:39:12",
-        "message": "fix:优化热更新检查逻辑"
       }
     ]
   }

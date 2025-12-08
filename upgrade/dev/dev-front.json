@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512081027",
+    "items": [
+      {
+        "commit": "f5b02052cf987e84ec59f2b708943e4f4de53720",
+        "author": "xylplm",
+        "date": "2025-12-08 09:55:45",
+        "message": "fix: 分类 语言和地区取消全部选项"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512072308",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "syueya",
         "date": "2025-12-02 13:25:43",
         "message": "add：tmdb配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512011107",
-    "items": [
-      {
-        "commit": "c76394cd39ae7cd4fa6e85697b8b627cb5ac8275",
-        "author": "liurongjie",
-        "date": "2025-12-01 11:06:37",
-        "message": "feat(cloud-storage): 调整云存储整理界面布局并新增通知开关"
       }
     ]
   }
