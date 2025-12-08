@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512082351",
+    "items": [
+      {
+        "commit": "64d31d6aa00c3aa325cff16c68de1c08ca0ba782",
+        "author": "Jolc",
+        "date": "2025-12-08 23:50:33",
+        "message": "feat: 115 事件选择事件"
+      },
+      {
+        "commit": "cd3288242217d7ebae666187f0d9fefadff85d44",
+        "author": "zyt0339",
+        "date": "2025-12-08 23:03:27",
+        "message": "fix:brush go ,加日志"
+      },
+      {
+        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
+        "author": "liurongjie",
+        "date": "2025-12-08 22:30:22",
+        "message": "style(service): 优化下载和转移消息通知文本格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512082247",
     "items": [
       {
@@ -467,17 +490,6 @@
         "author": "zyt0339",
         "date": "2025-12-08 01:37:21",
         "message": "fix:刷流插件，由于qb获取最新添加种子有延迟，导致一轮rss添加完种子后，总下载数会超过配置的最大值"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512072308",
-    "items": [
-      {
-        "commit": "eb488755b62a876e653d7ed3b25c59337b93523f",
-        "author": "GateCross",
-        "date": "2025-12-07 22:58:43",
-        "message": "feat:增加github token"
       }
     ]
   }
