@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512091124",
+    "items": [
+      {
+        "commit": "517dff91f8e7d97c367bc8653d66235199f99ed1",
+        "author": "GateCross",
+        "date": "2025-12-09 11:23:35",
+        "message": "fix:优化热更新版本问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512091104",
     "items": [
       {
@@ -443,29 +454,6 @@
         "author": "zyt0339",
         "date": "2025-12-08 19:52:15",
         "message": "fix brush.go加点日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081839",
-    "items": [
-      {
-        "commit": "c9043f915184a9e5c86c79a141660d050ccf71d6",
-        "author": "Jolc",
-        "date": "2025-12-08 18:39:14",
-        "message": "fix: 优化"
-      },
-      {
-        "commit": "c37fa4f0e24fe49463dece7ebc2ea39702856de0",
-        "author": "Jolc",
-        "date": "2025-12-08 14:59:38",
-        "message": "feat: 修复云下载整理找不到对象问题、新增 115 生活事件插件。"
-      },
-      {
-        "commit": "a8deb8ffaaae9725eb3c5e7659e960f5a7f56005",
-        "author": "GateCross",
-        "date": "2025-12-08 10:25:18",
-        "message": "fix:增加请求github api失败重试次数"
       }
     ]
   }
