@@ -328,6 +328,21 @@ jobs:
           github_token: ${{ secrets.PERSON_ACCESS_TOKEN }}
           branch: main
 
+      - name: Clean up old DEV* GitHub Releases (keep latest 1)
+        env:
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+        run: |
+          set -e
+          echo "Scanning releases for tags starting with DEV..."
+          # Get all DEV releases, sort by creation date (newest first), skip the first 1, delete the rest
+          gh release list --repo ${{ github.repository }} --limit 100 | grep '^DEV' | tail -n +2 | awk '{print $1}' | while read tag; do
+            if [ -n "$tag" ]; then
+              echo "Deleting release: $tag"
+              gh release delete "$tag" --repo ${{ github.repository }} --yes --cleanup-tag
+            fi
+          done
+          echo "Cleanup complete."
+
   update-version:
     runs-on: ubuntu-latest
     needs: [ gen-release ]
