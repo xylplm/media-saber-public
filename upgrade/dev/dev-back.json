@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512091722",
+    "items": [
+      {
+        "commit": "4b0fb2e0311ddff7c1783a273618d40cdfa3c33e",
+        "author": "GateCross",
+        "date": "2025-12-09 17:19:50",
+        "message": "fix:打印日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512091658",
     "items": [
       {
@@ -443,17 +454,6 @@
         "author": "liurongjie",
         "date": "2025-12-08 22:30:22",
         "message": "style(service): 优化下载和转移消息通知文本格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512082152",
-    "items": [
-      {
-        "commit": "72c5c934a154ba7f88205b5eda10aa563be1c843",
-        "author": "Jolc",
-        "date": "2025-12-08 21:52:31",
-        "message": "fix: log"
       }
     ]
   }
