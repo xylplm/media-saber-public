@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512091745",
+    "items": [
+      {
+        "commit": "804423dfc5bad5f0310dda69e5e1b18295a934bc",
+        "author": "yii",
+        "date": "2025-12-09 17:43:55",
+        "message": "fix: 修正认证组件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512091722",
     "items": [
       {
@@ -443,17 +454,6 @@
         "author": "Jolc",
         "date": "2025-11-28 23:56:57",
         "message": "fix:目录同步、本地整理、云存储整理增加通知开关。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512082232",
-    "items": [
-      {
-        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
-        "author": "liurongjie",
-        "date": "2025-12-08 22:30:22",
-        "message": "style(service): 优化下载和转移消息通知文本格式"
       }
     ]
   }
