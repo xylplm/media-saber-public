@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512090926",
+    "items": [
+      {
+        "commit": "6be92d562a38284397a1de9b83e73218b74adf4a",
+        "author": "liurongjie",
+        "date": "2025-12-09 09:24:10",
+        "message": "fix: 优化消息通知模板"
+      },
+      {
+        "commit": "cd3288242217d7ebae666187f0d9fefadff85d44",
+        "author": "zyt0339",
+        "date": "2025-12-08 23:03:27",
+        "message": "fix:brush go ,加日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512082351",
     "items": [
       {
@@ -467,29 +484,6 @@
         "author": "GateCross",
         "date": "2025-12-08 10:25:18",
         "message": "fix:增加请求github api失败重试次数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081027",
-    "items": [
-      {
-        "commit": "215706163fb84b85e617048d82040b78a07697b2",
-        "author": "xylplm",
-        "date": "2025-12-08 10:26:37",
-        "message": "fix: 网络诊断结果不显示"
-      },
-      {
-        "commit": "a8deb8ffaaae9725eb3c5e7659e960f5a7f56005",
-        "author": "GateCross",
-        "date": "2025-12-08 10:25:18",
-        "message": "fix:增加请求github api失败重试次数"
-      },
-      {
-        "commit": "4d4b438069c7361214983f646df809831ff1fb21",
-        "author": "zyt0339",
-        "date": "2025-12-08 01:37:21",
-        "message": "fix:刷流插件，由于qb获取最新添加种子有延迟，导致一轮rss添加完种子后，总下载数会超过配置的最大值"
       }
     ]
   }
