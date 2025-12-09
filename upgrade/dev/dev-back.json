@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512092153",
+    "items": [
+      {
+        "commit": "86b27c0e18cc49aae5831ea3111b42e171e0f8c5",
+        "author": "yii",
+        "date": "2025-12-09 21:52:54",
+        "message": "fix: 优化接口性能过高的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512092000",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "zyt0339",
         "date": "2025-12-08 23:03:27",
         "message": "fix:brush go ,加日志"
-      },
-      {
-        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
-        "author": "liurongjie",
-        "date": "2025-12-08 22:30:22",
-        "message": "style(service): 优化下载和转移消息通知文本格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512082247",
-    "items": [
-      {
-        "commit": "a0a10756de62b03cdd28f3071744764ce995bacd",
-        "author": "Jolc",
-        "date": "2025-12-08 22:46:57",
-        "message": "feat: 115 事件可配置包含路径"
       },
       {
         "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
