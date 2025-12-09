@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512092301",
+    "items": [
+      {
+        "commit": "e60e38af84fcbd2ba6065b5bfbc553e4d98b04ba",
+        "author": "GateCross",
+        "date": "2025-12-09 23:03:18",
+        "message": "fix:log"
+      },
+      {
+        "commit": "912ba0fbef83334063d22007ecee479e60f560b3",
+        "author": "yii",
+        "date": "2025-12-09 23:00:34",
+        "message": "fix: 优化程序跑的太快的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512092153",
     "items": [
       {
@@ -119,29 +136,6 @@
         "author": "zyt0339",
         "date": "2025-12-08 23:03:27",
         "message": "fix:brush go ,加日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512082351",
-    "items": [
-      {
-        "commit": "64d31d6aa00c3aa325cff16c68de1c08ca0ba782",
-        "author": "Jolc",
-        "date": "2025-12-08 23:50:33",
-        "message": "feat: 115 事件选择事件"
-      },
-      {
-        "commit": "cd3288242217d7ebae666187f0d9fefadff85d44",
-        "author": "zyt0339",
-        "date": "2025-12-08 23:03:27",
-        "message": "fix:brush go ,加日志"
-      },
-      {
-        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
-        "author": "liurongjie",
-        "date": "2025-12-08 22:30:22",
-        "message": "style(service): 优化下载和转移消息通知文本格式"
       }
     ]
   }
