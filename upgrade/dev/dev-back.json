@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512091658",
+    "items": [
+      {
+        "commit": "43b213b565cd5bd400533f6663ba340974e8abeb",
+        "author": "GateCross",
+        "date": "2025-12-09 16:57:28",
+        "message": "fix:优化api接口错误提示"
+      },
+      {
+        "commit": "00ecc7325900000f414ce29743675a66abd702bd",
+        "author": "GateCross",
+        "date": "2025-12-09 14:05:08",
+        "message": "fix:优化热更新版本判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512091124",
     "items": [
       {
@@ -437,23 +454,6 @@
         "author": "Jolc",
         "date": "2025-12-08 21:52:31",
         "message": "fix: log"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512082034",
-    "items": [
-      {
-        "commit": "f8d11fa7fb37b394c7c4de744955ed2739631c25",
-        "author": "Jolc",
-        "date": "2025-12-08 20:33:43",
-        "message": "fix: log"
-      },
-      {
-        "commit": "0ea798cfa4237f1eca4e16fc9e6392b663b1bca2",
-        "author": "zyt0339",
-        "date": "2025-12-08 19:52:15",
-        "message": "fix brush.go加点日志"
       }
     ]
   }
