@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512101957",
+    "items": [
+      {
+        "commit": "a5f5d4bea21ecb906c5800dd1d16dd23a4d236f4",
+        "author": "yii",
+        "date": "2025-12-10 19:56:29",
+        "message": "fix: 请求偶发性异常问题"
+      },
+      {
+        "commit": "79ccf09056d4d6440d8694ee157b0a2531e186dd",
+        "author": "liurongjie",
+        "date": "2025-12-10 15:06:53",
+        "message": "feat: 优化消息推送内容格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512101011",
     "items": [
       {
@@ -125,23 +142,6 @@
         "author": "xylplm",
         "date": "2025-12-09 11:02:54",
         "message": "feat: 秘籍98签到 内置黑名单用户 以及黑名单用户配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091017",
-    "items": [
-      {
-        "commit": "78efa30cd8ee037747e08db195e5a375513614a4",
-        "author": "xylplm",
-        "date": "2025-12-09 10:20:52",
-        "message": "fix: 98帖子信息完整性校验"
-      },
-      {
-        "commit": "368ae756748b8ad8cc27c6ac811b53e3f06add49",
-        "author": "xylplm",
-        "date": "2025-12-09 10:15:26",
-        "message": "feat: 修仙秘籍 98签到 增加帖子内容钓鱼贴校验、版务校验 增加内容黑名单关键词配置"
       }
     ]
   }
