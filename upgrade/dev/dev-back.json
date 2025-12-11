@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512120004",
+    "items": [
+      {
+        "commit": "f09d51b1ef78d7e9e5c92db0b4628b0dbd1dfe09",
+        "author": "liurongjie",
+        "date": "2025-12-12 00:03:46",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512111307",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "GateCross",
         "date": "2025-12-09 17:19:50",
         "message": "fix:打印日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091658",
-    "items": [
-      {
-        "commit": "43b213b565cd5bd400533f6663ba340974e8abeb",
-        "author": "GateCross",
-        "date": "2025-12-09 16:57:28",
-        "message": "fix:优化api接口错误提示"
-      },
-      {
-        "commit": "00ecc7325900000f414ce29743675a66abd702bd",
-        "author": "GateCross",
-        "date": "2025-12-09 14:05:08",
-        "message": "fix:优化热更新版本判断"
       }
     ]
   }
