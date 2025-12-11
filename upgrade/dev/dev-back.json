@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512111307",
+    "items": [
+      {
+        "commit": "f483f22a2c83be1d593ea22fe334550574300fdc",
+        "author": "liurongjie",
+        "date": "2025-12-11 13:04:33",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "025202b19a4cbb18269745edc860e25a99459e0b",
+        "author": "liurongjie",
+        "date": "2025-12-11 12:36:51",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "0dd5cd6483399e4ce4ae95fc52aace2c9e31dae9",
+        "author": "liurongjie",
+        "date": "2025-12-11 10:56:01",
+        "message": "refactor: 优化下载通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512111110",
     "items": [
       {
@@ -143,17 +166,6 @@
         "author": "GateCross",
         "date": "2025-12-09 14:05:08",
         "message": "fix:优化热更新版本判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091124",
-    "items": [
-      {
-        "commit": "517dff91f8e7d97c367bc8653d66235199f99ed1",
-        "author": "GateCross",
-        "date": "2025-12-09 11:23:35",
-        "message": "fix:优化热更新版本问题"
       }
     ]
   }
