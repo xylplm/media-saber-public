@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512130016",
+    "items": [
+      {
+        "commit": "4cd770a2bbee6c1857ec368b966ecf174aa90843",
+        "author": "Jolc",
+        "date": "2025-12-13 00:15:40",
+        "message": "feat: merge oplist"
+      },
+      {
+        "commit": "194bd252a69085c1ca435c8edb77fff5f97987a0",
+        "author": "liurongjie",
+        "date": "2025-12-12 21:43:13",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512122313",
     "items": [
       {
@@ -130,29 +147,6 @@
         "commit": "79ccf09056d4d6440d8694ee157b0a2531e186dd",
         "author": "liurongjie",
         "date": "2025-12-10 15:06:53",
-        "message": "feat: 优化消息推送内容格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512101011",
-    "items": [
-      {
-        "commit": "49703226f9c7add872808815cca34edeb3dd25b4",
-        "author": "yii",
-        "date": "2025-12-10 10:11:35",
-        "message": "fix: 刚刚腿只打断了一半"
-      },
-      {
-        "commit": "5103129b6452eaf22d0a16f52a99fb8754ffda7f",
-        "author": "yii",
-        "date": "2025-12-10 10:10:24",
-        "message": "fix: 程序跑太快了给腿打断"
-      },
-      {
-        "commit": "7fcf092cd9d3f42134b6c839b2559b31983aedeb",
-        "author": "liurongjie",
-        "date": "2025-12-09 23:18:09",
         "message": "feat: 优化消息推送内容格式"
       }
     ]
