@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512122313",
+    "items": [
+      {
+        "commit": "f077678ce916815d2aaf2c3b1cbbb023798bbd1c",
+        "author": "GateCross",
+        "date": "2025-12-12 17:25:37",
+        "message": "feat:增加手动识别重试失败项"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512122248",
     "items": [
       {
@@ -143,23 +154,6 @@
         "author": "liurongjie",
         "date": "2025-12-09 23:18:09",
         "message": "feat: 优化消息推送内容格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512092301",
-    "items": [
-      {
-        "commit": "e60e38af84fcbd2ba6065b5bfbc553e4d98b04ba",
-        "author": "GateCross",
-        "date": "2025-12-09 23:03:18",
-        "message": "fix:log"
-      },
-      {
-        "commit": "912ba0fbef83334063d22007ecee479e60f560b3",
-        "author": "yii",
-        "date": "2025-12-09 23:00:34",
-        "message": "fix: 优化程序跑的太快的问题"
       }
     ]
   }

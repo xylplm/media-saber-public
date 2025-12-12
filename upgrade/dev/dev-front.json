@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512122313",
+    "items": [
+      {
+        "commit": "cbcc151a46ac0903606fe12e53d1aa768bdfad08",
+        "author": "GateCross",
+        "date": "2025-12-12 23:13:14",
+        "message": "fix:版本更新、动画恢复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512122248",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "GateCross",
         "date": "2025-12-03 10:05:27",
         "message": "feat:前端增加定时任务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512042056",
-    "items": [
-      {
-        "commit": "7c61cc4fac6162903e5cde35be3410768e96fcac",
-        "author": "xylplm",
-        "date": "2025-12-03 13:57:11",
-        "message": "feat:表单警告提示组件"
       }
     ]
   }
