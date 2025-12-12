@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512121645",
+    "items": [
+      {
+        "commit": "a7bee118f9ef36b3729bcfaf623af7e81cae4ddf",
+        "author": "liurongjie",
+        "date": "2025-12-12 16:45:17",
+        "message": "feat: 优化消息推送内容格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512121357",
     "items": [
       {
@@ -142,23 +153,6 @@
         "commit": "86b27c0e18cc49aae5831ea3111b42e171e0f8c5",
         "author": "yii",
         "date": "2025-12-09 21:52:54",
-        "message": "fix: 优化接口性能过高的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512092000",
-    "items": [
-      {
-        "commit": "d0b216f6c1dcb7f808d210c102351bdec001531d",
-        "author": "yii",
-        "date": "2025-12-09 19:59:47",
-        "message": "fix: 优化接口性能过高的问题"
-      },
-      {
-        "commit": "2cee0cfeb7588cefe82262a797b34fe6058d44a6",
-        "author": "yii",
-        "date": "2025-12-09 19:56:50",
         "message": "fix: 优化接口性能过高的问题"
       }
     ]
