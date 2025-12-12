@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512122248",
+    "items": [
+      {
+        "commit": "194bd252a69085c1ca435c8edb77fff5f97987a0",
+        "author": "liurongjie",
+        "date": "2025-12-12 21:43:13",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f077678ce916815d2aaf2c3b1cbbb023798bbd1c",
+        "author": "GateCross",
+        "date": "2025-12-12 17:25:37",
+        "message": "feat:增加手动识别重试失败项"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512121645",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "yii",
         "date": "2025-12-09 23:00:34",
         "message": "fix: 优化程序跑的太快的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512092153",
-    "items": [
-      {
-        "commit": "86b27c0e18cc49aae5831ea3111b42e171e0f8c5",
-        "author": "yii",
-        "date": "2025-12-09 21:52:54",
-        "message": "fix: 优化接口性能过高的问题"
       }
     ]
   }
