@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512121357",
+    "items": [
+      {
+        "commit": "3aa7fef0b4e450ac75638529b99f35f9be085709",
+        "author": "liurongjie",
+        "date": "2025-12-12 13:56:05",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512121029",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "yii",
         "date": "2025-12-09 19:56:50",
         "message": "fix: 优化接口性能过高的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091745",
-    "items": [
-      {
-        "commit": "804423dfc5bad5f0310dda69e5e1b18295a934bc",
-        "author": "yii",
-        "date": "2025-12-09 17:43:55",
-        "message": "fix: 修正认证组件"
       }
     ]
   }
