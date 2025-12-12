@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512121029",
+    "items": [
+      {
+        "commit": "03ebb26cf6e4a418f2c2acaee3ba2c10cd231efd",
+        "author": "liurongjie",
+        "date": "2025-12-12 10:29:10",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512120004",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "yii",
         "date": "2025-12-09 17:43:55",
         "message": "fix: 修正认证组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091722",
-    "items": [
-      {
-        "commit": "4b0fb2e0311ddff7c1783a273618d40cdfa3c33e",
-        "author": "GateCross",
-        "date": "2025-12-09 17:19:50",
-        "message": "fix:打印日志"
       }
     ]
   }
