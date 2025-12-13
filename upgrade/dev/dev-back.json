@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131110",
+    "items": [
+      {
+        "commit": "05a599eff33bb245ab973372aba7aaf6d10f47af",
+        "author": "liurongjie",
+        "date": "2025-12-13 11:06:16",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131033",
     "items": [
       {
@@ -119,29 +130,6 @@
         "author": "liurongjie",
         "date": "2025-12-11 10:56:01",
         "message": "refactor: 优化下载通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512111110",
-    "items": [
-      {
-        "commit": "b228bb1016b6f5cdf753bd437ba9036533f60cd0",
-        "author": "Jolc",
-        "date": "2025-12-11 11:02:04",
-        "message": "feat:增加迅雷驱动、云存储跨盘复制移动成功或失败回调事件、hdhive 签到插件优化、"
-      },
-      {
-        "commit": "0dd5cd6483399e4ce4ae95fc52aace2c9e31dae9",
-        "author": "liurongjie",
-        "date": "2025-12-11 10:56:01",
-        "message": "refactor: 优化下载通知消息"
-      },
-      {
-        "commit": "9bc8a7ca595edf79cfefdd5d4cc20ec19ad770db",
-        "author": "liurongjie",
-        "date": "2025-12-10 21:58:51",
-        "message": "fix(api): 优化GitHub限流错误提示信息"
       }
     ]
   }
