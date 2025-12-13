@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512131451",
+    "items": [
+      {
+        "commit": "7179ad736db829d848091f5828c19ca798e9c069",
+        "author": "Jolc",
+        "date": "2025-12-13 14:50:57",
+        "message": "fix: 修复 123 转存"
+      },
+      {
+        "commit": "5245c0990d0158d3f84ffdbb29721afc6f957a6d",
+        "author": "Jolc",
+        "date": "2025-12-13 13:59:23",
+        "message": "feat: merge oplist"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131414",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2025-12-12 17:25:37",
         "message": "feat:增加手动识别重试失败项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512121645",
-    "items": [
-      {
-        "commit": "a7bee118f9ef36b3729bcfaf623af7e81cae4ddf",
-        "author": "liurongjie",
-        "date": "2025-12-12 16:45:17",
-        "message": "feat: 优化消息推送内容格式"
       }
     ]
   }
