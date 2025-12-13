@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131524",
+    "items": [
+      {
+        "commit": "3bfd66d362b32423b7fa47c7f54903cf2b23028a",
+        "author": "Jolc",
+        "date": "2025-12-13 15:10:34",
+        "message": "fix: cloud storage task clear"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131451",
     "items": [
       {
@@ -132,23 +143,6 @@
   {
     "version": "DEV_202512122313",
     "items": [
-      {
-        "commit": "f077678ce916815d2aaf2c3b1cbbb023798bbd1c",
-        "author": "GateCross",
-        "date": "2025-12-12 17:25:37",
-        "message": "feat:增加手动识别重试失败项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512122248",
-    "items": [
-      {
-        "commit": "194bd252a69085c1ca435c8edb77fff5f97987a0",
-        "author": "liurongjie",
-        "date": "2025-12-12 21:43:13",
-        "message": "refactor: 优化通知消息"
-      },
       {
         "commit": "f077678ce916815d2aaf2c3b1cbbb023798bbd1c",
         "author": "GateCross",
