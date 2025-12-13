@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131033",
+    "items": [
+      {
+        "commit": "57fb5c4635ea69a6a0bf7817f73322195e52f649",
+        "author": "Jolc",
+        "date": "2025-12-13 10:32:55",
+        "message": "fix: 修 123 json upload"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512130016",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2025-12-10 21:58:51",
         "message": "fix(api): 优化GitHub限流错误提示信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512101957",
-    "items": [
-      {
-        "commit": "a5f5d4bea21ecb906c5800dd1d16dd23a4d236f4",
-        "author": "yii",
-        "date": "2025-12-10 19:56:29",
-        "message": "fix: 请求偶发性异常问题"
-      },
-      {
-        "commit": "79ccf09056d4d6440d8694ee157b0a2531e186dd",
-        "author": "liurongjie",
-        "date": "2025-12-10 15:06:53",
-        "message": "feat: 优化消息推送内容格式"
       }
     ]
   }
