@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131405",
+    "items": [
+      {
+        "commit": "5245c0990d0158d3f84ffdbb29721afc6f957a6d",
+        "author": "Jolc",
+        "date": "2025-12-13 13:59:23",
+        "message": "feat: merge oplist"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131340",
     "items": [
       {
@@ -118,17 +129,6 @@
         "commit": "3aa7fef0b4e450ac75638529b99f35f9be085709",
         "author": "liurongjie",
         "date": "2025-12-12 13:56:05",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512121029",
-    "items": [
-      {
-        "commit": "03ebb26cf6e4a418f2c2acaee3ba2c10cd231efd",
-        "author": "liurongjie",
-        "date": "2025-12-12 10:29:10",
         "message": "refactor: 优化通知消息"
       }
     ]
