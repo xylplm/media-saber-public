@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131041",
+    "items": [
+      {
+        "commit": "4ef715d7563c17a653941ab416045909feb45f8c",
+        "author": "liurongjie",
+        "date": "2025-12-13 10:38:24",
+        "message": "refactor(media-resource-link): 优化资源链接组件的数据更新逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512130016",
     "items": [
       {
@@ -209,23 +220,6 @@
         "author": "xylplm",
         "date": "2025-12-06 21:54:18",
         "message": "fix: 优化文件列表大于100条分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512061834",
-    "items": [
-      {
-        "commit": "ad5df44f9524f3042f43431e1aa4fbf11c1aa774",
-        "author": "xylplm",
-        "date": "2025-12-06 12:02:40",
-        "message": "fix:优化文件列表 虚拟滚动 避免浏览器卡死"
-      },
-      {
-        "commit": "a4af7f0dcfa43362761277713288c1d85ee1fe14",
-        "author": "xylplm",
-        "date": "2025-12-06 11:25:46",
-        "message": "fix:云存储文件列表虚拟滚动，防止大量文件浏览器卡死"
       }
     ]
   }
