@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131340",
+    "items": [
+      {
+        "commit": "72a4f2f6b57a66a5e21181bc48c452a9e840223b",
+        "author": "liurongjie",
+        "date": "2025-12-13 13:39:12",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131328",
     "items": [
       {
@@ -118,17 +129,6 @@
         "commit": "03ebb26cf6e4a418f2c2acaee3ba2c10cd231efd",
         "author": "liurongjie",
         "date": "2025-12-12 10:29:10",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512120004",
-    "items": [
-      {
-        "commit": "f09d51b1ef78d7e9e5c92db0b4628b0dbd1dfe09",
-        "author": "liurongjie",
-        "date": "2025-12-12 00:03:46",
         "message": "refactor: 优化通知消息"
       }
     ]
