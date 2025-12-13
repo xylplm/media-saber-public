@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512131615",
+    "items": [
+      {
+        "commit": "453cab7a8fb87179d7e8a44382c318ee75955103",
+        "author": "liurongjie",
+        "date": "2025-12-13 16:14:23",
+        "message": "fix(cloud-storage): 修复云端文件点击主页无效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131041",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "liurongjie",
         "date": "2025-12-07 23:08:06",
         "message": "feat(settings): 添加GitHub访问令牌配置项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512062154",
-    "items": [
-      {
-        "commit": "34917d41693eb4e2954fcf405fadd6321e1193af",
-        "author": "xylplm",
-        "date": "2025-12-06 21:54:18",
-        "message": "fix: 优化文件列表大于100条分页"
       }
     ]
   }
