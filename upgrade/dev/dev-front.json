@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512132117",
+    "items": [
+      {
+        "commit": "b538797d49c7f977723936df33a775ce1c19b297",
+        "author": "liurongjie",
+        "date": "2025-12-13 21:16:10",
+        "message": "style(tools-pages-binge-watch): 调整表单字段列宽以优化布局"
+      },
+      {
+        "commit": "f4d2993f210e48a77f37aa40f951129b6f11faea",
+        "author": "xylplm",
+        "date": "2025-12-13 20:07:46",
+        "message": "fix: 修复站点测试 优化交互效果"
+      },
+      {
+        "commit": "a8c2f1166eb9df393d8db088f88f92296ef643b5",
+        "author": "xylplm",
+        "date": "2025-12-13 20:01:51",
+        "message": "fix: 修复 网络连接测试 并优化交互"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131615",
     "items": [
       {
@@ -209,17 +232,6 @@
         "author": "xylplm",
         "date": "2025-12-08 09:55:45",
         "message": "fix: 分类 语言和地区取消全部选项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512072308",
-    "items": [
-      {
-        "commit": "ed1d69c47d4ecef787da5a1cf9f761f2cc0023bd",
-        "author": "liurongjie",
-        "date": "2025-12-07 23:08:06",
-        "message": "feat(settings): 添加GitHub访问令牌配置项"
       }
     ]
   }

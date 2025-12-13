@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512132117",
+    "items": [
+      {
+        "commit": "06ccf07bbdd45e623d9d8145659e123d627f75c6",
+        "author": "liurongjie",
+        "date": "2025-12-13 21:15:25",
+        "message": "fix(dynamic_form): 调整多插件配置列宽布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512131524",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2025-12-12 21:43:13",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512122313",
-    "items": [
-      {
-        "commit": "f077678ce916815d2aaf2c3b1cbbb023798bbd1c",
-        "author": "GateCross",
-        "date": "2025-12-12 17:25:37",
-        "message": "feat:增加手动识别重试失败项"
       }
     ]
   }
