@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512141255",
+    "items": [
+      {
+        "commit": "d20c305da7a74ee5dc2cd3cd14db2990879f7a04",
+        "author": "GateCross",
+        "date": "2025-12-14 12:52:06",
+        "message": "fix:更新动画"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512141235",
     "items": [
       {
@@ -209,29 +220,6 @@
         "author": "xylplm",
         "date": "2025-12-08 22:38:44",
         "message": "fix:修复下拉面板"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081839",
-    "items": [
-      {
-        "commit": "3e9a8e61a5c7d1174b5d81dfd26d835ce7244471",
-        "author": "xylplm",
-        "date": "2025-12-08 17:50:38",
-        "message": "fix: prompt"
-      },
-      {
-        "commit": "40abcd65e468e763d0e28d3c5548d7fc7a4690cc",
-        "author": "xylplm",
-        "date": "2025-12-08 16:56:05",
-        "message": "fix: code format"
-      },
-      {
-        "commit": "0a86917dbeecfd64f0964b88dabfb8c49edc86a3",
-        "author": "xylplm",
-        "date": "2025-12-08 16:52:28",
-        "message": "Update package.json"
       }
     ]
   }
