@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512142048",
+    "items": [
+      {
+        "commit": "4790eacecd104c20b7b8cd5dabfdfd976d530143",
+        "author": "liurongjie",
+        "date": "2025-12-14 13:42:18",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "a91de00f13940a2c287f003f32e57ebfece431fb",
+        "author": "xylplm",
+        "date": "2025-12-13 23:21:33",
+        "message": "fix: 优化netx 默认代理跳过本地和局域网ip 避免进入环境代理"
+      },
+      {
+        "commit": "06ccf07bbdd45e623d9d8145659e123d627f75c6",
+        "author": "liurongjie",
+        "date": "2025-12-13 21:15:25",
+        "message": "fix(dynamic_form): 调整多插件配置列宽布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512141927",
     "items": [
       {
@@ -119,29 +142,6 @@
         "author": "liurongjie",
         "date": "2025-12-13 13:39:12",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512131328",
-    "items": [
-      {
-        "commit": "01c56a8d4d7a10f4e759c0ba218c8de4cde7220b",
-        "author": "liurongjie",
-        "date": "2025-12-13 13:24:39",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "57fb5c4635ea69a6a0bf7817f73322195e52f649",
-        "author": "Jolc",
-        "date": "2025-12-13 10:32:55",
-        "message": "fix: 修 123 json upload"
-      },
-      {
-        "commit": "4cd770a2bbee6c1857ec368b966ecf174aa90843",
-        "author": "Jolc",
-        "date": "2025-12-13 00:15:40",
-        "message": "feat: merge oplist"
       }
     ]
   }

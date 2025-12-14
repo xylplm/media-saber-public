@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202512142048",
+    "items": [
+      {
+        "commit": "8e55c57f596a84ced863efa126b2f8ff6e446950",
+        "author": "GateCross",
+        "date": "2025-12-14 20:48:16",
+        "message": "fix:首页定制signal"
+      },
+      {
+        "commit": "d20c305da7a74ee5dc2cd3cd14db2990879f7a04",
+        "author": "GateCross",
+        "date": "2025-12-14 12:52:06",
+        "message": "fix:更新动画"
+      },
+      {
+        "commit": "5bc38492fcf2458c724742ac24f4a30865317e75",
+        "author": "GateCross",
+        "date": "2025-12-14 12:35:28",
+        "message": "fix:识别词signal"
+      },
+      {
+        "commit": "a12c460e57e4df0bdd615d4823fefd8ac579b0dc",
+        "author": "GateCross",
+        "date": "2025-12-14 11:47:10",
+        "message": "fix:更新按钮Signal"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512141927",
     "items": [
       {
@@ -125,101 +154,6 @@
         "author": "GateCross",
         "date": "2025-12-12 23:13:14",
         "message": "fix:版本更新、动画恢复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512122248",
-    "items": [
-      {
-        "commit": "ca7ca5da6c4b343457005eab2ec60fbefddb7ce4",
-        "author": "liurongjie",
-        "date": "2025-12-12 22:47:51",
-        "message": "chore(deps): 移除 package.json 中的 baseline-browser-mapping 依赖"
-      },
-      {
-        "commit": "8a1824d832f9e27d85ab4bec1e52ce8782873b1f",
-        "author": "xylplm",
-        "date": "2025-12-12 22:42:59",
-        "message": "fix: 寻影探剧 过滤列表不柱塞操作"
-      },
-      {
-        "commit": "663f0e80ccca07b31c4068e5726dffd906b754dc",
-        "author": "GateCross",
-        "date": "2025-12-12 22:41:06",
-        "message": "feat:手动识别重试所有失败项"
-      },
-      {
-        "commit": "d8b5ccb12cbf4f0e10eb85877a60203cf9da7819",
-        "author": "xylplm",
-        "date": "2025-12-12 22:39:45",
-        "message": "fix: 优化路由加载高优先级 避免其他资源请求阻塞"
-      },
-      {
-        "commit": "0efcff9cc1c4b0285207388b413dacbbc1e9e311",
-        "author": "liurongjie",
-        "date": "2025-12-12 22:38:16",
-        "message": "feat(site-statistics): 添加下载次数排序功能"
-      },
-      {
-        "commit": "3472582177251c733d09070c40b12072d943b1cf",
-        "author": "liurongjie",
-        "date": "2025-12-12 22:28:50",
-        "message": "feat(site): 添加请求头以禁用加载动画"
-      },
-      {
-        "commit": "00ae091c19c798569c5a40fd4c8d6a29599117cd",
-        "author": "xylplm",
-        "date": "2025-12-12 22:01:53",
-        "message": "feat: 站点数据 排序支持 浏览器本地记忆"
-      },
-      {
-        "commit": "55ccbf9253368a54a4be7411f4cae472876ed626",
-        "author": "xylplm",
-        "date": "2025-12-12 21:43:02",
-        "message": "fix: 优化云端文件选择"
-      },
-      {
-        "commit": "db12cc2f1859ea41bc58b5f6dc3e3f0310f0877f",
-        "author": "xylplm",
-        "date": "2025-12-12 21:30:03",
-        "message": "fix: 信号取值错误"
-      },
-      {
-        "commit": "9257c0b9dfa3f76db01252b8bddf7a8c5267c7c8",
-        "author": "xylplm",
-        "date": "2025-12-12 21:26:44",
-        "message": "fix: 使用信号模式 优化alert性能"
-      },
-      {
-        "commit": "1ba19046b928a80bab5f73bd26f191baae474626",
-        "author": "xylplm",
-        "date": "2025-12-12 21:19:37",
-        "message": "fix: 信号模式优化dashboard"
-      },
-      {
-        "commit": "3964c62e05e166963388b3bc4a5edd8246899cde",
-        "author": "xylplm",
-        "date": "2025-12-12 21:14:00",
-        "message": "fix: 初始化时菜单选中"
-      },
-      {
-        "commit": "80bc5572d586c5d00260485267c3109ba7a7366f",
-        "author": "GateCross",
-        "date": "2025-12-12 21:09:52",
-        "message": "fix:最新版本"
-      },
-      {
-        "commit": "9cf83a302baac489a160e68c08deb3fa74af71c6",
-        "author": "xylplm",
-        "date": "2025-12-12 20:37:01",
-        "message": "fix:优化加载效果"
-      },
-      {
-        "commit": "99e9a39512be8b4f8662d54ac1aaa5fe57d28fb7",
-        "author": "xylplm",
-        "date": "2025-12-12 17:40:21",
-        "message": "Merged version upgrade migration commits"
       }
     ]
   }
