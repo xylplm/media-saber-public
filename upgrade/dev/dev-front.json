@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512141927",
+    "items": [
+      {
+        "commit": "ddfe97b024819c40675f6301465459ae36e92e53",
+        "author": "xylplm",
+        "date": "2025-12-14 14:08:28",
+        "message": "feat: dashboard 首页统计数字增加UI动效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512141255",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "xylplm",
         "date": "2025-12-12 17:40:21",
         "message": "Merged version upgrade migration commits"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512082239",
-    "items": [
-      {
-        "commit": "104cc042079927136ee5da42f39069aaa97c0c17",
-        "author": "xylplm",
-        "date": "2025-12-08 22:38:44",
-        "message": "fix:修复下拉面板"
       }
     ]
   }
