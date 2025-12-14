@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512141147",
+    "items": [
+      {
+        "commit": "a91de00f13940a2c287f003f32e57ebfece431fb",
+        "author": "xylplm",
+        "date": "2025-12-13 23:21:33",
+        "message": "fix: 优化netx 默认代理跳过本地和局域网ip 避免进入环境代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512132117",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "Jolc",
         "date": "2025-12-13 10:32:55",
         "message": "fix: 修 123 json upload"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512130016",
-    "items": [
-      {
-        "commit": "4cd770a2bbee6c1857ec368b966ecf174aa90843",
-        "author": "Jolc",
-        "date": "2025-12-13 00:15:40",
-        "message": "feat: merge oplist"
-      },
-      {
-        "commit": "194bd252a69085c1ca435c8edb77fff5f97987a0",
-        "author": "liurongjie",
-        "date": "2025-12-12 21:43:13",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
