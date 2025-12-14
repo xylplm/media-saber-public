@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512141235",
+    "items": [
+      {
+        "commit": "5bc38492fcf2458c724742ac24f4a30865317e75",
+        "author": "GateCross",
+        "date": "2025-12-14 12:35:28",
+        "message": "fix:识别词signal"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512141147",
     "items": [
       {
@@ -221,17 +232,6 @@
         "author": "xylplm",
         "date": "2025-12-08 16:52:28",
         "message": "Update package.json"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081643",
-    "items": [
-      {
-        "commit": "81a0b7cd2902d489e15357a0c5775b5156678f13",
-        "author": "xylplm",
-        "date": "2025-12-08 16:16:37",
-        "message": "refactor: 升级angular 21 并更新依赖，修复一些lint问题"
       }
     ]
   }
