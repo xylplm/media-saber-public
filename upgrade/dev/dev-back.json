@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512141344",
+    "items": [
+      {
+        "commit": "4790eacecd104c20b7b8cd5dabfdfd976d530143",
+        "author": "liurongjie",
+        "date": "2025-12-14 13:42:18",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512141147",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2025-12-13 11:06:16",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512131033",
-    "items": [
-      {
-        "commit": "57fb5c4635ea69a6a0bf7817f73322195e52f649",
-        "author": "Jolc",
-        "date": "2025-12-13 10:32:55",
-        "message": "fix: 修 123 json upload"
       }
     ]
   }
