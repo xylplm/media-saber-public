@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512152314",
+    "items": [
+      {
+        "commit": "643e949f60818ec4bcdfd2957af1b261618c5c27",
+        "author": "xylplm",
+        "date": "2025-12-15 17:29:44",
+        "message": "fix: 修仙秘籍 dc"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512152211",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "GateCross",
         "date": "2025-12-14 12:35:28",
         "message": "fix:识别词signal"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512141147",
-    "items": [
-      {
-        "commit": "a12c460e57e4df0bdd615d4823fefd8ac579b0dc",
-        "author": "GateCross",
-        "date": "2025-12-14 11:47:10",
-        "message": "fix:更新按钮Signal"
       }
     ]
   }
