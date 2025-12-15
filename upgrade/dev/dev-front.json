@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512150939",
+    "items": [
+      {
+        "commit": "029c63cf73da17de7e94592a49f114c91b4141dd",
+        "author": "GateCross",
+        "date": "2025-12-15 09:38:55",
+        "message": "fix:手动识别signal"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512150914",
     "items": [
       {
@@ -125,35 +136,6 @@
         "author": "liurongjie",
         "date": "2025-12-13 10:38:24",
         "message": "refactor(media-resource-link): 优化资源链接组件的数据更新逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512130016",
-    "items": [
-      {
-        "commit": "bc704dc23049a3b6de626bb6d22b5fc477d7e40c",
-        "author": "xylplm",
-        "date": "2025-12-12 23:46:08",
-        "message": "fix： update version"
-      },
-      {
-        "commit": "be9472156ffb8c3d0d85868f4cd3a1a259693998",
-        "author": "xylplm",
-        "date": "2025-12-12 23:37:53",
-        "message": "Update package-lock.json"
-      },
-      {
-        "commit": "951e2828077808c1f3a1201c9fdaeaff2ff2901b",
-        "author": "xylplm",
-        "date": "2025-12-12 23:23:57",
-        "message": "fix: 优化pc下升级按钮展示"
-      },
-      {
-        "commit": "866d231f0da6662a6565658d1970d3133f887a94",
-        "author": "xylplm",
-        "date": "2025-12-12 23:00:29",
-        "message": "feat:优化消息的滑入滑出动画效果"
       }
     ]
   }
