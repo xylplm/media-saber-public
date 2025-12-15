@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512151326",
+    "items": [
+      {
+        "commit": "d4385523340a6899f51725432521e34b0a663a19",
+        "author": "Jolc",
+        "date": "2025-12-15 13:26:08",
+        "message": "fix: 修复 115 生活事件没配置包含路径，忽略文件问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512151253",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2025-12-13 21:15:25",
         "message": "fix(dynamic_form): 调整多插件配置列宽布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512131524",
-    "items": [
-      {
-        "commit": "3bfd66d362b32423b7fa47c7f54903cf2b23028a",
-        "author": "Jolc",
-        "date": "2025-12-13 15:10:34",
-        "message": "fix: cloud storage task clear"
       }
     ]
   }
