@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512152211",
+    "items": [
+      {
+        "commit": "fb13efb4eb3ec89461f1673a74f5bf4ec9d3e2a3",
+        "author": "GateCross",
+        "date": "2025-12-15 17:25:23",
+        "message": "fix:signal错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512151822",
     "items": [
       {
@@ -173,29 +184,6 @@
         "author": "GateCross",
         "date": "2025-12-14 11:47:10",
         "message": "fix:更新按钮Signal"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512132117",
-    "items": [
-      {
-        "commit": "b538797d49c7f977723936df33a775ce1c19b297",
-        "author": "liurongjie",
-        "date": "2025-12-13 21:16:10",
-        "message": "style(tools-pages-binge-watch): 调整表单字段列宽以优化布局"
-      },
-      {
-        "commit": "f4d2993f210e48a77f37aa40f951129b6f11faea",
-        "author": "xylplm",
-        "date": "2025-12-13 20:07:46",
-        "message": "fix: 修复站点测试 优化交互效果"
-      },
-      {
-        "commit": "a8c2f1166eb9df393d8db088f88f92296ef643b5",
-        "author": "xylplm",
-        "date": "2025-12-13 20:01:51",
-        "message": "fix: 修复 网络连接测试 并优化交互"
       }
     ]
   }

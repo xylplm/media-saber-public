@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512152211",
+    "items": [
+      {
+        "commit": "f05bbef46ca1a3b7ba2e9b6f8c671d45666ab728",
+        "author": "liurongjie",
+        "date": "2025-12-15 22:09:41",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512151822",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "liurongjie",
         "date": "2025-12-14 13:42:18",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512141147",
-    "items": [
-      {
-        "commit": "a91de00f13940a2c287f003f32e57ebfece431fb",
-        "author": "xylplm",
-        "date": "2025-12-13 23:21:33",
-        "message": "fix: 优化netx 默认代理跳过本地和局域网ip 避免进入环境代理"
       }
     ]
   }
