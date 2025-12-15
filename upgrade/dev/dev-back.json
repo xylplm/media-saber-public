@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512151055",
+    "items": [
+      {
+        "commit": "506f617203df6589b3e75dec8d6477eb3a8f2a2d",
+        "author": "liurongjie",
+        "date": "2025-12-15 10:23:46",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "1341bb57d6e1b043f2de0079aa1b099a03bbf339",
+        "author": "liurongjie",
+        "date": "2025-12-15 10:02:35",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512142341",
     "items": [
       {
@@ -125,35 +142,6 @@
         "author": "Jolc",
         "date": "2025-12-13 13:59:23",
         "message": "feat: merge oplist"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512131414",
-    "items": [
-      {
-        "commit": "c440d5658fca29c0fa31dc3b03e077c4fd3b1f12",
-        "author": "liurongjie",
-        "date": "2025-12-13 14:13:49",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "72a4f2f6b57a66a5e21181bc48c452a9e840223b",
-        "author": "liurongjie",
-        "date": "2025-12-13 13:39:12",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "01c56a8d4d7a10f4e759c0ba218c8de4cde7220b",
-        "author": "liurongjie",
-        "date": "2025-12-13 13:24:39",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "05a599eff33bb245ab973372aba7aaf6d10f47af",
-        "author": "liurongjie",
-        "date": "2025-12-13 11:06:16",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
