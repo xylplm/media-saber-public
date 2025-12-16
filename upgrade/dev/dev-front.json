@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512161400",
+    "items": [
+      {
+        "commit": "429f6e002080498967442e9f341edbc73d7e854e",
+        "author": "liurongjie",
+        "date": "2025-12-16 14:00:09",
+        "message": "fix: 修复消息通知编辑选项不回显"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512161217",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "xylplm",
         "date": "2025-12-14 14:08:28",
         "message": "feat: dashboard 首页统计数字增加UI动效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512141255",
-    "items": [
-      {
-        "commit": "d20c305da7a74ee5dc2cd3cd14db2990879f7a04",
-        "author": "GateCross",
-        "date": "2025-12-14 12:52:06",
-        "message": "fix:更新动画"
       }
     ]
   }
