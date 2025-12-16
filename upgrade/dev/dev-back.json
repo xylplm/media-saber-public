@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512161217",
+    "items": [
+      {
+        "commit": "e34c9186c5a8ed412174265d869ea92713e8d643",
+        "author": "yii",
+        "date": "2025-12-16 09:33:48",
+        "message": "fix 捕获J佬的bug"
+      },
+      {
+        "commit": "951560f1951d37d957ee0ea8589b5177bf25fe73",
+        "author": "Jolc",
+        "date": "2025-12-15 23:56:24",
+        "message": "feat: open123 生成秒传链接 json"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512152314",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "liurongjie",
         "date": "2025-12-13 21:15:25",
         "message": "fix(dynamic_form): 调整多插件配置列宽布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512141927",
-    "items": [
-      {
-        "commit": "814abee305173b730599e5a9b9481dd50f9ce5be",
-        "author": "Jolc",
-        "date": "2025-12-14 19:26:22",
-        "message": "feat: p115"
       }
     ]
   }
