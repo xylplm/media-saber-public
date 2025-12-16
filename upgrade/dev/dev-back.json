@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512161326",
+    "items": [
+      {
+        "commit": "5108b0e1adbd9b07940c8266f76ceeb2c03ab24a",
+        "author": "liurongjie",
+        "date": "2025-12-16 13:25:28",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512161217",
     "items": [
       {
@@ -143,29 +154,6 @@
         "author": "Jolc",
         "date": "2025-12-14 19:26:22",
         "message": "feat: p115"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512142048",
-    "items": [
-      {
-        "commit": "4790eacecd104c20b7b8cd5dabfdfd976d530143",
-        "author": "liurongjie",
-        "date": "2025-12-14 13:42:18",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "a91de00f13940a2c287f003f32e57ebfece431fb",
-        "author": "xylplm",
-        "date": "2025-12-13 23:21:33",
-        "message": "fix: 优化netx 默认代理跳过本地和局域网ip 避免进入环境代理"
-      },
-      {
-        "commit": "06ccf07bbdd45e623d9d8145659e123d627f75c6",
-        "author": "liurongjie",
-        "date": "2025-12-13 21:15:25",
-        "message": "fix(dynamic_form): 调整多插件配置列宽布局"
       }
     ]
   }
