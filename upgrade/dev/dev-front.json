@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512161606",
+    "items": [
+      {
+        "commit": "59b0d0c4e453f5770ccd413db5098dc9c0ff3019",
+        "author": "liurongjie",
+        "date": "2025-12-16 16:05:56",
+        "message": "fix: 修复消息通知编辑选项不回显"
+      },
+      {
+        "commit": "18172c8a6990568e62647ffbbfad961427d2f579",
+        "author": "liurongjie",
+        "date": "2025-12-16 15:43:44",
+        "message": "style: 样式优化"
+      },
+      {
+        "commit": "da29db51175d8a5a6f50a0f15a4d786ff59578b5",
+        "author": "liurongjie",
+        "date": "2025-12-16 15:14:18",
+        "message": "style(setting-notify): 添加行间距样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512161532",
     "items": [
       {
@@ -191,35 +214,6 @@
         "author": "GateCross",
         "date": "2025-12-15 09:14:05",
         "message": "fix:目录分类signal"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512142048",
-    "items": [
-      {
-        "commit": "8e55c57f596a84ced863efa126b2f8ff6e446950",
-        "author": "GateCross",
-        "date": "2025-12-14 20:48:16",
-        "message": "fix:首页定制signal"
-      },
-      {
-        "commit": "d20c305da7a74ee5dc2cd3cd14db2990879f7a04",
-        "author": "GateCross",
-        "date": "2025-12-14 12:52:06",
-        "message": "fix:更新动画"
-      },
-      {
-        "commit": "5bc38492fcf2458c724742ac24f4a30865317e75",
-        "author": "GateCross",
-        "date": "2025-12-14 12:35:28",
-        "message": "fix:识别词signal"
-      },
-      {
-        "commit": "a12c460e57e4df0bdd615d4823fefd8ac579b0dc",
-        "author": "GateCross",
-        "date": "2025-12-14 11:47:10",
-        "message": "fix:更新按钮Signal"
       }
     ]
   }
