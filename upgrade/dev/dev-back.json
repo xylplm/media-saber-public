@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512172207",
+    "items": [
+      {
+        "commit": "8bcc6010e9a951b40742493bda9713e61f57f17f",
+        "author": "Jolc",
+        "date": "2025-12-17 22:06:23",
+        "message": "feat：tv 订阅增加动漫多集模式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512172141",
     "items": [
       {
@@ -137,41 +148,6 @@
         "author": "liurongjie",
         "date": "2025-12-15 22:09:41",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512151822",
-    "items": [
-      {
-        "commit": "48460e990a75ca42fdfa7f10c4abdccc758abf74",
-        "author": "yii",
-        "date": "2025-12-15 15:03:26",
-        "message": "perf 移除多余依赖 go-retry-v4"
-      },
-      {
-        "commit": "07b30dcaaf6e3a90ac5247024ef6a1c09085d9a3",
-        "author": "yii",
-        "date": "2025-12-15 14:58:07",
-        "message": "fix crypto cve"
-      },
-      {
-        "commit": "6e3afc070bbf2cfbda08f3da29d2104504c149c0",
-        "author": "yii",
-        "date": "2025-12-15 14:53:47",
-        "message": "perf 移除多余依赖 gopsutil"
-      },
-      {
-        "commit": "725aa0a93589cb3c911538cc65cb73f2bb17abd2",
-        "author": "yii",
-        "date": "2025-12-15 14:48:34",
-        "message": "Revert \"fix 移除多余retry-go依赖\""
-      },
-      {
-        "commit": "a7ae99cbdd00d0c6e42ebfe9bf1dd6b8f1f3ea95",
-        "author": "yii",
-        "date": "2025-12-15 14:43:01",
-        "message": "fix 移除多余retry-go依赖"
       }
     ]
   }
