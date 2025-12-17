@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512171728",
+    "items": [
+      {
+        "commit": "79e1a2fce2ffd9e3d709e3cd02db3f24ef314eaa",
+        "author": "Jolc",
+        "date": "2025-12-17 17:27:56",
+        "message": "fix: 秒传次数跑完没走普通上次问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512171027",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "Jolc",
         "date": "2025-12-15 13:26:08",
         "message": "fix: 修复 115 生活事件没配置包含路径，忽略文件问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512151253",
-    "items": [
-      {
-        "commit": "d09a07fef49c55d7be67ff9e60f46a6be76a0311",
-        "author": "Jolc",
-        "date": "2025-12-15 12:52:55",
-        "message": "fix: 订阅完成后，被 rss 重复下载问题。祭天一位后端"
       }
     ]
   }
