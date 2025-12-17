@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512172313",
+    "items": [
+      {
+        "commit": "3a0f069c84a4abf4bb1304152eda65ca9c239a15",
+        "author": "Jolc",
+        "date": "2025-12-17 23:10:50",
+        "message": "fix：tv 订阅增加动漫多集模式"
+      },
+      {
+        "commit": "a77491b7dc9e14eca625f92488b19d1d3ac326ea",
+        "author": "liurongjie",
+        "date": "2025-12-17 21:40:16",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512172207",
     "items": [
       {
@@ -136,17 +153,6 @@
         "commit": "635db6e8436c9c8736ad8a08f9b7ff7051ba0d96",
         "author": "liurongjie",
         "date": "2025-12-15 23:13:31",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512152211",
-    "items": [
-      {
-        "commit": "f05bbef46ca1a3b7ba2e9b6f8c671d45666ab728",
-        "author": "liurongjie",
-        "date": "2025-12-15 22:09:41",
         "message": "refactor: 优化通知消息"
       }
     ]
