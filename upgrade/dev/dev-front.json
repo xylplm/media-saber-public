@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512171027",
+    "items": [
+      {
+        "commit": "ef00529c79bc580ec82d7956dcb3b5ddbf32faaf",
+        "author": "GateCross",
+        "date": "2025-12-17 10:28:40",
+        "message": "fix:目录分类数据显示"
+      },
+      {
+        "commit": "1bc92e5e33f9633559ed79d27ef650a341e015b8",
+        "author": "liurongjie",
+        "date": "2025-12-17 10:26:23",
+        "message": "feat(cloud-storage): 添加秒传链接JSON生成功能"
+      },
+      {
+        "commit": "c64146b65ecc1d1b6b4e3dfd4fa9e3a35661e4da",
+        "author": "xylplm",
+        "date": "2025-12-17 09:40:45",
+        "message": "fix: 检查更新 异步请求 避免阻塞主流程"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512161606",
     "items": [
       {
@@ -203,17 +226,6 @@
         "author": "GateCross",
         "date": "2025-12-15 09:38:55",
         "message": "fix:手动识别signal"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512150914",
-    "items": [
-      {
-        "commit": "4216563b841e61578c0803a5533906ec621226ab",
-        "author": "GateCross",
-        "date": "2025-12-15 09:14:05",
-        "message": "fix:目录分类signal"
       }
     ]
   }
