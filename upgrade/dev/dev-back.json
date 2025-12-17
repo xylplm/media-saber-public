@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202512172141",
+    "items": [
+      {
+        "commit": "a77491b7dc9e14eca625f92488b19d1d3ac326ea",
+        "author": "liurongjie",
+        "date": "2025-12-17 21:40:16",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "a00ce4b0d7dd6b7cff0a0bb2cfe0953576060777",
+        "author": "xylplm",
+        "date": "2025-12-17 10:26:46",
+        "message": "fix: 优化 转移历史"
+      },
+      {
+        "commit": "6da2e7dffc44b9c0ce6ebaacb23eb9cebc773ffa",
+        "author": "xylplm",
+        "date": "2025-12-17 09:57:43",
+        "message": "fix: 同步历史Time增加索引"
+      },
+      {
+        "commit": "27f07937f4c0a39c836d2aeed2038d947e8f26bb",
+        "author": "liurongjie",
+        "date": "2025-12-17 09:37:26",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512171728",
     "items": [
       {
@@ -143,17 +172,6 @@
         "author": "yii",
         "date": "2025-12-15 14:43:01",
         "message": "fix 移除多余retry-go依赖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512151326",
-    "items": [
-      {
-        "commit": "d4385523340a6899f51725432521e34b0a663a19",
-        "author": "Jolc",
-        "date": "2025-12-15 13:26:08",
-        "message": "fix: 修复 115 生活事件没配置包含路径，忽略文件问题。"
       }
     ]
   }
