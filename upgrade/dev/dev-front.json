@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512171126",
+    "items": [
+      {
+        "commit": "e60b1220bad95bec0e0df846135e1e1326a875ea",
+        "author": "GateCross",
+        "date": "2025-12-17 11:25:10",
+        "message": "fix:优化目录分类数据显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512171027",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "GateCross",
         "date": "2025-12-15 14:13:34",
         "message": "fix:消息中心加载更多"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512150939",
-    "items": [
-      {
-        "commit": "029c63cf73da17de7e94592a49f114c91b4141dd",
-        "author": "GateCross",
-        "date": "2025-12-15 09:38:55",
-        "message": "fix:手动识别signal"
       }
     ]
   }
