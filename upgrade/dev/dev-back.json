@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512181746",
+    "items": [
+      {
+        "commit": "216357650fb6489c1902dbd005ff1c272525eabe",
+        "author": "liurongjie",
+        "date": "2025-12-18 17:45:17",
+        "message": "fix(webhook): 添加日志打印"
+      },
+      {
+        "commit": "bb024b8a1327e1667ad005f51e13235d2cc7ed04",
+        "author": "liurongjie",
+        "date": "2025-12-18 17:44:41",
+        "message": "fix(webhook): 添加日志打印"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512181733",
     "items": [
       {
@@ -137,35 +154,6 @@
         "author": "Jolc",
         "date": "2025-12-17 17:27:56",
         "message": "fix: 秒传次数跑完没走普通上次问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512171027",
-    "items": [
-      {
-        "commit": "a00ce4b0d7dd6b7cff0a0bb2cfe0953576060777",
-        "author": "xylplm",
-        "date": "2025-12-17 10:26:46",
-        "message": "fix: 优化 转移历史"
-      },
-      {
-        "commit": "6da2e7dffc44b9c0ce6ebaacb23eb9cebc773ffa",
-        "author": "xylplm",
-        "date": "2025-12-17 09:57:43",
-        "message": "fix: 同步历史Time增加索引"
-      },
-      {
-        "commit": "27f07937f4c0a39c836d2aeed2038d947e8f26bb",
-        "author": "liurongjie",
-        "date": "2025-12-17 09:37:26",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "c133589e0b28491312336d5bbdea1290f6d03b50",
-        "author": "Jolc",
-        "date": "2025-12-17 00:12:02",
-        "message": "feat: 123 json 代码优化"
       }
     ]
   }
