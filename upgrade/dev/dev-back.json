@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512181356",
+    "items": [
+      {
+        "commit": "b88a1acab7f424f6311f63b8a1d4e90d1c03e43a",
+        "author": "liurongjie",
+        "date": "2025-12-18 13:55:35",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f6ebd33d6164a0f360eef2c6ce2f232c0f21ce85",
+        "author": "Jolc",
+        "date": "2025-12-18 13:32:15",
+        "message": "feat: 云存储上传目录记忆"
+      },
+      {
+        "commit": "d04153d8f832c5ccc44f0b1593dafd92ab07b5bb",
+        "author": "GateCross",
+        "date": "2025-12-17 23:24:46",
+        "message": "fix:优化热更新并发请求日志及次数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512181148",
     "items": [
       {
@@ -136,17 +159,6 @@
         "commit": "f1022c2152df1ba550e7a95e0554bd5999c95c2f",
         "author": "liurongjie",
         "date": "2025-12-16 14:12:06",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512161326",
-    "items": [
-      {
-        "commit": "5108b0e1adbd9b07940c8266f76ceeb2c03ab24a",
-        "author": "liurongjie",
-        "date": "2025-12-16 13:25:28",
         "message": "refactor: 优化通知消息"
       }
     ]
