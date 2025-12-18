@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512182037",
+    "items": [
+      {
+        "commit": "dade78d82e6b1d0c88683ed2c39738b0eb8d3fe1",
+        "author": "weni09",
+        "date": "2025-12-18 20:35:36",
+        "message": "fix: 表单0值问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512181634",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "GateCross",
         "date": "2025-12-15 17:25:23",
         "message": "fix:signal错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512152314",
-    "items": [
-      {
-        "commit": "643e949f60818ec4bcdfd2957af1b261618c5c27",
-        "author": "xylplm",
-        "date": "2025-12-15 17:29:44",
-        "message": "fix: 修仙秘籍 dc"
       }
     ]
   }
