@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512181801",
+    "items": [
+      {
+        "commit": "d1f59ec4375df0e3d1f60370f6b1e88caf971546",
+        "author": "liurongjie",
+        "date": "2025-12-18 18:00:38",
+        "message": "fix(webhook): 添加日志打印"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512181746",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2025-12-17 09:37:26",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512171728",
-    "items": [
-      {
-        "commit": "79e1a2fce2ffd9e3d709e3cd02db3f24ef314eaa",
-        "author": "Jolc",
-        "date": "2025-12-17 17:27:56",
-        "message": "fix: 秒传次数跑完没走普通上次问题。"
       }
     ]
   }
