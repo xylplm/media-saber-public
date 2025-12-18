@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512182222",
+    "items": [
+      {
+        "commit": "4df49587e259368d5e0878f4347e6107d9b3a42b",
+        "author": "liurongjie",
+        "date": "2025-12-18 22:21:21",
+        "message": "refactor(webhook): 删除Plex Webhook中调试日志打印"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512182211",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "GateCross",
         "date": "2025-12-17 23:24:46",
         "message": "fix:优化热更新并发请求日志及次数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512172313",
-    "items": [
-      {
-        "commit": "3a0f069c84a4abf4bb1304152eda65ca9c239a15",
-        "author": "Jolc",
-        "date": "2025-12-17 23:10:50",
-        "message": "fix：tv 订阅增加动漫多集模式"
-      },
-      {
-        "commit": "a77491b7dc9e14eca625f92488b19d1d3ac326ea",
-        "author": "liurongjie",
-        "date": "2025-12-17 21:40:16",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
