@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512181634",
+    "items": [
+      {
+        "commit": "594d05e45774711d791dbc03d22362b90dea064a",
+        "author": "liurongjie",
+        "date": "2025-12-18 16:23:04",
+        "message": "feat(cloud-storage): 添加上传目录选择功能支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512181148",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "xylplm",
         "date": "2025-12-15 17:29:44",
         "message": "fix: 修仙秘籍 dc"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512152211",
-    "items": [
-      {
-        "commit": "fb13efb4eb3ec89461f1673a74f5bf4ec9d3e2a3",
-        "author": "GateCross",
-        "date": "2025-12-15 17:25:23",
-        "message": "fix:signal错误"
       }
     ]
   }
