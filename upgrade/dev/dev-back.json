@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512181813",
+    "items": [
+      {
+        "commit": "4aeeb313bf8102899a27298b9aa08eb26e8f249c",
+        "author": "liurongjie",
+        "date": "2025-12-18 18:12:42",
+        "message": "fix(webhook): 添加日志打印"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512181801",
     "items": [
       {
@@ -125,35 +136,6 @@
         "author": "Jolc",
         "date": "2025-12-17 22:06:23",
         "message": "feat：tv 订阅增加动漫多集模式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512172141",
-    "items": [
-      {
-        "commit": "a77491b7dc9e14eca625f92488b19d1d3ac326ea",
-        "author": "liurongjie",
-        "date": "2025-12-17 21:40:16",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "a00ce4b0d7dd6b7cff0a0bb2cfe0953576060777",
-        "author": "xylplm",
-        "date": "2025-12-17 10:26:46",
-        "message": "fix: 优化 转移历史"
-      },
-      {
-        "commit": "6da2e7dffc44b9c0ce6ebaacb23eb9cebc773ffa",
-        "author": "xylplm",
-        "date": "2025-12-17 09:57:43",
-        "message": "fix: 同步历史Time增加索引"
-      },
-      {
-        "commit": "27f07937f4c0a39c836d2aeed2038d947e8f26bb",
-        "author": "liurongjie",
-        "date": "2025-12-17 09:37:26",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
