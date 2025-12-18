@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512181148",
+    "items": [
+      {
+        "commit": "162b34274d161525e49439485dc00580badbb5c8",
+        "author": "liurongjie",
+        "date": "2025-12-18 11:47:43",
+        "message": "fix(download-config): 禁用部分接口加载动画，优化请求体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512172141",
     "items": [
       {
@@ -155,77 +166,6 @@
         "author": "GateCross",
         "date": "2025-12-15 17:25:23",
         "message": "fix:signal错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512151822",
-    "items": [
-      {
-        "commit": "643e949f60818ec4bcdfd2957af1b261618c5c27",
-        "author": "xylplm",
-        "date": "2025-12-15 17:29:44",
-        "message": "fix: 修仙秘籍 dc"
-      },
-      {
-        "commit": "fb13efb4eb3ec89461f1673a74f5bf4ec9d3e2a3",
-        "author": "GateCross",
-        "date": "2025-12-15 17:25:23",
-        "message": "fix:signal错误"
-      },
-      {
-        "commit": "5a5349d62506c700d07421ec4c49e886bc060435",
-        "author": "xylplm",
-        "date": "2025-12-15 17:24:16",
-        "message": "fix: 站点管理操作信号"
-      },
-      {
-        "commit": "98b8405e27a7617e456c671c102e66863fba051d",
-        "author": "xylplm",
-        "date": "2025-12-15 17:14:18",
-        "message": "fix: 优化自定义主题交互和性能"
-      },
-      {
-        "commit": "8f978355d259fc67f253be1d573f96cbfcb00c1a",
-        "author": "xylplm",
-        "date": "2025-12-15 17:03:47",
-        "message": "fix: 删除tg搜索前端残留"
-      },
-      {
-        "commit": "68b21ec123ec5670508fd4f31ff9c6685b5ff89b",
-        "author": "xylplm",
-        "date": "2025-12-15 16:18:57",
-        "message": "fix: 刷新媒体库"
-      },
-      {
-        "commit": "e4cc9bcb0fbc08eaf998766af97eeea2fdd571e9",
-        "author": "GateCross",
-        "date": "2025-12-15 16:17:21",
-        "message": "fix:消息中心signal"
-      },
-      {
-        "commit": "68677e3a8c8306a01c15f0962398b395ac63ded7",
-        "author": "xylplm",
-        "date": "2025-12-15 16:00:18",
-        "message": "fix: 优化消息界面"
-      },
-      {
-        "commit": "e143f388a1416832977d1f529c33fbe62b85b38c",
-        "author": "xylplm",
-        "date": "2025-12-15 15:46:48",
-        "message": "fix: signal使用错误"
-      },
-      {
-        "commit": "a595c82829ee3403bb79de2ac5391a5be3e23f9c",
-        "author": "xylplm",
-        "date": "2025-12-15 15:20:14",
-        "message": "fix: signal使用错误"
-      },
-      {
-        "commit": "d90b611659c8dafa812d43c2723ad144f2e61f65",
-        "author": "xylplm",
-        "date": "2025-12-15 15:13:24",
-        "message": "fix: signal错误"
       }
     ]
   }

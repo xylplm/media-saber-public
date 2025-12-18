@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512181148",
+    "items": [
+      {
+        "commit": "3a0f069c84a4abf4bb1304152eda65ca9c239a15",
+        "author": "Jolc",
+        "date": "2025-12-17 23:10:50",
+        "message": "fix：tv 订阅增加动漫多集模式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512172326",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "liurongjie",
         "date": "2025-12-16 13:25:28",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512161217",
-    "items": [
-      {
-        "commit": "e34c9186c5a8ed412174265d869ea92713e8d643",
-        "author": "yii",
-        "date": "2025-12-16 09:33:48",
-        "message": "fix 捕获J佬的bug"
-      },
-      {
-        "commit": "951560f1951d37d957ee0ea8589b5177bf25fe73",
-        "author": "Jolc",
-        "date": "2025-12-15 23:56:24",
-        "message": "feat: open123 生成秒传链接 json"
       }
     ]
   }
