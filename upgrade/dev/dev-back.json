@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512191315",
+    "items": [
+      {
+        "commit": "c8460b5b47ecf4ea9c3f70301b7a1debb56de2d9",
+        "author": "liurongjie",
+        "date": "2025-12-19 13:13:51",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512191222",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "xylplm",
         "date": "2025-12-18 15:26:38",
         "message": "fix：极影视搜索结果过滤"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181356",
-    "items": [
-      {
-        "commit": "b88a1acab7f424f6311f63b8a1d4e90d1c03e43a",
-        "author": "liurongjie",
-        "date": "2025-12-18 13:55:35",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "f6ebd33d6164a0f360eef2c6ce2f232c0f21ce85",
-        "author": "Jolc",
-        "date": "2025-12-18 13:32:15",
-        "message": "feat: 云存储上传目录记忆"
-      },
-      {
-        "commit": "d04153d8f832c5ccc44f0b1593dafd92ab07b5bb",
-        "author": "GateCross",
-        "date": "2025-12-17 23:24:46",
-        "message": "fix:优化热更新并发请求日志及次数"
       }
     ]
   }
