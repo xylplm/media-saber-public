@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512191534",
+    "items": [
+      {
+        "commit": "e943c52fb95ed64e59d7729e44e85fae344e6d88",
+        "author": "GateCross",
+        "date": "2025-12-19 15:32:25",
+        "message": "fix:ctmd请求优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512191430",
     "items": [
       {
@@ -106,23 +117,6 @@
         "commit": "d1f59ec4375df0e3d1f60370f6b1e88caf971546",
         "author": "liurongjie",
         "date": "2025-12-18 18:00:38",
-        "message": "fix(webhook): 添加日志打印"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181746",
-    "items": [
-      {
-        "commit": "216357650fb6489c1902dbd005ff1c272525eabe",
-        "author": "liurongjie",
-        "date": "2025-12-18 17:45:17",
-        "message": "fix(webhook): 添加日志打印"
-      },
-      {
-        "commit": "bb024b8a1327e1667ad005f51e13235d2cc7ed04",
-        "author": "liurongjie",
-        "date": "2025-12-18 17:44:41",
         "message": "fix(webhook): 添加日志打印"
       }
     ]
