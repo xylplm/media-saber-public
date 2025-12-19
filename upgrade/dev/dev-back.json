@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512191430",
+    "items": [
+      {
+        "commit": "85c763c715c7377534ab3477a22a2cc6d4f5c372",
+        "author": "weni09",
+        "date": "2025-12-19 14:27:16",
+        "message": "fix: mt搜索分页使用默认值问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512191414",
     "items": [
       {
@@ -112,17 +123,6 @@
         "commit": "bb024b8a1327e1667ad005f51e13235d2cc7ed04",
         "author": "liurongjie",
         "date": "2025-12-18 17:44:41",
-        "message": "fix(webhook): 添加日志打印"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181733",
-    "items": [
-      {
-        "commit": "5930ea629fabe270fcb4a7e7cef95872a1998afd",
-        "author": "liurongjie",
-        "date": "2025-12-18 17:23:03",
         "message": "fix(webhook): 添加日志打印"
       }
     ]
