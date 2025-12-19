@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512191222",
+    "items": [
+      {
+        "commit": "c65bc4a8613ec921a9b632829f7c645b9097b630",
+        "author": "liurongjie",
+        "date": "2025-12-19 12:21:52",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512191032",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2025-12-17 23:24:46",
         "message": "fix:优化热更新并发请求日志及次数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181148",
-    "items": [
-      {
-        "commit": "3a0f069c84a4abf4bb1304152eda65ca9c239a15",
-        "author": "Jolc",
-        "date": "2025-12-17 23:10:50",
-        "message": "fix：tv 订阅增加动漫多集模式"
       }
     ]
   }
