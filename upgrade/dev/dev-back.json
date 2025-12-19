@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512191032",
+    "items": [
+      {
+        "commit": "094cc5a7a7bd3520df54113faa9a45780421a534",
+        "author": "weni09",
+        "date": "2025-12-19 10:30:12",
+        "message": "fix: 朱雀种子搜索分页问题"
+      },
+      {
+        "commit": "ee8873aff54280759482e2da548de00c6274de69",
+        "author": "weni09",
+        "date": "2025-12-10 11:21:02",
+        "message": "提交代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512182222",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "Jolc",
         "date": "2025-12-17 23:10:50",
         "message": "fix：tv 订阅增加动漫多集模式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512172326",
-    "items": [
-      {
-        "commit": "d04153d8f832c5ccc44f0b1593dafd92ab07b5bb",
-        "author": "GateCross",
-        "date": "2025-12-17 23:24:46",
-        "message": "fix:优化热更新并发请求日志及次数"
       }
     ]
   }
