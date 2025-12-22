@@ -1,5 +1,160 @@
 [
   {
+    "version": "DEV_202512230055",
+    "items": [
+      {
+        "commit": "4c89c4e95cc8170860d8029fdcc321a035f53a11",
+        "author": "liurongjie",
+        "date": "2025-12-22 17:43:58",
+        "message": "Revert \"fix\""
+      },
+      {
+        "commit": "2878383bfecead92c091ab006a43cffeb8d668da",
+        "author": "Jolc",
+        "date": "2025-12-22 09:44:34",
+        "message": "fix: 115 清空状态"
+      },
+      {
+        "commit": "449e44350993d9077c2f7ad918babd5b9397b3ec",
+        "author": "liurongjie",
+        "date": "2025-12-20 23:46:15",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "aaa2f713a02b2a0d76adc59bb2cc3ce5434c18f6",
+        "author": "xylplm",
+        "date": "2025-12-20 19:30:46",
+        "message": "feat: 下载器限速 支持通过分类映射"
+      },
+      {
+        "commit": "b41ad31d107da4c757a0e07ab0b23d852e4589e3",
+        "author": "xylplm",
+        "date": "2025-12-20 19:13:58",
+        "message": "fix: 下载器标签限速 更名为 下载器限速"
+      },
+      {
+        "commit": "77de68d00c709af42b09bd9343c9eddcba991363",
+        "author": "xylplm",
+        "date": "2025-12-20 18:57:40",
+        "message": "fix:下载器标签限速 放开使用"
+      },
+      {
+        "commit": "2bfb1f9f4e01d263280b737a41beec5e1c009a4d",
+        "author": "Jolc",
+        "date": "2025-12-20 16:13:49",
+        "message": "fix: 控制台 log 优化"
+      },
+      {
+        "commit": "8894a1fdeff95d8bf1568d7ad4f5bda71b8adc2c",
+        "author": "Jolc",
+        "date": "2025-12-20 15:29:55",
+        "message": "fix: 订阅日志链路"
+      },
+      {
+        "commit": "0c186560a41e68516a281a4e145314db35a2b496",
+        "author": "xylplm",
+        "date": "2025-12-20 14:37:11",
+        "message": "fix: 媒体服务刷新"
+      },
+      {
+        "commit": "e085857fec573fd8ca536cface4e6c8140b51100",
+        "author": "xylplm",
+        "date": "2025-12-20 13:58:01",
+        "message": "feat:定时刷新媒体服务器"
+      },
+      {
+        "commit": "68ed4197d7f993606b61b049d2f7b712a1787496",
+        "author": "Jolc",
+        "date": "2025-12-19 23:16:47",
+        "message": "fix: 暂时保留 log f 系列"
+      },
+      {
+        "commit": "59f49abf452a1ba1b2891582d18814514e8cf33f",
+        "author": "GateCross",
+        "date": "2025-12-19 23:09:30",
+        "message": "fix:回退"
+      },
+      {
+        "commit": "66144d3038ab989282e2427d3be6c7425c4da8b9",
+        "author": "Jolc",
+        "date": "2025-12-19 23:01:05",
+        "message": "fix: 云存储列表性能优化"
+      },
+      {
+        "commit": "294495a021da92ad8bb5d832fc7b81ce8d2f9fa4",
+        "author": "GateCross",
+        "date": "2025-12-19 22:31:17",
+        "message": "fix:logger"
+      },
+      {
+        "commit": "ac7c68aa25b74052b1334a442494b219c323231f",
+        "author": "Jolc",
+        "date": "2025-12-19 22:28:11",
+        "message": "fix: logger with ctx"
+      },
+      {
+        "commit": "99057af201a70bc3aead771b63a6a0894f03556c",
+        "author": "GateCross",
+        "date": "2025-12-19 22:10:06",
+        "message": "fix:logger"
+      },
+      {
+        "commit": "104a81b111ed06b3f71258ac9cb56431f82ccbfb",
+        "author": "Jolc",
+        "date": "2025-12-19 21:51:07",
+        "message": "fix: logic logger with ctx"
+      },
+      {
+        "commit": "9d2ce75fd19e3d1c1bab82a37e776f9a9b4dd62c",
+        "author": "GateCross",
+        "date": "2025-12-19 21:21:10",
+        "message": "fix:优化微信通知"
+      },
+      {
+        "commit": "31900f79efcbf5c84a189ac47d89ea9bd651af06",
+        "author": "liurongjie",
+        "date": "2025-12-19 20:31:22",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "fcb3abfc5d3a6c7cc158e26a3c1fcc19f6bc7146",
+        "author": "GateCross",
+        "date": "2025-12-19 17:28:01",
+        "message": "feat:企业微信增加MpNews方法"
+      },
+      {
+        "commit": "18b99af413d27089a033d038a15fa82ee5d5e917",
+        "author": "Jolc",
+        "date": "2025-12-19 17:08:54",
+        "message": "feat: log 接口 ok"
+      },
+      {
+        "commit": "d938611b2f83fd64b169e53b15514208d04b38cc",
+        "author": "Jolc",
+        "date": "2025-12-19 16:17:01",
+        "message": "feat: mlist log 兼容"
+      },
+      {
+        "commit": "2723cbe60141fb333af1350386df3989e187c820",
+        "author": "Jolc",
+        "date": "2025-12-19 00:33:18",
+        "message": "feat: 统一 log"
+      },
+      {
+        "commit": "9e4aa457c59dd3cd4f80da753e6bc8d25a881ac8",
+        "author": "Jolc",
+        "date": "2025-12-18 21:37:54",
+        "message": "feat: zap log logw logc"
+      },
+      {
+        "commit": "b28799284b9418c6e1d65d86651d2a0657e95ba2",
+        "author": "Jolc",
+        "date": "2025-12-18 19:57:19",
+        "message": "feat: zap log 未完成"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512191534",
     "items": [
       {
@@ -106,17 +261,6 @@
         "commit": "4aeeb313bf8102899a27298b9aa08eb26e8f249c",
         "author": "liurongjie",
         "date": "2025-12-18 18:12:42",
-        "message": "fix(webhook): 添加日志打印"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181801",
-    "items": [
-      {
-        "commit": "d1f59ec4375df0e3d1f60370f6b1e88caf971546",
-        "author": "liurongjie",
-        "date": "2025-12-18 18:00:38",
         "message": "fix(webhook): 添加日志打印"
       }
     ]
