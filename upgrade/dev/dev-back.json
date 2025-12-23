@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512231419",
+    "items": [
+      {
+        "commit": "5428f33ee60adf3ed674845fa362bb192a9a2b3f",
+        "author": "xylplm",
+        "date": "2025-12-23 13:41:39",
+        "message": "Update sign98.go"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512231044",
     "items": [
       {
@@ -257,17 +268,6 @@
         "author": "liurongjie",
         "date": "2025-12-18 22:21:21",
         "message": "refactor(webhook): 删除Plex Webhook中调试日志打印"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512182211",
-    "items": [
-      {
-        "commit": "dbd12a667f7d2f72e81201164cb1cd3d54b93244",
-        "author": "liurongjie",
-        "date": "2025-12-18 22:00:08",
-        "message": "fix(plex): 修复 Plex 服务器配置解析及连接信息赋值问题"
       }
     ]
   }

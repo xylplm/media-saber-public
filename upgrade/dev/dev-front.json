@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512231419",
+    "items": [
+      {
+        "commit": "0465cf17dae8d68af62906737b35260166a6a3c0",
+        "author": "GateCross",
+        "date": "2025-12-23 12:28:28",
+        "message": "fix:删除日志placeholder"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512230055",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "xylplm",
         "date": "2025-12-16 14:53:15",
         "message": "fix: 优化版本更新交互效果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512161400",
-    "items": [
-      {
-        "commit": "429f6e002080498967442e9f341edbc73d7e854e",
-        "author": "liurongjie",
-        "date": "2025-12-16 14:00:09",
-        "message": "fix: 修复消息通知编辑选项不回显"
       }
     ]
   }
