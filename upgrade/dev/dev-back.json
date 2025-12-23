@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512232126",
+    "items": [
+      {
+        "commit": "ddb8d50d25a1b6e5d2c21c60ce1becad8918c267",
+        "author": "Jolc",
+        "date": "2025-12-23 19:41:52",
+        "message": "fix: 控制台日志格式调整"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512231419",
     "items": [
       {
@@ -257,17 +268,6 @@
         "author": "weni09",
         "date": "2025-12-10 11:21:02",
         "message": "提交代码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512182222",
-    "items": [
-      {
-        "commit": "4df49587e259368d5e0878f4347e6107d9b3a42b",
-        "author": "liurongjie",
-        "date": "2025-12-18 22:21:21",
-        "message": "refactor(webhook): 删除Plex Webhook中调试日志打印"
       }
     ]
   }

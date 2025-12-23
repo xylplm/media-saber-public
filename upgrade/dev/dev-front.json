@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202512232126",
+    "items": [
+      {
+        "commit": "8b0f47c0a9ed02b749dc7c3c032ba750b46a9e8a",
+        "author": "GateCross",
+        "date": "2025-12-23 21:25:08",
+        "message": "fix:优化日志格式"
+      },
+      {
+        "commit": "fe521e5911433f5d321dd33775d74df8d232efe9",
+        "author": "xylplm",
+        "date": "2025-12-23 17:35:13",
+        "message": "fix: 优化公共日志服务"
+      },
+      {
+        "commit": "a583da75be3b371ab53d7b50b222d99d951c9402",
+        "author": "xylplm",
+        "date": "2025-12-23 17:17:19",
+        "message": "fix: 优化日志目录获取 仅获取一次 local缓存"
+      },
+      {
+        "commit": "0b2553d70ca6dbe4fb622ccd15cd37d72649f86b",
+        "author": "GateCross",
+        "date": "2025-12-23 16:59:20",
+        "message": "fix:订阅日志恢复"
+      },
+      {
+        "commit": "cd51d5591340325c9e16c1e7900e57d93b618797",
+        "author": "xylplm",
+        "date": "2025-12-23 16:54:09",
+        "message": "fix: 优化日志UI"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512231419",
     "items": [
       {
@@ -149,41 +184,6 @@
         "author": "liurongjie",
         "date": "2025-12-16 15:14:18",
         "message": "style(setting-notify): 添加行间距样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512161532",
-    "items": [
-      {
-        "commit": "d44232102532272f15c397bf843a2df6c011c04b",
-        "author": "xylplm",
-        "date": "2025-12-16 15:28:52",
-        "message": "fix: 优化识别词编辑页面"
-      },
-      {
-        "commit": "1936fbc4b2fd3e73322d8ffb27eff19a01073756",
-        "author": "xylplm",
-        "date": "2025-12-16 15:22:23",
-        "message": "fix: 编辑相关页面 改信号"
-      },
-      {
-        "commit": "da29db51175d8a5a6f50a0f15a4d786ff59578b5",
-        "author": "liurongjie",
-        "date": "2025-12-16 15:14:18",
-        "message": "style(setting-notify): 添加行间距样式"
-      },
-      {
-        "commit": "84d53422d1feef27b1fd525ab8e7192f833c048d",
-        "author": "xylplm",
-        "date": "2025-12-16 14:57:56",
-        "message": "fix: 消息通知编辑 改信号"
-      },
-      {
-        "commit": "d450807dc9722e99351246a074e1557ba53a2ca8",
-        "author": "xylplm",
-        "date": "2025-12-16 14:53:15",
-        "message": "fix: 优化版本更新交互效果"
       }
     ]
   }
