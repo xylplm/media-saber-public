@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512231044",
+    "items": [
+      {
+        "commit": "617ad28edf5f4316dd0a406e79f1ee78e2f65c44",
+        "author": "xylplm",
+        "date": "2025-12-23 10:32:59",
+        "message": "fix: 完善iyuu 日志"
+      },
+      {
+        "commit": "e4604bfec9188d937901abf2130fdb92171ba78b",
+        "author": "xylplm",
+        "date": "2025-12-23 10:18:16",
+        "message": "fix: 放宽iyuu强制辅种限制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512230055",
     "items": [
       {
@@ -251,17 +268,6 @@
         "author": "liurongjie",
         "date": "2025-12-18 22:00:08",
         "message": "fix(plex): 修复 Plex 服务器配置解析及连接信息赋值问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181813",
-    "items": [
-      {
-        "commit": "4aeeb313bf8102899a27298b9aa08eb26e8f249c",
-        "author": "liurongjie",
-        "date": "2025-12-18 18:12:42",
-        "message": "fix(webhook): 添加日志打印"
       }
     ]
   }
