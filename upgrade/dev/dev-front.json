@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512232207",
+    "items": [
+      {
+        "commit": "7fb5601f71d5aa32e4400dad3c3c4ea41b3c7185",
+        "author": "GateCross",
+        "date": "2025-12-23 21:56:55",
+        "message": "fix:日志下划线"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512232126",
     "items": [
       {
@@ -161,29 +172,6 @@
         "author": "xylplm",
         "date": "2025-12-17 09:40:45",
         "message": "fix: 检查更新 异步请求 避免阻塞主流程"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512161606",
-    "items": [
-      {
-        "commit": "59b0d0c4e453f5770ccd413db5098dc9c0ff3019",
-        "author": "liurongjie",
-        "date": "2025-12-16 16:05:56",
-        "message": "fix: 修复消息通知编辑选项不回显"
-      },
-      {
-        "commit": "18172c8a6990568e62647ffbbfad961427d2f579",
-        "author": "liurongjie",
-        "date": "2025-12-16 15:43:44",
-        "message": "style: 样式优化"
-      },
-      {
-        "commit": "da29db51175d8a5a6f50a0f15a4d786ff59578b5",
-        "author": "liurongjie",
-        "date": "2025-12-16 15:14:18",
-        "message": "style(setting-notify): 添加行间距样式"
       }
     ]
   }

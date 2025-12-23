@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512232207",
+    "items": [
+      {
+        "commit": "6ffb09373dd59a91f0fcd2327ec0bc8d0a5b2fcb",
+        "author": "GateCross",
+        "date": "2025-12-23 22:06:29",
+        "message": "fix:回退"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512232126",
     "items": [
       {
@@ -251,23 +262,6 @@
         "author": "liurongjie",
         "date": "2025-12-19 12:21:52",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512191032",
-    "items": [
-      {
-        "commit": "094cc5a7a7bd3520df54113faa9a45780421a534",
-        "author": "weni09",
-        "date": "2025-12-19 10:30:12",
-        "message": "fix: 朱雀种子搜索分页问题"
-      },
-      {
-        "commit": "ee8873aff54280759482e2da548de00c6274de69",
-        "author": "weni09",
-        "date": "2025-12-10 11:21:02",
-        "message": "提交代码"
       }
     ]
   }
