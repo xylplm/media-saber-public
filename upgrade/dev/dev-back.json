@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512250024",
+    "items": [
+      {
+        "commit": "ca3a1c31c1df756c76f48b1bb7b51e922e2cf052",
+        "author": "xylplm",
+        "date": "2025-12-24 23:11:49",
+        "message": "fix: 订阅列表参数"
+      },
+      {
+        "commit": "4dbad3f0c853fcfa64aba12e2281d7f35200296e",
+        "author": "Jolc",
+        "date": "2025-12-24 21:02:00",
+        "message": "feat: 日志改为数据库存储"
+      },
+      {
+        "commit": "5ed9f3aa2b04af8c3bc1c78f88c3fe2cc25e5313",
+        "author": "xylplm",
+        "date": "2025-12-24 17:47:48",
+        "message": "fix: 优化 pt详情页下载种子 支持扩展域名的识别"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512241254",
     "items": [
       {
@@ -245,23 +268,6 @@
         "author": "weni09",
         "date": "2025-12-19 14:27:16",
         "message": "fix: mt搜索分页使用默认值问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512191414",
-    "items": [
-      {
-        "commit": "aafe93735f6a31b2ab5870f85cf94f586fe8002e",
-        "author": "GateCross",
-        "date": "2025-12-19 14:13:02",
-        "message": "fix:Github Token请求优化"
-      },
-      {
-        "commit": "3b73c2b2ece93e0d6184449a6bd53aa4af122567",
-        "author": "GateCross",
-        "date": "2025-12-19 14:02:26",
-        "message": "fix:Github请求优化"
       }
     ]
   }

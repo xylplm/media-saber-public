@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512250024",
+    "items": [
+      {
+        "commit": "a96a36d3bb9e548a749bf5a216cc155724e76b59",
+        "author": "GateCross",
+        "date": "2025-12-24 23:49:44",
+        "message": "fix:优化日志查询"
+      },
+      {
+        "commit": "afd96362acc0c946e8b1c67ab8fc05dcbf27d5e4",
+        "author": "xylplm",
+        "date": "2025-12-24 23:28:34",
+        "message": "fix: code format"
+      },
+      {
+        "commit": "f7f2fe1c8f1d90810cdd8e43bd2be2c8dd224462",
+        "author": "xylplm",
+        "date": "2025-12-24 23:19:10",
+        "message": "feat: 前端对接数据库日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512241616",
     "items": [
       {
@@ -179,17 +202,6 @@
         "author": "weni09",
         "date": "2025-12-18 20:35:36",
         "message": "fix: 表单0值问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181634",
-    "items": [
-      {
-        "commit": "594d05e45774711d791dbc03d22362b90dea064a",
-        "author": "liurongjie",
-        "date": "2025-12-18 16:23:04",
-        "message": "feat(cloud-storage): 添加上传目录选择功能支持"
       }
     ]
   }
