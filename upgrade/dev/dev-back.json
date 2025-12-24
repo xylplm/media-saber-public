@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512241254",
+    "items": [
+      {
+        "commit": "1274b3c3e8aac649be87461e480c5268fbb8e7bb",
+        "author": "xylplm",
+        "date": "2025-12-24 11:45:49",
+        "message": "feat: 刷流重复下载检测"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512241055",
     "items": [
       {
@@ -251,17 +262,6 @@
         "author": "GateCross",
         "date": "2025-12-19 14:02:26",
         "message": "fix:Github请求优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512191315",
-    "items": [
-      {
-        "commit": "c8460b5b47ecf4ea9c3f70301b7a1debb56de2d9",
-        "author": "liurongjie",
-        "date": "2025-12-19 13:13:51",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
