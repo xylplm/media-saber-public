@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512241004",
+    "items": [
+      {
+        "commit": "003c9d33878d03be1075218713904611e5dce64b",
+        "author": "xylplm",
+        "date": "2025-12-24 09:42:39",
+        "message": "fix: 优化日志显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512232312",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2025-12-17 18:57:51",
         "message": "fix: 系统全局 loading动画"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512171126",
-    "items": [
-      {
-        "commit": "e60b1220bad95bec0e0df846135e1e1326a875ea",
-        "author": "GateCross",
-        "date": "2025-12-17 11:25:10",
-        "message": "fix:优化目录分类数据显示"
       }
     ]
   }
