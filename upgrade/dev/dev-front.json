@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512241616",
+    "items": [
+      {
+        "commit": "8d4a5f5c898fb698b9b7def83c6cedac1ea38c43",
+        "author": "GateCross",
+        "date": "2025-12-24 15:46:35",
+        "message": "fix:日志对齐"
+      },
+      {
+        "commit": "67c397dd0e31b58b5e241621167d49698b241cc2",
+        "author": "xylplm",
+        "date": "2025-12-24 15:40:49",
+        "message": "fix: 升级版本依赖"
+      },
+      {
+        "commit": "fa24efca084623820dcdfdb87e13d4aec1274ced",
+        "author": "xylplm",
+        "date": "2025-12-24 15:27:46",
+        "message": "fix: 升级滚动条"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512241509",
     "items": [
       {
@@ -167,17 +190,6 @@
         "author": "liurongjie",
         "date": "2025-12-18 16:23:04",
         "message": "feat(cloud-storage): 添加上传目录选择功能支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512181148",
-    "items": [
-      {
-        "commit": "162b34274d161525e49439485dc00580badbb5c8",
-        "author": "liurongjie",
-        "date": "2025-12-18 11:47:43",
-        "message": "fix(download-config): 禁用部分接口加载动画，优化请求体验"
       }
     ]
   }
