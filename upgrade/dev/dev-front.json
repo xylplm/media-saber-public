@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202512241509",
+    "items": [
+      {
+        "commit": "953a3e6e6954f8acfdba3acee81060ed4cf10fe1",
+        "author": "GateCross",
+        "date": "2025-12-24 15:06:56",
+        "message": "fix:日志默认倒序"
+      },
+      {
+        "commit": "d41b661d68b1340f8b8789d844572d21244c145a",
+        "author": "xylplm",
+        "date": "2025-12-24 14:50:55",
+        "message": "fix: 优化 站点维护 站点名称 可输可选"
+      },
+      {
+        "commit": "56e380417e8fbf432a6df8248beb6d5170b3bd48",
+        "author": "xylplm",
+        "date": "2025-12-24 14:38:35",
+        "message": "fix: 优化站点过滤改为cm-input-autocomplete 可输可选"
+      },
+      {
+        "commit": "1bad36378aed90c1e89693b54a8b2f9478b1953e",
+        "author": "xylplm",
+        "date": "2025-12-24 14:38:02",
+        "message": "feat: 新增CmInputAutocomplete公共组件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512241004",
     "items": [
       {
@@ -149,17 +178,6 @@
         "author": "liurongjie",
         "date": "2025-12-18 11:47:43",
         "message": "fix(download-config): 禁用部分接口加载动画，优化请求体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512172141",
-    "items": [
-      {
-        "commit": "4536014f83d89652e02c776b78193beb8c303fc2",
-        "author": "xylplm",
-        "date": "2025-12-17 18:57:51",
-        "message": "fix: 系统全局 loading动画"
       }
     ]
   }
