@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512241055",
+    "items": [
+      {
+        "commit": "4543f17ac4b5143ec7dbea6dba751cf85315534a",
+        "author": "liurongjie",
+        "date": "2025-12-24 10:54:17",
+        "message": "fix(binge_watch): 修复通知相关逻辑和启动条件判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512232207",
     "items": [
       {
@@ -250,17 +261,6 @@
         "commit": "c8460b5b47ecf4ea9c3f70301b7a1debb56de2d9",
         "author": "liurongjie",
         "date": "2025-12-19 13:13:51",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512191222",
-    "items": [
-      {
-        "commit": "c65bc4a8613ec921a9b632829f7c645b9097b630",
-        "author": "liurongjie",
-        "date": "2025-12-19 12:21:52",
         "message": "refactor: 优化通知消息"
       }
     ]
