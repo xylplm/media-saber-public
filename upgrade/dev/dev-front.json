@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512251416",
+    "items": [
+      {
+        "commit": "eb3c89a6a909ad437e90647fd41bc978e08ab3b9",
+        "author": "liurongjie",
+        "date": "2025-12-25 14:18:05",
+        "message": "fix(rss): 禁用加载动画以优化请求体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251252",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "GateCross",
         "date": "2025-12-23 23:11:52",
         "message": "fix:优化日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512232207",
-    "items": [
-      {
-        "commit": "7fb5601f71d5aa32e4400dad3c3c4ea41b3c7185",
-        "author": "GateCross",
-        "date": "2025-12-23 21:56:55",
-        "message": "fix:日志下划线"
       }
     ]
   }
