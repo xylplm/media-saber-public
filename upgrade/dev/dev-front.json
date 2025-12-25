@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512250913",
+    "items": [
+      {
+        "commit": "753986adbd8fb79d18ae4dc40301cccd87a63ff6",
+        "author": "GateCross",
+        "date": "2025-12-25 09:12:58",
+        "message": "fix:优化布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512250848",
     "items": [
       {
@@ -161,47 +172,6 @@
         "author": "GateCross",
         "date": "2025-12-23 12:28:28",
         "message": "fix:删除日志placeholder"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512230055",
-    "items": [
-      {
-        "commit": "bcf27dc507fabb5b3b42db6d03165bd991e2be30",
-        "author": "liurongjie",
-        "date": "2025-12-22 23:13:52",
-        "message": "feat(log-view): 增加日志高级过滤功能"
-      },
-      {
-        "commit": "b780d138e991a1255e6ab990cdaa10ceb18f699b",
-        "author": "liurongjie",
-        "date": "2025-12-22 22:37:34",
-        "message": "feat(file-list): 添加对log文件格式图标的支持"
-      },
-      {
-        "commit": "060c01194ca6728995666be39d22ce0613af3cab",
-        "author": "liurongjie",
-        "date": "2025-12-22 22:12:15",
-        "message": "fix(file-view-log-dialog): 优化关键字搜索与样式调整"
-      },
-      {
-        "commit": "f372c61d560123fce53a79a96e83a9764e67e5d9",
-        "author": "xylplm",
-        "date": "2025-12-22 17:44:35",
-        "message": "fix: 删除旧的日志相关组件"
-      },
-      {
-        "commit": "7eb470c8639add89f9600afaf68fb117fb850bcc",
-        "author": "xylplm",
-        "date": "2025-12-22 14:56:27",
-        "message": "fix:优化文件列表"
-      },
-      {
-        "commit": "d9089f546055c6f28ba6022b55ce889049558f29",
-        "author": "xylplm",
-        "date": "2025-12-22 14:29:06",
-        "message": "fix:系统日志模态框"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512250913",
+    "items": [
+      {
+        "commit": "aad05c7860a1a3fcebb20e8a4bf2f754ce7ecd49",
+        "author": "Jolc",
+        "date": "2025-12-25 09:17:26",
+        "message": "fix: 系统日志表加索引"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512250024",
     "items": [
       {
@@ -257,17 +268,6 @@
         "author": "GateCross",
         "date": "2025-12-19 15:32:25",
         "message": "fix:ctmd请求优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512191430",
-    "items": [
-      {
-        "commit": "85c763c715c7377534ab3477a22a2cc6d4f5c372",
-        "author": "weni09",
-        "date": "2025-12-19 14:27:16",
-        "message": "fix: mt搜索分页使用默认值问题"
       }
     ]
   }
