@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512252235",
+    "items": [
+      {
+        "commit": "b928b1cb6926f81af035077b383d9340e06f0167",
+        "author": "GateCross",
+        "date": "2025-12-25 21:49:59",
+        "message": "fix:优化日志module切换"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512252113",
     "items": [
       {
@@ -119,35 +130,6 @@
         "author": "xylplm",
         "date": "2025-12-24 15:27:46",
         "message": "fix: 升级滚动条"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241509",
-    "items": [
-      {
-        "commit": "953a3e6e6954f8acfdba3acee81060ed4cf10fe1",
-        "author": "GateCross",
-        "date": "2025-12-24 15:06:56",
-        "message": "fix:日志默认倒序"
-      },
-      {
-        "commit": "d41b661d68b1340f8b8789d844572d21244c145a",
-        "author": "xylplm",
-        "date": "2025-12-24 14:50:55",
-        "message": "fix: 优化 站点维护 站点名称 可输可选"
-      },
-      {
-        "commit": "56e380417e8fbf432a6df8248beb6d5170b3bd48",
-        "author": "xylplm",
-        "date": "2025-12-24 14:38:35",
-        "message": "fix: 优化站点过滤改为cm-input-autocomplete 可输可选"
-      },
-      {
-        "commit": "1bad36378aed90c1e89693b54a8b2f9478b1953e",
-        "author": "xylplm",
-        "date": "2025-12-24 14:38:02",
-        "message": "feat: 新增CmInputAutocomplete公共组件"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512252235",
+    "items": [
+      {
+        "commit": "60ddb2f43808cfa8dbd7aa63a90def2223faec14",
+        "author": "GateCross",
+        "date": "2025-12-25 22:34:13",
+        "message": "fix:微信消息图片压缩"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512252113",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2025-12-24 10:54:17",
         "message": "fix(binge_watch): 修复通知相关逻辑和启动条件判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512232207",
-    "items": [
-      {
-        "commit": "6ffb09373dd59a91f0fcd2327ec0bc8d0a5b2fcb",
-        "author": "GateCross",
-        "date": "2025-12-23 22:06:29",
-        "message": "fix:回退"
       }
     ]
   }
