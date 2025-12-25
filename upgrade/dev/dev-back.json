@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512251436",
+    "items": [
+      {
+        "commit": "8d07f2f457ffe81ea333ea0c2886b849f7995719",
+        "author": "Jolc",
+        "date": "2025-12-25 14:36:02",
+        "message": "feat: webdav 驱动"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251416",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "xylplm",
         "date": "2025-12-23 13:41:39",
         "message": "Update sign98.go"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512231044",
-    "items": [
-      {
-        "commit": "617ad28edf5f4316dd0a406e79f1ee78e2f65c44",
-        "author": "xylplm",
-        "date": "2025-12-23 10:32:59",
-        "message": "fix: 完善iyuu 日志"
-      },
-      {
-        "commit": "e4604bfec9188d937901abf2130fdb92171ba78b",
-        "author": "xylplm",
-        "date": "2025-12-23 10:18:16",
-        "message": "fix: 放宽iyuu强制辅种限制"
       }
     ]
   }
