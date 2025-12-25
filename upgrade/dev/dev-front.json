@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512252113",
+    "items": [
+      {
+        "commit": "7799a4c9556fe657252a3bea8a724b1fbd835fab",
+        "author": "GateCross",
+        "date": "2025-12-25 21:12:35",
+        "message": "fix:优化订阅、插件日志逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251708",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2025-12-24 14:38:02",
         "message": "feat: 新增CmInputAutocomplete公共组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241004",
-    "items": [
-      {
-        "commit": "003c9d33878d03be1075218713904611e5dce64b",
-        "author": "xylplm",
-        "date": "2025-12-24 09:42:39",
-        "message": "fix: 优化日志显示"
       }
     ]
   }

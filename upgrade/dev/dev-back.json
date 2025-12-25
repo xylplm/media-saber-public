@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512252113",
+    "items": [
+      {
+        "commit": "fdaba6ef79a9f03dd396527dd2f9d7950e4f06fd",
+        "author": "GateCross",
+        "date": "2025-12-25 21:08:02",
+        "message": "fix:微信消息统一MpNews"
+      },
+      {
+        "commit": "b6acec7c5b4ab95b14d89c3bd92e7a2e1b520d66",
+        "author": "liurongjie",
+        "date": "2025-12-25 20:30:44",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251511",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "GateCross",
         "date": "2025-12-23 22:06:29",
         "message": "fix:回退"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512232126",
-    "items": [
-      {
-        "commit": "ddb8d50d25a1b6e5d2c21c60ce1becad8918c267",
-        "author": "Jolc",
-        "date": "2025-12-23 19:41:52",
-        "message": "fix: 控制台日志格式调整"
       }
     ]
   }
