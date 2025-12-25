@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512251511",
+    "items": [
+      {
+        "commit": "bbe073c3ebd09ee6da2b84d78b0ac554e9f5d27f",
+        "author": "GateCross",
+        "date": "2025-12-25 15:10:25",
+        "message": "fix:优化日志缓冲"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251436",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-12-23 19:41:52",
         "message": "fix: 控制台日志格式调整"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512231419",
-    "items": [
-      {
-        "commit": "5428f33ee60adf3ed674845fa362bb192a9a2b3f",
-        "author": "xylplm",
-        "date": "2025-12-23 13:41:39",
-        "message": "Update sign98.go"
       }
     ]
   }
