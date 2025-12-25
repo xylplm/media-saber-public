@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512251708",
+    "items": [
+      {
+        "commit": "ecc4c175413b34d87cb0b7c874aed38f1cb64633",
+        "author": "GateCross",
+        "date": "2025-12-25 17:08:08",
+        "message": "fix:优化订阅日志查询逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251419",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2025-12-24 09:42:39",
         "message": "fix: 优化日志显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512232312",
-    "items": [
-      {
-        "commit": "ce7224e956ea5dc8bff8357a727a67c9be28519f",
-        "author": "GateCross",
-        "date": "2025-12-23 23:11:52",
-        "message": "fix:优化日志"
       }
     ]
   }
