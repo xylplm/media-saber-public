@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512251231",
+    "items": [
+      {
+        "commit": "871678bb7433eb238988c0a9c6825a1e86d60567",
+        "author": "GateCross",
+        "date": "2025-12-25 09:40:10",
+        "message": "fix:日志分页优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512250913",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "xylplm",
         "date": "2025-12-23 16:54:09",
         "message": "fix: 优化日志UI"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512231419",
-    "items": [
-      {
-        "commit": "0465cf17dae8d68af62906737b35260166a6a3c0",
-        "author": "GateCross",
-        "date": "2025-12-23 12:28:28",
-        "message": "fix:删除日志placeholder"
       }
     ]
   }

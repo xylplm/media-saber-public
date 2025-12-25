@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512251231",
+    "items": [
+      {
+        "commit": "b882e55208a453a113be46f8ea7f37387fd501ca",
+        "author": "Jolc",
+        "date": "2025-12-25 10:17:55",
+        "message": "feat: 系统日志时间过滤"
+      },
+      {
+        "commit": "1d1060a7eba900354b4ad1dd088b6621b08b1b30",
+        "author": "Jolc",
+        "date": "2025-12-25 09:35:25",
+        "message": "feat：插件日志链路"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512250913",
     "items": [
       {
@@ -257,17 +274,6 @@
         "author": "Jolc",
         "date": "2025-12-18 19:57:19",
         "message": "feat: zap log 未完成"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512191534",
-    "items": [
-      {
-        "commit": "e943c52fb95ed64e59d7729e44e85fae344e6d88",
-        "author": "GateCross",
-        "date": "2025-12-19 15:32:25",
-        "message": "fix:ctmd请求优化"
       }
     ]
   }
