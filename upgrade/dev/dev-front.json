@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512251252",
+    "items": [
+      {
+        "commit": "6152e77573b942946b27d2f9f9d73d586e5380e4",
+        "author": "GateCross",
+        "date": "2025-12-25 12:52:27",
+        "message": "feat:插件日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512251231",
     "items": [
       {
@@ -137,41 +148,6 @@
         "author": "GateCross",
         "date": "2025-12-23 21:56:55",
         "message": "fix:日志下划线"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512232126",
-    "items": [
-      {
-        "commit": "8b0f47c0a9ed02b749dc7c3c032ba750b46a9e8a",
-        "author": "GateCross",
-        "date": "2025-12-23 21:25:08",
-        "message": "fix:优化日志格式"
-      },
-      {
-        "commit": "fe521e5911433f5d321dd33775d74df8d232efe9",
-        "author": "xylplm",
-        "date": "2025-12-23 17:35:13",
-        "message": "fix: 优化公共日志服务"
-      },
-      {
-        "commit": "a583da75be3b371ab53d7b50b222d99d951c9402",
-        "author": "xylplm",
-        "date": "2025-12-23 17:17:19",
-        "message": "fix: 优化日志目录获取 仅获取一次 local缓存"
-      },
-      {
-        "commit": "0b2553d70ca6dbe4fb622ccd15cd37d72649f86b",
-        "author": "GateCross",
-        "date": "2025-12-23 16:59:20",
-        "message": "fix:订阅日志恢复"
-      },
-      {
-        "commit": "cd51d5591340325c9e16c1e7900e57d93b618797",
-        "author": "xylplm",
-        "date": "2025-12-23 16:54:09",
-        "message": "fix: 优化日志UI"
       }
     ]
   }
