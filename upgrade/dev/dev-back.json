@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512262258",
+    "items": [
+      {
+        "commit": "063ab53b09e42b543d3f39d464a8bcc7f7789dc0",
+        "author": "Jolc",
+        "date": "2025-12-26 22:56:51",
+        "message": "fix: mpnews 使用 ms 管理员昵称作为作者"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512262113",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-12-26 11:34:13",
         "message": "feat: 企业微信上传图片优化、增加默认背景图片地址设置、日志保留天数设置（废弃 env）。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512252235",
-    "items": [
-      {
-        "commit": "60ddb2f43808cfa8dbd7aa63a90def2223faec14",
-        "author": "GateCross",
-        "date": "2025-12-25 22:34:13",
-        "message": "fix:微信消息图片压缩"
       }
     ]
   }
