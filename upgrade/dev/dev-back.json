@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261842",
+    "items": [
+      {
+        "commit": "86f9d624253b848fe66896d87383e39e48174f0d",
+        "author": "Jolc",
+        "date": "2025-12-26 18:41:47",
+        "message": "fix: 点击查看详情"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261828",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "GateCross",
         "date": "2025-12-25 15:10:25",
         "message": "fix:优化日志缓冲"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512251436",
-    "items": [
-      {
-        "commit": "8d07f2f457ffe81ea333ea0c2886b849f7995719",
-        "author": "Jolc",
-        "date": "2025-12-25 14:36:02",
-        "message": "feat: webdav 驱动"
       }
     ]
   }
