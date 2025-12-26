@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512262128",
+    "items": [
+      {
+        "commit": "475dc71ae5ea407176be88623121a4c342289a01",
+        "author": "GateCross",
+        "date": "2025-12-26 21:27:19",
+        "message": "fix:修复日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261729",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2025-12-25 12:52:27",
         "message": "feat:插件日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512251231",
-    "items": [
-      {
-        "commit": "871678bb7433eb238988c0a9c6825a1e86d60567",
-        "author": "GateCross",
-        "date": "2025-12-25 09:40:10",
-        "message": "fix:日志分页优化"
       }
     ]
   }
