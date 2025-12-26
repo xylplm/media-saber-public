@@ -1,183 +1,141 @@
 [
   {
-    "version": "DEV_202512040049",
+    "version": "DEV_202512252235",
     "items": [
       {
-        "commit": "2bc9bc374661299e2d93caddf72856ea57ea2641",
-        "author": "Jolc",
-        "date": "2025-12-04 00:48:51",
-        "message": "fix：刷流同时下载任务数逻辑修改"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512031838",
-    "items": [
-      {
-        "commit": "394f9066be3e80d52df15033f8801cee34287c1a",
-        "author": "Jolc",
-        "date": "2025-12-03 18:38:02",
-        "message": "fix: tmdb tar.gz 更新优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512031006",
-    "items": [
-      {
-        "commit": "0bc6a4006e191648a51d8f3bb5e2618ff4798bc0",
+        "commit": "60ddb2f43808cfa8dbd7aa63a90def2223faec14",
         "author": "GateCross",
-        "date": "2025-12-03 10:05:05",
-        "message": "feat:重新添加strm定时任务"
+        "date": "2025-12-25 22:34:13",
+        "message": "fix:微信消息图片压缩"
       }
     ]
   },
   {
-    "version": "DEV_202512022347",
+    "version": "DEV_202512252113",
     "items": [
       {
-        "commit": "56590de1816366959189d72c003ce93425d576e5",
-        "author": "Jolc",
-        "date": "2025-12-02 23:46:33",
-        "message": "fix:github api 优化"
-      },
-      {
-        "commit": "9b898ca770ba78c1530b3dcc65a0e21c65898764",
-        "author": "xylplm",
-        "date": "2025-12-02 22:57:06",
-        "message": "fix: 提示删除临时文件异常"
-      },
-      {
-        "commit": "58709718d60b15ee5dc4684dace4f012a31518c1",
-        "author": "xylplm",
-        "date": "2025-12-02 18:10:53",
-        "message": "fix: tmdbconfigs 先检查文件是否存在"
-      },
-      {
-        "commit": "8c98212b2e02dd45cfff45973ad13f98f1860478",
-        "author": "xylplm",
-        "date": "2025-12-02 18:06:56",
-        "message": "fix: tmdbconfigs 未找到文件时不抛出错误"
-      },
-      {
-        "commit": "729264efc08624a769406340947f2efbd7d11f67",
-        "author": "xylplm",
-        "date": "2025-12-02 17:33:48",
-        "message": "fix: 自动更新tmdb配置 及版本检测"
-      },
-      {
-        "commit": "4ab6eefa2d993c29af3ff2c1f5aadaf5612924f3",
-        "author": "yii",
-        "date": "2025-12-02 14:58:32",
-        "message": "fix: 输出认证服务器请求id"
-      },
-      {
-        "commit": "7b98a1666330a5d9b1dc84545d6c079b8909471e",
-        "author": "Jolc",
-        "date": "2025-12-02 13:08:43",
-        "message": "feat:tmdb自维护更好库"
-      },
-      {
-        "commit": "ed6ad797bf7cc90510b37382f782b49c83f21587",
-        "author": "Jolc",
-        "date": "2025-12-02 12:22:03",
-        "message": "feat:tmdb图片兼容处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512021136",
-    "items": [
-      {
-        "commit": "18c124e0efc395e025b4f7450344e90454b8ea16",
-        "author": "Jolc",
-        "date": "2025-12-02 11:35:31",
-        "message": "feat:自维护tmdb"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512012206",
-    "items": [
-      {
-        "commit": "7b188d82a71dffe3ab034f3261b97960f4b90e93",
+        "commit": "fdaba6ef79a9f03dd396527dd2f9d7950e4f06fd",
         "author": "GateCross",
-        "date": "2025-12-01 22:05:14",
-        "message": "fix:修复云存储文件整理定时任务"
+        "date": "2025-12-25 21:08:02",
+        "message": "fix:微信消息统一MpNews"
       },
       {
-        "commit": "7283bde210f451c096f953d60c60a0db169cdd9d",
-        "author": "xylplm",
-        "date": "2025-12-01 20:09:27",
-        "message": "feat: 增加新的封面样式"
+        "commit": "b6acec7c5b4ab95b14d89c3bd92e7a2e1b520d66",
+        "author": "liurongjie",
+        "date": "2025-12-25 20:30:44",
+        "message": "refactor: 优化通知消息"
       }
     ]
   },
   {
-    "version": "DEV_202512011942",
+    "version": "DEV_202512251511",
     "items": [
       {
-        "commit": "b46632230d21ddd80dea73246f0fa62cf24eed80",
-        "author": "Jolc",
-        "date": "2025-12-01 19:41:56",
-        "message": "fix:云存储上传失败问题"
-      },
-      {
-        "commit": "fa009eb5647ac60290a991ef49587aa2ecbe26ca",
-        "author": "xylplm",
-        "date": "2025-12-01 19:20:51",
-        "message": "fix: 优化封面生成支持低功耗模式传递"
-      },
-      {
-        "commit": "1fbb30b488ab2854b370f9751a446a9385cd213e",
-        "author": "Jolc",
-        "date": "2025-12-01 18:50:34",
-        "message": "fix:云存储上传失败问题"
+        "commit": "bbe073c3ebd09ee6da2b84d78b0ac554e9f5d27f",
+        "author": "GateCross",
+        "date": "2025-12-25 15:10:25",
+        "message": "fix:优化日志缓冲"
       }
     ]
   },
   {
-    "version": "DEV_202512011625",
+    "version": "DEV_202512251436",
     "items": [
       {
-        "commit": "1b309fbe12afb95dc22ed6ade06364b8f49a254e",
+        "commit": "8d07f2f457ffe81ea333ea0c2886b849f7995719",
         "author": "Jolc",
-        "date": "2025-12-01 16:24:54",
-        "message": "fix:115"
-      },
-      {
-        "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
-        "author": "xylplm",
-        "date": "2025-12-01 13:13:16",
-        "message": "fix:emby jellyfin 封面文件类型动态判断"
+        "date": "2025-12-25 14:36:02",
+        "message": "feat: webdav 驱动"
       }
     ]
   },
   {
-    "version": "DEV_202512011415",
+    "version": "DEV_202512251416",
     "items": [
       {
-        "commit": "4bfa5a53b385da99154abed4ea4dc10e1a2d4048",
-        "author": "Jolc",
-        "date": "2025-12-01 14:15:13",
-        "message": "fix:云存储缓存问题"
+        "commit": "42c167424ab8cb03f1b536cb02275c3ee5f9b5ad",
+        "author": "GateCross",
+        "date": "2025-12-25 14:06:51",
+        "message": "fix:优化柠檬神游"
       },
       {
-        "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
-        "author": "xylplm",
-        "date": "2025-12-01 13:13:16",
-        "message": "fix:emby jellyfin 封面文件类型动态判断"
+        "commit": "4399fdec6cd41b5c99aa06d07c019a794d3b6ceb",
+        "author": "GateCross",
+        "date": "2025-12-25 13:58:01",
+        "message": "fix:优化柠檬神游空白"
       }
     ]
   },
   {
-    "version": "DEV_202511302225",
+    "version": "DEV_202512251231",
     "items": [
       {
-        "commit": "7c6abc5014bb50149b49c40d983d539118a57e21",
+        "commit": "b882e55208a453a113be46f8ea7f37387fd501ca",
         "author": "Jolc",
-        "date": "2025-11-30 22:24:32",
-        "message": "feat:走目录树整理时不获取文件信息（避免频繁请求）"
+        "date": "2025-12-25 10:17:55",
+        "message": "feat: 系统日志时间过滤"
+      },
+      {
+        "commit": "1d1060a7eba900354b4ad1dd088b6621b08b1b30",
+        "author": "Jolc",
+        "date": "2025-12-25 09:35:25",
+        "message": "feat：插件日志链路"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512250913",
+    "items": [
+      {
+        "commit": "aad05c7860a1a3fcebb20e8a4bf2f754ce7ecd49",
+        "author": "Jolc",
+        "date": "2025-12-25 09:17:26",
+        "message": "fix: 系统日志表加索引"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512250024",
+    "items": [
+      {
+        "commit": "ca3a1c31c1df756c76f48b1bb7b51e922e2cf052",
+        "author": "xylplm",
+        "date": "2025-12-24 23:11:49",
+        "message": "fix: 订阅列表参数"
+      },
+      {
+        "commit": "4dbad3f0c853fcfa64aba12e2281d7f35200296e",
+        "author": "Jolc",
+        "date": "2025-12-24 21:02:00",
+        "message": "feat: 日志改为数据库存储"
+      },
+      {
+        "commit": "5ed9f3aa2b04af8c3bc1c78f88c3fe2cc25e5313",
+        "author": "xylplm",
+        "date": "2025-12-24 17:47:48",
+        "message": "fix: 优化 pt详情页下载种子 支持扩展域名的识别"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512241254",
+    "items": [
+      {
+        "commit": "1274b3c3e8aac649be87461e480c5268fbb8e7bb",
+        "author": "xylplm",
+        "date": "2025-12-24 11:45:49",
+        "message": "feat: 刷流重复下载检测"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512241055",
+    "items": [
+      {
+        "commit": "4543f17ac4b5143ec7dbea6dba751cf85315534a",
+        "author": "liurongjie",
+        "date": "2025-12-24 10:54:17",
+        "message": "fix(binge_watch): 修复通知相关逻辑和启动条件判断"
       }
     ]
   }

@@ -1,147 +1,135 @@
 [
   {
-    "version": "DEV_202512040049",
+    "version": "DEV_202512252235",
     "items": [
       {
-        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "commit": "b928b1cb6926f81af035077b383d9340e06f0167",
         "author": "GateCross",
-        "date": "2025-12-03 10:05:27",
-        "message": "feat:前端增加定时任务"
+        "date": "2025-12-25 21:49:59",
+        "message": "fix:优化日志module切换"
       }
     ]
   },
   {
-    "version": "DEV_202512031838",
+    "version": "DEV_202512252113",
     "items": [
       {
-        "commit": "7c61cc4fac6162903e5cde35be3410768e96fcac",
-        "author": "xylplm",
-        "date": "2025-12-03 13:57:11",
-        "message": "feat:表单警告提示组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512031006",
-    "items": [
-      {
-        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "commit": "7799a4c9556fe657252a3bea8a724b1fbd835fab",
         "author": "GateCross",
-        "date": "2025-12-03 10:05:27",
-        "message": "feat:前端增加定时任务"
+        "date": "2025-12-25 21:12:35",
+        "message": "fix:优化订阅、插件日志逻辑"
       }
     ]
   },
   {
-    "version": "DEV_202512022347",
+    "version": "DEV_202512251708",
     "items": [
       {
-        "commit": "d45e9c99b435c7f6a24a8df91984fcad0924eac3",
+        "commit": "ecc4c175413b34d87cb0b7c874aed38f1cb64633",
+        "author": "GateCross",
+        "date": "2025-12-25 17:08:08",
+        "message": "fix:优化订阅日志查询逻辑"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512251419",
+    "items": [
+      {
+        "commit": "eb3c89a6a909ad437e90647fd41bc978e08ab3b9",
+        "author": "liurongjie",
+        "date": "2025-12-25 14:18:05",
+        "message": "fix(rss): 禁用加载动画以优化请求体验"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512251252",
+    "items": [
+      {
+        "commit": "6152e77573b942946b27d2f9f9d73d586e5380e4",
+        "author": "GateCross",
+        "date": "2025-12-25 12:52:27",
+        "message": "feat:插件日志"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512251231",
+    "items": [
+      {
+        "commit": "871678bb7433eb238988c0a9c6825a1e86d60567",
+        "author": "GateCross",
+        "date": "2025-12-25 09:40:10",
+        "message": "fix:日志分页优化"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512250913",
+    "items": [
+      {
+        "commit": "753986adbd8fb79d18ae4dc40301cccd87a63ff6",
+        "author": "GateCross",
+        "date": "2025-12-25 09:12:58",
+        "message": "fix:优化布局"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512250848",
+    "items": [
+      {
+        "commit": "6203cc91175bf60b45408f6c6777984b176ae0fb",
+        "author": "GateCross",
+        "date": "2025-12-25 08:47:32",
+        "message": "fix:优化时间戳"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512250024",
+    "items": [
+      {
+        "commit": "a96a36d3bb9e548a749bf5a216cc155724e76b59",
+        "author": "GateCross",
+        "date": "2025-12-24 23:49:44",
+        "message": "fix:优化日志查询"
+      },
+      {
+        "commit": "afd96362acc0c946e8b1c67ab8fc05dcbf27d5e4",
         "author": "xylplm",
-        "date": "2025-12-02 17:05:32",
-        "message": "fix: tmdb 配置更新"
+        "date": "2025-12-24 23:28:34",
+        "message": "fix: code format"
       },
       {
-        "commit": "2f14e06fb32d084de2c81bb0fd93411e1773715f",
-        "author": "syueya",
-        "date": "2025-12-02 13:25:43",
-        "message": "add：tmdb配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512011107",
-    "items": [
-      {
-        "commit": "c76394cd39ae7cd4fa6e85697b8b627cb5ac8275",
-        "author": "liurongjie",
-        "date": "2025-12-01 11:06:37",
-        "message": "feat(cloud-storage): 调整云存储整理界面布局并新增通知开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511300019",
-    "items": [
-      {
-        "commit": "3fdc43547698204ba66110b7004064fca18b3b2f",
-        "author": "liurongjie",
-        "date": "2025-11-30 00:18:39",
-        "message": "feat: 新增通知配置项及相关UI支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511281319",
-    "items": [
-      {
-        "commit": "3e4f448cc16675d985cfa74d30032e0e0a562418",
-        "author": "liurongjie",
-        "date": "2025-11-28 13:03:59",
-        "message": "fix(app-version): 修正版本标签显示逻辑和添加当前版本号变量"
-      },
-      {
-        "commit": "2d6941d2520374871ea2504e14da3adb87398765",
-        "author": "liurongjie",
-        "date": "2025-11-28 11:31:01",
-        "message": "style(cloud-storage): 调整布局宽度和样式"
-      },
-      {
-        "commit": "722ce915b4ef97750dd3017522fbc704f41decd7",
-        "author": "liurongjie",
-        "date": "2025-11-28 10:48:34",
-        "message": "fix(media-tidy): 优化媒体整理历史界面按钮布局和条件渲染"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511272224",
-    "items": [
-      {
-        "commit": "eac45bb8281c7a0f3999c05fa994688711053932",
-        "author": "liurongjie",
-        "date": "2025-11-27 18:54:56",
-        "message": "style(download): 调整下载历史卡片响应式列宽"
-      },
-      {
-        "commit": "fc1b841ab7d1a7f42d5de14e7d25e9f3d134551d",
-        "author": "liurongjie",
-        "date": "2025-11-27 18:02:57",
-        "message": "style(media-detail): 优化title样式调整行高"
-      },
-      {
-        "commit": "cb907459570d4407191177ae9262f03f303cc924",
+        "commit": "f7f2fe1c8f1d90810cdd8e43bd2be2c8dd224462",
         "author": "xylplm",
-        "date": "2025-11-27 15:49:24",
-        "message": "refactor: 优化下拉选择组件 UI交互体验，以及性能优化"
+        "date": "2025-12-24 23:19:10",
+        "message": "feat: 前端对接数据库日志"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512241616",
+    "items": [
+      {
+        "commit": "8d4a5f5c898fb698b9b7def83c6cedac1ea38c43",
+        "author": "GateCross",
+        "date": "2025-12-24 15:46:35",
+        "message": "fix:日志对齐"
       },
       {
-        "commit": "f0cf85038e41a1852b50faead2a01477183fc45b",
-        "author": "liurongjie",
-        "date": "2025-11-27 15:26:03",
-        "message": "style(download): 优化下载组件UI布局与样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511271451",
-    "items": [
+        "commit": "67c397dd0e31b58b5e241621167d49698b241cc2",
+        "author": "xylplm",
+        "date": "2025-12-24 15:40:49",
+        "message": "fix: 升级版本依赖"
+      },
       {
-        "commit": "d21b04b91b6f7fee18b2e9e224f20816bfd80a04",
-        "author": "liurongjie",
-        "date": "2025-11-27 14:45:41",
-        "message": "style(search-torrent-result-media-info): 优化媒体信息标题样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202511271427",
-    "items": [
-      {
-        "commit": "5d56b3306f30511ed345b9eccfc2657b681859ff",
-        "author": "liurongjie",
-        "date": "2025-11-27 14:22:10",
-        "message": "style(media-detail): 优化季节列表按钮布局和样式"
+        "commit": "fa24efca084623820dcdfdb87e13d4aec1274ced",
+        "author": "xylplm",
+        "date": "2025-12-24 15:27:46",
+        "message": "fix: 升级滚动条"
       }
     ]
   }
