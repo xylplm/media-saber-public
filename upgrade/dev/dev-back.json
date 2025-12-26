@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512262113",
+    "items": [
+      {
+        "commit": "903bbe7e728ad65842e9c55cebb2c3a9d48bbc8f",
+        "author": "GateCross",
+        "date": "2025-12-26 21:12:49",
+        "message": "fix:微信通知适配暗黑模式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261917",
     "items": [
       {
@@ -95,23 +106,6 @@
         "author": "GateCross",
         "date": "2025-12-25 22:34:13",
         "message": "fix:微信消息图片压缩"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512252113",
-    "items": [
-      {
-        "commit": "fdaba6ef79a9f03dd396527dd2f9d7950e4f06fd",
-        "author": "GateCross",
-        "date": "2025-12-25 21:08:02",
-        "message": "fix:微信消息统一MpNews"
-      },
-      {
-        "commit": "b6acec7c5b4ab95b14d89c3bd92e7a2e1b520d66",
-        "author": "liurongjie",
-        "date": "2025-12-25 20:30:44",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
