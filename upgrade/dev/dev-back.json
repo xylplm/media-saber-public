@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261245",
+    "items": [
+      {
+        "commit": "c5574a92fee59239a18dde0eb3199c355838ba34",
+        "author": "Jolc",
+        "date": "2025-12-26 12:44:47",
+        "message": "fix: 企业微信非媒体服务通知才走 mpnews"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261134",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-12-24 17:47:48",
         "message": "fix: 优化 pt详情页下载种子 支持扩展域名的识别"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241254",
-    "items": [
-      {
-        "commit": "1274b3c3e8aac649be87461e480c5268fbb8e7bb",
-        "author": "xylplm",
-        "date": "2025-12-24 11:45:49",
-        "message": "feat: 刷流重复下载检测"
       }
     ]
   }
