@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261345",
+    "items": [
+      {
+        "commit": "b51820e8ea5de78a7106bde9ca1d23254835cf43",
+        "author": "xylplm",
+        "date": "2025-12-26 13:34:15",
+        "message": "feat: 站点数据统计动画效果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261134",
     "items": [
       {
@@ -95,29 +106,6 @@
         "author": "GateCross",
         "date": "2025-12-25 08:47:32",
         "message": "fix:优化时间戳"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512250024",
-    "items": [
-      {
-        "commit": "a96a36d3bb9e548a749bf5a216cc155724e76b59",
-        "author": "GateCross",
-        "date": "2025-12-24 23:49:44",
-        "message": "fix:优化日志查询"
-      },
-      {
-        "commit": "afd96362acc0c946e8b1c67ab8fc05dcbf27d5e4",
-        "author": "xylplm",
-        "date": "2025-12-24 23:28:34",
-        "message": "fix: code format"
-      },
-      {
-        "commit": "f7f2fe1c8f1d90810cdd8e43bd2be2c8dd224462",
-        "author": "xylplm",
-        "date": "2025-12-24 23:19:10",
-        "message": "feat: 前端对接数据库日志"
       }
     ]
   }

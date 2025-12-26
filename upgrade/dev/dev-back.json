@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261345",
+    "items": [
+      {
+        "commit": "870fd85b3383bd6a31a3b050976ee022b92828c5",
+        "author": "Jolc",
+        "date": "2025-12-26 13:44:38",
+        "message": "feat: 默认图片代理开关、文本自动转图文。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261245",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "Jolc",
         "date": "2025-12-25 09:17:26",
         "message": "fix: 系统日志表加索引"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512250024",
-    "items": [
-      {
-        "commit": "ca3a1c31c1df756c76f48b1bb7b51e922e2cf052",
-        "author": "xylplm",
-        "date": "2025-12-24 23:11:49",
-        "message": "fix: 订阅列表参数"
-      },
-      {
-        "commit": "4dbad3f0c853fcfa64aba12e2281d7f35200296e",
-        "author": "Jolc",
-        "date": "2025-12-24 21:02:00",
-        "message": "feat: 日志改为数据库存储"
-      },
-      {
-        "commit": "5ed9f3aa2b04af8c3bc1c78f88c3fe2cc25e5313",
-        "author": "xylplm",
-        "date": "2025-12-24 17:47:48",
-        "message": "fix: 优化 pt详情页下载种子 支持扩展域名的识别"
       }
     ]
   }
