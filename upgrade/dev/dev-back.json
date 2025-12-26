@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261917",
+    "items": [
+      {
+        "commit": "07c2b95d40b4afa4c4ebd527c35a22a6936f675e",
+        "author": "Jolc",
+        "date": "2025-12-26 19:17:35",
+        "message": "fix: 点击查看详情"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261842",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2025-12-25 20:30:44",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512251511",
-    "items": [
-      {
-        "commit": "bbe073c3ebd09ee6da2b84d78b0ac554e9f5d27f",
-        "author": "GateCross",
-        "date": "2025-12-25 15:10:25",
-        "message": "fix:优化日志缓冲"
       }
     ]
   }
