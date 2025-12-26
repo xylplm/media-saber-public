@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261134",
+    "items": [
+      {
+        "commit": "ffe64edb89f5c7c41ee775754cf8144b473df59f",
+        "author": "xylplm",
+        "date": "2025-12-26 11:02:49",
+        "message": "fix: 升级 @luoxiao123/angular-tabler-icons 版本至 3.36.1"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512252235",
     "items": [
       {
@@ -107,29 +118,6 @@
         "author": "xylplm",
         "date": "2025-12-24 23:19:10",
         "message": "feat: 前端对接数据库日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241616",
-    "items": [
-      {
-        "commit": "8d4a5f5c898fb698b9b7def83c6cedac1ea38c43",
-        "author": "GateCross",
-        "date": "2025-12-24 15:46:35",
-        "message": "fix:日志对齐"
-      },
-      {
-        "commit": "67c397dd0e31b58b5e241621167d49698b241cc2",
-        "author": "xylplm",
-        "date": "2025-12-24 15:40:49",
-        "message": "fix: 升级版本依赖"
-      },
-      {
-        "commit": "fa24efca084623820dcdfdb87e13d4aec1274ced",
-        "author": "xylplm",
-        "date": "2025-12-24 15:27:46",
-        "message": "fix: 升级滚动条"
       }
     ]
   }

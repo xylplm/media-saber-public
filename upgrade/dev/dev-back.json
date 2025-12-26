@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261134",
+    "items": [
+      {
+        "commit": "e661a77f29c119dfb7533fdf8d7a46e0a881d72e",
+        "author": "Jolc",
+        "date": "2025-12-26 11:34:13",
+        "message": "feat: 企业微信上传图片优化、增加默认背景图片地址设置、日志保留天数设置（废弃 env）。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512252235",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-12-24 11:45:49",
         "message": "feat: 刷流重复下载检测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241055",
-    "items": [
-      {
-        "commit": "4543f17ac4b5143ec7dbea6dba751cf85315534a",
-        "author": "liurongjie",
-        "date": "2025-12-24 10:54:17",
-        "message": "fix(binge_watch): 修复通知相关逻辑和启动条件判断"
       }
     ]
   }
