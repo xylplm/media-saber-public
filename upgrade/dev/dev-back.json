@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512261424",
+    "items": [
+      {
+        "commit": "65b64137b3194ca8bf8950fefdb4a7672311bfcf",
+        "author": "GateCross",
+        "date": "2025-12-26 14:25:16",
+        "message": "feat:添加日志清空接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512261345",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2025-12-25 09:35:25",
         "message": "feat：插件日志链路"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512250913",
-    "items": [
-      {
-        "commit": "aad05c7860a1a3fcebb20e8a4bf2f754ce7ecd49",
-        "author": "Jolc",
-        "date": "2025-12-25 09:17:26",
-        "message": "fix: 系统日志表加索引"
       }
     ]
   }
