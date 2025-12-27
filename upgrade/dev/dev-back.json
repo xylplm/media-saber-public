@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512271037",
+    "items": [
+      {
+        "commit": "003e0db4e402ae1e8d5da9f32d96a4b5198d5615",
+        "author": "Jolc",
+        "date": "2025-12-27 10:37:19",
+        "message": "feat: 微信通知-企业微信图文模式开关"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512262258",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-12-26 12:44:47",
         "message": "fix: 企业微信非媒体服务通知才走 mpnews"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261134",
-    "items": [
-      {
-        "commit": "e661a77f29c119dfb7533fdf8d7a46e0a881d72e",
-        "author": "Jolc",
-        "date": "2025-12-26 11:34:13",
-        "message": "feat: 企业微信上传图片优化、增加默认背景图片地址设置、日志保留天数设置（废弃 env）。"
       }
     ]
   }
