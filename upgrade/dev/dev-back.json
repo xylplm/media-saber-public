@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512271345",
+    "items": [
+      {
+        "commit": "1c6bff6cf3d91fec4249e83e5fb6e371e1d57dec",
+        "author": "Jolc",
+        "date": "2025-12-27 13:44:53",
+        "message": "fix: tmdb 缓存维度太细改成 url 维度、mq 完成后任务保留 15s。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512271037",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-12-26 13:44:38",
         "message": "feat: 默认图片代理开关、文本自动转图文。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261245",
-    "items": [
-      {
-        "commit": "c5574a92fee59239a18dde0eb3199c355838ba34",
-        "author": "Jolc",
-        "date": "2025-12-26 12:44:47",
-        "message": "fix: 企业微信非媒体服务通知才走 mpnews"
       }
     ]
   }
