@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202512271917",
+    "items": [
+      {
+        "commit": "b792265a4842c169fd3ce8440de333a2823eb67b",
+        "author": "xylplm",
+        "date": "2025-12-27 19:16:26",
+        "message": "fix: 更新热门关键字标题为“时光热搜”"
+      },
+      {
+        "commit": "4a457f6fdddca1c374acd44ca3d3442ce5f8e62f",
+        "author": "xylplm",
+        "date": "2025-12-27 19:14:24",
+        "message": "fix: 更新搜索结果标题"
+      },
+      {
+        "commit": "478529dcc9a855077df1d954baf98650b0913e00",
+        "author": "liurongjie",
+        "date": "2025-12-26 23:21:00",
+        "message": "fix(media-resource): 修复云下载功能并支持路径选择"
+      },
+      {
+        "commit": "475dc71ae5ea407176be88623121a4c342289a01",
+        "author": "GateCross",
+        "date": "2025-12-26 21:27:19",
+        "message": "fix:修复日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512271651",
     "items": [
       {
@@ -275,17 +304,6 @@
         "author": "xylplm",
         "date": "2025-12-26 11:02:49",
         "message": "fix: 升级 @luoxiao123/angular-tabler-icons 版本至 3.36.1"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512252235",
-    "items": [
-      {
-        "commit": "b928b1cb6926f81af035077b383d9340e06f0167",
-        "author": "GateCross",
-        "date": "2025-12-25 21:49:59",
-        "message": "fix:优化日志module切换"
       }
     ]
   }
