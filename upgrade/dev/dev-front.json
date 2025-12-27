@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512272024",
+    "items": [
+      {
+        "commit": "409d0dec4e76e09d08f96d3ae0bd09ae1c6316be",
+        "author": "GateCross",
+        "date": "2025-12-27 20:23:47",
+        "message": "fix:修复手机端适配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512271917",
     "items": [
       {
@@ -293,17 +304,6 @@
         "author": "xylplm",
         "date": "2025-12-26 13:34:15",
         "message": "feat: 站点数据统计动画效果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261134",
-    "items": [
-      {
-        "commit": "ffe64edb89f5c7c41ee775754cf8144b473df59f",
-        "author": "xylplm",
-        "date": "2025-12-26 11:02:49",
-        "message": "fix: 升级 @luoxiao123/angular-tabler-icons 版本至 3.36.1"
       }
     ]
   }
