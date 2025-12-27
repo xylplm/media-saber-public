@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512271651",
+    "items": [
+      {
+        "commit": "e1cfb3da4ac94223f8439c04d25d78ff4c6d2d41",
+        "author": "Jolc",
+        "date": "2025-12-27 16:50:53",
+        "message": "fix：修复 tmdb 缓存问题（献祭一名后端程序员）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512271345",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "GateCross",
         "date": "2025-12-26 14:25:16",
         "message": "feat:添加日志清空接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261345",
-    "items": [
-      {
-        "commit": "870fd85b3383bd6a31a3b050976ee022b92828c5",
-        "author": "Jolc",
-        "date": "2025-12-26 13:44:38",
-        "message": "feat: 默认图片代理开关、文本自动转图文。"
       }
     ]
   }

@@ -1,5 +1,94 @@
 [
   {
+    "version": "DEV_202512271651",
+    "items": [
+      {
+        "commit": "3beb574522967711ed9be990076b78cf16b22754",
+        "author": "xylplm",
+        "date": "2025-12-27 16:30:16",
+        "message": "feat: 更新 Pingtest 组件，添加请求头以禁用加载动画并调整数据参数格式"
+      },
+      {
+        "commit": "475dc71ae5ea407176be88623121a4c342289a01",
+        "author": "GateCross",
+        "date": "2025-12-26 21:27:19",
+        "message": "fix:修复日志"
+      },
+      {
+        "commit": "1d178c81eaa084f6cedcebc2324715764cfb78a2",
+        "author": "xylplm",
+        "date": "2025-12-26 17:28:45",
+        "message": "feat: 添加暮霭、秋叶、深渊和冰川主题，更新主题选项和样式"
+      },
+      {
+        "commit": "b749c30df9c97dcee88f8a0d36d2c95ee3983f18",
+        "author": "xylplm",
+        "date": "2025-12-26 17:09:21",
+        "message": "fix: 更新黄色主题标签为“采菊”"
+      },
+      {
+        "commit": "d308c9724e1fc8e53413772aa81e14852b2c2cdf",
+        "author": "xylplm",
+        "date": "2025-12-26 17:02:32",
+        "message": "feat: 重构logo组件，移动到独立目录并更新导入路径"
+      },
+      {
+        "commit": "9611714af65f754f096099aaecbf766f7ab5daff",
+        "author": "xylplm",
+        "date": "2025-12-26 16:44:25",
+        "message": "feat: 添加少女粉和猛男粉主题，更新主题选项和样式"
+      },
+      {
+        "commit": "b167429d3cec84127ec855ad74c7e238e9c64b11",
+        "author": "xylplm",
+        "date": "2025-12-26 16:38:02",
+        "message": "feat: 添加红色和黄色主题，更新主题选项和样式"
+      },
+      {
+        "commit": "0795988bc5dfb848865288a5a9bb8be6dd670c05",
+        "author": "xylplm",
+        "date": "2025-12-26 16:28:36",
+        "message": "feat: 更新主题选择器样式，优化按钮布局和主题标签"
+      },
+      {
+        "commit": "de7c5a581ce832fbe4ba95b9dd3d30566515e195",
+        "author": "GateCross",
+        "date": "2025-12-26 14:59:15",
+        "message": "feat:增加日志清空"
+      },
+      {
+        "commit": "b51820e8ea5de78a7106bde9ca1d23254835cf43",
+        "author": "xylplm",
+        "date": "2025-12-26 13:34:15",
+        "message": "feat: 站点数据统计动画效果"
+      },
+      {
+        "commit": "ffe64edb89f5c7c41ee775754cf8144b473df59f",
+        "author": "xylplm",
+        "date": "2025-12-26 11:02:49",
+        "message": "fix: 升级 @luoxiao123/angular-tabler-icons 版本至 3.36.1"
+      },
+      {
+        "commit": "b928b1cb6926f81af035077b383d9340e06f0167",
+        "author": "GateCross",
+        "date": "2025-12-25 21:49:59",
+        "message": "fix:优化日志module切换"
+      },
+      {
+        "commit": "7799a4c9556fe657252a3bea8a724b1fbd835fab",
+        "author": "GateCross",
+        "date": "2025-12-25 21:12:35",
+        "message": "fix:优化订阅、插件日志逻辑"
+      },
+      {
+        "commit": "ecc4c175413b34d87cb0b7c874aed38f1cb64633",
+        "author": "GateCross",
+        "date": "2025-12-25 17:08:08",
+        "message": "fix:优化订阅日志查询逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512271345",
     "items": [
       {
@@ -197,17 +286,6 @@
         "author": "GateCross",
         "date": "2025-12-25 21:49:59",
         "message": "fix:优化日志module切换"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512252113",
-    "items": [
-      {
-        "commit": "7799a4c9556fe657252a3bea8a724b1fbd835fab",
-        "author": "GateCross",
-        "date": "2025-12-25 21:12:35",
-        "message": "fix:优化订阅、插件日志逻辑"
       }
     ]
   }
