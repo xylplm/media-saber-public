@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512280017",
+    "items": [
+      {
+        "commit": "0168b5b3218292f1b1b1923c2303050a5c886487",
+        "author": "Jolc",
+        "date": "2025-12-28 00:16:07",
+        "message": "feat: open115 分页大小参数、"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512271651",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-12-26 17:00:59",
         "message": "fix: 默认背景图片支持动态"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261424",
-    "items": [
-      {
-        "commit": "65b64137b3194ca8bf8950fefdb4a7672311bfcf",
-        "author": "GateCross",
-        "date": "2025-12-26 14:25:16",
-        "message": "feat:添加日志清空接口"
       }
     ]
   }
