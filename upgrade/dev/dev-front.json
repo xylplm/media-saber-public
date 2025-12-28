@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202512282011",
+    "items": [
+      {
+        "commit": "3519f25f8a4fd1dbeb8f01089339f12c1bd2280f",
+        "author": "xylplm",
+        "date": "2025-12-28 16:29:08",
+        "message": "fix: 修改媒体库展示样式，调整列宽以优化布局"
+      },
+      {
+        "commit": "ef60557a3acecb3a74031a3dffc756ab55dd3a0b",
+        "author": "xylplm",
+        "date": "2025-12-28 16:27:01",
+        "message": "fix: 调整“时光热搜”标题样式，修改字体大小和边距"
+      },
+      {
+        "commit": "e6342eae26df4af9b4e83d4af5d64fd9acbf1863",
+        "author": "xylplm",
+        "date": "2025-12-28 16:25:36",
+        "message": "fix: 站点统计 动效支持0显示，分享率为 0时显示为无限"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512272024",
     "items": [
       {
@@ -293,17 +316,6 @@
         "author": "GateCross",
         "date": "2025-12-26 14:59:15",
         "message": "feat:增加日志清空"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261345",
-    "items": [
-      {
-        "commit": "b51820e8ea5de78a7106bde9ca1d23254835cf43",
-        "author": "xylplm",
-        "date": "2025-12-26 13:34:15",
-        "message": "feat: 站点数据统计动画效果"
       }
     ]
   }

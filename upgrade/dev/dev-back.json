@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512282011",
+    "items": [
+      {
+        "commit": "f97a357fb5d48b06d9a2e67e8a7c6bec12158040",
+        "author": "xylplm",
+        "date": "2025-12-28 16:13:59",
+        "message": "feat: 98签到 添加仅评论模式，允许用户在不执行签到的情况下进行评论"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512280017",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-12-26 18:27:07",
         "message": "feat: 填了默认背景图片，全局转图文"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261701",
-    "items": [
-      {
-        "commit": "8049c21cc517fa1704ee30caa304409a0495bf8c",
-        "author": "Jolc",
-        "date": "2025-12-26 17:00:59",
-        "message": "fix: 默认背景图片支持动态"
       }
     ]
   }
