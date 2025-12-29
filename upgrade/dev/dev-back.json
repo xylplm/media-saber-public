@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512292204",
+    "items": [
+      {
+        "commit": "8b5c3ba43bd7cab5ac48514cdd3feb6833fbce90",
+        "author": "liurongjie",
+        "date": "2025-12-29 22:05:36",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512292117",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "GateCross",
         "date": "2025-12-26 21:12:49",
         "message": "fix:微信通知适配暗黑模式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261917",
-    "items": [
-      {
-        "commit": "07c2b95d40b4afa4c4ebd527c35a22a6936f675e",
-        "author": "Jolc",
-        "date": "2025-12-26 19:17:35",
-        "message": "fix: 点击查看详情"
       }
     ]
   }
