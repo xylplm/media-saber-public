@@ -1,141 +1,111 @@
 [
   {
-    "version": "DEV_202512092301",
+    "version": "DEV_202512291438",
     "items": [
       {
-        "commit": "e60e38af84fcbd2ba6065b5bfbc553e4d98b04ba",
-        "author": "GateCross",
-        "date": "2025-12-09 23:03:18",
-        "message": "fix:log"
-      },
-      {
-        "commit": "912ba0fbef83334063d22007ecee479e60f560b3",
-        "author": "yii",
-        "date": "2025-12-09 23:00:34",
-        "message": "fix: 优化程序跑的太快的问题"
+        "commit": "0168b5b3218292f1b1b1923c2303050a5c886487",
+        "author": "Jolc",
+        "date": "2025-12-28 00:16:07",
+        "message": "feat: open115 分页大小参数、"
       }
     ]
   },
   {
-    "version": "DEV_202512092153",
+    "version": "DEV_202512282011",
     "items": [
       {
-        "commit": "86b27c0e18cc49aae5831ea3111b42e171e0f8c5",
-        "author": "yii",
-        "date": "2025-12-09 21:52:54",
-        "message": "fix: 优化接口性能过高的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512092000",
-    "items": [
-      {
-        "commit": "d0b216f6c1dcb7f808d210c102351bdec001531d",
-        "author": "yii",
-        "date": "2025-12-09 19:59:47",
-        "message": "fix: 优化接口性能过高的问题"
-      },
-      {
-        "commit": "2cee0cfeb7588cefe82262a797b34fe6058d44a6",
-        "author": "yii",
-        "date": "2025-12-09 19:56:50",
-        "message": "fix: 优化接口性能过高的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091745",
-    "items": [
-      {
-        "commit": "804423dfc5bad5f0310dda69e5e1b18295a934bc",
-        "author": "yii",
-        "date": "2025-12-09 17:43:55",
-        "message": "fix: 修正认证组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091722",
-    "items": [
-      {
-        "commit": "4b0fb2e0311ddff7c1783a273618d40cdfa3c33e",
-        "author": "GateCross",
-        "date": "2025-12-09 17:19:50",
-        "message": "fix:打印日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091658",
-    "items": [
-      {
-        "commit": "43b213b565cd5bd400533f6663ba340974e8abeb",
-        "author": "GateCross",
-        "date": "2025-12-09 16:57:28",
-        "message": "fix:优化api接口错误提示"
-      },
-      {
-        "commit": "00ecc7325900000f414ce29743675a66abd702bd",
-        "author": "GateCross",
-        "date": "2025-12-09 14:05:08",
-        "message": "fix:优化热更新版本判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091124",
-    "items": [
-      {
-        "commit": "517dff91f8e7d97c367bc8653d66235199f99ed1",
-        "author": "GateCross",
-        "date": "2025-12-09 11:23:35",
-        "message": "fix:优化热更新版本问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512091104",
-    "items": [
-      {
-        "commit": "5d263a753f550f36b1a081ededbe020c9ef19f75",
+        "commit": "f97a357fb5d48b06d9a2e67e8a7c6bec12158040",
         "author": "xylplm",
-        "date": "2025-12-09 11:02:54",
-        "message": "feat: 秘籍98签到 内置黑名单用户 以及黑名单用户配置"
+        "date": "2025-12-28 16:13:59",
+        "message": "feat: 98签到 添加仅评论模式，允许用户在不执行签到的情况下进行评论"
       }
     ]
   },
   {
-    "version": "DEV_202512091017",
+    "version": "DEV_202512280017",
     "items": [
       {
-        "commit": "78efa30cd8ee037747e08db195e5a375513614a4",
-        "author": "xylplm",
-        "date": "2025-12-09 10:20:52",
-        "message": "fix: 98帖子信息完整性校验"
-      },
-      {
-        "commit": "368ae756748b8ad8cc27c6ac811b53e3f06add49",
-        "author": "xylplm",
-        "date": "2025-12-09 10:15:26",
-        "message": "feat: 修仙秘籍 98签到 增加帖子内容钓鱼贴校验、版务校验 增加内容黑名单关键词配置"
+        "commit": "0168b5b3218292f1b1b1923c2303050a5c886487",
+        "author": "Jolc",
+        "date": "2025-12-28 00:16:07",
+        "message": "feat: open115 分页大小参数、"
       }
     ]
   },
   {
-    "version": "DEV_202512090926",
+    "version": "DEV_202512271651",
     "items": [
       {
-        "commit": "6be92d562a38284397a1de9b83e73218b74adf4a",
-        "author": "liurongjie",
-        "date": "2025-12-09 09:24:10",
-        "message": "fix: 优化消息通知模板"
-      },
+        "commit": "e1cfb3da4ac94223f8439c04d25d78ff4c6d2d41",
+        "author": "Jolc",
+        "date": "2025-12-27 16:50:53",
+        "message": "fix：修复 tmdb 缓存问题（献祭一名后端程序员）"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512271345",
+    "items": [
       {
-        "commit": "cd3288242217d7ebae666187f0d9fefadff85d44",
-        "author": "zyt0339",
-        "date": "2025-12-08 23:03:27",
-        "message": "fix:brush go ,加日志"
+        "commit": "1c6bff6cf3d91fec4249e83e5fb6e371e1d57dec",
+        "author": "Jolc",
+        "date": "2025-12-27 13:44:53",
+        "message": "fix: tmdb 缓存维度太细改成 url 维度、mq 完成后任务保留 15s。"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512271037",
+    "items": [
+      {
+        "commit": "003e0db4e402ae1e8d5da9f32d96a4b5198d5615",
+        "author": "Jolc",
+        "date": "2025-12-27 10:37:19",
+        "message": "feat: 微信通知-企业微信图文模式开关"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512262258",
+    "items": [
+      {
+        "commit": "063ab53b09e42b543d3f39d464a8bcc7f7789dc0",
+        "author": "Jolc",
+        "date": "2025-12-26 22:56:51",
+        "message": "fix: mpnews 使用 ms 管理员昵称作为作者"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512262113",
+    "items": [
+      {
+        "commit": "903bbe7e728ad65842e9c55cebb2c3a9d48bbc8f",
+        "author": "GateCross",
+        "date": "2025-12-26 21:12:49",
+        "message": "fix:微信通知适配暗黑模式"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512261917",
+    "items": [
+      {
+        "commit": "07c2b95d40b4afa4c4ebd527c35a22a6936f675e",
+        "author": "Jolc",
+        "date": "2025-12-26 19:17:35",
+        "message": "fix: 点击查看详情"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202512261842",
+    "items": [
+      {
+        "commit": "86f9d624253b848fe66896d87383e39e48174f0d",
+        "author": "Jolc",
+        "date": "2025-12-26 18:41:47",
+        "message": "fix: 点击查看详情"
       }
     ]
   }
