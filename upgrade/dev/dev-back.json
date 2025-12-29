@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512292232",
+    "items": [
+      {
+        "commit": "969571a9e84bc8dee451a0a05bf1e0d72c46d5dc",
+        "author": "GateCross",
+        "date": "2025-12-29 22:31:11",
+        "message": "fix:添加hdhive签到日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512292204",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2025-12-26 22:56:51",
         "message": "fix: mpnews 使用 ms 管理员昵称作为作者"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512262113",
-    "items": [
-      {
-        "commit": "903bbe7e728ad65842e9c55cebb2c3a9d48bbc8f",
-        "author": "GateCross",
-        "date": "2025-12-26 21:12:49",
-        "message": "fix:微信通知适配暗黑模式"
       }
     ]
   }
