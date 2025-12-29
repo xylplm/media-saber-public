@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512291438",
+    "items": [
+      {
+        "commit": "af00110c421b36e39b3ce20ef5df2184a7042706",
+        "author": "GateCross",
+        "date": "2025-12-29 14:18:31",
+        "message": "fix:优化按钮显示效果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512282011",
     "items": [
       {
@@ -281,41 +292,6 @@
         "author": "xylplm",
         "date": "2025-12-26 17:09:21",
         "message": "fix: 更新黄色主题标签为“采菊”"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261701",
-    "items": [
-      {
-        "commit": "d308c9724e1fc8e53413772aa81e14852b2c2cdf",
-        "author": "xylplm",
-        "date": "2025-12-26 17:02:32",
-        "message": "feat: 重构logo组件，移动到独立目录并更新导入路径"
-      },
-      {
-        "commit": "9611714af65f754f096099aaecbf766f7ab5daff",
-        "author": "xylplm",
-        "date": "2025-12-26 16:44:25",
-        "message": "feat: 添加少女粉和猛男粉主题，更新主题选项和样式"
-      },
-      {
-        "commit": "b167429d3cec84127ec855ad74c7e238e9c64b11",
-        "author": "xylplm",
-        "date": "2025-12-26 16:38:02",
-        "message": "feat: 添加红色和黄色主题，更新主题选项和样式"
-      },
-      {
-        "commit": "0795988bc5dfb848865288a5a9bb8be6dd670c05",
-        "author": "xylplm",
-        "date": "2025-12-26 16:28:36",
-        "message": "feat: 更新主题选择器样式，优化按钮布局和主题标签"
-      },
-      {
-        "commit": "de7c5a581ce832fbe4ba95b9dd3d30566515e195",
-        "author": "GateCross",
-        "date": "2025-12-26 14:59:15",
-        "message": "feat:增加日志清空"
       }
     ]
   }

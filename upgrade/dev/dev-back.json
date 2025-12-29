@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512291438",
+    "items": [
+      {
+        "commit": "0168b5b3218292f1b1b1923c2303050a5c886487",
+        "author": "Jolc",
+        "date": "2025-12-28 00:16:07",
+        "message": "feat: open115 分页大小参数、"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512282011",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2025-12-26 18:41:47",
         "message": "fix: 点击查看详情"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261828",
-    "items": [
-      {
-        "commit": "ae9c5882a8f52f007180403fbf6a114e9dccf8a8",
-        "author": "Jolc",
-        "date": "2025-12-26 18:27:07",
-        "message": "feat: 填了默认背景图片，全局转图文"
       }
     ]
   }
