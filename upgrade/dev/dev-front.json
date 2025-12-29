@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512292117",
+    "items": [
+      {
+        "commit": "e744f49750474d135e5ae6126ba50d459ed236fe",
+        "author": "GateCross",
+        "date": "2025-12-29 21:16:29",
+        "message": "fix:删除系统设置自动更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512291438",
     "items": [
       {
@@ -275,23 +286,6 @@
         "author": "GateCross",
         "date": "2025-12-26 21:27:19",
         "message": "fix:修复日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261729",
-    "items": [
-      {
-        "commit": "1d178c81eaa084f6cedcebc2324715764cfb78a2",
-        "author": "xylplm",
-        "date": "2025-12-26 17:28:45",
-        "message": "feat: 添加暮霭、秋叶、深渊和冰川主题，更新主题选项和样式"
-      },
-      {
-        "commit": "b749c30df9c97dcee88f8a0d36d2c95ee3983f18",
-        "author": "xylplm",
-        "date": "2025-12-26 17:09:21",
-        "message": "fix: 更新黄色主题标签为“采菊”"
       }
     ]
   }

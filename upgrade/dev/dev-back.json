@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512292117",
+    "items": [
+      {
+        "commit": "98a4d4c47bf6d349d5f0e5f1bedb134ec5ea966b",
+        "author": "GateCross",
+        "date": "2025-12-29 16:48:46",
+        "message": "fix:优化版本更新判断逻辑"
+      },
+      {
+        "commit": "f97a357fb5d48b06d9a2e67e8a7c6bec12158040",
+        "author": "xylplm",
+        "date": "2025-12-28 16:13:59",
+        "message": "feat: 98签到 添加仅评论模式，允许用户在不执行签到的情况下进行评论"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512291438",
     "items": [
       {
@@ -94,17 +111,6 @@
         "commit": "07c2b95d40b4afa4c4ebd527c35a22a6936f675e",
         "author": "Jolc",
         "date": "2025-12-26 19:17:35",
-        "message": "fix: 点击查看详情"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512261842",
-    "items": [
-      {
-        "commit": "86f9d624253b848fe66896d87383e39e48174f0d",
-        "author": "Jolc",
-        "date": "2025-12-26 18:41:47",
         "message": "fix: 点击查看详情"
       }
     ]
