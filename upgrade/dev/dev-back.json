@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512301334",
+    "items": [
+      {
+        "commit": "576f8e282d6652508f634f4f5ff6a3422c9c3ea8",
+        "author": "Jolc",
+        "date": "2025-12-30 13:34:15",
+        "message": "fix: message backdrop"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512301323",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-12-27 16:50:53",
         "message": "fix：修复 tmdb 缓存问题（献祭一名后端程序员）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512271345",
-    "items": [
-      {
-        "commit": "1c6bff6cf3d91fec4249e83e5fb6e371e1d57dec",
-        "author": "Jolc",
-        "date": "2025-12-27 13:44:53",
-        "message": "fix: tmdb 缓存维度太细改成 url 维度、mq 完成后任务保留 15s。"
       }
     ]
   }
