@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512301358",
+    "items": [
+      {
+        "commit": "72b8fa2bad8f838d222d9fee97c71ab138624383",
+        "author": "GateCross",
+        "date": "2025-12-30 13:57:47",
+        "message": "fix:插件图片"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512301334",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2025-12-28 00:16:07",
         "message": "feat: open115 分页大小参数、"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512271651",
-    "items": [
-      {
-        "commit": "e1cfb3da4ac94223f8439c04d25d78ff4c6d2d41",
-        "author": "Jolc",
-        "date": "2025-12-27 16:50:53",
-        "message": "fix：修复 tmdb 缓存问题（献祭一名后端程序员）"
       }
     ]
   }
