@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512301302",
+    "items": [
+      {
+        "commit": "c1e27e81ca97b27ef823cdad9f6c3e069fe4270b",
+        "author": "Jolc",
+        "date": "2025-12-30 13:02:23",
+        "message": "feat: message backdrop"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512292232",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2025-12-27 10:37:19",
         "message": "feat: 微信通知-企业微信图文模式开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512262258",
-    "items": [
-      {
-        "commit": "063ab53b09e42b543d3f39d464a8bcc7f7789dc0",
-        "author": "Jolc",
-        "date": "2025-12-26 22:56:51",
-        "message": "fix: mpnews 使用 ms 管理员昵称作为作者"
       }
     ]
   }
