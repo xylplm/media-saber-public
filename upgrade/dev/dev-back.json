@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512311223",
+    "items": [
+      {
+        "commit": "cdd0fad29a67650754db5cea0430d97115aaf779",
+        "author": "GateCross",
+        "date": "2025-12-31 12:22:32",
+        "message": "fix:115签到信息合并"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512302135",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-12-28 16:13:59",
         "message": "feat: 98签到 添加仅评论模式，允许用户在不执行签到的情况下进行评论"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512291438",
-    "items": [
-      {
-        "commit": "0168b5b3218292f1b1b1923c2303050a5c886487",
-        "author": "Jolc",
-        "date": "2025-12-28 00:16:07",
-        "message": "feat: open115 分页大小参数、"
       }
     ]
   }
