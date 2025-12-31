@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202512311711",
+    "items": [
+      {
+        "commit": "989f413c8a965b351d8e5998e7767e113ae238cf",
+        "author": "GateCross",
+        "date": "2025-12-31 17:10:56",
+        "message": "fix:优化内置消息图片和分类"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512311616",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2025-12-29 22:31:11",
         "message": "fix:添加hdhive签到日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512292204",
-    "items": [
-      {
-        "commit": "8b5c3ba43bd7cab5ac48514cdd3feb6833fbce90",
-        "author": "liurongjie",
-        "date": "2025-12-29 22:05:36",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
