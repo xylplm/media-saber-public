@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202512311616",
+    "items": [
+      {
+        "commit": "5bee1a660a67c8ab8fdd4975191532d74cecdba3",
+        "author": "GateCross",
+        "date": "2025-12-31 16:15:32",
+        "message": "fix:优化时刻"
+      },
+      {
+        "commit": "11eaeb967ee0b47dbe2dfd4106d79485f2858d5f",
+        "author": "xylplm",
+        "date": "2025-12-31 13:54:26",
+        "message": "feat: 更新 tgDiscover 频道列表，添加新频道并优化导入顺序"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512311223",
     "items": [
       {
@@ -119,23 +136,6 @@
         "author": "liurongjie",
         "date": "2025-12-29 22:05:36",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512292117",
-    "items": [
-      {
-        "commit": "98a4d4c47bf6d349d5f0e5f1bedb134ec5ea966b",
-        "author": "GateCross",
-        "date": "2025-12-29 16:48:46",
-        "message": "fix:优化版本更新判断逻辑"
-      },
-      {
-        "commit": "f97a357fb5d48b06d9a2e67e8a7c6bec12158040",
-        "author": "xylplm",
-        "date": "2025-12-28 16:13:59",
-        "message": "feat: 98签到 添加仅评论模式，允许用户在不执行签到的情况下进行评论"
       }
     ]
   }
