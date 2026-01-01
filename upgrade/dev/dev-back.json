@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601012254",
+    "items": [
+      {
+        "commit": "1ff883073638d0d67d736b317ce67b0f9fcb40f6",
+        "author": "GateCross",
+        "date": "2026-01-01 22:53:23",
+        "message": "fix:优化消息通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512311711",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "Jolc",
         "date": "2025-12-30 13:02:23",
         "message": "feat: message backdrop"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512292232",
-    "items": [
-      {
-        "commit": "969571a9e84bc8dee451a0a05bf1e0d72c46d5dc",
-        "author": "GateCross",
-        "date": "2025-12-29 22:31:11",
-        "message": "fix:添加hdhive签到日志"
       }
     ]
   }
