@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601040035",
+    "items": [
+      {
+        "commit": "637d0edcbf2f27fd64c485d760d0c1d5be06afa2",
+        "author": "Jolc",
+        "date": "2026-01-04 00:33:58",
+        "message": "feat: template card、subscribe tmdb media column"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601032351",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-01 22:53:23",
         "message": "fix:优化消息通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512311711",
-    "items": [
-      {
-        "commit": "989f413c8a965b351d8e5998e7767e113ae238cf",
-        "author": "GateCross",
-        "date": "2025-12-31 17:10:56",
-        "message": "fix:优化内置消息图片和分类"
       }
     ]
   }
