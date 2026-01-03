@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601031922",
+    "items": [
+      {
+        "commit": "ebe66eee0ef864b2430f5f80fae12c6a8b536183",
+        "author": "xylplm",
+        "date": "2026-01-03 18:37:26",
+        "message": "fix:修复站点资源页，搜索结果页的磁力链、分享链接、ed2k调用  以及链接复制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202512292117",
     "items": [
       {
@@ -275,17 +286,6 @@
         "author": "liurongjie",
         "date": "2025-12-26 23:21:00",
         "message": "fix(media-resource): 修复云下载功能并支持路径选择"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512262128",
-    "items": [
-      {
-        "commit": "475dc71ae5ea407176be88623121a4c342289a01",
-        "author": "GateCross",
-        "date": "2025-12-26 21:27:19",
-        "message": "fix:修复日志"
       }
     ]
   }

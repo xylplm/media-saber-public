@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601031922",
+    "items": [
+      {
+        "commit": "af36dad0696818140f794c5f4a4c42526a56333c",
+        "author": "GateCross",
+        "date": "2026-01-03 19:22:01",
+        "message": "fix:增加系统更新内置图片"
+      },
+      {
+        "commit": "b79802fd90ab5035588156d7fe8608240eea42f4",
+        "author": "GateCross",
+        "date": "2026-01-03 19:10:05",
+        "message": "fix:站点通知优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601022320",
     "items": [
       {
@@ -113,35 +130,6 @@
         "author": "Jolc",
         "date": "2025-12-30 13:34:15",
         "message": "fix: message backdrop"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512301323",
-    "items": [
-      {
-        "commit": "68dc663a85cf2d037475f68d9eccfbd39692150c",
-        "author": "Jolc",
-        "date": "2025-12-30 13:22:55",
-        "message": "fix: message backdrop"
-      },
-      {
-        "commit": "969571a9e84bc8dee451a0a05bf1e0d72c46d5dc",
-        "author": "GateCross",
-        "date": "2025-12-29 22:31:11",
-        "message": "fix:添加hdhive签到日志"
-      },
-      {
-        "commit": "8b5c3ba43bd7cab5ac48514cdd3feb6833fbce90",
-        "author": "liurongjie",
-        "date": "2025-12-29 22:05:36",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "98a4d4c47bf6d349d5f0e5f1bedb134ec5ea966b",
-        "author": "GateCross",
-        "date": "2025-12-29 16:48:46",
-        "message": "fix:优化版本更新判断逻辑"
       }
     ]
   }
