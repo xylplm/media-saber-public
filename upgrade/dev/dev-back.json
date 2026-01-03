@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601032042",
+    "items": [
+      {
+        "commit": "5e977b09ba0016943478d56977b1b271738ee746",
+        "author": "liurongjie",
+        "date": "2026-01-03 20:40:08",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "6a28b4b155fc5ffff9caf60436c195271f4bcec9",
+        "author": "liurongjie",
+        "date": "2026-01-03 20:18:45",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601031950",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "GateCross",
         "date": "2025-12-30 16:56:11",
         "message": "fix:优化插件信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512301358",
-    "items": [
-      {
-        "commit": "72b8fa2bad8f838d222d9fee97c71ab138624383",
-        "author": "GateCross",
-        "date": "2025-12-30 13:57:47",
-        "message": "fix:插件图片"
       }
     ]
   }
