@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601032324",
+    "items": [
+      {
+        "commit": "c170dc20a795e36353796854e96ab6a0488dfb9e",
+        "author": "GateCross",
+        "date": "2026-01-03 23:23:37",
+        "message": "fix:优化正在下载页面识别问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601032147",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2025-12-31 13:54:26",
         "message": "feat: 更新 tgDiscover 频道列表，添加新频道并优化导入顺序"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512311223",
-    "items": [
-      {
-        "commit": "cdd0fad29a67650754db5cea0430d97115aaf779",
-        "author": "GateCross",
-        "date": "2025-12-31 12:22:32",
-        "message": "fix:115签到信息合并"
       }
     ]
   }
