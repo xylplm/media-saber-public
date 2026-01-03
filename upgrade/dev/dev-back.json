@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601032147",
+    "items": [
+      {
+        "commit": "0d518034314b69b73d00a17ab7c3965db63df5f4",
+        "author": "liurongjie",
+        "date": "2026-01-03 21:46:47",
+        "message": "refactor: 优化通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601032121",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "GateCross",
         "date": "2025-12-31 12:22:32",
         "message": "fix:115签到信息合并"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512302135",
-    "items": [
-      {
-        "commit": "d038d9a2e21d2d49c2bab8fcb6ed49fb2541380c",
-        "author": "GateCross",
-        "date": "2025-12-30 21:34:35",
-        "message": "fix:调整图文消息图片优先级"
-      },
-      {
-        "commit": "09f5cf48bd5f4eb9da794b51079764eea57f8d70",
-        "author": "GateCross",
-        "date": "2025-12-30 17:29:16",
-        "message": "fix:invite"
       }
     ]
   }
