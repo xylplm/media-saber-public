@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601040045",
+    "items": [
+      {
+        "commit": "b7870b07264f6a98bfac436147226b94b23f364a",
+        "author": "Jolc",
+        "date": "2026-01-04 00:45:32",
+        "message": "fix: fill tmdb media"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601040035",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-01-02 15:57:57",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601012254",
-    "items": [
-      {
-        "commit": "1ff883073638d0d67d736b317ce67b0f9fcb40f6",
-        "author": "GateCross",
-        "date": "2026-01-01 22:53:23",
-        "message": "fix:优化消息通知"
       }
     ]
   }
