@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601031950",
+    "items": [
+      {
+        "commit": "056bb2ac1da6bd939f788b13701b5170cc8f4322",
+        "author": "GateCross",
+        "date": "2026-01-03 19:50:30",
+        "message": "fix:优化TMDB索引"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601031922",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "GateCross",
         "date": "2025-12-30 13:57:47",
         "message": "fix:插件图片"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512301334",
-    "items": [
-      {
-        "commit": "576f8e282d6652508f634f4f5ff6a3422c9c3ea8",
-        "author": "Jolc",
-        "date": "2025-12-30 13:34:15",
-        "message": "fix: message backdrop"
       }
     ]
   }
