@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601041112",
+    "items": [
+      {
+        "commit": "09387d45a084406c9d0ff704f26124f01a4f2b92",
+        "author": "GateCross",
+        "date": "2026-01-04 11:11:33",
+        "message": "fix:优化tmdb补全逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601040045",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "GateCross",
         "date": "2026-01-03 19:10:05",
         "message": "fix:站点通知优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601022320",
-    "items": [
-      {
-        "commit": "3fe535f5f108e4d2eacab409ea9291b96291821b",
-        "author": "GateCross",
-        "date": "2026-01-02 23:19:55",
-        "message": "fix:优化下载历史查询逻辑"
-      },
-      {
-        "commit": "49823002f568fab4129b411587a3a147f75f81c2",
-        "author": "liurongjie",
-        "date": "2026-01-02 15:57:57",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
