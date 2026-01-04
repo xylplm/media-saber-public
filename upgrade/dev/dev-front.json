@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601041309",
+    "items": [
+      {
+        "commit": "ac2e82cbbf719bf39a45f37578879f684c67c0f4",
+        "author": "liurongjie",
+        "date": "2026-01-04 12:52:44",
+        "message": "fix(cloud-storage): 修复转存无数据"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601032241",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "GateCross",
         "date": "2025-12-25 17:08:08",
         "message": "fix:优化订阅日志查询逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512271345",
-    "items": [
-      {
-        "commit": "478529dcc9a855077df1d954baf98650b0913e00",
-        "author": "liurongjie",
-        "date": "2025-12-26 23:21:00",
-        "message": "fix(media-resource): 修复云下载功能并支持路径选择"
       }
     ]
   }
