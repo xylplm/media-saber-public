@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601041504",
+    "items": [
+      {
+        "commit": "399ed29578b820545a9c84ee9e6937b596ba9f0e",
+        "author": "liurongjie",
+        "date": "2026-01-04 15:02:56",
+        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601041421",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-01-03 20:18:45",
         "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601031950",
-    "items": [
-      {
-        "commit": "056bb2ac1da6bd939f788b13701b5170cc8f4322",
-        "author": "GateCross",
-        "date": "2026-01-03 19:50:30",
-        "message": "fix:优化TMDB索引"
       }
     ]
   }
