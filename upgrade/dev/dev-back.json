@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601042128",
+    "items": [
+      {
+        "commit": "497e1fe530b1d3bd3d7acd16aecb531e52333efb",
+        "author": "xylplm",
+        "date": "2026-01-04 17:38:00",
+        "message": "fix: 修复初始化客户端时的超时设置单位为秒"
+      },
+      {
+        "commit": "cf052cea95de65772d91ff1d99e907d2eda89402",
+        "author": "xylplm",
+        "date": "2026-01-04 17:05:39",
+        "message": "fix: 修复mcp提供者网站链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601041504",
     "items": [
       {
@@ -94,23 +111,6 @@
         "commit": "5a8134e034468dbf16789d1313cef13c8804623d",
         "author": "liurongjie",
         "date": "2026-01-03 21:21:04",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601032042",
-    "items": [
-      {
-        "commit": "5e977b09ba0016943478d56977b1b271738ee746",
-        "author": "liurongjie",
-        "date": "2026-01-03 20:40:08",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "6a28b4b155fc5ffff9caf60436c195271f4bcec9",
-        "author": "liurongjie",
-        "date": "2026-01-03 20:18:45",
         "message": "refactor: 优化通知消息"
       }
     ]
