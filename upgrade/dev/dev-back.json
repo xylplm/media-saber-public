@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601041421",
+    "items": [
+      {
+        "commit": "7689a35600d693a34ea7a386f0f50c9eb1d88763",
+        "author": "liurongjie",
+        "date": "2026-01-04 14:19:33",
+        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601041112",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "GateCross",
         "date": "2026-01-03 19:50:30",
         "message": "fix:优化TMDB索引"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601031922",
-    "items": [
-      {
-        "commit": "af36dad0696818140f794c5f4a4c42526a56333c",
-        "author": "GateCross",
-        "date": "2026-01-03 19:22:01",
-        "message": "fix:增加系统更新内置图片"
-      },
-      {
-        "commit": "b79802fd90ab5035588156d7fe8608240eea42f4",
-        "author": "GateCross",
-        "date": "2026-01-03 19:10:05",
-        "message": "fix:站点通知优化"
       }
     ]
   }
