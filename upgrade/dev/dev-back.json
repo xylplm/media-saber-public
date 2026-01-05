@@ -1,5 +1,58 @@
 [
   {
+    "version": "DEV_202601051913",
+    "items": [
+      {
+        "commit": "07bf6930d3678d71fb59f8e5d854cd237e95ca3f",
+        "author": "Jolc",
+        "date": "2026-01-05 19:12:57",
+        "message": "fix: icon url"
+      },
+      {
+        "commit": "e7d34ccd7b7645717bae0491304d5c5d7f1db50c",
+        "author": "Jolc",
+        "date": "2026-01-05 14:04:33",
+        "message": "feat: 订阅精选推荐增加豆瓣榜单、增加忽略操作。"
+      },
+      {
+        "commit": "70f0f1bed1b8ef35d5dd6a284ba77f8590a3ffdf",
+        "author": "xylplm",
+        "date": "2026-01-05 12:28:30",
+        "message": "feat: 标准化ChatCompletion聊天OpenAI Api响应结构，增强错误处理和流式支持"
+      },
+      {
+        "commit": "5fc1dc975bbf35cd4d514da8fb78bbefbb65a004",
+        "author": "Jolc",
+        "date": "2026-01-05 11:39:55",
+        "message": "feat: 订阅精选推荐插件"
+      },
+      {
+        "commit": "c7bb4bd2df59da16579c886cda714081bc79481b",
+        "author": "xylplm",
+        "date": "2026-01-05 10:59:15",
+        "message": "feat: 优化消息内容提取逻辑，优先使用 ReasoningContent"
+      },
+      {
+        "commit": "e6aaa2c93c8ac7bf90f12ae54bc731ef0c2998c7",
+        "author": "xylplm",
+        "date": "2026-01-05 10:27:36",
+        "message": "Refactor GetServerLogic to use JSON Schema for tool parameters"
+      },
+      {
+        "commit": "497e1fe530b1d3bd3d7acd16aecb531e52333efb",
+        "author": "xylplm",
+        "date": "2026-01-04 17:38:00",
+        "message": "fix: 修复初始化客户端时的超时设置单位为秒"
+      },
+      {
+        "commit": "cf052cea95de65772d91ff1d99e907d2eda89402",
+        "author": "xylplm",
+        "date": "2026-01-04 17:05:39",
+        "message": "fix: 修复mcp提供者网站链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601051821",
     "items": [
       {
@@ -173,17 +226,6 @@
         "author": "Jolc",
         "date": "2026-01-04 00:45:32",
         "message": "fix: fill tmdb media"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601040035",
-    "items": [
-      {
-        "commit": "637d0edcbf2f27fd64c485d760d0c1d5be06afa2",
-        "author": "Jolc",
-        "date": "2026-01-04 00:33:58",
-        "message": "feat: template card、subscribe tmdb media column"
       }
     ]
   }
