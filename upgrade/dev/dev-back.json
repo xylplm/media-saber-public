@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601052308",
+    "items": [
+      {
+        "commit": "7ef5ed73726a794e176857d8021292a596d1551a",
+        "author": "Jolc",
+        "date": "2026-01-05 23:08:33",
+        "message": "fix: 修复目录树问题。"
+      },
+      {
+        "commit": "2ecb49bde8c2b1b492b02c1bbbaf84c545dd235a",
+        "author": "xylplm",
+        "date": "2026-01-05 22:52:26",
+        "message": "chore: 移除 goctl 版本注释，简化代码结构"
+      },
+      {
+        "commit": "63052f3dde23878727d53c001228da221383757c",
+        "author": "xylplm",
+        "date": "2026-01-05 22:51:05",
+        "message": "Revert \"feat: 标准化ChatCompletion聊天OpenAI Api响应结构，增强错误处理和流式支持\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202601051913",
     "items": [
       {
@@ -215,17 +238,6 @@
         "author": "GateCross",
         "date": "2026-01-04 11:11:33",
         "message": "fix:优化tmdb补全逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601040045",
-    "items": [
-      {
-        "commit": "b7870b07264f6a98bfac436147226b94b23f364a",
-        "author": "Jolc",
-        "date": "2026-01-04 00:45:32",
-        "message": "fix: fill tmdb media"
       }
     ]
   }
