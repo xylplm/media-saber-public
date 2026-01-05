@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601060057",
+    "items": [
+      {
+        "commit": "5d22d37a0722efe2a908f0b80e07f6641ebd19b8",
+        "author": "xylplm",
+        "date": "2026-01-06 00:56:18",
+        "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601052308",
     "items": [
       {
@@ -227,17 +238,6 @@
         "author": "liurongjie",
         "date": "2026-01-04 14:19:33",
         "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601041112",
-    "items": [
-      {
-        "commit": "09387d45a084406c9d0ff704f26124f01a4f2b92",
-        "author": "GateCross",
-        "date": "2026-01-04 11:11:33",
-        "message": "fix:优化tmdb补全逻辑"
       }
     ]
   }
