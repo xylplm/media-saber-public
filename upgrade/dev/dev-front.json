@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202601051821",
+    "items": [
+      {
+        "commit": "201217d0c2231267af3f91b8213ad100813a8329",
+        "author": "xylplm",
+        "date": "2026-01-05 17:27:16",
+        "message": "feat: 添加 ngx-owl-carousel-o 依赖"
+      },
+      {
+        "commit": "5afcda9864455992557aa9d40253820484106ba8",
+        "author": "Jolc",
+        "date": "2026-01-05 16:45:23",
+        "message": "feat: 订阅精选推荐 icon"
+      },
+      {
+        "commit": "fecefe4eb95c41e81c2535161f29ba626b22cd47",
+        "author": "xylplm",
+        "date": "2026-01-05 15:51:52",
+        "message": "feat: 更换swiper轮播图组件为ngx-owl-carousel-o"
+      },
+      {
+        "commit": "03a9c040a72d3bdc139c27494994bfb6aed3131f",
+        "author": "xylplm",
+        "date": "2026-01-05 15:27:55",
+        "message": "feat: 添加 ngx-owl-carousel-o 组件及样式，替换媒体列表为轮播图展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601051404",
     "items": [
       {
@@ -113,29 +142,6 @@
         "author": "GateCross",
         "date": "2025-12-29 14:18:31",
         "message": "fix:优化按钮显示效果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512282011",
-    "items": [
-      {
-        "commit": "3519f25f8a4fd1dbeb8f01089339f12c1bd2280f",
-        "author": "xylplm",
-        "date": "2025-12-28 16:29:08",
-        "message": "fix: 修改媒体库展示样式，调整列宽以优化布局"
-      },
-      {
-        "commit": "ef60557a3acecb3a74031a3dffc756ab55dd3a0b",
-        "author": "xylplm",
-        "date": "2025-12-28 16:27:01",
-        "message": "fix: 调整“时光热搜”标题样式，修改字体大小和边距"
-      },
-      {
-        "commit": "e6342eae26df4af9b4e83d4af5d64fd9acbf1863",
-        "author": "xylplm",
-        "date": "2025-12-28 16:25:36",
-        "message": "fix: 站点统计 动效支持0显示，分享率为 0时显示为无限"
       }
     ]
   }

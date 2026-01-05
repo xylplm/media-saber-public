@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601051821",
+    "items": [
+      {
+        "commit": "0f5687b58d708a5a063603cf6349c0bf3dc92f76",
+        "author": "liurongjie",
+        "date": "2026-01-05 14:07:39",
+        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601051408",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "Jolc",
         "date": "2026-01-04 00:33:58",
         "message": "feat: template card、subscribe tmdb media column"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601032351",
-    "items": [
-      {
-        "commit": "ff43615b69da61eacd94c7655de71adad8565364",
-        "author": "liurongjie",
-        "date": "2026-01-03 23:42:12",
-        "message": "refactor: 优化通知消息"
       }
     ]
   }
