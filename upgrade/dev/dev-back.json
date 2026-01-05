@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601051143",
+    "items": [
+      {
+        "commit": "5fc1dc975bbf35cd4d514da8fb78bbefbb65a004",
+        "author": "Jolc",
+        "date": "2026-01-05 11:39:55",
+        "message": "feat: 订阅精选推荐插件"
+      },
+      {
+        "commit": "c7bb4bd2df59da16579c886cda714081bc79481b",
+        "author": "xylplm",
+        "date": "2026-01-05 10:59:15",
+        "message": "feat: 优化消息内容提取逻辑，优先使用 ReasoningContent"
+      },
+      {
+        "commit": "e6aaa2c93c8ac7bf90f12ae54bc731ef0c2998c7",
+        "author": "xylplm",
+        "date": "2026-01-05 10:27:36",
+        "message": "Refactor GetServerLogic to use JSON Schema for tool parameters"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601042128",
     "items": [
       {
@@ -100,17 +123,6 @@
         "commit": "0d518034314b69b73d00a17ab7c3965db63df5f4",
         "author": "liurongjie",
         "date": "2026-01-03 21:46:47",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601032121",
-    "items": [
-      {
-        "commit": "5a8134e034468dbf16789d1313cef13c8804623d",
-        "author": "liurongjie",
-        "date": "2026-01-03 21:21:04",
         "message": "refactor: 优化通知消息"
       }
     ]
