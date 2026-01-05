@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601051404",
+    "items": [
+      {
+        "commit": "ecc8b9924b64ca3b2c082c33882ba03fee64df7a",
+        "author": "xylplm",
+        "date": "2026-01-05 13:02:17",
+        "message": "fix: 更新消息内容格式化方法，确保返回 SafeHtml 类型以增强安全性"
+      },
+      {
+        "commit": "ddab7ddb5e5438001c8806ae09e7fb83912ef54f",
+        "author": "xylplm",
+        "date": "2026-01-05 12:59:30",
+        "message": "fix: 更新依赖项版本，提升项目稳定性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601051143",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "xylplm",
         "date": "2025-12-28 16:25:36",
         "message": "fix: 站点统计 动效支持0显示，分享率为 0时显示为无限"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512272024",
-    "items": [
-      {
-        "commit": "409d0dec4e76e09d08f96d3ae0bd09ae1c6316be",
-        "author": "GateCross",
-        "date": "2025-12-27 20:23:47",
-        "message": "fix:修复手机端适配"
       }
     ]
   }
