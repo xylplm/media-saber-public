@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202601071021",
+    "items": [
+      {
+        "commit": "7f488e3604f01a4e34a9d3342bf2aa50e38d33f5",
+        "author": "xylplm",
+        "date": "2026-01-07 10:20:44",
+        "message": "fix: 模态框底部样式"
+      },
+      {
+        "commit": "74631d26bb61febec8d86520a968103c88ff89ca",
+        "author": "xylplm",
+        "date": "2026-01-07 10:15:49",
+        "message": "fix: 调整网格间距和按钮布局样式"
+      },
+      {
+        "commit": "38b8e5c5b30b067b9eb338a8dfc732fc44f99a90",
+        "author": "xylplm",
+        "date": "2026-01-07 10:03:51",
+        "message": "fix: 调整存储项图标样式和操作按钮布局"
+      },
+      {
+        "commit": "5748252827f749055942561aa6005b5066c18917",
+        "author": "xylplm",
+        "date": "2026-01-07 09:54:45",
+        "message": "fix: 移除冗余的图标样式和调整相关组件的样式"
+      },
+      {
+        "commit": "b9b3d1ddaa0acd278dd2b4e5e91450f8669e8654",
+        "author": "xylplm",
+        "date": "2026-01-07 09:46:58",
+        "message": "fix: 移除冗余按钮图标样式"
+      },
+      {
+        "commit": "5e475dbf2c7271d8048a3124b7b4b72f6008b036",
+        "author": "xylplm",
+        "date": "2026-01-07 09:44:04",
+        "message": "fix: 按钮样式调整"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601070929",
     "items": [
       {
@@ -407,17 +448,6 @@
         "author": "xylplm",
         "date": "2026-01-03 18:37:26",
         "message": "fix:修复站点资源页，搜索结果页的磁力链、分享链接、ed2k调用  以及链接复制"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512292117",
-    "items": [
-      {
-        "commit": "e744f49750474d135e5ae6126ba50d459ed236fe",
-        "author": "GateCross",
-        "date": "2025-12-29 21:16:29",
-        "message": "fix:删除系统设置自动更新"
       }
     ]
   }
