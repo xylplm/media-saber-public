@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601071751",
+    "items": [
+      {
+        "commit": "0ce093874e88f734c6ec7c1448b0bb37de9681e5",
+        "author": "xylplm",
+        "date": "2026-01-07 17:46:00",
+        "message": "fix(module): 添加 TransferModule 以支持文件传输功能"
+      },
+      {
+        "commit": "cbf06c1b1309598c00c4e1635a7f3db7042e5e45",
+        "author": "xylplm",
+        "date": "2026-01-07 17:45:52",
+        "message": "fix: 修复布局类名，移除多余的网格类"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071733",
     "items": [
       {
@@ -545,23 +562,6 @@
         "author": "xylplm",
         "date": "2026-01-05 12:59:30",
         "message": "fix: 更新依赖项版本，提升项目稳定性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601051143",
-    "items": [
-      {
-        "commit": "664e10ad47491659c17c81129c95fd143c646331",
-        "author": "xylplm",
-        "date": "2026-01-05 11:34:28",
-        "message": "fix: 增加AI智能体 错误消息处理，优化流式消息显示"
-      },
-      {
-        "commit": "b2a95b6153d6f0dd98a7b930b432186ff0fd5b3d",
-        "author": "xylplm",
-        "date": "2026-01-05 10:26:59",
-        "message": "fix: 增加流式请求的最大令牌数至8096"
       }
     ]
   }
