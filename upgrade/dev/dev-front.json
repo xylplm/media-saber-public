@@ -1,5 +1,58 @@
 [
   {
+    "version": "DEV_202601071543",
+    "items": [
+      {
+        "commit": "982aff548f3d979b8d35d44e4ce9ed8d83b7e235",
+        "author": "liurongjie",
+        "date": "2026-01-07 15:40:43",
+        "message": "style(cloud-storage): 优化任务卡片样式和布局"
+      },
+      {
+        "commit": "3f53f1239f5c7fb52286391c63a36d781d4d5759",
+        "author": "liurongjie",
+        "date": "2026-01-07 14:32:47",
+        "message": "style(cloud-storage): 调整表单布局间距和样式"
+      },
+      {
+        "commit": "b777740398804668dc0771d402ac3cafeefe0b3b",
+        "author": "xylplm",
+        "date": "2026-01-07 14:25:42",
+        "message": "fix: 移除站点配置URL字段的必填验证"
+      },
+      {
+        "commit": "3cc0bcb5d1faa498aa4c9bbe071d2985518122a6",
+        "author": "liurongjie",
+        "date": "2026-01-07 14:24:43",
+        "message": "style(ui): 优化云存储模块和动态表单布局样式"
+      },
+      {
+        "commit": "bdafe75d70d04c26d6f872cea6468d80d1480e79",
+        "author": "xylplm",
+        "date": "2026-01-07 14:20:58",
+        "message": "fix: 在获取Cookie成功后标记表单字段为脏"
+      },
+      {
+        "commit": "2b9ff21ca6b455240c27573d63a127ec4a545dc0",
+        "author": "GateCross",
+        "date": "2026-01-07 13:51:33",
+        "message": "fix:已完成任务"
+      },
+      {
+        "commit": "e19aa7e4ce8f32160ac2bae3d1dd98ec3233e2bd",
+        "author": "xylplm",
+        "date": "2026-01-07 13:44:17",
+        "message": "fix: 添加站点配置缺失提示对话框"
+      },
+      {
+        "commit": "dcbee054be5745a69d58a268f8380ca426b8b874",
+        "author": "xylplm",
+        "date": "2026-01-07 13:17:28",
+        "message": "fix: mcp清理冗余代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071237",
     "items": [
       {
@@ -479,17 +532,6 @@
         "author": "liurongjie",
         "date": "2026-01-03 22:22:41",
         "message": "fix(media-tidy): 修复TMDB搜索交互及请求加载问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601031950",
-    "items": [
-      {
-        "commit": "3b2797a082d1ecc6968ce739f0d2047f5d3a54d5",
-        "author": "xylplm",
-        "date": "2026-01-03 19:34:03",
-        "message": "fix: 优化 合并 种子下载、种子文件下载，标题复制、链接复制等到公共服务"
       }
     ]
   }

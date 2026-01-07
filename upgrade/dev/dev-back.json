@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601071543",
+    "items": [
+      {
+        "commit": "43f231c3bba4b96de88cbdcf3745df7a5ed4220d",
+        "author": "xylplm",
+        "date": "2026-01-06 22:10:31",
+        "message": "fix: 删除2.X版本站点导入功能 相关api"
+      },
+      {
+        "commit": "5d22d37a0722efe2a908f0b80e07f6641ebd19b8",
+        "author": "xylplm",
+        "date": "2026-01-06 00:56:18",
+        "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071237",
     "items": [
       {
@@ -215,29 +232,6 @@
         "author": "xylplm",
         "date": "2026-01-05 12:28:30",
         "message": "feat: 标准化ChatCompletion聊天OpenAI Api响应结构，增强错误处理和流式支持"
-      },
-      {
-        "commit": "c7bb4bd2df59da16579c886cda714081bc79481b",
-        "author": "xylplm",
-        "date": "2026-01-05 10:59:15",
-        "message": "feat: 优化消息内容提取逻辑，优先使用 ReasoningContent"
-      },
-      {
-        "commit": "e6aaa2c93c8ac7bf90f12ae54bc731ef0c2998c7",
-        "author": "xylplm",
-        "date": "2026-01-05 10:27:36",
-        "message": "Refactor GetServerLogic to use JSON Schema for tool parameters"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601051143",
-    "items": [
-      {
-        "commit": "5fc1dc975bbf35cd4d514da8fb78bbefbb65a004",
-        "author": "Jolc",
-        "date": "2026-01-05 11:39:55",
-        "message": "feat: 订阅精选推荐插件"
       },
       {
         "commit": "c7bb4bd2df59da16579c886cda714081bc79481b",
