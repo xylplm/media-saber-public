@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601071640",
+    "items": [
+      {
+        "commit": "f308d90bfc79150abe9d1ee0f1eaa0980e180d0d",
+        "author": "liurongjie",
+        "date": "2026-01-07 16:39:41",
+        "message": "fix(ui): 修正复制按钮位置使其显示正常"
+      },
+      {
+        "commit": "a92ef53c49e835519d53b57c77047cfd7f914c0c",
+        "author": "GateCross",
+        "date": "2026-01-07 16:24:01",
+        "message": "fix:优化日志字体颜色"
+      },
+      {
+        "commit": "a1f46250e1889da845ef271ceb3bbc96f192f6b3",
+        "author": "GateCross",
+        "date": "2026-01-07 16:18:02",
+        "message": "refactor: 优化个人页面布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071624",
     "items": [
       {
@@ -527,17 +550,6 @@
         "author": "xylplm",
         "date": "2026-01-04 21:28:26",
         "message": "fix: 修复分享链接转存链接不存在的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601041309",
-    "items": [
-      {
-        "commit": "ac2e82cbbf719bf39a45f37578879f684c67c0f4",
-        "author": "liurongjie",
-        "date": "2026-01-04 12:52:44",
-        "message": "fix(cloud-storage): 修复转存无数据"
       }
     ]
   }
