@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601070929",
+    "items": [
+      {
+        "commit": "491513a0544f5ff05f6422f7340243d821f481b7",
+        "author": "Jolc",
+        "date": "2026-01-07 09:29:17",
+        "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
+      },
+      {
+        "commit": "43f231c3bba4b96de88cbdcf3745df7a5ed4220d",
+        "author": "xylplm",
+        "date": "2026-01-06 22:10:31",
+        "message": "fix: 删除2.X版本站点导入功能 相关api"
+      },
+      {
+        "commit": "7ef5ed73726a794e176857d8021292a596d1551a",
+        "author": "Jolc",
+        "date": "2026-01-05 23:08:33",
+        "message": "fix: 修复目录树问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601060057",
     "items": [
       {
@@ -226,17 +249,6 @@
         "commit": "399ed29578b820545a9c84ee9e6937b596ba9f0e",
         "author": "liurongjie",
         "date": "2026-01-04 15:02:56",
-        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601041421",
-    "items": [
-      {
-        "commit": "7689a35600d693a34ea7a386f0f50c9eb1d88763",
-        "author": "liurongjie",
-        "date": "2026-01-04 14:19:33",
         "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
       }
     ]

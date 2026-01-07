@@ -1,5 +1,292 @@
 [
   {
+    "version": "DEV_202601070929",
+    "items": [
+      {
+        "commit": "e101ef42989ce9b3a7c9f8f2c9b5a1fde3633fd2",
+        "author": "xylplm",
+        "date": "2026-01-07 09:33:38",
+        "message": "fix: 优化icon 图标大小"
+      },
+      {
+        "commit": "e385e74f2da4b863013559d32c7ec519e8abe9fe",
+        "author": "xylplm",
+        "date": "2026-01-07 00:27:08",
+        "message": "style(profile-dropdown): 调整头像图标的样式以优化显示"
+      },
+      {
+        "commit": "a14e90a136e6066e89f2f0842a57ae771f2d78c7",
+        "author": "liurongjie",
+        "date": "2026-01-07 00:24:43",
+        "message": "style(file-list): 优化文件列表布局样式和结构"
+      },
+      {
+        "commit": "c625a2d88a7cb14bb4f3d57714c95a0e761e16bb",
+        "author": "xylplm",
+        "date": "2026-01-07 00:23:28",
+        "message": "style: 调整多个组件中图标的大小样式"
+      },
+      {
+        "commit": "a1396b5cb3be9a61605c171775735572c31c3232",
+        "author": "xylplm",
+        "date": "2026-01-07 00:18:04",
+        "message": "style: 调整多个组件中无搜索结果图标的大小样式"
+      },
+      {
+        "commit": "baea2f5555706a2ccd470c469c8d3fdd7ddda13b",
+        "author": "xylplm",
+        "date": "2026-01-07 00:16:35",
+        "message": "style(widget-site-statistics-today): 调整无统计数据图标的大小样式"
+      },
+      {
+        "commit": "7cbc798d6bcf2e2a9b93b606215410d7cb0a44af",
+        "author": "liurongjie",
+        "date": "2026-01-06 23:51:24",
+        "message": "style(site-source-result): 优化布局间距和按钮位置"
+      },
+      {
+        "commit": "2788922dae4b7781bcbd2e5151d6084d75424af8",
+        "author": "xylplm",
+        "date": "2026-01-06 23:51:03",
+        "message": "fix: 移除未使用的图标，优化按钮样式和对齐"
+      },
+      {
+        "commit": "9d47ea6553f734b853b767fbf0cca235f8dee21f",
+        "author": "liurongjie",
+        "date": "2026-01-06 23:45:03",
+        "message": "style(ui): 优化多处flex布局样式命名"
+      },
+      {
+        "commit": "f0aac5a8988fd05adb81854d880a4e7fbdef41aa",
+        "author": "xylplm",
+        "date": "2026-01-06 23:17:21",
+        "message": "chore: update dependencies and replace jasmine with vitest for testing"
+      },
+      {
+        "commit": "3e81420d6a8537b53a0509283776bd70a4a19693",
+        "author": "liurongjie",
+        "date": "2026-01-06 23:05:30",
+        "message": "style(site-statistics): 调整统计卡片间距和底部边距"
+      },
+      {
+        "commit": "29bc2dc24e4bd4f7345a853548d8eb8104f1e3d8",
+        "author": "xylplm",
+        "date": "2026-01-06 22:47:05",
+        "message": "fix: 更新登录和错误页面布局，优化样式以提升可用性"
+      },
+      {
+        "commit": "dad4ad4d79ed7a70ec9984aee1220e72e9b89966",
+        "author": "xylplm",
+        "date": "2026-01-06 22:06:27",
+        "message": "fix: 删除2.X版本站点导入功能"
+      },
+      {
+        "commit": "4c29fe725d0a57d7820bc6f5822ffeea80aa0de3",
+        "author": "liurongjie",
+        "date": "2026-01-06 21:41:08",
+        "message": "fix(search): 修正搜索结果卡片样式"
+      },
+      {
+        "commit": "a032ef7228878c0464fea8f04342e2c30d2acf70",
+        "author": "xylplm",
+        "date": "2026-01-06 19:12:17",
+        "message": "fix: 优化按钮图标对齐，调整样式以提升可用性"
+      },
+      {
+        "commit": "8ffde01219722e0f8f108e8c6d6dd86d49c4719c",
+        "author": "xylplm",
+        "date": "2026-01-06 19:05:56",
+        "message": "fix: 更新面包屑和样式以使用变量颜色，优化布局"
+      },
+      {
+        "commit": "3df35fc57d3ae69559f8d8ceded7dd8f3f79587f",
+        "author": "xylplm",
+        "date": "2026-01-06 18:54:52",
+        "message": "fix: grid列数批量由24转换为12"
+      },
+      {
+        "commit": "8a346e56fb77a9bb8d130cb0402bf9e7a37b4117",
+        "author": "xylplm",
+        "date": "2026-01-06 18:47:49",
+        "message": "fix: 优化面包屑和媒体库组件的布局，调整类名以符合设计规范"
+      },
+      {
+        "commit": "109928cc3939958ba06868d93d9d1a3d01229813",
+        "author": "liurongjie",
+        "date": "2026-01-06 18:17:12",
+        "message": "style(media-server): 优化媒体库布局适配不同屏幕尺寸"
+      },
+      {
+        "commit": "3503da3af290f35eb06d4a14f0712dac1cb12de0",
+        "author": "xylplm",
+        "date": "2026-01-06 16:17:27",
+        "message": "fix: 调整组件样式以符合设计规范，优化布局和类名"
+      },
+      {
+        "commit": "1910451101e7621cf9c2d76651a5d650a09f2b15",
+        "author": "xylplm",
+        "date": "2026-01-06 16:17:19",
+        "message": "feat: 添加 IconSunHigh 和 IconMoon 到手动导入图标列表"
+      },
+      {
+        "commit": "3cd9469c754243d07f29184720f71fdf6415f084",
+        "author": "xylplm",
+        "date": "2026-01-06 15:34:35",
+        "message": "fix: 更新依赖项版本以提高兼容性和性能"
+      },
+      {
+        "commit": "722cc64ea6125261256a468ffb3a1ef8b2d79850",
+        "author": "xylplm",
+        "date": "2026-01-06 15:12:24",
+        "message": "fix: 调整版本更新对话框的样式以符合Tailwind CSS标准"
+      },
+      {
+        "commit": "32e453410eac3569e7190f90c5b9d5a99e7b5ac8",
+        "author": "xylplm",
+        "date": "2026-01-06 15:07:41",
+        "message": "fix: 修复组件样式，调整类名以符合Tailwind CSS标准"
+      },
+      {
+        "commit": "653402ab5aa857bff3743dc3fc57ce5ba93571ba",
+        "author": "xylplm",
+        "date": "2026-01-06 14:59:03",
+        "message": "refactor: 将全局样式文件从 CSS 转换为 SCSS，并更新样式引入"
+      },
+      {
+        "commit": "c6d133d97343d29d60e243ee9ff74673a16540b2",
+        "author": "xylplm",
+        "date": "2026-01-06 14:41:05",
+        "message": "fix: 调整多个组件的间距和样式以符合 Tailwind CSS 标准"
+      },
+      {
+        "commit": "249cfa1788e30f849c27de3bc088d548fd51ca8d",
+        "author": "xylplm",
+        "date": "2026-01-06 14:32:38",
+        "message": "feat: 统一html样式使用Tailwind CSS类库，并提供颜色定义参考"
+      },
+      {
+        "commit": "6aeb9ef5e4c624f1754292d5bb8d87a2a6f228b9",
+        "author": "xylplm",
+        "date": "2026-01-06 14:28:34",
+        "message": "fix: 调整消息列表加载状态的网格布局以符合 Tailwind CSS 标准"
+      },
+      {
+        "commit": "faec159d095b165d10335fd80b551ae28f7aaa10",
+        "author": "xylplm",
+        "date": "2026-01-06 14:25:49",
+        "message": "refactor: update layout and styling across various components"
+      },
+      {
+        "commit": "5d14b25943a9debda32e193180b89872fa422e8c",
+        "author": "xylplm",
+        "date": "2026-01-06 13:30:39",
+        "message": "fix: 更新 owl-carousel 按钮样式以使用主色调并调整背景图标"
+      },
+      {
+        "commit": "7a6c5d43564d57c76cabf8b6b565df650bd728ca",
+        "author": "xylplm",
+        "date": "2026-01-06 13:24:26",
+        "message": "fix: 修正统计数据组件的网格布局以符合 Tailwind CSS 标准"
+      },
+      {
+        "commit": "b720bc9196d5282cf76c6080227539ffeb3d74ee",
+        "author": "xylplm",
+        "date": "2026-01-06 13:14:05",
+        "message": "refactor: reduce padding in various components for improved layout consistency"
+      },
+      {
+        "commit": "5ef65801bd9e855dfdd19d3d63250c1d31d0842c",
+        "author": "xylplm",
+        "date": "2026-01-06 12:24:08",
+        "message": "fix: 为多个组件的图像添加 mx-auto 类以实现居中对齐"
+      },
+      {
+        "commit": "04dfa25bc709aa24bc46d282054b137b7c8d0afc",
+        "author": "xylplm",
+        "date": "2026-01-06 12:17:34",
+        "message": "fix: update mat-card-content classes to include ! for padding adjustments across multiple components"
+      },
+      {
+        "commit": "ac7e8136e1786a6c480b9db12f6ab33ef1845e89",
+        "author": "xylplm",
+        "date": "2026-01-06 11:27:05",
+        "message": "refactor: 统一多个组件的内边距类为 Tailwind CSS 标准值"
+      },
+      {
+        "commit": "f515960a58ce62520dabb880c79ac33230d8647c",
+        "author": "xylplm",
+        "date": "2026-01-06 11:21:47",
+        "message": "fix: 清除冗余样式定义"
+      },
+      {
+        "commit": "708160e54f69cd04b9b61b2aabb5d91ac88e0ace",
+        "author": "xylplm",
+        "date": "2026-01-06 11:21:29",
+        "message": "fix: grid转换"
+      },
+      {
+        "commit": "1164491b2aebc06dece3773612ac722e40650ab2",
+        "author": "xylplm",
+        "date": "2026-01-06 09:56:23",
+        "message": "refactor: 添加 2K 和 4K 屏幕的断点变量"
+      },
+      {
+        "commit": "5067cd044309309b597f55ff898c22032a551f92",
+        "author": "xylplm",
+        "date": "2026-01-05 18:42:54",
+        "message": "refactor: 更新多个组件的间距类，统一为 Tailwind CSS 标准值"
+      },
+      {
+        "commit": "d9be3d5cf49f999e366ad17903d0a816936ad332",
+        "author": "xylplm",
+        "date": "2026-01-05 18:28:17",
+        "message": "refactor: 外边距和内边距类迁移 (m-*, p-*)"
+      },
+      {
+        "commit": "f8f50439377a3388da32425d4c188b8c9c9477f4",
+        "author": "xylplm",
+        "date": "2026-01-05 18:06:56",
+        "message": "refactor: update class names for alignment consistency across components"
+      },
+      {
+        "commit": "ce83181fd589e365676a10e8571df734c30d7ec4",
+        "author": "xylplm",
+        "date": "2026-01-05 18:00:27",
+        "message": "refactor: 将多个组件中的 'b-b-1' 类名更新为 'border-b' 以统一样式"
+      },
+      {
+        "commit": "de9e4225ca2bdc79b60c8bdee35192a69fccfc8b",
+        "author": "xylplm",
+        "date": "2026-01-05 17:55:16",
+        "message": "refactor: 将所有 ng-scrollbar 组件的类名从 'position-relative' 更新为 'relative'"
+      },
+      {
+        "commit": "945c43dffa2022e8b707c3df690af99c94a99299",
+        "author": "xylplm",
+        "date": "2026-01-05 17:52:13",
+        "message": "refactor: 更新组件样式，调整图标尺寸和高度定义，迁移至 Tailwind CSS"
+      },
+      {
+        "commit": "e61bb64f564a79ca39b4b8c7a78bcd7ff925186e",
+        "author": "xylplm",
+        "date": "2026-01-05 17:48:19",
+        "message": "refactor: update HTML structure to use 'flex' utility classes for consistent alignment"
+      },
+      {
+        "commit": "8d72e7932e4f177199ba57bf310031888d5f486c",
+        "author": "xylplm",
+        "date": "2026-01-05 17:45:29",
+        "message": "refactor: update typography styles across various components"
+      },
+      {
+        "commit": "4320f1a17c47e054a5c9251bba624d875728b621",
+        "author": "xylplm",
+        "date": "2026-01-05 17:26:41",
+        "message": "feat: migrate to Tailwind CSS and update styles"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601051821",
     "items": [
       {
@@ -131,17 +418,6 @@
         "author": "GateCross",
         "date": "2025-12-29 21:16:29",
         "message": "fix:删除系统设置自动更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512291438",
-    "items": [
-      {
-        "commit": "af00110c421b36e39b3ce20ef5df2184a7042706",
-        "author": "GateCross",
-        "date": "2025-12-29 14:18:31",
-        "message": "fix:优化按钮显示效果"
       }
     ]
   }
