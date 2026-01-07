@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202601072235",
+    "items": [
+      {
+        "commit": "dffe0c733d5a43e2df664c97fd8732cc0c50c331",
+        "author": "liurongjie",
+        "date": "2026-01-07 22:37:27",
+        "message": "fix(rss): 修复rss-movie和rss-tv组件标签渲染与样式问题"
+      },
+      {
+        "commit": "056cba4fdb1803c595ba5b3d99129a895ab88d77",
+        "author": "GateCross",
+        "date": "2026-01-07 22:35:02",
+        "message": "fix:订阅日历修复"
+      },
+      {
+        "commit": "c5f216188d5677b077b664a632950869ab96fab7",
+        "author": "GateCross",
+        "date": "2026-01-07 22:25:55",
+        "message": "fix:目录分类布局"
+      },
+      {
+        "commit": "0135ad1637117b4e1d8ecd81d37852802706ed24",
+        "author": "GateCross",
+        "date": "2026-01-07 21:44:57",
+        "message": "fix:优化下载器布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601072145",
     "items": [
       {
@@ -545,35 +574,6 @@
         "author": "xylplm",
         "date": "2026-01-05 17:26:41",
         "message": "feat: migrate to Tailwind CSS and update styles"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601051821",
-    "items": [
-      {
-        "commit": "201217d0c2231267af3f91b8213ad100813a8329",
-        "author": "xylplm",
-        "date": "2026-01-05 17:27:16",
-        "message": "feat: 添加 ngx-owl-carousel-o 依赖"
-      },
-      {
-        "commit": "5afcda9864455992557aa9d40253820484106ba8",
-        "author": "Jolc",
-        "date": "2026-01-05 16:45:23",
-        "message": "feat: 订阅精选推荐 icon"
-      },
-      {
-        "commit": "fecefe4eb95c41e81c2535161f29ba626b22cd47",
-        "author": "xylplm",
-        "date": "2026-01-05 15:51:52",
-        "message": "feat: 更换swiper轮播图组件为ngx-owl-carousel-o"
-      },
-      {
-        "commit": "03a9c040a72d3bdc139c27494994bfb6aed3131f",
-        "author": "xylplm",
-        "date": "2026-01-05 15:27:55",
-        "message": "feat: 添加 ngx-owl-carousel-o 组件及样式，替换媒体列表为轮播图展示"
       }
     ]
   }
