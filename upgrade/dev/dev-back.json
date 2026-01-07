@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601071733",
+    "items": [
+      {
+        "commit": "491513a0544f5ff05f6422f7340243d821f481b7",
+        "author": "Jolc",
+        "date": "2026-01-07 09:29:17",
+        "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071640",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "xylplm",
         "date": "2026-01-04 17:05:39",
         "message": "fix: 修复mcp提供者网站链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601051821",
-    "items": [
-      {
-        "commit": "0f5687b58d708a5a063603cf6349c0bf3dc92f76",
-        "author": "liurongjie",
-        "date": "2026-01-05 14:07:39",
-        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
       }
     ]
   }

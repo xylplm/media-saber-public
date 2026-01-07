@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601071733",
+    "items": [
+      {
+        "commit": "37a7a1acc465305cf2cb7e3b49c0202bc07686a8",
+        "author": "liurongjie",
+        "date": "2026-01-07 17:32:55",
+        "message": "style(ai-chat): 删除模型选择框宽度限制"
+      },
+      {
+        "commit": "750f452a5400862381a7c996a7773a73480913a2",
+        "author": "xylplm",
+        "date": "2026-01-07 17:25:37",
+        "message": "fix:  gap-6 to gap-x-6"
+      },
+      {
+        "commit": "64004edd7696250d49649162aa67c9af086c6969",
+        "author": "liurongjie",
+        "date": "2026-01-07 17:16:31",
+        "message": "style(ui): 调整网格布局间距实现更好视觉效果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071640",
     "items": [
       {
@@ -539,17 +562,6 @@
         "author": "xylplm",
         "date": "2026-01-05 10:26:59",
         "message": "fix: 增加流式请求的最大令牌数至8096"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601042128",
-    "items": [
-      {
-        "commit": "53d55cb44e95f2b49003c73be53aab7cb939447e",
-        "author": "xylplm",
-        "date": "2026-01-04 21:28:26",
-        "message": "fix: 修复分享链接转存链接不存在的问题"
       }
     ]
   }
