@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601071624",
+    "items": [
+      {
+        "commit": "f161e486e9887c2cfbefffd9864eb774cd74dda4",
+        "author": "liurongjie",
+        "date": "2026-01-07 16:27:00",
+        "message": "style(ui): 规范云存储任务卡片及站点页面样式类名称"
+      },
+      {
+        "commit": "a92ef53c49e835519d53b57c77047cfd7f914c0c",
+        "author": "GateCross",
+        "date": "2026-01-07 16:24:01",
+        "message": "fix:优化日志字体颜色"
+      },
+      {
+        "commit": "a1f46250e1889da845ef271ceb3bbc96f192f6b3",
+        "author": "GateCross",
+        "date": "2026-01-07 16:18:02",
+        "message": "refactor: 优化个人页面布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071543",
     "items": [
       {
@@ -515,23 +538,6 @@
         "author": "liurongjie",
         "date": "2026-01-04 12:52:44",
         "message": "fix(cloud-storage): 修复转存无数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601032241",
-    "items": [
-      {
-        "commit": "1f6d2e3ac1176ba65c000cb6c8e5d615a4bfbce2",
-        "author": "liurongjie",
-        "date": "2026-01-03 22:41:09",
-        "message": "fix(media-tidy): 修正表格行唯一标识问题"
-      },
-      {
-        "commit": "6a4c8ea89cee15b14d9476586bf01d8991ee61b7",
-        "author": "liurongjie",
-        "date": "2026-01-03 22:22:41",
-        "message": "fix(media-tidy): 修复TMDB搜索交互及请求加载问题"
       }
     ]
   }
