@@ -1,5 +1,58 @@
 [
   {
+    "version": "DEV_202601071237",
+    "items": [
+      {
+        "commit": "c1049bf7caa048a75bebabefd2047afbca1bc1bb",
+        "author": "GateCross",
+        "date": "2026-01-07 12:37:01",
+        "message": "fix:优化云存储排版"
+      },
+      {
+        "commit": "1b9476f3010fa7bea7040e96c99eac760f7b306e",
+        "author": "GateCross",
+        "date": "2026-01-07 12:14:28",
+        "message": "fix:订阅布局适配"
+      },
+      {
+        "commit": "9e51aacf12da57e8b15991c9b3c3c71c2dfe33f0",
+        "author": "GateCross",
+        "date": "2026-01-07 11:12:34",
+        "message": "fix:优化秘籍按钮布局"
+      },
+      {
+        "commit": "aafcea3354e0708349c22365e1793f2df35da1d3",
+        "author": "GateCross",
+        "date": "2026-01-07 11:03:31",
+        "message": "fix:通知页面布局优化"
+      },
+      {
+        "commit": "a6e599ec643e47a0c13e0a1adf7a34ed6b8c8032",
+        "author": "GateCross",
+        "date": "2026-01-07 10:59:36",
+        "message": "fix: 优化通知设置页面布局"
+      },
+      {
+        "commit": "517f357f8a31aecfc26deef433c6e36f82c0d970",
+        "author": "GateCross",
+        "date": "2026-01-07 10:55:26",
+        "message": "fix: 优化媒体整理历史记录显示"
+      },
+      {
+        "commit": "807ac0fa6b274e4fb7d17ee75617c6c2e41311ce",
+        "author": "xylplm",
+        "date": "2026-01-07 10:38:19",
+        "message": "fix: 优化图标样式和位置，调整工具名称样式"
+      },
+      {
+        "commit": "6117437c9ecb32ca4188f21861f67d2cceea8fbf",
+        "author": "xylplm",
+        "date": "2026-01-07 10:28:06",
+        "message": "fix: 更新动态表单列宽类前缀以支持新样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071021",
     "items": [
       {
@@ -437,17 +490,6 @@
         "author": "xylplm",
         "date": "2026-01-03 19:34:03",
         "message": "fix: 优化 合并 种子下载、种子文件下载，标题复制、链接复制等到公共服务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601031922",
-    "items": [
-      {
-        "commit": "ebe66eee0ef864b2430f5f80fae12c6a8b536183",
-        "author": "xylplm",
-        "date": "2026-01-03 18:37:26",
-        "message": "fix:修复站点资源页，搜索结果页的磁力链、分享链接、ed2k调用  以及链接复制"
       }
     ]
   }

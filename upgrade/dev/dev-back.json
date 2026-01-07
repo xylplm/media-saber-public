@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601071237",
+    "items": [
+      {
+        "commit": "491513a0544f5ff05f6422f7340243d821f481b7",
+        "author": "Jolc",
+        "date": "2026-01-07 09:29:17",
+        "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601071021",
     "items": [
       {
@@ -239,23 +250,6 @@
         "author": "xylplm",
         "date": "2026-01-05 10:27:36",
         "message": "Refactor GetServerLogic to use JSON Schema for tool parameters"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601042128",
-    "items": [
-      {
-        "commit": "497e1fe530b1d3bd3d7acd16aecb531e52333efb",
-        "author": "xylplm",
-        "date": "2026-01-04 17:38:00",
-        "message": "fix: 修复初始化客户端时的超时设置单位为秒"
-      },
-      {
-        "commit": "cf052cea95de65772d91ff1d99e907d2eda89402",
-        "author": "xylplm",
-        "date": "2026-01-04 17:05:39",
-        "message": "fix: 修复mcp提供者网站链接"
       }
     ]
   }
