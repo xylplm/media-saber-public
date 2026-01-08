@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601082315",
+    "items": [
+      {
+        "commit": "719adfc7d6f46263bd9fcde7e780de9e2fe76c44",
+        "author": "liurongjie",
+        "date": "2026-01-08 23:12:15",
+        "message": "perf(logger): 优化日志刷新间隔减少写入压力"
+      },
+      {
+        "commit": "ebc6579384998e541973e00a0620f7bbdcc0c69f",
+        "author": "xylplm",
+        "date": "2026-01-08 22:51:34",
+        "message": "feat: 添加用户头像上传接口，支持文件上传和头像路径更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081254",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-01-06 00:56:18",
         "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601071624",
-    "items": [
-      {
-        "commit": "491513a0544f5ff05f6422f7340243d821f481b7",
-        "author": "Jolc",
-        "date": "2026-01-07 09:29:17",
-        "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
       }
     ]
   }
