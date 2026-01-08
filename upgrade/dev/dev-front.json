@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601081736",
+    "items": [
+      {
+        "commit": "6a4a9eaab5a82d0fcf4bc07073b0a025fe80b2ff",
+        "author": "GateCross",
+        "date": "2026-01-08 17:36:08",
+        "message": "fix:优化正在下载页面布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081725",
     "items": [
       {
@@ -137,35 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-07 21:44:57",
         "message": "fix:优化下载器布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601072145",
-    "items": [
-      {
-        "commit": "125030e593ab3e2a95e0e97e73467acb5107db2c",
-        "author": "liurongjie",
-        "date": "2026-01-07 21:48:14",
-        "message": "feat(site-messages): 优化站点消息页面布局和新增头像"
-      },
-      {
-        "commit": "0135ad1637117b4e1d8ecd81d37852802706ed24",
-        "author": "GateCross",
-        "date": "2026-01-07 21:44:57",
-        "message": "fix:优化下载器布局"
-      },
-      {
-        "commit": "addbbb3c44c74362c1abc803876a2198ca55938d",
-        "author": "GateCross",
-        "date": "2026-01-07 20:56:13",
-        "message": "fix:修仙秘籍适配手机"
-      },
-      {
-        "commit": "37a7a1acc465305cf2cb7e3b49c0202bc07686a8",
-        "author": "liurongjie",
-        "date": "2026-01-07 17:32:55",
-        "message": "style(ai-chat): 删除模型选择框宽度限制"
       }
     ]
   }
