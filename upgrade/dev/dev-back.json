@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601081111",
+    "items": [
+      {
+        "commit": "fbc379a1116604ee79d633be806fe74400bfd5cd",
+        "author": "GateCross",
+        "date": "2026-01-08 11:10:33",
+        "message": "feat:增加系统更新菜单"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601080001",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "Jolc",
         "date": "2026-01-07 09:29:17",
         "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601071021",
-    "items": [
-      {
-        "commit": "43f231c3bba4b96de88cbdcf3745df7a5ed4220d",
-        "author": "xylplm",
-        "date": "2026-01-06 22:10:31",
-        "message": "fix: 删除2.X版本站点导入功能 相关api"
-      },
-      {
-        "commit": "5d22d37a0722efe2a908f0b80e07f6641ebd19b8",
-        "author": "xylplm",
-        "date": "2026-01-06 00:56:18",
-        "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
       }
     ]
   }
