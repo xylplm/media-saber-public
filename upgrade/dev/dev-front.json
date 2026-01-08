@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601082058",
+    "items": [
+      {
+        "commit": "da44978f08e95fe17e9a20ab8c0c6f4bf373d09f",
+        "author": "liurongjie",
+        "date": "2026-01-08 20:57:52",
+        "message": "fix(download): 修复下载页面卡片布局和表单字段样式问题"
+      },
+      {
+        "commit": "bfa8a1fb8285435b155c4035c745e0661757406c",
+        "author": "GateCross",
+        "date": "2026-01-08 20:39:18",
+        "message": "fix:优化首页组件布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601082001",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 00:20:30",
         "message": "style(download): 优化种子详情的字体大小样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601080013",
-    "items": [
-      {
-        "commit": "2afff9b3440593b934c61ccd81e012a0ceb3fa7b",
-        "author": "liurongjie",
-        "date": "2026-01-08 00:12:05",
-        "message": "style(media-item): 优化媒体项组件响应式样式 style(download-downloaded): 调整下载页面栅格布局"
       }
     ]
   }
