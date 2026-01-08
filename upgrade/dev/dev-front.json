@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601082001",
+    "items": [
+      {
+        "commit": "0597d8771ca30c72a0c7ba47272ef7bfc600a6fa",
+        "author": "liurongjie",
+        "date": "2026-01-08 19:58:51",
+        "message": "fix(download): 调整下载页面图片和布局显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081825",
     "items": [
       {
@@ -113,35 +124,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 00:12:05",
         "message": "style(media-item): 优化媒体项组件响应式样式 style(download-downloaded): 调整下载页面栅格布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601080001",
-    "items": [
-      {
-        "commit": "242a8fa9093f96da3240dc2bf995eaa5dcb0a258",
-        "author": "liurongjie",
-        "date": "2026-01-07 23:03:19",
-        "message": "style(download-downloader): 优化下载器列表卡片样式和布局"
-      },
-      {
-        "commit": "88c6b6a636314fb04c066c1e9a2a061ad07d7de8",
-        "author": "liurongjie",
-        "date": "2026-01-07 22:56:24",
-        "message": "fix(rss-calendar): 调整布局和样式细节"
-      },
-      {
-        "commit": "b1f328ccd9174a9aef1dc082f31d07a02adb33d0",
-        "author": "GateCross",
-        "date": "2026-01-07 22:55:12",
-        "message": "fix:自定义识别词样式优化"
-      },
-      {
-        "commit": "056cba4fdb1803c595ba5b3d99129a895ab88d77",
-        "author": "GateCross",
-        "date": "2026-01-07 22:35:02",
-        "message": "fix:订阅日历修复"
       }
     ]
   }
