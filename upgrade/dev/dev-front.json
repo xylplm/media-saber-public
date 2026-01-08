@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601081715",
+    "items": [
+      {
+        "commit": "ce6ae9adcb6ea71c9cee8b8e6ad991a4d0696af8",
+        "author": "GateCross",
+        "date": "2026-01-08 17:15:12",
+        "message": "fix:修复站点资源下载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081406",
     "items": [
       {
@@ -161,29 +172,6 @@
         "author": "xylplm",
         "date": "2026-01-07 17:45:52",
         "message": "fix: 修复布局类名，移除多余的网格类"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601071733",
-    "items": [
-      {
-        "commit": "37a7a1acc465305cf2cb7e3b49c0202bc07686a8",
-        "author": "liurongjie",
-        "date": "2026-01-07 17:32:55",
-        "message": "style(ai-chat): 删除模型选择框宽度限制"
-      },
-      {
-        "commit": "750f452a5400862381a7c996a7773a73480913a2",
-        "author": "xylplm",
-        "date": "2026-01-07 17:25:37",
-        "message": "fix:  gap-6 to gap-x-6"
-      },
-      {
-        "commit": "64004edd7696250d49649162aa67c9af086c6969",
-        "author": "liurongjie",
-        "date": "2026-01-07 17:16:31",
-        "message": "style(ui): 调整网格布局间距实现更好视觉效果"
       }
     ]
   }
