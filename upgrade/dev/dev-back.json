@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601081254",
+    "items": [
+      {
+        "commit": "9233fb8d20b9d556dbd7d67553b4c13aa3362435",
+        "author": "GateCross",
+        "date": "2026-01-08 12:52:55",
+        "message": "fix:优化更新推送内容"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081238",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "Jolc",
         "date": "2026-01-07 09:29:17",
         "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601071543",
-    "items": [
-      {
-        "commit": "43f231c3bba4b96de88cbdcf3745df7a5ed4220d",
-        "author": "xylplm",
-        "date": "2026-01-06 22:10:31",
-        "message": "fix: 删除2.X版本站点导入功能 相关api"
-      },
-      {
-        "commit": "5d22d37a0722efe2a908f0b80e07f6641ebd19b8",
-        "author": "xylplm",
-        "date": "2026-01-06 00:56:18",
-        "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
       }
     ]
   }
