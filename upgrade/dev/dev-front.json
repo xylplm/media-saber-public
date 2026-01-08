@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601081313",
+    "items": [
+      {
+        "commit": "1f777c86dd4c6efd9422a041cf2958795912906a",
+        "author": "liurongjie",
+        "date": "2026-01-08 13:13:26",
+        "message": "style(media-library): 调整媒体库网格列数和卡片高度"
+      },
+      {
+        "commit": "2270a05c52b270a4c11f93d9bce40630fa610a67",
+        "author": "liurongjie",
+        "date": "2026-01-08 13:09:24",
+        "message": "fix(layout): 优化多处组件的栅格布局适配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081225",
     "items": [
       {
@@ -167,29 +184,6 @@
         "author": "liurongjie",
         "date": "2026-01-07 16:39:41",
         "message": "fix(ui): 修正复制按钮位置使其显示正常"
-      },
-      {
-        "commit": "a92ef53c49e835519d53b57c77047cfd7f914c0c",
-        "author": "GateCross",
-        "date": "2026-01-07 16:24:01",
-        "message": "fix:优化日志字体颜色"
-      },
-      {
-        "commit": "a1f46250e1889da845ef271ceb3bbc96f192f6b3",
-        "author": "GateCross",
-        "date": "2026-01-07 16:18:02",
-        "message": "refactor: 优化个人页面布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601071624",
-    "items": [
-      {
-        "commit": "f161e486e9887c2cfbefffd9864eb774cd74dda4",
-        "author": "liurongjie",
-        "date": "2026-01-07 16:27:00",
-        "message": "style(ui): 规范云存储任务卡片及站点页面样式类名称"
       },
       {
         "commit": "a92ef53c49e835519d53b57c77047cfd7f914c0c",
