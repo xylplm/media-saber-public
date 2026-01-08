@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601081825",
+    "items": [
+      {
+        "commit": "6ce09c05b532d49d15efff5a738a14e971b7ef82",
+        "author": "liurongjie",
+        "date": "2026-01-08 18:24:58",
+        "message": "style(site-source): 优化组件布局和样式间距"
+      },
+      {
+        "commit": "6da9acdb6fd4454f9f34a25cb260198f0e502143",
+        "author": "liurongjie",
+        "date": "2026-01-08 18:12:42",
+        "message": "fix(download): 修复已下载页面历史记录标题信息显示问题"
+      },
+      {
+        "commit": "79ad82818b85b35f239448c3af32f96a4500ba8d",
+        "author": "liurongjie",
+        "date": "2026-01-08 18:08:03",
+        "message": "style(search): 优化搜索对话框和统计组件的样式布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081736",
     "items": [
       {
@@ -119,35 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-07 22:35:02",
         "message": "fix:订阅日历修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601072235",
-    "items": [
-      {
-        "commit": "dffe0c733d5a43e2df664c97fd8732cc0c50c331",
-        "author": "liurongjie",
-        "date": "2026-01-07 22:37:27",
-        "message": "fix(rss): 修复rss-movie和rss-tv组件标签渲染与样式问题"
-      },
-      {
-        "commit": "056cba4fdb1803c595ba5b3d99129a895ab88d77",
-        "author": "GateCross",
-        "date": "2026-01-07 22:35:02",
-        "message": "fix:订阅日历修复"
-      },
-      {
-        "commit": "c5f216188d5677b077b664a632950869ab96fab7",
-        "author": "GateCross",
-        "date": "2026-01-07 22:25:55",
-        "message": "fix:目录分类布局"
-      },
-      {
-        "commit": "0135ad1637117b4e1d8ecd81d37852802706ed24",
-        "author": "GateCross",
-        "date": "2026-01-07 21:44:57",
-        "message": "fix:优化下载器布局"
       }
     ]
   }
