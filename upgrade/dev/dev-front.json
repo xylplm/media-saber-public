@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601081406",
+    "items": [
+      {
+        "commit": "2d8d2be369b25169c8953e72ab20a15c67749fc2",
+        "author": "liurongjie",
+        "date": "2026-01-08 14:06:26",
+        "message": "style(media-item): 调整组件样式边距和布局间距"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601081313",
     "items": [
       {
@@ -173,29 +184,6 @@
         "author": "liurongjie",
         "date": "2026-01-07 17:16:31",
         "message": "style(ui): 调整网格布局间距实现更好视觉效果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601071640",
-    "items": [
-      {
-        "commit": "f308d90bfc79150abe9d1ee0f1eaa0980e180d0d",
-        "author": "liurongjie",
-        "date": "2026-01-07 16:39:41",
-        "message": "fix(ui): 修正复制按钮位置使其显示正常"
-      },
-      {
-        "commit": "a92ef53c49e835519d53b57c77047cfd7f914c0c",
-        "author": "GateCross",
-        "date": "2026-01-07 16:24:01",
-        "message": "fix:优化日志字体颜色"
-      },
-      {
-        "commit": "a1f46250e1889da845ef271ceb3bbc96f192f6b3",
-        "author": "GateCross",
-        "date": "2026-01-07 16:18:02",
-        "message": "refactor: 优化个人页面布局"
       }
     ]
   }
