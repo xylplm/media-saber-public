@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601092255",
+    "items": [
+      {
+        "commit": "2bb46e026287b58f746b7025ddf4729ee4826478",
+        "author": "liurongjie",
+        "date": "2026-01-09 22:54:33",
+        "message": "fix(dynamic-form): 修正列宽计算中的最大列数限制"
+      },
+      {
+        "commit": "e41d47290916a1f8da82dab170c6d182bd842d37",
+        "author": "liurongjie",
+        "date": "2026-01-09 22:32:45",
+        "message": "style(tools-library): 优化网格布局和卡片样式细节"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092048",
     "items": [
       {
@@ -185,17 +202,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 18:08:03",
         "message": "style(search): 优化搜索对话框和统计组件的样式布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081736",
-    "items": [
-      {
-        "commit": "6a4a9eaab5a82d0fcf4bc07073b0a025fe80b2ff",
-        "author": "GateCross",
-        "date": "2026-01-08 17:36:08",
-        "message": "fix:优化正在下载页面布局"
       }
     ]
   }
