@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601092350",
+    "items": [
+      {
+        "commit": "2dcb3a19cddaa6825029ab4594228a7828c365f0",
+        "author": "Jolc",
+        "date": "2026-01-09 23:50:09",
+        "message": "fix：修复 115 生活事件清空状态操作"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092316",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-01-08 22:51:34",
         "message": "feat: 添加用户头像上传接口，支持文件上传和头像路径更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081254",
-    "items": [
-      {
-        "commit": "9233fb8d20b9d556dbd7d67553b4c13aa3362435",
-        "author": "GateCross",
-        "date": "2026-01-08 12:52:55",
-        "message": "fix:优化更新推送内容"
       }
     ]
   }

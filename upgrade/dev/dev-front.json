@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601092350",
+    "items": [
+      {
+        "commit": "f9876c2a8f5d9f5efcad2d12817e84ea7f2cd2b1",
+        "author": "liurongjie",
+        "date": "2026-01-09 23:34:22",
+        "message": "style(setting-torrent): 优化网格布局和标签样式"
+      },
+      {
+        "commit": "f294c3c4748a1604ae29e4163ee6ce8b98ceced4",
+        "author": "liurongjie",
+        "date": "2026-01-09 23:32:51",
+        "message": "style(setting-torrent): 优化网格布局和标签样式"
+      },
+      {
+        "commit": "ca9a4be2754d749ea1bfde856bf421bc3d7bc3aa",
+        "author": "liurongjie",
+        "date": "2026-01-09 23:31:48",
+        "message": "style(setting-torrent): 优化网格布局和标签样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092255",
     "items": [
       {
@@ -179,29 +202,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 19:58:51",
         "message": "fix(download): 调整下载页面图片和布局显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081825",
-    "items": [
-      {
-        "commit": "6ce09c05b532d49d15efff5a738a14e971b7ef82",
-        "author": "liurongjie",
-        "date": "2026-01-08 18:24:58",
-        "message": "style(site-source): 优化组件布局和样式间距"
-      },
-      {
-        "commit": "6da9acdb6fd4454f9f34a25cb260198f0e502143",
-        "author": "liurongjie",
-        "date": "2026-01-08 18:12:42",
-        "message": "fix(download): 修复已下载页面历史记录标题信息显示问题"
-      },
-      {
-        "commit": "79ad82818b85b35f239448c3af32f96a4500ba8d",
-        "author": "liurongjie",
-        "date": "2026-01-08 18:08:03",
-        "message": "style(search): 优化搜索对话框和统计组件的样式布局"
       }
     ]
   }
