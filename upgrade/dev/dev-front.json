@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202601090932",
+    "items": [
+      {
+        "commit": "662beb1c5e2c3f79c4b731dbf63ede497111efd5",
+        "author": "xylplm",
+        "date": "2026-01-09 09:29:21",
+        "message": "fix(avatar-setting): 增加头像裁剪器的最小尺寸和输出尺寸为500px"
+      },
+      {
+        "commit": "f2ae24cd57b6ee3ca1b0b264efa85f93f0fc7985",
+        "author": "liurongjie",
+        "date": "2026-01-08 22:01:43",
+        "message": "style(download): 优化下载页面的布局与样式"
+      },
+      {
+        "commit": "da44978f08e95fe17e9a20ab8c0c6f4bf373d09f",
+        "author": "liurongjie",
+        "date": "2026-01-08 20:57:52",
+        "message": "fix(download): 修复下载页面卡片布局和表单字段样式问题"
+      },
+      {
+        "commit": "bfa8a1fb8285435b155c4035c745e0661757406c",
+        "author": "GateCross",
+        "date": "2026-01-08 20:39:18",
+        "message": "fix:优化首页组件布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601090011",
     "items": [
       {
@@ -137,23 +166,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 14:06:26",
         "message": "style(media-item): 调整组件样式边距和布局间距"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081313",
-    "items": [
-      {
-        "commit": "1f777c86dd4c6efd9422a041cf2958795912906a",
-        "author": "liurongjie",
-        "date": "2026-01-08 13:13:26",
-        "message": "style(media-library): 调整媒体库网格列数和卡片高度"
-      },
-      {
-        "commit": "2270a05c52b270a4c11f93d9bce40630fa610a67",
-        "author": "liurongjie",
-        "date": "2026-01-08 13:09:24",
-        "message": "fix(layout): 优化多处组件的栅格布局适配"
       }
     ]
   }
