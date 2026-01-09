@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601092203",
+    "items": [
+      {
+        "commit": "4100bda50645e0fade6c1c2ef04e9c5cd27cac3d",
+        "author": "Jolc",
+        "date": "2026-01-09 22:03:11",
+        "message": "fix: 修复 123 目录树问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601091600",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-08 11:10:33",
         "message": "feat:增加系统更新菜单"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601080001",
-    "items": [
-      {
-        "commit": "b5a34f1d0e6357cc7fdcd8bbd67447a1a9c2603e",
-        "author": "Jolc",
-        "date": "2026-01-08 00:00:30",
-        "message": "fix: 删除多余表"
-      },
-      {
-        "commit": "491513a0544f5ff05f6422f7340243d821f481b7",
-        "author": "Jolc",
-        "date": "2026-01-07 09:29:17",
-        "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
       }
     ]
   }
