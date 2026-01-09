@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601092303",
+    "items": [
+      {
+        "commit": "2e00edc1a42c22a994aad12b457048d25193a107",
+        "author": "Jolc",
+        "date": "2026-01-09 23:02:32",
+        "message": "fix：修复订阅精选推荐"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092203",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-08 12:36:59",
         "message": "fix:优化媒体库状态查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081111",
-    "items": [
-      {
-        "commit": "fbc379a1116604ee79d633be806fe74400bfd5cd",
-        "author": "GateCross",
-        "date": "2026-01-08 11:10:33",
-        "message": "feat:增加系统更新菜单"
       }
     ]
   }
