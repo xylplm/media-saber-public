@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202601092048",
+    "items": [
+      {
+        "commit": "430095c3e0c170e37701f6d4aec3e390fe57c0e9",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:35:34",
+        "message": "style(cloud-storage): 优化完成任务卡片布局和样式"
+      },
+      {
+        "commit": "a5dde7882076b2f23d3647f1e1fcd7723e3ce1d2",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:29:20",
+        "message": "style(site-messages): 优化搜索表单布局间距"
+      },
+      {
+        "commit": "5216dc633f0af8c63071345a95df2dd941fe0964",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:24:44",
+        "message": "style(layout): 优化多个页面的网格间距和布局结构"
+      },
+      {
+        "commit": "d5b3436ca4ee48e6631052efcf647b580f337f3c",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:04:32",
+        "message": "style(rss): 调整 RSS 订阅相关页面布局和样式"
+      },
+      {
+        "commit": "e8e67f548625ad61d6f188089aad092c3e89600b",
+        "author": "liurongjie",
+        "date": "2026-01-09 17:01:02",
+        "message": "style(tools-library-instance): 优化网格间距和布局样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601091600",
     "items": [
       {
@@ -161,17 +196,6 @@
         "author": "GateCross",
         "date": "2026-01-08 17:36:08",
         "message": "fix:优化正在下载页面布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081725",
-    "items": [
-      {
-        "commit": "47e535aa6a84e248f7e324f28f5e4681a440e94d",
-        "author": "GateCross",
-        "date": "2026-01-08 17:25:37",
-        "message": "fix:优化布局"
       }
     ]
   }
