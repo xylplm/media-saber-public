@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601091600",
+    "items": [
+      {
+        "commit": "600070884cd073be9491f63954b294b41fe67a82",
+        "author": "GateCross",
+        "date": "2026-01-09 15:58:16",
+        "message": "fix:更改豆瓣代理Referer"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601091346",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "Jolc",
         "date": "2026-01-07 09:29:17",
         "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601072235",
-    "items": [
-      {
-        "commit": "43f231c3bba4b96de88cbdcf3745df7a5ed4220d",
-        "author": "xylplm",
-        "date": "2026-01-06 22:10:31",
-        "message": "fix: 删除2.X版本站点导入功能 相关api"
-      },
-      {
-        "commit": "5d22d37a0722efe2a908f0b80e07f6641ebd19b8",
-        "author": "xylplm",
-        "date": "2026-01-06 00:56:18",
-        "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
       }
     ]
   }

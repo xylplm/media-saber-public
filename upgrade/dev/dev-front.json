@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601091600",
+    "items": [
+      {
+        "commit": "c47b9902546f55aa677b3e0129a91ebddbacc449",
+        "author": "liurongjie",
+        "date": "2026-01-09 15:06:20",
+        "message": "style(media-tidy): 调整自定义识别词单元更新表单布局宽度"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601091346",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-08 17:25:37",
         "message": "fix:优化布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081715",
-    "items": [
-      {
-        "commit": "ce6ae9adcb6ea71c9cee8b8e6ad991a4d0696af8",
-        "author": "GateCross",
-        "date": "2026-01-08 17:15:12",
-        "message": "fix:修复站点资源下载"
       }
     ]
   }
