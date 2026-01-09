@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601092316",
+    "items": [
+      {
+        "commit": "c4240bb100d8220a4bf65779a3e7481ee95714df",
+        "author": "GateCross",
+        "date": "2026-01-09 23:15:53",
+        "message": "fix:订阅精选推荐增加移动端推送渠道"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092303",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-08 12:52:55",
         "message": "fix:优化更新推送内容"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601081238",
-    "items": [
-      {
-        "commit": "d0092fa116ea17aa067d6271e233f60a82d39060",
-        "author": "GateCross",
-        "date": "2026-01-08 12:36:59",
-        "message": "fix:优化媒体库状态查询"
       }
     ]
   }
