@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601110001",
+    "items": [
+      {
+        "commit": "aea542db65d43c4ea5ca1feb7043eaa02bc7620f",
+        "author": "liurongjie",
+        "date": "2026-01-10 23:23:10",
+        "message": "style(media-library): 优化媒体库组件的网格布局和样式细节"
+      },
+      {
+        "commit": "00e555002a53eb0e71f8159084d26ce07d77d2bb",
+        "author": "liurongjie",
+        "date": "2026-01-10 23:15:40",
+        "message": "style(media-server): 优化媒体服务器设置页面布局样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601102130",
     "items": [
       {
@@ -191,23 +208,6 @@
         "author": "xylplm",
         "date": "2026-01-08 23:21:37",
         "message": "feat(avatar-setting): 添加头像设置功能，支持选择和上传头像"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601082315",
-    "items": [
-      {
-        "commit": "f2ae24cd57b6ee3ca1b0b264efa85f93f0fc7985",
-        "author": "liurongjie",
-        "date": "2026-01-08 22:01:43",
-        "message": "style(download): 优化下载页面的布局与样式"
-      },
-      {
-        "commit": "bfa8a1fb8285435b155c4035c745e0661757406c",
-        "author": "GateCross",
-        "date": "2026-01-08 20:39:18",
-        "message": "fix:优化首页组件布局"
       }
     ]
   }
