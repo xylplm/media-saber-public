@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601101745",
+    "items": [
+      {
+        "commit": "467c1563f394f547b318f2ca92ae86fd3da534b2",
+        "author": "liurongjie",
+        "date": "2026-01-10 17:44:54",
+        "message": "fix(metadata): 优化tmdb字段解析及日志增强"
+      },
+      {
+        "commit": "c4240bb100d8220a4bf65779a3e7481ee95714df",
+        "author": "GateCross",
+        "date": "2026-01-09 23:15:53",
+        "message": "fix:订阅精选推荐增加移动端推送渠道"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092350",
     "items": [
       {
@@ -119,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 23:30:07",
         "message": "perf(logger): 调整数据库日志刷写间隔时间"
-      },
-      {
-        "commit": "ebc6579384998e541973e00a0620f7bbdcc0c69f",
-        "author": "xylplm",
-        "date": "2026-01-08 22:51:34",
-        "message": "feat: 添加用户头像上传接口，支持文件上传和头像路径更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601082315",
-    "items": [
-      {
-        "commit": "719adfc7d6f46263bd9fcde7e780de9e2fe76c44",
-        "author": "liurongjie",
-        "date": "2026-01-08 23:12:15",
-        "message": "perf(logger): 优化日志刷新间隔减少写入压力"
       },
       {
         "commit": "ebc6579384998e541973e00a0620f7bbdcc0c69f",

@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601101745",
+    "items": [
+      {
+        "commit": "852ee75569c00a84829e23e67d703c5833b05b9c",
+        "author": "liurongjie",
+        "date": "2026-01-10 16:02:47",
+        "message": "feat(input-path): 限制路径选择对话框最大高度"
+      },
+      {
+        "commit": "c4f15a875e780dd9a5d9ebb4a406eea4b5dd9461",
+        "author": "liurongjie",
+        "date": "2026-01-10 16:00:51",
+        "message": "style(directory-sync): 调整同步面板网格间距及样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601092350",
     "items": [
       {
@@ -191,17 +208,6 @@
         "author": "GateCross",
         "date": "2026-01-08 20:39:18",
         "message": "fix:优化首页组件布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601082001",
-    "items": [
-      {
-        "commit": "0597d8771ca30c72a0c7ba47272ef7bfc600a6fa",
-        "author": "liurongjie",
-        "date": "2026-01-08 19:58:51",
-        "message": "fix(download): 调整下载页面图片和布局显示"
       }
     ]
   }
