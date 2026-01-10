@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601102130",
+    "items": [
+      {
+        "commit": "19836299c7ae3514e663e63e369c523914711a7e",
+        "author": "xylplm",
+        "date": "2026-01-10 21:06:11",
+        "message": "fix(widget-site-recent-search-task): 优化搜索任务列表过滤和时间格式化逻辑.只展示手动的搜索"
+      },
+      {
+        "commit": "ad5c94898658aeb789d1891fac347cc2641bbde4",
+        "author": "xylplm",
+        "date": "2026-01-10 18:41:55",
+        "message": "fix(globals): 更新轻色调颜色变量以改善视觉效果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601101745",
     "items": [
       {
@@ -185,23 +202,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 22:01:43",
         "message": "style(download): 优化下载页面的布局与样式"
-      },
-      {
-        "commit": "bfa8a1fb8285435b155c4035c745e0661757406c",
-        "author": "GateCross",
-        "date": "2026-01-08 20:39:18",
-        "message": "fix:优化首页组件布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601082058",
-    "items": [
-      {
-        "commit": "da44978f08e95fe17e9a20ab8c0c6f4bf373d09f",
-        "author": "liurongjie",
-        "date": "2026-01-08 20:57:52",
-        "message": "fix(download): 修复下载页面卡片布局和表单字段样式问题"
       },
       {
         "commit": "bfa8a1fb8285435b155c4035c745e0661757406c",

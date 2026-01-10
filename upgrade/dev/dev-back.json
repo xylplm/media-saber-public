@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601102130",
+    "items": [
+      {
+        "commit": "71cb3f3ee2395d90d156f03091c81073697bdc35",
+        "author": "xylplm",
+        "date": "2026-01-10 21:29:52",
+        "message": "fix: 更新搜索任务删除旧数据逻辑，只订阅搜索和订阅 RSS 类型的任务"
+      },
+      {
+        "commit": "aed1d162681b61a56abdb9e6dae496014f1f7b0d",
+        "author": "xylplm",
+        "date": "2026-01-10 21:23:17",
+        "message": "fix: 搜索任务分页默认排除订阅搜索和订阅 RSS 类型的记录，如需查询这两个记录手动过滤"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601101745",
     "items": [
       {
@@ -119,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-01-08 23:50:50",
         "message": "fix: 修正头像目录路径为静态资源路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601082331",
-    "items": [
-      {
-        "commit": "043a4106f6a210997bb184bc5e2d5f7b9ab1c329",
-        "author": "liurongjie",
-        "date": "2026-01-08 23:30:25",
-        "message": "refactor(model): 为DownloadHistory添加索引以优化查询性能"
-      },
-      {
-        "commit": "84bbf5f49dcec86ea958d97021ac9202aa6442b7",
-        "author": "liurongjie",
-        "date": "2026-01-08 23:30:07",
-        "message": "perf(logger): 调整数据库日志刷写间隔时间"
-      },
-      {
-        "commit": "ebc6579384998e541973e00a0620f7bbdcc0c69f",
-        "author": "xylplm",
-        "date": "2026-01-08 22:51:34",
-        "message": "feat: 添加用户头像上传接口，支持文件上传和头像路径更新"
       }
     ]
   }
