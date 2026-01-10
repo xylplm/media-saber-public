@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601110124",
+    "items": [
+      {
+        "commit": "ab614239d2370915954700059b6e6117450e250c",
+        "author": "Jolc",
+        "date": "2026-01-11 01:21:58",
+        "message": "feat：站点适配增加扁平化字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601102130",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-01-08 23:12:15",
         "message": "perf(logger): 优化日志刷新间隔减少写入压力"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601090011",
-    "items": [
-      {
-        "commit": "1aafbfd9085d7076b3c126877357fc3928d5e7a9",
-        "author": "xylplm",
-        "date": "2026-01-08 23:50:50",
-        "message": "fix: 修正头像目录路径为静态资源路径"
       }
     ]
   }
