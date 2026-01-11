@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601111448",
+    "items": [
+      {
+        "commit": "e32ab3a9064d0196f6f930099ca6159f3e67ff6b",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:15:58",
+        "message": "fix(dynamic_form): 调整插件表单字段的列宽设置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601111426",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "GateCross",
         "date": "2026-01-09 15:58:16",
         "message": "fix:更改豆瓣代理Referer"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601091346",
-    "items": [
-      {
-        "commit": "e500fca81c53d4651e2adafce4245f2478b55117",
-        "author": "liurongjie",
-        "date": "2026-01-09 13:20:34",
-        "message": "perf(logger): 还原数据库日志刷写间隔时间"
-      },
-      {
-        "commit": "1aafbfd9085d7076b3c126877357fc3928d5e7a9",
-        "author": "xylplm",
-        "date": "2026-01-08 23:50:50",
-        "message": "fix: 修正头像目录路径为静态资源路径"
       }
     ]
   }
