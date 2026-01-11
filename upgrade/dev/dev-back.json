@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601112254",
+    "items": [
+      {
+        "commit": "7158e071d5bcf6b5e6679143c01fa0a2ab60cab2",
+        "author": "Jolc",
+        "date": "2026-01-11 22:53:46",
+        "message": "feat: pc redis 缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601112243",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "Jolc",
         "date": "2026-01-09 23:50:09",
         "message": "fix：修复 115 生活事件清空状态操作"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601092316",
-    "items": [
-      {
-        "commit": "c4240bb100d8220a4bf65779a3e7481ee95714df",
-        "author": "GateCross",
-        "date": "2026-01-09 23:15:53",
-        "message": "fix:订阅精选推荐增加移动端推送渠道"
       }
     ]
   }
