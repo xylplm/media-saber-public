@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202601111620",
+    "items": [
+      {
+        "commit": "6a2c58a35b45b15ba9f35cbd566ca67a3fed8dca",
+        "author": "Jolc",
+        "date": "2026-01-11 16:20:24",
+        "message": "fix: 站点适配 field 顺序问题"
+      },
+      {
+        "commit": "160cf7e584a735d2ec5381e37b77b5891f3c928f",
+        "author": "GateCross",
+        "date": "2026-01-11 16:19:38",
+        "message": "fix:优化云存储文件已存在提示"
+      },
+      {
+        "commit": "02096c537412afd39e2752360bd0065c3f603076",
+        "author": "liurongjie",
+        "date": "2026-01-11 16:05:58",
+        "message": "fix(mediaserver): 增加 Plex 媒体库路径刷新调试日志"
+      },
+      {
+        "commit": "c159bd4e89513b7d5d31b7931197755a21b030c9",
+        "author": "Jolc",
+        "date": "2026-01-11 14:25:04",
+        "message": "feat: 站点适配增加 filter"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601111448",
     "items": [
       {
@@ -119,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-01-09 22:03:11",
         "message": "fix: 修复 123 目录树问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601091600",
-    "items": [
-      {
-        "commit": "600070884cd073be9491f63954b294b41fe67a82",
-        "author": "GateCross",
-        "date": "2026-01-09 15:58:16",
-        "message": "fix:更改豆瓣代理Referer"
       }
     ]
   }
