@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601111426",
+    "items": [
+      {
+        "commit": "c159bd4e89513b7d5d31b7931197755a21b030c9",
+        "author": "Jolc",
+        "date": "2026-01-11 14:25:04",
+        "message": "feat: 站点适配增加 filter"
+      },
+      {
+        "commit": "e32ab3a9064d0196f6f930099ca6159f3e67ff6b",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:15:58",
+        "message": "fix(dynamic_form): 调整插件表单字段的列宽设置"
+      },
+      {
+        "commit": "b7e8024da38c41568a333ac40bc6eca086a1499d",
+        "author": "GateCross",
+        "date": "2026-01-11 11:05:27",
+        "message": "fix:优化无图提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601110124",
     "items": [
       {
@@ -113,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-01-08 23:50:50",
         "message": "fix: 修正头像目录路径为静态资源路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601090932",
-    "items": [
-      {
-        "commit": "043a4106f6a210997bb184bc5e2d5f7b9ab1c329",
-        "author": "liurongjie",
-        "date": "2026-01-08 23:30:25",
-        "message": "refactor(model): 为DownloadHistory添加索引以优化查询性能"
-      },
-      {
-        "commit": "84bbf5f49dcec86ea958d97021ac9202aa6442b7",
-        "author": "liurongjie",
-        "date": "2026-01-08 23:30:07",
-        "message": "perf(logger): 调整数据库日志刷写间隔时间"
-      },
-      {
-        "commit": "719adfc7d6f46263bd9fcde7e780de9e2fe76c44",
-        "author": "liurongjie",
-        "date": "2026-01-08 23:12:15",
-        "message": "perf(logger): 优化日志刷新间隔减少写入压力"
       }
     ]
   }

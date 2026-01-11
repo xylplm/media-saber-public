@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601111426",
+    "items": [
+      {
+        "commit": "fe16e2cd2babac8a158573c10fa500ca4d527bff",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:27:14",
+        "message": "style(cloud-storage): 调整任务卡片布局间距和栅格列数"
+      },
+      {
+        "commit": "d8f2f76150d2003ceca73a04dfb2c3c53bf6ec0e",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:13:59",
+        "message": "style(cloud-storage): 优化组件HTML样式和布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601110001",
     "items": [
       {
@@ -179,35 +196,6 @@
         "author": "GateCross",
         "date": "2026-01-08 20:39:18",
         "message": "fix:优化首页组件布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601090011",
-    "items": [
-      {
-        "commit": "9008088b879009cc9531d5f86e15e87ba447d9fe",
-        "author": "xylplm",
-        "date": "2026-01-09 00:09:57",
-        "message": "feat(avatar-setting): 添加头像上传预览和重新上传功能"
-      },
-      {
-        "commit": "050586a72b9af22ebd299dc18b3367e21852abd3",
-        "author": "xylplm",
-        "date": "2026-01-08 23:45:47",
-        "message": "feat(auth): 处理用户头像信息，支持自定义头像路径"
-      },
-      {
-        "commit": "45378175ce841aa3ede8644691d255a516b06da1",
-        "author": "xylplm",
-        "date": "2026-01-08 23:45:32",
-        "message": "fix(avatar-list): 移除未使用的头像资源和相关条目"
-      },
-      {
-        "commit": "23e7db3fefc92b970145754e4adbd67960f8199d",
-        "author": "xylplm",
-        "date": "2026-01-08 23:21:37",
-        "message": "feat(avatar-setting): 添加头像设置功能，支持选择和上传头像"
       }
     ]
   }
