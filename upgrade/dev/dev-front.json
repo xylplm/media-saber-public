@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601112243",
+    "items": [
+      {
+        "commit": "62d16fbad7cee732d16a9b7589b83b7dea41dac0",
+        "author": "xylplm",
+        "date": "2026-01-11 20:58:22",
+        "message": "fix(site-statistics): 修复站点数据导出错误"
+      },
+      {
+        "commit": "e5d0df1a740616972fa18e798fd528a975914645",
+        "author": "xylplm",
+        "date": "2026-01-11 20:51:29",
+        "message": "fix(site-statistics): 修复数据排序时的跟踪字段，使用siteId替代id"
+      },
+      {
+        "commit": "38099f89237ab5e1b5ee1cac161907a6bf03c3d4",
+        "author": "xylplm",
+        "date": "2026-01-11 20:26:47",
+        "message": "fix(dateUtils): 添加对时间为0的处理，返回'刚刚'"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601111620",
     "items": [
       {
@@ -161,23 +184,6 @@
         "author": "liurongjie",
         "date": "2026-01-09 15:06:20",
         "message": "style(media-tidy): 调整自定义识别词单元更新表单布局宽度"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601091346",
-    "items": [
-      {
-        "commit": "e371bff64ec570caf86124e808ae199731a84961",
-        "author": "liurongjie",
-        "date": "2026-01-09 13:44:44",
-        "message": "style(download): 优化下载页面卡片间距和样式"
-      },
-      {
-        "commit": "93d61fc4e9cbcaaf97ebba2852fb24f52d23e0a6",
-        "author": "liurongjie",
-        "date": "2026-01-09 13:40:23",
-        "message": "fix(download): 优化下载记录描述显示及下载中列表样式"
       }
     ]
   }

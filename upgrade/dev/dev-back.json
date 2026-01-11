@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601112243",
+    "items": [
+      {
+        "commit": "79e7a0b97ba816677f19c74fd875cfbac1c2dd45",
+        "author": "Jolc",
+        "date": "2026-01-11 22:43:26",
+        "message": "fix: flat map fields 问题"
+      },
+      {
+        "commit": "6a2c58a35b45b15ba9f35cbd566ca67a3fed8dca",
+        "author": "Jolc",
+        "date": "2026-01-11 16:20:24",
+        "message": "fix: 站点适配 field 顺序问题"
+      },
+      {
+        "commit": "160cf7e584a735d2ec5381e37b77b5891f3c928f",
+        "author": "GateCross",
+        "date": "2026-01-11 16:19:38",
+        "message": "fix:优化云存储文件已存在提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601111848",
     "items": [
       {
@@ -149,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-09 23:15:53",
         "message": "fix:订阅精选推荐增加移动端推送渠道"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601092303",
-    "items": [
-      {
-        "commit": "2e00edc1a42c22a994aad12b457048d25193a107",
-        "author": "Jolc",
-        "date": "2026-01-09 23:02:32",
-        "message": "fix：修复订阅精选推荐"
       }
     ]
   }
