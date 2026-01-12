@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601121034",
+    "items": [
+      {
+        "commit": "3df355ceddfadcdc330cf7a0548dfc9bb04630a4",
+        "author": "GateCross",
+        "date": "2026-01-12 10:33:31",
+        "message": "fix:优化302公网IP"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601112254",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-09 23:15:53",
         "message": "fix:订阅精选推荐增加移动端推送渠道"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601092350",
-    "items": [
-      {
-        "commit": "2dcb3a19cddaa6825029ab4594228a7828c365f0",
-        "author": "Jolc",
-        "date": "2026-01-09 23:50:09",
-        "message": "fix：修复 115 生活事件清空状态操作"
       }
     ]
   }
