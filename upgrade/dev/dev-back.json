@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601121335",
+    "items": [
+      {
+        "commit": "41d5712291dc42816680e0244164f36d9986d93c",
+        "author": "yii",
+        "date": "2026-01-12 13:13:25",
+        "message": "fix：移除内外网判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601121034",
     "items": [
       {
@@ -155,23 +166,6 @@
         "author": "xylplm",
         "date": "2026-01-10 21:23:17",
         "message": "fix: 搜索任务分页默认排除订阅搜索和订阅 RSS 类型的记录，如需查询这两个记录手动过滤"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601101745",
-    "items": [
-      {
-        "commit": "467c1563f394f547b318f2ca92ae86fd3da534b2",
-        "author": "liurongjie",
-        "date": "2026-01-10 17:44:54",
-        "message": "fix(metadata): 优化tmdb字段解析及日志增强"
-      },
-      {
-        "commit": "c4240bb100d8220a4bf65779a3e7481ee95714df",
-        "author": "GateCross",
-        "date": "2026-01-09 23:15:53",
-        "message": "fix:订阅精选推荐增加移动端推送渠道"
       }
     ]
   }
