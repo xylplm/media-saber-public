@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601121658",
+    "items": [
+      {
+        "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
+        "author": "GateCross",
+        "date": "2026-01-12 16:58:21",
+        "message": "fix:优化网盘错误显示及样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601112243",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "liurongjie",
         "date": "2026-01-09 17:01:02",
         "message": "style(tools-library-instance): 优化网格间距和布局样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601091600",
-    "items": [
-      {
-        "commit": "c47b9902546f55aa677b3e0129a91ebddbacc449",
-        "author": "liurongjie",
-        "date": "2026-01-09 15:06:20",
-        "message": "style(media-tidy): 调整自定义识别词单元更新表单布局宽度"
       }
     ]
   }
