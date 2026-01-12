@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601121720",
+    "items": [
+      {
+        "commit": "5e2ad1af135676abc4b2e91cc3c40583bf8635cf",
+        "author": "Jolc",
+        "date": "2026-01-12 17:20:23",
+        "message": "fix: 修复 115 生活事件 json 异常"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601121440",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "GateCross",
         "date": "2026-01-11 11:05:27",
         "message": "fix:优化无图提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601110124",
-    "items": [
-      {
-        "commit": "ab614239d2370915954700059b6e6117450e250c",
-        "author": "Jolc",
-        "date": "2026-01-11 01:21:58",
-        "message": "feat：站点适配增加扁平化字段"
       }
     ]
   }
