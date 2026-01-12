@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601122234",
+    "items": [
+      {
+        "commit": "b11954af8e7cdeb6d2315b2b593d753e7cf596e6",
+        "author": "GateCross",
+        "date": "2026-01-12 22:33:23",
+        "message": "fix:优化待订阅重复订阅问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601121858",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "Jolc",
         "date": "2026-01-11 14:25:04",
         "message": "feat: 站点适配增加 filter"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601111448",
-    "items": [
-      {
-        "commit": "e32ab3a9064d0196f6f930099ca6159f3e67ff6b",
-        "author": "liurongjie",
-        "date": "2026-01-11 14:15:58",
-        "message": "fix(dynamic_form): 调整插件表单字段的列宽设置"
       }
     ]
   }

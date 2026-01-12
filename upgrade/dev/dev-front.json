@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601122234",
+    "items": [
+      {
+        "commit": "80e050bcc4749127d226e3210d032ff4fc2fc2be",
+        "author": "xylplm",
+        "date": "2026-01-12 17:08:31",
+        "message": "feat(ai-chat): 添加模型选择器的复制名称功能"
+      },
+      {
+        "commit": "8fece0d554d0d8dc1c855b803a28c6a0278c7632",
+        "author": "xylplm",
+        "date": "2026-01-12 17:08:23",
+        "message": "feat(input-seleted-search): 添加复制选项名称功能，优化选项展示样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601121858",
     "items": [
       {
@@ -137,29 +154,6 @@
         "author": "liurongjie",
         "date": "2026-01-10 16:00:51",
         "message": "style(directory-sync): 调整同步面板网格间距及样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601092350",
-    "items": [
-      {
-        "commit": "f9876c2a8f5d9f5efcad2d12817e84ea7f2cd2b1",
-        "author": "liurongjie",
-        "date": "2026-01-09 23:34:22",
-        "message": "style(setting-torrent): 优化网格布局和标签样式"
-      },
-      {
-        "commit": "f294c3c4748a1604ae29e4163ee6ce8b98ceced4",
-        "author": "liurongjie",
-        "date": "2026-01-09 23:32:51",
-        "message": "style(setting-torrent): 优化网格布局和标签样式"
-      },
-      {
-        "commit": "ca9a4be2754d749ea1bfde856bf421bc3d7bc3aa",
-        "author": "liurongjie",
-        "date": "2026-01-09 23:31:48",
-        "message": "style(setting-torrent): 优化网格布局和标签样式"
       }
     ]
   }
