@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601121440",
+    "items": [
+      {
+        "commit": "17e2d7b068d773107cdf8aba997609887b8cc01d",
+        "author": "GateCross",
+        "date": "2026-01-12 14:26:05",
+        "message": "feat:订阅精选推荐增加移动端额外字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601121335",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "Jolc",
         "date": "2026-01-11 01:21:58",
         "message": "feat：站点适配增加扁平化字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601102130",
-    "items": [
-      {
-        "commit": "71cb3f3ee2395d90d156f03091c81073697bdc35",
-        "author": "xylplm",
-        "date": "2026-01-10 21:29:52",
-        "message": "fix: 更新搜索任务删除旧数据逻辑，只订阅搜索和订阅 RSS 类型的任务"
-      },
-      {
-        "commit": "aed1d162681b61a56abdb9e6dae496014f1f7b0d",
-        "author": "xylplm",
-        "date": "2026-01-10 21:23:17",
-        "message": "fix: 搜索任务分页默认排除订阅搜索和订阅 RSS 类型的记录，如需查询这两个记录手动过滤"
       }
     ]
   }
