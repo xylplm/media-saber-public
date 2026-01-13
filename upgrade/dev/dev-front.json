@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601131052",
+    "items": [
+      {
+        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
+        "author": "GateCross",
+        "date": "2026-01-13 10:48:44",
+        "message": "fix:修复strm生成现实数据"
+      },
+      {
+        "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
+        "author": "GateCross",
+        "date": "2026-01-12 16:58:21",
+        "message": "fix:优化网盘错误显示及样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601122234",
     "items": [
       {
@@ -137,23 +154,6 @@
         "author": "xylplm",
         "date": "2026-01-10 18:41:55",
         "message": "fix(globals): 更新轻色调颜色变量以改善视觉效果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601101745",
-    "items": [
-      {
-        "commit": "852ee75569c00a84829e23e67d703c5833b05b9c",
-        "author": "liurongjie",
-        "date": "2026-01-10 16:02:47",
-        "message": "feat(input-path): 限制路径选择对话框最大高度"
-      },
-      {
-        "commit": "c4f15a875e780dd9a5d9ebb4a406eea4b5dd9461",
-        "author": "liurongjie",
-        "date": "2026-01-10 16:00:51",
-        "message": "style(directory-sync): 调整同步面板网格间距及样式"
       }
     ]
   }
