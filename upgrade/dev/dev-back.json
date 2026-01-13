@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601131616",
+    "items": [
+      {
+        "commit": "c1024659047aa2872e2f6e302aa4322651aac99f",
+        "author": "GateCross",
+        "date": "2026-01-13 16:16:02",
+        "message": "fix:优化电影文件夹tmdbid重命名"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601122234",
     "items": [
       {
@@ -137,35 +148,6 @@
         "author": "liurongjie",
         "date": "2026-01-11 16:05:58",
         "message": "fix(mediaserver): 增加 Plex 媒体库路径刷新调试日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601111620",
-    "items": [
-      {
-        "commit": "6a2c58a35b45b15ba9f35cbd566ca67a3fed8dca",
-        "author": "Jolc",
-        "date": "2026-01-11 16:20:24",
-        "message": "fix: 站点适配 field 顺序问题"
-      },
-      {
-        "commit": "160cf7e584a735d2ec5381e37b77b5891f3c928f",
-        "author": "GateCross",
-        "date": "2026-01-11 16:19:38",
-        "message": "fix:优化云存储文件已存在提示"
-      },
-      {
-        "commit": "02096c537412afd39e2752360bd0065c3f603076",
-        "author": "liurongjie",
-        "date": "2026-01-11 16:05:58",
-        "message": "fix(mediaserver): 增加 Plex 媒体库路径刷新调试日志"
-      },
-      {
-        "commit": "c159bd4e89513b7d5d31b7931197755a21b030c9",
-        "author": "Jolc",
-        "date": "2026-01-11 14:25:04",
-        "message": "feat: 站点适配增加 filter"
       }
     ]
   }
