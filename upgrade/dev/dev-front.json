@@ -6,7 +6,7 @@
         "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
         "author": "GateCross",
         "date": "2026-01-13 10:48:44",
-        "message": "fix:修复strm生成现实数据"
+        "message": "fix:修复strm生成显示数据"
       },
       {
         "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
