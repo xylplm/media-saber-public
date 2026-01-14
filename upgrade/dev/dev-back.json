@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601141550",
+    "items": [
+      {
+        "commit": "dcc4481c56dcdcfd52dd5dcf64c81cc944c59c23",
+        "author": "yii",
+        "date": "2026-01-14 15:48:43",
+        "message": "perf: 减少应用启动资源开销 提升启动速度 破坏整体系统依赖"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141544",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "yii",
         "date": "2026-01-12 13:13:25",
         "message": "fix：移除内外网判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601121034",
-    "items": [
-      {
-        "commit": "3df355ceddfadcdc330cf7a0548dfc9bb04630a4",
-        "author": "GateCross",
-        "date": "2026-01-12 10:33:31",
-        "message": "fix:优化302公网IP"
       }
     ]
   }
