@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601141516",
+    "items": [
+      {
+        "commit": "ef51e6de5c1f7dde8180968f8c4fa86b77705be1",
+        "author": "liurongjie",
+        "date": "2026-01-14 15:16:28",
+        "message": "perf(cloudStorage): 统计并记录strm302请求总耗时"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141131",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "Jolc",
         "date": "2026-01-11 22:53:46",
         "message": "feat: pc redis 缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601112243",
-    "items": [
-      {
-        "commit": "79e7a0b97ba816677f19c74fd875cfbac1c2dd45",
-        "author": "Jolc",
-        "date": "2026-01-11 22:43:26",
-        "message": "fix: flat map fields 问题"
-      },
-      {
-        "commit": "6a2c58a35b45b15ba9f35cbd566ca67a3fed8dca",
-        "author": "Jolc",
-        "date": "2026-01-11 16:20:24",
-        "message": "fix: 站点适配 field 顺序问题"
-      },
-      {
-        "commit": "160cf7e584a735d2ec5381e37b77b5891f3c928f",
-        "author": "GateCross",
-        "date": "2026-01-11 16:19:38",
-        "message": "fix:优化云存储文件已存在提示"
       }
     ]
   }
