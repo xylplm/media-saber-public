@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601141844",
+    "items": [
+      {
+        "commit": "887670488a5048cc1c0a6358022f25c0b611a1c6",
+        "author": "liurongjie",
+        "date": "2026-01-14 18:43:42",
+        "message": "Revert \"fix(database): 优化 TorrentInfo 媒体类型和 TMDB ID 索引\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141825",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-01-12 17:20:23",
         "message": "fix: 修复 115 生活事件 json 异常"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601121440",
-    "items": [
-      {
-        "commit": "17e2d7b068d773107cdf8aba997609887b8cc01d",
-        "author": "GateCross",
-        "date": "2026-01-12 14:26:05",
-        "message": "feat:订阅精选推荐增加移动端额外字段"
       }
     ]
   }
