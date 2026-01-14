@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601141203",
+    "items": [
+      {
+        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
+        "author": "liurongjie",
+        "date": "2026-01-14 12:02:37",
+        "message": "fix(media-detail): 调整季列表样式和名称显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601131707",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-01-11 14:13:59",
         "message": "style(cloud-storage): 优化组件HTML样式和布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601110001",
-    "items": [
-      {
-        "commit": "aea542db65d43c4ea5ca1feb7043eaa02bc7620f",
-        "author": "liurongjie",
-        "date": "2026-01-10 23:23:10",
-        "message": "style(media-library): 优化媒体库组件的网格布局和样式细节"
-      },
-      {
-        "commit": "00e555002a53eb0e71f8159084d26ce07d77d2bb",
-        "author": "liurongjie",
-        "date": "2026-01-10 23:15:40",
-        "message": "style(media-server): 优化媒体服务器设置页面布局样式"
       }
     ]
   }
