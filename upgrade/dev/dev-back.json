@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601142213",
+    "items": [
+      {
+        "commit": "eaf7634853170f4a410aea819aa6f8c97b2fa818",
+        "author": "liurongjie",
+        "date": "2026-01-14 22:13:19",
+        "message": "perf(download): 优化下载历史媒体状态及站点信息查询"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141844",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-12 10:33:31",
         "message": "fix:优化302公网IP"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601121720",
-    "items": [
-      {
-        "commit": "5e2ad1af135676abc4b2e91cc3c40583bf8635cf",
-        "author": "Jolc",
-        "date": "2026-01-12 17:20:23",
-        "message": "fix: 修复 115 生活事件 json 异常"
       }
     ]
   }
