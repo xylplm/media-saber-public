@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601141131",
+    "items": [
+      {
+        "commit": "0d1a73ac4061420175ae350bbaeeebe195c0966b",
+        "author": "GateCross",
+        "date": "2026-01-14 11:30:22",
+        "message": "fix:兼容emoji文件名"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601131616",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "GateCross",
         "date": "2026-01-11 16:19:38",
         "message": "fix:优化云存储文件已存在提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601111848",
-    "items": [
-      {
-        "commit": "14bfb4822c3a5a8957598030ac34310d21af0de7",
-        "author": "liurongjie",
-        "date": "2026-01-11 18:28:45",
-        "message": "feat(task): 优化云存储秒传重试任务日志信息格式"
-      },
-      {
-        "commit": "160cf7e584a735d2ec5381e37b77b5891f3c928f",
-        "author": "GateCross",
-        "date": "2026-01-11 16:19:38",
-        "message": "fix:优化云存储文件已存在提示"
-      },
-      {
-        "commit": "02096c537412afd39e2752360bd0065c3f603076",
-        "author": "liurongjie",
-        "date": "2026-01-11 16:05:58",
-        "message": "fix(mediaserver): 增加 Plex 媒体库路径刷新调试日志"
       }
     ]
   }
