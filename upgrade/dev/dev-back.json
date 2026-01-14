@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202601141825",
+    "items": [
+      {
+        "commit": "e7e27bf743d8fdfc2378c29b14d012633e6ea5be",
+        "author": "liurongjie",
+        "date": "2026-01-14 18:25:31",
+        "message": "fix(database): 优化 TorrentInfo 媒体类型和 TMDB ID 索引"
+      },
+      {
+        "commit": "b4f239d7e6d6791ff9dddb997f881cbc15872d5f",
+        "author": "liurongjie",
+        "date": "2026-01-14 17:00:46",
+        "message": "perf(torrent): 移除种子匹配服务中的调试日志"
+      },
+      {
+        "commit": "7218f1279acc371168deb521851a83296d7fda53",
+        "author": "liurongjie",
+        "date": "2026-01-14 15:43:22",
+        "message": "Revert \"perf(cloudStorage): 统计并记录strm302请求总耗时\""
+      },
+      {
+        "commit": "ef51e6de5c1f7dde8180968f8c4fa86b77705be1",
+        "author": "liurongjie",
+        "date": "2026-01-14 15:16:28",
+        "message": "perf(cloudStorage): 统计并记录strm302请求总耗时"
+      },
+      {
+        "commit": "0d1a73ac4061420175ae350bbaeeebe195c0966b",
+        "author": "GateCross",
+        "date": "2026-01-14 11:30:22",
+        "message": "fix:兼容emoji文件名"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141550",
     "items": [
       {
@@ -113,17 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-12 14:26:05",
         "message": "feat:订阅精选推荐增加移动端额外字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601121335",
-    "items": [
-      {
-        "commit": "41d5712291dc42816680e0244164f36d9986d93c",
-        "author": "yii",
-        "date": "2026-01-12 13:13:25",
-        "message": "fix：移除内外网判断"
       }
     ]
   }
