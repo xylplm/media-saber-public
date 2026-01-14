@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601142319",
+    "items": [
+      {
+        "commit": "e3988bf109ef05ff28eba073e69c43b2c1c6958d",
+        "author": "liurongjie",
+        "date": "2026-01-14 23:18:31",
+        "message": "refactor(pg): 优化PostgreSQL配置增加环境变量支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601142213",
     "items": [
       {
@@ -119,35 +130,6 @@
         "author": "GateCross",
         "date": "2026-01-12 22:33:23",
         "message": "fix:优化待订阅重复订阅问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601121858",
-    "items": [
-      {
-        "commit": "7194e07eab93b6c5265df2482a60ae1a63d2ab0e",
-        "author": "Jolc",
-        "date": "2026-01-12 18:58:22",
-        "message": "fix: 115 生活事件来源目录不匹配时打日志"
-      },
-      {
-        "commit": "17e2d7b068d773107cdf8aba997609887b8cc01d",
-        "author": "GateCross",
-        "date": "2026-01-12 14:26:05",
-        "message": "feat:订阅精选推荐增加移动端额外字段"
-      },
-      {
-        "commit": "41d5712291dc42816680e0244164f36d9986d93c",
-        "author": "yii",
-        "date": "2026-01-12 13:13:25",
-        "message": "fix：移除内外网判断"
-      },
-      {
-        "commit": "3df355ceddfadcdc330cf7a0548dfc9bb04630a4",
-        "author": "GateCross",
-        "date": "2026-01-12 10:33:31",
-        "message": "fix:优化302公网IP"
       }
     ]
   }
