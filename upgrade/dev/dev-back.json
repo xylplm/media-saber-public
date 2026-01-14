@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601141544",
+    "items": [
+      {
+        "commit": "7218f1279acc371168deb521851a83296d7fda53",
+        "author": "liurongjie",
+        "date": "2026-01-14 15:43:22",
+        "message": "Revert \"perf(cloudStorage): 统计并记录strm302请求总耗时\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141516",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-12 10:33:31",
         "message": "fix:优化302公网IP"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601112254",
-    "items": [
-      {
-        "commit": "7158e071d5bcf6b5e6679143c01fa0a2ab60cab2",
-        "author": "Jolc",
-        "date": "2026-01-11 22:53:46",
-        "message": "feat: pc redis 缓存"
       }
     ]
   }
