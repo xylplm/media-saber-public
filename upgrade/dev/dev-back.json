@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601151659",
+    "items": [
+      {
+        "commit": "5795b09dfc245ae646562d022893ed4589aca63b",
+        "author": "xylplm",
+        "date": "2026-01-15 16:57:47",
+        "message": "feat: 站点适配过滤添加时区转换过滤器，支持时间戳的时区偏移处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151633",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "yii",
         "date": "2026-01-14 15:48:43",
         "message": "perf: 减少应用启动资源开销 提升启动速度 破坏整体系统依赖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601141544",
-    "items": [
-      {
-        "commit": "7218f1279acc371168deb521851a83296d7fda53",
-        "author": "liurongjie",
-        "date": "2026-01-14 15:43:22",
-        "message": "Revert \"perf(cloudStorage): 统计并记录strm302请求总耗时\""
       }
     ]
   }
