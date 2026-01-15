@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601151347",
+    "items": [
+      {
+        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
+        "author": "xylplm",
+        "date": "2026-01-15 13:46:01",
+        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
+      },
+      {
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151101",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-01-11 20:26:47",
         "message": "fix(dateUtils): 添加对时间为0的处理，返回'刚刚'"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601111620",
-    "items": [
-      {
-        "commit": "9a9286441a267f5f9b75843ba6bfc141b6b6783c",
-        "author": "liurongjie",
-        "date": "2026-01-11 15:38:22",
-        "message": "fix(cloud-storage): 修复任务卡片布局和用时显示问题"
       }
     ]
   }

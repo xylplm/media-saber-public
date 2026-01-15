@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601151347",
+    "items": [
+      {
+        "commit": "14d35cd3b34597d41f01471e4e5240852bed44da",
+        "author": "yii",
+        "date": "2026-01-15 12:04:13",
+        "message": "refactor: 重构用户登录功能 破坏性更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151101",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-14 11:30:22",
         "message": "fix:兼容emoji文件名"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601131616",
-    "items": [
-      {
-        "commit": "c1024659047aa2872e2f6e302aa4322651aac99f",
-        "author": "GateCross",
-        "date": "2026-01-13 16:16:02",
-        "message": "fix:优化电影文件夹tmdbid重命名"
       }
     ]
   }
