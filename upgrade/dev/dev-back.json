@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601152246",
+    "items": [
+      {
+        "commit": "917da10e799011478f7bcd9b486ca5c78022e4b9",
+        "author": "GateCross",
+        "date": "2026-01-15 22:36:16",
+        "message": "feat:重构302媒体代理服务(破坏性更新)"
+      },
+      {
+        "commit": "c7d5347b6bbc179c8ec827bfcb11987c5ec22af1",
+        "author": "xylplm",
+        "date": "2026-01-15 20:18:09",
+        "message": "fix: 增强升级包下载的错误处理，检查HTTP状态码、内容长度和gzip格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151659",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "GateCross",
         "date": "2026-01-14 11:30:22",
         "message": "fix:兼容emoji文件名"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601141550",
-    "items": [
-      {
-        "commit": "dcc4481c56dcdcfd52dd5dcf64c81cc944c59c23",
-        "author": "yii",
-        "date": "2026-01-14 15:48:43",
-        "message": "perf: 减少应用启动资源开销 提升启动速度 破坏整体系统依赖"
       }
     ]
   }
