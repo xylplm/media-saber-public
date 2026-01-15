@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601151101",
+    "items": [
+      {
+        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
+        "author": "xylplm",
+        "date": "2026-01-15 10:55:43",
+        "message": "fix: 修复部分颜色和样式错误"
+      },
+      {
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601141203",
     "items": [
       {
@@ -125,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-01-11 15:38:22",
         "message": "fix(cloud-storage): 修复任务卡片布局和用时显示问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601111426",
-    "items": [
-      {
-        "commit": "fe16e2cd2babac8a158573c10fa500ca4d527bff",
-        "author": "liurongjie",
-        "date": "2026-01-11 14:27:14",
-        "message": "style(cloud-storage): 调整任务卡片布局间距和栅格列数"
-      },
-      {
-        "commit": "d8f2f76150d2003ceca73a04dfb2c3c53bf6ec0e",
-        "author": "liurongjie",
-        "date": "2026-01-11 14:13:59",
-        "message": "style(cloud-storage): 优化组件HTML样式和布局"
       }
     ]
   }

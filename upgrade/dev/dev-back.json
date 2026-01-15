@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601151101",
+    "items": [
+      {
+        "commit": "24597b7863e96edfc9d3eb9edabce4806d8849d3",
+        "author": "yii",
+        "date": "2026-01-15 10:10:48",
+        "message": "perf: 优化rpc连接"
+      },
+      {
+        "commit": "22cde6dc0b380b6c0d728295ff66e5758d183897",
+        "author": "yii",
+        "date": "2026-01-15 09:49:54",
+        "message": "fix：错误消息返回"
+      },
+      {
+        "commit": "1e1eab70813179c12f6dfcfa1896a2309cc62468",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:09:27",
+        "message": "perf(media): 降低并发数限制以减少数据库连接压力"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601142319",
     "items": [
       {
@@ -119,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-13 16:16:02",
         "message": "fix:优化电影文件夹tmdbid重命名"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601122234",
-    "items": [
-      {
-        "commit": "b11954af8e7cdeb6d2315b2b593d753e7cf596e6",
-        "author": "GateCross",
-        "date": "2026-01-12 22:33:23",
-        "message": "fix:优化待订阅重复订阅问题"
       }
     ]
   }
