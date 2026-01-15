@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601152314",
+    "items": [
+      {
+        "commit": "b26e6f896e94f86e9e9dc4fd95577ee1126fd361",
+        "author": "Jolc",
+        "date": "2026-01-15 23:11:38",
+        "message": "feat: sync oplist、strm driver"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601152301",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-01-14 22:13:19",
         "message": "perf(download): 优化下载历史媒体状态及站点信息查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601141844",
-    "items": [
-      {
-        "commit": "887670488a5048cc1c0a6358022f25c0b611a1c6",
-        "author": "liurongjie",
-        "date": "2026-01-14 18:43:42",
-        "message": "Revert \"fix(database): 优化 TorrentInfo 媒体类型和 TMDB ID 索引\""
       }
     ]
   }

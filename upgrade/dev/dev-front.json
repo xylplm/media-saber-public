@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601152314",
+    "items": [
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601152301",
     "items": [
       {
@@ -161,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-01-12 17:08:23",
         "message": "feat(input-seleted-search): 添加复制选项名称功能，优化选项展示样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601121858",
-    "items": [
-      {
-        "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
-        "author": "GateCross",
-        "date": "2026-01-12 16:58:21",
-        "message": "fix:优化网盘错误显示及样式"
       }
     ]
   }
