@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601151413",
+    "items": [
+      {
+        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
+        "author": "xylplm",
+        "date": "2026-01-15 14:12:27",
+        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151347",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "GateCross",
         "date": "2026-01-12 16:58:21",
         "message": "fix:优化网盘错误显示及样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601112243",
-    "items": [
-      {
-        "commit": "62d16fbad7cee732d16a9b7589b83b7dea41dac0",
-        "author": "xylplm",
-        "date": "2026-01-11 20:58:22",
-        "message": "fix(site-statistics): 修复站点数据导出错误"
-      },
-      {
-        "commit": "e5d0df1a740616972fa18e798fd528a975914645",
-        "author": "xylplm",
-        "date": "2026-01-11 20:51:29",
-        "message": "fix(site-statistics): 修复数据排序时的跟踪字段，使用siteId替代id"
-      },
-      {
-        "commit": "38099f89237ab5e1b5ee1cac161907a6bf03c3d4",
-        "author": "xylplm",
-        "date": "2026-01-11 20:26:47",
-        "message": "fix(dateUtils): 添加对时间为0的处理，返回'刚刚'"
       }
     ]
   }
