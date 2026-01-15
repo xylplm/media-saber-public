@@ -1,159 +1,141 @@
 [
   {
-    "version": "DEV_202512121645",
+    "version": "DEV_202601152314",
     "items": [
       {
-        "commit": "a7bee118f9ef36b3729bcfaf623af7e81cae4ddf",
-        "author": "liurongjie",
-        "date": "2025-12-12 16:45:17",
-        "message": "feat: 优化消息推送内容格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512121357",
-    "items": [
-      {
-        "commit": "3aa7fef0b4e450ac75638529b99f35f9be085709",
-        "author": "liurongjie",
-        "date": "2025-12-12 13:56:05",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512121029",
-    "items": [
-      {
-        "commit": "03ebb26cf6e4a418f2c2acaee3ba2c10cd231efd",
-        "author": "liurongjie",
-        "date": "2025-12-12 10:29:10",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512120004",
-    "items": [
-      {
-        "commit": "f09d51b1ef78d7e9e5c92db0b4628b0dbd1dfe09",
-        "author": "liurongjie",
-        "date": "2025-12-12 00:03:46",
-        "message": "refactor: 优化通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512111307",
-    "items": [
-      {
-        "commit": "f483f22a2c83be1d593ea22fe334550574300fdc",
-        "author": "liurongjie",
-        "date": "2025-12-11 13:04:33",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "025202b19a4cbb18269745edc860e25a99459e0b",
-        "author": "liurongjie",
-        "date": "2025-12-11 12:36:51",
-        "message": "refactor: 优化通知消息"
-      },
-      {
-        "commit": "0dd5cd6483399e4ce4ae95fc52aace2c9e31dae9",
-        "author": "liurongjie",
-        "date": "2025-12-11 10:56:01",
-        "message": "refactor: 优化下载通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512111110",
-    "items": [
-      {
-        "commit": "b228bb1016b6f5cdf753bd437ba9036533f60cd0",
+        "commit": "b26e6f896e94f86e9e9dc4fd95577ee1126fd361",
         "author": "Jolc",
-        "date": "2025-12-11 11:02:04",
-        "message": "feat:增加迅雷驱动、云存储跨盘复制移动成功或失败回调事件、hdhive 签到插件优化、"
-      },
-      {
-        "commit": "0dd5cd6483399e4ce4ae95fc52aace2c9e31dae9",
-        "author": "liurongjie",
-        "date": "2025-12-11 10:56:01",
-        "message": "refactor: 优化下载通知消息"
-      },
-      {
-        "commit": "9bc8a7ca595edf79cfefdd5d4cc20ec19ad770db",
-        "author": "liurongjie",
-        "date": "2025-12-10 21:58:51",
-        "message": "fix(api): 优化GitHub限流错误提示信息"
+        "date": "2026-01-15 23:11:38",
+        "message": "feat: sync oplist、strm driver"
       }
     ]
   },
   {
-    "version": "DEV_202512101957",
+    "version": "DEV_202601152301",
     "items": [
       {
-        "commit": "a5f5d4bea21ecb906c5800dd1d16dd23a4d236f4",
-        "author": "yii",
-        "date": "2025-12-10 19:56:29",
-        "message": "fix: 请求偶发性异常问题"
-      },
-      {
-        "commit": "79ccf09056d4d6440d8694ee157b0a2531e186dd",
-        "author": "liurongjie",
-        "date": "2025-12-10 15:06:53",
-        "message": "feat: 优化消息推送内容格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512101011",
-    "items": [
-      {
-        "commit": "49703226f9c7add872808815cca34edeb3dd25b4",
-        "author": "yii",
-        "date": "2025-12-10 10:11:35",
-        "message": "fix: 刚刚腿只打断了一半"
-      },
-      {
-        "commit": "5103129b6452eaf22d0a16f52a99fb8754ffda7f",
-        "author": "yii",
-        "date": "2025-12-10 10:10:24",
-        "message": "fix: 程序跑太快了给腿打断"
-      },
-      {
-        "commit": "7fcf092cd9d3f42134b6c839b2559b31983aedeb",
-        "author": "liurongjie",
-        "date": "2025-12-09 23:18:09",
-        "message": "feat: 优化消息推送内容格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512092301",
-    "items": [
-      {
-        "commit": "e60e38af84fcbd2ba6065b5bfbc553e4d98b04ba",
+        "commit": "3bfbd3a592a881cd4a80bc4d85e07f04ab1d9a15",
         "author": "GateCross",
-        "date": "2025-12-09 23:03:18",
-        "message": "fix:log"
-      },
-      {
-        "commit": "912ba0fbef83334063d22007ecee479e60f560b3",
-        "author": "yii",
-        "date": "2025-12-09 23:00:34",
-        "message": "fix: 优化程序跑的太快的问题"
+        "date": "2026-01-15 23:00:07",
+        "message": "fix:优化媒体代理端口占用问题"
       }
     ]
   },
   {
-    "version": "DEV_202512092153",
+    "version": "DEV_202601152246",
     "items": [
       {
-        "commit": "86b27c0e18cc49aae5831ea3111b42e171e0f8c5",
+        "commit": "917da10e799011478f7bcd9b486ca5c78022e4b9",
+        "author": "GateCross",
+        "date": "2026-01-15 22:36:16",
+        "message": "feat:重构302媒体代理服务(破坏性更新)"
+      },
+      {
+        "commit": "c7d5347b6bbc179c8ec827bfcb11987c5ec22af1",
+        "author": "xylplm",
+        "date": "2026-01-15 20:18:09",
+        "message": "fix: 增强升级包下载的错误处理，检查HTTP状态码、内容长度和gzip格式"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151659",
+    "items": [
+      {
+        "commit": "5795b09dfc245ae646562d022893ed4589aca63b",
+        "author": "xylplm",
+        "date": "2026-01-15 16:57:47",
+        "message": "feat: 站点适配过滤添加时区转换过滤器，支持时间戳的时区偏移处理"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151633",
+    "items": [
+      {
+        "commit": "02eb38da8fbb781dd2046f2fdd8ea0b223ead890",
         "author": "yii",
-        "date": "2025-12-09 21:52:54",
-        "message": "fix: 优化接口性能过高的问题"
+        "date": "2026-01-15 16:19:05",
+        "message": "fix: 修复用户认证错误处理"
+      },
+      {
+        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
+        "author": "liurongjie",
+        "date": "2026-01-15 14:18:40",
+        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151426",
+    "items": [
+      {
+        "commit": "fd058c572cdd9d4c99954bd70f6db389a732bf5e",
+        "author": "yii",
+        "date": "2026-01-15 14:24:45",
+        "message": "refactor: 重构用户注册、密码修改、API KEY生成功能 破坏性更新"
+      },
+      {
+        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
+        "author": "liurongjie",
+        "date": "2026-01-15 14:18:40",
+        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151347",
+    "items": [
+      {
+        "commit": "14d35cd3b34597d41f01471e4e5240852bed44da",
+        "author": "yii",
+        "date": "2026-01-15 12:04:13",
+        "message": "refactor: 重构用户登录功能 破坏性更新"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151101",
+    "items": [
+      {
+        "commit": "24597b7863e96edfc9d3eb9edabce4806d8849d3",
+        "author": "yii",
+        "date": "2026-01-15 10:10:48",
+        "message": "perf: 优化rpc连接"
+      },
+      {
+        "commit": "22cde6dc0b380b6c0d728295ff66e5758d183897",
+        "author": "yii",
+        "date": "2026-01-15 09:49:54",
+        "message": "fix：错误消息返回"
+      },
+      {
+        "commit": "1e1eab70813179c12f6dfcfa1896a2309cc62468",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:09:27",
+        "message": "perf(media): 降低并发数限制以减少数据库连接压力"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601142319",
+    "items": [
+      {
+        "commit": "e3988bf109ef05ff28eba073e69c43b2c1c6958d",
+        "author": "liurongjie",
+        "date": "2026-01-14 23:18:31",
+        "message": "refactor(pg): 优化PostgreSQL配置增加环境变量支持"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601142213",
+    "items": [
+      {
+        "commit": "eaf7634853170f4a410aea819aa6f8c97b2fa818",
+        "author": "liurongjie",
+        "date": "2026-01-14 22:13:19",
+        "message": "perf(download): 优化下载历史媒体状态及站点信息查询"
       }
     ]
   }

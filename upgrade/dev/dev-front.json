@@ -1,141 +1,213 @@
 [
   {
-    "version": "DEV_202512082239",
+    "version": "DEV_202601152327",
     "items": [
       {
-        "commit": "104cc042079927136ee5da42f39069aaa97c0c17",
+        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
         "author": "xylplm",
-        "date": "2025-12-08 22:38:44",
-        "message": "fix:修复下拉面板"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081839",
-    "items": [
-      {
-        "commit": "3e9a8e61a5c7d1174b5d81dfd26d835ce7244471",
-        "author": "xylplm",
-        "date": "2025-12-08 17:50:38",
-        "message": "fix: prompt"
+        "date": "2026-01-15 14:12:27",
+        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
       },
       {
-        "commit": "40abcd65e468e763d0e28d3c5548d7fc7a4690cc",
+        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
         "author": "xylplm",
-        "date": "2025-12-08 16:56:05",
-        "message": "fix: code format"
+        "date": "2026-01-15 13:46:01",
+        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
       },
       {
-        "commit": "0a86917dbeecfd64f0964b88dabfb8c49edc86a3",
+        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
         "author": "xylplm",
-        "date": "2025-12-08 16:52:28",
-        "message": "Update package.json"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081643",
-    "items": [
+        "date": "2026-01-15 10:55:43",
+        "message": "fix: 修复部分颜色和样式错误"
+      },
       {
-        "commit": "81a0b7cd2902d489e15357a0c5775b5156678f13",
-        "author": "xylplm",
-        "date": "2025-12-08 16:16:37",
-        "message": "refactor: 升级angular 21 并更新依赖，修复一些lint问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512081027",
-    "items": [
-      {
-        "commit": "f5b02052cf987e84ec59f2b708943e4f4de53720",
-        "author": "xylplm",
-        "date": "2025-12-08 09:55:45",
-        "message": "fix: 分类 语言和地区取消全部选项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512072308",
-    "items": [
-      {
-        "commit": "ed1d69c47d4ecef787da5a1cf9f761f2cc0023bd",
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
         "author": "liurongjie",
-        "date": "2025-12-07 23:08:06",
-        "message": "feat(settings): 添加GitHub访问令牌配置项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512062154",
-    "items": [
-      {
-        "commit": "34917d41693eb4e2954fcf405fadd6321e1193af",
-        "author": "xylplm",
-        "date": "2025-12-06 21:54:18",
-        "message": "fix: 优化文件列表大于100条分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512061834",
-    "items": [
-      {
-        "commit": "ad5df44f9524f3042f43431e1aa4fbf11c1aa774",
-        "author": "xylplm",
-        "date": "2025-12-06 12:02:40",
-        "message": "fix:优化文件列表 虚拟滚动 避免浏览器卡死"
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
       },
       {
-        "commit": "a4af7f0dcfa43362761277713288c1d85ee1fe14",
-        "author": "xylplm",
-        "date": "2025-12-06 11:25:46",
-        "message": "fix:云存储文件列表虚拟滚动，防止大量文件浏览器卡死"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512051544",
-    "items": [
-      {
-        "commit": "86209492b219d24ff76b53aa8f25d283ee915e63",
-        "author": "xylplm",
-        "date": "2025-12-05 15:28:38",
-        "message": "feat:朱雀签到图标"
+        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
+        "author": "liurongjie",
+        "date": "2026-01-14 12:02:37",
+        "message": "fix(media-detail): 调整季列表样式和名称显示"
       },
       {
-        "commit": "1832fcbea58b39e35d7531248422617f347594ae",
-        "author": "xylplm",
-        "date": "2025-12-05 13:16:15",
-        "message": "fix: 动态表单alert提示信息增加下边距"
-      },
-      {
-        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "commit": "885affbf05906ea329856ec67f855fffed0ddd3d",
         "author": "GateCross",
-        "date": "2025-12-03 10:05:27",
-        "message": "feat:前端增加定时任务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512042056",
-    "items": [
+        "date": "2026-01-13 17:07:19",
+        "message": "fix:修复网盘分享重复问题"
+      },
       {
-        "commit": "7c61cc4fac6162903e5cde35be3410768e96fcac",
-        "author": "xylplm",
-        "date": "2025-12-03 13:57:11",
-        "message": "feat:表单警告提示组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512040049",
-    "items": [
-      {
-        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
         "author": "GateCross",
-        "date": "2025-12-03 10:05:27",
-        "message": "feat:前端增加定时任务"
+        "date": "2026-01-13 10:48:44",
+        "message": "fix:修复strm生成现实数据"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601152314",
+    "items": [
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601152301",
+    "items": [
+      {
+        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
+        "author": "xylplm",
+        "date": "2026-01-15 14:12:27",
+        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
+      },
+      {
+        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
+        "author": "xylplm",
+        "date": "2026-01-15 13:46:01",
+        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
+      },
+      {
+        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
+        "author": "xylplm",
+        "date": "2026-01-15 10:55:43",
+        "message": "fix: 修复部分颜色和样式错误"
+      },
+      {
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
+      },
+      {
+        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
+        "author": "liurongjie",
+        "date": "2026-01-14 12:02:37",
+        "message": "fix(media-detail): 调整季列表样式和名称显示"
+      },
+      {
+        "commit": "885affbf05906ea329856ec67f855fffed0ddd3d",
+        "author": "GateCross",
+        "date": "2026-01-13 17:07:19",
+        "message": "fix:修复网盘分享重复问题"
+      },
+      {
+        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
+        "author": "GateCross",
+        "date": "2026-01-13 10:48:44",
+        "message": "fix:修复strm生成现实数据"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601152246",
+    "items": [
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151413",
+    "items": [
+      {
+        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
+        "author": "xylplm",
+        "date": "2026-01-15 14:12:27",
+        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151347",
+    "items": [
+      {
+        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
+        "author": "xylplm",
+        "date": "2026-01-15 13:46:01",
+        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
+      },
+      {
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601151101",
+    "items": [
+      {
+        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
+        "author": "xylplm",
+        "date": "2026-01-15 10:55:43",
+        "message": "fix: 修复部分颜色和样式错误"
+      },
+      {
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601141203",
+    "items": [
+      {
+        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
+        "author": "liurongjie",
+        "date": "2026-01-14 12:02:37",
+        "message": "fix(media-detail): 调整季列表样式和名称显示"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601131707",
+    "items": [
+      {
+        "commit": "885affbf05906ea329856ec67f855fffed0ddd3d",
+        "author": "GateCross",
+        "date": "2026-01-13 17:07:19",
+        "message": "fix:修复网盘分享重复问题"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202601131052",
+    "items": [
+      {
+        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
+        "author": "GateCross",
+        "date": "2026-01-13 10:48:44",
+        "message": "fix:修复strm生成显示数据"
+      },
+      {
+        "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
+        "author": "GateCross",
+        "date": "2026-01-12 16:58:21",
+        "message": "fix:优化网盘错误显示及样式"
       }
     ]
   }
