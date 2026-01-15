@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601151633",
+    "items": [
+      {
+        "commit": "02eb38da8fbb781dd2046f2fdd8ea0b223ead890",
+        "author": "yii",
+        "date": "2026-01-15 16:19:05",
+        "message": "fix: 修复用户认证错误处理"
+      },
+      {
+        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
+        "author": "liurongjie",
+        "date": "2026-01-15 14:18:40",
+        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151426",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-01-14 15:43:22",
         "message": "Revert \"perf(cloudStorage): 统计并记录strm302请求总耗时\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601141516",
-    "items": [
-      {
-        "commit": "ef51e6de5c1f7dde8180968f8c4fa86b77705be1",
-        "author": "liurongjie",
-        "date": "2026-01-14 15:16:28",
-        "message": "perf(cloudStorage): 统计并记录strm302请求总耗时"
       }
     ]
   }
