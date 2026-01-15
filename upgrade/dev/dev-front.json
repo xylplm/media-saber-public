@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601160006",
+    "items": [
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601152327",
     "items": [
       {
@@ -191,23 +208,6 @@
         "author": "GateCross",
         "date": "2026-01-13 17:07:19",
         "message": "fix:修复网盘分享重复问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601131052",
-    "items": [
-      {
-        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
-        "author": "GateCross",
-        "date": "2026-01-13 10:48:44",
-        "message": "fix:修复strm生成显示数据"
-      },
-      {
-        "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
-        "author": "GateCross",
-        "date": "2026-01-12 16:58:21",
-        "message": "fix:优化网盘错误显示及样式"
       }
     ]
   }
