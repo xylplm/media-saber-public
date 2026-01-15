@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601160031",
+    "items": [
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601160018",
     "items": [
       {
@@ -233,17 +250,6 @@
         "author": "liurongjie",
         "date": "2026-01-15 00:04:37",
         "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601141203",
-    "items": [
-      {
-        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
-        "author": "liurongjie",
-        "date": "2026-01-14 12:02:37",
-        "message": "fix(media-detail): 调整季列表样式和名称显示"
       }
     ]
   }

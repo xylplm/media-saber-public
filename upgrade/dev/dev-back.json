@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601160031",
+    "items": [
+      {
+        "commit": "36d0816327f532e804b5901321fe5c9948479f78",
+        "author": "GateCross",
+        "date": "2026-01-16 00:29:58",
+        "message": "fix:优化302请求"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601152314",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-01-14 23:18:31",
         "message": "refactor(pg): 优化PostgreSQL配置增加环境变量支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601142213",
-    "items": [
-      {
-        "commit": "eaf7634853170f4a410aea819aa6f8c97b2fa818",
-        "author": "liurongjie",
-        "date": "2026-01-14 22:13:19",
-        "message": "perf(download): 优化下载历史媒体状态及站点信息查询"
       }
     ]
   }
