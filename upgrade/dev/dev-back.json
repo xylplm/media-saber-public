@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601151426",
+    "items": [
+      {
+        "commit": "fd058c572cdd9d4c99954bd70f6db389a732bf5e",
+        "author": "yii",
+        "date": "2026-01-15 14:24:45",
+        "message": "refactor: 重构用户注册、密码修改、API KEY生成功能 破坏性更新"
+      },
+      {
+        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
+        "author": "liurongjie",
+        "date": "2026-01-15 14:18:40",
+        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202601151347",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-01-14 15:16:28",
         "message": "perf(cloudStorage): 统计并记录strm302请求总耗时"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601141131",
-    "items": [
-      {
-        "commit": "0d1a73ac4061420175ae350bbaeeebe195c0966b",
-        "author": "GateCross",
-        "date": "2026-01-14 11:30:22",
-        "message": "fix:兼容emoji文件名"
       }
     ]
   }
