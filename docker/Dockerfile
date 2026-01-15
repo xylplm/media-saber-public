@@ -8,6 +8,8 @@ ENV MS_PORT="8888" \
     MS_AUTH_EMAIL="" \
     MS_AUTH_SLOGAN="" \
     MS_LOG_LEVEL="info" \
+    MS_LOG_KEEP_DAYS="14" \
+    MS_LOG_MAX_SIZE="10" \
     MS_TIMEOUT="15000" \
     MS_PGSQL_USERNAME="postgres" \
     MS_PGSQL_PASSWORD="ms888888" \
@@ -41,13 +43,15 @@ COPY msaber-front/. /app/front
 COPY msaber-back-${TARGETARCH}/etc/. /app/etc
 COPY msaber-back-${TARGETARCH}/doc/. /app/doc
 COPY msaber-back-${TARGETARCH}/static/. /app/static
+COPY nginx.template.conf /etc/nginx/nginx.template.conf
 COPY entrypoint.sh /entrypoint.sh
 COPY upgrade.sh /upgrade.sh
 
-# 移除了 nginx、nginx-mod-http-js、gettext（用于 envsubst）
-# 媒体代理现在使用内置 Go 代理，不再需要 Nginx
 RUN apk --no-cache add \
         tzdata \
+        nginx \
+        nginx-mod-http-js \
+        gettext \
         su-exec \
         bash \
         shadow \
