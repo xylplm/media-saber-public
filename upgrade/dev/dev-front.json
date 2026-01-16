@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202601161410",
+    "items": [
+      {
+        "commit": "661ffcb5978e356733997a305930ca74cf7ed0e4",
+        "author": "xylplm",
+        "date": "2026-01-16 14:10:39",
+        "message": "chore: 升级 Angular 21.1.0 及相关依赖到最新版本"
+      },
+      {
+        "commit": "bd064eaf60095766fa24e0f46889bff78bcf013c",
+        "author": "liurongjie",
+        "date": "2026-01-16 11:49:15",
+        "message": "style(cloud-storage): 优化网格布局和卡片内容样式"
+      },
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601161129",
     "items": [
       {
@@ -275,53 +304,6 @@
         "author": "xylplm",
         "date": "2026-01-15 17:38:29",
         "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601152301",
-    "items": [
-      {
-        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
-        "author": "xylplm",
-        "date": "2026-01-15 14:12:27",
-        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
-      },
-      {
-        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
-        "author": "xylplm",
-        "date": "2026-01-15 13:46:01",
-        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
-      },
-      {
-        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
-        "author": "xylplm",
-        "date": "2026-01-15 10:55:43",
-        "message": "fix: 修复部分颜色和样式错误"
-      },
-      {
-        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
-        "author": "liurongjie",
-        "date": "2026-01-15 00:04:37",
-        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
-      },
-      {
-        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
-        "author": "liurongjie",
-        "date": "2026-01-14 12:02:37",
-        "message": "fix(media-detail): 调整季列表样式和名称显示"
-      },
-      {
-        "commit": "885affbf05906ea329856ec67f855fffed0ddd3d",
-        "author": "GateCross",
-        "date": "2026-01-13 17:07:19",
-        "message": "fix:修复网盘分享重复问题"
-      },
-      {
-        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
-        "author": "GateCross",
-        "date": "2026-01-13 10:48:44",
-        "message": "fix:修复strm生成现实数据"
       }
     ]
   }

@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601161410",
+    "items": [
+      {
+        "commit": "fd181be7f45013967410dad5e6b5c545c3dba454",
+        "author": "Jolc",
+        "date": "2026-01-16 14:09:46",
+        "message": "fix: strm 优化"
+      },
+      {
+        "commit": "718d844f34c1c9e62787e3e5e5fb4a8487e1b565",
+        "author": "xylplm",
+        "date": "2026-01-16 13:45:21",
+        "message": "fix: 限制订阅任务超时时间为15分钟，优化MQ处理逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601161129",
     "items": [
       {
@@ -101,23 +118,6 @@
         "author": "xylplm",
         "date": "2026-01-15 16:57:47",
         "message": "feat: 站点适配过滤添加时区转换过滤器，支持时间戳的时区偏移处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601151633",
-    "items": [
-      {
-        "commit": "02eb38da8fbb781dd2046f2fdd8ea0b223ead890",
-        "author": "yii",
-        "date": "2026-01-15 16:19:05",
-        "message": "fix: 修复用户认证错误处理"
-      },
-      {
-        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
-        "author": "liurongjie",
-        "date": "2026-01-15 14:18:40",
-        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
       }
     ]
   }
