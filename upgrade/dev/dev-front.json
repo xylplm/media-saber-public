@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601162048",
+    "items": [
+      {
+        "commit": "f79af1bdf4dfef1cf7b636ec628c8965f6db5f0f",
+        "author": "weni09",
+        "date": "2026-01-16 20:47:38",
+        "message": "fix: 表单假值获取问题"
+      },
+      {
+        "commit": "bd064eaf60095766fa24e0f46889bff78bcf013c",
+        "author": "liurongjie",
+        "date": "2026-01-16 11:49:15",
+        "message": "style(cloud-storage): 优化网格布局和卡片内容样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601161410",
     "items": [
       {
@@ -287,23 +304,6 @@
         "author": "GateCross",
         "date": "2026-01-13 10:48:44",
         "message": "fix:修复strm生成现实数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601152314",
-    "items": [
-      {
-        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:35",
-        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
-      },
-      {
-        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:29",
-        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
       }
     ]
   }

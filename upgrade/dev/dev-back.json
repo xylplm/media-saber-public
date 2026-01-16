@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202601162048",
+    "items": [
+      {
+        "commit": "718d844f34c1c9e62787e3e5e5fb4a8487e1b565",
+        "author": "xylplm",
+        "date": "2026-01-16 13:45:21",
+        "message": "fix: 限制订阅任务超时时间为15分钟，优化MQ处理逻辑"
+      },
+      {
+        "commit": "c6e7fb0f07c02d0c0fb4ad62cffa618a251ea6b6",
+        "author": "GateCross",
+        "date": "2026-01-16 11:28:58",
+        "message": "fix:优化媒体代理启动"
+      },
+      {
+        "commit": "13985514414d43a3615c2239bb13321097b9b0a0",
+        "author": "GateCross",
+        "date": "2026-01-16 10:29:28",
+        "message": "fix:媒体代理优化"
+      },
+      {
+        "commit": "9bb294a3e42fe8895a6eb93121b02e314a0e2536",
+        "author": "GateCross",
+        "date": "2026-01-16 09:17:26",
+        "message": "fix:增加媒体代理格式"
+      },
+      {
+        "commit": "c3d0e94430114e108d9b7a416553c96d7f1d73ec",
+        "author": "GateCross",
+        "date": "2026-01-16 09:08:04",
+        "message": "fix:302适配senplayer"
+      },
+      {
+        "commit": "36d0816327f532e804b5901321fe5c9948479f78",
+        "author": "GateCross",
+        "date": "2026-01-16 00:29:58",
+        "message": "fix:优化302请求"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601161410",
     "items": [
       {
@@ -107,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-01-15 20:18:09",
         "message": "fix: 增强升级包下载的错误处理，检查HTTP状态码、内容长度和gzip格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601151659",
-    "items": [
-      {
-        "commit": "5795b09dfc245ae646562d022893ed4589aca63b",
-        "author": "xylplm",
-        "date": "2026-01-15 16:57:47",
-        "message": "feat: 站点适配过滤添加时区转换过滤器，支持时间戳的时区偏移处理"
       }
     ]
   }
