@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601161030",
+    "items": [
+      {
+        "commit": "13985514414d43a3615c2239bb13321097b9b0a0",
+        "author": "GateCross",
+        "date": "2026-01-16 10:29:28",
+        "message": "fix:媒体代理优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601160918",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-01-15 14:18:40",
         "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601151347",
-    "items": [
-      {
-        "commit": "14d35cd3b34597d41f01471e4e5240852bed44da",
-        "author": "yii",
-        "date": "2026-01-15 12:04:13",
-        "message": "refactor: 重构用户登录功能 破坏性更新"
       }
     ]
   }
