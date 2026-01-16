@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601162120",
+    "items": [
+      {
+        "commit": "db49a21d92d34b9685923eb41d5a873fb15284e4",
+        "author": "GateCross",
+        "date": "2026-01-16 21:19:52",
+        "message": "fix:修复jellyfin媒体代理"
+      },
+      {
+        "commit": "fd181be7f45013967410dad5e6b5c545c3dba454",
+        "author": "Jolc",
+        "date": "2026-01-16 14:09:46",
+        "message": "fix: strm 优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601162048",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-15 23:00:07",
         "message": "fix:优化媒体代理端口占用问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601152246",
-    "items": [
-      {
-        "commit": "917da10e799011478f7bcd9b486ca5c78022e4b9",
-        "author": "GateCross",
-        "date": "2026-01-15 22:36:16",
-        "message": "feat:重构302媒体代理服务(破坏性更新)"
-      },
-      {
-        "commit": "c7d5347b6bbc179c8ec827bfcb11987c5ec22af1",
-        "author": "xylplm",
-        "date": "2026-01-15 20:18:09",
-        "message": "fix: 增强升级包下载的错误处理，检查HTTP状态码、内容长度和gzip格式"
       }
     ]
   }
