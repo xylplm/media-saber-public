@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601160918",
+    "items": [
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601160909",
     "items": [
       {
@@ -263,23 +280,6 @@
         "author": "xylplm",
         "date": "2026-01-15 14:12:27",
         "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601151347",
-    "items": [
-      {
-        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
-        "author": "xylplm",
-        "date": "2026-01-15 13:46:01",
-        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
-      },
-      {
-        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
-        "author": "liurongjie",
-        "date": "2026-01-15 00:04:37",
-        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
       }
     ]
   }

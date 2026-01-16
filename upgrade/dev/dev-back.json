@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601160918",
+    "items": [
+      {
+        "commit": "9bb294a3e42fe8895a6eb93121b02e314a0e2536",
+        "author": "GateCross",
+        "date": "2026-01-16 09:17:26",
+        "message": "fix:增加媒体代理格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601160909",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "yii",
         "date": "2026-01-15 12:04:13",
         "message": "refactor: 重构用户登录功能 破坏性更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601151101",
-    "items": [
-      {
-        "commit": "24597b7863e96edfc9d3eb9edabce4806d8849d3",
-        "author": "yii",
-        "date": "2026-01-15 10:10:48",
-        "message": "perf: 优化rpc连接"
-      },
-      {
-        "commit": "22cde6dc0b380b6c0d728295ff66e5758d183897",
-        "author": "yii",
-        "date": "2026-01-15 09:49:54",
-        "message": "fix：错误消息返回"
-      },
-      {
-        "commit": "1e1eab70813179c12f6dfcfa1896a2309cc62468",
-        "author": "liurongjie",
-        "date": "2026-01-15 00:09:27",
-        "message": "perf(media): 降低并发数限制以减少数据库连接压力"
       }
     ]
   }
