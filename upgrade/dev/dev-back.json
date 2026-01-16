@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601161129",
+    "items": [
+      {
+        "commit": "c6e7fb0f07c02d0c0fb4ad62cffa618a251ea6b6",
+        "author": "GateCross",
+        "date": "2026-01-16 11:28:58",
+        "message": "fix:优化媒体代理启动"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601161030",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "yii",
         "date": "2026-01-15 16:19:05",
         "message": "fix: 修复用户认证错误处理"
-      },
-      {
-        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
-        "author": "liurongjie",
-        "date": "2026-01-15 14:18:40",
-        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601151426",
-    "items": [
-      {
-        "commit": "fd058c572cdd9d4c99954bd70f6db389a732bf5e",
-        "author": "yii",
-        "date": "2026-01-15 14:24:45",
-        "message": "refactor: 重构用户注册、密码修改、API KEY生成功能 破坏性更新"
       },
       {
         "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",

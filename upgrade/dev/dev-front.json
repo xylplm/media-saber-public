@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601161129",
+    "items": [
+      {
+        "commit": "24e597d7b7a19d0a870cca2fa02aee2907543e3f",
+        "author": "xylplm",
+        "date": "2026-01-16 11:22:06",
+        "message": "refactor: 将 mat-divider 包裹在 div 中以改善布局"
+      },
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601161030",
     "items": [
       {
@@ -299,23 +322,6 @@
         "author": "GateCross",
         "date": "2026-01-13 10:48:44",
         "message": "fix:修复strm生成现实数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601152246",
-    "items": [
-      {
-        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:35",
-        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
-      },
-      {
-        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:29",
-        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
       }
     ]
   }
