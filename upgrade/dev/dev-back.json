@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601162154",
+    "items": [
+      {
+        "commit": "be51f11354e37b292423326b8409c9be0adc77dc",
+        "author": "Jolc",
+        "date": "2026-01-16 21:51:10",
+        "message": "feat: 批量创建 115 分享存储"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601162120",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-01-15 23:11:38",
         "message": "feat: sync oplist、strm driver"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601152301",
-    "items": [
-      {
-        "commit": "3bfbd3a592a881cd4a80bc4d85e07f04ab1d9a15",
-        "author": "GateCross",
-        "date": "2026-01-15 23:00:07",
-        "message": "fix:优化媒体代理端口占用问题"
       }
     ]
   }
