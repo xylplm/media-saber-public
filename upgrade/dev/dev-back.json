@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601171440",
+    "items": [
+      {
+        "commit": "99f70099d4331e3f892f71a9be5b71dc0b0f7498",
+        "author": "Jolc",
+        "date": "2026-01-17 14:39:49",
+        "message": "feat: 115 分享存储导入"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601162154",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-16 00:29:58",
         "message": "fix:优化302请求"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601152314",
-    "items": [
-      {
-        "commit": "b26e6f896e94f86e9e9dc4fd95577ee1126fd361",
-        "author": "Jolc",
-        "date": "2026-01-15 23:11:38",
-        "message": "feat: sync oplist、strm driver"
       }
     ]
   }
