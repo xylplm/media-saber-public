@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601172305",
+    "items": [
+      {
+        "commit": "5e771f0cc8a5c508b6a701d9e27533e24e84aaa7",
+        "author": "GateCross",
+        "date": "2026-01-17 23:04:25",
+        "message": "feat: 添加媒体代理插件，支持配置多个媒体服务器代理并处理认证。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601172250",
     "items": [
       {
@@ -161,23 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-16 00:29:58",
         "message": "fix:优化302请求"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601161410",
-    "items": [
-      {
-        "commit": "fd181be7f45013967410dad5e6b5c545c3dba454",
-        "author": "Jolc",
-        "date": "2026-01-16 14:09:46",
-        "message": "fix: strm 优化"
-      },
-      {
-        "commit": "718d844f34c1c9e62787e3e5e5fb4a8487e1b565",
-        "author": "xylplm",
-        "date": "2026-01-16 13:45:21",
-        "message": "fix: 限制订阅任务超时时间为15分钟，优化MQ处理逻辑"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601172305",
+    "items": [
+      {
+        "commit": "8cb07a05f6b83b5b556fabfcae382b2a914b891c",
+        "author": "GateCross",
+        "date": "2026-01-17 23:04:41",
+        "message": "feat: 添加 media_proxy SVG 图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601172250",
     "items": [
       {
@@ -167,53 +178,6 @@
         "author": "xylplm",
         "date": "2026-01-15 17:38:29",
         "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601161030",
-    "items": [
-      {
-        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
-        "author": "xylplm",
-        "date": "2026-01-15 14:12:27",
-        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
-      },
-      {
-        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
-        "author": "xylplm",
-        "date": "2026-01-15 13:46:01",
-        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
-      },
-      {
-        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
-        "author": "xylplm",
-        "date": "2026-01-15 10:55:43",
-        "message": "fix: 修复部分颜色和样式错误"
-      },
-      {
-        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
-        "author": "liurongjie",
-        "date": "2026-01-15 00:04:37",
-        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
-      },
-      {
-        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
-        "author": "liurongjie",
-        "date": "2026-01-14 12:02:37",
-        "message": "fix(media-detail): 调整季列表样式和名称显示"
-      },
-      {
-        "commit": "885affbf05906ea329856ec67f855fffed0ddd3d",
-        "author": "GateCross",
-        "date": "2026-01-13 17:07:19",
-        "message": "fix:修复网盘分享重复问题"
-      },
-      {
-        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
-        "author": "GateCross",
-        "date": "2026-01-13 10:48:44",
-        "message": "fix:修复strm生成现实数据"
       }
     ]
   }
