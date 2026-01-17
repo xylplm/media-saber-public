@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601171536",
+    "items": [
+      {
+        "commit": "bb0f90ed5b86b494add0fe57f92c4f33bbad79d0",
+        "author": "xylplm",
+        "date": "2026-01-17 15:35:03",
+        "message": "fix: 更新拉取数据逻辑，增加有效事件数和拉取事件数的返回，优化日志输出"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601171503",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-16 09:17:26",
         "message": "fix:增加媒体代理格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601160909",
-    "items": [
-      {
-        "commit": "c3d0e94430114e108d9b7a416553c96d7f1d73ec",
-        "author": "GateCross",
-        "date": "2026-01-16 09:08:04",
-        "message": "fix:302适配senplayer"
       }
     ]
   }
