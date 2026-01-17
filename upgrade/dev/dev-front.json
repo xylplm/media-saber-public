@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601171926",
+    "items": [
+      {
+        "commit": "7367b0564d6552b56805814cf7fee2e472b3f8a4",
+        "author": "xylplm",
+        "date": "2026-01-17 18:28:42",
+        "message": "fix: 站点图标加载"
+      },
+      {
+        "commit": "7474c134a56e57151e1ab082bf9d65155b670808",
+        "author": "syueya",
+        "date": "2026-01-17 17:23:24",
+        "message": "存储分页"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601171440",
     "items": [
       {
@@ -257,23 +274,6 @@
         "author": "GateCross",
         "date": "2026-01-13 10:48:44",
         "message": "fix:修复strm生成现实数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601160006",
-    "items": [
-      {
-        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:35",
-        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
-      },
-      {
-        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:29",
-        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
       }
     ]
   }
