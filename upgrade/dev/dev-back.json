@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601172250",
+    "items": [
+      {
+        "commit": "06d0f5f61c8838513c96927de42b85ca47cebda2",
+        "author": "Jolc",
+        "date": "2026-01-17 22:50:11",
+        "message": "fix: 云存储文件首页性能优化"
+      },
+      {
+        "commit": "8ec213699709f49d42da6cdefc3734b3e558e0c4",
+        "author": "xylplm",
+        "date": "2026-01-17 21:23:11",
+        "message": "fix: 腾讯视频类型判断错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601172043",
     "items": [
       {
@@ -161,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-01-16 13:45:21",
         "message": "fix: 限制订阅任务超时时间为15分钟，优化MQ处理逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601161129",
-    "items": [
-      {
-        "commit": "c6e7fb0f07c02d0c0fb4ad62cffa618a251ea6b6",
-        "author": "GateCross",
-        "date": "2026-01-16 11:28:58",
-        "message": "fix:优化媒体代理启动"
       }
     ]
   }

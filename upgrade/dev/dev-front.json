@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601172250",
+    "items": [
+      {
+        "commit": "679b9c6b4392d83ae2a27820c3f4e5d46e5f0827",
+        "author": "syueya",
+        "date": "2026-01-17 22:17:25",
+        "message": "fix:驱动可以选择空"
+      },
+      {
+        "commit": "2d6b322bff386ab6818c28dc8c90fc3886d79889",
+        "author": "syueya",
+        "date": "2026-01-17 21:47:13",
+        "message": "fix:存储排版"
+      },
+      {
+        "commit": "fd44237a3479a43347ceba977fdfce2ee829bb35",
+        "author": "GateCross",
+        "date": "2026-01-17 21:15:22",
+        "message": "fix:媒体布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601172115",
     "items": [
       {
@@ -191,23 +214,6 @@
         "author": "GateCross",
         "date": "2026-01-13 10:48:44",
         "message": "fix:修复strm生成现实数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601160918",
-    "items": [
-      {
-        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:35",
-        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
-      },
-      {
-        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:29",
-        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
       }
     ]
   }
