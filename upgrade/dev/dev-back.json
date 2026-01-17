@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601172043",
+    "items": [
+      {
+        "commit": "bb3ab667ef1772b29de9fb953dcc0ed3bddfbb3f",
+        "author": "GateCross",
+        "date": "2026-01-17 20:42:36",
+        "message": "revert: 回退媒体服务代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601171613",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-16 11:28:58",
         "message": "fix:优化媒体代理启动"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601161030",
-    "items": [
-      {
-        "commit": "13985514414d43a3615c2239bb13321097b9b0a0",
-        "author": "GateCross",
-        "date": "2026-01-16 10:29:28",
-        "message": "fix:媒体代理优化"
       }
     ]
   }
