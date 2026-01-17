@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601171613",
+    "items": [
+      {
+        "commit": "e8b31b70b49ab3a852d3d4b34765a8ad884f8469",
+        "author": "Jolc",
+        "date": "2026-01-17 16:09:08",
+        "message": "feat: 云存储列表分页"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601171536",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-16 10:29:28",
         "message": "fix:媒体代理优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601160918",
-    "items": [
-      {
-        "commit": "9bb294a3e42fe8895a6eb93121b02e314a0e2536",
-        "author": "GateCross",
-        "date": "2026-01-16 09:17:26",
-        "message": "fix:增加媒体代理格式"
       }
     ]
   }
