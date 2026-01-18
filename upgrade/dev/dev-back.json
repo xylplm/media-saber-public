@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601181250",
+    "items": [
+      {
+        "commit": "dce8c64ff33e863dbbcb5dd99afc309a75104150",
+        "author": "Jolc",
+        "date": "2026-01-18 12:48:46",
+        "message": "fix: mlist db table"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601181158",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "Jolc",
         "date": "2026-01-16 21:51:10",
         "message": "feat: 批量创建 115 分享存储"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601162120",
-    "items": [
-      {
-        "commit": "db49a21d92d34b9685923eb41d5a873fb15284e4",
-        "author": "GateCross",
-        "date": "2026-01-16 21:19:52",
-        "message": "fix:修复jellyfin媒体代理"
-      },
-      {
-        "commit": "fd181be7f45013967410dad5e6b5c545c3dba454",
-        "author": "Jolc",
-        "date": "2026-01-16 14:09:46",
-        "message": "fix: strm 优化"
       }
     ]
   }
