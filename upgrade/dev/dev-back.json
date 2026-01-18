@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601182118",
+    "items": [
+      {
+        "commit": "153fb8b35ddf9693ead66d2002180f09cf125afc",
+        "author": "GateCross",
+        "date": "2026-01-18 21:16:42",
+        "message": "fix: 媒体代理增加通知开关"
+      },
+      {
+        "commit": "e2ccd0441da78f4a160dadbd358b7c2d711be828",
+        "author": "xylplm",
+        "date": "2026-01-18 19:55:14",
+        "message": "fix:开发者自用的插件 不会出现在消息渠道插件列表中"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601181708",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "Jolc",
         "date": "2026-01-17 16:09:08",
         "message": "feat: 云存储列表分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601171536",
-    "items": [
-      {
-        "commit": "bb0f90ed5b86b494add0fe57f92c4f33bbad79d0",
-        "author": "xylplm",
-        "date": "2026-01-17 15:35:03",
-        "message": "fix: 更新拉取数据逻辑，增加有效事件数和拉取事件数的返回，优化日志输出"
       }
     ]
   }
