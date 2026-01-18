@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601181514",
+    "items": [
+      {
+        "commit": "f824c6ab4b9a588a48ca88e34d86a5a10e293b6b",
+        "author": "Jolc",
+        "date": "2026-01-18 15:13:45",
+        "message": "fix: get tmdbid from file path"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601181438",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-01-17 14:47:53",
         "message": "fix: 规范化路径分隔符，确保路径比较的一致性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601171440",
-    "items": [
-      {
-        "commit": "99f70099d4331e3f892f71a9be5b71dc0b0f7498",
-        "author": "Jolc",
-        "date": "2026-01-17 14:39:49",
-        "message": "feat: 115 分享存储导入"
       }
     ]
   }
