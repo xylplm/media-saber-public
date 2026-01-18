@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601182320",
+    "items": [
+      {
+        "commit": "036d3fc0fb0d93f91c47ebb7ace7feb9030b7af9",
+        "author": "GateCross",
+        "date": "2026-01-18 23:17:17",
+        "message": "fix:优化媒体代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601182228",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-01-17 21:23:11",
         "message": "fix: 腾讯视频类型判断错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601172043",
-    "items": [
-      {
-        "commit": "bb3ab667ef1772b29de9fb953dcc0ed3bddfbb3f",
-        "author": "GateCross",
-        "date": "2026-01-17 20:42:36",
-        "message": "revert: 回退媒体服务代理"
       }
     ]
   }
