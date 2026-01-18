@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601181708",
+    "items": [
+      {
+        "commit": "359ce5ffd3003b8b937a42af8be91b47e7fee977",
+        "author": "Jolc",
+        "date": "2026-01-18 17:07:51",
+        "message": "fix：delete mlist strm driver"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601181514",
     "items": [
       {
@@ -113,41 +124,6 @@
         "author": "xylplm",
         "date": "2026-01-17 15:35:03",
         "message": "fix: 更新拉取数据逻辑，增加有效事件数和拉取事件数的返回，优化日志输出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601171503",
-    "items": [
-      {
-        "commit": "d54ed3e91f17f86e665f133de09b7ad42784f6e7",
-        "author": "xylplm",
-        "date": "2026-01-17 15:02:35",
-        "message": "fix: 修复文件路径构建逻辑，确保在父路径存在时正确拼接文件名"
-      },
-      {
-        "commit": "8ad2d1fc0ddfbe71a0003fde69a93b1a4b4c2314",
-        "author": "xylplm",
-        "date": "2026-01-17 15:00:38",
-        "message": "fix: 修复文件传输逻辑，确保在特定条件下正确设置文件列表，删除冗余判断"
-      },
-      {
-        "commit": "e26c81f0fdfd3130f748ba4197cb0d3bc2deea2b",
-        "author": "xylplm",
-        "date": "2026-01-17 14:51:44",
-        "message": "fix: 更新115生活事件配置，添加云存储tooltip说明，优化路径处理逻辑"
-      },
-      {
-        "commit": "db928e8d901cc55c9fd3a614c261941121954beb",
-        "author": "xylplm",
-        "date": "2026-01-17 14:48:54",
-        "message": "fix: 优化修仙秘籍 115生活事件逻辑问题 避免panic   以及事件类型错误问题"
-      },
-      {
-        "commit": "eefe0ce87b46d822ca9afda863c3e7ddf742e58a",
-        "author": "xylplm",
-        "date": "2026-01-17 14:47:53",
-        "message": "fix: 规范化路径分隔符，确保路径比较的一致性"
       }
     ]
   }
