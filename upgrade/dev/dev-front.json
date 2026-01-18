@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601181438",
+    "items": [
+      {
+        "commit": "7ac60e50c3c68501e9e0e6e9175f45013fcd4d41",
+        "author": "xylplm",
+        "date": "2026-01-18 14:00:02",
+        "message": "fix: 更新 subscribe_smart_recommend.svg，替换为新的图形和视口设置"
+      },
+      {
+        "commit": "32abad6d8979907e3e6f9562db1fc725fbcea726",
+        "author": "xylplm",
+        "date": "2026-01-18 13:59:57",
+        "message": "fix: 更新 sign_hdhive.svg 的视口设置，调整图形显示"
+      },
+      {
+        "commit": "7eff6aeff2cf599dc2095591b852c129c3b73bd8",
+        "author": "xylplm",
+        "date": "2026-01-18 13:51:46",
+        "message": "fix: 调整秘籍图标尺寸，优化加载样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601172305",
     "items": [
       {
@@ -143,29 +166,6 @@
         "author": "liurongjie",
         "date": "2026-01-16 11:49:15",
         "message": "style(cloud-storage): 优化网格布局和卡片内容样式"
-      },
-      {
-        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:35",
-        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
-      },
-      {
-        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
-        "author": "xylplm",
-        "date": "2026-01-15 17:38:29",
-        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601161129",
-    "items": [
-      {
-        "commit": "24e597d7b7a19d0a870cca2fa02aee2907543e3f",
-        "author": "xylplm",
-        "date": "2026-01-16 11:22:06",
-        "message": "refactor: 将 mat-divider 包裹在 div 中以改善布局"
       },
       {
         "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",

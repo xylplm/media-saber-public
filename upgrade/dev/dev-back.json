@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601181438",
+    "items": [
+      {
+        "commit": "cdeffe7effe2288a4dad970b223130cee5c050ed",
+        "author": "Jolc",
+        "date": "2026-01-18 14:37:51",
+        "message": "fix: fix strm pc cache"
+      },
+      {
+        "commit": "744f775f14c45023cf59a81a07fbbe9e4795ca65",
+        "author": "Jolc",
+        "date": "2026-01-18 13:59:10",
+        "message": "fix：strm illegal char"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601181250",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-01-17 14:39:49",
         "message": "feat: 115 分享存储导入"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601162154",
-    "items": [
-      {
-        "commit": "be51f11354e37b292423326b8409c9be0adc77dc",
-        "author": "Jolc",
-        "date": "2026-01-16 21:51:10",
-        "message": "feat: 批量创建 115 分享存储"
       }
     ]
   }
