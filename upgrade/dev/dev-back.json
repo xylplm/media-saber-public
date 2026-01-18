@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601181158",
+    "items": [
+      {
+        "commit": "0f42cfeae0bcad573a712001eda50e6b9472d665",
+        "author": "Jolc",
+        "date": "2026-01-18 11:58:08",
+        "message": "fix: mlist hook db nil"
+      },
+      {
+        "commit": "e0caa759082e63639aea968cbde7494cfcf7668b",
+        "author": "Jolc",
+        "date": "2026-01-18 10:59:10",
+        "message": "fix: mlist log ctx"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601172305",
     "items": [
       {
@@ -131,47 +148,6 @@
         "author": "Jolc",
         "date": "2026-01-16 14:09:46",
         "message": "fix: strm 优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601162048",
-    "items": [
-      {
-        "commit": "718d844f34c1c9e62787e3e5e5fb4a8487e1b565",
-        "author": "xylplm",
-        "date": "2026-01-16 13:45:21",
-        "message": "fix: 限制订阅任务超时时间为15分钟，优化MQ处理逻辑"
-      },
-      {
-        "commit": "c6e7fb0f07c02d0c0fb4ad62cffa618a251ea6b6",
-        "author": "GateCross",
-        "date": "2026-01-16 11:28:58",
-        "message": "fix:优化媒体代理启动"
-      },
-      {
-        "commit": "13985514414d43a3615c2239bb13321097b9b0a0",
-        "author": "GateCross",
-        "date": "2026-01-16 10:29:28",
-        "message": "fix:媒体代理优化"
-      },
-      {
-        "commit": "9bb294a3e42fe8895a6eb93121b02e314a0e2536",
-        "author": "GateCross",
-        "date": "2026-01-16 09:17:26",
-        "message": "fix:增加媒体代理格式"
-      },
-      {
-        "commit": "c3d0e94430114e108d9b7a416553c96d7f1d73ec",
-        "author": "GateCross",
-        "date": "2026-01-16 09:08:04",
-        "message": "fix:302适配senplayer"
-      },
-      {
-        "commit": "36d0816327f532e804b5901321fe5c9948479f78",
-        "author": "GateCross",
-        "date": "2026-01-16 00:29:58",
-        "message": "fix:优化302请求"
       }
     ]
   }
