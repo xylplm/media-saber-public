@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601192304",
+    "items": [
+      {
+        "commit": "4aadd018bab6caed17d0e4d2567f3474891d2334",
+        "author": "Jolc",
+        "date": "2026-01-19 23:04:22",
+        "message": "fix: 优化下载因子排序权重占比"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601192217",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "Jolc",
         "date": "2026-01-18 15:13:45",
         "message": "fix: get tmdbid from file path"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601181438",
-    "items": [
-      {
-        "commit": "cdeffe7effe2288a4dad970b223130cee5c050ed",
-        "author": "Jolc",
-        "date": "2026-01-18 14:37:51",
-        "message": "fix: fix strm pc cache"
-      },
-      {
-        "commit": "744f775f14c45023cf59a81a07fbbe9e4795ca65",
-        "author": "Jolc",
-        "date": "2026-01-18 13:59:10",
-        "message": "fix：strm illegal char"
       }
     ]
   }
