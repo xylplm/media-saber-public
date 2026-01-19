@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601192217",
+    "items": [
+      {
+        "commit": "e91a9fdbc74cb18430383e7232e6d964dcc9472d",
+        "author": "Jolc",
+        "date": "2026-01-19 22:16:11",
+        "message": "feat：订阅任务并发数可配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601192132",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-01-18 13:59:10",
         "message": "fix：strm illegal char"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601181250",
-    "items": [
-      {
-        "commit": "dce8c64ff33e863dbbcb5dd99afc309a75104150",
-        "author": "Jolc",
-        "date": "2026-01-18 12:48:46",
-        "message": "fix: mlist db table"
       }
     ]
   }
