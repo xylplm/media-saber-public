@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601192325",
+    "items": [
+      {
+        "commit": "d9c3f8290e8958e7e318c7a78ff5de564f8a413b",
+        "author": "GateCross",
+        "date": "2026-01-19 23:25:19",
+        "message": "fix:媒体代理plex"
+      },
+      {
+        "commit": "bfa56433c2bc2ee68b11fa16aceacfed47c92a5b",
+        "author": "xbclub",
+        "date": "2026-01-19 23:24:14",
+        "message": "Fix: 错误异常回显"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601192304",
     "items": [
       {
@@ -101,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-01-18 17:07:51",
         "message": "fix：delete mlist strm driver"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601181514",
-    "items": [
-      {
-        "commit": "f824c6ab4b9a588a48ca88e34d86a5a10e293b6b",
-        "author": "Jolc",
-        "date": "2026-01-18 15:13:45",
-        "message": "fix: get tmdbid from file path"
       }
     ]
   }
