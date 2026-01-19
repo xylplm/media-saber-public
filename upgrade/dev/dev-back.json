@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601192132",
+    "items": [
+      {
+        "commit": "e51f2797720212a6b787b9c43c423794eb265884",
+        "author": "Jolc",
+        "date": "2026-01-19 21:32:16",
+        "message": "fix: log errorc、subscribe task fail"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601191930",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-01-18 12:48:46",
         "message": "fix: mlist db table"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601181158",
-    "items": [
-      {
-        "commit": "0f42cfeae0bcad573a712001eda50e6b9472d665",
-        "author": "Jolc",
-        "date": "2026-01-18 11:58:08",
-        "message": "fix: mlist hook db nil"
-      },
-      {
-        "commit": "e0caa759082e63639aea968cbde7494cfcf7668b",
-        "author": "Jolc",
-        "date": "2026-01-18 10:59:10",
-        "message": "fix: mlist log ctx"
       }
     ]
   }
