@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601190857",
+    "items": [
+      {
+        "commit": "23d7d5e63791fce7aed09967493517fab6013ff2",
+        "author": "GateCross",
+        "date": "2026-01-19 08:56:51",
+        "message": "fix:修复媒体代理乱码和401"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601182320",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-17 23:04:25",
         "message": "feat: 添加媒体代理插件，支持配置多个媒体服务器代理并处理认证。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601172250",
-    "items": [
-      {
-        "commit": "06d0f5f61c8838513c96927de42b85ca47cebda2",
-        "author": "Jolc",
-        "date": "2026-01-17 22:50:11",
-        "message": "fix: 云存储文件首页性能优化"
-      },
-      {
-        "commit": "8ec213699709f49d42da6cdefc3734b3e558e0c4",
-        "author": "xylplm",
-        "date": "2026-01-17 21:23:11",
-        "message": "fix: 腾讯视频类型判断错误"
       }
     ]
   }
