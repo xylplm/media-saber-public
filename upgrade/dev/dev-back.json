@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601191930",
+    "items": [
+      {
+        "commit": "cbfc1be6a91f7707884311037c4829e71589c5c5",
+        "author": "Jolc",
+        "date": "2026-01-19 19:30:09",
+        "message": "fix: 修复已去除驱动存储删除异常问题、自动修复 pc 错误问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601190857",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-01-18 10:59:10",
         "message": "fix: mlist log ctx"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601172305",
-    "items": [
-      {
-        "commit": "5e771f0cc8a5c508b6a701d9e27533e24e84aaa7",
-        "author": "GateCross",
-        "date": "2026-01-17 23:04:25",
-        "message": "feat: 添加媒体代理插件，支持配置多个媒体服务器代理并处理认证。"
       }
     ]
   }
