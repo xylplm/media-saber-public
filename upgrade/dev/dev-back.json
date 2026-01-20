@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601200936",
+    "items": [
+      {
+        "commit": "0e51cb33d75242bde0171f79f9f48a68347bb028",
+        "author": "xylplm",
+        "date": "2026-01-20 09:35:48",
+        "message": "fix: 增加任务超时检查，确保订阅处理的稳定性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601192325",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "xylplm",
         "date": "2026-01-18 19:55:14",
         "message": "fix:开发者自用的插件 不会出现在消息渠道插件列表中"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601181708",
-    "items": [
-      {
-        "commit": "359ce5ffd3003b8b937a42af8be91b47e7fee977",
-        "author": "Jolc",
-        "date": "2026-01-18 17:07:51",
-        "message": "fix：delete mlist strm driver"
       }
     ]
   }
