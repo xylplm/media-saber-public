@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202601201305",
+    "items": [
+      {
+        "commit": "635eed83a9da6367e67796a2b9a9f69745e56085",
+        "author": "Jolc",
+        "date": "2026-01-20 13:05:17",
+        "message": "fix: tmdb 缓存维度加上语言、重命名英文标题问题"
+      },
+      {
+        "commit": "ad42861d4697b461fbc9fb36ac75b55562d97688",
+        "author": "xylplm",
+        "date": "2026-01-20 11:09:28",
+        "message": "fix: 添加无可用搜索站点的处理逻辑，避免搜索失败后painc"
+      },
+      {
+        "commit": "17b1f6cad23dfcc51dd2ffaa7fe646b28d0c6728",
+        "author": "xylplm",
+        "date": "2026-01-20 11:01:28",
+        "message": "fix: 捕获 panic 以防止订阅任务卡死"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601201116",
     "items": [
       {
@@ -149,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-01-19 08:56:51",
         "message": "fix:修复媒体代理乱码和401"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601182320",
-    "items": [
-      {
-        "commit": "036d3fc0fb0d93f91c47ebb7ace7feb9030b7af9",
-        "author": "GateCross",
-        "date": "2026-01-18 23:17:17",
-        "message": "fix:优化媒体代理"
       }
     ]
   }
