@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601202144",
+    "items": [
+      {
+        "commit": "0246d5d722b29810a6bb89794f302f2a4ba5163b",
+        "author": "GateCross",
+        "date": "2026-01-20 21:43:22",
+        "message": "fix: 修复天空签到"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601202126",
     "items": [
       {
@@ -203,17 +214,6 @@
         "author": "Jolc",
         "date": "2026-01-19 19:30:09",
         "message": "fix: 修复已去除驱动存储删除异常问题、自动修复 pc 错误问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601200936",
-    "items": [
-      {
-        "commit": "0e51cb33d75242bde0171f79f9f48a68347bb028",
-        "author": "xylplm",
-        "date": "2026-01-20 09:35:48",
-        "message": "fix: 增加任务超时检查，确保订阅处理的稳定性"
       }
     ]
   }
