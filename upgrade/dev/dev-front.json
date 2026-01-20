@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601202244",
+    "items": [
+      {
+        "commit": "b2af699b84bef82190f2a89630342659a7827a4a",
+        "author": "liurongjie",
+        "date": "2026-01-20 22:44:11",
+        "message": "fix(system-logs): 修复订阅模块日志过滤及格式化问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601201508",
     "items": [
       {
@@ -144,23 +155,6 @@
   {
     "version": "DEV_202601172026",
     "items": [
-      {
-        "commit": "7474c134a56e57151e1ab082bf9d65155b670808",
-        "author": "syueya",
-        "date": "2026-01-17 17:23:24",
-        "message": "存储分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601171926",
-    "items": [
-      {
-        "commit": "7367b0564d6552b56805814cf7fee2e472b3f8a4",
-        "author": "xylplm",
-        "date": "2026-01-17 18:28:42",
-        "message": "fix: 站点图标加载"
-      },
       {
         "commit": "7474c134a56e57151e1ab082bf9d65155b670808",
         "author": "syueya",
