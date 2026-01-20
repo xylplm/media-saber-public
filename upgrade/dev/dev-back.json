@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601201508",
+    "items": [
+      {
+        "commit": "9c43b1e6b1acad3c833adbca8e907be25c74e6a8",
+        "author": "GateCross",
+        "date": "2026-01-20 15:11:18",
+        "message": "feat: 为升级包下载引入 SHA256 校验"
+      },
+      {
+        "commit": "bfe221b076cc81a006464596610fa8f116432c67",
+        "author": "xylplm",
+        "date": "2026-01-20 15:06:02",
+        "message": "fix: 优化种子过滤日志数量，仅在开启过滤详细日志才输出"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601201359",
     "items": [
       {
@@ -191,17 +208,6 @@
         "author": "Jolc",
         "date": "2026-01-19 21:32:16",
         "message": "fix: log errorc、subscribe task fail"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601191930",
-    "items": [
-      {
-        "commit": "cbfc1be6a91f7707884311037c4829e71589c5c5",
-        "author": "Jolc",
-        "date": "2026-01-19 19:30:09",
-        "message": "fix: 修复已去除驱动存储删除异常问题、自动修复 pc 错误问题。"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601201508",
+    "items": [
+      {
+        "commit": "ee03f253b3d0e4130fe751956dd0651eb022bf44",
+        "author": "liurongjie",
+        "date": "2026-01-20 14:21:11",
+        "message": "feat(settings): 限制通知设置弹窗最大高度"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601191824",
     "items": [
       {
@@ -155,23 +166,6 @@
         "author": "syueya",
         "date": "2026-01-17 17:23:24",
         "message": "存储分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601171440",
-    "items": [
-      {
-        "commit": "9b2a81ca9c6a5c693acdfd915b1f2b9c7cddb21f",
-        "author": "syueya",
-        "date": "2026-01-17 13:42:34",
-        "message": "115批量分享"
-      },
-      {
-        "commit": "e48f47b8981e21d318fa5bab360423be2eff1d23",
-        "author": "syueya",
-        "date": "2026-01-17 11:37:31",
-        "message": "批量创建115分享存储字段"
       }
     ]
   }
