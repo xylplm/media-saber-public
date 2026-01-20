@@ -6,7 +6,7 @@
         "commit": "edf4130d63f01e8d19db0348315bdd345622989e",
         "author": "GateCross",
         "date": "2026-01-20 16:59:47",
-        "message": "fix: 媒体大力增加网盘路径识别"
+        "message": "fix: 媒体代理增加网盘路径识别"
       }
     ]
   },
