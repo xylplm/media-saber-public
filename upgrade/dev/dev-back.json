@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601202126",
+    "items": [
+      {
+        "commit": "14d4b398f6a678be43c7bc5379b3672753f14237",
+        "author": "Jolc",
+        "date": "2026-01-20 21:26:37",
+        "message": "feat: 手搓 asynq 防重"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601202007",
     "items": [
       {
@@ -203,23 +214,6 @@
         "author": "xylplm",
         "date": "2026-01-20 09:35:48",
         "message": "fix: 增加任务超时检查，确保订阅处理的稳定性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601192325",
-    "items": [
-      {
-        "commit": "d9c3f8290e8958e7e318c7a78ff5de564f8a413b",
-        "author": "GateCross",
-        "date": "2026-01-19 23:25:19",
-        "message": "fix:媒体代理plex"
-      },
-      {
-        "commit": "bfa56433c2bc2ee68b11fa16aceacfed47c92a5b",
-        "author": "xbclub",
-        "date": "2026-01-19 23:24:14",
-        "message": "Fix: 错误异常回显"
       }
     ]
   }
