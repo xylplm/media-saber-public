@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601201700",
+    "items": [
+      {
+        "commit": "edf4130d63f01e8d19db0348315bdd345622989e",
+        "author": "GateCross",
+        "date": "2026-01-20 16:59:47",
+        "message": "fix: 媒体大力增加网盘路径识别"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601201649",
     "items": [
       {
@@ -203,17 +214,6 @@
         "author": "Jolc",
         "date": "2026-01-19 23:04:22",
         "message": "fix: 优化下载因子排序权重占比"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601192217",
-    "items": [
-      {
-        "commit": "e91a9fdbc74cb18430383e7232e6d964dcc9472d",
-        "author": "Jolc",
-        "date": "2026-01-19 22:16:11",
-        "message": "feat：订阅任务并发数可配置"
       }
     ]
   }
