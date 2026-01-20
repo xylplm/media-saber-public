@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601210013",
+    "items": [
+      {
+        "commit": "ac3002605398ba71109b76242f1e46e38c2ac4a7",
+        "author": "GateCross",
+        "date": "2026-01-21 00:13:19",
+        "message": "fix: 媒体代理修复plex播放器适配问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601202144",
     "items": [
       {
@@ -167,53 +178,6 @@
         "author": "xylplm",
         "date": "2026-01-20 11:01:28",
         "message": "fix: 捕获 panic 以防止订阅任务卡死"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201044",
-    "items": [
-      {
-        "commit": "e6d68b62757bb471e6bfde8370cda6f574b95559",
-        "author": "GateCross",
-        "date": "2026-01-20 10:43:25",
-        "message": "feat: 优化 Plex 媒体代理"
-      },
-      {
-        "commit": "d9c3f8290e8958e7e318c7a78ff5de564f8a413b",
-        "author": "GateCross",
-        "date": "2026-01-19 23:25:19",
-        "message": "fix:媒体代理plex"
-      },
-      {
-        "commit": "bfa56433c2bc2ee68b11fa16aceacfed47c92a5b",
-        "author": "xbclub",
-        "date": "2026-01-19 23:24:14",
-        "message": "Fix: 错误异常回显"
-      },
-      {
-        "commit": "4aadd018bab6caed17d0e4d2567f3474891d2334",
-        "author": "Jolc",
-        "date": "2026-01-19 23:04:22",
-        "message": "fix: 优化下载因子排序权重占比"
-      },
-      {
-        "commit": "e91a9fdbc74cb18430383e7232e6d964dcc9472d",
-        "author": "Jolc",
-        "date": "2026-01-19 22:16:11",
-        "message": "feat：订阅任务并发数可配置"
-      },
-      {
-        "commit": "e51f2797720212a6b787b9c43c423794eb265884",
-        "author": "Jolc",
-        "date": "2026-01-19 21:32:16",
-        "message": "fix: log errorc、subscribe task fail"
-      },
-      {
-        "commit": "cbfc1be6a91f7707884311037c4829e71589c5c5",
-        "author": "Jolc",
-        "date": "2026-01-19 19:30:09",
-        "message": "fix: 修复已去除驱动存储删除异常问题、自动修复 pc 错误问题。"
       }
     ]
   }
