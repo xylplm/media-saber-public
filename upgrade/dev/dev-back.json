@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601202007",
+    "items": [
+      {
+        "commit": "09cad1e92878922601122b4f7c3f8a4ba0937f62",
+        "author": "Jolc",
+        "date": "2026-01-20 20:07:23",
+        "message": "fix: abc"
+      },
+      {
+        "commit": "0da5761a9a1ec62dbbace66aefa6d3f8705981bc",
+        "author": "xylplm",
+        "date": "2026-01-20 17:35:26",
+        "message": "revert"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601201700",
     "items": [
       {
@@ -203,17 +220,6 @@
         "author": "xbclub",
         "date": "2026-01-19 23:24:14",
         "message": "Fix: 错误异常回显"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601192304",
-    "items": [
-      {
-        "commit": "4aadd018bab6caed17d0e4d2567f3474891d2334",
-        "author": "Jolc",
-        "date": "2026-01-19 23:04:22",
-        "message": "fix: 优化下载因子排序权重占比"
       }
     ]
   }
