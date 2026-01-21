@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601211342",
+    "items": [
+      {
+        "commit": "51fe0d500c88b52527bbf3a186f9f408e5271307",
+        "author": "liurongjie",
+        "date": "2026-01-21 13:34:20",
+        "message": "feat(mediaProxy): 增加通知功能详细日志"
+      },
+      {
+        "commit": "59da7612306af53866f20f7f28f3daed2dd88d1a",
+        "author": "GateCross",
+        "date": "2026-01-21 12:14:47",
+        "message": "fix:清理BusinessLog残留代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601211252",
     "items": [
       {
@@ -119,47 +136,6 @@
         "author": "xylplm",
         "date": "2026-01-20 15:06:02",
         "message": "fix: 优化种子过滤日志数量，仅在开启过滤详细日志才输出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201359",
-    "items": [
-      {
-        "commit": "efbc6398088c5a1a398870ef7d6427a7e9198f47",
-        "author": "Jolc",
-        "date": "2026-01-20 13:58:38",
-        "message": "fix: 重启清理 asynq redis 数据（优先删）"
-      },
-      {
-        "commit": "cf9ff01495ec4fe5501e82393c4e6ce238d843f3",
-        "author": "GateCross",
-        "date": "2026-01-20 11:10:50",
-        "message": "fix:移动失败二次检查"
-      },
-      {
-        "commit": "ad42861d4697b461fbc9fb36ac75b55562d97688",
-        "author": "xylplm",
-        "date": "2026-01-20 11:09:28",
-        "message": "fix: 添加无可用搜索站点的处理逻辑，避免搜索失败后painc"
-      },
-      {
-        "commit": "17b1f6cad23dfcc51dd2ffaa7fe646b28d0c6728",
-        "author": "xylplm",
-        "date": "2026-01-20 11:01:28",
-        "message": "fix: 捕获 panic 以防止订阅任务卡死"
-      },
-      {
-        "commit": "e6d68b62757bb471e6bfde8370cda6f574b95559",
-        "author": "GateCross",
-        "date": "2026-01-20 10:43:25",
-        "message": "feat: 优化 Plex 媒体代理"
-      },
-      {
-        "commit": "0e51cb33d75242bde0171f79f9f48a68347bb028",
-        "author": "xylplm",
-        "date": "2026-01-20 09:35:48",
-        "message": "fix: 增加任务超时检查，确保订阅处理的稳定性"
       }
     ]
   }
