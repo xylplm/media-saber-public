@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601211507",
+    "items": [
+      {
+        "commit": "05a9aa78a12b5eb27387eefd69882ca0248cfc18",
+        "author": "GateCross",
+        "date": "2026-01-21 15:06:30",
+        "message": "fix: 调整媒体代理模块的逻辑。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601211342",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "xylplm",
         "date": "2026-01-20 15:16:40",
         "message": "fix: 添加字段为空时的处理逻辑，避免解析出错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201508",
-    "items": [
-      {
-        "commit": "9c43b1e6b1acad3c833adbca8e907be25c74e6a8",
-        "author": "GateCross",
-        "date": "2026-01-20 15:11:18",
-        "message": "feat: 为升级包下载引入 SHA256 校验"
-      },
-      {
-        "commit": "bfe221b076cc81a006464596610fa8f116432c67",
-        "author": "xylplm",
-        "date": "2026-01-20 15:06:02",
-        "message": "fix: 优化种子过滤日志数量，仅在开启过滤详细日志才输出"
       }
     ]
   }
