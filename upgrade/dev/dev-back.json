@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601210903",
+    "items": [
+      {
+        "commit": "d4f9a583adb087cd1ff9f26306deb92f979cbe3c",
+        "author": "Jolc",
+        "date": "2026-01-21 09:02:42",
+        "message": "fix: mq 防重优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601210013",
     "items": [
       {
@@ -143,29 +154,6 @@
         "author": "Jolc",
         "date": "2026-01-20 13:05:17",
         "message": "fix: tmdb 缓存维度加上语言、重命名英文标题问题"
-      },
-      {
-        "commit": "ad42861d4697b461fbc9fb36ac75b55562d97688",
-        "author": "xylplm",
-        "date": "2026-01-20 11:09:28",
-        "message": "fix: 添加无可用搜索站点的处理逻辑，避免搜索失败后painc"
-      },
-      {
-        "commit": "17b1f6cad23dfcc51dd2ffaa7fe646b28d0c6728",
-        "author": "xylplm",
-        "date": "2026-01-20 11:01:28",
-        "message": "fix: 捕获 panic 以防止订阅任务卡死"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201116",
-    "items": [
-      {
-        "commit": "cf9ff01495ec4fe5501e82393c4e6ce238d843f3",
-        "author": "GateCross",
-        "date": "2026-01-20 11:10:50",
-        "message": "fix:移动失败二次检查"
       },
       {
         "commit": "ad42861d4697b461fbc9fb36ac75b55562d97688",
