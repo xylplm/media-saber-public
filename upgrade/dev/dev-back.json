@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601211714",
+    "items": [
+      {
+        "commit": "acd4535992014e137efb3931f6d72e55842c0b5c",
+        "author": "GateCross",
+        "date": "2026-01-21 17:13:30",
+        "message": "fix: 优化媒体状态查询"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601211507",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-20 16:59:47",
         "message": "fix: 媒体代理增加网盘路径识别"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201649",
-    "items": [
-      {
-        "commit": "7774237b81e42d8836c4ac7f70433b66162c19ca",
-        "author": "xylplm",
-        "date": "2026-01-20 16:49:12",
-        "message": "fix: 115生活事件 复制目录 事件 应该按照目录处理"
-      },
-      {
-        "commit": "fb399789b8dc1807fb8bf41db00b0f11319365aa",
-        "author": "xylplm",
-        "date": "2026-01-20 15:16:40",
-        "message": "fix: 添加字段为空时的处理逻辑，避免解析出错"
       }
     ]
   }
