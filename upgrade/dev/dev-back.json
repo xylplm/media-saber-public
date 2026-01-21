@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601212245",
+    "items": [
+      {
+        "commit": "e135a4c094df052036e521adbc7ba1c4ad6a7adb",
+        "author": "liurongjie",
+        "date": "2026-01-21 22:49:37",
+        "message": "fix(download): 修正慢请求日志级别为信息日志"
+      },
+      {
+        "commit": "53ca5a6bf37bd0302d7f22d7560c9da533bb3a0d",
+        "author": "liurongjie",
+        "date": "2026-01-21 22:44:32",
+        "message": "fix(media_proxy):  修复通知判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601211905",
     "items": [
       {
@@ -107,23 +124,6 @@
         "author": "Jolc",
         "date": "2026-01-20 21:26:37",
         "message": "feat: 手搓 asynq 防重"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601202007",
-    "items": [
-      {
-        "commit": "09cad1e92878922601122b4f7c3f8a4ba0937f62",
-        "author": "Jolc",
-        "date": "2026-01-20 20:07:23",
-        "message": "fix: abc"
-      },
-      {
-        "commit": "0da5761a9a1ec62dbbace66aefa6d3f8705981bc",
-        "author": "xylplm",
-        "date": "2026-01-20 17:35:26",
-        "message": "revert"
       }
     ]
   }
