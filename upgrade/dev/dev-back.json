@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601211252",
+    "items": [
+      {
+        "commit": "c00854a3fd93270ea3a18bf6c82fdb11ab2482a0",
+        "author": "Jolc",
+        "date": "2026-01-21 12:52:26",
+        "message": "fix: strm 从云整理任务中剥离，改为并发任务。"
+      },
+      {
+        "commit": "59da7612306af53866f20f7f28f3daed2dd88d1a",
+        "author": "GateCross",
+        "date": "2026-01-21 12:14:47",
+        "message": "fix:清理BusinessLog残留代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601210903",
     "items": [
       {
@@ -143,29 +160,6 @@
         "author": "xylplm",
         "date": "2026-01-20 09:35:48",
         "message": "fix: 增加任务超时检查，确保订阅处理的稳定性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201305",
-    "items": [
-      {
-        "commit": "635eed83a9da6367e67796a2b9a9f69745e56085",
-        "author": "Jolc",
-        "date": "2026-01-20 13:05:17",
-        "message": "fix: tmdb 缓存维度加上语言、重命名英文标题问题"
-      },
-      {
-        "commit": "ad42861d4697b461fbc9fb36ac75b55562d97688",
-        "author": "xylplm",
-        "date": "2026-01-20 11:09:28",
-        "message": "fix: 添加无可用搜索站点的处理逻辑，避免搜索失败后painc"
-      },
-      {
-        "commit": "17b1f6cad23dfcc51dd2ffaa7fe646b28d0c6728",
-        "author": "xylplm",
-        "date": "2026-01-20 11:01:28",
-        "message": "fix: 捕获 panic 以防止订阅任务卡死"
       }
     ]
   }
