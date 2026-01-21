@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601211905",
+    "items": [
+      {
+        "commit": "9f4c7b9d1306cece7ebafd198dba34e619a6b327",
+        "author": "liurongjie",
+        "date": "2026-01-21 19:04:28",
+        "message": "perf(download): 优化下载历史接口，增加步骤级日志和性能监控"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601211714",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-01-20 17:35:26",
         "message": "revert"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601201700",
-    "items": [
-      {
-        "commit": "edf4130d63f01e8d19db0348315bdd345622989e",
-        "author": "GateCross",
-        "date": "2026-01-20 16:59:47",
-        "message": "fix: 媒体代理增加网盘路径识别"
       }
     ]
   }
