@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601220919",
+    "items": [
+      {
+        "commit": "6e7d00aee2b1f862b74ab0de4f6121be3102e7d7",
+        "author": "GateCross",
+        "date": "2026-01-22 09:18:23",
+        "message": "fix:媒体代理优化白名单路径匹配模式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601212245",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-20 21:43:22",
         "message": "fix: 修复天空签到"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601202126",
-    "items": [
-      {
-        "commit": "14d4b398f6a678be43c7bc5379b3672753f14237",
-        "author": "Jolc",
-        "date": "2026-01-20 21:26:37",
-        "message": "feat: 手搓 asynq 防重"
       }
     ]
   }
