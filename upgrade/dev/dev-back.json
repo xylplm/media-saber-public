@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601221605",
+    "items": [
+      {
+        "commit": "f5626ee80eb4fb74acb095fb8d6dd114cfa7ec72",
+        "author": "Jolc",
+        "date": "2026-01-22 16:05:05",
+        "message": "fix：撤回一次手抖"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601221544",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-21 15:06:30",
         "message": "fix: 调整媒体代理模块的逻辑。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601211342",
-    "items": [
-      {
-        "commit": "51fe0d500c88b52527bbf3a186f9f408e5271307",
-        "author": "liurongjie",
-        "date": "2026-01-21 13:34:20",
-        "message": "feat(mediaProxy): 增加通知功能详细日志"
-      },
-      {
-        "commit": "59da7612306af53866f20f7f28f3daed2dd88d1a",
-        "author": "GateCross",
-        "date": "2026-01-21 12:14:47",
-        "message": "fix:清理BusinessLog残留代码"
       }
     ]
   }
