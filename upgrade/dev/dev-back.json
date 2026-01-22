@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601221544",
+    "items": [
+      {
+        "commit": "0290c009edd2d9050934145fde4c4ffaaa96bb12",
+        "author": "liurongjie",
+        "date": "2026-01-22 15:43:47",
+        "message": "fix(media_proxy): 在日志中添加 serverName 以区分实例"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601221457",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-01-21 13:34:20",
         "message": "feat(mediaProxy): 增加通知功能详细日志"
-      },
-      {
-        "commit": "59da7612306af53866f20f7f28f3daed2dd88d1a",
-        "author": "GateCross",
-        "date": "2026-01-21 12:14:47",
-        "message": "fix:清理BusinessLog残留代码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601211252",
-    "items": [
-      {
-        "commit": "c00854a3fd93270ea3a18bf6c82fdb11ab2482a0",
-        "author": "Jolc",
-        "date": "2026-01-21 12:52:26",
-        "message": "fix: strm 从云整理任务中剥离，改为并发任务。"
       },
       {
         "commit": "59da7612306af53866f20f7f28f3daed2dd88d1a",
