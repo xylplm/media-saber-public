@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601221457",
+    "items": [
+      {
+        "commit": "322d0fd448be4a187e1710a0d924041cb902e624",
+        "author": "GateCross",
+        "date": "2026-01-22 14:56:08",
+        "message": "fix: 优化查询"
+      },
+      {
+        "commit": "47d6b58525a6fc24bd3b429e0ba4641f177f26ba",
+        "author": "liurongjie",
+        "date": "2026-01-22 14:38:09",
+        "message": "perf(media): 增加批量处理关键步骤的耗时日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601221413",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-01-21 12:14:47",
         "message": "fix:清理BusinessLog残留代码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601210903",
-    "items": [
-      {
-        "commit": "d4f9a583adb087cd1ff9f26306deb92f979cbe3c",
-        "author": "Jolc",
-        "date": "2026-01-21 09:02:42",
-        "message": "fix: mq 防重优化"
       }
     ]
   }
