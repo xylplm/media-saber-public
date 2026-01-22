@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601220950",
+    "items": [
+      {
+        "commit": "487a35555e76cbcab27c561136ff234f8911895a",
+        "author": "GateCross",
+        "date": "2026-01-22 09:50:23",
+        "message": "fix: 优化近期下载历史查询"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601220919",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-01-21 00:13:19",
         "message": "fix: 媒体代理修复plex播放器适配问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601202144",
-    "items": [
-      {
-        "commit": "0246d5d722b29810a6bb89794f302f2a4ba5163b",
-        "author": "GateCross",
-        "date": "2026-01-20 21:43:22",
-        "message": "fix: 修复天空签到"
       }
     ]
   }
