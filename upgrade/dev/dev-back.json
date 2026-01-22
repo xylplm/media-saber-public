@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601221413",
+    "items": [
+      {
+        "commit": "afcc91d35bf5cfde9c967e7229e8c88729de138e",
+        "author": "GateCross",
+        "date": "2026-01-22 14:18:35",
+        "message": "fix: 修复媒体代理的请求处理逻辑。"
+      },
+      {
+        "commit": "5170fdd800e2f0a80242b86084d40fe9664cc92c",
+        "author": "liurongjie",
+        "date": "2026-01-22 14:12:54",
+        "message": "perf(download): 添加性能监控日志优化历史记录处理流程"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601220950",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "Jolc",
         "date": "2026-01-21 09:02:42",
         "message": "fix: mq 防重优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601210013",
-    "items": [
-      {
-        "commit": "ac3002605398ba71109b76242f1e46e38c2ac4a7",
-        "author": "GateCross",
-        "date": "2026-01-21 00:13:19",
-        "message": "fix: 媒体代理修复plex播放器适配问题"
       }
     ]
   }
