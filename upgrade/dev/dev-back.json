@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601222300",
+    "items": [
+      {
+        "commit": "db33ec3602b671fb882b3c4d03a79a6f5121c88f",
+        "author": "GateCross",
+        "date": "2026-01-22 22:59:09",
+        "message": "fix: 修复strm生成时包含特殊字符，媒体代理plex移除tmdbid识别"
+      },
+      {
+        "commit": "f5626ee80eb4fb74acb095fb8d6dd114cfa7ec72",
+        "author": "Jolc",
+        "date": "2026-01-22 16:05:05",
+        "message": "fix：撤回一次手抖"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601222159",
     "items": [
       {
@@ -179,17 +196,6 @@
         "author": "liurongjie",
         "date": "2026-01-21 19:04:28",
         "message": "perf(download): 优化下载历史接口，增加步骤级日志和性能监控"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601211714",
-    "items": [
-      {
-        "commit": "acd4535992014e137efb3931f6d72e55842c0b5c",
-        "author": "GateCross",
-        "date": "2026-01-21 17:13:30",
-        "message": "fix: 优化媒体状态查询"
       }
     ]
   }
