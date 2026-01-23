@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601232159",
+    "items": [
+      {
+        "commit": "8714c2edd497d1f3298e4ff0802bb81d6c834bb2",
+        "author": "GateCross",
+        "date": "2026-01-23 21:59:39",
+        "message": "fix: 媒体代理优化plex302"
+      },
+      {
+        "commit": "23479c1644a699327f3c8782bcc66bca718968c8",
+        "author": "Jolc",
+        "date": "2026-01-23 21:58:43",
+        "message": "feat: 订阅 rss、搜索队列拆分，rss 并发数可配。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601232105",
     "items": [
       {
@@ -173,17 +190,6 @@
         "author": "Jolc",
         "date": "2026-01-22 16:05:05",
         "message": "fix：撤回一次手抖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601221544",
-    "items": [
-      {
-        "commit": "0290c009edd2d9050934145fde4c4ffaaa96bb12",
-        "author": "liurongjie",
-        "date": "2026-01-22 15:43:47",
-        "message": "fix(media_proxy): 在日志中添加 serverName 以区分实例"
       }
     ]
   }
