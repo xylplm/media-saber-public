@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601231447",
+    "items": [
+      {
+        "commit": "dd22a555d0850b3727999bf260f462382e4c48bf",
+        "author": "liurongjie",
+        "date": "2026-01-23 14:46:30",
+        "message": "fix: 修复豆瓣图片显示 （临时方案）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601230924",
     "items": [
       {
@@ -179,23 +190,6 @@
         "author": "GateCross",
         "date": "2026-01-22 09:18:23",
         "message": "fix:媒体代理优化白名单路径匹配模式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601212245",
-    "items": [
-      {
-        "commit": "e135a4c094df052036e521adbc7ba1c4ad6a7adb",
-        "author": "liurongjie",
-        "date": "2026-01-21 22:49:37",
-        "message": "fix(download): 修正慢请求日志级别为信息日志"
-      },
-      {
-        "commit": "53ca5a6bf37bd0302d7f22d7560c9da533bb3a0d",
-        "author": "liurongjie",
-        "date": "2026-01-21 22:44:32",
-        "message": "fix(media_proxy):  修复通知判断"
       }
     ]
   }
