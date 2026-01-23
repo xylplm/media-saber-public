@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601231627",
+    "items": [
+      {
+        "commit": "9e38dd27adf4ee62cf0e34a81d9aab1d0f69ac6e",
+        "author": "Jolc",
+        "date": "2026-01-23 16:26:33",
+        "message": "fix: strm notice filesize"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601231447",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "GateCross",
         "date": "2026-01-22 09:50:23",
         "message": "fix: 优化近期下载历史查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601220919",
-    "items": [
-      {
-        "commit": "6e7d00aee2b1f862b74ab0de4f6121be3102e7d7",
-        "author": "GateCross",
-        "date": "2026-01-22 09:18:23",
-        "message": "fix:媒体代理优化白名单路径匹配模式"
       }
     ]
   }
