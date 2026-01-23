@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601232330",
+    "items": [
+      {
+        "commit": "b0df87701831d907d2a5e5c825ba8fef8f3d985c",
+        "author": "GateCross",
+        "date": "2026-01-23 23:30:19",
+        "message": "fix: 媒体代理优化fastlink和超时逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601232159",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "GateCross",
         "date": "2026-01-21 15:06:30",
         "message": "fix: 调整媒体代理模块的逻辑。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601221605",
-    "items": [
-      {
-        "commit": "f5626ee80eb4fb74acb095fb8d6dd114cfa7ec72",
-        "author": "Jolc",
-        "date": "2026-01-22 16:05:05",
-        "message": "fix：撤回一次手抖"
       }
     ]
   }
