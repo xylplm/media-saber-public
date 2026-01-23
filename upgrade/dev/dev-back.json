@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601231946",
+    "items": [
+      {
+        "commit": "09ac23220857f73909a1301e94c7783f3e7565fd",
+        "author": "Jolc",
+        "date": "2026-01-23 19:45:45",
+        "message": "feat: rss 只拉一次"
+      },
+      {
+        "commit": "dd22a555d0850b3727999bf260f462382e4c48bf",
+        "author": "liurongjie",
+        "date": "2026-01-23 14:46:30",
+        "message": "fix: 修复豆瓣图片显示 （临时方案）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601231627",
     "items": [
       {
@@ -179,17 +196,6 @@
         "author": "liurongjie",
         "date": "2026-01-22 14:12:54",
         "message": "perf(download): 添加性能监控日志优化历史记录处理流程"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601220950",
-    "items": [
-      {
-        "commit": "487a35555e76cbcab27c561136ff234f8911895a",
-        "author": "GateCross",
-        "date": "2026-01-22 09:50:23",
-        "message": "fix: 优化近期下载历史查询"
       }
     ]
   }
