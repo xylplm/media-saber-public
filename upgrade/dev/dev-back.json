@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601232017",
+    "items": [
+      {
+        "commit": "4f7a0589021c98df5abe72efaec238fc7b05b066",
+        "author": "Jolc",
+        "date": "2026-01-23 20:15:04",
+        "message": "fix: rss 只拉一次"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601231946",
     "items": [
       {
@@ -179,23 +190,6 @@
         "author": "liurongjie",
         "date": "2026-01-22 14:38:09",
         "message": "perf(media): 增加批量处理关键步骤的耗时日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601221413",
-    "items": [
-      {
-        "commit": "afcc91d35bf5cfde9c967e7229e8c88729de138e",
-        "author": "GateCross",
-        "date": "2026-01-22 14:18:35",
-        "message": "fix: 修复媒体代理的请求处理逻辑。"
-      },
-      {
-        "commit": "5170fdd800e2f0a80242b86084d40fe9664cc92c",
-        "author": "liurongjie",
-        "date": "2026-01-22 14:12:54",
-        "message": "perf(download): 添加性能监控日志优化历史记录处理流程"
       }
     ]
   }
