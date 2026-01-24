@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601250001",
+    "items": [
+      {
+        "commit": "2ff65822a83350ffc1f2f4e3b42a83f156d70d0e",
+        "author": "liurongjie",
+        "date": "2026-01-25 00:00:57",
+        "message": "refactor(media_proxy): 移除ServeHTTP中请求头的调试日志打印"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601242313",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-01-23 20:15:04",
         "message": "fix: rss 只拉一次"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601231946",
-    "items": [
-      {
-        "commit": "09ac23220857f73909a1301e94c7783f3e7565fd",
-        "author": "Jolc",
-        "date": "2026-01-23 19:45:45",
-        "message": "feat: rss 只拉一次"
-      },
-      {
-        "commit": "dd22a555d0850b3727999bf260f462382e4c48bf",
-        "author": "liurongjie",
-        "date": "2026-01-23 14:46:30",
-        "message": "fix: 修复豆瓣图片显示 （临时方案）"
       }
     ]
   }
