@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601241421",
+    "items": [
+      {
+        "commit": "2b825749808b3e216677d87d23b02a574ac24718",
+        "author": "liurongjie",
+        "date": "2026-01-24 14:20:37",
+        "message": "fix(media-proxy): 统一日志输出添加服务器名称"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601240914",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-01-23 14:46:30",
         "message": "fix: 修复豆瓣图片显示 （临时方案）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601230924",
-    "items": [
-      {
-        "commit": "bf09560101a8a7fda8c0e545072f4459c9db6223",
-        "author": "Jolc",
-        "date": "2026-01-23 09:23:42",
-        "message": "fix：生成 strm 非法字符判断逻辑优化"
       }
     ]
   }
