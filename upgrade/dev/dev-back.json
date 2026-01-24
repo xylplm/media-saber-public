@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601242313",
+    "items": [
+      {
+        "commit": "70e8b5c7f2774cb5fcf0937e12ffc8fa39740454",
+        "author": "liurongjie",
+        "date": "2026-01-24 23:12:40",
+        "message": "fix(media_proxy): 修复重定向响应处理Range请求头"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601242121",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-01-23 14:46:30",
         "message": "fix: 修复豆瓣图片显示 （临时方案）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601231627",
-    "items": [
-      {
-        "commit": "9e38dd27adf4ee62cf0e34a81d9aab1d0f69ac6e",
-        "author": "Jolc",
-        "date": "2026-01-23 16:26:33",
-        "message": "fix: strm notice filesize"
       }
     ]
   }
