@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601240914",
+    "items": [
+      {
+        "commit": "6e33a88b9e0009ff0f2ce8072144d555519ba09c",
+        "author": "Jolc",
+        "date": "2026-01-24 09:13:44",
+        "message": "fix：nullbr api 标准化请求头"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601240009",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-01-23 09:23:42",
         "message": "fix：生成 strm 非法字符判断逻辑优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601222300",
-    "items": [
-      {
-        "commit": "db33ec3602b671fb882b3c4d03a79a6f5121c88f",
-        "author": "GateCross",
-        "date": "2026-01-22 22:59:09",
-        "message": "fix: 修复strm生成时包含特殊字符，媒体代理plex移除tmdbid识别"
-      },
-      {
-        "commit": "f5626ee80eb4fb74acb095fb8d6dd114cfa7ec72",
-        "author": "Jolc",
-        "date": "2026-01-22 16:05:05",
-        "message": "fix：撤回一次手抖"
       }
     ]
   }
