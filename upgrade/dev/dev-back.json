@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601242121",
+    "items": [
+      {
+        "commit": "644ba66e21906f647af0ee41227956ddb247d630",
+        "author": "liurongjie",
+        "date": "2026-01-24 19:59:05",
+        "message": "feat(media_proxy): 增加请求头日志输出增强调试能力"
+      },
+      {
+        "commit": "301b86a894962b0353a3a70197b4f9f9bd3179cb",
+        "author": "xylplm",
+        "date": "2026-01-24 16:21:16",
+        "message": "fix: 添加pg_dump版本不匹配自动升级逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601241421",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-01-23 16:26:33",
         "message": "fix: strm notice filesize"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601231447",
-    "items": [
-      {
-        "commit": "dd22a555d0850b3727999bf260f462382e4c48bf",
-        "author": "liurongjie",
-        "date": "2026-01-23 14:46:30",
-        "message": "fix: 修复豆瓣图片显示 （临时方案）"
       }
     ]
   }
