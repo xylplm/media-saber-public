@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601252057",
+    "items": [
+      {
+        "commit": "915b0cc572262ebaac6ed90a5ce79b823d44a825",
+        "author": "GateCross",
+        "date": "2026-01-25 20:57:17",
+        "message": "fix: 修复媒体代理url截断问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601250001",
     "items": [
       {
@@ -106,17 +117,6 @@
         "commit": "7dc3b6ca74b78d8a02f74c078b889f85ea36e07b",
         "author": "Jolc",
         "date": "2026-01-23 21:05:19",
-        "message": "fix: rss 只拉一次"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601232017",
-    "items": [
-      {
-        "commit": "4f7a0589021c98df5abe72efaec238fc7b05b066",
-        "author": "Jolc",
-        "date": "2026-01-23 20:15:04",
         "message": "fix: rss 只拉一次"
       }
     ]
