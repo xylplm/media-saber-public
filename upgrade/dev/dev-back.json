@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601252159",
+    "items": [
+      {
+        "commit": "c2184c16c95f7d9243fc978ffb56fcaed4938bf1",
+        "author": "liurongjie",
+        "date": "2026-01-25 21:57:35",
+        "message": "fix(media_proxy): 移除冗余的请求头日志打印"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601252057",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-01-23 21:58:43",
         "message": "feat: 订阅 rss、搜索队列拆分，rss 并发数可配。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601232105",
-    "items": [
-      {
-        "commit": "7dc3b6ca74b78d8a02f74c078b889f85ea36e07b",
-        "author": "Jolc",
-        "date": "2026-01-23 21:05:19",
-        "message": "fix: rss 只拉一次"
       }
     ]
   }
