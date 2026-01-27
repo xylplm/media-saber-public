@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601272223",
+    "items": [
+      {
+        "commit": "87f2221d8445355104025f0dd7434c15c6f9f1cd",
+        "author": "liurongjie",
+        "date": "2026-01-27 22:16:24",
+        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601252159",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "GateCross",
         "date": "2026-01-23 23:30:19",
         "message": "fix: 媒体代理优化fastlink和超时逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601232159",
-    "items": [
-      {
-        "commit": "8714c2edd497d1f3298e4ff0802bb81d6c834bb2",
-        "author": "GateCross",
-        "date": "2026-01-23 21:59:39",
-        "message": "fix: 媒体代理优化plex302"
-      },
-      {
-        "commit": "23479c1644a699327f3c8782bcc66bca718968c8",
-        "author": "Jolc",
-        "date": "2026-01-23 21:58:43",
-        "message": "feat: 订阅 rss、搜索队列拆分，rss 并发数可配。"
       }
     ]
   }
