@@ -1,5 +1,2530 @@
 [
   {
+    "version": "3.0_202601282244",
+    "items": [
+      {
+        "commit": "12adeb55d0381abb873475a572e65a2e466a61e1",
+        "author": "liurongjie",
+        "date": "2026-01-28 11:56:49",
+        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
+      },
+      {
+        "commit": "5fcfa2fd2164430eebfa7670dbaea392980d452a",
+        "author": "liurongjie",
+        "date": "2026-01-28 10:52:49",
+        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
+      },
+      {
+        "commit": "41ff937e8a01cec1e449bcc2695fb3feef93c3f5",
+        "author": "xylplm",
+        "date": "2026-01-28 10:11:39",
+        "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
+      },
+      {
+        "commit": "5ef16b3494453475d55c22f3def4c375d4365857",
+        "author": "liurongjie",
+        "date": "2026-01-28 10:02:23",
+        "message": "fix(mediaserver): 修正路径匹配逻辑处理"
+      },
+      {
+        "commit": "87f2221d8445355104025f0dd7434c15c6f9f1cd",
+        "author": "liurongjie",
+        "date": "2026-01-27 22:16:24",
+        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
+      },
+      {
+        "commit": "c2184c16c95f7d9243fc978ffb56fcaed4938bf1",
+        "author": "liurongjie",
+        "date": "2026-01-25 21:57:35",
+        "message": "fix(media_proxy): 移除冗余的请求头日志打印"
+      },
+      {
+        "commit": "915b0cc572262ebaac6ed90a5ce79b823d44a825",
+        "author": "GateCross",
+        "date": "2026-01-25 20:57:17",
+        "message": "fix: 修复媒体代理url截断问题"
+      },
+      {
+        "commit": "2ff65822a83350ffc1f2f4e3b42a83f156d70d0e",
+        "author": "liurongjie",
+        "date": "2026-01-25 00:00:57",
+        "message": "refactor(media_proxy): 移除ServeHTTP中请求头的调试日志打印"
+      },
+      {
+        "commit": "70e8b5c7f2774cb5fcf0937e12ffc8fa39740454",
+        "author": "liurongjie",
+        "date": "2026-01-24 23:12:40",
+        "message": "fix(media_proxy): 修复重定向响应处理Range请求头"
+      },
+      {
+        "commit": "644ba66e21906f647af0ee41227956ddb247d630",
+        "author": "liurongjie",
+        "date": "2026-01-24 19:59:05",
+        "message": "feat(media_proxy): 增加请求头日志输出增强调试能力"
+      },
+      {
+        "commit": "301b86a894962b0353a3a70197b4f9f9bd3179cb",
+        "author": "xylplm",
+        "date": "2026-01-24 16:21:16",
+        "message": "fix: 添加pg_dump版本不匹配自动升级逻辑"
+      },
+      {
+        "commit": "2b825749808b3e216677d87d23b02a574ac24718",
+        "author": "liurongjie",
+        "date": "2026-01-24 14:20:37",
+        "message": "fix(media-proxy): 统一日志输出添加服务器名称"
+      },
+      {
+        "commit": "6e33a88b9e0009ff0f2ce8072144d555519ba09c",
+        "author": "Jolc",
+        "date": "2026-01-24 09:13:44",
+        "message": "fix：nullbr api 标准化请求头"
+      },
+      {
+        "commit": "eeb7f9c05aee097fb6a1ac5a6fdb873637e28241",
+        "author": "GateCross",
+        "date": "2026-01-24 00:08:48",
+        "message": "fix:媒体代理优先识别白名单非strm媒体"
+      },
+      {
+        "commit": "b0df87701831d907d2a5e5c825ba8fef8f3d985c",
+        "author": "GateCross",
+        "date": "2026-01-23 23:30:19",
+        "message": "fix: 媒体代理优化fastlink和超时逻辑"
+      },
+      {
+        "commit": "8714c2edd497d1f3298e4ff0802bb81d6c834bb2",
+        "author": "GateCross",
+        "date": "2026-01-23 21:59:39",
+        "message": "fix: 媒体代理优化plex302"
+      },
+      {
+        "commit": "23479c1644a699327f3c8782bcc66bca718968c8",
+        "author": "Jolc",
+        "date": "2026-01-23 21:58:43",
+        "message": "feat: 订阅 rss、搜索队列拆分，rss 并发数可配。"
+      },
+      {
+        "commit": "7dc3b6ca74b78d8a02f74c078b889f85ea36e07b",
+        "author": "Jolc",
+        "date": "2026-01-23 21:05:19",
+        "message": "fix: rss 只拉一次"
+      },
+      {
+        "commit": "4f7a0589021c98df5abe72efaec238fc7b05b066",
+        "author": "Jolc",
+        "date": "2026-01-23 20:15:04",
+        "message": "fix: rss 只拉一次"
+      },
+      {
+        "commit": "09ac23220857f73909a1301e94c7783f3e7565fd",
+        "author": "Jolc",
+        "date": "2026-01-23 19:45:45",
+        "message": "feat: rss 只拉一次"
+      },
+      {
+        "commit": "9e38dd27adf4ee62cf0e34a81d9aab1d0f69ac6e",
+        "author": "Jolc",
+        "date": "2026-01-23 16:26:33",
+        "message": "fix: strm notice filesize"
+      },
+      {
+        "commit": "dd22a555d0850b3727999bf260f462382e4c48bf",
+        "author": "liurongjie",
+        "date": "2026-01-23 14:46:30",
+        "message": "fix: 修复豆瓣图片显示 （临时方案）"
+      },
+      {
+        "commit": "bf09560101a8a7fda8c0e545072f4459c9db6223",
+        "author": "Jolc",
+        "date": "2026-01-23 09:23:42",
+        "message": "fix：生成 strm 非法字符判断逻辑优化"
+      },
+      {
+        "commit": "db33ec3602b671fb882b3c4d03a79a6f5121c88f",
+        "author": "GateCross",
+        "date": "2026-01-22 22:59:09",
+        "message": "fix: 修复strm生成时包含特殊字符，媒体代理plex移除tmdbid识别"
+      },
+      {
+        "commit": "f5626ee80eb4fb74acb095fb8d6dd114cfa7ec72",
+        "author": "Jolc",
+        "date": "2026-01-22 16:05:05",
+        "message": "fix：撤回一次手抖"
+      },
+      {
+        "commit": "0290c009edd2d9050934145fde4c4ffaaa96bb12",
+        "author": "liurongjie",
+        "date": "2026-01-22 15:43:47",
+        "message": "fix(media_proxy): 在日志中添加 serverName 以区分实例"
+      },
+      {
+        "commit": "322d0fd448be4a187e1710a0d924041cb902e624",
+        "author": "GateCross",
+        "date": "2026-01-22 14:56:08",
+        "message": "fix: 优化查询"
+      },
+      {
+        "commit": "47d6b58525a6fc24bd3b429e0ba4641f177f26ba",
+        "author": "liurongjie",
+        "date": "2026-01-22 14:38:09",
+        "message": "perf(media): 增加批量处理关键步骤的耗时日志"
+      },
+      {
+        "commit": "afcc91d35bf5cfde9c967e7229e8c88729de138e",
+        "author": "GateCross",
+        "date": "2026-01-22 14:18:35",
+        "message": "fix: 修复媒体代理的请求处理逻辑。"
+      },
+      {
+        "commit": "5170fdd800e2f0a80242b86084d40fe9664cc92c",
+        "author": "liurongjie",
+        "date": "2026-01-22 14:12:54",
+        "message": "perf(download): 添加性能监控日志优化历史记录处理流程"
+      },
+      {
+        "commit": "487a35555e76cbcab27c561136ff234f8911895a",
+        "author": "GateCross",
+        "date": "2026-01-22 09:50:23",
+        "message": "fix: 优化近期下载历史查询"
+      },
+      {
+        "commit": "6e7d00aee2b1f862b74ab0de4f6121be3102e7d7",
+        "author": "GateCross",
+        "date": "2026-01-22 09:18:23",
+        "message": "fix:媒体代理优化白名单路径匹配模式"
+      },
+      {
+        "commit": "e135a4c094df052036e521adbc7ba1c4ad6a7adb",
+        "author": "liurongjie",
+        "date": "2026-01-21 22:49:37",
+        "message": "fix(download): 修正慢请求日志级别为信息日志"
+      },
+      {
+        "commit": "53ca5a6bf37bd0302d7f22d7560c9da533bb3a0d",
+        "author": "liurongjie",
+        "date": "2026-01-21 22:44:32",
+        "message": "fix(media_proxy):  修复通知判断"
+      },
+      {
+        "commit": "9f4c7b9d1306cece7ebafd198dba34e619a6b327",
+        "author": "liurongjie",
+        "date": "2026-01-21 19:04:28",
+        "message": "perf(download): 优化下载历史接口，增加步骤级日志和性能监控"
+      },
+      {
+        "commit": "acd4535992014e137efb3931f6d72e55842c0b5c",
+        "author": "GateCross",
+        "date": "2026-01-21 17:13:30",
+        "message": "fix: 优化媒体状态查询"
+      },
+      {
+        "commit": "05a9aa78a12b5eb27387eefd69882ca0248cfc18",
+        "author": "GateCross",
+        "date": "2026-01-21 15:06:30",
+        "message": "fix: 调整媒体代理模块的逻辑。"
+      },
+      {
+        "commit": "51fe0d500c88b52527bbf3a186f9f408e5271307",
+        "author": "liurongjie",
+        "date": "2026-01-21 13:34:20",
+        "message": "feat(mediaProxy): 增加通知功能详细日志"
+      },
+      {
+        "commit": "c00854a3fd93270ea3a18bf6c82fdb11ab2482a0",
+        "author": "Jolc",
+        "date": "2026-01-21 12:52:26",
+        "message": "fix: strm 从云整理任务中剥离，改为并发任务。"
+      },
+      {
+        "commit": "59da7612306af53866f20f7f28f3daed2dd88d1a",
+        "author": "GateCross",
+        "date": "2026-01-21 12:14:47",
+        "message": "fix:清理BusinessLog残留代码"
+      },
+      {
+        "commit": "d4f9a583adb087cd1ff9f26306deb92f979cbe3c",
+        "author": "Jolc",
+        "date": "2026-01-21 09:02:42",
+        "message": "fix: mq 防重优化"
+      },
+      {
+        "commit": "ac3002605398ba71109b76242f1e46e38c2ac4a7",
+        "author": "GateCross",
+        "date": "2026-01-21 00:13:19",
+        "message": "fix: 媒体代理修复plex播放器适配问题"
+      },
+      {
+        "commit": "0246d5d722b29810a6bb89794f302f2a4ba5163b",
+        "author": "GateCross",
+        "date": "2026-01-20 21:43:22",
+        "message": "fix: 修复天空签到"
+      },
+      {
+        "commit": "14d4b398f6a678be43c7bc5379b3672753f14237",
+        "author": "Jolc",
+        "date": "2026-01-20 21:26:37",
+        "message": "feat: 手搓 asynq 防重"
+      },
+      {
+        "commit": "09cad1e92878922601122b4f7c3f8a4ba0937f62",
+        "author": "Jolc",
+        "date": "2026-01-20 20:07:23",
+        "message": "fix: abc"
+      },
+      {
+        "commit": "0da5761a9a1ec62dbbace66aefa6d3f8705981bc",
+        "author": "xylplm",
+        "date": "2026-01-20 17:35:26",
+        "message": "revert"
+      },
+      {
+        "commit": "edf4130d63f01e8d19db0348315bdd345622989e",
+        "author": "GateCross",
+        "date": "2026-01-20 16:59:47",
+        "message": "fix: 媒体大力增加网盘路径识别"
+      },
+      {
+        "commit": "7774237b81e42d8836c4ac7f70433b66162c19ca",
+        "author": "xylplm",
+        "date": "2026-01-20 16:49:12",
+        "message": "fix: 115生活事件 复制目录 事件 应该按照目录处理"
+      },
+      {
+        "commit": "fb399789b8dc1807fb8bf41db00b0f11319365aa",
+        "author": "xylplm",
+        "date": "2026-01-20 15:16:40",
+        "message": "fix: 添加字段为空时的处理逻辑，避免解析出错"
+      },
+      {
+        "commit": "9c43b1e6b1acad3c833adbca8e907be25c74e6a8",
+        "author": "GateCross",
+        "date": "2026-01-20 15:11:18",
+        "message": "feat: 为升级包下载引入 SHA256 校验"
+      },
+      {
+        "commit": "bfe221b076cc81a006464596610fa8f116432c67",
+        "author": "xylplm",
+        "date": "2026-01-20 15:06:02",
+        "message": "fix: 优化种子过滤日志数量，仅在开启过滤详细日志才输出"
+      },
+      {
+        "commit": "efbc6398088c5a1a398870ef7d6427a7e9198f47",
+        "author": "Jolc",
+        "date": "2026-01-20 13:58:38",
+        "message": "fix: 重启清理 asynq redis 数据（优先删）"
+      },
+      {
+        "commit": "635eed83a9da6367e67796a2b9a9f69745e56085",
+        "author": "Jolc",
+        "date": "2026-01-20 13:05:17",
+        "message": "fix: tmdb 缓存维度加上语言、重命名英文标题问题"
+      },
+      {
+        "commit": "cf9ff01495ec4fe5501e82393c4e6ce238d843f3",
+        "author": "GateCross",
+        "date": "2026-01-20 11:10:50",
+        "message": "fix:移动失败二次检查"
+      },
+      {
+        "commit": "ad42861d4697b461fbc9fb36ac75b55562d97688",
+        "author": "xylplm",
+        "date": "2026-01-20 11:09:28",
+        "message": "fix: 添加无可用搜索站点的处理逻辑，避免搜索失败后painc"
+      },
+      {
+        "commit": "17b1f6cad23dfcc51dd2ffaa7fe646b28d0c6728",
+        "author": "xylplm",
+        "date": "2026-01-20 11:01:28",
+        "message": "fix: 捕获 panic 以防止订阅任务卡死"
+      },
+      {
+        "commit": "e6d68b62757bb471e6bfde8370cda6f574b95559",
+        "author": "GateCross",
+        "date": "2026-01-20 10:43:25",
+        "message": "feat: 优化 Plex 媒体代理"
+      },
+      {
+        "commit": "0e51cb33d75242bde0171f79f9f48a68347bb028",
+        "author": "xylplm",
+        "date": "2026-01-20 09:35:48",
+        "message": "fix: 增加任务超时检查，确保订阅处理的稳定性"
+      },
+      {
+        "commit": "d9c3f8290e8958e7e318c7a78ff5de564f8a413b",
+        "author": "GateCross",
+        "date": "2026-01-19 23:25:19",
+        "message": "fix:媒体代理plex"
+      },
+      {
+        "commit": "bfa56433c2bc2ee68b11fa16aceacfed47c92a5b",
+        "author": "xbclub",
+        "date": "2026-01-19 23:24:14",
+        "message": "Fix: 错误异常回显"
+      },
+      {
+        "commit": "4aadd018bab6caed17d0e4d2567f3474891d2334",
+        "author": "Jolc",
+        "date": "2026-01-19 23:04:22",
+        "message": "fix: 优化下载因子排序权重占比"
+      },
+      {
+        "commit": "e91a9fdbc74cb18430383e7232e6d964dcc9472d",
+        "author": "Jolc",
+        "date": "2026-01-19 22:16:11",
+        "message": "feat：订阅任务并发数可配置"
+      },
+      {
+        "commit": "e51f2797720212a6b787b9c43c423794eb265884",
+        "author": "Jolc",
+        "date": "2026-01-19 21:32:16",
+        "message": "fix: log errorc、subscribe task fail"
+      },
+      {
+        "commit": "cbfc1be6a91f7707884311037c4829e71589c5c5",
+        "author": "Jolc",
+        "date": "2026-01-19 19:30:09",
+        "message": "fix: 修复已去除驱动存储删除异常问题、自动修复 pc 错误问题。"
+      },
+      {
+        "commit": "23d7d5e63791fce7aed09967493517fab6013ff2",
+        "author": "GateCross",
+        "date": "2026-01-19 08:56:51",
+        "message": "fix:修复媒体代理乱码和401"
+      },
+      {
+        "commit": "036d3fc0fb0d93f91c47ebb7ace7feb9030b7af9",
+        "author": "GateCross",
+        "date": "2026-01-18 23:17:17",
+        "message": "fix:优化媒体代理"
+      },
+      {
+        "commit": "a13178bf34e6c1d98a17f7ebbd91fb4a0eb8d650",
+        "author": "GateCross",
+        "date": "2026-01-18 22:27:24",
+        "message": "feat: 媒体代理支持plex"
+      },
+      {
+        "commit": "153fb8b35ddf9693ead66d2002180f09cf125afc",
+        "author": "GateCross",
+        "date": "2026-01-18 21:16:42",
+        "message": "fix: 媒体代理增加通知开关"
+      },
+      {
+        "commit": "e2ccd0441da78f4a160dadbd358b7c2d711be828",
+        "author": "xylplm",
+        "date": "2026-01-18 19:55:14",
+        "message": "fix:开发者自用的插件 不会出现在消息渠道插件列表中"
+      },
+      {
+        "commit": "359ce5ffd3003b8b937a42af8be91b47e7fee977",
+        "author": "Jolc",
+        "date": "2026-01-18 17:07:51",
+        "message": "fix：delete mlist strm driver"
+      },
+      {
+        "commit": "f824c6ab4b9a588a48ca88e34d86a5a10e293b6b",
+        "author": "Jolc",
+        "date": "2026-01-18 15:13:45",
+        "message": "fix: get tmdbid from file path"
+      },
+      {
+        "commit": "cdeffe7effe2288a4dad970b223130cee5c050ed",
+        "author": "Jolc",
+        "date": "2026-01-18 14:37:51",
+        "message": "fix: fix strm pc cache"
+      },
+      {
+        "commit": "744f775f14c45023cf59a81a07fbbe9e4795ca65",
+        "author": "Jolc",
+        "date": "2026-01-18 13:59:10",
+        "message": "fix：strm illegal char"
+      },
+      {
+        "commit": "dce8c64ff33e863dbbcb5dd99afc309a75104150",
+        "author": "Jolc",
+        "date": "2026-01-18 12:48:46",
+        "message": "fix: mlist db table"
+      },
+      {
+        "commit": "0f42cfeae0bcad573a712001eda50e6b9472d665",
+        "author": "Jolc",
+        "date": "2026-01-18 11:58:08",
+        "message": "fix: mlist hook db nil"
+      },
+      {
+        "commit": "e0caa759082e63639aea968cbde7494cfcf7668b",
+        "author": "Jolc",
+        "date": "2026-01-18 10:59:10",
+        "message": "fix: mlist log ctx"
+      },
+      {
+        "commit": "5e771f0cc8a5c508b6a701d9e27533e24e84aaa7",
+        "author": "GateCross",
+        "date": "2026-01-17 23:04:25",
+        "message": "feat: 添加媒体代理插件，支持配置多个媒体服务器代理并处理认证。"
+      },
+      {
+        "commit": "06d0f5f61c8838513c96927de42b85ca47cebda2",
+        "author": "Jolc",
+        "date": "2026-01-17 22:50:11",
+        "message": "fix: 云存储文件首页性能优化"
+      },
+      {
+        "commit": "8ec213699709f49d42da6cdefc3734b3e558e0c4",
+        "author": "xylplm",
+        "date": "2026-01-17 21:23:11",
+        "message": "fix: 腾讯视频类型判断错误"
+      },
+      {
+        "commit": "bb3ab667ef1772b29de9fb953dcc0ed3bddfbb3f",
+        "author": "GateCross",
+        "date": "2026-01-17 20:42:36",
+        "message": "revert: 回退媒体服务代理"
+      },
+      {
+        "commit": "e8b31b70b49ab3a852d3d4b34765a8ad884f8469",
+        "author": "Jolc",
+        "date": "2026-01-17 16:09:08",
+        "message": "feat: 云存储列表分页"
+      },
+      {
+        "commit": "bb0f90ed5b86b494add0fe57f92c4f33bbad79d0",
+        "author": "xylplm",
+        "date": "2026-01-17 15:35:03",
+        "message": "fix: 更新拉取数据逻辑，增加有效事件数和拉取事件数的返回，优化日志输出"
+      },
+      {
+        "commit": "d54ed3e91f17f86e665f133de09b7ad42784f6e7",
+        "author": "xylplm",
+        "date": "2026-01-17 15:02:35",
+        "message": "fix: 修复文件路径构建逻辑，确保在父路径存在时正确拼接文件名"
+      },
+      {
+        "commit": "8ad2d1fc0ddfbe71a0003fde69a93b1a4b4c2314",
+        "author": "xylplm",
+        "date": "2026-01-17 15:00:38",
+        "message": "fix: 修复文件传输逻辑，确保在特定条件下正确设置文件列表，删除冗余判断"
+      },
+      {
+        "commit": "e26c81f0fdfd3130f748ba4197cb0d3bc2deea2b",
+        "author": "xylplm",
+        "date": "2026-01-17 14:51:44",
+        "message": "fix: 更新115生活事件配置，添加云存储tooltip说明，优化路径处理逻辑"
+      },
+      {
+        "commit": "db928e8d901cc55c9fd3a614c261941121954beb",
+        "author": "xylplm",
+        "date": "2026-01-17 14:48:54",
+        "message": "fix: 优化修仙秘籍 115生活事件逻辑问题 避免panic   以及事件类型错误问题"
+      },
+      {
+        "commit": "eefe0ce87b46d822ca9afda863c3e7ddf742e58a",
+        "author": "xylplm",
+        "date": "2026-01-17 14:47:53",
+        "message": "fix: 规范化路径分隔符，确保路径比较的一致性"
+      },
+      {
+        "commit": "99f70099d4331e3f892f71a9be5b71dc0b0f7498",
+        "author": "Jolc",
+        "date": "2026-01-17 14:39:49",
+        "message": "feat: 115 分享存储导入"
+      },
+      {
+        "commit": "be51f11354e37b292423326b8409c9be0adc77dc",
+        "author": "Jolc",
+        "date": "2026-01-16 21:51:10",
+        "message": "feat: 批量创建 115 分享存储"
+      },
+      {
+        "commit": "db49a21d92d34b9685923eb41d5a873fb15284e4",
+        "author": "GateCross",
+        "date": "2026-01-16 21:19:52",
+        "message": "fix:修复jellyfin媒体代理"
+      },
+      {
+        "commit": "fd181be7f45013967410dad5e6b5c545c3dba454",
+        "author": "Jolc",
+        "date": "2026-01-16 14:09:46",
+        "message": "fix: strm 优化"
+      },
+      {
+        "commit": "718d844f34c1c9e62787e3e5e5fb4a8487e1b565",
+        "author": "xylplm",
+        "date": "2026-01-16 13:45:21",
+        "message": "fix: 限制订阅任务超时时间为15分钟，优化MQ处理逻辑"
+      },
+      {
+        "commit": "c6e7fb0f07c02d0c0fb4ad62cffa618a251ea6b6",
+        "author": "GateCross",
+        "date": "2026-01-16 11:28:58",
+        "message": "fix:优化媒体代理启动"
+      },
+      {
+        "commit": "13985514414d43a3615c2239bb13321097b9b0a0",
+        "author": "GateCross",
+        "date": "2026-01-16 10:29:28",
+        "message": "fix:媒体代理优化"
+      },
+      {
+        "commit": "9bb294a3e42fe8895a6eb93121b02e314a0e2536",
+        "author": "GateCross",
+        "date": "2026-01-16 09:17:26",
+        "message": "fix:增加媒体代理格式"
+      },
+      {
+        "commit": "c3d0e94430114e108d9b7a416553c96d7f1d73ec",
+        "author": "GateCross",
+        "date": "2026-01-16 09:08:04",
+        "message": "fix:302适配senplayer"
+      },
+      {
+        "commit": "36d0816327f532e804b5901321fe5c9948479f78",
+        "author": "GateCross",
+        "date": "2026-01-16 00:29:58",
+        "message": "fix:优化302请求"
+      },
+      {
+        "commit": "b26e6f896e94f86e9e9dc4fd95577ee1126fd361",
+        "author": "Jolc",
+        "date": "2026-01-15 23:11:38",
+        "message": "feat: sync oplist、strm driver"
+      },
+      {
+        "commit": "3bfbd3a592a881cd4a80bc4d85e07f04ab1d9a15",
+        "author": "GateCross",
+        "date": "2026-01-15 23:00:07",
+        "message": "fix:优化媒体代理端口占用问题"
+      },
+      {
+        "commit": "917da10e799011478f7bcd9b486ca5c78022e4b9",
+        "author": "GateCross",
+        "date": "2026-01-15 22:36:16",
+        "message": "feat:重构302媒体代理服务(破坏性更新)"
+      },
+      {
+        "commit": "c7d5347b6bbc179c8ec827bfcb11987c5ec22af1",
+        "author": "xylplm",
+        "date": "2026-01-15 20:18:09",
+        "message": "fix: 增强升级包下载的错误处理，检查HTTP状态码、内容长度和gzip格式"
+      },
+      {
+        "commit": "5795b09dfc245ae646562d022893ed4589aca63b",
+        "author": "xylplm",
+        "date": "2026-01-15 16:57:47",
+        "message": "feat: 站点适配过滤添加时区转换过滤器，支持时间戳的时区偏移处理"
+      },
+      {
+        "commit": "02eb38da8fbb781dd2046f2fdd8ea0b223ead890",
+        "author": "yii",
+        "date": "2026-01-15 16:19:05",
+        "message": "fix: 修复用户认证错误处理"
+      },
+      {
+        "commit": "fd058c572cdd9d4c99954bd70f6db389a732bf5e",
+        "author": "yii",
+        "date": "2026-01-15 14:24:45",
+        "message": "refactor: 重构用户注册、密码修改、API KEY生成功能 破坏性更新"
+      },
+      {
+        "commit": "3c7cb867b80f40d7335a3a21a81e732bb3b95e43",
+        "author": "liurongjie",
+        "date": "2026-01-15 14:18:40",
+        "message": "Revert \"perf(download): 优化下载历史媒体状态及站点信息查询\""
+      },
+      {
+        "commit": "14d35cd3b34597d41f01471e4e5240852bed44da",
+        "author": "yii",
+        "date": "2026-01-15 12:04:13",
+        "message": "refactor: 重构用户登录功能 破坏性更新"
+      },
+      {
+        "commit": "24597b7863e96edfc9d3eb9edabce4806d8849d3",
+        "author": "yii",
+        "date": "2026-01-15 10:10:48",
+        "message": "perf: 优化rpc连接"
+      },
+      {
+        "commit": "22cde6dc0b380b6c0d728295ff66e5758d183897",
+        "author": "yii",
+        "date": "2026-01-15 09:49:54",
+        "message": "fix：错误消息返回"
+      },
+      {
+        "commit": "1e1eab70813179c12f6dfcfa1896a2309cc62468",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:09:27",
+        "message": "perf(media): 降低并发数限制以减少数据库连接压力"
+      },
+      {
+        "commit": "e3988bf109ef05ff28eba073e69c43b2c1c6958d",
+        "author": "liurongjie",
+        "date": "2026-01-14 23:18:31",
+        "message": "refactor(pg): 优化PostgreSQL配置增加环境变量支持"
+      },
+      {
+        "commit": "eaf7634853170f4a410aea819aa6f8c97b2fa818",
+        "author": "liurongjie",
+        "date": "2026-01-14 22:13:19",
+        "message": "perf(download): 优化下载历史媒体状态及站点信息查询"
+      },
+      {
+        "commit": "887670488a5048cc1c0a6358022f25c0b611a1c6",
+        "author": "liurongjie",
+        "date": "2026-01-14 18:43:42",
+        "message": "Revert \"fix(database): 优化 TorrentInfo 媒体类型和 TMDB ID 索引\""
+      },
+      {
+        "commit": "e7e27bf743d8fdfc2378c29b14d012633e6ea5be",
+        "author": "liurongjie",
+        "date": "2026-01-14 18:25:31",
+        "message": "fix(database): 优化 TorrentInfo 媒体类型和 TMDB ID 索引"
+      },
+      {
+        "commit": "b4f239d7e6d6791ff9dddb997f881cbc15872d5f",
+        "author": "liurongjie",
+        "date": "2026-01-14 17:00:46",
+        "message": "perf(torrent): 移除种子匹配服务中的调试日志"
+      },
+      {
+        "commit": "dcc4481c56dcdcfd52dd5dcf64c81cc944c59c23",
+        "author": "yii",
+        "date": "2026-01-14 15:48:43",
+        "message": "perf: 减少应用启动资源开销 提升启动速度 破坏整体系统依赖"
+      },
+      {
+        "commit": "7218f1279acc371168deb521851a83296d7fda53",
+        "author": "liurongjie",
+        "date": "2026-01-14 15:43:22",
+        "message": "Revert \"perf(cloudStorage): 统计并记录strm302请求总耗时\""
+      },
+      {
+        "commit": "ef51e6de5c1f7dde8180968f8c4fa86b77705be1",
+        "author": "liurongjie",
+        "date": "2026-01-14 15:16:28",
+        "message": "perf(cloudStorage): 统计并记录strm302请求总耗时"
+      },
+      {
+        "commit": "0d1a73ac4061420175ae350bbaeeebe195c0966b",
+        "author": "GateCross",
+        "date": "2026-01-14 11:30:22",
+        "message": "fix:兼容emoji文件名"
+      },
+      {
+        "commit": "c1024659047aa2872e2f6e302aa4322651aac99f",
+        "author": "GateCross",
+        "date": "2026-01-13 16:16:02",
+        "message": "fix:优化电影文件夹tmdbid重命名"
+      },
+      {
+        "commit": "b11954af8e7cdeb6d2315b2b593d753e7cf596e6",
+        "author": "GateCross",
+        "date": "2026-01-12 22:33:23",
+        "message": "fix:优化待订阅重复订阅问题"
+      },
+      {
+        "commit": "7194e07eab93b6c5265df2482a60ae1a63d2ab0e",
+        "author": "Jolc",
+        "date": "2026-01-12 18:58:22",
+        "message": "fix: 115 生活事件来源目录不匹配时打日志"
+      },
+      {
+        "commit": "5e2ad1af135676abc4b2e91cc3c40583bf8635cf",
+        "author": "Jolc",
+        "date": "2026-01-12 17:20:23",
+        "message": "fix: 修复 115 生活事件 json 异常"
+      },
+      {
+        "commit": "17e2d7b068d773107cdf8aba997609887b8cc01d",
+        "author": "GateCross",
+        "date": "2026-01-12 14:26:05",
+        "message": "feat:订阅精选推荐增加移动端额外字段"
+      },
+      {
+        "commit": "41d5712291dc42816680e0244164f36d9986d93c",
+        "author": "yii",
+        "date": "2026-01-12 13:13:25",
+        "message": "fix：移除内外网判断"
+      },
+      {
+        "commit": "3df355ceddfadcdc330cf7a0548dfc9bb04630a4",
+        "author": "GateCross",
+        "date": "2026-01-12 10:33:31",
+        "message": "fix:优化302公网IP"
+      },
+      {
+        "commit": "7158e071d5bcf6b5e6679143c01fa0a2ab60cab2",
+        "author": "Jolc",
+        "date": "2026-01-11 22:53:46",
+        "message": "feat: pc redis 缓存"
+      },
+      {
+        "commit": "79e7a0b97ba816677f19c74fd875cfbac1c2dd45",
+        "author": "Jolc",
+        "date": "2026-01-11 22:43:26",
+        "message": "fix: flat map fields 问题"
+      },
+      {
+        "commit": "14bfb4822c3a5a8957598030ac34310d21af0de7",
+        "author": "liurongjie",
+        "date": "2026-01-11 18:28:45",
+        "message": "feat(task): 优化云存储秒传重试任务日志信息格式"
+      },
+      {
+        "commit": "6a2c58a35b45b15ba9f35cbd566ca67a3fed8dca",
+        "author": "Jolc",
+        "date": "2026-01-11 16:20:24",
+        "message": "fix: 站点适配 field 顺序问题"
+      },
+      {
+        "commit": "160cf7e584a735d2ec5381e37b77b5891f3c928f",
+        "author": "GateCross",
+        "date": "2026-01-11 16:19:38",
+        "message": "fix:优化云存储文件已存在提示"
+      },
+      {
+        "commit": "02096c537412afd39e2752360bd0065c3f603076",
+        "author": "liurongjie",
+        "date": "2026-01-11 16:05:58",
+        "message": "fix(mediaserver): 增加 Plex 媒体库路径刷新调试日志"
+      },
+      {
+        "commit": "c159bd4e89513b7d5d31b7931197755a21b030c9",
+        "author": "Jolc",
+        "date": "2026-01-11 14:25:04",
+        "message": "feat: 站点适配增加 filter"
+      },
+      {
+        "commit": "e32ab3a9064d0196f6f930099ca6159f3e67ff6b",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:15:58",
+        "message": "fix(dynamic_form): 调整插件表单字段的列宽设置"
+      },
+      {
+        "commit": "b7e8024da38c41568a333ac40bc6eca086a1499d",
+        "author": "GateCross",
+        "date": "2026-01-11 11:05:27",
+        "message": "fix:优化无图提示"
+      },
+      {
+        "commit": "ab614239d2370915954700059b6e6117450e250c",
+        "author": "Jolc",
+        "date": "2026-01-11 01:21:58",
+        "message": "feat：站点适配增加扁平化字段"
+      },
+      {
+        "commit": "71cb3f3ee2395d90d156f03091c81073697bdc35",
+        "author": "xylplm",
+        "date": "2026-01-10 21:29:52",
+        "message": "fix: 更新搜索任务删除旧数据逻辑，只订阅搜索和订阅 RSS 类型的任务"
+      },
+      {
+        "commit": "aed1d162681b61a56abdb9e6dae496014f1f7b0d",
+        "author": "xylplm",
+        "date": "2026-01-10 21:23:17",
+        "message": "fix: 搜索任务分页默认排除订阅搜索和订阅 RSS 类型的记录，如需查询这两个记录手动过滤"
+      },
+      {
+        "commit": "467c1563f394f547b318f2ca92ae86fd3da534b2",
+        "author": "liurongjie",
+        "date": "2026-01-10 17:44:54",
+        "message": "fix(metadata): 优化tmdb字段解析及日志增强"
+      },
+      {
+        "commit": "2dcb3a19cddaa6825029ab4594228a7828c365f0",
+        "author": "Jolc",
+        "date": "2026-01-09 23:50:09",
+        "message": "fix：修复 115 生活事件清空状态操作"
+      },
+      {
+        "commit": "c4240bb100d8220a4bf65779a3e7481ee95714df",
+        "author": "GateCross",
+        "date": "2026-01-09 23:15:53",
+        "message": "fix:订阅精选推荐增加移动端推送渠道"
+      },
+      {
+        "commit": "2e00edc1a42c22a994aad12b457048d25193a107",
+        "author": "Jolc",
+        "date": "2026-01-09 23:02:32",
+        "message": "fix：修复订阅精选推荐"
+      },
+      {
+        "commit": "4100bda50645e0fade6c1c2ef04e9c5cd27cac3d",
+        "author": "Jolc",
+        "date": "2026-01-09 22:03:11",
+        "message": "fix: 修复 123 目录树问题"
+      },
+      {
+        "commit": "600070884cd073be9491f63954b294b41fe67a82",
+        "author": "GateCross",
+        "date": "2026-01-09 15:58:16",
+        "message": "fix:更改豆瓣代理Referer"
+      },
+      {
+        "commit": "e500fca81c53d4651e2adafce4245f2478b55117",
+        "author": "liurongjie",
+        "date": "2026-01-09 13:20:34",
+        "message": "perf(logger): 还原数据库日志刷写间隔时间"
+      },
+      {
+        "commit": "1aafbfd9085d7076b3c126877357fc3928d5e7a9",
+        "author": "xylplm",
+        "date": "2026-01-08 23:50:50",
+        "message": "fix: 修正头像目录路径为静态资源路径"
+      },
+      {
+        "commit": "043a4106f6a210997bb184bc5e2d5f7b9ab1c329",
+        "author": "liurongjie",
+        "date": "2026-01-08 23:30:25",
+        "message": "refactor(model): 为DownloadHistory添加索引以优化查询性能"
+      },
+      {
+        "commit": "84bbf5f49dcec86ea958d97021ac9202aa6442b7",
+        "author": "liurongjie",
+        "date": "2026-01-08 23:30:07",
+        "message": "perf(logger): 调整数据库日志刷写间隔时间"
+      },
+      {
+        "commit": "719adfc7d6f46263bd9fcde7e780de9e2fe76c44",
+        "author": "liurongjie",
+        "date": "2026-01-08 23:12:15",
+        "message": "perf(logger): 优化日志刷新间隔减少写入压力"
+      },
+      {
+        "commit": "ebc6579384998e541973e00a0620f7bbdcc0c69f",
+        "author": "xylplm",
+        "date": "2026-01-08 22:51:34",
+        "message": "feat: 添加用户头像上传接口，支持文件上传和头像路径更新"
+      },
+      {
+        "commit": "9233fb8d20b9d556dbd7d67553b4c13aa3362435",
+        "author": "GateCross",
+        "date": "2026-01-08 12:52:55",
+        "message": "fix:优化更新推送内容"
+      },
+      {
+        "commit": "d0092fa116ea17aa067d6271e233f60a82d39060",
+        "author": "GateCross",
+        "date": "2026-01-08 12:36:59",
+        "message": "fix:优化媒体库状态查询"
+      },
+      {
+        "commit": "fbc379a1116604ee79d633be806fe74400bfd5cd",
+        "author": "GateCross",
+        "date": "2026-01-08 11:10:33",
+        "message": "feat:增加系统更新菜单"
+      },
+      {
+        "commit": "b5a34f1d0e6357cc7fdcd8bbd67447a1a9c2603e",
+        "author": "Jolc",
+        "date": "2026-01-08 00:00:30",
+        "message": "fix: 删除多余表"
+      },
+      {
+        "commit": "491513a0544f5ff05f6422f7340243d821f481b7",
+        "author": "Jolc",
+        "date": "2026-01-07 09:29:17",
+        "message": "fix: 修复订阅搜索、订阅刷新重复下载集数的问题。"
+      },
+      {
+        "commit": "43f231c3bba4b96de88cbdcf3745df7a5ed4220d",
+        "author": "xylplm",
+        "date": "2026-01-06 22:10:31",
+        "message": "fix: 删除2.X版本站点导入功能 相关api"
+      },
+      {
+        "commit": "5d22d37a0722efe2a908f0b80e07f6641ebd19b8",
+        "author": "xylplm",
+        "date": "2026-01-06 00:56:18",
+        "message": "feat: 优化AI代理生成逻辑，增强工具调用的调试信息和错误处理"
+      },
+      {
+        "commit": "7ef5ed73726a794e176857d8021292a596d1551a",
+        "author": "Jolc",
+        "date": "2026-01-05 23:08:33",
+        "message": "fix: 修复目录树问题。"
+      },
+      {
+        "commit": "2ecb49bde8c2b1b492b02c1bbbaf84c545dd235a",
+        "author": "xylplm",
+        "date": "2026-01-05 22:52:26",
+        "message": "chore: 移除 goctl 版本注释，简化代码结构"
+      },
+      {
+        "commit": "63052f3dde23878727d53c001228da221383757c",
+        "author": "xylplm",
+        "date": "2026-01-05 22:51:05",
+        "message": "Revert \"feat: 标准化ChatCompletion聊天OpenAI Api响应结构，增强错误处理和流式支持\""
+      },
+      {
+        "commit": "07bf6930d3678d71fb59f8e5d854cd237e95ca3f",
+        "author": "Jolc",
+        "date": "2026-01-05 19:12:57",
+        "message": "fix: icon url"
+      },
+      {
+        "commit": "0f5687b58d708a5a063603cf6349c0bf3dc92f76",
+        "author": "liurongjie",
+        "date": "2026-01-05 14:07:39",
+        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
+      },
+      {
+        "commit": "e7d34ccd7b7645717bae0491304d5c5d7f1db50c",
+        "author": "Jolc",
+        "date": "2026-01-05 14:04:33",
+        "message": "feat: 订阅精选推荐增加豆瓣榜单、增加忽略操作。"
+      },
+      {
+        "commit": "70f0f1bed1b8ef35d5dd6a284ba77f8590a3ffdf",
+        "author": "xylplm",
+        "date": "2026-01-05 12:28:30",
+        "message": "feat: 标准化ChatCompletion聊天OpenAI Api响应结构，增强错误处理和流式支持"
+      },
+      {
+        "commit": "5fc1dc975bbf35cd4d514da8fb78bbefbb65a004",
+        "author": "Jolc",
+        "date": "2026-01-05 11:39:55",
+        "message": "feat: 订阅精选推荐插件"
+      },
+      {
+        "commit": "c7bb4bd2df59da16579c886cda714081bc79481b",
+        "author": "xylplm",
+        "date": "2026-01-05 10:59:15",
+        "message": "feat: 优化消息内容提取逻辑，优先使用 ReasoningContent"
+      },
+      {
+        "commit": "e6aaa2c93c8ac7bf90f12ae54bc731ef0c2998c7",
+        "author": "xylplm",
+        "date": "2026-01-05 10:27:36",
+        "message": "Refactor GetServerLogic to use JSON Schema for tool parameters"
+      },
+      {
+        "commit": "497e1fe530b1d3bd3d7acd16aecb531e52333efb",
+        "author": "xylplm",
+        "date": "2026-01-04 17:38:00",
+        "message": "fix: 修复初始化客户端时的超时设置单位为秒"
+      },
+      {
+        "commit": "cf052cea95de65772d91ff1d99e907d2eda89402",
+        "author": "xylplm",
+        "date": "2026-01-04 17:05:39",
+        "message": "fix: 修复mcp提供者网站链接"
+      },
+      {
+        "commit": "399ed29578b820545a9c84ee9e6937b596ba9f0e",
+        "author": "liurongjie",
+        "date": "2026-01-04 15:02:56",
+        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
+      },
+      {
+        "commit": "7689a35600d693a34ea7a386f0f50c9eb1d88763",
+        "author": "liurongjie",
+        "date": "2026-01-04 14:19:33",
+        "message": "fix(mediaserver): 优化Plex媒体库刷新逻辑"
+      },
+      {
+        "commit": "09387d45a084406c9d0ff704f26124f01a4f2b92",
+        "author": "GateCross",
+        "date": "2026-01-04 11:11:33",
+        "message": "fix:优化tmdb补全逻辑"
+      },
+      {
+        "commit": "b7870b07264f6a98bfac436147226b94b23f364a",
+        "author": "Jolc",
+        "date": "2026-01-04 00:45:32",
+        "message": "fix: fill tmdb media"
+      },
+      {
+        "commit": "637d0edcbf2f27fd64c485d760d0c1d5be06afa2",
+        "author": "Jolc",
+        "date": "2026-01-04 00:33:58",
+        "message": "feat: template card、subscribe tmdb media column"
+      },
+      {
+        "commit": "ff43615b69da61eacd94c7655de71adad8565364",
+        "author": "liurongjie",
+        "date": "2026-01-03 23:42:12",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "c170dc20a795e36353796854e96ab6a0488dfb9e",
+        "author": "GateCross",
+        "date": "2026-01-03 23:23:37",
+        "message": "fix:优化正在下载页面识别问题"
+      },
+      {
+        "commit": "0d518034314b69b73d00a17ab7c3965db63df5f4",
+        "author": "liurongjie",
+        "date": "2026-01-03 21:46:47",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "5a8134e034468dbf16789d1313cef13c8804623d",
+        "author": "liurongjie",
+        "date": "2026-01-03 21:21:04",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "5e977b09ba0016943478d56977b1b271738ee746",
+        "author": "liurongjie",
+        "date": "2026-01-03 20:40:08",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "6a28b4b155fc5ffff9caf60436c195271f4bcec9",
+        "author": "liurongjie",
+        "date": "2026-01-03 20:18:45",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "056bb2ac1da6bd939f788b13701b5170cc8f4322",
+        "author": "GateCross",
+        "date": "2026-01-03 19:50:30",
+        "message": "fix:优化TMDB索引"
+      },
+      {
+        "commit": "af36dad0696818140f794c5f4a4c42526a56333c",
+        "author": "GateCross",
+        "date": "2026-01-03 19:22:01",
+        "message": "fix:增加系统更新内置图片"
+      },
+      {
+        "commit": "b79802fd90ab5035588156d7fe8608240eea42f4",
+        "author": "GateCross",
+        "date": "2026-01-03 19:10:05",
+        "message": "fix:站点通知优化"
+      },
+      {
+        "commit": "3fe535f5f108e4d2eacab409ea9291b96291821b",
+        "author": "GateCross",
+        "date": "2026-01-02 23:19:55",
+        "message": "fix:优化下载历史查询逻辑"
+      },
+      {
+        "commit": "49823002f568fab4129b411587a3a147f75f81c2",
+        "author": "liurongjie",
+        "date": "2026-01-02 15:57:57",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "1ff883073638d0d67d736b317ce67b0f9fcb40f6",
+        "author": "GateCross",
+        "date": "2026-01-01 22:53:23",
+        "message": "fix:优化消息通知"
+      },
+      {
+        "commit": "989f413c8a965b351d8e5998e7767e113ae238cf",
+        "author": "GateCross",
+        "date": "2025-12-31 17:10:56",
+        "message": "fix:优化内置消息图片和分类"
+      },
+      {
+        "commit": "5bee1a660a67c8ab8fdd4975191532d74cecdba3",
+        "author": "GateCross",
+        "date": "2025-12-31 16:15:32",
+        "message": "fix:优化时刻"
+      },
+      {
+        "commit": "11eaeb967ee0b47dbe2dfd4106d79485f2858d5f",
+        "author": "xylplm",
+        "date": "2025-12-31 13:54:26",
+        "message": "feat: 更新 tgDiscover 频道列表，添加新频道并优化导入顺序"
+      },
+      {
+        "commit": "cdd0fad29a67650754db5cea0430d97115aaf779",
+        "author": "GateCross",
+        "date": "2025-12-31 12:22:32",
+        "message": "fix:115签到信息合并"
+      },
+      {
+        "commit": "d038d9a2e21d2d49c2bab8fcb6ed49fb2541380c",
+        "author": "GateCross",
+        "date": "2025-12-30 21:34:35",
+        "message": "fix:调整图文消息图片优先级"
+      },
+      {
+        "commit": "09f5cf48bd5f4eb9da794b51079764eea57f8d70",
+        "author": "GateCross",
+        "date": "2025-12-30 17:29:16",
+        "message": "fix:invite"
+      },
+      {
+        "commit": "2594b570a2415c5d8273413ead0dee6902a794fb",
+        "author": "GateCross",
+        "date": "2025-12-30 16:56:11",
+        "message": "fix:优化插件信息"
+      },
+      {
+        "commit": "72b8fa2bad8f838d222d9fee97c71ab138624383",
+        "author": "GateCross",
+        "date": "2025-12-30 13:57:47",
+        "message": "fix:插件图片"
+      },
+      {
+        "commit": "576f8e282d6652508f634f4f5ff6a3422c9c3ea8",
+        "author": "Jolc",
+        "date": "2025-12-30 13:34:15",
+        "message": "fix: message backdrop"
+      },
+      {
+        "commit": "68dc663a85cf2d037475f68d9eccfbd39692150c",
+        "author": "Jolc",
+        "date": "2025-12-30 13:22:55",
+        "message": "fix: message backdrop"
+      },
+      {
+        "commit": "c1e27e81ca97b27ef823cdad9f6c3e069fe4270b",
+        "author": "Jolc",
+        "date": "2025-12-30 13:02:23",
+        "message": "feat: message backdrop"
+      },
+      {
+        "commit": "969571a9e84bc8dee451a0a05bf1e0d72c46d5dc",
+        "author": "GateCross",
+        "date": "2025-12-29 22:31:11",
+        "message": "fix:添加hdhive签到日志"
+      },
+      {
+        "commit": "8b5c3ba43bd7cab5ac48514cdd3feb6833fbce90",
+        "author": "liurongjie",
+        "date": "2025-12-29 22:05:36",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "98a4d4c47bf6d349d5f0e5f1bedb134ec5ea966b",
+        "author": "GateCross",
+        "date": "2025-12-29 16:48:46",
+        "message": "fix:优化版本更新判断逻辑"
+      },
+      {
+        "commit": "f97a357fb5d48b06d9a2e67e8a7c6bec12158040",
+        "author": "xylplm",
+        "date": "2025-12-28 16:13:59",
+        "message": "feat: 98签到 添加仅评论模式，允许用户在不执行签到的情况下进行评论"
+      },
+      {
+        "commit": "0168b5b3218292f1b1b1923c2303050a5c886487",
+        "author": "Jolc",
+        "date": "2025-12-28 00:16:07",
+        "message": "feat: open115 分页大小参数、"
+      },
+      {
+        "commit": "e1cfb3da4ac94223f8439c04d25d78ff4c6d2d41",
+        "author": "Jolc",
+        "date": "2025-12-27 16:50:53",
+        "message": "fix：修复 tmdb 缓存问题（献祭一名后端程序员）"
+      },
+      {
+        "commit": "1c6bff6cf3d91fec4249e83e5fb6e371e1d57dec",
+        "author": "Jolc",
+        "date": "2025-12-27 13:44:53",
+        "message": "fix: tmdb 缓存维度太细改成 url 维度、mq 完成后任务保留 15s。"
+      },
+      {
+        "commit": "003e0db4e402ae1e8d5da9f32d96a4b5198d5615",
+        "author": "Jolc",
+        "date": "2025-12-27 10:37:19",
+        "message": "feat: 微信通知-企业微信图文模式开关"
+      },
+      {
+        "commit": "063ab53b09e42b543d3f39d464a8bcc7f7789dc0",
+        "author": "Jolc",
+        "date": "2025-12-26 22:56:51",
+        "message": "fix: mpnews 使用 ms 管理员昵称作为作者"
+      },
+      {
+        "commit": "903bbe7e728ad65842e9c55cebb2c3a9d48bbc8f",
+        "author": "GateCross",
+        "date": "2025-12-26 21:12:49",
+        "message": "fix:微信通知适配暗黑模式"
+      },
+      {
+        "commit": "07c2b95d40b4afa4c4ebd527c35a22a6936f675e",
+        "author": "Jolc",
+        "date": "2025-12-26 19:17:35",
+        "message": "fix: 点击查看详情"
+      },
+      {
+        "commit": "86f9d624253b848fe66896d87383e39e48174f0d",
+        "author": "Jolc",
+        "date": "2025-12-26 18:41:47",
+        "message": "fix: 点击查看详情"
+      },
+      {
+        "commit": "ae9c5882a8f52f007180403fbf6a114e9dccf8a8",
+        "author": "Jolc",
+        "date": "2025-12-26 18:27:07",
+        "message": "feat: 填了默认背景图片，全局转图文"
+      },
+      {
+        "commit": "8049c21cc517fa1704ee30caa304409a0495bf8c",
+        "author": "Jolc",
+        "date": "2025-12-26 17:00:59",
+        "message": "fix: 默认背景图片支持动态"
+      },
+      {
+        "commit": "65b64137b3194ca8bf8950fefdb4a7672311bfcf",
+        "author": "GateCross",
+        "date": "2025-12-26 14:25:16",
+        "message": "feat:添加日志清空接口"
+      },
+      {
+        "commit": "870fd85b3383bd6a31a3b050976ee022b92828c5",
+        "author": "Jolc",
+        "date": "2025-12-26 13:44:38",
+        "message": "feat: 默认图片代理开关、文本自动转图文。"
+      },
+      {
+        "commit": "c5574a92fee59239a18dde0eb3199c355838ba34",
+        "author": "Jolc",
+        "date": "2025-12-26 12:44:47",
+        "message": "fix: 企业微信非媒体服务通知才走 mpnews"
+      },
+      {
+        "commit": "e661a77f29c119dfb7533fdf8d7a46e0a881d72e",
+        "author": "Jolc",
+        "date": "2025-12-26 11:34:13",
+        "message": "feat: 企业微信上传图片优化、增加默认背景图片地址设置、日志保留天数设置（废弃 env）。"
+      },
+      {
+        "commit": "60ddb2f43808cfa8dbd7aa63a90def2223faec14",
+        "author": "GateCross",
+        "date": "2025-12-25 22:34:13",
+        "message": "fix:微信消息图片压缩"
+      },
+      {
+        "commit": "fdaba6ef79a9f03dd396527dd2f9d7950e4f06fd",
+        "author": "GateCross",
+        "date": "2025-12-25 21:08:02",
+        "message": "fix:微信消息统一MpNews"
+      },
+      {
+        "commit": "b6acec7c5b4ab95b14d89c3bd92e7a2e1b520d66",
+        "author": "liurongjie",
+        "date": "2025-12-25 20:30:44",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "bbe073c3ebd09ee6da2b84d78b0ac554e9f5d27f",
+        "author": "GateCross",
+        "date": "2025-12-25 15:10:25",
+        "message": "fix:优化日志缓冲"
+      },
+      {
+        "commit": "8d07f2f457ffe81ea333ea0c2886b849f7995719",
+        "author": "Jolc",
+        "date": "2025-12-25 14:36:02",
+        "message": "feat: webdav 驱动"
+      },
+      {
+        "commit": "42c167424ab8cb03f1b536cb02275c3ee5f9b5ad",
+        "author": "GateCross",
+        "date": "2025-12-25 14:06:51",
+        "message": "fix:优化柠檬神游"
+      },
+      {
+        "commit": "4399fdec6cd41b5c99aa06d07c019a794d3b6ceb",
+        "author": "GateCross",
+        "date": "2025-12-25 13:58:01",
+        "message": "fix:优化柠檬神游空白"
+      },
+      {
+        "commit": "b882e55208a453a113be46f8ea7f37387fd501ca",
+        "author": "Jolc",
+        "date": "2025-12-25 10:17:55",
+        "message": "feat: 系统日志时间过滤"
+      },
+      {
+        "commit": "1d1060a7eba900354b4ad1dd088b6621b08b1b30",
+        "author": "Jolc",
+        "date": "2025-12-25 09:35:25",
+        "message": "feat：插件日志链路"
+      },
+      {
+        "commit": "aad05c7860a1a3fcebb20e8a4bf2f754ce7ecd49",
+        "author": "Jolc",
+        "date": "2025-12-25 09:17:26",
+        "message": "fix: 系统日志表加索引"
+      },
+      {
+        "commit": "ca3a1c31c1df756c76f48b1bb7b51e922e2cf052",
+        "author": "xylplm",
+        "date": "2025-12-24 23:11:49",
+        "message": "fix: 订阅列表参数"
+      },
+      {
+        "commit": "4dbad3f0c853fcfa64aba12e2281d7f35200296e",
+        "author": "Jolc",
+        "date": "2025-12-24 21:02:00",
+        "message": "feat: 日志改为数据库存储"
+      },
+      {
+        "commit": "5ed9f3aa2b04af8c3bc1c78f88c3fe2cc25e5313",
+        "author": "xylplm",
+        "date": "2025-12-24 17:47:48",
+        "message": "fix: 优化 pt详情页下载种子 支持扩展域名的识别"
+      },
+      {
+        "commit": "1274b3c3e8aac649be87461e480c5268fbb8e7bb",
+        "author": "xylplm",
+        "date": "2025-12-24 11:45:49",
+        "message": "feat: 刷流重复下载检测"
+      },
+      {
+        "commit": "4543f17ac4b5143ec7dbea6dba751cf85315534a",
+        "author": "liurongjie",
+        "date": "2025-12-24 10:54:17",
+        "message": "fix(binge_watch): 修复通知相关逻辑和启动条件判断"
+      },
+      {
+        "commit": "6ffb09373dd59a91f0fcd2327ec0bc8d0a5b2fcb",
+        "author": "GateCross",
+        "date": "2025-12-23 22:06:29",
+        "message": "fix:回退"
+      },
+      {
+        "commit": "ddb8d50d25a1b6e5d2c21c60ce1becad8918c267",
+        "author": "Jolc",
+        "date": "2025-12-23 19:41:52",
+        "message": "fix: 控制台日志格式调整"
+      },
+      {
+        "commit": "5428f33ee60adf3ed674845fa362bb192a9a2b3f",
+        "author": "xylplm",
+        "date": "2025-12-23 13:41:39",
+        "message": "Update sign98.go"
+      },
+      {
+        "commit": "617ad28edf5f4316dd0a406e79f1ee78e2f65c44",
+        "author": "xylplm",
+        "date": "2025-12-23 10:32:59",
+        "message": "fix: 完善iyuu 日志"
+      },
+      {
+        "commit": "e4604bfec9188d937901abf2130fdb92171ba78b",
+        "author": "xylplm",
+        "date": "2025-12-23 10:18:16",
+        "message": "fix: 放宽iyuu强制辅种限制"
+      },
+      {
+        "commit": "4c89c4e95cc8170860d8029fdcc321a035f53a11",
+        "author": "liurongjie",
+        "date": "2025-12-22 17:43:58",
+        "message": "Revert \"fix\""
+      },
+      {
+        "commit": "2878383bfecead92c091ab006a43cffeb8d668da",
+        "author": "Jolc",
+        "date": "2025-12-22 09:44:34",
+        "message": "fix: 115 清空状态"
+      },
+      {
+        "commit": "449e44350993d9077c2f7ad918babd5b9397b3ec",
+        "author": "liurongjie",
+        "date": "2025-12-20 23:46:15",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "aaa2f713a02b2a0d76adc59bb2cc3ce5434c18f6",
+        "author": "xylplm",
+        "date": "2025-12-20 19:30:46",
+        "message": "feat: 下载器限速 支持通过分类映射"
+      },
+      {
+        "commit": "b41ad31d107da4c757a0e07ab0b23d852e4589e3",
+        "author": "xylplm",
+        "date": "2025-12-20 19:13:58",
+        "message": "fix: 下载器标签限速 更名为 下载器限速"
+      },
+      {
+        "commit": "77de68d00c709af42b09bd9343c9eddcba991363",
+        "author": "xylplm",
+        "date": "2025-12-20 18:57:40",
+        "message": "fix:下载器标签限速 放开使用"
+      },
+      {
+        "commit": "2bfb1f9f4e01d263280b737a41beec5e1c009a4d",
+        "author": "Jolc",
+        "date": "2025-12-20 16:13:49",
+        "message": "fix: 控制台 log 优化"
+      },
+      {
+        "commit": "8894a1fdeff95d8bf1568d7ad4f5bda71b8adc2c",
+        "author": "Jolc",
+        "date": "2025-12-20 15:29:55",
+        "message": "fix: 订阅日志链路"
+      },
+      {
+        "commit": "0c186560a41e68516a281a4e145314db35a2b496",
+        "author": "xylplm",
+        "date": "2025-12-20 14:37:11",
+        "message": "fix: 媒体服务刷新"
+      },
+      {
+        "commit": "e085857fec573fd8ca536cface4e6c8140b51100",
+        "author": "xylplm",
+        "date": "2025-12-20 13:58:01",
+        "message": "feat:定时刷新媒体服务器"
+      },
+      {
+        "commit": "68ed4197d7f993606b61b049d2f7b712a1787496",
+        "author": "Jolc",
+        "date": "2025-12-19 23:16:47",
+        "message": "fix: 暂时保留 log f 系列"
+      },
+      {
+        "commit": "59f49abf452a1ba1b2891582d18814514e8cf33f",
+        "author": "GateCross",
+        "date": "2025-12-19 23:09:30",
+        "message": "fix:回退"
+      },
+      {
+        "commit": "66144d3038ab989282e2427d3be6c7425c4da8b9",
+        "author": "Jolc",
+        "date": "2025-12-19 23:01:05",
+        "message": "fix: 云存储列表性能优化"
+      },
+      {
+        "commit": "294495a021da92ad8bb5d832fc7b81ce8d2f9fa4",
+        "author": "GateCross",
+        "date": "2025-12-19 22:31:17",
+        "message": "fix:logger"
+      },
+      {
+        "commit": "ac7c68aa25b74052b1334a442494b219c323231f",
+        "author": "Jolc",
+        "date": "2025-12-19 22:28:11",
+        "message": "fix: logger with ctx"
+      },
+      {
+        "commit": "99057af201a70bc3aead771b63a6a0894f03556c",
+        "author": "GateCross",
+        "date": "2025-12-19 22:10:06",
+        "message": "fix:logger"
+      },
+      {
+        "commit": "104a81b111ed06b3f71258ac9cb56431f82ccbfb",
+        "author": "Jolc",
+        "date": "2025-12-19 21:51:07",
+        "message": "fix: logic logger with ctx"
+      },
+      {
+        "commit": "9d2ce75fd19e3d1c1bab82a37e776f9a9b4dd62c",
+        "author": "GateCross",
+        "date": "2025-12-19 21:21:10",
+        "message": "fix:优化微信通知"
+      },
+      {
+        "commit": "31900f79efcbf5c84a189ac47d89ea9bd651af06",
+        "author": "liurongjie",
+        "date": "2025-12-19 20:31:22",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "fcb3abfc5d3a6c7cc158e26a3c1fcc19f6bc7146",
+        "author": "GateCross",
+        "date": "2025-12-19 17:28:01",
+        "message": "feat:企业微信增加MpNews方法"
+      },
+      {
+        "commit": "18b99af413d27089a033d038a15fa82ee5d5e917",
+        "author": "Jolc",
+        "date": "2025-12-19 17:08:54",
+        "message": "feat: log 接口 ok"
+      },
+      {
+        "commit": "d938611b2f83fd64b169e53b15514208d04b38cc",
+        "author": "Jolc",
+        "date": "2025-12-19 16:17:01",
+        "message": "feat: mlist log 兼容"
+      },
+      {
+        "commit": "e943c52fb95ed64e59d7729e44e85fae344e6d88",
+        "author": "GateCross",
+        "date": "2025-12-19 15:32:25",
+        "message": "fix:ctmd请求优化"
+      },
+      {
+        "commit": "85c763c715c7377534ab3477a22a2cc6d4f5c372",
+        "author": "weni09",
+        "date": "2025-12-19 14:27:16",
+        "message": "fix: mt搜索分页使用默认值问题"
+      },
+      {
+        "commit": "aafe93735f6a31b2ab5870f85cf94f586fe8002e",
+        "author": "GateCross",
+        "date": "2025-12-19 14:13:02",
+        "message": "fix:Github Token请求优化"
+      },
+      {
+        "commit": "3b73c2b2ece93e0d6184449a6bd53aa4af122567",
+        "author": "GateCross",
+        "date": "2025-12-19 14:02:26",
+        "message": "fix:Github请求优化"
+      },
+      {
+        "commit": "c8460b5b47ecf4ea9c3f70301b7a1debb56de2d9",
+        "author": "liurongjie",
+        "date": "2025-12-19 13:13:51",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "c65bc4a8613ec921a9b632829f7c645b9097b630",
+        "author": "liurongjie",
+        "date": "2025-12-19 12:21:52",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "094cc5a7a7bd3520df54113faa9a45780421a534",
+        "author": "weni09",
+        "date": "2025-12-19 10:30:12",
+        "message": "fix: 朱雀种子搜索分页问题"
+      },
+      {
+        "commit": "2723cbe60141fb333af1350386df3989e187c820",
+        "author": "Jolc",
+        "date": "2025-12-19 00:33:18",
+        "message": "feat: 统一 log"
+      },
+      {
+        "commit": "4df49587e259368d5e0878f4347e6107d9b3a42b",
+        "author": "liurongjie",
+        "date": "2025-12-18 22:21:21",
+        "message": "refactor(webhook): 删除Plex Webhook中调试日志打印"
+      },
+      {
+        "commit": "dbd12a667f7d2f72e81201164cb1cd3d54b93244",
+        "author": "liurongjie",
+        "date": "2025-12-18 22:00:08",
+        "message": "fix(plex): 修复 Plex 服务器配置解析及连接信息赋值问题"
+      },
+      {
+        "commit": "9e4aa457c59dd3cd4f80da753e6bc8d25a881ac8",
+        "author": "Jolc",
+        "date": "2025-12-18 21:37:54",
+        "message": "feat: zap log logw logc"
+      },
+      {
+        "commit": "b28799284b9418c6e1d65d86651d2a0657e95ba2",
+        "author": "Jolc",
+        "date": "2025-12-18 19:57:19",
+        "message": "feat: zap log 未完成"
+      },
+      {
+        "commit": "4aeeb313bf8102899a27298b9aa08eb26e8f249c",
+        "author": "liurongjie",
+        "date": "2025-12-18 18:12:42",
+        "message": "fix(webhook): 添加日志打印"
+      },
+      {
+        "commit": "d1f59ec4375df0e3d1f60370f6b1e88caf971546",
+        "author": "liurongjie",
+        "date": "2025-12-18 18:00:38",
+        "message": "fix(webhook): 添加日志打印"
+      },
+      {
+        "commit": "216357650fb6489c1902dbd005ff1c272525eabe",
+        "author": "liurongjie",
+        "date": "2025-12-18 17:45:17",
+        "message": "fix(webhook): 添加日志打印"
+      },
+      {
+        "commit": "bb024b8a1327e1667ad005f51e13235d2cc7ed04",
+        "author": "liurongjie",
+        "date": "2025-12-18 17:44:41",
+        "message": "fix(webhook): 添加日志打印"
+      },
+      {
+        "commit": "5930ea629fabe270fcb4a7e7cef95872a1998afd",
+        "author": "liurongjie",
+        "date": "2025-12-18 17:23:03",
+        "message": "fix(webhook): 添加日志打印"
+      },
+      {
+        "commit": "5c36c5bfa4d7cfd616d4a6f8d35eeb97bca77272",
+        "author": "liurongjie",
+        "date": "2025-12-18 16:34:13",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "8d7c3ebdd675d4736ead56a1696e77202a2290af",
+        "author": "xylplm",
+        "date": "2025-12-18 15:26:38",
+        "message": "fix：极影视搜索结果过滤"
+      },
+      {
+        "commit": "b88a1acab7f424f6311f63b8a1d4e90d1c03e43a",
+        "author": "liurongjie",
+        "date": "2025-12-18 13:55:35",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f6ebd33d6164a0f360eef2c6ce2f232c0f21ce85",
+        "author": "Jolc",
+        "date": "2025-12-18 13:32:15",
+        "message": "feat: 云存储上传目录记忆"
+      },
+      {
+        "commit": "d04153d8f832c5ccc44f0b1593dafd92ab07b5bb",
+        "author": "GateCross",
+        "date": "2025-12-17 23:24:46",
+        "message": "fix:优化热更新并发请求日志及次数"
+      },
+      {
+        "commit": "3a0f069c84a4abf4bb1304152eda65ca9c239a15",
+        "author": "Jolc",
+        "date": "2025-12-17 23:10:50",
+        "message": "fix：tv 订阅增加动漫多集模式"
+      },
+      {
+        "commit": "8bcc6010e9a951b40742493bda9713e61f57f17f",
+        "author": "Jolc",
+        "date": "2025-12-17 22:06:23",
+        "message": "feat：tv 订阅增加动漫多集模式"
+      },
+      {
+        "commit": "a77491b7dc9e14eca625f92488b19d1d3ac326ea",
+        "author": "liurongjie",
+        "date": "2025-12-17 21:40:16",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "79e1a2fce2ffd9e3d709e3cd02db3f24ef314eaa",
+        "author": "Jolc",
+        "date": "2025-12-17 17:27:56",
+        "message": "fix: 秒传次数跑完没走普通上次问题。"
+      },
+      {
+        "commit": "a00ce4b0d7dd6b7cff0a0bb2cfe0953576060777",
+        "author": "xylplm",
+        "date": "2025-12-17 10:26:46",
+        "message": "fix: 优化 转移历史"
+      },
+      {
+        "commit": "6da2e7dffc44b9c0ce6ebaacb23eb9cebc773ffa",
+        "author": "xylplm",
+        "date": "2025-12-17 09:57:43",
+        "message": "fix: 同步历史Time增加索引"
+      },
+      {
+        "commit": "27f07937f4c0a39c836d2aeed2038d947e8f26bb",
+        "author": "liurongjie",
+        "date": "2025-12-17 09:37:26",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "c133589e0b28491312336d5bbdea1290f6d03b50",
+        "author": "Jolc",
+        "date": "2025-12-17 00:12:02",
+        "message": "feat: 123 json 代码优化"
+      },
+      {
+        "commit": "3de8970e8fcb35dae555835ad456ca2fd1ce36c7",
+        "author": "liurongjie",
+        "date": "2025-12-16 15:54:27",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f1022c2152df1ba550e7a95e0554bd5999c95c2f",
+        "author": "liurongjie",
+        "date": "2025-12-16 14:12:06",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "5108b0e1adbd9b07940c8266f76ceeb2c03ab24a",
+        "author": "liurongjie",
+        "date": "2025-12-16 13:25:28",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "e34c9186c5a8ed412174265d869ea92713e8d643",
+        "author": "yii",
+        "date": "2025-12-16 09:33:48",
+        "message": "fix 捕获J佬的bug"
+      },
+      {
+        "commit": "951560f1951d37d957ee0ea8589b5177bf25fe73",
+        "author": "Jolc",
+        "date": "2025-12-15 23:56:24",
+        "message": "feat: open123 生成秒传链接 json"
+      },
+      {
+        "commit": "635db6e8436c9c8736ad8a08f9b7ff7051ba0d96",
+        "author": "liurongjie",
+        "date": "2025-12-15 23:13:31",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f05bbef46ca1a3b7ba2e9b6f8c671d45666ab728",
+        "author": "liurongjie",
+        "date": "2025-12-15 22:09:41",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "48460e990a75ca42fdfa7f10c4abdccc758abf74",
+        "author": "yii",
+        "date": "2025-12-15 15:03:26",
+        "message": "perf 移除多余依赖 go-retry-v4"
+      },
+      {
+        "commit": "07b30dcaaf6e3a90ac5247024ef6a1c09085d9a3",
+        "author": "yii",
+        "date": "2025-12-15 14:58:07",
+        "message": "fix crypto cve"
+      },
+      {
+        "commit": "6e3afc070bbf2cfbda08f3da29d2104504c149c0",
+        "author": "yii",
+        "date": "2025-12-15 14:53:47",
+        "message": "perf 移除多余依赖 gopsutil"
+      },
+      {
+        "commit": "725aa0a93589cb3c911538cc65cb73f2bb17abd2",
+        "author": "yii",
+        "date": "2025-12-15 14:48:34",
+        "message": "Revert \"fix 移除多余retry-go依赖\""
+      },
+      {
+        "commit": "a7ae99cbdd00d0c6e42ebfe9bf1dd6b8f1f3ea95",
+        "author": "yii",
+        "date": "2025-12-15 14:43:01",
+        "message": "fix 移除多余retry-go依赖"
+      },
+      {
+        "commit": "d4385523340a6899f51725432521e34b0a663a19",
+        "author": "Jolc",
+        "date": "2025-12-15 13:26:08",
+        "message": "fix: 修复 115 生活事件没配置包含路径，忽略文件问题。"
+      },
+      {
+        "commit": "d09a07fef49c55d7be67ff9e60f46a6be76a0311",
+        "author": "Jolc",
+        "date": "2025-12-15 12:52:55",
+        "message": "fix: 订阅完成后，被 rss 重复下载问题。祭天一位后端"
+      },
+      {
+        "commit": "506f617203df6589b3e75dec8d6477eb3a8f2a2d",
+        "author": "liurongjie",
+        "date": "2025-12-15 10:23:46",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "1341bb57d6e1b043f2de0079aa1b099a03bbf339",
+        "author": "liurongjie",
+        "date": "2025-12-15 10:02:35",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "7bb8e23000661450e0371467f4c872bcf5e2cf67",
+        "author": "liurongjie",
+        "date": "2025-12-14 23:40:27",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "06bcd8c81a08ee1cac0a1e734e0270357e3e0ec3",
+        "author": "liurongjie",
+        "date": "2025-12-14 22:05:18",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "3c997c86350b5a4bbc1f19ba022e4b922041046d",
+        "author": "liurongjie",
+        "date": "2025-12-14 21:24:09",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "814abee305173b730599e5a9b9481dd50f9ce5be",
+        "author": "Jolc",
+        "date": "2025-12-14 19:26:22",
+        "message": "feat: p115"
+      },
+      {
+        "commit": "4790eacecd104c20b7b8cd5dabfdfd976d530143",
+        "author": "liurongjie",
+        "date": "2025-12-14 13:42:18",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "a91de00f13940a2c287f003f32e57ebfece431fb",
+        "author": "xylplm",
+        "date": "2025-12-13 23:21:33",
+        "message": "fix: 优化netx 默认代理跳过本地和局域网ip 避免进入环境代理"
+      },
+      {
+        "commit": "06ccf07bbdd45e623d9d8145659e123d627f75c6",
+        "author": "liurongjie",
+        "date": "2025-12-13 21:15:25",
+        "message": "fix(dynamic_form): 调整多插件配置列宽布局"
+      },
+      {
+        "commit": "3bfd66d362b32423b7fa47c7f54903cf2b23028a",
+        "author": "Jolc",
+        "date": "2025-12-13 15:10:34",
+        "message": "fix: cloud storage task clear"
+      },
+      {
+        "commit": "7179ad736db829d848091f5828c19ca798e9c069",
+        "author": "Jolc",
+        "date": "2025-12-13 14:50:57",
+        "message": "fix: 修复 123 转存"
+      },
+      {
+        "commit": "c440d5658fca29c0fa31dc3b03e077c4fd3b1f12",
+        "author": "liurongjie",
+        "date": "2025-12-13 14:13:49",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "5245c0990d0158d3f84ffdbb29721afc6f957a6d",
+        "author": "Jolc",
+        "date": "2025-12-13 13:59:23",
+        "message": "feat: merge oplist"
+      },
+      {
+        "commit": "72a4f2f6b57a66a5e21181bc48c452a9e840223b",
+        "author": "liurongjie",
+        "date": "2025-12-13 13:39:12",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "01c56a8d4d7a10f4e759c0ba218c8de4cde7220b",
+        "author": "liurongjie",
+        "date": "2025-12-13 13:24:39",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "05a599eff33bb245ab973372aba7aaf6d10f47af",
+        "author": "liurongjie",
+        "date": "2025-12-13 11:06:16",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "57fb5c4635ea69a6a0bf7817f73322195e52f649",
+        "author": "Jolc",
+        "date": "2025-12-13 10:32:55",
+        "message": "fix: 修 123 json upload"
+      },
+      {
+        "commit": "4cd770a2bbee6c1857ec368b966ecf174aa90843",
+        "author": "Jolc",
+        "date": "2025-12-13 00:15:40",
+        "message": "feat: merge oplist"
+      },
+      {
+        "commit": "194bd252a69085c1ca435c8edb77fff5f97987a0",
+        "author": "liurongjie",
+        "date": "2025-12-12 21:43:13",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f077678ce916815d2aaf2c3b1cbbb023798bbd1c",
+        "author": "GateCross",
+        "date": "2025-12-12 17:25:37",
+        "message": "feat:增加手动识别重试失败项"
+      },
+      {
+        "commit": "a7bee118f9ef36b3729bcfaf623af7e81cae4ddf",
+        "author": "liurongjie",
+        "date": "2025-12-12 16:45:17",
+        "message": "feat: 优化消息推送内容格式"
+      },
+      {
+        "commit": "3aa7fef0b4e450ac75638529b99f35f9be085709",
+        "author": "liurongjie",
+        "date": "2025-12-12 13:56:05",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "03ebb26cf6e4a418f2c2acaee3ba2c10cd231efd",
+        "author": "liurongjie",
+        "date": "2025-12-12 10:29:10",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f09d51b1ef78d7e9e5c92db0b4628b0dbd1dfe09",
+        "author": "liurongjie",
+        "date": "2025-12-12 00:03:46",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "f483f22a2c83be1d593ea22fe334550574300fdc",
+        "author": "liurongjie",
+        "date": "2025-12-11 13:04:33",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "025202b19a4cbb18269745edc860e25a99459e0b",
+        "author": "liurongjie",
+        "date": "2025-12-11 12:36:51",
+        "message": "refactor: 优化通知消息"
+      },
+      {
+        "commit": "b228bb1016b6f5cdf753bd437ba9036533f60cd0",
+        "author": "Jolc",
+        "date": "2025-12-11 11:02:04",
+        "message": "feat:增加迅雷驱动、云存储跨盘复制移动成功或失败回调事件、hdhive 签到插件优化、"
+      },
+      {
+        "commit": "0dd5cd6483399e4ce4ae95fc52aace2c9e31dae9",
+        "author": "liurongjie",
+        "date": "2025-12-11 10:56:01",
+        "message": "refactor: 优化下载通知消息"
+      },
+      {
+        "commit": "9bc8a7ca595edf79cfefdd5d4cc20ec19ad770db",
+        "author": "liurongjie",
+        "date": "2025-12-10 21:58:51",
+        "message": "fix(api): 优化GitHub限流错误提示信息"
+      },
+      {
+        "commit": "a5f5d4bea21ecb906c5800dd1d16dd23a4d236f4",
+        "author": "yii",
+        "date": "2025-12-10 19:56:29",
+        "message": "fix: 请求偶发性异常问题"
+      },
+      {
+        "commit": "79ccf09056d4d6440d8694ee157b0a2531e186dd",
+        "author": "liurongjie",
+        "date": "2025-12-10 15:06:53",
+        "message": "feat: 优化消息推送内容格式"
+      },
+      {
+        "commit": "ee8873aff54280759482e2da548de00c6274de69",
+        "author": "weni09",
+        "date": "2025-12-10 11:21:02",
+        "message": "提交代码"
+      },
+      {
+        "commit": "49703226f9c7add872808815cca34edeb3dd25b4",
+        "author": "yii",
+        "date": "2025-12-10 10:11:35",
+        "message": "fix: 刚刚腿只打断了一半"
+      },
+      {
+        "commit": "5103129b6452eaf22d0a16f52a99fb8754ffda7f",
+        "author": "yii",
+        "date": "2025-12-10 10:10:24",
+        "message": "fix: 程序跑太快了给腿打断"
+      },
+      {
+        "commit": "7fcf092cd9d3f42134b6c839b2559b31983aedeb",
+        "author": "liurongjie",
+        "date": "2025-12-09 23:18:09",
+        "message": "feat: 优化消息推送内容格式"
+      },
+      {
+        "commit": "e60e38af84fcbd2ba6065b5bfbc553e4d98b04ba",
+        "author": "GateCross",
+        "date": "2025-12-09 23:03:18",
+        "message": "fix:log"
+      },
+      {
+        "commit": "912ba0fbef83334063d22007ecee479e60f560b3",
+        "author": "yii",
+        "date": "2025-12-09 23:00:34",
+        "message": "fix: 优化程序跑的太快的问题"
+      },
+      {
+        "commit": "86b27c0e18cc49aae5831ea3111b42e171e0f8c5",
+        "author": "yii",
+        "date": "2025-12-09 21:52:54",
+        "message": "fix: 优化接口性能过高的问题"
+      },
+      {
+        "commit": "d0b216f6c1dcb7f808d210c102351bdec001531d",
+        "author": "yii",
+        "date": "2025-12-09 19:59:47",
+        "message": "fix: 优化接口性能过高的问题"
+      },
+      {
+        "commit": "2cee0cfeb7588cefe82262a797b34fe6058d44a6",
+        "author": "yii",
+        "date": "2025-12-09 19:56:50",
+        "message": "fix: 优化接口性能过高的问题"
+      },
+      {
+        "commit": "804423dfc5bad5f0310dda69e5e1b18295a934bc",
+        "author": "yii",
+        "date": "2025-12-09 17:43:55",
+        "message": "fix: 修正认证组件"
+      },
+      {
+        "commit": "4b0fb2e0311ddff7c1783a273618d40cdfa3c33e",
+        "author": "GateCross",
+        "date": "2025-12-09 17:19:50",
+        "message": "fix:打印日志"
+      },
+      {
+        "commit": "43b213b565cd5bd400533f6663ba340974e8abeb",
+        "author": "GateCross",
+        "date": "2025-12-09 16:57:28",
+        "message": "fix:优化api接口错误提示"
+      },
+      {
+        "commit": "00ecc7325900000f414ce29743675a66abd702bd",
+        "author": "GateCross",
+        "date": "2025-12-09 14:05:08",
+        "message": "fix:优化热更新版本判断"
+      },
+      {
+        "commit": "517dff91f8e7d97c367bc8653d66235199f99ed1",
+        "author": "GateCross",
+        "date": "2025-12-09 11:23:35",
+        "message": "fix:优化热更新版本问题"
+      },
+      {
+        "commit": "5d263a753f550f36b1a081ededbe020c9ef19f75",
+        "author": "xylplm",
+        "date": "2025-12-09 11:02:54",
+        "message": "feat: 秘籍98签到 内置黑名单用户 以及黑名单用户配置"
+      },
+      {
+        "commit": "78efa30cd8ee037747e08db195e5a375513614a4",
+        "author": "xylplm",
+        "date": "2025-12-09 10:20:52",
+        "message": "fix: 98帖子信息完整性校验"
+      },
+      {
+        "commit": "368ae756748b8ad8cc27c6ac811b53e3f06add49",
+        "author": "xylplm",
+        "date": "2025-12-09 10:15:26",
+        "message": "feat: 修仙秘籍 98签到 增加帖子内容钓鱼贴校验、版务校验 增加内容黑名单关键词配置"
+      },
+      {
+        "commit": "6be92d562a38284397a1de9b83e73218b74adf4a",
+        "author": "liurongjie",
+        "date": "2025-12-09 09:24:10",
+        "message": "fix: 优化消息通知模板"
+      },
+      {
+        "commit": "64d31d6aa00c3aa325cff16c68de1c08ca0ba782",
+        "author": "Jolc",
+        "date": "2025-12-08 23:50:33",
+        "message": "feat: 115 事件选择事件"
+      },
+      {
+        "commit": "cd3288242217d7ebae666187f0d9fefadff85d44",
+        "author": "zyt0339",
+        "date": "2025-12-08 23:03:27",
+        "message": "fix:brush go ,加日志"
+      },
+      {
+        "commit": "a0a10756de62b03cdd28f3071744764ce995bacd",
+        "author": "Jolc",
+        "date": "2025-12-08 22:46:57",
+        "message": "feat: 115 事件可配置包含路径"
+      },
+      {
+        "commit": "2bf10526e2b3f5e271ef1ae212d8351b9020977b",
+        "author": "liurongjie",
+        "date": "2025-12-08 22:30:22",
+        "message": "style(service): 优化下载和转移消息通知文本格式"
+      },
+      {
+        "commit": "72c5c934a154ba7f88205b5eda10aa563be1c843",
+        "author": "Jolc",
+        "date": "2025-12-08 21:52:31",
+        "message": "fix: log"
+      },
+      {
+        "commit": "f8d11fa7fb37b394c7c4de744955ed2739631c25",
+        "author": "Jolc",
+        "date": "2025-12-08 20:33:43",
+        "message": "fix: log"
+      },
+      {
+        "commit": "0ea798cfa4237f1eca4e16fc9e6392b663b1bca2",
+        "author": "zyt0339",
+        "date": "2025-12-08 19:52:15",
+        "message": "fix brush.go加点日志"
+      },
+      {
+        "commit": "c9043f915184a9e5c86c79a141660d050ccf71d6",
+        "author": "Jolc",
+        "date": "2025-12-08 18:39:14",
+        "message": "fix: 优化"
+      },
+      {
+        "commit": "c37fa4f0e24fe49463dece7ebc2ea39702856de0",
+        "author": "Jolc",
+        "date": "2025-12-08 14:59:38",
+        "message": "feat: 修复云下载整理找不到对象问题、新增 115 生活事件插件。"
+      },
+      {
+        "commit": "215706163fb84b85e617048d82040b78a07697b2",
+        "author": "xylplm",
+        "date": "2025-12-08 10:26:37",
+        "message": "fix: 网络诊断结果不显示"
+      },
+      {
+        "commit": "a8deb8ffaaae9725eb3c5e7659e960f5a7f56005",
+        "author": "GateCross",
+        "date": "2025-12-08 10:25:18",
+        "message": "fix:增加请求github api失败重试次数"
+      },
+      {
+        "commit": "4d4b438069c7361214983f646df809831ff1fb21",
+        "author": "zyt0339",
+        "date": "2025-12-08 01:37:21",
+        "message": "fix:刷流插件，由于qb获取最新添加种子有延迟，导致一轮rss添加完种子后，总下载数会超过配置的最大值"
+      },
+      {
+        "commit": "eb488755b62a876e653d7ed3b25c59337b93523f",
+        "author": "GateCross",
+        "date": "2025-12-07 22:58:43",
+        "message": "feat:增加github token"
+      },
+      {
+        "commit": "ee4be90dcb08b36ca6f212ff4865a00d4fab1d8e",
+        "author": "Jolc",
+        "date": "2025-12-06 23:11:07",
+        "message": "feat:云存储目录监听"
+      },
+      {
+        "commit": "d0fbd8fce3e2d3087b8ddb3b709aed527b1e1586",
+        "author": "xylplm",
+        "date": "2025-12-06 19:18:28",
+        "message": "feat: OCR识别接口"
+      },
+      {
+        "commit": "d381fe1af19298dc79aa05a80bb3aab3a7de4451",
+        "author": "Jolc",
+        "date": "2025-12-06 18:34:09",
+        "message": "fix:rss 发布时间为空问题"
+      },
+      {
+        "commit": "852f699c7f16ec1c87c94d08c95ed1e461a0d236",
+        "author": "xylplm",
+        "date": "2025-12-06 17:17:34",
+        "message": "fix: error"
+      },
+      {
+        "commit": "58f1cb20d007952c5296f40427b4f81faa931e00",
+        "author": "xylplm",
+        "date": "2025-12-06 16:59:20",
+        "message": "feat: 新增秘籍 下载器标签限速"
+      },
+      {
+        "commit": "1d08730b6e00627a2280584d01a95cb4293a6bb6",
+        "author": "zyt0339",
+        "date": "2025-12-06 10:36:11",
+        "message": "fix 修复 brush.go pubDate 读取"
+      },
+      {
+        "commit": "2d60808c331b93b1595ce6fd2faebde67e95e486",
+        "author": "Jolc",
+        "date": "2025-12-06 00:31:11",
+        "message": "fix:11"
+      },
+      {
+        "commit": "4a4795858c2b773c2d2661d4b671578530edfadc",
+        "author": "Jolc",
+        "date": "2025-12-06 00:30:12",
+        "message": "fix:11"
+      },
+      {
+        "commit": "bb7690de7f4e540ab1f6fe93b15411f5e3d0fd5f",
+        "author": "Jolc",
+        "date": "2025-12-05 23:17:25",
+        "message": "fix:nullbr 资源磁力、ed2k 开关搞反"
+      },
+      {
+        "commit": "9c3233eee424d52ba74e9067ec4ab57d484df88a",
+        "author": "Jolc",
+        "date": "2025-12-05 22:55:15",
+        "message": "fix:刷流插件发布时间判断逻辑"
+      },
+      {
+        "commit": "2a6b274273b163c8d74297969cebb7c748cd18c4",
+        "author": "Jolc",
+        "date": "2025-12-05 22:19:44",
+        "message": "feat:oplist sync"
+      },
+      {
+        "commit": "c4999e49a17e1bc64938e65f0c601d9694687218",
+        "author": "Jolc",
+        "date": "2025-12-05 21:19:54",
+        "message": "fix:云存储整理mq改为串行"
+      },
+      {
+        "commit": "fe25696f1cae8bb7a81c642b4f0989a9ece7ba66",
+        "author": "xylplm",
+        "date": "2025-12-05 16:18:23",
+        "message": "feat:秘籍 朱雀签到 技能释放"
+      },
+      {
+        "commit": "dfd559286cfa2a6861918cae331934ed47d32ace",
+        "author": "GateCross",
+        "date": "2025-12-05 15:39:12",
+        "message": "fix:优化热更新检查逻辑"
+      },
+      {
+        "commit": "26769b1917f7a2d972f035e0c6f66469af5684cc",
+        "author": "Jolc",
+        "date": "2025-12-04 20:49:18",
+        "message": "fix:指定 tmdb 整理无效问题"
+      },
+      {
+        "commit": "e717ed0cda84bd8075537ab7f5673f90d492661e",
+        "author": "xylplm",
+        "date": "2025-12-04 19:31:31",
+        "message": "fix:siteConfig 判断目录不为空"
+      },
+      {
+        "commit": "b70126e76681869f92278e4d7682a8b86759587f",
+        "author": "xylplm",
+        "date": "2025-12-04 18:46:44",
+        "message": "fix:提取环境检测函数"
+      },
+      {
+        "commit": "5f2f884b9e7a5b30dbd9f47067758854af238251",
+        "author": "xylplm",
+        "date": "2025-12-04 18:23:41",
+        "message": "fix: 站点配置版本管理"
+      },
+      {
+        "commit": "683117f8f921cb28d9ba75958165cf61d68b34bc",
+        "author": "xylplm",
+        "date": "2025-12-04 14:32:23",
+        "message": "fix: 优化github 方法"
+      },
+      {
+        "commit": "2bc9bc374661299e2d93caddf72856ea57ea2641",
+        "author": "Jolc",
+        "date": "2025-12-04 00:48:51",
+        "message": "fix：刷流同时下载任务数逻辑修改"
+      },
+      {
+        "commit": "394f9066be3e80d52df15033f8801cee34287c1a",
+        "author": "Jolc",
+        "date": "2025-12-03 18:38:02",
+        "message": "fix: tmdb tar.gz 更新优化"
+      },
+      {
+        "commit": "0bc6a4006e191648a51d8f3bb5e2618ff4798bc0",
+        "author": "GateCross",
+        "date": "2025-12-03 10:05:05",
+        "message": "feat:重新添加strm定时任务"
+      },
+      {
+        "commit": "56590de1816366959189d72c003ce93425d576e5",
+        "author": "Jolc",
+        "date": "2025-12-02 23:46:33",
+        "message": "fix:github api 优化"
+      },
+      {
+        "commit": "9b898ca770ba78c1530b3dcc65a0e21c65898764",
+        "author": "xylplm",
+        "date": "2025-12-02 22:57:06",
+        "message": "fix: 提示删除临时文件异常"
+      },
+      {
+        "commit": "58709718d60b15ee5dc4684dace4f012a31518c1",
+        "author": "xylplm",
+        "date": "2025-12-02 18:10:53",
+        "message": "fix: tmdbconfigs 先检查文件是否存在"
+      },
+      {
+        "commit": "8c98212b2e02dd45cfff45973ad13f98f1860478",
+        "author": "xylplm",
+        "date": "2025-12-02 18:06:56",
+        "message": "fix: tmdbconfigs 未找到文件时不抛出错误"
+      },
+      {
+        "commit": "729264efc08624a769406340947f2efbd7d11f67",
+        "author": "xylplm",
+        "date": "2025-12-02 17:33:48",
+        "message": "fix: 自动更新tmdb配置 及版本检测"
+      },
+      {
+        "commit": "4ab6eefa2d993c29af3ff2c1f5aadaf5612924f3",
+        "author": "yii",
+        "date": "2025-12-02 14:58:32",
+        "message": "fix: 输出认证服务器请求id"
+      },
+      {
+        "commit": "7b98a1666330a5d9b1dc84545d6c079b8909471e",
+        "author": "Jolc",
+        "date": "2025-12-02 13:08:43",
+        "message": "feat:tmdb自维护更好库"
+      },
+      {
+        "commit": "ed6ad797bf7cc90510b37382f782b49c83f21587",
+        "author": "Jolc",
+        "date": "2025-12-02 12:22:03",
+        "message": "feat:tmdb图片兼容处理"
+      },
+      {
+        "commit": "18c124e0efc395e025b4f7450344e90454b8ea16",
+        "author": "Jolc",
+        "date": "2025-12-02 11:35:31",
+        "message": "feat:自维护tmdb"
+      },
+      {
+        "commit": "7b188d82a71dffe3ab034f3261b97960f4b90e93",
+        "author": "GateCross",
+        "date": "2025-12-01 22:05:14",
+        "message": "fix:修复云存储文件整理定时任务"
+      },
+      {
+        "commit": "7283bde210f451c096f953d60c60a0db169cdd9d",
+        "author": "xylplm",
+        "date": "2025-12-01 20:09:27",
+        "message": "feat: 增加新的封面样式"
+      },
+      {
+        "commit": "b46632230d21ddd80dea73246f0fa62cf24eed80",
+        "author": "Jolc",
+        "date": "2025-12-01 19:41:56",
+        "message": "fix:云存储上传失败问题"
+      },
+      {
+        "commit": "fa009eb5647ac60290a991ef49587aa2ecbe26ca",
+        "author": "xylplm",
+        "date": "2025-12-01 19:20:51",
+        "message": "fix: 优化封面生成支持低功耗模式传递"
+      },
+      {
+        "commit": "1fbb30b488ab2854b370f9751a446a9385cd213e",
+        "author": "Jolc",
+        "date": "2025-12-01 18:50:34",
+        "message": "fix:云存储上传失败问题"
+      },
+      {
+        "commit": "1b309fbe12afb95dc22ed6ade06364b8f49a254e",
+        "author": "Jolc",
+        "date": "2025-12-01 16:24:54",
+        "message": "fix:115"
+      },
+      {
+        "commit": "4bfa5a53b385da99154abed4ea4dc10e1a2d4048",
+        "author": "Jolc",
+        "date": "2025-12-01 14:15:13",
+        "message": "fix:云存储缓存问题"
+      },
+      {
+        "commit": "4ef318bc720f2541d2354c6d0014b266e44cd1e3",
+        "author": "xylplm",
+        "date": "2025-12-01 13:13:16",
+        "message": "fix:emby jellyfin 封面文件类型动态判断"
+      },
+      {
+        "commit": "7c6abc5014bb50149b49c40d983d539118a57e21",
+        "author": "Jolc",
+        "date": "2025-11-30 22:24:32",
+        "message": "feat:走目录树整理时不获取文件信息（避免频繁请求）"
+      },
+      {
+        "commit": "b16a4d93bcd8981c511f0c4a734f242a3e578e95",
+        "author": "Jolc",
+        "date": "2025-11-30 21:58:03",
+        "message": "feat:123目录树"
+      },
+      {
+        "commit": "75d90fe9043ec01992fcadc1221c4304a262b1c3",
+        "author": "Jolc",
+        "date": "2025-11-29 22:34:56",
+        "message": "fix:gen strm error 日志"
+      },
+      {
+        "commit": "0cdefccebd62ab1d2b4bc1f2363c997493c36165",
+        "author": "GateCross",
+        "date": "2025-11-29 20:34:45",
+        "message": "fix:修复云存储文件整理定时任务"
+      },
+      {
+        "commit": "1a5a3ad7c6d08972260b6f0270e40807415f01cb",
+        "author": "Jolc",
+        "date": "2025-11-28 23:56:57",
+        "message": "fix:目录同步、本地整理、云存储整理增加通知开关。"
+      },
+      {
+        "commit": "14419ed7a83d8c632a77e809720d49651e0efc1c",
+        "author": "xylplm",
+        "date": "2025-11-28 18:09:39",
+        "message": "feat: 增加AilMWeb、Sunny种子匹配制作组"
+      },
+      {
+        "commit": "e70bb9100173562e87d2aec64517aed4a63f096f",
+        "author": "Jolc",
+        "date": "2025-11-28 17:36:29",
+        "message": "fix:115直链失效 help"
+      },
+      {
+        "commit": "83c098b6d00affe747feaee7c7a21da4a47cb740",
+        "author": "weni09",
+        "date": "2025-11-28 16:51:35",
+        "message": "fix: 115快链中设置过期时间"
+      },
+      {
+        "commit": "bf78cb472e8e523c11f1da25d55661034179dc34",
+        "author": "Jolc",
+        "date": "2025-11-27 23:57:33",
+        "message": "fix:clean"
+      },
+      {
+        "commit": "9ffef0c2be689ec3bd4c561518011b7aee500807",
+        "author": "GateCross",
+        "date": "2025-11-27 22:21:44",
+        "message": "feat:增加非重命名情况下的tmdb识别"
+      },
+      {
+        "commit": "957b1a80f070e97b7bfbd07f568a4d2f53cf797c",
+        "author": "GateCross",
+        "date": "2025-11-27 22:14:06",
+        "message": "fix:修复无限秒传"
+      },
+      {
+        "commit": "730a0bcaf3f40eadaea97908a6a972c9a4e8e0e8",
+        "author": "Jolc",
+        "date": "2025-11-27 12:41:48",
+        "message": "feat:详情季显示是否订阅"
+      },
+      {
+        "commit": "fcd41d9934bef2d34960bccc08f197211f2da4a0",
+        "author": "Jolc",
+        "date": "2025-11-26 22:38:34",
+        "message": "fix:详情不显示已订阅问题"
+      },
+      {
+        "commit": "adbe062fe31a93fb7af7f68a17b1afbc5cd51929",
+        "author": "Jolc",
+        "date": "2025-11-26 22:20:56",
+        "message": "fix:修复详情在订阅运行中显示未订阅问题"
+      },
+      {
+        "commit": "93b5e65209d3c48a35e30c0cb6c22eab4c95f418",
+        "author": "Jolc",
+        "date": "2025-11-26 21:53:16",
+        "message": "fix:云存储去掉优先秒传（有歧义，本来就是优先秒传），改为只需填秒传重试最大次数。"
+      },
+      {
+        "commit": "8af12cb37ee58a24af5839b86520b60f1dc639da",
+        "author": "Jolc",
+        "date": "2025-11-26 18:32:21",
+        "message": "fix:strm 异常通知"
+      },
+      {
+        "commit": "9cf184b2edcabafa32f6f3e08482933bcb069308",
+        "author": "yii",
+        "date": "2025-11-26 10:37:52",
+        "message": "fix: 优化暗装线程安全"
+      },
+      {
+        "commit": "6344355678bc106a2c8041f2b76511004f068e54",
+        "author": "Jolc",
+        "date": "2025-11-25 22:16:21",
+        "message": "feat:搜索自动建议以及全平台搜索，修复爱奇艺和 letterboxd 搜索异常。"
+      },
+      {
+        "commit": "76b32974aa8e9cf55902b2e2a7df1b8711e76ca4",
+        "author": "liurongjie",
+        "date": "2025-11-25 16:28:38",
+        "message": "fix(mediaserver): 修复 Plex 媒体库刷新路径处理逻辑"
+      }
+    ]
+  },
+  {
     "version": "3.0_202511251429",
     "items": [
       {

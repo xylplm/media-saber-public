@@ -1,5 +1,2014 @@
 [
   {
+    "version": "3.0_202601282244",
+    "items": [
+      {
+        "commit": "96eb0847f68194388b3f6ca02e583e5bcfe2957d",
+        "author": "xylplm",
+        "date": "2026-01-28 14:17:34",
+        "message": "fix: 更新系统日志对话框的样式，调整小屏幕下的内边距"
+      },
+      {
+        "commit": "70a1b6811ef211fffec782d51538d9b17179c98d",
+        "author": "liurongjie",
+        "date": "2026-01-28 10:08:10",
+        "message": "fix(tools): 修正清除缓存提示文字中的错别字"
+      },
+      {
+        "commit": "141f363816f2b50e508070b79803c70b69e32d04",
+        "author": "xylplm",
+        "date": "2026-01-24 18:32:08",
+        "message": "feat: 优化系统提示词配置按钮样式，增强用户体验"
+      },
+      {
+        "commit": "b8c50dd3a0f161bd0797ffbcaf040de2084969ce",
+        "author": "xylplm",
+        "date": "2026-01-24 15:23:59",
+        "message": "feat: 添加日期范围过滤器到系统日志对话框，更新相关接口和样式"
+      },
+      {
+        "commit": "ed2bdee019f90f7f95ef9d9b4184813efa165354",
+        "author": "liurongjie",
+        "date": "2026-01-21 12:46:47",
+        "message": "style(settings): 调整表单字段的栅格布局和间距"
+      },
+      {
+        "commit": "b2af699b84bef82190f2a89630342659a7827a4a",
+        "author": "liurongjie",
+        "date": "2026-01-20 22:44:11",
+        "message": "fix(system-logs): 修复订阅模块日志过滤及格式化问题"
+      },
+      {
+        "commit": "ee03f253b3d0e4130fe751956dd0651eb022bf44",
+        "author": "liurongjie",
+        "date": "2026-01-20 14:21:11",
+        "message": "feat(settings): 限制通知设置弹窗最大高度"
+      },
+      {
+        "commit": "cde6bae15083ab6d0a4af3bc0789d7b82ea6f274",
+        "author": "xylplm",
+        "date": "2026-01-19 18:16:04",
+        "message": "fix: align error messages in form fields to the right"
+      },
+      {
+        "commit": "bd800029c5cb71c64021f3ab741bfbaaea32252b",
+        "author": "xylplm",
+        "date": "2026-01-19 17:58:18",
+        "message": "feat: 添加 Vitest 配置和测试环境初始化，更新 tsconfig.spec.json 以支持 Vitest"
+      },
+      {
+        "commit": "38d55e78b9bccda13b33752f8a9961b887a1f8f9",
+        "author": "xylplm",
+        "date": "2026-01-19 17:04:33",
+        "message": "feat: 优化 FormFieldError 组件，添加性能测试和错误消息逻辑验证"
+      },
+      {
+        "commit": "6a84c026d3d4662959814e3acaf3aa62800a8dad",
+        "author": "xylplm",
+        "date": "2026-01-19 13:48:32",
+        "message": "feat: 115开放平台应用id增加一个Media Saber"
+      },
+      {
+        "commit": "defcb3c9fb8420883d0da1b9a963483e913ed110",
+        "author": "xylplm",
+        "date": "2026-01-18 20:10:49",
+        "message": "fix: 更新统计小部件，添加数字动画效果"
+      },
+      {
+        "commit": "7ac60e50c3c68501e9e0e6e9175f45013fcd4d41",
+        "author": "xylplm",
+        "date": "2026-01-18 14:00:02",
+        "message": "fix: 更新 subscribe_smart_recommend.svg，替换为新的图形和视口设置"
+      },
+      {
+        "commit": "32abad6d8979907e3e6f9562db1fc725fbcea726",
+        "author": "xylplm",
+        "date": "2026-01-18 13:59:57",
+        "message": "fix: 更新 sign_hdhive.svg 的视口设置，调整图形显示"
+      },
+      {
+        "commit": "7eff6aeff2cf599dc2095591b852c129c3b73bd8",
+        "author": "xylplm",
+        "date": "2026-01-18 13:51:46",
+        "message": "fix: 调整秘籍图标尺寸，优化加载样式"
+      },
+      {
+        "commit": "8cb07a05f6b83b5b556fabfcae382b2a914b891c",
+        "author": "GateCross",
+        "date": "2026-01-17 23:04:41",
+        "message": "feat: 添加 media_proxy SVG 图标"
+      },
+      {
+        "commit": "679b9c6b4392d83ae2a27820c3f4e5d46e5f0827",
+        "author": "syueya",
+        "date": "2026-01-17 22:17:25",
+        "message": "fix:驱动可以选择空"
+      },
+      {
+        "commit": "2d6b322bff386ab6818c28dc8c90fc3886d79889",
+        "author": "syueya",
+        "date": "2026-01-17 21:47:13",
+        "message": "fix:存储排版"
+      },
+      {
+        "commit": "2705ac5723804d0e158876761fa0ba2eebea269e",
+        "author": "xylplm",
+        "date": "2026-01-17 21:15:30",
+        "message": "fix: 更新站点图标加载逻辑，添加默认图标处理"
+      },
+      {
+        "commit": "fd44237a3479a43347ceba977fdfce2ee829bb35",
+        "author": "GateCross",
+        "date": "2026-01-17 21:15:22",
+        "message": "fix:媒体布局"
+      },
+      {
+        "commit": "7367b0564d6552b56805814cf7fee2e472b3f8a4",
+        "author": "xylplm",
+        "date": "2026-01-17 18:28:42",
+        "message": "fix: 站点图标加载"
+      },
+      {
+        "commit": "7474c134a56e57151e1ab082bf9d65155b670808",
+        "author": "syueya",
+        "date": "2026-01-17 17:23:24",
+        "message": "存储分页"
+      },
+      {
+        "commit": "9b2a81ca9c6a5c693acdfd915b1f2b9c7cddb21f",
+        "author": "syueya",
+        "date": "2026-01-17 13:42:34",
+        "message": "115批量分享"
+      },
+      {
+        "commit": "e48f47b8981e21d318fa5bab360423be2eff1d23",
+        "author": "syueya",
+        "date": "2026-01-17 11:37:31",
+        "message": "批量创建115分享存储字段"
+      },
+      {
+        "commit": "f79af1bdf4dfef1cf7b636ec628c8965f6db5f0f",
+        "author": "weni09",
+        "date": "2026-01-16 20:47:38",
+        "message": "fix: 表单假值获取问题"
+      },
+      {
+        "commit": "661ffcb5978e356733997a305930ca74cf7ed0e4",
+        "author": "xylplm",
+        "date": "2026-01-16 14:10:39",
+        "message": "chore: 升级 Angular 21.1.0 及相关依赖到最新版本"
+      },
+      {
+        "commit": "bd064eaf60095766fa24e0f46889bff78bcf013c",
+        "author": "liurongjie",
+        "date": "2026-01-16 11:49:15",
+        "message": "style(cloud-storage): 优化网格布局和卡片内容样式"
+      },
+      {
+        "commit": "24e597d7b7a19d0a870cca2fa02aee2907543e3f",
+        "author": "xylplm",
+        "date": "2026-01-16 11:22:06",
+        "message": "refactor: 将 mat-divider 包裹在 div 中以改善布局"
+      },
+      {
+        "commit": "fbe2b8bfb45594e0ac0020484ca5c9e712969520",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:35",
+        "message": "fix(search-task-table): 调整按钮布局以适应不同屏幕尺寸"
+      },
+      {
+        "commit": "73378a75deeff692334832c2db7a37dee7a7189a",
+        "author": "xylplm",
+        "date": "2026-01-15 17:38:29",
+        "message": "fix(breadcrumb): 修复面包屑组件的列布局问题"
+      },
+      {
+        "commit": "cd956863ef4a5a9e7886f34abab4da33ddba4c9b",
+        "author": "xylplm",
+        "date": "2026-01-15 14:12:27",
+        "message": "fix(system-logs): 修复时间戳格式化，确保正确处理时间戳单位"
+      },
+      {
+        "commit": "ad4f95a6fe04e38381c127497dfdefe951631cb4",
+        "author": "xylplm",
+        "date": "2026-01-15 13:46:01",
+        "message": "feat(system-logs): 添加导出日志功能并优化时间戳格式化"
+      },
+      {
+        "commit": "61f9bf20d0fdfc9e1d1519f05d7287cc33afbc36",
+        "author": "xylplm",
+        "date": "2026-01-15 10:55:43",
+        "message": "fix: 修复部分颜色和样式错误"
+      },
+      {
+        "commit": "4bb33404797a2ad5c8d942f5180ebdfd72c96a88",
+        "author": "liurongjie",
+        "date": "2026-01-15 00:04:37",
+        "message": "feat(tools): 添加 api.github.com 至 PingTestUrlList"
+      },
+      {
+        "commit": "f553d514549fa41eb1c5c3c87092be4f0908e696",
+        "author": "liurongjie",
+        "date": "2026-01-14 12:02:37",
+        "message": "fix(media-detail): 调整季列表样式和名称显示"
+      },
+      {
+        "commit": "885affbf05906ea329856ec67f855fffed0ddd3d",
+        "author": "GateCross",
+        "date": "2026-01-13 17:07:19",
+        "message": "fix:修复网盘分享重复问题"
+      },
+      {
+        "commit": "cdc09fd592a0754f49380504e378e574d4762ab2",
+        "author": "GateCross",
+        "date": "2026-01-13 10:48:44",
+        "message": "fix:修复strm生成现实数据"
+      },
+      {
+        "commit": "80e050bcc4749127d226e3210d032ff4fc2fc2be",
+        "author": "xylplm",
+        "date": "2026-01-12 17:08:31",
+        "message": "feat(ai-chat): 添加模型选择器的复制名称功能"
+      },
+      {
+        "commit": "8fece0d554d0d8dc1c855b803a28c6a0278c7632",
+        "author": "xylplm",
+        "date": "2026-01-12 17:08:23",
+        "message": "feat(input-seleted-search): 添加复制选项名称功能，优化选项展示样式"
+      },
+      {
+        "commit": "4c52c338c5824378a689a8d962c7476bfea17d55",
+        "author": "GateCross",
+        "date": "2026-01-12 16:58:21",
+        "message": "fix:优化网盘错误显示及样式"
+      },
+      {
+        "commit": "62d16fbad7cee732d16a9b7589b83b7dea41dac0",
+        "author": "xylplm",
+        "date": "2026-01-11 20:58:22",
+        "message": "fix(site-statistics): 修复站点数据导出错误"
+      },
+      {
+        "commit": "e5d0df1a740616972fa18e798fd528a975914645",
+        "author": "xylplm",
+        "date": "2026-01-11 20:51:29",
+        "message": "fix(site-statistics): 修复数据排序时的跟踪字段，使用siteId替代id"
+      },
+      {
+        "commit": "38099f89237ab5e1b5ee1cac161907a6bf03c3d4",
+        "author": "xylplm",
+        "date": "2026-01-11 20:26:47",
+        "message": "fix(dateUtils): 添加对时间为0的处理，返回'刚刚'"
+      },
+      {
+        "commit": "9a9286441a267f5f9b75843ba6bfc141b6b6783c",
+        "author": "liurongjie",
+        "date": "2026-01-11 15:38:22",
+        "message": "fix(cloud-storage): 修复任务卡片布局和用时显示问题"
+      },
+      {
+        "commit": "fe16e2cd2babac8a158573c10fa500ca4d527bff",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:27:14",
+        "message": "style(cloud-storage): 调整任务卡片布局间距和栅格列数"
+      },
+      {
+        "commit": "d8f2f76150d2003ceca73a04dfb2c3c53bf6ec0e",
+        "author": "liurongjie",
+        "date": "2026-01-11 14:13:59",
+        "message": "style(cloud-storage): 优化组件HTML样式和布局"
+      },
+      {
+        "commit": "aea542db65d43c4ea5ca1feb7043eaa02bc7620f",
+        "author": "liurongjie",
+        "date": "2026-01-10 23:23:10",
+        "message": "style(media-library): 优化媒体库组件的网格布局和样式细节"
+      },
+      {
+        "commit": "00e555002a53eb0e71f8159084d26ce07d77d2bb",
+        "author": "liurongjie",
+        "date": "2026-01-10 23:15:40",
+        "message": "style(media-server): 优化媒体服务器设置页面布局样式"
+      },
+      {
+        "commit": "19836299c7ae3514e663e63e369c523914711a7e",
+        "author": "xylplm",
+        "date": "2026-01-10 21:06:11",
+        "message": "fix(widget-site-recent-search-task): 优化搜索任务列表过滤和时间格式化逻辑.只展示手动的搜索"
+      },
+      {
+        "commit": "ad5c94898658aeb789d1891fac347cc2641bbde4",
+        "author": "xylplm",
+        "date": "2026-01-10 18:41:55",
+        "message": "fix(globals): 更新轻色调颜色变量以改善视觉效果"
+      },
+      {
+        "commit": "852ee75569c00a84829e23e67d703c5833b05b9c",
+        "author": "liurongjie",
+        "date": "2026-01-10 16:02:47",
+        "message": "feat(input-path): 限制路径选择对话框最大高度"
+      },
+      {
+        "commit": "c4f15a875e780dd9a5d9ebb4a406eea4b5dd9461",
+        "author": "liurongjie",
+        "date": "2026-01-10 16:00:51",
+        "message": "style(directory-sync): 调整同步面板网格间距及样式"
+      },
+      {
+        "commit": "f9876c2a8f5d9f5efcad2d12817e84ea7f2cd2b1",
+        "author": "liurongjie",
+        "date": "2026-01-09 23:34:22",
+        "message": "style(setting-torrent): 优化网格布局和标签样式"
+      },
+      {
+        "commit": "f294c3c4748a1604ae29e4163ee6ce8b98ceced4",
+        "author": "liurongjie",
+        "date": "2026-01-09 23:32:51",
+        "message": "style(setting-torrent): 优化网格布局和标签样式"
+      },
+      {
+        "commit": "ca9a4be2754d749ea1bfde856bf421bc3d7bc3aa",
+        "author": "liurongjie",
+        "date": "2026-01-09 23:31:48",
+        "message": "style(setting-torrent): 优化网格布局和标签样式"
+      },
+      {
+        "commit": "2bb46e026287b58f746b7025ddf4729ee4826478",
+        "author": "liurongjie",
+        "date": "2026-01-09 22:54:33",
+        "message": "fix(dynamic-form): 修正列宽计算中的最大列数限制"
+      },
+      {
+        "commit": "e41d47290916a1f8da82dab170c6d182bd842d37",
+        "author": "liurongjie",
+        "date": "2026-01-09 22:32:45",
+        "message": "style(tools-library): 优化网格布局和卡片样式细节"
+      },
+      {
+        "commit": "430095c3e0c170e37701f6d4aec3e390fe57c0e9",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:35:34",
+        "message": "style(cloud-storage): 优化完成任务卡片布局和样式"
+      },
+      {
+        "commit": "a5dde7882076b2f23d3647f1e1fcd7723e3ce1d2",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:29:20",
+        "message": "style(site-messages): 优化搜索表单布局间距"
+      },
+      {
+        "commit": "5216dc633f0af8c63071345a95df2dd941fe0964",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:24:44",
+        "message": "style(layout): 优化多个页面的网格间距和布局结构"
+      },
+      {
+        "commit": "d5b3436ca4ee48e6631052efcf647b580f337f3c",
+        "author": "liurongjie",
+        "date": "2026-01-09 18:04:32",
+        "message": "style(rss): 调整 RSS 订阅相关页面布局和样式"
+      },
+      {
+        "commit": "e8e67f548625ad61d6f188089aad092c3e89600b",
+        "author": "liurongjie",
+        "date": "2026-01-09 17:01:02",
+        "message": "style(tools-library-instance): 优化网格间距和布局样式"
+      },
+      {
+        "commit": "c47b9902546f55aa677b3e0129a91ebddbacc449",
+        "author": "liurongjie",
+        "date": "2026-01-09 15:06:20",
+        "message": "style(media-tidy): 调整自定义识别词单元更新表单布局宽度"
+      },
+      {
+        "commit": "e371bff64ec570caf86124e808ae199731a84961",
+        "author": "liurongjie",
+        "date": "2026-01-09 13:44:44",
+        "message": "style(download): 优化下载页面卡片间距和样式"
+      },
+      {
+        "commit": "93d61fc4e9cbcaaf97ebba2852fb24f52d23e0a6",
+        "author": "liurongjie",
+        "date": "2026-01-09 13:40:23",
+        "message": "fix(download): 优化下载记录描述显示及下载中列表样式"
+      },
+      {
+        "commit": "662beb1c5e2c3f79c4b731dbf63ede497111efd5",
+        "author": "xylplm",
+        "date": "2026-01-09 09:29:21",
+        "message": "fix(avatar-setting): 增加头像裁剪器的最小尺寸和输出尺寸为500px"
+      },
+      {
+        "commit": "9008088b879009cc9531d5f86e15e87ba447d9fe",
+        "author": "xylplm",
+        "date": "2026-01-09 00:09:57",
+        "message": "feat(avatar-setting): 添加头像上传预览和重新上传功能"
+      },
+      {
+        "commit": "050586a72b9af22ebd299dc18b3367e21852abd3",
+        "author": "xylplm",
+        "date": "2026-01-08 23:45:47",
+        "message": "feat(auth): 处理用户头像信息，支持自定义头像路径"
+      },
+      {
+        "commit": "45378175ce841aa3ede8644691d255a516b06da1",
+        "author": "xylplm",
+        "date": "2026-01-08 23:45:32",
+        "message": "fix(avatar-list): 移除未使用的头像资源和相关条目"
+      },
+      {
+        "commit": "23e7db3fefc92b970145754e4adbd67960f8199d",
+        "author": "xylplm",
+        "date": "2026-01-08 23:21:37",
+        "message": "feat(avatar-setting): 添加头像设置功能，支持选择和上传头像"
+      },
+      {
+        "commit": "f2ae24cd57b6ee3ca1b0b264efa85f93f0fc7985",
+        "author": "liurongjie",
+        "date": "2026-01-08 22:01:43",
+        "message": "style(download): 优化下载页面的布局与样式"
+      },
+      {
+        "commit": "da44978f08e95fe17e9a20ab8c0c6f4bf373d09f",
+        "author": "liurongjie",
+        "date": "2026-01-08 20:57:52",
+        "message": "fix(download): 修复下载页面卡片布局和表单字段样式问题"
+      },
+      {
+        "commit": "bfa8a1fb8285435b155c4035c745e0661757406c",
+        "author": "GateCross",
+        "date": "2026-01-08 20:39:18",
+        "message": "fix:优化首页组件布局"
+      },
+      {
+        "commit": "0597d8771ca30c72a0c7ba47272ef7bfc600a6fa",
+        "author": "liurongjie",
+        "date": "2026-01-08 19:58:51",
+        "message": "fix(download): 调整下载页面图片和布局显示"
+      },
+      {
+        "commit": "6ce09c05b532d49d15efff5a738a14e971b7ef82",
+        "author": "liurongjie",
+        "date": "2026-01-08 18:24:58",
+        "message": "style(site-source): 优化组件布局和样式间距"
+      },
+      {
+        "commit": "6da9acdb6fd4454f9f34a25cb260198f0e502143",
+        "author": "liurongjie",
+        "date": "2026-01-08 18:12:42",
+        "message": "fix(download): 修复已下载页面历史记录标题信息显示问题"
+      },
+      {
+        "commit": "79ad82818b85b35f239448c3af32f96a4500ba8d",
+        "author": "liurongjie",
+        "date": "2026-01-08 18:08:03",
+        "message": "style(search): 优化搜索对话框和统计组件的样式布局"
+      },
+      {
+        "commit": "6a4a9eaab5a82d0fcf4bc07073b0a025fe80b2ff",
+        "author": "GateCross",
+        "date": "2026-01-08 17:36:08",
+        "message": "fix:优化正在下载页面布局"
+      },
+      {
+        "commit": "47e535aa6a84e248f7e324f28f5e4681a440e94d",
+        "author": "GateCross",
+        "date": "2026-01-08 17:25:37",
+        "message": "fix:优化布局"
+      },
+      {
+        "commit": "ce6ae9adcb6ea71c9cee8b8e6ad991a4d0696af8",
+        "author": "GateCross",
+        "date": "2026-01-08 17:15:12",
+        "message": "fix:修复站点资源下载"
+      },
+      {
+        "commit": "2d8d2be369b25169c8953e72ab20a15c67749fc2",
+        "author": "liurongjie",
+        "date": "2026-01-08 14:06:26",
+        "message": "style(media-item): 调整组件样式边距和布局间距"
+      },
+      {
+        "commit": "1f777c86dd4c6efd9422a041cf2958795912906a",
+        "author": "liurongjie",
+        "date": "2026-01-08 13:13:26",
+        "message": "style(media-library): 调整媒体库网格列数和卡片高度"
+      },
+      {
+        "commit": "2270a05c52b270a4c11f93d9bce40630fa610a67",
+        "author": "liurongjie",
+        "date": "2026-01-08 13:09:24",
+        "message": "fix(layout): 优化多处组件的栅格布局适配"
+      },
+      {
+        "commit": "8a466a59ec11d9bf78a068f7db2e6abad16d4b0d",
+        "author": "liurongjie",
+        "date": "2026-01-08 11:59:10",
+        "message": "style(download): 调整下载历史卡片布局和新增头像资源"
+      },
+      {
+        "commit": "ac67f4dfe667035da4eda9d0dec05f5ff7d46dbf",
+        "author": "liurongjie",
+        "date": "2026-01-08 00:20:30",
+        "message": "style(download): 优化种子详情的字体大小样式"
+      },
+      {
+        "commit": "2afff9b3440593b934c61ccd81e012a0ceb3fa7b",
+        "author": "liurongjie",
+        "date": "2026-01-08 00:12:05",
+        "message": "style(media-item): 优化媒体项组件响应式样式 style(download-downloaded): 调整下载页面栅格布局"
+      },
+      {
+        "commit": "242a8fa9093f96da3240dc2bf995eaa5dcb0a258",
+        "author": "liurongjie",
+        "date": "2026-01-07 23:03:19",
+        "message": "style(download-downloader): 优化下载器列表卡片样式和布局"
+      },
+      {
+        "commit": "88c6b6a636314fb04c066c1e9a2a061ad07d7de8",
+        "author": "liurongjie",
+        "date": "2026-01-07 22:56:24",
+        "message": "fix(rss-calendar): 调整布局和样式细节"
+      },
+      {
+        "commit": "b1f328ccd9174a9aef1dc082f31d07a02adb33d0",
+        "author": "GateCross",
+        "date": "2026-01-07 22:55:12",
+        "message": "fix:自定义识别词样式优化"
+      },
+      {
+        "commit": "dffe0c733d5a43e2df664c97fd8732cc0c50c331",
+        "author": "liurongjie",
+        "date": "2026-01-07 22:37:27",
+        "message": "fix(rss): 修复rss-movie和rss-tv组件标签渲染与样式问题"
+      },
+      {
+        "commit": "056cba4fdb1803c595ba5b3d99129a895ab88d77",
+        "author": "GateCross",
+        "date": "2026-01-07 22:35:02",
+        "message": "fix:订阅日历修复"
+      },
+      {
+        "commit": "c5f216188d5677b077b664a632950869ab96fab7",
+        "author": "GateCross",
+        "date": "2026-01-07 22:25:55",
+        "message": "fix:目录分类布局"
+      },
+      {
+        "commit": "125030e593ab3e2a95e0e97e73467acb5107db2c",
+        "author": "liurongjie",
+        "date": "2026-01-07 21:48:14",
+        "message": "feat(site-messages): 优化站点消息页面布局和新增头像"
+      },
+      {
+        "commit": "0135ad1637117b4e1d8ecd81d37852802706ed24",
+        "author": "GateCross",
+        "date": "2026-01-07 21:44:57",
+        "message": "fix:优化下载器布局"
+      },
+      {
+        "commit": "addbbb3c44c74362c1abc803876a2198ca55938d",
+        "author": "GateCross",
+        "date": "2026-01-07 20:56:13",
+        "message": "fix:修仙秘籍适配手机"
+      },
+      {
+        "commit": "0ce093874e88f734c6ec7c1448b0bb37de9681e5",
+        "author": "xylplm",
+        "date": "2026-01-07 17:46:00",
+        "message": "fix(module): 添加 TransferModule 以支持文件传输功能"
+      },
+      {
+        "commit": "cbf06c1b1309598c00c4e1635a7f3db7042e5e45",
+        "author": "xylplm",
+        "date": "2026-01-07 17:45:52",
+        "message": "fix: 修复布局类名，移除多余的网格类"
+      },
+      {
+        "commit": "37a7a1acc465305cf2cb7e3b49c0202bc07686a8",
+        "author": "liurongjie",
+        "date": "2026-01-07 17:32:55",
+        "message": "style(ai-chat): 删除模型选择框宽度限制"
+      },
+      {
+        "commit": "750f452a5400862381a7c996a7773a73480913a2",
+        "author": "xylplm",
+        "date": "2026-01-07 17:25:37",
+        "message": "fix:  gap-6 to gap-x-6"
+      },
+      {
+        "commit": "64004edd7696250d49649162aa67c9af086c6969",
+        "author": "liurongjie",
+        "date": "2026-01-07 17:16:31",
+        "message": "style(ui): 调整网格布局间距实现更好视觉效果"
+      },
+      {
+        "commit": "f308d90bfc79150abe9d1ee0f1eaa0980e180d0d",
+        "author": "liurongjie",
+        "date": "2026-01-07 16:39:41",
+        "message": "fix(ui): 修正复制按钮位置使其显示正常"
+      },
+      {
+        "commit": "f161e486e9887c2cfbefffd9864eb774cd74dda4",
+        "author": "liurongjie",
+        "date": "2026-01-07 16:27:00",
+        "message": "style(ui): 规范云存储任务卡片及站点页面样式类名称"
+      },
+      {
+        "commit": "a92ef53c49e835519d53b57c77047cfd7f914c0c",
+        "author": "GateCross",
+        "date": "2026-01-07 16:24:01",
+        "message": "fix:优化日志字体颜色"
+      },
+      {
+        "commit": "a1f46250e1889da845ef271ceb3bbc96f192f6b3",
+        "author": "GateCross",
+        "date": "2026-01-07 16:18:02",
+        "message": "refactor: 优化个人页面布局"
+      },
+      {
+        "commit": "982aff548f3d979b8d35d44e4ce9ed8d83b7e235",
+        "author": "liurongjie",
+        "date": "2026-01-07 15:40:43",
+        "message": "style(cloud-storage): 优化任务卡片样式和布局"
+      },
+      {
+        "commit": "3f53f1239f5c7fb52286391c63a36d781d4d5759",
+        "author": "liurongjie",
+        "date": "2026-01-07 14:32:47",
+        "message": "style(cloud-storage): 调整表单布局间距和样式"
+      },
+      {
+        "commit": "b777740398804668dc0771d402ac3cafeefe0b3b",
+        "author": "xylplm",
+        "date": "2026-01-07 14:25:42",
+        "message": "fix: 移除站点配置URL字段的必填验证"
+      },
+      {
+        "commit": "3cc0bcb5d1faa498aa4c9bbe071d2985518122a6",
+        "author": "liurongjie",
+        "date": "2026-01-07 14:24:43",
+        "message": "style(ui): 优化云存储模块和动态表单布局样式"
+      },
+      {
+        "commit": "bdafe75d70d04c26d6f872cea6468d80d1480e79",
+        "author": "xylplm",
+        "date": "2026-01-07 14:20:58",
+        "message": "fix: 在获取Cookie成功后标记表单字段为脏"
+      },
+      {
+        "commit": "2b9ff21ca6b455240c27573d63a127ec4a545dc0",
+        "author": "GateCross",
+        "date": "2026-01-07 13:51:33",
+        "message": "fix:已完成任务"
+      },
+      {
+        "commit": "e19aa7e4ce8f32160ac2bae3d1dd98ec3233e2bd",
+        "author": "xylplm",
+        "date": "2026-01-07 13:44:17",
+        "message": "fix: 添加站点配置缺失提示对话框"
+      },
+      {
+        "commit": "dcbee054be5745a69d58a268f8380ca426b8b874",
+        "author": "xylplm",
+        "date": "2026-01-07 13:17:28",
+        "message": "fix: mcp清理冗余代码"
+      },
+      {
+        "commit": "c1049bf7caa048a75bebabefd2047afbca1bc1bb",
+        "author": "GateCross",
+        "date": "2026-01-07 12:37:01",
+        "message": "fix:优化云存储排版"
+      },
+      {
+        "commit": "1b9476f3010fa7bea7040e96c99eac760f7b306e",
+        "author": "GateCross",
+        "date": "2026-01-07 12:14:28",
+        "message": "fix:订阅布局适配"
+      },
+      {
+        "commit": "9e51aacf12da57e8b15991c9b3c3c71c2dfe33f0",
+        "author": "GateCross",
+        "date": "2026-01-07 11:12:34",
+        "message": "fix:优化秘籍按钮布局"
+      },
+      {
+        "commit": "aafcea3354e0708349c22365e1793f2df35da1d3",
+        "author": "GateCross",
+        "date": "2026-01-07 11:03:31",
+        "message": "fix:通知页面布局优化"
+      },
+      {
+        "commit": "a6e599ec643e47a0c13e0a1adf7a34ed6b8c8032",
+        "author": "GateCross",
+        "date": "2026-01-07 10:59:36",
+        "message": "fix: 优化通知设置页面布局"
+      },
+      {
+        "commit": "517f357f8a31aecfc26deef433c6e36f82c0d970",
+        "author": "GateCross",
+        "date": "2026-01-07 10:55:26",
+        "message": "fix: 优化媒体整理历史记录显示"
+      },
+      {
+        "commit": "807ac0fa6b274e4fb7d17ee75617c6c2e41311ce",
+        "author": "xylplm",
+        "date": "2026-01-07 10:38:19",
+        "message": "fix: 优化图标样式和位置，调整工具名称样式"
+      },
+      {
+        "commit": "6117437c9ecb32ca4188f21861f67d2cceea8fbf",
+        "author": "xylplm",
+        "date": "2026-01-07 10:28:06",
+        "message": "fix: 更新动态表单列宽类前缀以支持新样式"
+      },
+      {
+        "commit": "7f488e3604f01a4e34a9d3342bf2aa50e38d33f5",
+        "author": "xylplm",
+        "date": "2026-01-07 10:20:44",
+        "message": "fix: 模态框底部样式"
+      },
+      {
+        "commit": "74631d26bb61febec8d86520a968103c88ff89ca",
+        "author": "xylplm",
+        "date": "2026-01-07 10:15:49",
+        "message": "fix: 调整网格间距和按钮布局样式"
+      },
+      {
+        "commit": "38b8e5c5b30b067b9eb338a8dfc732fc44f99a90",
+        "author": "xylplm",
+        "date": "2026-01-07 10:03:51",
+        "message": "fix: 调整存储项图标样式和操作按钮布局"
+      },
+      {
+        "commit": "5748252827f749055942561aa6005b5066c18917",
+        "author": "xylplm",
+        "date": "2026-01-07 09:54:45",
+        "message": "fix: 移除冗余的图标样式和调整相关组件的样式"
+      },
+      {
+        "commit": "b9b3d1ddaa0acd278dd2b4e5e91450f8669e8654",
+        "author": "xylplm",
+        "date": "2026-01-07 09:46:58",
+        "message": "fix: 移除冗余按钮图标样式"
+      },
+      {
+        "commit": "5e475dbf2c7271d8048a3124b7b4b72f6008b036",
+        "author": "xylplm",
+        "date": "2026-01-07 09:44:04",
+        "message": "fix: 按钮样式调整"
+      },
+      {
+        "commit": "e101ef42989ce9b3a7c9f8f2c9b5a1fde3633fd2",
+        "author": "xylplm",
+        "date": "2026-01-07 09:33:38",
+        "message": "fix: 优化icon 图标大小"
+      },
+      {
+        "commit": "e385e74f2da4b863013559d32c7ec519e8abe9fe",
+        "author": "xylplm",
+        "date": "2026-01-07 00:27:08",
+        "message": "style(profile-dropdown): 调整头像图标的样式以优化显示"
+      },
+      {
+        "commit": "a14e90a136e6066e89f2f0842a57ae771f2d78c7",
+        "author": "liurongjie",
+        "date": "2026-01-07 00:24:43",
+        "message": "style(file-list): 优化文件列表布局样式和结构"
+      },
+      {
+        "commit": "c625a2d88a7cb14bb4f3d57714c95a0e761e16bb",
+        "author": "xylplm",
+        "date": "2026-01-07 00:23:28",
+        "message": "style: 调整多个组件中图标的大小样式"
+      },
+      {
+        "commit": "a1396b5cb3be9a61605c171775735572c31c3232",
+        "author": "xylplm",
+        "date": "2026-01-07 00:18:04",
+        "message": "style: 调整多个组件中无搜索结果图标的大小样式"
+      },
+      {
+        "commit": "baea2f5555706a2ccd470c469c8d3fdd7ddda13b",
+        "author": "xylplm",
+        "date": "2026-01-07 00:16:35",
+        "message": "style(widget-site-statistics-today): 调整无统计数据图标的大小样式"
+      },
+      {
+        "commit": "7cbc798d6bcf2e2a9b93b606215410d7cb0a44af",
+        "author": "liurongjie",
+        "date": "2026-01-06 23:51:24",
+        "message": "style(site-source-result): 优化布局间距和按钮位置"
+      },
+      {
+        "commit": "2788922dae4b7781bcbd2e5151d6084d75424af8",
+        "author": "xylplm",
+        "date": "2026-01-06 23:51:03",
+        "message": "fix: 移除未使用的图标，优化按钮样式和对齐"
+      },
+      {
+        "commit": "9d47ea6553f734b853b767fbf0cca235f8dee21f",
+        "author": "liurongjie",
+        "date": "2026-01-06 23:45:03",
+        "message": "style(ui): 优化多处flex布局样式命名"
+      },
+      {
+        "commit": "f0aac5a8988fd05adb81854d880a4e7fbdef41aa",
+        "author": "xylplm",
+        "date": "2026-01-06 23:17:21",
+        "message": "chore: update dependencies and replace jasmine with vitest for testing"
+      },
+      {
+        "commit": "3e81420d6a8537b53a0509283776bd70a4a19693",
+        "author": "liurongjie",
+        "date": "2026-01-06 23:05:30",
+        "message": "style(site-statistics): 调整统计卡片间距和底部边距"
+      },
+      {
+        "commit": "29bc2dc24e4bd4f7345a853548d8eb8104f1e3d8",
+        "author": "xylplm",
+        "date": "2026-01-06 22:47:05",
+        "message": "fix: 更新登录和错误页面布局，优化样式以提升可用性"
+      },
+      {
+        "commit": "dad4ad4d79ed7a70ec9984aee1220e72e9b89966",
+        "author": "xylplm",
+        "date": "2026-01-06 22:06:27",
+        "message": "fix: 删除2.X版本站点导入功能"
+      },
+      {
+        "commit": "4c29fe725d0a57d7820bc6f5822ffeea80aa0de3",
+        "author": "liurongjie",
+        "date": "2026-01-06 21:41:08",
+        "message": "fix(search): 修正搜索结果卡片样式"
+      },
+      {
+        "commit": "a032ef7228878c0464fea8f04342e2c30d2acf70",
+        "author": "xylplm",
+        "date": "2026-01-06 19:12:17",
+        "message": "fix: 优化按钮图标对齐，调整样式以提升可用性"
+      },
+      {
+        "commit": "8ffde01219722e0f8f108e8c6d6dd86d49c4719c",
+        "author": "xylplm",
+        "date": "2026-01-06 19:05:56",
+        "message": "fix: 更新面包屑和样式以使用变量颜色，优化布局"
+      },
+      {
+        "commit": "3df35fc57d3ae69559f8d8ceded7dd8f3f79587f",
+        "author": "xylplm",
+        "date": "2026-01-06 18:54:52",
+        "message": "fix: grid列数批量由24转换为12"
+      },
+      {
+        "commit": "8a346e56fb77a9bb8d130cb0402bf9e7a37b4117",
+        "author": "xylplm",
+        "date": "2026-01-06 18:47:49",
+        "message": "fix: 优化面包屑和媒体库组件的布局，调整类名以符合设计规范"
+      },
+      {
+        "commit": "109928cc3939958ba06868d93d9d1a3d01229813",
+        "author": "liurongjie",
+        "date": "2026-01-06 18:17:12",
+        "message": "style(media-server): 优化媒体库布局适配不同屏幕尺寸"
+      },
+      {
+        "commit": "3503da3af290f35eb06d4a14f0712dac1cb12de0",
+        "author": "xylplm",
+        "date": "2026-01-06 16:17:27",
+        "message": "fix: 调整组件样式以符合设计规范，优化布局和类名"
+      },
+      {
+        "commit": "1910451101e7621cf9c2d76651a5d650a09f2b15",
+        "author": "xylplm",
+        "date": "2026-01-06 16:17:19",
+        "message": "feat: 添加 IconSunHigh 和 IconMoon 到手动导入图标列表"
+      },
+      {
+        "commit": "3cd9469c754243d07f29184720f71fdf6415f084",
+        "author": "xylplm",
+        "date": "2026-01-06 15:34:35",
+        "message": "fix: 更新依赖项版本以提高兼容性和性能"
+      },
+      {
+        "commit": "722cc64ea6125261256a468ffb3a1ef8b2d79850",
+        "author": "xylplm",
+        "date": "2026-01-06 15:12:24",
+        "message": "fix: 调整版本更新对话框的样式以符合Tailwind CSS标准"
+      },
+      {
+        "commit": "32e453410eac3569e7190f90c5b9d5a99e7b5ac8",
+        "author": "xylplm",
+        "date": "2026-01-06 15:07:41",
+        "message": "fix: 修复组件样式，调整类名以符合Tailwind CSS标准"
+      },
+      {
+        "commit": "653402ab5aa857bff3743dc3fc57ce5ba93571ba",
+        "author": "xylplm",
+        "date": "2026-01-06 14:59:03",
+        "message": "refactor: 将全局样式文件从 CSS 转换为 SCSS，并更新样式引入"
+      },
+      {
+        "commit": "c6d133d97343d29d60e243ee9ff74673a16540b2",
+        "author": "xylplm",
+        "date": "2026-01-06 14:41:05",
+        "message": "fix: 调整多个组件的间距和样式以符合 Tailwind CSS 标准"
+      },
+      {
+        "commit": "249cfa1788e30f849c27de3bc088d548fd51ca8d",
+        "author": "xylplm",
+        "date": "2026-01-06 14:32:38",
+        "message": "feat: 统一html样式使用Tailwind CSS类库，并提供颜色定义参考"
+      },
+      {
+        "commit": "6aeb9ef5e4c624f1754292d5bb8d87a2a6f228b9",
+        "author": "xylplm",
+        "date": "2026-01-06 14:28:34",
+        "message": "fix: 调整消息列表加载状态的网格布局以符合 Tailwind CSS 标准"
+      },
+      {
+        "commit": "faec159d095b165d10335fd80b551ae28f7aaa10",
+        "author": "xylplm",
+        "date": "2026-01-06 14:25:49",
+        "message": "refactor: update layout and styling across various components"
+      },
+      {
+        "commit": "5d14b25943a9debda32e193180b89872fa422e8c",
+        "author": "xylplm",
+        "date": "2026-01-06 13:30:39",
+        "message": "fix: 更新 owl-carousel 按钮样式以使用主色调并调整背景图标"
+      },
+      {
+        "commit": "7a6c5d43564d57c76cabf8b6b565df650bd728ca",
+        "author": "xylplm",
+        "date": "2026-01-06 13:24:26",
+        "message": "fix: 修正统计数据组件的网格布局以符合 Tailwind CSS 标准"
+      },
+      {
+        "commit": "b720bc9196d5282cf76c6080227539ffeb3d74ee",
+        "author": "xylplm",
+        "date": "2026-01-06 13:14:05",
+        "message": "refactor: reduce padding in various components for improved layout consistency"
+      },
+      {
+        "commit": "5ef65801bd9e855dfdd19d3d63250c1d31d0842c",
+        "author": "xylplm",
+        "date": "2026-01-06 12:24:08",
+        "message": "fix: 为多个组件的图像添加 mx-auto 类以实现居中对齐"
+      },
+      {
+        "commit": "04dfa25bc709aa24bc46d282054b137b7c8d0afc",
+        "author": "xylplm",
+        "date": "2026-01-06 12:17:34",
+        "message": "fix: update mat-card-content classes to include ! for padding adjustments across multiple components"
+      },
+      {
+        "commit": "ac7e8136e1786a6c480b9db12f6ab33ef1845e89",
+        "author": "xylplm",
+        "date": "2026-01-06 11:27:05",
+        "message": "refactor: 统一多个组件的内边距类为 Tailwind CSS 标准值"
+      },
+      {
+        "commit": "f515960a58ce62520dabb880c79ac33230d8647c",
+        "author": "xylplm",
+        "date": "2026-01-06 11:21:47",
+        "message": "fix: 清除冗余样式定义"
+      },
+      {
+        "commit": "708160e54f69cd04b9b61b2aabb5d91ac88e0ace",
+        "author": "xylplm",
+        "date": "2026-01-06 11:21:29",
+        "message": "fix: grid转换"
+      },
+      {
+        "commit": "1164491b2aebc06dece3773612ac722e40650ab2",
+        "author": "xylplm",
+        "date": "2026-01-06 09:56:23",
+        "message": "refactor: 添加 2K 和 4K 屏幕的断点变量"
+      },
+      {
+        "commit": "5067cd044309309b597f55ff898c22032a551f92",
+        "author": "xylplm",
+        "date": "2026-01-05 18:42:54",
+        "message": "refactor: 更新多个组件的间距类，统一为 Tailwind CSS 标准值"
+      },
+      {
+        "commit": "d9be3d5cf49f999e366ad17903d0a816936ad332",
+        "author": "xylplm",
+        "date": "2026-01-05 18:28:17",
+        "message": "refactor: 外边距和内边距类迁移 (m-*, p-*)"
+      },
+      {
+        "commit": "f8f50439377a3388da32425d4c188b8c9c9477f4",
+        "author": "xylplm",
+        "date": "2026-01-05 18:06:56",
+        "message": "refactor: update class names for alignment consistency across components"
+      },
+      {
+        "commit": "ce83181fd589e365676a10e8571df734c30d7ec4",
+        "author": "xylplm",
+        "date": "2026-01-05 18:00:27",
+        "message": "refactor: 将多个组件中的 'b-b-1' 类名更新为 'border-b' 以统一样式"
+      },
+      {
+        "commit": "de9e4225ca2bdc79b60c8bdee35192a69fccfc8b",
+        "author": "xylplm",
+        "date": "2026-01-05 17:55:16",
+        "message": "refactor: 将所有 ng-scrollbar 组件的类名从 'position-relative' 更新为 'relative'"
+      },
+      {
+        "commit": "945c43dffa2022e8b707c3df690af99c94a99299",
+        "author": "xylplm",
+        "date": "2026-01-05 17:52:13",
+        "message": "refactor: 更新组件样式，调整图标尺寸和高度定义，迁移至 Tailwind CSS"
+      },
+      {
+        "commit": "e61bb64f564a79ca39b4b8c7a78bcd7ff925186e",
+        "author": "xylplm",
+        "date": "2026-01-05 17:48:19",
+        "message": "refactor: update HTML structure to use 'flex' utility classes for consistent alignment"
+      },
+      {
+        "commit": "8d72e7932e4f177199ba57bf310031888d5f486c",
+        "author": "xylplm",
+        "date": "2026-01-05 17:45:29",
+        "message": "refactor: update typography styles across various components"
+      },
+      {
+        "commit": "201217d0c2231267af3f91b8213ad100813a8329",
+        "author": "xylplm",
+        "date": "2026-01-05 17:27:16",
+        "message": "feat: 添加 ngx-owl-carousel-o 依赖"
+      },
+      {
+        "commit": "4320f1a17c47e054a5c9251bba624d875728b621",
+        "author": "xylplm",
+        "date": "2026-01-05 17:26:41",
+        "message": "feat: migrate to Tailwind CSS and update styles"
+      },
+      {
+        "commit": "5afcda9864455992557aa9d40253820484106ba8",
+        "author": "Jolc",
+        "date": "2026-01-05 16:45:23",
+        "message": "feat: 订阅精选推荐 icon"
+      },
+      {
+        "commit": "fecefe4eb95c41e81c2535161f29ba626b22cd47",
+        "author": "xylplm",
+        "date": "2026-01-05 15:51:52",
+        "message": "feat: 更换swiper轮播图组件为ngx-owl-carousel-o"
+      },
+      {
+        "commit": "03a9c040a72d3bdc139c27494994bfb6aed3131f",
+        "author": "xylplm",
+        "date": "2026-01-05 15:27:55",
+        "message": "feat: 添加 ngx-owl-carousel-o 组件及样式，替换媒体列表为轮播图展示"
+      },
+      {
+        "commit": "ecc8b9924b64ca3b2c082c33882ba03fee64df7a",
+        "author": "xylplm",
+        "date": "2026-01-05 13:02:17",
+        "message": "fix: 更新消息内容格式化方法，确保返回 SafeHtml 类型以增强安全性"
+      },
+      {
+        "commit": "ddab7ddb5e5438001c8806ae09e7fb83912ef54f",
+        "author": "xylplm",
+        "date": "2026-01-05 12:59:30",
+        "message": "fix: 更新依赖项版本，提升项目稳定性"
+      },
+      {
+        "commit": "664e10ad47491659c17c81129c95fd143c646331",
+        "author": "xylplm",
+        "date": "2026-01-05 11:34:28",
+        "message": "fix: 增加AI智能体 错误消息处理，优化流式消息显示"
+      },
+      {
+        "commit": "b2a95b6153d6f0dd98a7b930b432186ff0fd5b3d",
+        "author": "xylplm",
+        "date": "2026-01-05 10:26:59",
+        "message": "fix: 增加流式请求的最大令牌数至8096"
+      },
+      {
+        "commit": "53d55cb44e95f2b49003c73be53aab7cb939447e",
+        "author": "xylplm",
+        "date": "2026-01-04 21:28:26",
+        "message": "fix: 修复分享链接转存链接不存在的问题"
+      },
+      {
+        "commit": "ac2e82cbbf719bf39a45f37578879f684c67c0f4",
+        "author": "liurongjie",
+        "date": "2026-01-04 12:52:44",
+        "message": "fix(cloud-storage): 修复转存无数据"
+      },
+      {
+        "commit": "1f6d2e3ac1176ba65c000cb6c8e5d615a4bfbce2",
+        "author": "liurongjie",
+        "date": "2026-01-03 22:41:09",
+        "message": "fix(media-tidy): 修正表格行唯一标识问题"
+      },
+      {
+        "commit": "6a4c8ea89cee15b14d9476586bf01d8991ee61b7",
+        "author": "liurongjie",
+        "date": "2026-01-03 22:22:41",
+        "message": "fix(media-tidy): 修复TMDB搜索交互及请求加载问题"
+      },
+      {
+        "commit": "3b2797a082d1ecc6968ce739f0d2047f5d3a54d5",
+        "author": "xylplm",
+        "date": "2026-01-03 19:34:03",
+        "message": "fix: 优化 合并 种子下载、种子文件下载，标题复制、链接复制等到公共服务"
+      },
+      {
+        "commit": "ebe66eee0ef864b2430f5f80fae12c6a8b536183",
+        "author": "xylplm",
+        "date": "2026-01-03 18:37:26",
+        "message": "fix:修复站点资源页，搜索结果页的磁力链、分享链接、ed2k调用  以及链接复制"
+      },
+      {
+        "commit": "e744f49750474d135e5ae6126ba50d459ed236fe",
+        "author": "GateCross",
+        "date": "2025-12-29 21:16:29",
+        "message": "fix:删除系统设置自动更新"
+      },
+      {
+        "commit": "af00110c421b36e39b3ce20ef5df2184a7042706",
+        "author": "GateCross",
+        "date": "2025-12-29 14:18:31",
+        "message": "fix:优化按钮显示效果"
+      },
+      {
+        "commit": "3519f25f8a4fd1dbeb8f01089339f12c1bd2280f",
+        "author": "xylplm",
+        "date": "2025-12-28 16:29:08",
+        "message": "fix: 修改媒体库展示样式，调整列宽以优化布局"
+      },
+      {
+        "commit": "ef60557a3acecb3a74031a3dffc756ab55dd3a0b",
+        "author": "xylplm",
+        "date": "2025-12-28 16:27:01",
+        "message": "fix: 调整“时光热搜”标题样式，修改字体大小和边距"
+      },
+      {
+        "commit": "e6342eae26df4af9b4e83d4af5d64fd9acbf1863",
+        "author": "xylplm",
+        "date": "2025-12-28 16:25:36",
+        "message": "fix: 站点统计 动效支持0显示，分享率为 0时显示为无限"
+      },
+      {
+        "commit": "409d0dec4e76e09d08f96d3ae0bd09ae1c6316be",
+        "author": "GateCross",
+        "date": "2025-12-27 20:23:47",
+        "message": "fix:修复手机端适配"
+      },
+      {
+        "commit": "b792265a4842c169fd3ce8440de333a2823eb67b",
+        "author": "xylplm",
+        "date": "2025-12-27 19:16:26",
+        "message": "fix: 更新热门关键字标题为“时光热搜”"
+      },
+      {
+        "commit": "4a457f6fdddca1c374acd44ca3d3442ce5f8e62f",
+        "author": "xylplm",
+        "date": "2025-12-27 19:14:24",
+        "message": "fix: 更新搜索结果标题"
+      },
+      {
+        "commit": "3beb574522967711ed9be990076b78cf16b22754",
+        "author": "xylplm",
+        "date": "2025-12-27 16:30:16",
+        "message": "feat: 更新 Pingtest 组件，添加请求头以禁用加载动画并调整数据参数格式"
+      },
+      {
+        "commit": "478529dcc9a855077df1d954baf98650b0913e00",
+        "author": "liurongjie",
+        "date": "2025-12-26 23:21:00",
+        "message": "fix(media-resource): 修复云下载功能并支持路径选择"
+      },
+      {
+        "commit": "475dc71ae5ea407176be88623121a4c342289a01",
+        "author": "GateCross",
+        "date": "2025-12-26 21:27:19",
+        "message": "fix:修复日志"
+      },
+      {
+        "commit": "1d178c81eaa084f6cedcebc2324715764cfb78a2",
+        "author": "xylplm",
+        "date": "2025-12-26 17:28:45",
+        "message": "feat: 添加暮霭、秋叶、深渊和冰川主题，更新主题选项和样式"
+      },
+      {
+        "commit": "b749c30df9c97dcee88f8a0d36d2c95ee3983f18",
+        "author": "xylplm",
+        "date": "2025-12-26 17:09:21",
+        "message": "fix: 更新黄色主题标签为“采菊”"
+      },
+      {
+        "commit": "d308c9724e1fc8e53413772aa81e14852b2c2cdf",
+        "author": "xylplm",
+        "date": "2025-12-26 17:02:32",
+        "message": "feat: 重构logo组件，移动到独立目录并更新导入路径"
+      },
+      {
+        "commit": "9611714af65f754f096099aaecbf766f7ab5daff",
+        "author": "xylplm",
+        "date": "2025-12-26 16:44:25",
+        "message": "feat: 添加少女粉和猛男粉主题，更新主题选项和样式"
+      },
+      {
+        "commit": "b167429d3cec84127ec855ad74c7e238e9c64b11",
+        "author": "xylplm",
+        "date": "2025-12-26 16:38:02",
+        "message": "feat: 添加红色和黄色主题，更新主题选项和样式"
+      },
+      {
+        "commit": "0795988bc5dfb848865288a5a9bb8be6dd670c05",
+        "author": "xylplm",
+        "date": "2025-12-26 16:28:36",
+        "message": "feat: 更新主题选择器样式，优化按钮布局和主题标签"
+      },
+      {
+        "commit": "de7c5a581ce832fbe4ba95b9dd3d30566515e195",
+        "author": "GateCross",
+        "date": "2025-12-26 14:59:15",
+        "message": "feat:增加日志清空"
+      },
+      {
+        "commit": "b51820e8ea5de78a7106bde9ca1d23254835cf43",
+        "author": "xylplm",
+        "date": "2025-12-26 13:34:15",
+        "message": "feat: 站点数据统计动画效果"
+      },
+      {
+        "commit": "ffe64edb89f5c7c41ee775754cf8144b473df59f",
+        "author": "xylplm",
+        "date": "2025-12-26 11:02:49",
+        "message": "fix: 升级 @luoxiao123/angular-tabler-icons 版本至 3.36.1"
+      },
+      {
+        "commit": "b928b1cb6926f81af035077b383d9340e06f0167",
+        "author": "GateCross",
+        "date": "2025-12-25 21:49:59",
+        "message": "fix:优化日志module切换"
+      },
+      {
+        "commit": "7799a4c9556fe657252a3bea8a724b1fbd835fab",
+        "author": "GateCross",
+        "date": "2025-12-25 21:12:35",
+        "message": "fix:优化订阅、插件日志逻辑"
+      },
+      {
+        "commit": "ecc4c175413b34d87cb0b7c874aed38f1cb64633",
+        "author": "GateCross",
+        "date": "2025-12-25 17:08:08",
+        "message": "fix:优化订阅日志查询逻辑"
+      },
+      {
+        "commit": "eb3c89a6a909ad437e90647fd41bc978e08ab3b9",
+        "author": "liurongjie",
+        "date": "2025-12-25 14:18:05",
+        "message": "fix(rss): 禁用加载动画以优化请求体验"
+      },
+      {
+        "commit": "6152e77573b942946b27d2f9f9d73d586e5380e4",
+        "author": "GateCross",
+        "date": "2025-12-25 12:52:27",
+        "message": "feat:插件日志"
+      },
+      {
+        "commit": "871678bb7433eb238988c0a9c6825a1e86d60567",
+        "author": "GateCross",
+        "date": "2025-12-25 09:40:10",
+        "message": "fix:日志分页优化"
+      },
+      {
+        "commit": "753986adbd8fb79d18ae4dc40301cccd87a63ff6",
+        "author": "GateCross",
+        "date": "2025-12-25 09:12:58",
+        "message": "fix:优化布局"
+      },
+      {
+        "commit": "6203cc91175bf60b45408f6c6777984b176ae0fb",
+        "author": "GateCross",
+        "date": "2025-12-25 08:47:32",
+        "message": "fix:优化时间戳"
+      },
+      {
+        "commit": "a96a36d3bb9e548a749bf5a216cc155724e76b59",
+        "author": "GateCross",
+        "date": "2025-12-24 23:49:44",
+        "message": "fix:优化日志查询"
+      },
+      {
+        "commit": "afd96362acc0c946e8b1c67ab8fc05dcbf27d5e4",
+        "author": "xylplm",
+        "date": "2025-12-24 23:28:34",
+        "message": "fix: code format"
+      },
+      {
+        "commit": "f7f2fe1c8f1d90810cdd8e43bd2be2c8dd224462",
+        "author": "xylplm",
+        "date": "2025-12-24 23:19:10",
+        "message": "feat: 前端对接数据库日志"
+      },
+      {
+        "commit": "8d4a5f5c898fb698b9b7def83c6cedac1ea38c43",
+        "author": "GateCross",
+        "date": "2025-12-24 15:46:35",
+        "message": "fix:日志对齐"
+      },
+      {
+        "commit": "67c397dd0e31b58b5e241621167d49698b241cc2",
+        "author": "xylplm",
+        "date": "2025-12-24 15:40:49",
+        "message": "fix: 升级版本依赖"
+      },
+      {
+        "commit": "fa24efca084623820dcdfdb87e13d4aec1274ced",
+        "author": "xylplm",
+        "date": "2025-12-24 15:27:46",
+        "message": "fix: 升级滚动条"
+      },
+      {
+        "commit": "953a3e6e6954f8acfdba3acee81060ed4cf10fe1",
+        "author": "GateCross",
+        "date": "2025-12-24 15:06:56",
+        "message": "fix:日志默认倒序"
+      },
+      {
+        "commit": "d41b661d68b1340f8b8789d844572d21244c145a",
+        "author": "xylplm",
+        "date": "2025-12-24 14:50:55",
+        "message": "fix: 优化 站点维护 站点名称 可输可选"
+      },
+      {
+        "commit": "56e380417e8fbf432a6df8248beb6d5170b3bd48",
+        "author": "xylplm",
+        "date": "2025-12-24 14:38:35",
+        "message": "fix: 优化站点过滤改为cm-input-autocomplete 可输可选"
+      },
+      {
+        "commit": "1bad36378aed90c1e89693b54a8b2f9478b1953e",
+        "author": "xylplm",
+        "date": "2025-12-24 14:38:02",
+        "message": "feat: 新增CmInputAutocomplete公共组件"
+      },
+      {
+        "commit": "003c9d33878d03be1075218713904611e5dce64b",
+        "author": "xylplm",
+        "date": "2025-12-24 09:42:39",
+        "message": "fix: 优化日志显示"
+      },
+      {
+        "commit": "ce7224e956ea5dc8bff8357a727a67c9be28519f",
+        "author": "GateCross",
+        "date": "2025-12-23 23:11:52",
+        "message": "fix:优化日志"
+      },
+      {
+        "commit": "7fb5601f71d5aa32e4400dad3c3c4ea41b3c7185",
+        "author": "GateCross",
+        "date": "2025-12-23 21:56:55",
+        "message": "fix:日志下划线"
+      },
+      {
+        "commit": "8b0f47c0a9ed02b749dc7c3c032ba750b46a9e8a",
+        "author": "GateCross",
+        "date": "2025-12-23 21:25:08",
+        "message": "fix:优化日志格式"
+      },
+      {
+        "commit": "fe521e5911433f5d321dd33775d74df8d232efe9",
+        "author": "xylplm",
+        "date": "2025-12-23 17:35:13",
+        "message": "fix: 优化公共日志服务"
+      },
+      {
+        "commit": "a583da75be3b371ab53d7b50b222d99d951c9402",
+        "author": "xylplm",
+        "date": "2025-12-23 17:17:19",
+        "message": "fix: 优化日志目录获取 仅获取一次 local缓存"
+      },
+      {
+        "commit": "0b2553d70ca6dbe4fb622ccd15cd37d72649f86b",
+        "author": "GateCross",
+        "date": "2025-12-23 16:59:20",
+        "message": "fix:订阅日志恢复"
+      },
+      {
+        "commit": "cd51d5591340325c9e16c1e7900e57d93b618797",
+        "author": "xylplm",
+        "date": "2025-12-23 16:54:09",
+        "message": "fix: 优化日志UI"
+      },
+      {
+        "commit": "0465cf17dae8d68af62906737b35260166a6a3c0",
+        "author": "GateCross",
+        "date": "2025-12-23 12:28:28",
+        "message": "fix:删除日志placeholder"
+      },
+      {
+        "commit": "bcf27dc507fabb5b3b42db6d03165bd991e2be30",
+        "author": "liurongjie",
+        "date": "2025-12-22 23:13:52",
+        "message": "feat(log-view): 增加日志高级过滤功能"
+      },
+      {
+        "commit": "b780d138e991a1255e6ab990cdaa10ceb18f699b",
+        "author": "liurongjie",
+        "date": "2025-12-22 22:37:34",
+        "message": "feat(file-list): 添加对log文件格式图标的支持"
+      },
+      {
+        "commit": "060c01194ca6728995666be39d22ce0613af3cab",
+        "author": "liurongjie",
+        "date": "2025-12-22 22:12:15",
+        "message": "fix(file-view-log-dialog): 优化关键字搜索与样式调整"
+      },
+      {
+        "commit": "f372c61d560123fce53a79a96e83a9764e67e5d9",
+        "author": "xylplm",
+        "date": "2025-12-22 17:44:35",
+        "message": "fix: 删除旧的日志相关组件"
+      },
+      {
+        "commit": "7eb470c8639add89f9600afaf68fb117fb850bcc",
+        "author": "xylplm",
+        "date": "2025-12-22 14:56:27",
+        "message": "fix:优化文件列表"
+      },
+      {
+        "commit": "d9089f546055c6f28ba6022b55ce889049558f29",
+        "author": "xylplm",
+        "date": "2025-12-22 14:29:06",
+        "message": "fix:系统日志模态框"
+      },
+      {
+        "commit": "dade78d82e6b1d0c88683ed2c39738b0eb8d3fe1",
+        "author": "weni09",
+        "date": "2025-12-18 20:35:36",
+        "message": "fix: 表单0值问题"
+      },
+      {
+        "commit": "594d05e45774711d791dbc03d22362b90dea064a",
+        "author": "liurongjie",
+        "date": "2025-12-18 16:23:04",
+        "message": "feat(cloud-storage): 添加上传目录选择功能支持"
+      },
+      {
+        "commit": "162b34274d161525e49439485dc00580badbb5c8",
+        "author": "liurongjie",
+        "date": "2025-12-18 11:47:43",
+        "message": "fix(download-config): 禁用部分接口加载动画，优化请求体验"
+      },
+      {
+        "commit": "4536014f83d89652e02c776b78193beb8c303fc2",
+        "author": "xylplm",
+        "date": "2025-12-17 18:57:51",
+        "message": "fix: 系统全局 loading动画"
+      },
+      {
+        "commit": "e60b1220bad95bec0e0df846135e1e1326a875ea",
+        "author": "GateCross",
+        "date": "2025-12-17 11:25:10",
+        "message": "fix:优化目录分类数据显示"
+      },
+      {
+        "commit": "ef00529c79bc580ec82d7956dcb3b5ddbf32faaf",
+        "author": "GateCross",
+        "date": "2025-12-17 10:28:40",
+        "message": "fix:目录分类数据显示"
+      },
+      {
+        "commit": "1bc92e5e33f9633559ed79d27ef650a341e015b8",
+        "author": "liurongjie",
+        "date": "2025-12-17 10:26:23",
+        "message": "feat(cloud-storage): 添加秒传链接JSON生成功能"
+      },
+      {
+        "commit": "c64146b65ecc1d1b6b4e3dfd4fa9e3a35661e4da",
+        "author": "xylplm",
+        "date": "2025-12-17 09:40:45",
+        "message": "fix: 检查更新 异步请求 避免阻塞主流程"
+      },
+      {
+        "commit": "59b0d0c4e453f5770ccd413db5098dc9c0ff3019",
+        "author": "liurongjie",
+        "date": "2025-12-16 16:05:56",
+        "message": "fix: 修复消息通知编辑选项不回显"
+      },
+      {
+        "commit": "18172c8a6990568e62647ffbbfad961427d2f579",
+        "author": "liurongjie",
+        "date": "2025-12-16 15:43:44",
+        "message": "style: 样式优化"
+      },
+      {
+        "commit": "d44232102532272f15c397bf843a2df6c011c04b",
+        "author": "xylplm",
+        "date": "2025-12-16 15:28:52",
+        "message": "fix: 优化识别词编辑页面"
+      },
+      {
+        "commit": "1936fbc4b2fd3e73322d8ffb27eff19a01073756",
+        "author": "xylplm",
+        "date": "2025-12-16 15:22:23",
+        "message": "fix: 编辑相关页面 改信号"
+      },
+      {
+        "commit": "da29db51175d8a5a6f50a0f15a4d786ff59578b5",
+        "author": "liurongjie",
+        "date": "2025-12-16 15:14:18",
+        "message": "style(setting-notify): 添加行间距样式"
+      },
+      {
+        "commit": "84d53422d1feef27b1fd525ab8e7192f833c048d",
+        "author": "xylplm",
+        "date": "2025-12-16 14:57:56",
+        "message": "fix: 消息通知编辑 改信号"
+      },
+      {
+        "commit": "d450807dc9722e99351246a074e1557ba53a2ca8",
+        "author": "xylplm",
+        "date": "2025-12-16 14:53:15",
+        "message": "fix: 优化版本更新交互效果"
+      },
+      {
+        "commit": "429f6e002080498967442e9f341edbc73d7e854e",
+        "author": "liurongjie",
+        "date": "2025-12-16 14:00:09",
+        "message": "fix: 修复消息通知编辑选项不回显"
+      },
+      {
+        "commit": "a882f3c09d3c4ce33680d1a0bb8aa9a6fb06170a",
+        "author": "xylplm",
+        "date": "2025-12-16 12:17:16",
+        "message": "fix:优化手风琴 按钮样式"
+      },
+      {
+        "commit": "ecf508479748e81900fc0c614ff5cb9ceb2d6f17",
+        "author": "xylplm",
+        "date": "2025-12-16 12:06:23",
+        "message": "fix: 新增编辑相关页面信号问题"
+      },
+      {
+        "commit": "643e949f60818ec4bcdfd2957af1b261618c5c27",
+        "author": "xylplm",
+        "date": "2025-12-15 17:29:44",
+        "message": "fix: 修仙秘籍 dc"
+      },
+      {
+        "commit": "fb13efb4eb3ec89461f1673a74f5bf4ec9d3e2a3",
+        "author": "GateCross",
+        "date": "2025-12-15 17:25:23",
+        "message": "fix:signal错误"
+      },
+      {
+        "commit": "5a5349d62506c700d07421ec4c49e886bc060435",
+        "author": "xylplm",
+        "date": "2025-12-15 17:24:16",
+        "message": "fix: 站点管理操作信号"
+      },
+      {
+        "commit": "98b8405e27a7617e456c671c102e66863fba051d",
+        "author": "xylplm",
+        "date": "2025-12-15 17:14:18",
+        "message": "fix: 优化自定义主题交互和性能"
+      },
+      {
+        "commit": "8f978355d259fc67f253be1d573f96cbfcb00c1a",
+        "author": "xylplm",
+        "date": "2025-12-15 17:03:47",
+        "message": "fix: 删除tg搜索前端残留"
+      },
+      {
+        "commit": "68b21ec123ec5670508fd4f31ff9c6685b5ff89b",
+        "author": "xylplm",
+        "date": "2025-12-15 16:18:57",
+        "message": "fix: 刷新媒体库"
+      },
+      {
+        "commit": "e4cc9bcb0fbc08eaf998766af97eeea2fdd571e9",
+        "author": "GateCross",
+        "date": "2025-12-15 16:17:21",
+        "message": "fix:消息中心signal"
+      },
+      {
+        "commit": "68677e3a8c8306a01c15f0962398b395ac63ded7",
+        "author": "xylplm",
+        "date": "2025-12-15 16:00:18",
+        "message": "fix: 优化消息界面"
+      },
+      {
+        "commit": "e143f388a1416832977d1f529c33fbe62b85b38c",
+        "author": "xylplm",
+        "date": "2025-12-15 15:46:48",
+        "message": "fix: signal使用错误"
+      },
+      {
+        "commit": "a595c82829ee3403bb79de2ac5391a5be3e23f9c",
+        "author": "xylplm",
+        "date": "2025-12-15 15:20:14",
+        "message": "fix: signal使用错误"
+      },
+      {
+        "commit": "d90b611659c8dafa812d43c2723ad144f2e61f65",
+        "author": "xylplm",
+        "date": "2025-12-15 15:13:24",
+        "message": "fix: signal错误"
+      },
+      {
+        "commit": "7f60dbe4d79cb479008452e6d9aa2f4c1a09efc0",
+        "author": "GateCross",
+        "date": "2025-12-15 14:13:34",
+        "message": "fix:消息中心加载更多"
+      },
+      {
+        "commit": "029c63cf73da17de7e94592a49f114c91b4141dd",
+        "author": "GateCross",
+        "date": "2025-12-15 09:38:55",
+        "message": "fix:手动识别signal"
+      },
+      {
+        "commit": "4216563b841e61578c0803a5533906ec621226ab",
+        "author": "GateCross",
+        "date": "2025-12-15 09:14:05",
+        "message": "fix:目录分类signal"
+      },
+      {
+        "commit": "8e55c57f596a84ced863efa126b2f8ff6e446950",
+        "author": "GateCross",
+        "date": "2025-12-14 20:48:16",
+        "message": "fix:首页定制signal"
+      },
+      {
+        "commit": "ddfe97b024819c40675f6301465459ae36e92e53",
+        "author": "xylplm",
+        "date": "2025-12-14 14:08:28",
+        "message": "feat: dashboard 首页统计数字增加UI动效"
+      },
+      {
+        "commit": "d20c305da7a74ee5dc2cd3cd14db2990879f7a04",
+        "author": "GateCross",
+        "date": "2025-12-14 12:52:06",
+        "message": "fix:更新动画"
+      },
+      {
+        "commit": "5bc38492fcf2458c724742ac24f4a30865317e75",
+        "author": "GateCross",
+        "date": "2025-12-14 12:35:28",
+        "message": "fix:识别词signal"
+      },
+      {
+        "commit": "a12c460e57e4df0bdd615d4823fefd8ac579b0dc",
+        "author": "GateCross",
+        "date": "2025-12-14 11:47:10",
+        "message": "fix:更新按钮Signal"
+      },
+      {
+        "commit": "b538797d49c7f977723936df33a775ce1c19b297",
+        "author": "liurongjie",
+        "date": "2025-12-13 21:16:10",
+        "message": "style(tools-pages-binge-watch): 调整表单字段列宽以优化布局"
+      },
+      {
+        "commit": "f4d2993f210e48a77f37aa40f951129b6f11faea",
+        "author": "xylplm",
+        "date": "2025-12-13 20:07:46",
+        "message": "fix: 修复站点测试 优化交互效果"
+      },
+      {
+        "commit": "a8c2f1166eb9df393d8db088f88f92296ef643b5",
+        "author": "xylplm",
+        "date": "2025-12-13 20:01:51",
+        "message": "fix: 修复 网络连接测试 并优化交互"
+      },
+      {
+        "commit": "453cab7a8fb87179d7e8a44382c318ee75955103",
+        "author": "liurongjie",
+        "date": "2025-12-13 16:14:23",
+        "message": "fix(cloud-storage): 修复云端文件点击主页无效"
+      },
+      {
+        "commit": "4ef715d7563c17a653941ab416045909feb45f8c",
+        "author": "liurongjie",
+        "date": "2025-12-13 10:38:24",
+        "message": "refactor(media-resource-link): 优化资源链接组件的数据更新逻辑"
+      },
+      {
+        "commit": "bc704dc23049a3b6de626bb6d22b5fc477d7e40c",
+        "author": "xylplm",
+        "date": "2025-12-12 23:46:08",
+        "message": "fix： update version"
+      },
+      {
+        "commit": "be9472156ffb8c3d0d85868f4cd3a1a259693998",
+        "author": "xylplm",
+        "date": "2025-12-12 23:37:53",
+        "message": "Update package-lock.json"
+      },
+      {
+        "commit": "951e2828077808c1f3a1201c9fdaeaff2ff2901b",
+        "author": "xylplm",
+        "date": "2025-12-12 23:23:57",
+        "message": "fix: 优化pc下升级按钮展示"
+      },
+      {
+        "commit": "cbcc151a46ac0903606fe12e53d1aa768bdfad08",
+        "author": "GateCross",
+        "date": "2025-12-12 23:13:14",
+        "message": "fix:版本更新、动画恢复"
+      },
+      {
+        "commit": "866d231f0da6662a6565658d1970d3133f887a94",
+        "author": "xylplm",
+        "date": "2025-12-12 23:00:29",
+        "message": "feat:优化消息的滑入滑出动画效果"
+      },
+      {
+        "commit": "ca7ca5da6c4b343457005eab2ec60fbefddb7ce4",
+        "author": "liurongjie",
+        "date": "2025-12-12 22:47:51",
+        "message": "chore(deps): 移除 package.json 中的 baseline-browser-mapping 依赖"
+      },
+      {
+        "commit": "8a1824d832f9e27d85ab4bec1e52ce8782873b1f",
+        "author": "xylplm",
+        "date": "2025-12-12 22:42:59",
+        "message": "fix: 寻影探剧 过滤列表不柱塞操作"
+      },
+      {
+        "commit": "663f0e80ccca07b31c4068e5726dffd906b754dc",
+        "author": "GateCross",
+        "date": "2025-12-12 22:41:06",
+        "message": "feat:手动识别重试所有失败项"
+      },
+      {
+        "commit": "d8b5ccb12cbf4f0e10eb85877a60203cf9da7819",
+        "author": "xylplm",
+        "date": "2025-12-12 22:39:45",
+        "message": "fix: 优化路由加载高优先级 避免其他资源请求阻塞"
+      },
+      {
+        "commit": "0efcff9cc1c4b0285207388b413dacbbc1e9e311",
+        "author": "liurongjie",
+        "date": "2025-12-12 22:38:16",
+        "message": "feat(site-statistics): 添加下载次数排序功能"
+      },
+      {
+        "commit": "3472582177251c733d09070c40b12072d943b1cf",
+        "author": "liurongjie",
+        "date": "2025-12-12 22:28:50",
+        "message": "feat(site): 添加请求头以禁用加载动画"
+      },
+      {
+        "commit": "00ae091c19c798569c5a40fd4c8d6a29599117cd",
+        "author": "xylplm",
+        "date": "2025-12-12 22:01:53",
+        "message": "feat: 站点数据 排序支持 浏览器本地记忆"
+      },
+      {
+        "commit": "55ccbf9253368a54a4be7411f4cae472876ed626",
+        "author": "xylplm",
+        "date": "2025-12-12 21:43:02",
+        "message": "fix: 优化云端文件选择"
+      },
+      {
+        "commit": "db12cc2f1859ea41bc58b5f6dc3e3f0310f0877f",
+        "author": "xylplm",
+        "date": "2025-12-12 21:30:03",
+        "message": "fix: 信号取值错误"
+      },
+      {
+        "commit": "9257c0b9dfa3f76db01252b8bddf7a8c5267c7c8",
+        "author": "xylplm",
+        "date": "2025-12-12 21:26:44",
+        "message": "fix: 使用信号模式 优化alert性能"
+      },
+      {
+        "commit": "1ba19046b928a80bab5f73bd26f191baae474626",
+        "author": "xylplm",
+        "date": "2025-12-12 21:19:37",
+        "message": "fix: 信号模式优化dashboard"
+      },
+      {
+        "commit": "3964c62e05e166963388b3bc4a5edd8246899cde",
+        "author": "xylplm",
+        "date": "2025-12-12 21:14:00",
+        "message": "fix: 初始化时菜单选中"
+      },
+      {
+        "commit": "80bc5572d586c5d00260485267c3109ba7a7366f",
+        "author": "GateCross",
+        "date": "2025-12-12 21:09:52",
+        "message": "fix:最新版本"
+      },
+      {
+        "commit": "9cf83a302baac489a160e68c08deb3fa74af71c6",
+        "author": "xylplm",
+        "date": "2025-12-12 20:37:01",
+        "message": "fix:优化加载效果"
+      },
+      {
+        "commit": "99e9a39512be8b4f8662d54ac1aaa5fe57d28fb7",
+        "author": "xylplm",
+        "date": "2025-12-12 17:40:21",
+        "message": "Merged version upgrade migration commits"
+      },
+      {
+        "commit": "104cc042079927136ee5da42f39069aaa97c0c17",
+        "author": "xylplm",
+        "date": "2025-12-08 22:38:44",
+        "message": "fix:修复下拉面板"
+      },
+      {
+        "commit": "3e9a8e61a5c7d1174b5d81dfd26d835ce7244471",
+        "author": "xylplm",
+        "date": "2025-12-08 17:50:38",
+        "message": "fix: prompt"
+      },
+      {
+        "commit": "40abcd65e468e763d0e28d3c5548d7fc7a4690cc",
+        "author": "xylplm",
+        "date": "2025-12-08 16:56:05",
+        "message": "fix: code format"
+      },
+      {
+        "commit": "0a86917dbeecfd64f0964b88dabfb8c49edc86a3",
+        "author": "xylplm",
+        "date": "2025-12-08 16:52:28",
+        "message": "Update package.json"
+      },
+      {
+        "commit": "81a0b7cd2902d489e15357a0c5775b5156678f13",
+        "author": "xylplm",
+        "date": "2025-12-08 16:16:37",
+        "message": "refactor: 升级angular 21 并更新依赖，修复一些lint问题"
+      },
+      {
+        "commit": "f5b02052cf987e84ec59f2b708943e4f4de53720",
+        "author": "xylplm",
+        "date": "2025-12-08 09:55:45",
+        "message": "fix: 分类 语言和地区取消全部选项"
+      },
+      {
+        "commit": "ed1d69c47d4ecef787da5a1cf9f761f2cc0023bd",
+        "author": "liurongjie",
+        "date": "2025-12-07 23:08:06",
+        "message": "feat(settings): 添加GitHub访问令牌配置项"
+      },
+      {
+        "commit": "34917d41693eb4e2954fcf405fadd6321e1193af",
+        "author": "xylplm",
+        "date": "2025-12-06 21:54:18",
+        "message": "fix: 优化文件列表大于100条分页"
+      },
+      {
+        "commit": "ad5df44f9524f3042f43431e1aa4fbf11c1aa774",
+        "author": "xylplm",
+        "date": "2025-12-06 12:02:40",
+        "message": "fix:优化文件列表 虚拟滚动 避免浏览器卡死"
+      },
+      {
+        "commit": "a4af7f0dcfa43362761277713288c1d85ee1fe14",
+        "author": "xylplm",
+        "date": "2025-12-06 11:25:46",
+        "message": "fix:云存储文件列表虚拟滚动，防止大量文件浏览器卡死"
+      },
+      {
+        "commit": "86209492b219d24ff76b53aa8f25d283ee915e63",
+        "author": "xylplm",
+        "date": "2025-12-05 15:28:38",
+        "message": "feat:朱雀签到图标"
+      },
+      {
+        "commit": "1832fcbea58b39e35d7531248422617f347594ae",
+        "author": "xylplm",
+        "date": "2025-12-05 13:16:15",
+        "message": "fix: 动态表单alert提示信息增加下边距"
+      },
+      {
+        "commit": "7c61cc4fac6162903e5cde35be3410768e96fcac",
+        "author": "xylplm",
+        "date": "2025-12-03 13:57:11",
+        "message": "feat:表单警告提示组件"
+      },
+      {
+        "commit": "9309a545861e5873ce204cc8c630b29ea1be85c3",
+        "author": "GateCross",
+        "date": "2025-12-03 10:05:27",
+        "message": "feat:前端增加定时任务"
+      },
+      {
+        "commit": "d45e9c99b435c7f6a24a8df91984fcad0924eac3",
+        "author": "xylplm",
+        "date": "2025-12-02 17:05:32",
+        "message": "fix: tmdb 配置更新"
+      },
+      {
+        "commit": "2f14e06fb32d084de2c81bb0fd93411e1773715f",
+        "author": "syueya",
+        "date": "2025-12-02 13:25:43",
+        "message": "add：tmdb配置"
+      },
+      {
+        "commit": "c76394cd39ae7cd4fa6e85697b8b627cb5ac8275",
+        "author": "liurongjie",
+        "date": "2025-12-01 11:06:37",
+        "message": "feat(cloud-storage): 调整云存储整理界面布局并新增通知开关"
+      },
+      {
+        "commit": "3fdc43547698204ba66110b7004064fca18b3b2f",
+        "author": "liurongjie",
+        "date": "2025-11-30 00:18:39",
+        "message": "feat: 新增通知配置项及相关UI支持"
+      },
+      {
+        "commit": "3e4f448cc16675d985cfa74d30032e0e0a562418",
+        "author": "liurongjie",
+        "date": "2025-11-28 13:03:59",
+        "message": "fix(app-version): 修正版本标签显示逻辑和添加当前版本号变量"
+      },
+      {
+        "commit": "2d6941d2520374871ea2504e14da3adb87398765",
+        "author": "liurongjie",
+        "date": "2025-11-28 11:31:01",
+        "message": "style(cloud-storage): 调整布局宽度和样式"
+      },
+      {
+        "commit": "722ce915b4ef97750dd3017522fbc704f41decd7",
+        "author": "liurongjie",
+        "date": "2025-11-28 10:48:34",
+        "message": "fix(media-tidy): 优化媒体整理历史界面按钮布局和条件渲染"
+      },
+      {
+        "commit": "eac45bb8281c7a0f3999c05fa994688711053932",
+        "author": "liurongjie",
+        "date": "2025-11-27 18:54:56",
+        "message": "style(download): 调整下载历史卡片响应式列宽"
+      },
+      {
+        "commit": "fc1b841ab7d1a7f42d5de14e7d25e9f3d134551d",
+        "author": "liurongjie",
+        "date": "2025-11-27 18:02:57",
+        "message": "style(media-detail): 优化title样式调整行高"
+      },
+      {
+        "commit": "cb907459570d4407191177ae9262f03f303cc924",
+        "author": "xylplm",
+        "date": "2025-11-27 15:49:24",
+        "message": "refactor: 优化下拉选择组件 UI交互体验，以及性能优化"
+      },
+      {
+        "commit": "f0cf85038e41a1852b50faead2a01477183fc45b",
+        "author": "liurongjie",
+        "date": "2025-11-27 15:26:03",
+        "message": "style(download): 优化下载组件UI布局与样式"
+      },
+      {
+        "commit": "d21b04b91b6f7fee18b2e9e224f20816bfd80a04",
+        "author": "liurongjie",
+        "date": "2025-11-27 14:45:41",
+        "message": "style(search-torrent-result-media-info): 优化媒体信息标题样式"
+      },
+      {
+        "commit": "5d56b3306f30511ed345b9eccfc2657b681859ff",
+        "author": "liurongjie",
+        "date": "2025-11-27 14:22:10",
+        "message": "style(media-detail): 优化季节列表按钮布局和样式"
+      },
+      {
+        "commit": "918874b7af7e43339372be8cda26554f341a1384",
+        "author": "liurongjie",
+        "date": "2025-11-27 11:47:06",
+        "message": "feat(media-detail): 新增季订阅和取消订阅功能"
+      },
+      {
+        "commit": "eb1b83b16eb18e605a67ed763296ac6f2ebe2a1e",
+        "author": "liurongjie",
+        "date": "2025-11-26 19:04:35",
+        "message": "feat(search): 优化搜索建议显示样式与数据结构"
+      },
+      {
+        "commit": "b524b861057d72f75358cc79858660a93d1667ce",
+        "author": "liurongjie",
+        "date": "2025-11-26 18:59:14",
+        "message": "feat(search): 实现影视作品搜索输入及全平台搜索支持"
+      },
+      {
+        "commit": "1d80186be6a5e150586587d27386c14a580a3c96",
+        "author": "liurongjie",
+        "date": "2025-11-26 11:15:55",
+        "message": "style(cloud-storage): 调整云存储设置表单字段宽度"
+      },
+      {
+        "commit": "36670ac5c759ce32859b7cafc5e9b22ebf8b0716",
+        "author": "liurongjie",
+        "date": "2025-11-26 11:04:11",
+        "message": "feat(search): 添加搜索框自动建议功能"
+      }
+    ]
+  },
+  {
     "version": "3.0_202511251429",
     "items": [
       {
