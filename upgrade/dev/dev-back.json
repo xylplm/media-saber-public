@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601282322",
+    "items": [
+      {
+        "commit": "13fb3332deeecfe16f7cafb6be79269f6149c74b",
+        "author": "GateCross",
+        "date": "2026-01-28 23:21:19",
+        "message": "fix: 打印token报错具体信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601281157",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-01-25 00:00:57",
         "message": "refactor(media_proxy): 移除ServeHTTP中请求头的调试日志打印"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601242313",
-    "items": [
-      {
-        "commit": "70e8b5c7f2774cb5fcf0937e12ffc8fa39740454",
-        "author": "liurongjie",
-        "date": "2026-01-24 23:12:40",
-        "message": "fix(media_proxy): 修复重定向响应处理Range请求头"
       }
     ]
   }

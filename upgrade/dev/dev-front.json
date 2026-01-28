@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601282322",
+    "items": [
+      {
+        "commit": "96eb0847f68194388b3f6ca02e583e5bcfe2957d",
+        "author": "xylplm",
+        "date": "2026-01-28 14:17:34",
+        "message": "fix: 更新系统日志对话框的样式，调整小屏幕下的内边距"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601281020",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-01-18 13:51:46",
         "message": "fix: 调整秘籍图标尺寸，优化加载样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601172305",
-    "items": [
-      {
-        "commit": "8cb07a05f6b83b5b556fabfcae382b2a914b891c",
-        "author": "GateCross",
-        "date": "2026-01-17 23:04:41",
-        "message": "feat: 添加 media_proxy SVG 图标"
       }
     ]
   }
