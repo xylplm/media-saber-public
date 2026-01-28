@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601281026",
+    "items": [
+      {
+        "commit": "5ef16b3494453475d55c22f3def4c375d4365857",
+        "author": "liurongjie",
+        "date": "2026-01-28 10:02:23",
+        "message": "fix(mediaserver): 修正路径匹配逻辑处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601281020",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-01-24 14:20:37",
         "message": "fix(media-proxy): 统一日志输出添加服务器名称"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601240914",
-    "items": [
-      {
-        "commit": "6e33a88b9e0009ff0f2ce8072144d555519ba09c",
-        "author": "Jolc",
-        "date": "2026-01-24 09:13:44",
-        "message": "fix：nullbr api 标准化请求头"
       }
     ]
   }
