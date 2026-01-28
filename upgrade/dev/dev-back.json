@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601281157",
+    "items": [
+      {
+        "commit": "12adeb55d0381abb873475a572e65a2e466a61e1",
+        "author": "liurongjie",
+        "date": "2026-01-28 11:56:49",
+        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
+      },
+      {
+        "commit": "41ff937e8a01cec1e449bcc2695fb3feef93c3f5",
+        "author": "xylplm",
+        "date": "2026-01-28 10:11:39",
+        "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601281053",
     "items": [
       {
@@ -101,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-01-24 23:12:40",
         "message": "fix(media_proxy): 修复重定向响应处理Range请求头"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601242121",
-    "items": [
-      {
-        "commit": "644ba66e21906f647af0ee41227956ddb247d630",
-        "author": "liurongjie",
-        "date": "2026-01-24 19:59:05",
-        "message": "feat(media_proxy): 增加请求头日志输出增强调试能力"
-      },
-      {
-        "commit": "301b86a894962b0353a3a70197b4f9f9bd3179cb",
-        "author": "xylplm",
-        "date": "2026-01-24 16:21:16",
-        "message": "fix: 添加pg_dump版本不匹配自动升级逻辑"
       }
     ]
   }
