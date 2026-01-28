@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601281020",
+    "items": [
+      {
+        "commit": "70a1b6811ef211fffec782d51538d9b17179c98d",
+        "author": "liurongjie",
+        "date": "2026-01-28 10:08:10",
+        "message": "fix(tools): 修正清除缓存提示文字中的错别字"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601242121",
     "items": [
       {
@@ -131,29 +142,6 @@
         "author": "GateCross",
         "date": "2026-01-17 23:04:41",
         "message": "feat: 添加 media_proxy SVG 图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601172250",
-    "items": [
-      {
-        "commit": "679b9c6b4392d83ae2a27820c3f4e5d46e5f0827",
-        "author": "syueya",
-        "date": "2026-01-17 22:17:25",
-        "message": "fix:驱动可以选择空"
-      },
-      {
-        "commit": "2d6b322bff386ab6818c28dc8c90fc3886d79889",
-        "author": "syueya",
-        "date": "2026-01-17 21:47:13",
-        "message": "fix:存储排版"
-      },
-      {
-        "commit": "fd44237a3479a43347ceba977fdfce2ee829bb35",
-        "author": "GateCross",
-        "date": "2026-01-17 21:15:22",
-        "message": "fix:媒体布局"
       }
     ]
   }

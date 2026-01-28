@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601281020",
+    "items": [
+      {
+        "commit": "41ff937e8a01cec1e449bcc2695fb3feef93c3f5",
+        "author": "xylplm",
+        "date": "2026-01-28 10:11:39",
+        "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601281003",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2026-01-24 09:13:44",
         "message": "fix：nullbr api 标准化请求头"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601240009",
-    "items": [
-      {
-        "commit": "eeb7f9c05aee097fb6a1ac5a6fdb873637e28241",
-        "author": "GateCross",
-        "date": "2026-01-24 00:08:48",
-        "message": "fix:媒体代理优先识别白名单非strm媒体"
       }
     ]
   }
