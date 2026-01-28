@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601281003",
+    "items": [
+      {
+        "commit": "5ef16b3494453475d55c22f3def4c375d4365857",
+        "author": "liurongjie",
+        "date": "2026-01-28 10:02:23",
+        "message": "fix(mediaserver): 修正路径匹配逻辑处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601272223",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "GateCross",
         "date": "2026-01-24 00:08:48",
         "message": "fix:媒体代理优先识别白名单非strm媒体"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601232330",
-    "items": [
-      {
-        "commit": "b0df87701831d907d2a5e5c825ba8fef8f3d985c",
-        "author": "GateCross",
-        "date": "2026-01-23 23:30:19",
-        "message": "fix: 媒体代理优化fastlink和超时逻辑"
       }
     ]
   }
