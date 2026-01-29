@@ -1,5 +1,22 @@
 [
   {
+    "version": "3.0_202601291647",
+    "items": [
+      {
+        "commit": "fdc63eaad6fe88196c7d4d8f5e392afd11bb8ef3",
+        "author": "Jolc",
+        "date": "2026-01-29 16:34:30",
+        "message": "fix: 云存储 display_order 字段问题"
+      },
+      {
+        "commit": "13fb3332deeecfe16f7cafb6be79269f6149c74b",
+        "author": "GateCross",
+        "date": "2026-01-28 23:21:19",
+        "message": "fix: 打印token报错具体信息"
+      }
+    ]
+  },
+  {
     "version": "3.0_202601282244",
     "items": [
       {
