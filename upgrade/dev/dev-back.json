@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601291904",
+    "items": [
+      {
+        "commit": "fdc63eaad6fe88196c7d4d8f5e392afd11bb8ef3",
+        "author": "Jolc",
+        "date": "2026-01-29 16:34:30",
+        "message": "fix: 云存储 display_order 字段问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601282322",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-01-25 20:57:17",
         "message": "fix: 修复媒体代理url截断问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601250001",
-    "items": [
-      {
-        "commit": "2ff65822a83350ffc1f2f4e3b42a83f156d70d0e",
-        "author": "liurongjie",
-        "date": "2026-01-25 00:00:57",
-        "message": "refactor(media_proxy): 移除ServeHTTP中请求头的调试日志打印"
       }
     ]
   }
