@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601302058",
+    "items": [
+      {
+        "commit": "13b1edd71877707bc0a1ff26caba51b637755998",
+        "author": "GateCross",
+        "date": "2026-01-30 20:56:28",
+        "message": "feat: 硬链接清理功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601291904",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-01-25 21:57:35",
         "message": "fix(media_proxy): 移除冗余的请求头日志打印"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601252057",
-    "items": [
-      {
-        "commit": "915b0cc572262ebaac6ed90a5ce79b823d44a825",
-        "author": "GateCross",
-        "date": "2026-01-25 20:57:17",
-        "message": "fix: 修复媒体代理url截断问题"
       }
     ]
   }
