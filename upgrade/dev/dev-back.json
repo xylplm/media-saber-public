@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601302148",
+    "items": [
+      {
+        "commit": "c5557137530c97caca57f4076412f7c77a52a008",
+        "author": "GateCross",
+        "date": "2026-01-30 21:47:15",
+        "message": "fix: 优化硬链接查找逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601302058",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-01-27 22:16:24",
         "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601252159",
-    "items": [
-      {
-        "commit": "c2184c16c95f7d9243fc978ffb56fcaed4938bf1",
-        "author": "liurongjie",
-        "date": "2026-01-25 21:57:35",
-        "message": "fix(media_proxy): 移除冗余的请求头日志打印"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601302148",
+    "items": [
+      {
+        "commit": "3bbf26badb0d3ae6ab3630e9a8aceb35d703e657",
+        "author": "GateCross",
+        "date": "2026-01-30 21:47:04",
+        "message": "ix: 优化硬链接清理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601302058",
     "items": [
       {
@@ -101,35 +112,6 @@
         "author": "liurongjie",
         "date": "2026-01-20 14:21:11",
         "message": "feat(settings): 限制通知设置弹窗最大高度"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601191824",
-    "items": [
-      {
-        "commit": "cde6bae15083ab6d0a4af3bc0789d7b82ea6f274",
-        "author": "xylplm",
-        "date": "2026-01-19 18:16:04",
-        "message": "fix: align error messages in form fields to the right"
-      },
-      {
-        "commit": "bd800029c5cb71c64021f3ab741bfbaaea32252b",
-        "author": "xylplm",
-        "date": "2026-01-19 17:58:18",
-        "message": "feat: 添加 Vitest 配置和测试环境初始化，更新 tsconfig.spec.json 以支持 Vitest"
-      },
-      {
-        "commit": "38d55e78b9bccda13b33752f8a9961b887a1f8f9",
-        "author": "xylplm",
-        "date": "2026-01-19 17:04:33",
-        "message": "feat: 优化 FormFieldError 组件，添加性能测试和错误消息逻辑验证"
-      },
-      {
-        "commit": "6a84c026d3d4662959814e3acaf3aa62800a8dad",
-        "author": "xylplm",
-        "date": "2026-01-19 13:48:32",
-        "message": "feat: 115开放平台应用id增加一个Media Saber"
       }
     ]
   }
