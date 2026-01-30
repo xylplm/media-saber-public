@@ -6,7 +6,7 @@
         "commit": "3bbf26badb0d3ae6ab3630e9a8aceb35d703e657",
         "author": "GateCross",
         "date": "2026-01-30 21:47:04",
-        "message": "ix: 优化硬链接清理"
+        "message": "fix: 优化硬链接清理"
       }
     ]
   },
