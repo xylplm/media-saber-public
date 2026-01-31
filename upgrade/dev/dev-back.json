@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601312149",
+    "items": [
+      {
+        "commit": "12a0a9bf3451eb61b1399a2b5bb9bd65dbad3769",
+        "author": "xylplm",
+        "date": "2026-01-31 21:48:33",
+        "message": "refactor: 移除图片处理过程中的调试日志"
+      },
+      {
+        "commit": "eaf1a2b108906d308dd7959118736da87c4cc968",
+        "author": "xylplm",
+        "date": "2026-01-31 21:46:51",
+        "message": "feat: 图片代理 添加可选参数以支持图片宽度压缩和格式转换"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601312108",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-01-28 10:11:39",
         "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601281026",
-    "items": [
-      {
-        "commit": "5ef16b3494453475d55c22f3def4c375d4365857",
-        "author": "liurongjie",
-        "date": "2026-01-28 10:02:23",
-        "message": "fix(mediaserver): 修正路径匹配逻辑处理"
       }
     ]
   }
