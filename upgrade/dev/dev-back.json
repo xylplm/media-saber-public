@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202601312108",
+    "items": [
+      {
+        "commit": "c67d8873bc30a59c6fde2ef5aa089eae9d257a4d",
+        "author": "GateCross",
+        "date": "2026-01-31 21:07:12",
+        "message": "fix: 修复时光热搜"
+      },
+      {
+        "commit": "353240888e84eb503702bd377e9b3f42704745e1",
+        "author": "GateCross",
+        "date": "2026-01-31 20:54:15",
+        "message": "fix: 优化删除tmdb缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601312055",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-01-28 10:02:23",
         "message": "fix(mediaserver): 修正路径匹配逻辑处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601281020",
-    "items": [
-      {
-        "commit": "41ff937e8a01cec1e449bcc2695fb3feef93c3f5",
-        "author": "xylplm",
-        "date": "2026-01-28 10:11:39",
-        "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
       }
     ]
   }
