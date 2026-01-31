@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202601312055",
+    "items": [
+      {
+        "commit": "fbe333d54e791cedc79df08b8de158a1d9e07633",
+        "author": "xylplm",
+        "date": "2026-01-31 20:54:31",
+        "message": "fix: 添加 SourceInvalid 字段以标识源文件失效状态"
+      },
+      {
+        "commit": "353240888e84eb503702bd377e9b3f42704745e1",
+        "author": "GateCross",
+        "date": "2026-01-31 20:54:15",
+        "message": "fix: 优化删除tmdb缓存"
+      },
+      {
+        "commit": "c5557137530c97caca57f4076412f7c77a52a008",
+        "author": "GateCross",
+        "date": "2026-01-30 21:47:15",
+        "message": "fix: 优化硬链接查找逻辑"
+      },
+      {
+        "commit": "13b1edd71877707bc0a1ff26caba51b637755998",
+        "author": "GateCross",
+        "date": "2026-01-30 20:56:28",
+        "message": "feat: 硬链接清理功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601311022",
     "items": [
       {
@@ -107,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-01-28 10:11:39",
         "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601281003",
-    "items": [
-      {
-        "commit": "5ef16b3494453475d55c22f3def4c375d4365857",
-        "author": "liurongjie",
-        "date": "2026-01-28 10:02:23",
-        "message": "fix(mediaserver): 修正路径匹配逻辑处理"
       }
     ]
   }
