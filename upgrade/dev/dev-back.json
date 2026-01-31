@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202601311022",
+    "items": [
+      {
+        "commit": "b5f9ffa359f0d08f45ce1c7366590f369199a421",
+        "author": "Jolc",
+        "date": "2026-01-31 10:22:18",
+        "message": "fix：修复 115 分享"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601302148",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-01-28 10:02:23",
         "message": "fix(mediaserver): 修正路径匹配逻辑处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601272223",
-    "items": [
-      {
-        "commit": "87f2221d8445355104025f0dd7434c15c6f9f1cd",
-        "author": "liurongjie",
-        "date": "2026-01-27 22:16:24",
-        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
       }
     ]
   }
