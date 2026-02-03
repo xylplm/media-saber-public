@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602031416",
+    "items": [
+      {
+        "commit": "847bd6494320e6797d62da75e3ee04cb7b42ac54",
+        "author": "weni09",
+        "date": "2026-02-03 14:15:23",
+        "message": "fix: 数据库初始化配置失败强制panic"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602031408",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "GateCross",
         "date": "2026-01-28 23:21:19",
         "message": "fix: 打印token报错具体信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601281157",
-    "items": [
-      {
-        "commit": "12adeb55d0381abb873475a572e65a2e466a61e1",
-        "author": "liurongjie",
-        "date": "2026-01-28 11:56:49",
-        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
-      },
-      {
-        "commit": "41ff937e8a01cec1e449bcc2695fb3feef93c3f5",
-        "author": "xylplm",
-        "date": "2026-01-28 10:11:39",
-        "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
       }
     ]
   }
