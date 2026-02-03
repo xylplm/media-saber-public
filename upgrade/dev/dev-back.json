@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602031408",
+    "items": [
+      {
+        "commit": "562dcf03a7601d9da95a744e4f3ad935bf6a31de",
+        "author": "xylplm",
+        "date": "2026-02-03 13:59:08",
+        "message": "fix: 改进数据库连接错误日志输出"
+      }
+    ]
+  },
+  {
     "version": "DEV_202601312149",
     "items": [
       {
@@ -124,23 +135,6 @@
         "commit": "12adeb55d0381abb873475a572e65a2e466a61e1",
         "author": "liurongjie",
         "date": "2026-01-28 11:56:49",
-        "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
-      },
-      {
-        "commit": "41ff937e8a01cec1e449bcc2695fb3feef93c3f5",
-        "author": "xylplm",
-        "date": "2026-01-28 10:11:39",
-        "message": "fix(middleware): 增强 Token 验证逻辑，确保用户信息有效性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601281053",
-    "items": [
-      {
-        "commit": "5fcfa2fd2164430eebfa7670dbaea392980d452a",
-        "author": "liurongjie",
-        "date": "2026-01-28 10:52:49",
         "message": "fix(mediaserver): 修正 Plex 媒体库路径匹配逻辑"
       },
       {
