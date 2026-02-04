@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602041627",
+    "items": [
+      {
+        "commit": "c5089afdf68f05ea0e2353f41acd54c4838672b2",
+        "author": "Jolc",
+        "date": "2026-02-04 16:26:41",
+        "message": "feat：直接集成 115-sdk-go，增加 code 0 message 空时的接口值日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602041321",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-30 20:56:28",
         "message": "feat: 硬链接清理功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601311022",
-    "items": [
-      {
-        "commit": "b5f9ffa359f0d08f45ce1c7366590f369199a421",
-        "author": "Jolc",
-        "date": "2026-01-31 10:22:18",
-        "message": "fix：修复 115 分享"
       }
     ]
   }
