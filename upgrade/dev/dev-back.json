@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602052111",
+    "items": [
+      {
+        "commit": "46d86ad167bd486590c09e1540c2dc63d6b55ed8",
+        "author": "yii",
+        "date": "2026-02-05 21:06:11",
+        "message": "fix: 修复用户密码更新异常错误"
+      },
+      {
+        "commit": "8a64c3fd57fc2adb56bf85927a2e7d80744d7bc0",
+        "author": "xylplm",
+        "date": "2026-02-05 20:58:28",
+        "message": "fix: 更新密码逻辑，修正旧密码错误处理返回值"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602041627",
     "items": [
       {
@@ -119,35 +136,6 @@
         "author": "GateCross",
         "date": "2026-01-31 20:54:15",
         "message": "fix: 优化删除tmdb缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601312055",
-    "items": [
-      {
-        "commit": "fbe333d54e791cedc79df08b8de158a1d9e07633",
-        "author": "xylplm",
-        "date": "2026-01-31 20:54:31",
-        "message": "fix: 添加 SourceInvalid 字段以标识源文件失效状态"
-      },
-      {
-        "commit": "353240888e84eb503702bd377e9b3f42704745e1",
-        "author": "GateCross",
-        "date": "2026-01-31 20:54:15",
-        "message": "fix: 优化删除tmdb缓存"
-      },
-      {
-        "commit": "c5557137530c97caca57f4076412f7c77a52a008",
-        "author": "GateCross",
-        "date": "2026-01-30 21:47:15",
-        "message": "fix: 优化硬链接查找逻辑"
-      },
-      {
-        "commit": "13b1edd71877707bc0a1ff26caba51b637755998",
-        "author": "GateCross",
-        "date": "2026-01-30 20:56:28",
-        "message": "feat: 硬链接清理功能"
       }
     ]
   }
