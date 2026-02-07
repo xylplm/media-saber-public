@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602072247",
+    "items": [
+      {
+        "commit": "4c17491d7bd8437710ed114aa9ae34c5de419f8d",
+        "author": "GateCross",
+        "date": "2026-02-07 22:47:10",
+        "message": "fix: 修复云存储字段识别，历史记录添加文件来源筛选"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602052111",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "xylplm",
         "date": "2026-01-31 21:46:51",
         "message": "feat: 图片代理 添加可选参数以支持图片宽度压缩和格式转换"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601312108",
-    "items": [
-      {
-        "commit": "c67d8873bc30a59c6fde2ef5aa089eae9d257a4d",
-        "author": "GateCross",
-        "date": "2026-01-31 21:07:12",
-        "message": "fix: 修复时光热搜"
-      },
-      {
-        "commit": "353240888e84eb503702bd377e9b3f42704745e1",
-        "author": "GateCross",
-        "date": "2026-01-31 20:54:15",
-        "message": "fix: 优化删除tmdb缓存"
       }
     ]
   }
