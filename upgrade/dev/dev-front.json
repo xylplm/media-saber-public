@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602072333",
+    "items": [
+      {
+        "commit": "45cc0f5cf1fcd72b553e00c593a1705300de7c58",
+        "author": "GateCross",
+        "date": "2026-02-07 23:33:31",
+        "message": "feat: 增加批量手动识别"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602072247",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-01-24 15:23:59",
         "message": "feat: 添加日期范围过滤器到系统日志对话框，更新相关接口和样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601211252",
-    "items": [
-      {
-        "commit": "ed2bdee019f90f7f95ef9d9b4184813efa165354",
-        "author": "liurongjie",
-        "date": "2026-01-21 12:46:47",
-        "message": "style(settings): 调整表单字段的栅格布局和间距"
       }
     ]
   }
