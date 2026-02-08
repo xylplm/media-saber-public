@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602082122",
+    "items": [
+      {
+        "commit": "45d9be0554a2a5c230ec10163ebb818e94c1ea0d",
+        "author": "xylplm",
+        "date": "2026-02-08 21:20:03",
+        "message": "feat: 桌面小部件增加极空间Nas信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602072333",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-01-21 12:46:47",
         "message": "style(settings): 调整表单字段的栅格布局和间距"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601241551",
-    "items": [
-      {
-        "commit": "b8c50dd3a0f161bd0797ffbcaf040de2084969ce",
-        "author": "xylplm",
-        "date": "2026-01-24 15:23:59",
-        "message": "feat: 添加日期范围过滤器到系统日志对话框，更新相关接口和样式"
       }
     ]
   }
