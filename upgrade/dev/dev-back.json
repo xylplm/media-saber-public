@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202602081724",
+    "items": [
+      {
+        "commit": "db9fa9f108345b014f8f74ffbabdd9ec9b5ad3f1",
+        "author": "xylplm",
+        "date": "2026-02-08 17:22:04",
+        "message": "fix: 极影视相关方法优化"
+      },
+      {
+        "commit": "c59cbfeac7c7b21ce12cdfeb66bfebbb4533226b",
+        "author": "xylplm",
+        "date": "2026-02-08 17:08:08",
+        "message": "feat: 更新极影视 状态和搜索接口"
+      },
+      {
+        "commit": "1db32d424c1b86b3a1387b8a1d5ae1fea767569a",
+        "author": "xylplm",
+        "date": "2026-02-08 16:49:38",
+        "message": "fix: 优化【媒体服务定时刷新】 极影视刷新 每个媒体库刷新要等待刷新任务完成 才进行下一个媒体库刷新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602072247",
     "items": [
       {
@@ -113,23 +136,6 @@
         "author": "xylplm",
         "date": "2026-02-03 13:59:08",
         "message": "fix: 改进数据库连接错误日志输出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601312149",
-    "items": [
-      {
-        "commit": "12a0a9bf3451eb61b1399a2b5bb9bd65dbad3769",
-        "author": "xylplm",
-        "date": "2026-01-31 21:48:33",
-        "message": "refactor: 移除图片处理过程中的调试日志"
-      },
-      {
-        "commit": "eaf1a2b108906d308dd7959118736da87c4cc968",
-        "author": "xylplm",
-        "date": "2026-01-31 21:46:51",
-        "message": "feat: 图片代理 添加可选参数以支持图片宽度压缩和格式转换"
       }
     ]
   }
