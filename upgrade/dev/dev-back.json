@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202602091707",
+    "items": [
+      {
+        "commit": "70ecc7639b186efba9f60c71906d7ff2d139ddcb",
+        "author": "xylplm",
+        "date": "2026-02-09 17:06:39",
+        "message": "feat: 更新极空间服务助手插件，优化内存、磁盘和SSD信息的解析与显示"
+      },
+      {
+        "commit": "0728299eb7577cfecff3532d9d3b98e37eec3b38",
+        "author": "xylplm",
+        "date": "2026-02-09 16:19:40",
+        "message": "feat: 互动消息 新增极空间系统状态查询功能，集成系统状态信息解析"
+      },
+      {
+        "commit": "c30e328f53452de0ff0112ac15e6cdd472b86b68",
+        "author": "xylplm",
+        "date": "2026-02-09 15:54:13",
+        "message": "feat: 更新极空间服务助手插件，新增系统消息通知和状态告警功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602082122",
     "items": [
       {
@@ -137,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-02-03 20:19:19",
         "message": "fix: 添加挂载路径存在性检查以防止冲突"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602031416",
-    "items": [
-      {
-        "commit": "847bd6494320e6797d62da75e3ee04cb7b42ac54",
-        "author": "weni09",
-        "date": "2026-02-03 14:15:23",
-        "message": "fix: 数据库初始化配置失败强制panic"
       }
     ]
   }
