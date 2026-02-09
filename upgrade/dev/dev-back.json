@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602091914",
+    "items": [
+      {
+        "commit": "0effc577298a1da377b7a640ee25a5707d5475fe",
+        "author": "xylplm",
+        "date": "2026-02-09 19:08:58",
+        "message": "feat: 更新获取极空间系统状态工具的描述，增加硬件配置信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602091810",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-02-04 00:01:06",
         "message": "fix: 更新Token验证逻辑，添加Redis错误处理和相应错误信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602041027",
-    "items": [
-      {
-        "commit": "fc73cbf2e923caf38c6c6a6e4a73ec0e5bafc490",
-        "author": "xylplm",
-        "date": "2026-02-04 10:26:46",
-        "message": "fix: 优化拦截器日志输出，增加请求方法和路径信息"
       }
     ]
   }
