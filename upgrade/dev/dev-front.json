@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602091346",
+    "items": [
+      {
+        "commit": "12aaed1a38e00318d2ffbafe78a8dccc7dc596f3",
+        "author": "xylplm",
+        "date": "2026-02-09 13:45:22",
+        "message": "feat: 极空间桌面小部件 显示内存和存储的总量信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602082122",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-01-28 10:08:10",
         "message": "fix(tools): 修正清除缓存提示文字中的错别字"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601242121",
-    "items": [
-      {
-        "commit": "141f363816f2b50e508070b79803c70b69e32d04",
-        "author": "xylplm",
-        "date": "2026-01-24 18:32:08",
-        "message": "feat: 优化系统提示词配置按钮样式，增强用户体验"
-      },
-      {
-        "commit": "ed2bdee019f90f7f95ef9d9b4184813efa165354",
-        "author": "liurongjie",
-        "date": "2026-01-21 12:46:47",
-        "message": "style(settings): 调整表单字段的栅格布局和间距"
       }
     ]
   }
