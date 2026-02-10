@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602101958",
+    "items": [
+      {
+        "commit": "23777cc0163b15fb0885f29c179e01e553182a1c",
+        "author": "liurongjie",
+        "date": "2026-02-10 19:57:56",
+        "message": "refactor(plugin): 优化媒体代理中Redis获取提取码逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602101942",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "GateCross",
         "date": "2026-02-07 22:47:10",
         "message": "fix: 修复云存储字段识别，历史记录添加文件来源筛选"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602052111",
-    "items": [
-      {
-        "commit": "46d86ad167bd486590c09e1540c2dc63d6b55ed8",
-        "author": "yii",
-        "date": "2026-02-05 21:06:11",
-        "message": "fix: 修复用户密码更新异常错误"
-      },
-      {
-        "commit": "8a64c3fd57fc2adb56bf85927a2e7d80744d7bc0",
-        "author": "xylplm",
-        "date": "2026-02-05 20:58:28",
-        "message": "fix: 更新密码逻辑，修正旧密码错误处理返回值"
       }
     ]
   }
