@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602101755",
+    "items": [
+      {
+        "commit": "249cbb11018165459498779e5f048d2593c1a6cf",
+        "author": "liurongjie",
+        "date": "2026-02-10 17:54:23",
+        "message": "MediaProxy add log"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602091914",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "xylplm",
         "date": "2026-02-04 13:19:57",
         "message": "fix: 优化搜索种子逻辑，增加启用站点的过滤和错误处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602041234",
-    "items": [
-      {
-        "commit": "b1500a98f055285869b1d9b70994123dc9d69ac8",
-        "author": "xylplm",
-        "date": "2026-02-04 12:31:55",
-        "message": "fix: 优化日志输出，增加Token错误信息的请求方法和路径"
-      },
-      {
-        "commit": "de8efcc0e56894f641613495480ee1073b0b6194",
-        "author": "xylplm",
-        "date": "2026-02-04 00:01:06",
-        "message": "fix: 更新Token验证逻辑，添加Redis错误处理和相应错误信息"
       }
     ]
   }
