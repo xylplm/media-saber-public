@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602101942",
+    "items": [
+      {
+        "commit": "7fd487709e0a6189e13bbdb2915c0038be47c27c",
+        "author": "liurongjie",
+        "date": "2026-02-10 19:41:34",
+        "message": "feat(media-proxy): 添加媒体代理调试日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602101847",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-02-05 20:58:28",
         "message": "fix: 更新密码逻辑，修正旧密码错误处理返回值"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602041627",
-    "items": [
-      {
-        "commit": "c5089afdf68f05ea0e2353f41acd54c4838672b2",
-        "author": "Jolc",
-        "date": "2026-02-04 16:26:41",
-        "message": "feat：直接集成 115-sdk-go，增加 code 0 message 空时的接口值日志"
       }
     ]
   }
