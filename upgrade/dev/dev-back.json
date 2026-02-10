@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602101847",
+    "items": [
+      {
+        "commit": "0674b04818daa68d6426b7a90fbcffe8564d7e61",
+        "author": "liurongjie",
+        "date": "2026-02-10 18:47:20",
+        "message": "refactor(plugin): 重构媒体代理中的 PickCode 获取逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602101755",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-02-04 16:26:41",
         "message": "feat：直接集成 115-sdk-go，增加 code 0 message 空时的接口值日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602041321",
-    "items": [
-      {
-        "commit": "921e1655c4e8515472660dd7032face23acf6e31",
-        "author": "xylplm",
-        "date": "2026-02-04 13:19:57",
-        "message": "fix: 优化搜索种子逻辑，增加启用站点的过滤和错误处理"
       }
     ]
   }
