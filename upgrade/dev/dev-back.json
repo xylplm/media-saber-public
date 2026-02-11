@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602111820",
+    "items": [
+      {
+        "commit": "7da55474764f6f1f0feaeaad96e299dbc7bcee0a",
+        "author": "liurongjie",
+        "date": "2026-02-11 18:20:24",
+        "message": "fix：修复媒体代理出触发的strm修复错误"
+      },
+      {
+        "commit": "6513566da974cfe87171351b6e22574343b0ef47",
+        "author": "liurongjie",
+        "date": "2026-02-11 18:14:44",
+        "message": "代码回退"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602111753",
     "items": [
       {
@@ -113,29 +130,6 @@
         "author": "xylplm",
         "date": "2026-02-09 15:54:13",
         "message": "feat: 更新极空间服务助手插件，新增系统消息通知和状态告警功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602082122",
-    "items": [
-      {
-        "commit": "912e4e021ebf9c1f46468bbb3b06ba1d58c9641a",
-        "author": "xylplm",
-        "date": "2026-02-08 21:17:29",
-        "message": "feat: 更新极空间服务助手插件，优化通知功能及相关逻辑"
-      },
-      {
-        "commit": "4f237da88427122ed47572e690a88e5ffd33950b",
-        "author": "xylplm",
-        "date": "2026-02-08 18:41:39",
-        "message": "feat: 新增通过code调用插件实例的接口及逻辑处理"
-      },
-      {
-        "commit": "39cbd7e5cf36ba089a9ed7b32839829bae59fa74",
-        "author": "xylplm",
-        "date": "2026-02-08 18:05:14",
-        "message": "feat: 新增极空间服务助手插件，集成系统消息推送和状态查询功能"
       }
     ]
   }
