@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602111753",
+    "items": [
+      {
+        "commit": "69fecb5f068513ec4f098c304dc6c3ff4445a6d7",
+        "author": "liurongjie",
+        "date": "2026-02-11 17:53:03",
+        "message": "fix(mlist): fixStrm add logs"
+      },
+      {
+        "commit": "a333df3bf3aec7dcceda32531bf0d7a41ecf2665",
+        "author": "liurongjie",
+        "date": "2026-02-11 17:38:02",
+        "message": "fix(mlist): 尝试修复fixStrm修复错误路径的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602111404",
     "items": [
       {
@@ -119,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-02-08 18:05:14",
         "message": "feat: 新增极空间服务助手插件，集成系统消息推送和状态查询功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602081724",
-    "items": [
-      {
-        "commit": "db9fa9f108345b014f8f74ffbabdd9ec9b5ad3f1",
-        "author": "xylplm",
-        "date": "2026-02-08 17:22:04",
-        "message": "fix: 极影视相关方法优化"
-      },
-      {
-        "commit": "c59cbfeac7c7b21ce12cdfeb66bfebbb4533226b",
-        "author": "xylplm",
-        "date": "2026-02-08 17:08:08",
-        "message": "feat: 更新极影视 状态和搜索接口"
-      },
-      {
-        "commit": "1db32d424c1b86b3a1387b8a1d5ae1fea767569a",
-        "author": "xylplm",
-        "date": "2026-02-08 16:49:38",
-        "message": "fix: 优化【媒体服务定时刷新】 极影视刷新 每个媒体库刷新要等待刷新任务完成 才进行下一个媒体库刷新"
       }
     ]
   }
