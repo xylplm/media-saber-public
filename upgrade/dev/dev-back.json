@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602112226",
+    "items": [
+      {
+        "commit": "b72919ab37109a43d9b4c36daebc4580c1b958c4",
+        "author": "GateCross",
+        "date": "2026-02-11 22:25:54",
+        "message": "fix: 优化strm修复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602111820",
     "items": [
       {
@@ -107,29 +118,6 @@
         "author": "xylplm",
         "date": "2026-02-09 18:02:10",
         "message": "feat: 新增MCP工具获取极空间系统状态功能，集成状态信息查询与返回"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602091707",
-    "items": [
-      {
-        "commit": "70ecc7639b186efba9f60c71906d7ff2d139ddcb",
-        "author": "xylplm",
-        "date": "2026-02-09 17:06:39",
-        "message": "feat: 更新极空间服务助手插件，优化内存、磁盘和SSD信息的解析与显示"
-      },
-      {
-        "commit": "0728299eb7577cfecff3532d9d3b98e37eec3b38",
-        "author": "xylplm",
-        "date": "2026-02-09 16:19:40",
-        "message": "feat: 互动消息 新增极空间系统状态查询功能，集成系统状态信息解析"
-      },
-      {
-        "commit": "c30e328f53452de0ff0112ac15e6cdd472b86b68",
-        "author": "xylplm",
-        "date": "2026-02-09 15:54:13",
-        "message": "feat: 更新极空间服务助手插件，新增系统消息通知和状态告警功能"
       }
     ]
   }
