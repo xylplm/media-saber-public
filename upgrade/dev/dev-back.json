@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602111404",
+    "items": [
+      {
+        "commit": "1b8a3070e166fe28c38ec2955e18535e509b0cba",
+        "author": "GateCross",
+        "date": "2026-02-11 14:03:12",
+        "message": "fix: 当推送类型未配置时默认接收所有消息类型"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602101958",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-02-08 16:49:38",
         "message": "fix: 优化【媒体服务定时刷新】 极影视刷新 每个媒体库刷新要等待刷新任务完成 才进行下一个媒体库刷新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602072247",
-    "items": [
-      {
-        "commit": "4c17491d7bd8437710ed114aa9ae34c5de419f8d",
-        "author": "GateCross",
-        "date": "2026-02-07 22:47:10",
-        "message": "fix: 修复云存储字段识别，历史记录添加文件来源筛选"
       }
     ]
   }
