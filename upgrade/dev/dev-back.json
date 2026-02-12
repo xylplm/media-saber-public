@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602121135",
+    "items": [
+      {
+        "commit": "d97ee79ea56f75d5c41c6864d3c1d00dca64274c",
+        "author": "liurongjie",
+        "date": "2026-02-12 11:16:56",
+        "message": "fix：add logs"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602112226",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "xylplm",
         "date": "2026-02-09 19:08:58",
         "message": "feat: 更新获取极空间系统状态工具的描述，增加硬件配置信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602091810",
-    "items": [
-      {
-        "commit": "4bb4984577d8375d40b1e058f5876a4377117e03",
-        "author": "xylplm",
-        "date": "2026-02-09 18:02:10",
-        "message": "feat: 新增MCP工具获取极空间系统状态功能，集成状态信息查询与返回"
       }
     ]
   }
