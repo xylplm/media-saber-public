@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602121222",
+    "items": [
+      {
+        "commit": "796a717d49ca2d8296789cdfc058675e680770b1",
+        "author": "liurongjie",
+        "date": "2026-02-12 12:22:06",
+        "message": "样式优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602091707",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-01-29 16:46:42",
         "message": "fix: 更新依赖包版本以修复潜在问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601282322",
-    "items": [
-      {
-        "commit": "96eb0847f68194388b3f6ca02e583e5bcfe2957d",
-        "author": "xylplm",
-        "date": "2026-01-28 14:17:34",
-        "message": "fix: 更新系统日志对话框的样式，调整小屏幕下的内边距"
       }
     ]
   }
