@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602121245",
+    "items": [
+      {
+        "commit": "3de2892cf30262d749ad96c08116bb8a99a1c582",
+        "author": "Jolc",
+        "date": "2026-02-12 12:45:09",
+        "message": "feat：生成 strm 时 pc set redis"
+      },
+      {
+        "commit": "8b2c33d565975fdbbb5117b77787e92526ac6f2f",
+        "author": "Jolc",
+        "date": "2026-02-12 12:41:18",
+        "message": "fix：log 4 fix strm set redis"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602121135",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-10 17:54:23",
         "message": "MediaProxy add log"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602091914",
-    "items": [
-      {
-        "commit": "0effc577298a1da377b7a640ee25a5707d5475fe",
-        "author": "xylplm",
-        "date": "2026-02-09 19:08:58",
-        "message": "feat: 更新获取极空间系统状态工具的描述，增加硬件配置信息"
       }
     ]
   }
