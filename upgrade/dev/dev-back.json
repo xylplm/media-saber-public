@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602132255",
+    "items": [
+      {
+        "commit": "c8a6da49d98b5a0fc58d70ce5bd0ada4be719c4a",
+        "author": "GateCross",
+        "date": "2026-02-13 22:54:30",
+        "message": "fix: 修复hdhive签到"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602121245",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-10 18:47:20",
         "message": "refactor(plugin): 重构媒体代理中的 PickCode 获取逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602101755",
-    "items": [
-      {
-        "commit": "249cbb11018165459498779e5f048d2593c1a6cf",
-        "author": "liurongjie",
-        "date": "2026-02-10 17:54:23",
-        "message": "MediaProxy add log"
       }
     ]
   }

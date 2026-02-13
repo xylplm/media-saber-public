@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202602132255",
+    "items": [
+      {
+        "commit": "118c271473e11da2ce8d73c2d10d40a55674439a",
+        "author": "xylplm",
+        "date": "2026-02-12 16:09:36",
+        "message": "refactor: replace owl-carousel with custom cm-carousel-list component"
+      },
+      {
+        "commit": "fac969546367b04e46f01d80f9e4237cea7d1896",
+        "author": "xylplm",
+        "date": "2026-02-12 15:49:48",
+        "message": "feat: 优化轮播组件"
+      },
+      {
+        "commit": "a7f8e7704b82282ef46e06f8dfa0bb0cd0ffde42",
+        "author": "xylplm",
+        "date": "2026-02-12 15:07:46",
+        "message": "feat: ms专属轮播组件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602121222",
     "items": [
       {
@@ -125,17 +148,6 @@
         "author": "GateCross",
         "date": "2026-01-30 20:58:06",
         "message": "feat: 无效硬链接清理按钮"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601291904",
-    "items": [
-      {
-        "commit": "0870b525e4df9fbc732b3f0994a130fa0c627342",
-        "author": "xylplm",
-        "date": "2026-01-29 16:46:42",
-        "message": "fix: 更新依赖包版本以修复潜在问题"
       }
     ]
   }
