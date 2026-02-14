@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202602141422",
+    "items": [
+      {
+        "commit": "5ce26fe8f9af2d38a19489d54609904256c983a3",
+        "author": "xylplm",
+        "date": "2026-02-14 14:20:22",
+        "message": "feat: 添加MCP禁用模型列表字段到AI设置表单"
+      },
+      {
+        "commit": "118c271473e11da2ce8d73c2d10d40a55674439a",
+        "author": "xylplm",
+        "date": "2026-02-12 16:09:36",
+        "message": "refactor: replace owl-carousel with custom cm-carousel-list component"
+      },
+      {
+        "commit": "fac969546367b04e46f01d80f9e4237cea7d1896",
+        "author": "xylplm",
+        "date": "2026-02-12 15:49:48",
+        "message": "feat: 优化轮播组件"
+      },
+      {
+        "commit": "a7f8e7704b82282ef46e06f8dfa0bb0cd0ffde42",
+        "author": "xylplm",
+        "date": "2026-02-12 15:07:46",
+        "message": "feat: ms专属轮播组件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141129",
     "items": [
       {
@@ -143,17 +172,6 @@
         "author": "xylplm",
         "date": "2026-02-05 21:58:12",
         "message": "fix: 移除不必要的管道导入以简化组件依赖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601302148",
-    "items": [
-      {
-        "commit": "3bbf26badb0d3ae6ab3630e9a8aceb35d703e657",
-        "author": "GateCross",
-        "date": "2026-01-30 21:47:04",
-        "message": "fix: 优化硬链接清理"
       }
     ]
   }

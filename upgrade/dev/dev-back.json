@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141422",
+    "items": [
+      {
+        "commit": "82616ed5dfc6a03e61fafd75752a8b9fb0a73365",
+        "author": "xylplm",
+        "date": "2026-02-14 14:19:43",
+        "message": "feat: 新增MCP禁用模型列表支持，优化模型检查逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141129",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-10 19:57:56",
         "message": "refactor(plugin): 优化媒体代理中Redis获取提取码逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602101942",
-    "items": [
-      {
-        "commit": "7fd487709e0a6189e13bbdb2915c0038be47c27c",
-        "author": "liurongjie",
-        "date": "2026-02-10 19:41:34",
-        "message": "feat(media-proxy): 添加媒体代理调试日志"
       }
     ]
   }
