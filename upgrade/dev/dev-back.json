@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141804",
+    "items": [
+      {
+        "commit": "b09141fccc1706f66b6f5591b7e5cb126ba84d2b",
+        "author": "liurongjie",
+        "date": "2026-02-14 18:03:05",
+        "message": "Revert \"```\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141756",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "GateCross",
         "date": "2026-02-11 22:25:54",
         "message": "fix: 优化strm修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602111820",
-    "items": [
-      {
-        "commit": "7da55474764f6f1f0feaeaad96e299dbc7bcee0a",
-        "author": "liurongjie",
-        "date": "2026-02-11 18:20:24",
-        "message": "fix：修复媒体代理出触发的strm修复错误"
-      },
-      {
-        "commit": "6513566da974cfe87171351b6e22574343b0ef47",
-        "author": "liurongjie",
-        "date": "2026-02-11 18:14:44",
-        "message": "代码回退"
       }
     ]
   }
