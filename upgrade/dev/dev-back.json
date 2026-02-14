@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141710",
+    "items": [
+      {
+        "commit": "ca24e1547e95e5c4c22e8271e0e0cebad288b66f",
+        "author": "GateCross",
+        "date": "2026-02-14 17:09:26",
+        "message": "fix: hdhive修复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141516",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-02-11 17:38:02",
         "message": "fix(mlist): 尝试修复fixStrm修复错误路径的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602111404",
-    "items": [
-      {
-        "commit": "1b8a3070e166fe28c38ec2955e18535e509b0cba",
-        "author": "GateCross",
-        "date": "2026-02-11 14:03:12",
-        "message": "fix: 当推送类型未配置时默认接收所有消息类型"
       }
     ]
   }
