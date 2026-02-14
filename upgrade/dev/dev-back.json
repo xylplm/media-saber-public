@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141129",
+    "items": [
+      {
+        "commit": "ec6d06897e1375cfbf29692433136a474cdd1b37",
+        "author": "GateCross",
+        "date": "2026-02-14 11:28:56",
+        "message": "fix: 修复hdhive签到成功显示结果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602132255",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-10 19:41:34",
         "message": "feat(media-proxy): 添加媒体代理调试日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602101847",
-    "items": [
-      {
-        "commit": "0674b04818daa68d6426b7a90fbcffe8564d7e61",
-        "author": "liurongjie",
-        "date": "2026-02-10 18:47:20",
-        "message": "refactor(plugin): 重构媒体代理中的 PickCode 获取逻辑"
       }
     ]
   }

@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602141129",
+    "items": [
+      {
+        "commit": "796a717d49ca2d8296789cdfc058675e680770b1",
+        "author": "liurongjie",
+        "date": "2026-02-12 12:22:06",
+        "message": "样式优化"
+      },
+      {
+        "commit": "1c1056cb3e0e4054ea6fabc96e426f0ecf56efc1",
+        "author": "xylplm",
+        "date": "2026-02-09 16:53:08",
+        "message": "feat: 消息中心增加极空间系统状态，并优化消息中心组件的变更检测"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602132255",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-01-30 21:47:04",
         "message": "fix: 优化硬链接清理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202601302058",
-    "items": [
-      {
-        "commit": "325b8d953f6bd1b4e716794bd4c2b9ac82b06323",
-        "author": "GateCross",
-        "date": "2026-01-30 20:58:06",
-        "message": "feat: 无效硬链接清理按钮"
       }
     ]
   }
