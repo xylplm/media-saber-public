@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141756",
+    "items": [
+      {
+        "commit": "7ecf4a9e7e08d97755d7979df288bf4399a5dc5a",
+        "author": "liurongjie",
+        "date": "2026-02-14 17:55:15",
+        "message": "``` feat(plugin): 优化 HDHive 签到结果消息解析"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141710",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "liurongjie",
         "date": "2026-02-11 18:14:44",
         "message": "代码回退"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602111753",
-    "items": [
-      {
-        "commit": "69fecb5f068513ec4f098c304dc6c3ff4445a6d7",
-        "author": "liurongjie",
-        "date": "2026-02-11 17:53:03",
-        "message": "fix(mlist): fixStrm add logs"
-      },
-      {
-        "commit": "a333df3bf3aec7dcceda32531bf0d7a41ecf2665",
-        "author": "liurongjie",
-        "date": "2026-02-11 17:38:02",
-        "message": "fix(mlist): 尝试修复fixStrm修复错误路径的问题"
       }
     ]
   }
