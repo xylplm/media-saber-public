@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202602141516",
+    "items": [
+      {
+        "commit": "775b4c1035cc8ecca3d7c6424525988fc6e9bcd1",
+        "author": "xylplm",
+        "date": "2026-02-14 15:15:40",
+        "message": "feat: 添加图片代理缓存功能，支持缓存管理与过期清理"
+      },
+      {
+        "commit": "eb6b0d491ef827f28414878db094febec9bc81a0",
+        "author": "xylplm",
+        "date": "2026-02-14 14:40:27",
+        "message": "feat: 新增图片代理请求支持可选宽度和格式参数，集成WebP格式处理"
+      },
+      {
+        "commit": "ec6d06897e1375cfbf29692433136a474cdd1b37",
+        "author": "GateCross",
+        "date": "2026-02-14 11:28:56",
+        "message": "fix: 修复hdhive签到成功显示结果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141422",
     "items": [
       {
@@ -113,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-02-11 14:03:12",
         "message": "fix: 当推送类型未配置时默认接收所有消息类型"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602101958",
-    "items": [
-      {
-        "commit": "23777cc0163b15fb0885f29c179e01e553182a1c",
-        "author": "liurongjie",
-        "date": "2026-02-10 19:57:56",
-        "message": "refactor(plugin): 优化媒体代理中Redis获取提取码逻辑"
       }
     ]
   }

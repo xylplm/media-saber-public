@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141516",
+    "items": [
+      {
+        "commit": "8422ef066e78f5866a206f2f04d35a5fa7dd1ca4",
+        "author": "xylplm",
+        "date": "2026-02-14 15:14:50",
+        "message": "feat: 添加图片代理缓存功能及其有效期设置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141422",
     "items": [
       {
@@ -143,35 +154,6 @@
         "author": "GateCross",
         "date": "2026-02-07 22:46:33",
         "message": "feat: 历史记录添加文件来源筛选"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602061311",
-    "items": [
-      {
-        "commit": "dc04290dae9588fb972253e226758b8dada2e817",
-        "author": "liurongjie",
-        "date": "2026-02-06 13:10:20",
-        "message": "style(search-torrent-result): 优化按钮组件的宽度样式和布局结构"
-      },
-      {
-        "commit": "f7a92186657d3c14bc55580839a0d7d1fc8a5684",
-        "author": "xylplm",
-        "date": "2026-02-05 22:08:08",
-        "message": "chore(deps): update dependencies to latest versions"
-      },
-      {
-        "commit": "380aee73a4301399d6a811348e46d887eba93f5f",
-        "author": "xylplm",
-        "date": "2026-02-05 22:03:08",
-        "message": "chore: update Angular dependencies to version 21.1.3 and related devDependencies to latest compatible versions"
-      },
-      {
-        "commit": "c609d336d2d98d79cc62012062d0839b14b6ebbc",
-        "author": "xylplm",
-        "date": "2026-02-05 21:58:12",
-        "message": "fix: 移除不必要的管道导入以简化组件依赖"
       }
     ]
   }
