@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602141525",
+    "items": [
+      {
+        "commit": "2d81681420877a26db77c68d939165f77586e1ad",
+        "author": "xylplm",
+        "date": "2026-02-14 15:24:39",
+        "message": "fix: 修复桌面小部件 今日开播列表"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141516",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-02-07 23:33:31",
         "message": "feat: 增加批量手动识别"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602072247",
-    "items": [
-      {
-        "commit": "784c6bc8be0e2bd801c3f6e2299fcab9a125a894",
-        "author": "GateCross",
-        "date": "2026-02-07 22:46:33",
-        "message": "feat: 历史记录添加文件来源筛选"
       }
     ]
   }
