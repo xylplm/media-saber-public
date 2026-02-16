@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602170027",
+    "items": [
+      {
+        "commit": "008642c25f5f01eb67814cc85af0034fd1dd4a33",
+        "author": "liurongjie",
+        "date": "2026-02-17 00:26:56",
+        "message": "feat(site): 实现移动端适配的签到表格视图"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602170017",
     "items": [
       {
@@ -137,29 +148,6 @@
         "author": "liurongjie",
         "date": "2026-02-12 12:22:06",
         "message": "样式优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602091707",
-    "items": [
-      {
-        "commit": "1c1056cb3e0e4054ea6fabc96e426f0ecf56efc1",
-        "author": "xylplm",
-        "date": "2026-02-09 16:53:08",
-        "message": "feat: 消息中心增加极空间系统状态，并优化消息中心组件的变更检测"
-      },
-      {
-        "commit": "d4197fc033dc087714832c2bc8e251674ef8bc75",
-        "author": "xylplm",
-        "date": "2026-02-09 16:28:31",
-        "message": "feat: 增强风扇状态显示，添加未检测到风扇的提示信息"
-      },
-      {
-        "commit": "4ad4027a686dc2315ab0dd20756d406e98a73fe5",
-        "author": "xylplm",
-        "date": "2026-02-09 14:54:23",
-        "message": "feat: 完善极空间设备详情 添加电源信息和扩展存储设备支持，优化存储计算逻辑"
       }
     ]
   }
