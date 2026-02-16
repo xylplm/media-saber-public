@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602170017",
+    "items": [
+      {
+        "commit": "57bc5effc24e7d10bf9452c890681555e6c184c1",
+        "author": "liurongjie",
+        "date": "2026-02-17 00:17:19",
+        "message": "feat(site): 添加移动端响应式卡片布局支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602161343",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-02-09 14:54:23",
         "message": "feat: 完善极空间设备详情 添加电源信息和扩展存储设备支持，优化存储计算逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602091346",
-    "items": [
-      {
-        "commit": "12aaed1a38e00318d2ffbafe78a8dccc7dc596f3",
-        "author": "xylplm",
-        "date": "2026-02-09 13:45:22",
-        "message": "feat: 极空间桌面小部件 显示内存和存储的总量信息"
       }
     ]
   }
