@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602161343",
+    "items": [
+      {
+        "commit": "3a3ae43b35071120ecf70e387e2f1f73c655d2ef",
+        "author": "xylplm",
+        "date": "2026-02-16 13:42:57",
+        "message": "feat: 为媒体项和媒体详情添加图片压缩参数支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602161307",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-02-09 13:45:22",
         "message": "feat: 极空间桌面小部件 显示内存和存储的总量信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602082122",
-    "items": [
-      {
-        "commit": "45d9be0554a2a5c230ec10163ebb818e94c1ea0d",
-        "author": "xylplm",
-        "date": "2026-02-08 21:20:03",
-        "message": "feat: 桌面小部件增加极空间Nas信息"
       }
     ]
   }
