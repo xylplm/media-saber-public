@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602161307",
+    "items": [
+      {
+        "commit": "ca5f3f66656a1f13c6fc8778301352556b3a3448",
+        "author": "xylplm",
+        "date": "2026-02-15 17:31:59",
+        "message": "feat(ai-chat): add AI chat module with standalone and internal versions"
+      },
+      {
+        "commit": "80b7d28753641af7fb9f67a87d5080253fd86916",
+        "author": "xylplm",
+        "date": "2026-02-14 20:40:56",
+        "message": "feat: 独立页面添加主题颜色切换功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141525",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-02-08 21:20:03",
         "message": "feat: 桌面小部件增加极空间Nas信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602072333",
-    "items": [
-      {
-        "commit": "45cc0f5cf1fcd72b553e00c593a1705300de7c58",
-        "author": "GateCross",
-        "date": "2026-02-07 23:33:31",
-        "message": "feat: 增加批量手动识别"
       }
     ]
   }
