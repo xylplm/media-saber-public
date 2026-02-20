@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602201918",
+    "items": [
+      {
+        "commit": "3760379ec9a0afbd34f6e41983a02822efdb3630",
+        "author": "liurongjie",
+        "date": "2026-02-20 19:17:29",
+        "message": "refactor(plugin): 重构媒体代理模块代码结构和错误处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602141804",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-12 11:16:56",
         "message": "fix：add logs"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602112226",
-    "items": [
-      {
-        "commit": "b72919ab37109a43d9b4c36daebc4580c1b958c4",
-        "author": "GateCross",
-        "date": "2026-02-11 22:25:54",
-        "message": "fix: 优化strm修复"
       }
     ]
   }
