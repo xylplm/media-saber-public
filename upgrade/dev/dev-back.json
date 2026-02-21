@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602212152",
+    "items": [
+      {
+        "commit": "7aef636bbe44b503e8cf4bd1c57fc786b16e7afb",
+        "author": "GateCross",
+        "date": "2026-02-21 21:50:26",
+        "message": "fix: 修复nullbr422报错"
+      },
+      {
+        "commit": "f10cc3098deafa1fe783629ff68581fb6e5d632f",
+        "author": "liurongjie",
+        "date": "2026-02-21 21:49:13",
+        "message": "fix(transfer): 修复云存储传输服务中的刷新配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602212033",
     "items": [
       {
@@ -107,23 +124,6 @@
         "author": "GateCross",
         "date": "2026-02-13 22:54:30",
         "message": "fix: 修复hdhive签到"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602121245",
-    "items": [
-      {
-        "commit": "3de2892cf30262d749ad96c08116bb8a99a1c582",
-        "author": "Jolc",
-        "date": "2026-02-12 12:45:09",
-        "message": "feat：生成 strm 时 pc set redis"
-      },
-      {
-        "commit": "8b2c33d565975fdbbb5117b77787e92526ac6f2f",
-        "author": "Jolc",
-        "date": "2026-02-12 12:41:18",
-        "message": "fix：log 4 fix strm set redis"
       }
     ]
   }
