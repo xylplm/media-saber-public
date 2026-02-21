@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602212200",
+    "items": [
+      {
+        "commit": "4c6f09e291bed27271a4dcff152964b88d21cd5d",
+        "author": "liurongjie",
+        "date": "2026-02-21 21:59:47",
+        "message": "feat(cloud-storage): 添加媒体库刷新功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602212033",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-02-09 16:53:08",
         "message": "feat: 消息中心增加极空间系统状态，并优化消息中心组件的变更检测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602132255",
-    "items": [
-      {
-        "commit": "118c271473e11da2ce8d73c2d10d40a55674439a",
-        "author": "xylplm",
-        "date": "2026-02-12 16:09:36",
-        "message": "refactor: replace owl-carousel with custom cm-carousel-list component"
-      },
-      {
-        "commit": "fac969546367b04e46f01d80f9e4237cea7d1896",
-        "author": "xylplm",
-        "date": "2026-02-12 15:49:48",
-        "message": "feat: 优化轮播组件"
-      },
-      {
-        "commit": "a7f8e7704b82282ef46e06f8dfa0bb0cd0ffde42",
-        "author": "xylplm",
-        "date": "2026-02-12 15:07:46",
-        "message": "feat: ms专属轮播组件"
       }
     ]
   }

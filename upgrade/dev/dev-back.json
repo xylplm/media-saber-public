@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602212200",
+    "items": [
+      {
+        "commit": "f10cc3098deafa1fe783629ff68581fb6e5d632f",
+        "author": "liurongjie",
+        "date": "2026-02-21 21:49:13",
+        "message": "fix(transfer): 修复云存储传输服务中的刷新配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602212152",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-02-14 11:28:56",
         "message": "fix: 修复hdhive签到成功显示结果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602132255",
-    "items": [
-      {
-        "commit": "c8a6da49d98b5a0fc58d70ce5bd0ada4be719c4a",
-        "author": "GateCross",
-        "date": "2026-02-13 22:54:30",
-        "message": "fix: 修复hdhive签到"
       }
     ]
   }
