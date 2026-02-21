@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602212033",
+    "items": [
+      {
+        "commit": "ee0bbb76b68cddf0c5b42b456e59da8a3b7eaff0",
+        "author": "liurongjie",
+        "date": "2026-02-21 20:32:31",
+        "message": "feat(cloud-storage): 添加媒体库刷新功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602170027",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-02-12 15:07:46",
         "message": "feat: ms专属轮播组件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602121222",
-    "items": [
-      {
-        "commit": "796a717d49ca2d8296789cdfc058675e680770b1",
-        "author": "liurongjie",
-        "date": "2026-02-12 12:22:06",
-        "message": "样式优化"
       }
     ]
   }

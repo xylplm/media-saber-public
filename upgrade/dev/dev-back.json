@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602212033",
+    "items": [
+      {
+        "commit": "1314ae09a156a147fa003f9cc4d5b0a3bb5af216",
+        "author": "liurongjie",
+        "date": "2026-02-21 20:33:00",
+        "message": "feat(storage): 添加媒体库刷新功能支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602201918",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-02-12 12:41:18",
         "message": "fix：log 4 fix strm set redis"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602121135",
-    "items": [
-      {
-        "commit": "d97ee79ea56f75d5c41c6864d3c1d00dca64274c",
-        "author": "liurongjie",
-        "date": "2026-02-12 11:16:56",
-        "message": "fix：add logs"
       }
     ]
   }
