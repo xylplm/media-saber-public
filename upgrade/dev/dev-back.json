@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602222048",
+    "items": [
+      {
+        "commit": "bba8c4debce9772ce1f92e0f5e4601bcabf868b9",
+        "author": "GateCross",
+        "date": "2026-02-22 20:47:27",
+        "message": "feat: 更新 Go 版本至1.26和依赖"
+      },
+      {
+        "commit": "7aef636bbe44b503e8cf4bd1c57fc786b16e7afb",
+        "author": "GateCross",
+        "date": "2026-02-21 21:50:26",
+        "message": "fix: 修复nullbr422报错"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602212200",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-02-14 14:19:43",
         "message": "feat: 新增MCP禁用模型列表支持，优化模型检查逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141129",
-    "items": [
-      {
-        "commit": "ec6d06897e1375cfbf29692433136a474cdd1b37",
-        "author": "GateCross",
-        "date": "2026-02-14 11:28:56",
-        "message": "fix: 修复hdhive签到成功显示结果"
       }
     ]
   }
