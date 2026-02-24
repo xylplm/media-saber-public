@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602242017",
+    "items": [
+      {
+        "commit": "8949f821d88c8d9d8d9f3fea3d3fa96cac588597",
+        "author": "xylplm",
+        "date": "2026-02-24 20:16:56",
+        "message": "fix: 调整各个组件的响应式布局，更新每页显示项数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602241852",
     "items": [
       {
@@ -251,17 +262,6 @@
         "author": "xylplm",
         "date": "2026-02-14 15:24:39",
         "message": "fix: 修复桌面小部件 今日开播列表"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141516",
-    "items": [
-      {
-        "commit": "8422ef066e78f5866a206f2f04d35a5fa7dd1ca4",
-        "author": "xylplm",
-        "date": "2026-02-14 15:14:50",
-        "message": "feat: 添加图片代理缓存功能及其有效期设置"
       }
     ]
   }
