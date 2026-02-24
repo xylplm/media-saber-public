@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602242341",
+    "items": [
+      {
+        "commit": "2ff84771208fd7c69f3fc4741a96ee161b2bec06",
+        "author": "liurongjie",
+        "date": "2026-02-24 23:40:47",
+        "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602242313",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-02-14 17:55:15",
         "message": "``` feat(plugin): 优化 HDHive 签到结果消息解析"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141710",
-    "items": [
-      {
-        "commit": "ca24e1547e95e5c4c22e8271e0e0cebad288b66f",
-        "author": "GateCross",
-        "date": "2026-02-14 17:09:26",
-        "message": "fix: hdhive修复"
       }
     ]
   }
