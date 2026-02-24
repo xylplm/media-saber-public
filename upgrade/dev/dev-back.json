@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202602242313",
+    "items": [
+      {
+        "commit": "88fb2ef2a60584eb5ff2924a928703917f812bd1",
+        "author": "liurongjie",
+        "date": "2026-02-24 23:13:18",
+        "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
+      },
+      {
+        "commit": "bba8c4debce9772ce1f92e0f5e4601bcabf868b9",
+        "author": "GateCross",
+        "date": "2026-02-22 20:47:27",
+        "message": "feat: 更新 Go 版本至1.26和依赖"
+      },
+      {
+        "commit": "7aef636bbe44b503e8cf4bd1c57fc786b16e7afb",
+        "author": "GateCross",
+        "date": "2026-02-21 21:50:26",
+        "message": "fix: 修复nullbr422报错"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602242254",
     "items": [
       {
@@ -107,29 +130,6 @@
         "author": "GateCross",
         "date": "2026-02-14 17:09:26",
         "message": "fix: hdhive修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141516",
-    "items": [
-      {
-        "commit": "775b4c1035cc8ecca3d7c6424525988fc6e9bcd1",
-        "author": "xylplm",
-        "date": "2026-02-14 15:15:40",
-        "message": "feat: 添加图片代理缓存功能，支持缓存管理与过期清理"
-      },
-      {
-        "commit": "eb6b0d491ef827f28414878db094febec9bc81a0",
-        "author": "xylplm",
-        "date": "2026-02-14 14:40:27",
-        "message": "feat: 新增图片代理请求支持可选宽度和格式参数，集成WebP格式处理"
-      },
-      {
-        "commit": "ec6d06897e1375cfbf29692433136a474cdd1b37",
-        "author": "GateCross",
-        "date": "2026-02-14 11:28:56",
-        "message": "fix: 修复hdhive签到成功显示结果"
       }
     ]
   }
