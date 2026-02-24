@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602242254",
+    "items": [
+      {
+        "commit": "1db2f5fa6396abe3c0b9d5dd6b154f99019c4196",
+        "author": "liurongjie",
+        "date": "2026-02-24 22:53:13",
+        "message": "refactor(plugin): 测试注释掉媒体代理中的Range请求处理逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602222048",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "GateCross",
         "date": "2026-02-14 11:28:56",
         "message": "fix: 修复hdhive签到成功显示结果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141422",
-    "items": [
-      {
-        "commit": "82616ed5dfc6a03e61fafd75752a8b9fb0a73365",
-        "author": "xylplm",
-        "date": "2026-02-14 14:19:43",
-        "message": "feat: 新增MCP禁用模型列表支持，优化模型检查逻辑"
       }
     ]
   }
