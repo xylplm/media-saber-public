@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602250015",
+    "items": [
+      {
+        "commit": "fb64ce69687f0abe28a870738aa4318424d5a428",
+        "author": "liurongjie",
+        "date": "2026-02-25 00:15:22",
+        "message": "refactor(plugin): 代码回退"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602242352",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-02-20 19:17:29",
         "message": "refactor(plugin): 重构媒体代理模块代码结构和错误处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141804",
-    "items": [
-      {
-        "commit": "b09141fccc1706f66b6f5591b7e5cb126ba84d2b",
-        "author": "liurongjie",
-        "date": "2026-02-14 18:03:05",
-        "message": "Revert \"```\""
       }
     ]
   }
