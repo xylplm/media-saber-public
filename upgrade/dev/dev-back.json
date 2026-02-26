@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602262208",
+    "items": [
+      {
+        "commit": "03387d3ffb7f8a46ddcc357bc49712b8dcb6ad34",
+        "author": "Jolc",
+        "date": "2026-02-26 22:08:33",
+        "message": "fix: upload history create time"
+      },
+      {
+        "commit": "105c67fb26682e60885db239da298df59b9b7d45",
+        "author": "Jolc",
+        "date": "2026-02-26 22:05:49",
+        "message": "fix: log"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602262153",
     "items": [
       {
@@ -119,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-02-24 22:53:13",
         "message": "refactor(plugin): 测试注释掉媒体代理中的Range请求处理逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602222048",
-    "items": [
-      {
-        "commit": "bba8c4debce9772ce1f92e0f5e4601bcabf868b9",
-        "author": "GateCross",
-        "date": "2026-02-22 20:47:27",
-        "message": "feat: 更新 Go 版本至1.26和依赖"
-      },
-      {
-        "commit": "7aef636bbe44b503e8cf4bd1c57fc786b16e7afb",
-        "author": "GateCross",
-        "date": "2026-02-21 21:50:26",
-        "message": "fix: 修复nullbr422报错"
       }
     ]
   }
