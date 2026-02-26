@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602262136",
+    "items": [
+      {
+        "commit": "226b46d4d5cb6aec522451cf0f3020772a2d5205",
+        "author": "Jolc",
+        "date": "2026-02-26 21:36:00",
+        "message": "fix: 站点名称"
+      },
+      {
+        "commit": "5d8bad45753bba4a8a19919ffcb910337c9c9e61",
+        "author": "Jolc",
+        "date": "2026-02-26 17:30:20",
+        "message": "feat：分布式秒传"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602262128",
     "items": [
       {
@@ -114,23 +131,6 @@
   {
     "version": "DEV_202602212200",
     "items": [
-      {
-        "commit": "f10cc3098deafa1fe783629ff68581fb6e5d632f",
-        "author": "liurongjie",
-        "date": "2026-02-21 21:49:13",
-        "message": "fix(transfer): 修复云存储传输服务中的刷新配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602212152",
-    "items": [
-      {
-        "commit": "7aef636bbe44b503e8cf4bd1c57fc786b16e7afb",
-        "author": "GateCross",
-        "date": "2026-02-21 21:50:26",
-        "message": "fix: 修复nullbr422报错"
-      },
       {
         "commit": "f10cc3098deafa1fe783629ff68581fb6e5d632f",
         "author": "liurongjie",
