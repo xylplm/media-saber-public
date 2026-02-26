@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202602262058",
+    "items": [
+      {
+        "commit": "7db32c394ffd77e4e1bb31d3baee96c8ed6f6686",
+        "author": "GateCross",
+        "date": "2026-02-26 20:58:24",
+        "message": "fix: 更新前端依赖及 lock 文件"
+      },
+      {
+        "commit": "6e97efca30ab7984b6797d5e4a9fbece358f6971",
+        "author": "syueya",
+        "date": "2026-02-26 20:12:39",
+        "message": "妙传"
+      },
+      {
+        "commit": "46abae90abae344e5a693db5cb411e5d0487dec0",
+        "author": "syueya",
+        "date": "2026-02-26 19:01:18",
+        "message": "搜索按钮合并"
+      },
+      {
+        "commit": "96f572676ab4c85ce5019aa85a4cc6dcb591ab95",
+        "author": "xylplm",
+        "date": "2026-02-26 13:47:05",
+        "message": "chore: update Angular and related dependencies to version 21.2.0, and upgrade other packages"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602242017",
     "items": [
       {
@@ -251,17 +280,6 @@
         "author": "xylplm",
         "date": "2026-02-14 20:40:56",
         "message": "feat: 独立页面添加主题颜色切换功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602141525",
-    "items": [
-      {
-        "commit": "2d81681420877a26db77c68d939165f77586e1ad",
-        "author": "xylplm",
-        "date": "2026-02-14 15:24:39",
-        "message": "fix: 修复桌面小部件 今日开播列表"
       }
     ]
   }

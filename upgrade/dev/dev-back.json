@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602262058",
+    "items": [
+      {
+        "commit": "5d8bad45753bba4a8a19919ffcb910337c9c9e61",
+        "author": "Jolc",
+        "date": "2026-02-26 17:30:20",
+        "message": "feat：分布式秒传"
+      },
+      {
+        "commit": "253cfb1fcbd47b26a1ee10e7503a8817df6809d3",
+        "author": "xylplm",
+        "date": "2026-02-26 15:36:55",
+        "message": "fix: 修复，指定站点id搜索时需要过滤搜索开关，避免关闭搜索的站点用于搜索"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602250015",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-02-21 20:33:00",
         "message": "feat(storage): 添加媒体库刷新功能支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602201918",
-    "items": [
-      {
-        "commit": "3760379ec9a0afbd34f6e41983a02822efdb3630",
-        "author": "liurongjie",
-        "date": "2026-02-20 19:17:29",
-        "message": "refactor(plugin): 重构媒体代理模块代码结构和错误处理"
       }
     ]
   }
