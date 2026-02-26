@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602262153",
+    "items": [
+      {
+        "commit": "157f1a737f0ebe6473957ae0359722a719bacb1f",
+        "author": "Jolc",
+        "date": "2026-02-26 21:53:19",
+        "message": "fix: log"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602262136",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-02-21 21:50:26",
         "message": "fix: 修复nullbr422报错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602212200",
-    "items": [
-      {
-        "commit": "f10cc3098deafa1fe783629ff68581fb6e5d632f",
-        "author": "liurongjie",
-        "date": "2026-02-21 21:49:13",
-        "message": "fix(transfer): 修复云存储传输服务中的刷新配置"
       }
     ]
   }
