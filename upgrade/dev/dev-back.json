@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602270030",
+    "items": [
+      {
+        "commit": "2b781f25ddadec6c690322fb9f453a1c26797c05",
+        "author": "Jolc",
+        "date": "2026-02-27 00:25:58",
+        "message": "fix: upload history create time"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602262208",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-02-21 21:50:26",
         "message": "fix: 修复nullbr422报错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602242254",
-    "items": [
-      {
-        "commit": "1db2f5fa6396abe3c0b9d5dd6b154f99019c4196",
-        "author": "liurongjie",
-        "date": "2026-02-24 22:53:13",
-        "message": "refactor(plugin): 测试注释掉媒体代理中的Range请求处理逻辑"
       }
     ]
   }
