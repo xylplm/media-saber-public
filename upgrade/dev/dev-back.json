@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271328",
+    "items": [
+      {
+        "commit": "fe29bf193e972adcc86887ec02324ee23626b8c0",
+        "author": "Jolc",
+        "date": "2026-02-27 13:28:12",
+        "message": "feat：分享秒传二次校验优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271310",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-25 00:15:22",
         "message": "refactor(plugin): 代码回退"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602242352",
-    "items": [
-      {
-        "commit": "35cd548374489cebcd7897cfb5527b9ddc5aa7e3",
-        "author": "liurongjie",
-        "date": "2026-02-24 23:51:39",
-        "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
       }
     ]
   }
