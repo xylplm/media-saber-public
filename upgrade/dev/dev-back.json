@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271649",
+    "items": [
+      {
+        "commit": "d92bb584b73dc5de07ea5f4e2c4bb8fd91dd83c8",
+        "author": "Jolc",
+        "date": "2026-02-27 16:49:22",
+        "message": "fix：云存储重复上传清空旧的上传记录"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271525",
     "items": [
       {
@@ -102,23 +113,6 @@
   {
     "version": "DEV_202602262128",
     "items": [
-      {
-        "commit": "253cfb1fcbd47b26a1ee10e7503a8817df6809d3",
-        "author": "xylplm",
-        "date": "2026-02-26 15:36:55",
-        "message": "fix: 修复，指定站点id搜索时需要过滤搜索开关，避免关闭搜索的站点用于搜索"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602262058",
-    "items": [
-      {
-        "commit": "5d8bad45753bba4a8a19919ffcb910337c9c9e61",
-        "author": "Jolc",
-        "date": "2026-02-26 17:30:20",
-        "message": "feat：分布式秒传"
-      },
       {
         "commit": "253cfb1fcbd47b26a1ee10e7503a8817df6809d3",
         "author": "xylplm",
