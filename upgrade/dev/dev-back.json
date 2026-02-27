@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602272221",
+    "items": [
+      {
+        "commit": "aaf04e692848319e48a3c254288921c21210fdc2",
+        "author": "Jolc",
+        "date": "2026-02-27 22:20:33",
+        "message": "fix：订阅秒传问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602272153",
     "items": [
       {
@@ -100,17 +111,6 @@
         "commit": "105c67fb26682e60885db239da298df59b9b7d45",
         "author": "Jolc",
         "date": "2026-02-26 22:05:49",
-        "message": "fix: log"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602262153",
-    "items": [
-      {
-        "commit": "157f1a737f0ebe6473957ae0359722a719bacb1f",
-        "author": "Jolc",
-        "date": "2026-02-26 21:53:19",
         "message": "fix: log"
       }
     ]
