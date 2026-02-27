@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202602271235",
+    "items": [
+      {
+        "commit": "7a8e5b6498de532f8fafa93ca5f48b9235ed389f",
+        "author": "syueya",
+        "date": "2026-02-27 12:10:44",
+        "message": "秒传"
+      },
+      {
+        "commit": "6b95ea9ec392d2584eca49a192452c1724519238",
+        "author": "syueya",
+        "date": "2026-02-27 11:52:51",
+        "message": "刷新状态按钮"
+      },
+      {
+        "commit": "a1c14f80be14be28de569a471a918d5ef7aa5d91",
+        "author": "xylplm",
+        "date": "2026-02-27 11:33:28",
+        "message": "feat: 优化毛玻璃主题的侧边栏和模态遮罩、修仙秘籍等样式，增强 UI 体验"
+      },
+      {
+        "commit": "2e5867f53a76e449665eca7c361bd83f128670f0",
+        "author": "xylplm",
+        "date": "2026-02-27 11:15:10",
+        "message": "feat: 添加云存储设置组件的联动删除警告对话框功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602262058",
     "items": [
       {
@@ -263,23 +292,6 @@
         "author": "xylplm",
         "date": "2026-02-16 13:42:57",
         "message": "feat: 为媒体项和媒体详情添加图片压缩参数支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602161307",
-    "items": [
-      {
-        "commit": "ca5f3f66656a1f13c6fc8778301352556b3a3448",
-        "author": "xylplm",
-        "date": "2026-02-15 17:31:59",
-        "message": "feat(ai-chat): add AI chat module with standalone and internal versions"
-      },
-      {
-        "commit": "80b7d28753641af7fb9f67a87d5080253fd86916",
-        "author": "xylplm",
-        "date": "2026-02-14 20:40:56",
-        "message": "feat: 独立页面添加主题颜色切换功能"
       }
     ]
   }

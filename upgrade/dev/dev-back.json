@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271235",
+    "items": [
+      {
+        "commit": "982d9e9159d11ffa4744a596691478fde59d7788",
+        "author": "Jolc",
+        "date": "2026-02-27 10:22:26",
+        "message": "feat：资源分享登记"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602270030",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-24 23:40:47",
         "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602242313",
-    "items": [
-      {
-        "commit": "88fb2ef2a60584eb5ff2924a928703917f812bd1",
-        "author": "liurongjie",
-        "date": "2026-02-24 23:13:18",
-        "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
-      },
-      {
-        "commit": "bba8c4debce9772ce1f92e0f5e4601bcabf868b9",
-        "author": "GateCross",
-        "date": "2026-02-22 20:47:27",
-        "message": "feat: 更新 Go 版本至1.26和依赖"
-      },
-      {
-        "commit": "7aef636bbe44b503e8cf4bd1c57fc786b16e7afb",
-        "author": "GateCross",
-        "date": "2026-02-21 21:50:26",
-        "message": "fix: 修复nullbr422报错"
       }
     ]
   }
