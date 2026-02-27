@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271525",
+    "items": [
+      {
+        "commit": "b85c2aa409337ebf4e4ae3bb1a652f4144beb069",
+        "author": "Jolc",
+        "date": "2026-02-27 15:25:15",
+        "message": "fix: 秒传分享种子的真是季集"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271328",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-02-26 15:36:55",
         "message": "fix: 修复，指定站点id搜索时需要过滤搜索开关，避免关闭搜索的站点用于搜索"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602250015",
-    "items": [
-      {
-        "commit": "fb64ce69687f0abe28a870738aa4318424d5a428",
-        "author": "liurongjie",
-        "date": "2026-02-25 00:15:22",
-        "message": "refactor(plugin): 代码回退"
       }
     ]
   }
