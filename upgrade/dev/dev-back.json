@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602272235",
+    "items": [
+      {
+        "commit": "ee9dcf31d3bf5fd869dd44dae0341549518d42e8",
+        "author": "Jolc",
+        "date": "2026-02-27 22:33:47",
+        "message": "feat：分享秒传通知显示用户"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602272221",
     "items": [
       {
@@ -95,23 +106,6 @@
         "author": "Jolc",
         "date": "2026-02-27 00:25:58",
         "message": "fix: upload history create time"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602262208",
-    "items": [
-      {
-        "commit": "03387d3ffb7f8a46ddcc357bc49712b8dcb6ad34",
-        "author": "Jolc",
-        "date": "2026-02-26 22:08:33",
-        "message": "fix: upload history create time"
-      },
-      {
-        "commit": "105c67fb26682e60885db239da298df59b9b7d45",
-        "author": "Jolc",
-        "date": "2026-02-26 22:05:49",
-        "message": "fix: log"
       }
     ]
   }
