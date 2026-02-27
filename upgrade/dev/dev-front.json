@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602272010",
+    "items": [
+      {
+        "commit": "a30dcbcc3dbdb7cfb00b6cce82f9ea910133a15f",
+        "author": "GateCross",
+        "date": "2026-02-27 20:10:09",
+        "message": "feat: 新增种子分享次数显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271712",
     "items": [
       {
@@ -281,17 +292,6 @@
         "author": "liurongjie",
         "date": "2026-02-17 00:26:56",
         "message": "feat(site): 实现移动端适配的签到表格视图"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602170017",
-    "items": [
-      {
-        "commit": "57bc5effc24e7d10bf9452c890681555e6c184c1",
-        "author": "liurongjie",
-        "date": "2026-02-17 00:17:19",
-        "message": "feat(site): 添加移动端响应式卡片布局支持"
       }
     ]
   }
