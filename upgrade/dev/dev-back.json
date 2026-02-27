@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602280013",
+    "items": [
+      {
+        "commit": "7162c820658aa3a56c30748be9034c4da01a4c34",
+        "author": "Jolc",
+        "date": "2026-02-28 00:12:58",
+        "message": "fix：rss 订阅没有搜秒传资源问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602272235",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2026-02-27 10:22:26",
         "message": "feat：资源分享登记"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602270030",
-    "items": [
-      {
-        "commit": "2b781f25ddadec6c690322fb9f453a1c26797c05",
-        "author": "Jolc",
-        "date": "2026-02-27 00:25:58",
-        "message": "fix: upload history create time"
       }
     ]
   }
