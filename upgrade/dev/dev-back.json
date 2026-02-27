@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271940",
+    "items": [
+      {
+        "commit": "b7dbc889de105dbd886f3f3149146b0c209d7ddc",
+        "author": "Jolc",
+        "date": "2026-02-27 19:39:42",
+        "message": "feat：资源分享用户展示、mlist hash 性能优化、115分享驱动增加直链缓存配置。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271649",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-02-26 17:30:20",
         "message": "feat：分布式秒传"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602262128",
-    "items": [
-      {
-        "commit": "253cfb1fcbd47b26a1ee10e7503a8817df6809d3",
-        "author": "xylplm",
-        "date": "2026-02-26 15:36:55",
-        "message": "fix: 修复，指定站点id搜索时需要过滤搜索开关，避免关闭搜索的站点用于搜索"
       }
     ]
   }
