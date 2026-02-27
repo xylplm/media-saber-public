@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271712",
+    "items": [
+      {
+        "commit": "289dfdb3fcb82869b27c3d0b1e65822b8b166b6a",
+        "author": "GateCross",
+        "date": "2026-02-27 17:10:47",
+        "message": "feat: 秒传分享显示上传下载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271235",
     "items": [
       {
@@ -281,17 +292,6 @@
         "author": "liurongjie",
         "date": "2026-02-17 00:17:19",
         "message": "feat(site): 添加移动端响应式卡片布局支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602161343",
-    "items": [
-      {
-        "commit": "3a3ae43b35071120ecf70e387e2f1f73c655d2ef",
-        "author": "xylplm",
-        "date": "2026-02-16 13:42:57",
-        "message": "feat: 为媒体项和媒体详情添加图片压缩参数支持"
       }
     ]
   }
