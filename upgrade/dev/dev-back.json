@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602271310",
+    "items": [
+      {
+        "commit": "10ac10de50a34b8b8be24181f5484653d66ef3d7",
+        "author": "Jolc",
+        "date": "2026-02-27 13:09:58",
+        "message": "feat：分享秒传二次校验优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602271235",
     "items": [
       {
@@ -112,17 +123,6 @@
         "commit": "35cd548374489cebcd7897cfb5527b9ddc5aa7e3",
         "author": "liurongjie",
         "date": "2026-02-24 23:51:39",
-        "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602242341",
-    "items": [
-      {
-        "commit": "2ff84771208fd7c69f3fc4741a96ee161b2bec06",
-        "author": "liurongjie",
-        "date": "2026-02-24 23:40:47",
         "message": "refactor(plugin): 测试简化媒体代理重定向响应逻辑"
       }
     ]
