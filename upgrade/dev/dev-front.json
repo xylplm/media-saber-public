@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602282208",
+    "items": [
+      {
+        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
+        "author": "Jolc",
+        "date": "2026-02-28 22:07:50",
+        "message": "feat：防止白嫖肉鸡"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282029",
     "items": [
       {
@@ -257,17 +268,6 @@
         "author": "xylplm",
         "date": "2026-02-26 13:47:05",
         "message": "chore: update Angular and related dependencies to version 21.2.0, and upgrade other packages"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602242017",
-    "items": [
-      {
-        "commit": "8949f821d88c8d9d8d9f3fea3d3fa96cac588597",
-        "author": "xylplm",
-        "date": "2026-02-24 20:16:56",
-        "message": "fix: 调整各个组件的响应式布局，更新每页显示项数"
       }
     ]
   }

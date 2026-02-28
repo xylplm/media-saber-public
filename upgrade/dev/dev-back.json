@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602282208",
+    "items": [
+      {
+        "commit": "d348142b7270debf689f22c731a08cdc0f3c7707",
+        "author": "Jolc",
+        "date": "2026-02-28 22:07:11",
+        "message": "fix：资源分析开关实时刷新状态。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282134",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-02-28 10:14:27",
         "message": "fix: 修复hdhive"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602280013",
-    "items": [
-      {
-        "commit": "7162c820658aa3a56c30748be9034c4da01a4c34",
-        "author": "Jolc",
-        "date": "2026-02-28 00:12:58",
-        "message": "fix：rss 订阅没有搜秒传资源问题。"
       }
     ]
   }
