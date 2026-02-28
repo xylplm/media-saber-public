@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602282029",
+    "items": [
+      {
+        "commit": "4d4aa9e82418ac97e2fbcfda01d8d9617f0b552b",
+        "author": "Jolc",
+        "date": "2026-02-28 20:27:30",
+        "message": "fix：防止白嫖肉鸡"
+      },
+      {
+        "commit": "d7e58c08edfc1ced0eaa10070d28065eef3a7968",
+        "author": "Jolc",
+        "date": "2026-02-28 20:21:32",
+        "message": "fix：防止白嫖肉鸡"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282012",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "Jolc",
         "date": "2026-02-27 22:33:47",
         "message": "feat：分享秒传通知显示用户"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602272221",
-    "items": [
-      {
-        "commit": "aaf04e692848319e48a3c254288921c21210fdc2",
-        "author": "Jolc",
-        "date": "2026-02-27 22:20:33",
-        "message": "fix：订阅秒传问题"
       }
     ]
   }
