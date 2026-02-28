@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602282322",
+    "items": [
+      {
+        "commit": "6c5bafe77ad41d085ff2bbf78899f2587f7953f9",
+        "author": "GateCross",
+        "date": "2026-02-28 23:21:54",
+        "message": "fix: 安全更新"
+      },
+      {
+        "commit": "484af6495b50a9378a41be78a2158a68a198efb0",
+        "author": "GateCross",
+        "date": "2026-02-28 21:33:34",
+        "message": "fix: 安全更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282208",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-02-28 11:22:09",
         "message": "fix: 优化hdhive签到"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602281015",
-    "items": [
-      {
-        "commit": "4570040835e54c83740623315d44ca29369be428",
-        "author": "GateCross",
-        "date": "2026-02-28 10:14:27",
-        "message": "fix: 修复hdhive"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602282322",
+    "items": [
+      {
+        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
+        "author": "xylplm",
+        "date": "2026-02-28 22:21:36",
+        "message": "feat(ai-chat): 升级消息内容渲染引擎"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282208",
     "items": [
       {
@@ -239,35 +250,6 @@
         "author": "xylplm",
         "date": "2026-02-27 11:15:10",
         "message": "feat: 添加云存储设置组件的联动删除警告对话框功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602262058",
-    "items": [
-      {
-        "commit": "7db32c394ffd77e4e1bb31d3baee96c8ed6f6686",
-        "author": "GateCross",
-        "date": "2026-02-26 20:58:24",
-        "message": "fix: 更新前端依赖及 lock 文件"
-      },
-      {
-        "commit": "6e97efca30ab7984b6797d5e4a9fbece358f6971",
-        "author": "syueya",
-        "date": "2026-02-26 20:12:39",
-        "message": "妙传"
-      },
-      {
-        "commit": "46abae90abae344e5a693db5cb411e5d0487dec0",
-        "author": "syueya",
-        "date": "2026-02-26 19:01:18",
-        "message": "搜索按钮合并"
-      },
-      {
-        "commit": "96f572676ab4c85ce5019aa85a4cc6dcb591ab95",
-        "author": "xylplm",
-        "date": "2026-02-26 13:47:05",
-        "message": "chore: update Angular and related dependencies to version 21.2.0, and upgrade other packages"
       }
     ]
   }
