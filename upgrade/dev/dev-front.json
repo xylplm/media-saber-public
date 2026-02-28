@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602282357",
+    "items": [
+      {
+        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
+        "author": "xylplm",
+        "date": "2026-02-28 22:21:36",
+        "message": "feat(ai-chat): 升级消息内容渲染引擎"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282344",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "GateCross",
         "date": "2026-02-27 20:10:09",
         "message": "feat: 新增种子分享次数显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602271712",
-    "items": [
-      {
-        "commit": "289dfdb3fcb82869b27c3d0b1e65822b8b166b6a",
-        "author": "GateCross",
-        "date": "2026-02-27 17:10:47",
-        "message": "feat: 秒传分享显示上传下载"
       }
     ]
   }
