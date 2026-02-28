@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602281424",
+    "items": [
+      {
+        "commit": "b967c6f314408213a90422a75fc1de122ea2f065",
+        "author": "Jolc",
+        "date": "2026-02-28 14:23:43",
+        "message": "feat：mcp server 改造。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602281123",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2026-02-27 15:25:15",
         "message": "fix: 秒传分享种子的真是季集"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602271328",
-    "items": [
-      {
-        "commit": "fe29bf193e972adcc86887ec02324ee23626b8c0",
-        "author": "Jolc",
-        "date": "2026-02-27 13:28:12",
-        "message": "feat：分享秒传二次校验优化"
       }
     ]
   }
