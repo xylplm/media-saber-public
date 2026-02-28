@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602281015",
+    "items": [
+      {
+        "commit": "4570040835e54c83740623315d44ca29369be428",
+        "author": "GateCross",
+        "date": "2026-02-28 10:14:27",
+        "message": "fix: 修复hdhive"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602280013",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "Jolc",
         "date": "2026-02-27 13:09:58",
         "message": "feat：分享秒传二次校验优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602271235",
-    "items": [
-      {
-        "commit": "982d9e9159d11ffa4744a596691478fde59d7788",
-        "author": "Jolc",
-        "date": "2026-02-27 10:22:26",
-        "message": "feat：资源分享登记"
       }
     ]
   }
