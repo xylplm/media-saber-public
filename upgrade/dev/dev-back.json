@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202602281953",
+    "items": [
+      {
+        "commit": "1bb29988acfe6987ffc6e0eb86a5c4d48f3fbca0",
+        "author": "Jolc",
+        "date": "2026-02-28 19:50:33",
+        "message": "feat：秒传资源直搜"
+      },
+      {
+        "commit": "e1686dcc0fb9f9c87e7e609e083cde4a01c27c3d",
+        "author": "Jolc",
+        "date": "2026-02-28 15:48:36",
+        "message": "feat：生成 strm 支持目录树文件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602281740",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "Jolc",
         "date": "2026-02-27 21:52:40",
         "message": "feat：订阅接入秒传资源"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602271940",
-    "items": [
-      {
-        "commit": "b7dbc889de105dbd886f3f3149146b0c209d7ddc",
-        "author": "Jolc",
-        "date": "2026-02-27 19:39:42",
-        "message": "feat：资源分享用户展示、mlist hash 性能优化、115分享驱动增加直链缓存配置。"
       }
     ]
   }
