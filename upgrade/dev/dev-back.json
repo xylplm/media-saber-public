@@ -1,141 +1,147 @@
 [
   {
-    "version": "DEV_202512252235",
+    "version": "DEV_202602282322",
     "items": [
       {
-        "commit": "60ddb2f43808cfa8dbd7aa63a90def2223faec14",
+        "commit": "6c5bafe77ad41d085ff2bbf78899f2587f7953f9",
         "author": "GateCross",
-        "date": "2025-12-25 22:34:13",
-        "message": "fix:微信消息图片压缩"
+        "date": "2026-02-28 23:21:54",
+        "message": "fix: 安全更新"
+      },
+      {
+        "commit": "484af6495b50a9378a41be78a2158a68a198efb0",
+        "author": "GateCross",
+        "date": "2026-02-28 21:33:34",
+        "message": "fix: 安全更新"
       }
     ]
   },
   {
-    "version": "DEV_202512252113",
+    "version": "DEV_202602282208",
     "items": [
       {
-        "commit": "fdaba6ef79a9f03dd396527dd2f9d7950e4f06fd",
+        "commit": "d348142b7270debf689f22c731a08cdc0f3c7707",
+        "author": "Jolc",
+        "date": "2026-02-28 22:07:11",
+        "message": "fix：资源分析开关实时刷新状态。"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602282134",
+    "items": [
+      {
+        "commit": "484af6495b50a9378a41be78a2158a68a198efb0",
         "author": "GateCross",
-        "date": "2025-12-25 21:08:02",
-        "message": "fix:微信消息统一MpNews"
+        "date": "2026-02-28 21:33:34",
+        "message": "fix: 安全更新"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602282029",
+    "items": [
+      {
+        "commit": "4d4aa9e82418ac97e2fbcfda01d8d9617f0b552b",
+        "author": "Jolc",
+        "date": "2026-02-28 20:27:30",
+        "message": "fix：防止白嫖肉鸡"
       },
       {
-        "commit": "b6acec7c5b4ab95b14d89c3bd92e7a2e1b520d66",
+        "commit": "d7e58c08edfc1ced0eaa10070d28065eef3a7968",
+        "author": "Jolc",
+        "date": "2026-02-28 20:21:32",
+        "message": "fix：防止白嫖肉鸡"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602282012",
+    "items": [
+      {
+        "commit": "87b3a5e178559bc9982dee8383eb5a6c78b74d79",
+        "author": "Jolc",
+        "date": "2026-02-28 20:11:55",
+        "message": "feat：秒传资源直搜、订阅支持优先搜秒传资源。"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602281953",
+    "items": [
+      {
+        "commit": "1bb29988acfe6987ffc6e0eb86a5c4d48f3fbca0",
+        "author": "Jolc",
+        "date": "2026-02-28 19:50:33",
+        "message": "feat：秒传资源直搜"
+      },
+      {
+        "commit": "e1686dcc0fb9f9c87e7e609e083cde4a01c27c3d",
+        "author": "Jolc",
+        "date": "2026-02-28 15:48:36",
+        "message": "feat：生成 strm 支持目录树文件"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602281740",
+    "items": [
+      {
+        "commit": "26a93206bf082db9fa5a804029431ec3c5055cfe",
         "author": "liurongjie",
-        "date": "2025-12-25 20:30:44",
-        "message": "refactor: 优化通知消息"
+        "date": "2026-02-28 17:38:22",
+        "message": "feat(cloud_storage): 集成 CloudDrive2 缓存刷新功能"
       }
     ]
   },
   {
-    "version": "DEV_202512251511",
+    "version": "DEV_202602281549",
     "items": [
       {
-        "commit": "bbe073c3ebd09ee6da2b84d78b0ac554e9f5d27f",
-        "author": "GateCross",
-        "date": "2025-12-25 15:10:25",
-        "message": "fix:优化日志缓冲"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512251436",
-    "items": [
-      {
-        "commit": "8d07f2f457ffe81ea333ea0c2886b849f7995719",
+        "commit": "e1686dcc0fb9f9c87e7e609e083cde4a01c27c3d",
         "author": "Jolc",
-        "date": "2025-12-25 14:36:02",
-        "message": "feat: webdav 驱动"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512251416",
-    "items": [
-      {
-        "commit": "42c167424ab8cb03f1b536cb02275c3ee5f9b5ad",
-        "author": "GateCross",
-        "date": "2025-12-25 14:06:51",
-        "message": "fix:优化柠檬神游"
+        "date": "2026-02-28 15:48:36",
+        "message": "feat：生成 strm 支持目录树文件"
       },
       {
-        "commit": "4399fdec6cd41b5c99aa06d07c019a794d3b6ceb",
-        "author": "GateCross",
-        "date": "2025-12-25 13:58:01",
-        "message": "fix:优化柠檬神游空白"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512251231",
-    "items": [
-      {
-        "commit": "b882e55208a453a113be46f8ea7f37387fd501ca",
-        "author": "Jolc",
-        "date": "2025-12-25 10:17:55",
-        "message": "feat: 系统日志时间过滤"
-      },
-      {
-        "commit": "1d1060a7eba900354b4ad1dd088b6621b08b1b30",
-        "author": "Jolc",
-        "date": "2025-12-25 09:35:25",
-        "message": "feat：插件日志链路"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512250913",
-    "items": [
-      {
-        "commit": "aad05c7860a1a3fcebb20e8a4bf2f754ce7ecd49",
-        "author": "Jolc",
-        "date": "2025-12-25 09:17:26",
-        "message": "fix: 系统日志表加索引"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512250024",
-    "items": [
-      {
-        "commit": "ca3a1c31c1df756c76f48b1bb7b51e922e2cf052",
-        "author": "xylplm",
-        "date": "2025-12-24 23:11:49",
-        "message": "fix: 订阅列表参数"
-      },
-      {
-        "commit": "4dbad3f0c853fcfa64aba12e2281d7f35200296e",
-        "author": "Jolc",
-        "date": "2025-12-24 21:02:00",
-        "message": "feat: 日志改为数据库存储"
-      },
-      {
-        "commit": "5ed9f3aa2b04af8c3bc1c78f88c3fe2cc25e5313",
-        "author": "xylplm",
-        "date": "2025-12-24 17:47:48",
-        "message": "fix: 优化 pt详情页下载种子 支持扩展域名的识别"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241254",
-    "items": [
-      {
-        "commit": "1274b3c3e8aac649be87461e480c5268fbb8e7bb",
-        "author": "xylplm",
-        "date": "2025-12-24 11:45:49",
-        "message": "feat: 刷流重复下载检测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202512241055",
-    "items": [
-      {
-        "commit": "4543f17ac4b5143ec7dbea6dba751cf85315534a",
+        "commit": "e1807992625c17b262ea373372931ae11274762f",
         "author": "liurongjie",
-        "date": "2025-12-24 10:54:17",
-        "message": "fix(binge_watch): 修复通知相关逻辑和启动条件判断"
+        "date": "2026-02-28 15:43:26",
+        "message": "refactor(mediaserver): 优化 Plex 媒体服务器路径处理逻辑"
+      },
+      {
+        "commit": "977d3488d2a180c62df1938dcfbcac0143b0724d",
+        "author": "GateCross",
+        "date": "2026-02-28 11:22:09",
+        "message": "fix: 优化hdhive签到"
+      },
+      {
+        "commit": "4570040835e54c83740623315d44ca29369be428",
+        "author": "GateCross",
+        "date": "2026-02-28 10:14:27",
+        "message": "fix: 修复hdhive"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602281424",
+    "items": [
+      {
+        "commit": "b967c6f314408213a90422a75fc1de122ea2f065",
+        "author": "Jolc",
+        "date": "2026-02-28 14:23:43",
+        "message": "feat：mcp server 改造。"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202602281123",
+    "items": [
+      {
+        "commit": "977d3488d2a180c62df1938dcfbcac0143b0724d",
+        "author": "GateCross",
+        "date": "2026-02-28 11:22:09",
+        "message": "fix: 优化hdhive签到"
       }
     ]
   }
