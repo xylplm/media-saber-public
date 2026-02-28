@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602282012",
+    "items": [
+      {
+        "commit": "87b3a5e178559bc9982dee8383eb5a6c78b74d79",
+        "author": "Jolc",
+        "date": "2026-02-28 20:11:55",
+        "message": "feat：秒传资源直搜、订阅支持优先搜秒传资源。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602281953",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2026-02-27 22:20:33",
         "message": "fix：订阅秒传问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602272153",
-    "items": [
-      {
-        "commit": "ed702fd76170aa71bf104e51143091b58673dab6",
-        "author": "Jolc",
-        "date": "2026-02-27 21:52:40",
-        "message": "feat：订阅接入秒传资源"
       }
     ]
   }

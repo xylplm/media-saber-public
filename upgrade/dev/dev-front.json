@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602282012",
+    "items": [
+      {
+        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
+        "author": "liurongjie",
+        "date": "2026-02-28 17:36:38",
+        "message": "feat(plugin): 添加云驱动配置图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602281953",
     "items": [
       {
@@ -293,65 +304,6 @@
         "author": "xylplm",
         "date": "2026-02-14 14:20:22",
         "message": "feat: 添加MCP禁用模型列表字段到AI设置表单"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602241335",
-    "items": [
-      {
-        "commit": "b9f9291a72107e4f1ce58ffc3cc19ab5c1b15b9a",
-        "author": "xylplm",
-        "date": "2026-02-24 12:34:57",
-        "message": "fix: 修改搜索按钮图标大小样式"
-      },
-      {
-        "commit": "1590d74163d50a44f672d2a7e4ee2feef93c84e8",
-        "author": "xylplm",
-        "date": "2026-02-24 12:33:25",
-        "message": "fix: 调整媒体item 搜索按钮图标大小样式"
-      },
-      {
-        "commit": "8ed7edb6ee35d1f81d8dd7a51f3a6c60ff7e53eb",
-        "author": "xylplm",
-        "date": "2026-02-23 19:56:39",
-        "message": "fix: 修复常用功能菜单的布局，调整列间距以优化显示效果"
-      },
-      {
-        "commit": "78a8d7a67b8e45192db239f833be10837e105911",
-        "author": "xylplm",
-        "date": "2026-02-23 19:48:23",
-        "message": "feat: 更新媒体库组件的布局和样式，支持更高分辨率屏幕"
-      },
-      {
-        "commit": "2a978aad289c5ed3a508fdb2e17b9c63c063ecfc",
-        "author": "xylplm",
-        "date": "2026-02-23 19:01:31",
-        "message": "feat: 更新多个组件的分页配置以优化显示效果"
-      },
-      {
-        "commit": "0101943efa9fa7b5864261ae721047e57d21eea1",
-        "author": "xylplm",
-        "date": "2026-02-22 22:20:10",
-        "message": "feat: 在多个组件中添加对父类 ngOnInit 和 ngOnDestroy 的调用"
-      },
-      {
-        "commit": "8f006e31a014751201e5f2bc514d9b67023fb351",
-        "author": "xylplm",
-        "date": "2026-02-22 21:55:49",
-        "message": "feat: 添加 TimerManager 以改进定时器管理，禁止直接使用原生定时器"
-      },
-      {
-        "commit": "eb38990209f0df73024fc039d75e6c8596aadad5",
-        "author": "xylplm",
-        "date": "2026-02-22 21:32:32",
-        "message": "feat: introduce TimerManager for better timer management across components and services"
-      },
-      {
-        "commit": "af767f4159a8b1233830c68ff19e33facb19aac4",
-        "author": "xylplm",
-        "date": "2026-02-22 20:42:48",
-        "message": "feat: 为多个组件和服务添加 OnDestroy 生命周期钩子以清理计时器"
       }
     ]
   }
