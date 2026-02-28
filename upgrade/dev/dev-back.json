@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602281740",
+    "items": [
+      {
+        "commit": "26a93206bf082db9fa5a804029431ec3c5055cfe",
+        "author": "liurongjie",
+        "date": "2026-02-28 17:38:22",
+        "message": "feat(cloud_storage): 集成 CloudDrive2 缓存刷新功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602281549",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-02-27 19:39:42",
         "message": "feat：资源分享用户展示、mlist hash 性能优化、115分享驱动增加直链缓存配置。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602271649",
-    "items": [
-      {
-        "commit": "d92bb584b73dc5de07ea5f4e2c4bb8fd91dd83c8",
-        "author": "Jolc",
-        "date": "2026-02-27 16:49:22",
-        "message": "fix：云存储重复上传清空旧的上传记录"
       }
     ]
   }

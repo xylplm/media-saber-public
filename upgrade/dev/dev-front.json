@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202602281740",
+    "items": [
+      {
+        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
+        "author": "liurongjie",
+        "date": "2026-02-28 17:36:38",
+        "message": "feat(plugin): 添加云驱动配置图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602272021",
     "items": [
       {
@@ -280,17 +291,6 @@
         "commit": "4c6f09e291bed27271a4dcff152964b88d21cd5d",
         "author": "liurongjie",
         "date": "2026-02-21 21:59:47",
-        "message": "feat(cloud-storage): 添加媒体库刷新功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602212033",
-    "items": [
-      {
-        "commit": "ee0bbb76b68cddf0c5b42b456e59da8a3b7eaff0",
-        "author": "liurongjie",
-        "date": "2026-02-21 20:32:31",
         "message": "feat(cloud-storage): 添加媒体库刷新功能"
       }
     ]
