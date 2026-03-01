@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603011118",
+    "items": [
+      {
+        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
+        "author": "Jolc",
+        "date": "2026-02-28 22:07:50",
+        "message": "feat：防止白嫖肉鸡"
+      },
+      {
+        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
+        "author": "Jolc",
+        "date": "2026-02-28 20:28:52",
+        "message": "feat：防止白嫖肉鸡"
+      },
+      {
+        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
+        "author": "liurongjie",
+        "date": "2026-02-28 17:36:38",
+        "message": "feat(plugin): 添加云驱动配置图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202602282357",
     "items": [
       {
@@ -233,17 +256,6 @@
         "author": "GateCross",
         "date": "2026-02-27 20:20:54",
         "message": "fix: 优化秒传分享显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602272010",
-    "items": [
-      {
-        "commit": "a30dcbcc3dbdb7cfb00b6cce82f9ea910133a15f",
-        "author": "GateCross",
-        "date": "2026-02-27 20:10:09",
-        "message": "feat: 新增种子分享次数显示"
       }
     ]
   }
