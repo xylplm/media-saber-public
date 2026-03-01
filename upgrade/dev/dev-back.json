@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603011340",
+    "items": [
+      {
+        "commit": "8e85ffc382410fd321fcb5c8eec4df21e86a8ce9",
+        "author": "Jolc",
+        "date": "2026-03-01 13:40:26",
+        "message": "fix：秒传种子列表性能优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603011321",
     "items": [
       {
@@ -113,35 +124,6 @@
         "author": "liurongjie",
         "date": "2026-02-28 17:38:22",
         "message": "feat(cloud_storage): 集成 CloudDrive2 缓存刷新功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602281549",
-    "items": [
-      {
-        "commit": "e1686dcc0fb9f9c87e7e609e083cde4a01c27c3d",
-        "author": "Jolc",
-        "date": "2026-02-28 15:48:36",
-        "message": "feat：生成 strm 支持目录树文件"
-      },
-      {
-        "commit": "e1807992625c17b262ea373372931ae11274762f",
-        "author": "liurongjie",
-        "date": "2026-02-28 15:43:26",
-        "message": "refactor(mediaserver): 优化 Plex 媒体服务器路径处理逻辑"
-      },
-      {
-        "commit": "977d3488d2a180c62df1938dcfbcac0143b0724d",
-        "author": "GateCross",
-        "date": "2026-02-28 11:22:09",
-        "message": "fix: 优化hdhive签到"
-      },
-      {
-        "commit": "4570040835e54c83740623315d44ca29369be428",
-        "author": "GateCross",
-        "date": "2026-02-28 10:14:27",
-        "message": "fix: 修复hdhive"
       }
     ]
   }
