@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603011321",
+    "items": [
+      {
+        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
+        "author": "Jolc",
+        "date": "2026-02-28 22:07:50",
+        "message": "feat：防止白嫖肉鸡"
+      },
+      {
+        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
+        "author": "Jolc",
+        "date": "2026-02-28 20:28:52",
+        "message": "feat：防止白嫖肉鸡"
+      },
+      {
+        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
+        "author": "liurongjie",
+        "date": "2026-02-28 17:36:38",
+        "message": "feat(plugin): 添加云驱动配置图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603011238",
     "items": [
       {
@@ -245,17 +268,6 @@
         "author": "xylplm",
         "date": "2026-02-26 13:47:05",
         "message": "chore: update Angular and related dependencies to version 21.2.0, and upgrade other packages"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602281740",
-    "items": [
-      {
-        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
-        "author": "liurongjie",
-        "date": "2026-02-28 17:36:38",
-        "message": "feat(plugin): 添加云驱动配置图标"
       }
     ]
   }

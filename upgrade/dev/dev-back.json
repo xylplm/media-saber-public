@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603011321",
+    "items": [
+      {
+        "commit": "2c8c4db5b2258637da21bd5eef8b3cf3ae54238d",
+        "author": "Jolc",
+        "date": "2026-03-01 13:21:26",
+        "message": "fix：搜秒传资源性能优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603011238",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-02-28 10:14:27",
         "message": "fix: 修复hdhive"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602281424",
-    "items": [
-      {
-        "commit": "b967c6f314408213a90422a75fc1de122ea2f065",
-        "author": "Jolc",
-        "date": "2026-02-28 14:23:43",
-        "message": "feat：mcp server 改造。"
       }
     ]
   }
