@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603030046",
+    "items": [
+      {
+        "commit": "499ad85834a005bd51e407eb039f7107888031c8",
+        "author": "Jolc",
+        "date": "2026-03-03 00:45:19",
+        "message": "fix：记录创建上传历史成功"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603030014",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-02-28 21:33:34",
         "message": "fix: 安全更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282208",
-    "items": [
-      {
-        "commit": "d348142b7270debf689f22c731a08cdc0f3c7707",
-        "author": "Jolc",
-        "date": "2026-02-28 22:07:11",
-        "message": "fix：资源分析开关实时刷新状态。"
       }
     ]
   }
