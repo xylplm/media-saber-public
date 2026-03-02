@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603022213",
+    "items": [
+      {
+        "commit": "cfac532a2b71057c7ddd9723295d743032547f5c",
+        "author": "Jolc",
+        "date": "2026-03-02 22:08:13",
+        "message": "feat：订阅搜秒传资源策略"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603022146",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-02-28 20:11:55",
         "message": "feat：秒传资源直搜、订阅支持优先搜秒传资源。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602281953",
-    "items": [
-      {
-        "commit": "1bb29988acfe6987ffc6e0eb86a5c4d48f3fbca0",
-        "author": "Jolc",
-        "date": "2026-02-28 19:50:33",
-        "message": "feat：秒传资源直搜"
-      },
-      {
-        "commit": "e1686dcc0fb9f9c87e7e609e083cde4a01c27c3d",
-        "author": "Jolc",
-        "date": "2026-02-28 15:48:36",
-        "message": "feat：生成 strm 支持目录树文件"
       }
     ]
   }
