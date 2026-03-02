@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603022146",
+    "items": [
+      {
+        "commit": "4fd42360b65baf631227d8a7faeeff98cb437972",
+        "author": "liurongjie",
+        "date": "2026-03-02 21:42:04",
+        "message": "style(ui): 优化界面布局和移动端适配"
+      },
+      {
+        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
+        "author": "xylplm",
+        "date": "2026-02-28 22:21:36",
+        "message": "feat(ai-chat): 升级消息内容渲染引擎"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603011425",
     "items": [
       {
@@ -143,83 +160,6 @@
         "author": "Jolc",
         "date": "2026-02-28 22:07:50",
         "message": "feat：防止白嫖肉鸡"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282029",
-    "items": [
-      {
-        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
-        "author": "Jolc",
-        "date": "2026-02-28 20:28:52",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "affaba9c011a2a0b10662a35e8daa32f3f90f797",
-        "author": "GateCross",
-        "date": "2026-02-27 20:20:54",
-        "message": "fix: 优化秒传分享显示"
-      },
-      {
-        "commit": "a30dcbcc3dbdb7cfb00b6cce82f9ea910133a15f",
-        "author": "GateCross",
-        "date": "2026-02-27 20:10:09",
-        "message": "feat: 新增种子分享次数显示"
-      },
-      {
-        "commit": "289dfdb3fcb82869b27c3d0b1e65822b8b166b6a",
-        "author": "GateCross",
-        "date": "2026-02-27 17:10:47",
-        "message": "feat: 秒传分享显示上传下载"
-      },
-      {
-        "commit": "7a8e5b6498de532f8fafa93ca5f48b9235ed389f",
-        "author": "syueya",
-        "date": "2026-02-27 12:10:44",
-        "message": "秒传"
-      },
-      {
-        "commit": "6b95ea9ec392d2584eca49a192452c1724519238",
-        "author": "syueya",
-        "date": "2026-02-27 11:52:51",
-        "message": "刷新状态按钮"
-      },
-      {
-        "commit": "a1c14f80be14be28de569a471a918d5ef7aa5d91",
-        "author": "xylplm",
-        "date": "2026-02-27 11:33:28",
-        "message": "feat: 优化毛玻璃主题的侧边栏和模态遮罩、修仙秘籍等样式，增强 UI 体验"
-      },
-      {
-        "commit": "2e5867f53a76e449665eca7c361bd83f128670f0",
-        "author": "xylplm",
-        "date": "2026-02-27 11:15:10",
-        "message": "feat: 添加云存储设置组件的联动删除警告对话框功能"
-      },
-      {
-        "commit": "7db32c394ffd77e4e1bb31d3baee96c8ed6f6686",
-        "author": "GateCross",
-        "date": "2026-02-26 20:58:24",
-        "message": "fix: 更新前端依赖及 lock 文件"
-      },
-      {
-        "commit": "6e97efca30ab7984b6797d5e4a9fbece358f6971",
-        "author": "syueya",
-        "date": "2026-02-26 20:12:39",
-        "message": "妙传"
-      },
-      {
-        "commit": "46abae90abae344e5a693db5cb411e5d0487dec0",
-        "author": "syueya",
-        "date": "2026-02-26 19:01:18",
-        "message": "搜索按钮合并"
-      },
-      {
-        "commit": "96f572676ab4c85ce5019aa85a4cc6dcb591ab95",
-        "author": "xylplm",
-        "date": "2026-02-26 13:47:05",
-        "message": "chore: update Angular and related dependencies to version 21.2.0, and upgrade other packages"
       }
     ]
   }
