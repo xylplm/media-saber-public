@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603030032",
+    "items": [
+      {
+        "commit": "aa87cab53f3c630a9b6b4cc0f1ea9132c4863468",
+        "author": "liurongjie",
+        "date": "2026-03-03 00:32:07",
+        "message": "fix(tools): 修复备份文件下载的base64解码问题"
+      },
+      {
+        "commit": "4c9fe31fbaa71c4d22641554be9bdf5bc0c1ab59",
+        "author": "liurongjie",
+        "date": "2026-03-03 00:24:39",
+        "message": "feat(directory): 添加移动端响应式布局和拖拽排序功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603030009",
     "items": [
       {
@@ -143,29 +160,6 @@
         "author": "xylplm",
         "date": "2026-02-28 22:21:36",
         "message": "feat(ai-chat): 升级消息内容渲染引擎"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282344",
-    "items": [
-      {
-        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
-        "author": "Jolc",
-        "date": "2026-02-28 22:07:50",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
-        "author": "Jolc",
-        "date": "2026-02-28 20:28:52",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
-        "author": "liurongjie",
-        "date": "2026-02-28 17:36:38",
-        "message": "feat(plugin): 添加云驱动配置图标"
       }
     ]
   }
