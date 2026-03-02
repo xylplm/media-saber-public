@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603030009",
+    "items": [
+      {
+        "commit": "cd2d02a2f0ce3d572d0413013a5a634c74bbe8e7",
+        "author": "Jolc",
+        "date": "2026-03-03 00:08:25",
+        "message": "fix：记录创建上传历史成功"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603022358",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "GateCross",
         "date": "2026-02-28 21:33:34",
         "message": "fix: 安全更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282029",
-    "items": [
-      {
-        "commit": "4d4aa9e82418ac97e2fbcfda01d8d9617f0b552b",
-        "author": "Jolc",
-        "date": "2026-02-28 20:27:30",
-        "message": "fix：防止白嫖肉鸡"
-      },
-      {
-        "commit": "d7e58c08edfc1ced0eaa10070d28065eef3a7968",
-        "author": "Jolc",
-        "date": "2026-02-28 20:21:32",
-        "message": "fix：防止白嫖肉鸡"
       }
     ]
   }

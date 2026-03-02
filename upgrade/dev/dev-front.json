@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603030009",
+    "items": [
+      {
+        "commit": "4a221b5ea8dea22eb5592adc41f73d199cc3f2f2",
+        "author": "liurongjie",
+        "date": "2026-03-03 00:05:07",
+        "message": "fix(media-library): 修复媒体库组件网格布局显示问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603022358",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-02-28 17:36:38",
         "message": "feat(plugin): 添加云驱动配置图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282322",
-    "items": [
-      {
-        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
-        "author": "xylplm",
-        "date": "2026-02-28 22:21:36",
-        "message": "feat(ai-chat): 升级消息内容渲染引擎"
       }
     ]
   }
