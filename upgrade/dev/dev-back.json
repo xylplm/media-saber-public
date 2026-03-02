@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603030103",
+    "items": [
+      {
+        "commit": "e4ab0167d101c7074eaa593be7ffc4b9d7986c47",
+        "author": "Jolc",
+        "date": "2026-03-03 01:05:38",
+        "message": "fix：记录创建上传历史成功"
+      },
+      {
+        "commit": "08a9a6200f1fd938db4642a723d66b7d159ec0b6",
+        "author": "Jolc",
+        "date": "2026-03-03 01:02:24",
+        "message": "fix：记录创建上传历史成功"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603030046",
     "items": [
       {
@@ -101,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-01 12:37:21",
         "message": "fix：秒传搜搜优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282322",
-    "items": [
-      {
-        "commit": "6c5bafe77ad41d085ff2bbf78899f2587f7953f9",
-        "author": "GateCross",
-        "date": "2026-02-28 23:21:54",
-        "message": "fix: 安全更新"
-      },
-      {
-        "commit": "484af6495b50a9378a41be78a2158a68a198efb0",
-        "author": "GateCross",
-        "date": "2026-02-28 21:33:34",
-        "message": "fix: 安全更新"
       }
     ]
   }
