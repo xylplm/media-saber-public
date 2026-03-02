@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603022358",
+    "items": [
+      {
+        "commit": "7c3b13d455c7110a1492b83a63b3b3fc9b35551b",
+        "author": "Jolc",
+        "date": "2026-03-02 23:57:00",
+        "message": "feat：开启资源分享自动构建历史数据的 hash"
+      },
+      {
+        "commit": "c86c2180af8fda30f278da8f684f357d9605397d",
+        "author": "liurongjie",
+        "date": "2026-03-02 20:53:54",
+        "message": "feat(media-proxy): 优化媒体代理缓存管理与超时配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603022213",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-02-28 20:21:32",
         "message": "fix：防止白嫖肉鸡"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282012",
-    "items": [
-      {
-        "commit": "87b3a5e178559bc9982dee8383eb5a6c78b74d79",
-        "author": "Jolc",
-        "date": "2026-02-28 20:11:55",
-        "message": "feat：秒传资源直搜、订阅支持优先搜秒传资源。"
       }
     ]
   }

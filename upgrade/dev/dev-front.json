@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603022358",
+    "items": [
+      {
+        "commit": "63a46f71d784860765ff2e839fb5ce36f0dc718f",
+        "author": "liurongjie",
+        "date": "2026-03-02 23:47:19",
+        "message": "(uifix): 修复移动端卡片视图样式问题"
+      },
+      {
+        "commit": "a8850e758e72ed710afa86c8c8e9570c3d83d5a0",
+        "author": "liurongjie",
+        "date": "2026-03-02 23:05:14",
+        "message": "fix(media-tidy): 修复移动端卡片视图的间距问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603022146",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-02-28 22:21:36",
         "message": "feat(ai-chat): 升级消息内容渲染引擎"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282208",
-    "items": [
-      {
-        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
-        "author": "Jolc",
-        "date": "2026-02-28 22:07:50",
-        "message": "feat：防止白嫖肉鸡"
       }
     ]
   }
