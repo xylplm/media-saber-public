@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603031735",
+    "items": [
+      {
+        "commit": "ea19008b52c4c6735895c57a0012f6addb34e038",
+        "author": "GateCross",
+        "date": "2026-03-03 17:33:42",
+        "message": "feat(cloud-storage): 添加按文件生成 Strm 功能及相关组件"
+      },
+      {
+        "commit": "82637a3338fbdb2c04d76947e9c127dffa3758eb",
+        "author": "liurongjie",
+        "date": "2026-03-03 01:26:09",
+        "message": "feat(media-tidy): 添加移动端自定义识别词界面适配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603030032",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-02-28 17:36:38",
         "message": "feat(plugin): 添加云驱动配置图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202602282357",
-    "items": [
-      {
-        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
-        "author": "xylplm",
-        "date": "2026-02-28 22:21:36",
-        "message": "feat(ai-chat): 升级消息内容渲染引擎"
       }
     ]
   }
