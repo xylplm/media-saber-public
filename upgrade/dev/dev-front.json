@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603031854",
+    "items": [
+      {
+        "commit": "6ba9ed1b9b1b8bc24a777ae9dc2042e2ab6d142c",
+        "author": "liurongjie",
+        "date": "2026-03-03 18:35:39",
+        "message": "style(download): 优化下载参数组件的UI布局和样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603031735",
     "items": [
       {
@@ -143,29 +154,6 @@
         "author": "xylplm",
         "date": "2026-02-28 22:21:36",
         "message": "feat(ai-chat): 升级消息内容渲染引擎"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603011118",
-    "items": [
-      {
-        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
-        "author": "Jolc",
-        "date": "2026-02-28 22:07:50",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
-        "author": "Jolc",
-        "date": "2026-02-28 20:28:52",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
-        "author": "liurongjie",
-        "date": "2026-02-28 17:36:38",
-        "message": "feat(plugin): 添加云驱动配置图标"
       }
     ]
   }
