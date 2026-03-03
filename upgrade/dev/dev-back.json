@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603032000",
+    "items": [
+      {
+        "commit": "dff642ae4d621ada826f8b2de75349243453bc18",
+        "author": "Jolc",
+        "date": "2026-03-03 20:00:24",
+        "message": "fix：秒传资源搜索优化、mcp tool enum 空值处理。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603030114",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-01 13:40:26",
         "message": "fix：秒传种子列表性能优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603011321",
-    "items": [
-      {
-        "commit": "2c8c4db5b2258637da21bd5eef8b3cf3ae54238d",
-        "author": "Jolc",
-        "date": "2026-03-01 13:21:26",
-        "message": "fix：搜秒传资源性能优化"
       }
     ]
   }
