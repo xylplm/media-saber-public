@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603032248",
+    "items": [
+      {
+        "commit": "7c62f64c87e6869eebad21f048d12ccbea75b790",
+        "author": "liurongjie",
+        "date": "2026-03-03 22:43:41",
+        "message": "style(ui): 优化媒体服务器和整理页面UI组件样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603031854",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-02-28 17:36:38",
         "message": "feat(plugin): 添加云驱动配置图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603011238",
-    "items": [
-      {
-        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
-        "author": "xylplm",
-        "date": "2026-02-28 22:21:36",
-        "message": "feat(ai-chat): 升级消息内容渲染引擎"
       }
     ]
   }
