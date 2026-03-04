@@ -1,5 +1,178 @@
 [
   {
+    "version": "DEV_202603041722",
+    "items": [
+      {
+        "commit": "e150dd17441eec24d298ea99adc416e4f20ca843",
+        "author": "GateCross",
+        "date": "2026-03-04 17:21:25",
+        "message": "fix: 优化jellyfin webhook图片显示"
+      },
+      {
+        "commit": "a4d7473d33af36bebb4e6bbfd9636855ff141fbd",
+        "author": "xylplm",
+        "date": "2026-03-04 15:03:02",
+        "message": "fix: 移除 DailyTask 方法中重复的错误日志记录，简化错误处理逻辑"
+      },
+      {
+        "commit": "5a41731da26440f9be2b6ab68de6843b0dc1068e",
+        "author": "xylplm",
+        "date": "2026-03-04 15:02:31",
+        "message": "fix: 优化 GetLastLines 方法中的错误处理，确保正确处理文件读取结束情况"
+      },
+      {
+        "commit": "7924320be03d15a6368101a1b6d9180edd799ee9",
+        "author": "xylplm",
+        "date": "2026-03-04 15:01:43",
+        "message": "fix: 优化 GetTotalDiskSpaceCrossPlatform 方法中的错误处理，确保在获取磁盘使用情况时进行有效性检查"
+      },
+      {
+        "commit": "fc5084b472914284fbd688bef3918bc2ec821af2",
+        "author": "xylplm",
+        "date": "2026-03-04 14:59:05",
+        "message": "fix: 在 GetIp 方法中添加 defer 关闭响应体，确保资源正确释放"
+      },
+      {
+        "commit": "20daf9c9260395d6601d74c23f926b9eba1db969",
+        "author": "xylplm",
+        "date": "2026-03-04 14:58:58",
+        "message": "fix: 修复 newRequest 方法中的文件字段引用，确保正确处理文件上传"
+      },
+      {
+        "commit": "fd32a4e15b8fde351bc0411eca2519dff8c38381",
+        "author": "xylplm",
+        "date": "2026-03-04 14:58:41",
+        "message": "fix: 优化 ConvertTorrent 函数中的资源管理，确保文件在创建后正确关闭"
+      },
+      {
+        "commit": "08d3b4afabd4ae43dd9ea24e87f29817be5c899d",
+        "author": "xylplm",
+        "date": "2026-03-04 14:58:32",
+        "message": "fix: 修改日志记录方法，确保使用正确的格式化函数以提高错误信息的清晰度"
+      },
+      {
+        "commit": "f07bae4f929af3967b29c6680075d10f88933eec",
+        "author": "xylplm",
+        "date": "2026-03-04 14:58:10",
+        "message": "fix: 修正 CloudStorageTransferProcessor 中的日志记录方法，确保使用正确的调试日志函数"
+      },
+      {
+        "commit": "fb71e504010390d11ec1b3be3b28e1ebf6331dbd",
+        "author": "xylplm",
+        "date": "2026-03-04 14:57:59",
+        "message": "fix: 修复获取 TMDB 信息时的错误日志，确保正确解引用 TmdbId"
+      },
+      {
+        "commit": "1a2573a28d4a9e133cdf5dcd2a240ec3b85e944b",
+        "author": "xylplm",
+        "date": "2026-03-04 14:57:43",
+        "message": "fix: 修改获取系统信息错误日志的格式化方式，确保错误信息更清晰"
+      },
+      {
+        "commit": "0ae92b49de9efb3b8a42f9fc6ca5c2f15b52aac8",
+        "author": "xylplm",
+        "date": "2026-03-04 14:57:33",
+        "message": "fix: 增强 GetDownloadUrl 和 markAsRead 方法的错误处理，确保返回明确的错误信息"
+      },
+      {
+        "commit": "f224c072f4ff54c55dd403dff00edc58af0bd49e",
+        "author": "xylplm",
+        "date": "2026-03-04 14:57:20",
+        "message": "fix: 修正 chdbitsClient 和 pt52ptClient 中的表单数据处理，确保正确使用 Add 方法添加选择项"
+      },
+      {
+        "commit": "e081898159d65c290089a62872381d1bb87e3c24",
+        "author": "xylplm",
+        "date": "2026-03-04 14:36:48",
+        "message": "fix: 修正 TestRename 方法中的错误处理，确保未识别到TMDB信息时返回明确错误信息"
+      },
+      {
+        "commit": "44ef4b12ffb7bd9ce5de822af30e176c0f7e932b",
+        "author": "xylplm",
+        "date": "2026-03-04 14:36:41",
+        "message": "fix: 调整 Delete 方法中的逻辑顺序，确保在删除前检查路径是否启用"
+      },
+      {
+        "commit": "2a619a580f28ed66a04930ec0f9db8948c6e1ce2",
+        "author": "xylplm",
+        "date": "2026-03-04 14:34:07",
+        "message": "fix: 修正 FixSeason 方法中的更新方式，确保正确更新 WordUnit 的 season 字段"
+      },
+      {
+        "commit": "c77aa738f10a711389a5054190b17155d631d52c",
+        "author": "xylplm",
+        "date": "2026-03-04 14:34:01",
+        "message": "fix: 修正 Page 方法中的查询条件，确保正确使用 IN 语句过滤 site_id"
+      },
+      {
+        "commit": "85ca7e088f03f4ee2853756ff868a7ed0b3468a9",
+        "author": "xylplm",
+        "date": "2026-03-04 14:32:17",
+        "message": "fix: 修正查询构建中的赋值方式，确保正确链式调用条件"
+      },
+      {
+        "commit": "43603c001d9cc4380735e894e1b48989fe9a331b",
+        "author": "xylplm",
+        "date": "2026-03-04 14:30:22",
+        "message": "fix: 修正 BatchFind 方法中的唯一键生成，确保正确转换年份为字符串"
+      },
+      {
+        "commit": "73b013894725878503d9c598914d59171a960511",
+        "author": "xylplm",
+        "date": "2026-03-04 14:29:43",
+        "message": "fix: 修正 FilterPaths 方法，确保不将子路径加入过滤列表"
+      },
+      {
+        "commit": "0f9e67725e5121863fed7e26595498f4b6e32a25",
+        "author": "xylplm",
+        "date": "2026-03-04 14:27:38",
+        "message": "fix: 修正 SubstringAfterLastSubstr 方法中的返回值，确保正确截取字符串"
+      },
+      {
+        "commit": "d04f485b4604d67c314cff035d622d198cf0c43d",
+        "author": "xylplm",
+        "date": "2026-03-04 14:25:40",
+        "message": "fix: 修正 gying_client.go 中的变量赋值，确保正确使用短变量声明"
+      },
+      {
+        "commit": "19a62c8f8d2689b770f2ab0ac0e2240b9dd5dd5b",
+        "author": "xylplm",
+        "date": "2026-03-04 14:18:40",
+        "message": "fix: 修正 getMovieImageUrls 方法中的参数，确保正确检查缺失的图像"
+      },
+      {
+        "commit": "3ce5d812891bf1fa2ede5bad0d77cbf008ed60da",
+        "author": "xylplm",
+        "date": "2026-03-04 14:16:14",
+        "message": "fix: 修正 GetRecommend 方法中的媒体类型赋值，确保正确使用类型代码"
+      },
+      {
+        "commit": "d74b99ab9681e1813950aced8e042736ec0b4657",
+        "author": "xylplm",
+        "date": "2026-03-04 14:13:41",
+        "message": "fix: 修正资源类型正则表达式，确保正确匹配源和效果类型"
+      },
+      {
+        "commit": "ff0d4313614e351b1798834ae6c671a27aff365b",
+        "author": "xylplm",
+        "date": "2026-03-04 14:12:26",
+        "message": "fix: 修正 UserBasicInfo 方法中的比率计算，确保正确计算上传与下载比率"
+      },
+      {
+        "commit": "30a1ea5e9f48ab8b81acf983f556be06cf7c1c8f",
+        "author": "GateCross",
+        "date": "2026-03-04 14:06:44",
+        "message": "fix: 优化文件监听"
+      },
+      {
+        "commit": "effbbfb37e3633b0df81a8b5e95e4893ee2bdfce",
+        "author": "GateCross",
+        "date": "2026-03-04 13:55:45",
+        "message": "fix: 修复jellyfin的webhook"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603041407",
     "items": [
       {
@@ -227,17 +400,6 @@
         "author": "liurongjie",
         "date": "2026-03-02 20:53:54",
         "message": "feat(media-proxy): 优化媒体代理缓存管理与超时配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603022213",
-    "items": [
-      {
-        "commit": "cfac532a2b71057c7ddd9723295d743032547f5c",
-        "author": "Jolc",
-        "date": "2026-03-02 22:08:13",
-        "message": "feat：订阅搜秒传资源策略"
       }
     ]
   }
