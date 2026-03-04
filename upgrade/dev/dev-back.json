@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603042229",
+    "items": [
+      {
+        "commit": "753594f9425296d14dba74e377e0c9255078e811",
+        "author": "GateCross",
+        "date": "2026-03-04 22:03:41",
+        "message": "fix: 修复历史记录显示"
+      },
+      {
+        "commit": "e150dd17441eec24d298ea99adc416e4f20ca843",
+        "author": "GateCross",
+        "date": "2026-03-04 17:21:25",
+        "message": "fix: 优化jellyfin webhook图片显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603042038",
     "items": [
       {
@@ -382,17 +399,6 @@
         "commit": "88e64f1e69ef40e4fd74132454111c05faeaa620",
         "author": "Jolc",
         "date": "2026-03-03 00:14:22",
-        "message": "fix：记录创建上传历史成功"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603030009",
-    "items": [
-      {
-        "commit": "cd2d02a2f0ce3d572d0413013a5a634c74bbe8e7",
-        "author": "Jolc",
-        "date": "2026-03-03 00:08:25",
         "message": "fix：记录创建上传历史成功"
       }
     ]
