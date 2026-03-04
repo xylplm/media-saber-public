@@ -1,5 +1,136 @@
 [
   {
+    "version": "DEV_202603041407",
+    "items": [
+      {
+        "commit": "8aa31d0f02178b19f5ed00e6965b73ed5ae0b561",
+        "author": "xylplm",
+        "date": "2026-03-04 14:09:24",
+        "message": "fix: 优化 unpackingDownload 方法中的错误处理，确保未找到下载器时返回友好的提示信息"
+      },
+      {
+        "commit": "30a1ea5e9f48ab8b81acf983f556be06cf7c1c8f",
+        "author": "GateCross",
+        "date": "2026-03-04 14:06:44",
+        "message": "fix: 优化文件监听"
+      },
+      {
+        "commit": "c01036a62d76bff684b5cd7cfef16084dcc8aba7",
+        "author": "xylplm",
+        "date": "2026-03-04 14:05:31",
+        "message": "fix: 修正 ReSubscribeAll 方法中的错误记录，确保记录正确的错误信息"
+      },
+      {
+        "commit": "32b584ba5ba25b335ea5f22c662e4dad736a4efc",
+        "author": "xylplm",
+        "date": "2026-03-04 13:59:31",
+        "message": "fix: 修正 TorrentSearchService 中的错误处理，确保正确记录完成站点的增量"
+      },
+      {
+        "commit": "c93e23f5bb351e1b86c4d1379d26855a649844e2",
+        "author": "xylplm",
+        "date": "2026-03-04 13:57:59",
+        "message": "fix: 修正 DeleteUser 方法中的事务处理，确保使用正确的数据库上下文"
+      },
+      {
+        "commit": "5490d0cb50dbc2a74cab417fd8fa8cb678b1cd71",
+        "author": "xylplm",
+        "date": "2026-03-04 13:56:26",
+        "message": "fix: 修正目录服务中条件判断，确保正确匹配 TV 认证"
+      },
+      {
+        "commit": "effbbfb37e3633b0df81a8b5e95e4893ee2bdfce",
+        "author": "GateCross",
+        "date": "2026-03-04 13:55:45",
+        "message": "fix: 修复jellyfin的webhook"
+      },
+      {
+        "commit": "b10284ac8f461824a5cd6a930def82970812cdc7",
+        "author": "xylplm",
+        "date": "2026-03-04 13:44:54",
+        "message": "fix: 在解析项ID时增加长度检查，防止数组越界错误"
+      },
+      {
+        "commit": "324ca530c9b425b1f93f1d202e245bc08d2005a6",
+        "author": "xylplm",
+        "date": "2026-03-04 13:43:02",
+        "message": "fix: 增加过滤规则未找到的错误处理，确保返回明确的错误信息"
+      },
+      {
+        "commit": "b39af47f3e232f12c342566139fbdb587a1922bb",
+        "author": "xylplm",
+        "date": "2026-03-04 13:41:20",
+        "message": "fix: 修正下载消息发送中的条件判断，确保正确处理参数和目录"
+      },
+      {
+        "commit": "b70631f9b7a0307f7c493984260d488fdfb14ee5",
+        "author": "xylplm",
+        "date": "2026-03-04 13:39:39",
+        "message": "fix: 修正删除媒体文件时的条件检查，确保正确判断目录是否为空"
+      },
+      {
+        "commit": "c3595f6397e1702843d897037c2f6b9ce11441d0",
+        "author": "xylplm",
+        "date": "2026-03-04 13:32:54",
+        "message": "fix: 移除未使用的正则表达式检查函数，简化代码"
+      },
+      {
+        "commit": "de11a40b36c72ba2a43a07e46530727ebbcf6468",
+        "author": "xylplm",
+        "date": "2026-03-04 13:30:22",
+        "message": "fix: 修正相关变量命名拼写错误"
+      },
+      {
+        "commit": "c9e1f7f0d515733c2260758915fa16f113ea25e6",
+        "author": "xylplm",
+        "date": "2026-03-04 13:27:17",
+        "message": "fix: 删除重复代码，根据配置删除搜索任务"
+      },
+      {
+        "commit": "1240ecd86a760ad44892320937554f6e48516359",
+        "author": "xylplm",
+        "date": "2026-03-04 13:15:20",
+        "message": "fix: 修正根据昵称查询用户时的条件，确保使用正确的字段"
+      },
+      {
+        "commit": "ef9243021f200b8e443917b23c7a9a8936c230b4",
+        "author": "xylplm",
+        "date": "2026-03-04 13:05:54",
+        "message": "fix: 添加对无效 token 格式的检查"
+      },
+      {
+        "commit": "5f724c98333355173bf75932052c8d6eb22f3174",
+        "author": "xylplm",
+        "date": "2026-03-04 13:02:11",
+        "message": "fix: 添加路径安全检查，防止目录遍历攻击"
+      },
+      {
+        "commit": "5655dbf8dd6d2acf6fb6c1849807cca8255822d3",
+        "author": "xylplm",
+        "date": "2026-03-04 12:58:41",
+        "message": "fix: 修复升级检查中的错误处理逻辑"
+      },
+      {
+        "commit": "4e6b7ab4bbf8f1345fc5d077a3acc49a248e3d8b",
+        "author": "xylplm",
+        "date": "2026-03-04 12:31:56",
+        "message": "fix: 修复未提供认证凭据时的错误处理逻辑"
+      },
+      {
+        "commit": "f8aac7bf2144c2ae2b1cdb9f551e5fbdada73a8e",
+        "author": "xylplm",
+        "date": "2026-03-04 12:29:02",
+        "message": "fix: 添加路径安全检查，防止路径遍历攻击"
+      },
+      {
+        "commit": "426f8797f66c7f48fd19fc7cb7c86bd4bba99d90",
+        "author": "xylplm",
+        "date": "2026-03-04 12:20:15",
+        "message": "fix: 安全修复 普通用户创建的apikey无法调用管理员权限接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603041246",
     "items": [
       {
@@ -107,17 +238,6 @@
         "author": "Jolc",
         "date": "2026-03-02 22:08:13",
         "message": "feat：订阅搜秒传资源策略"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603022146",
-    "items": [
-      {
-        "commit": "c86c2180af8fda30f278da8f684f357d9605397d",
-        "author": "liurongjie",
-        "date": "2026-03-02 20:53:54",
-        "message": "feat(media-proxy): 优化媒体代理缓存管理与超时配置"
       }
     ]
   }
