@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603042358",
+    "items": [
+      {
+        "commit": "a4e75c4aef5c780cee8d8cce32b47cdd91b11369",
+        "author": "xylplm",
+        "date": "2026-03-04 23:49:02",
+        "message": "feat:移除修仙秘籍网络ping，顶部增加网络测试快捷方式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603032248",
     "items": [
       {
@@ -131,29 +142,6 @@
         "author": "xylplm",
         "date": "2026-02-28 22:21:36",
         "message": "feat(ai-chat): 升级消息内容渲染引擎"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603011321",
-    "items": [
-      {
-        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
-        "author": "Jolc",
-        "date": "2026-02-28 22:07:50",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
-        "author": "Jolc",
-        "date": "2026-02-28 20:28:52",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
-        "author": "liurongjie",
-        "date": "2026-02-28 17:36:38",
-        "message": "feat(plugin): 添加云驱动配置图标"
       }
     ]
   }

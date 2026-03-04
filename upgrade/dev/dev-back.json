@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603042358",
+    "items": [
+      {
+        "commit": "e84e48f840c69a66d9ffd1b4a1a0554b8104cc1e",
+        "author": "xylplm",
+        "date": "2026-03-04 23:55:06",
+        "message": "refactor: 移除无用的 hasPrefix 方法"
+      },
+      {
+        "commit": "ffb7f6e385c8db43543ee203be509fa77202cd54",
+        "author": "xylplm",
+        "date": "2026-03-04 23:49:56",
+        "message": "feat: 增强安全性，移除网络ping修仙秘籍，改为接口方式，后端定义列表"
+      },
+      {
+        "commit": "c3db0405c342af883aeb0b78cc5759a35759271e",
+        "author": "xylplm",
+        "date": "2026-03-04 22:37:13",
+        "message": "fix: 修复转种，tr使用hash文件名作为源文件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603042305",
     "items": [
       {
@@ -394,17 +417,6 @@
         "commit": "08a9a6200f1fd938db4642a723d66b7d159ec0b6",
         "author": "Jolc",
         "date": "2026-03-03 01:02:24",
-        "message": "fix：记录创建上传历史成功"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603030046",
-    "items": [
-      {
-        "commit": "499ad85834a005bd51e407eb039f7107888031c8",
-        "author": "Jolc",
-        "date": "2026-03-03 00:45:19",
         "message": "fix：记录创建上传历史成功"
       }
     ]
