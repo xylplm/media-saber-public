@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603051251",
+    "items": [
+      {
+        "commit": "130eeddf558bf4ab5ff6c462a1e2603e369e8945",
+        "author": "xylplm",
+        "date": "2026-03-05 12:50:47",
+        "message": "feat(ai-chat): 优化模型设置逻辑，按ID排序可用模型列表"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603051243",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-03-03 00:05:07",
         "message": "fix(media-library): 修复媒体库组件网格布局显示问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603022358",
-    "items": [
-      {
-        "commit": "63a46f71d784860765ff2e839fb5ce36f0dc718f",
-        "author": "liurongjie",
-        "date": "2026-03-02 23:47:19",
-        "message": "(uifix): 修复移动端卡片视图样式问题"
-      },
-      {
-        "commit": "a8850e758e72ed710afa86c8c8e9570c3d83d5a0",
-        "author": "liurongjie",
-        "date": "2026-03-02 23:05:14",
-        "message": "fix(media-tidy): 修复移动端卡片视图的间距问题"
       }
     ]
   }
