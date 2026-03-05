@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603052248",
+    "items": [
+      {
+        "commit": "e5f10d4a33bbd4ff36cc26e1f03fd951684a5cd9",
+        "author": "liurongjie",
+        "date": "2026-03-05 22:47:00",
+        "message": "refactor(media): 优化媒体服务中的元数据解析性能"
+      },
+      {
+        "commit": "a8f3e1359cc3e496d85152bd1fe2ed19458f2dd2",
+        "author": "liurongjie",
+        "date": "2026-03-05 22:20:04",
+        "message": "perf(plugin): 调整播放通知限流时间窗口配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603051709",
     "items": [
       {
@@ -407,17 +424,6 @@
         "author": "Jolc",
         "date": "2026-03-03 20:00:24",
         "message": "fix：秒传资源搜索优化、mcp tool enum 空值处理。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603030114",
-    "items": [
-      {
-        "commit": "a1534383aa579a6885391279b1ab6fa41711952a",
-        "author": "Jolc",
-        "date": "2026-03-03 01:14:03",
-        "message": "fix：记录创建上传历史成功"
       }
     ]
   }
