@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603051709",
+    "items": [
+      {
+        "commit": "847a4b42814bd38fc7835ef99201696df6155a9c",
+        "author": "xylplm",
+        "date": "2026-03-05 16:41:22",
+        "message": "feat: 添加清除系统消息的功能，新增接口和逻辑处理"
+      },
+      {
+        "commit": "fabf9e14b9eaa3d0e5c4d143f03cf0b52c1b51a4",
+        "author": "xylplm",
+        "date": "2026-03-05 16:22:21",
+        "message": "feat: 添加清除下载历史的功能，新增接口和逻辑处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603042358",
     "items": [
       {
@@ -400,23 +417,6 @@
         "commit": "a1534383aa579a6885391279b1ab6fa41711952a",
         "author": "Jolc",
         "date": "2026-03-03 01:14:03",
-        "message": "fix：记录创建上传历史成功"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603030103",
-    "items": [
-      {
-        "commit": "e4ab0167d101c7074eaa593be7ffc4b9d7986c47",
-        "author": "Jolc",
-        "date": "2026-03-03 01:05:38",
-        "message": "fix：记录创建上传历史成功"
-      },
-      {
-        "commit": "08a9a6200f1fd938db4642a723d66b7d159ec0b6",
-        "author": "Jolc",
-        "date": "2026-03-03 01:02:24",
         "message": "fix：记录创建上传历史成功"
       }
     ]

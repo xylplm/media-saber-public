@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603051709",
+    "items": [
+      {
+        "commit": "a078dced005a7d8084bf3c1dc5f9f661539a2501",
+        "author": "xylplm",
+        "date": "2026-03-05 17:08:27",
+        "message": "feat(message-center): 消息中心增加消息清空按钮"
+      },
+      {
+        "commit": "d8676ba4f63b1ed9f209df9a53173e340cf69bdf",
+        "author": "xylplm",
+        "date": "2026-03-05 16:27:45",
+        "message": "feat(download): 添加清空下载记录功能，优化界面布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603051251",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-03-03 00:24:39",
         "message": "feat(directory): 添加移动端响应式布局和拖拽排序功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603030009",
-    "items": [
-      {
-        "commit": "4a221b5ea8dea22eb5592adc41f73d199cc3f2f2",
-        "author": "liurongjie",
-        "date": "2026-03-03 00:05:07",
-        "message": "fix(media-library): 修复媒体库组件网格布局显示问题"
       }
     ]
   }
