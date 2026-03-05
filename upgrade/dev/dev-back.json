@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603060001",
+    "items": [
+      {
+        "commit": "7e4ed84fdcfae636a85b5794eeeb88183c42a669",
+        "author": "liurongjie",
+        "date": "2026-03-06 00:01:09",
+        "message": "fix(system): 修复系统服务中的字符验证逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603052301",
     "items": [
       {
@@ -413,17 +424,6 @@
         "author": "xylplm",
         "date": "2026-03-04 12:20:15",
         "message": "fix: 安全修复 普通用户创建的apikey无法调用管理员权限接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603041246",
-    "items": [
-      {
-        "commit": "f2d883f7adb0b0c31610c44fe3ea8aa666fa4891",
-        "author": "Jolc",
-        "date": "2026-03-04 12:45:37",
-        "message": "fix：随便修复下"
       }
     ]
   }
