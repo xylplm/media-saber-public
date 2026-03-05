@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603051243",
+    "items": [
+      {
+        "commit": "83e820b401a3a99b3dae1fbf9eca8ade3eb9e191",
+        "author": "xylplm",
+        "date": "2026-03-05 12:42:23",
+        "message": "feat(model-icon): 优化模型数据获取逻辑，支持前缀匹配和斜杠后的匹配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603051224",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-03-02 23:05:14",
         "message": "fix(media-tidy): 修复移动端卡片视图的间距问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603022146",
-    "items": [
-      {
-        "commit": "4fd42360b65baf631227d8a7faeeff98cb437972",
-        "author": "liurongjie",
-        "date": "2026-03-02 21:42:04",
-        "message": "style(ui): 优化界面布局和移动端适配"
-      },
-      {
-        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
-        "author": "xylplm",
-        "date": "2026-02-28 22:21:36",
-        "message": "feat(ai-chat): 升级消息内容渲染引擎"
       }
     ]
   }
