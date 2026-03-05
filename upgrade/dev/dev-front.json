@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603051224",
+    "items": [
+      {
+        "commit": "839bf21b83d865c32b4fb215061680b3330523a2",
+        "author": "xylplm",
+        "date": "2026-03-05 12:23:19",
+        "message": "feat(model-icon): 添加混元AI图标及相关配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603051143",
     "items": [
       {
@@ -119,29 +130,6 @@
         "author": "xylplm",
         "date": "2026-02-28 22:21:36",
         "message": "feat(ai-chat): 升级消息内容渲染引擎"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603011425",
-    "items": [
-      {
-        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
-        "author": "Jolc",
-        "date": "2026-02-28 22:07:50",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
-        "author": "Jolc",
-        "date": "2026-02-28 20:28:52",
-        "message": "feat：防止白嫖肉鸡"
-      },
-      {
-        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
-        "author": "liurongjie",
-        "date": "2026-02-28 17:36:38",
-        "message": "feat(plugin): 添加云驱动配置图标"
       }
     ]
   }
