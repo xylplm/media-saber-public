@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202603070005",
+    "items": [
+      {
+        "commit": "8d58be3e5e621e5cf1a7919bd310a258b247604e",
+        "author": "liurongjie",
+        "date": "2026-03-07 00:04:29",
+        "message": "refactor(plugin): 优化 Plex 图片缓存键生成逻辑"
+      },
+      {
+        "commit": "93e8aba5d2e901151645168d126b82ff483e6806",
+        "author": "Jolc",
+        "date": "2026-03-07 00:02:56",
+        "message": "fix: torrent match"
+      },
+      {
+        "commit": "71e6297046aa49c9927cebfa88133937aee4c1b7",
+        "author": "xylplm",
+        "date": "2026-03-06 23:16:56",
+        "message": "feat: add short play monitor plugin with directory monitoring and media handling"
+      },
+      {
+        "commit": "0627715bcbc5b15353bc04a316bd0ea76135b89c",
+        "author": "liurongjie",
+        "date": "2026-03-06 23:08:45",
+        "message": "perf(plugin): 调整媒体代理服务超时配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603061902",
     "items": [
       {
@@ -113,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-03-05 23:00:36",
         "message": "refactor(media): 优化媒体服务中的并发处理逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603052248",
-    "items": [
-      {
-        "commit": "e5f10d4a33bbd4ff36cc26e1f03fd951684a5cd9",
-        "author": "liurongjie",
-        "date": "2026-03-05 22:47:00",
-        "message": "refactor(media): 优化媒体服务中的元数据解析性能"
-      },
-      {
-        "commit": "a8f3e1359cc3e496d85152bd1fe2ed19458f2dd2",
-        "author": "liurongjie",
-        "date": "2026-03-05 22:20:04",
-        "message": "perf(plugin): 调整播放通知限流时间窗口配置"
       }
     ]
   }
