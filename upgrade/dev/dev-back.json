@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603061720",
+    "items": [
+      {
+        "commit": "8547658651ee27325576491c659b4ff27a045e9a",
+        "author": "xylplm",
+        "date": "2026-03-06 17:23:07",
+        "message": "fix(image-proxy): 修正缓存逻辑，使用唯一的缓存键以支持不同尺寸和格式的图片"
+      },
+      {
+        "commit": "18d7844ecf1307367a9dbd2e5ca9f054e6650d90",
+        "author": "liurongjie",
+        "date": "2026-03-06 17:19:45",
+        "message": "refactor(media_proxy): 优化图片缓存写入逻辑"
+      },
+      {
+        "commit": "f54648419c39bb4cb37099c8b25195bfdcbfaab5",
+        "author": "liurongjie",
+        "date": "2026-03-06 16:34:08",
+        "message": "style(plugin): 格式化媒体代理代码并更新注释"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603061452",
     "items": [
       {
@@ -113,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-03-05 16:22:21",
         "message": "feat: 添加清除下载历史的功能，新增接口和逻辑处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603042358",
-    "items": [
-      {
-        "commit": "e84e48f840c69a66d9ffd1b4a1a0554b8104cc1e",
-        "author": "xylplm",
-        "date": "2026-03-04 23:55:06",
-        "message": "refactor: 移除无用的 hasPrefix 方法"
-      },
-      {
-        "commit": "ffb7f6e385c8db43543ee203be509fa77202cd54",
-        "author": "xylplm",
-        "date": "2026-03-04 23:49:56",
-        "message": "feat: 增强安全性，移除网络ping修仙秘籍，改为接口方式，后端定义列表"
-      },
-      {
-        "commit": "c3db0405c342af883aeb0b78cc5759a35759271e",
-        "author": "xylplm",
-        "date": "2026-03-04 22:37:13",
-        "message": "fix: 修复转种，tr使用hash文件名作为源文件"
       }
     ]
   }
