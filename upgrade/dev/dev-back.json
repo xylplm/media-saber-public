@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603061902",
+    "items": [
+      {
+        "commit": "3b477cfed3ebcf3fd83c016384d5b8673cc87487",
+        "author": "xylplm",
+        "date": "2026-03-06 19:01:55",
+        "message": "fix(system): 移除对 nativewebp 的依赖，webp以jpg支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603061720",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "liurongjie",
         "date": "2026-03-05 22:20:04",
         "message": "perf(plugin): 调整播放通知限流时间窗口配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603051709",
-    "items": [
-      {
-        "commit": "847a4b42814bd38fc7835ef99201696df6155a9c",
-        "author": "xylplm",
-        "date": "2026-03-05 16:41:22",
-        "message": "feat: 添加清除系统消息的功能，新增接口和逻辑处理"
-      },
-      {
-        "commit": "fabf9e14b9eaa3d0e5c4d143f03cf0b52c1b51a4",
-        "author": "xylplm",
-        "date": "2026-03-05 16:22:21",
-        "message": "feat: 添加清除下载历史的功能，新增接口和逻辑处理"
       }
     ]
   }
