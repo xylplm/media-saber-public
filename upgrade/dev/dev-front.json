@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603061443",
+    "items": [
+      {
+        "commit": "2c00e01f188bae3bd3de7e88c57dab26be612d17",
+        "author": "xylplm",
+        "date": "2026-03-06 14:32:24",
+        "message": "feat(image-compression): 移除冗余压缩参数字段，直接在原始字段上添加图片压缩参数"
+      },
+      {
+        "commit": "ec660488a2e8e092ce96f9633570f308079721d9",
+        "author": "xylplm",
+        "date": "2026-03-06 14:01:07",
+        "message": "feat(image-compression): 优化图片压缩参数添加逻辑，支持目标API判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603051709",
     "items": [
       {
@@ -107,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-03-03 01:26:09",
         "message": "feat(media-tidy): 添加移动端自定义识别词界面适配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603030032",
-    "items": [
-      {
-        "commit": "aa87cab53f3c630a9b6b4cc0f1ea9132c4863468",
-        "author": "liurongjie",
-        "date": "2026-03-03 00:32:07",
-        "message": "fix(tools): 修复备份文件下载的base64解码问题"
-      },
-      {
-        "commit": "4c9fe31fbaa71c4d22641554be9bdf5bc0c1ab59",
-        "author": "liurongjie",
-        "date": "2026-03-03 00:24:39",
-        "message": "feat(directory): 添加移动端响应式布局和拖拽排序功能"
       }
     ]
   }

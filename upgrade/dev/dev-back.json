@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603061443",
+    "items": [
+      {
+        "commit": "a02465522876bd07aff59188bacda44adbe77ef4",
+        "author": "xylplm",
+        "date": "2026-03-06 13:50:50",
+        "message": "fix(system): 修正缓存图片时的 Content-Type 判断逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603061305",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "xylplm",
         "date": "2026-03-04 22:37:13",
         "message": "fix: 修复转种，tr使用hash文件名作为源文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603042229",
-    "items": [
-      {
-        "commit": "753594f9425296d14dba74e377e0c9255078e811",
-        "author": "GateCross",
-        "date": "2026-03-04 22:03:41",
-        "message": "fix: 修复历史记录显示"
-      },
-      {
-        "commit": "e150dd17441eec24d298ea99adc416e4f20ca843",
-        "author": "GateCross",
-        "date": "2026-03-04 17:21:25",
-        "message": "fix: 优化jellyfin webhook图片显示"
       }
     ]
   }
