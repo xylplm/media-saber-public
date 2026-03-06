@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603061305",
+    "items": [
+      {
+        "commit": "069a5963efd6e2d1a078825452e60d3c5a6a9a44",
+        "author": "liurongjie",
+        "date": "2026-03-06 13:05:26",
+        "message": "feat(media-proxy): 添加 Plex 图片转码请求缓存功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603061042",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-03-04 17:21:25",
         "message": "fix: 优化jellyfin webhook图片显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603042038",
-    "items": [
-      {
-        "commit": "ea5bbccc00ace5d3c31975322f21d94e1abb8dc7",
-        "author": "xylplm",
-        "date": "2026-03-04 19:40:54",
-        "message": "fix: 安全修复  部分接口需要鉴权和管理员鉴权"
       }
     ]
   }
