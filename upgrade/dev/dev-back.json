@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603071611",
+    "items": [
+      {
+        "commit": "30faaade1c307ce76caf87fbbeac3b3c00d573bd",
+        "author": "Jolc",
+        "date": "2026-03-07 16:10:45",
+        "message": "fix: 搜秒传资源问题"
+      },
+      {
+        "commit": "93e8aba5d2e901151645168d126b82ff483e6806",
+        "author": "Jolc",
+        "date": "2026-03-07 00:02:56",
+        "message": "fix: torrent match"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603070005",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 00:01:09",
         "message": "fix(system): 修复系统服务中的字符验证逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603052301",
-    "items": [
-      {
-        "commit": "7b397cfc1eeadbdadef9a37593baa7323701779b",
-        "author": "liurongjie",
-        "date": "2026-03-05 23:00:36",
-        "message": "refactor(media): 优化媒体服务中的并发处理逻辑"
       }
     ]
   }
