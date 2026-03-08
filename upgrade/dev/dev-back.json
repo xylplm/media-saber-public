@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603082153",
+    "items": [
+      {
+        "commit": "b0ab55ca293b4173e29e12e93e4929c5a477689b",
+        "author": "GateCross",
+        "date": "2026-03-08 21:52:29",
+        "message": "fix: 优化jellyfin webhook删除事件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603071611",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 10:11:51",
         "message": "fix(plugin): 修复 Plex 媒体代理路径解析逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603060001",
-    "items": [
-      {
-        "commit": "7e4ed84fdcfae636a85b5794eeeb88183c42a669",
-        "author": "liurongjie",
-        "date": "2026-03-06 00:01:09",
-        "message": "fix(system): 修复系统服务中的字符验证逻辑"
       }
     ]
   }
