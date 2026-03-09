@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603091053",
+    "items": [
+      {
+        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
+        "author": "xylplm",
+        "date": "2026-03-09 10:53:04",
+        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603061443",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-03-03 18:35:39",
         "message": "style(download): 优化下载参数组件的UI布局和样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603031735",
-    "items": [
-      {
-        "commit": "ea19008b52c4c6735895c57a0012f6addb34e038",
-        "author": "GateCross",
-        "date": "2026-03-03 17:33:42",
-        "message": "feat(cloud-storage): 添加按文件生成 Strm 功能及相关组件"
-      },
-      {
-        "commit": "82637a3338fbdb2c04d76947e9c127dffa3758eb",
-        "author": "liurongjie",
-        "date": "2026-03-03 01:26:09",
-        "message": "feat(media-tidy): 添加移动端自定义识别词界面适配"
       }
     ]
   }
