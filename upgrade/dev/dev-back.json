@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603091434",
+    "items": [
+      {
+        "commit": "87b7f554a3554f7eee3316c66de10100a95ca7bd",
+        "author": "liurongjie",
+        "date": "2026-03-09 14:33:24",
+        "message": "refactor(plugin): 优化媒体代理的缓存和性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603082153",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 10:42:20",
         "message": "feat(plugin): 添加 Plex 图片缓存功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061013",
-    "items": [
-      {
-        "commit": "a656fd0c4b22190eba78f695b6d90daebcb31823",
-        "author": "liurongjie",
-        "date": "2026-03-06 10:11:51",
-        "message": "fix(plugin): 修复 Plex 媒体代理路径解析逻辑"
       }
     ]
   }
