@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603091939",
+    "items": [
+      {
+        "commit": "ff8e0c242bcd2f92f5834182a921125d010aa2c0",
+        "author": "liurongjie",
+        "date": "2026-03-09 19:38:33",
+        "message": "fix(media-proxy): 解决图片转码请求中URL参数处理问题"
+      },
+      {
+        "commit": "c6288b26c1dcb81d3706af08fc27730dd92528fd",
+        "author": "liurongjie",
+        "date": "2026-03-09 19:21:58",
+        "message": "refactor(media-proxy): 优化日志上下文和函数签名以支持追踪"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603091737",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 16:34:08",
         "message": "style(plugin): 格式化媒体代理代码并更新注释"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061452",
-    "items": [
-      {
-        "commit": "6878cb92701dfc755d3bfb75272ce9649c260d94",
-        "author": "liurongjie",
-        "date": "2026-03-06 14:56:19",
-        "message": "fix(image-proxy): 修复图片缓存功能中的内容类型变量引用错误"
-      },
-      {
-        "commit": "a01beacc8c97bd8a70068f793f8deb13ab849e9c",
-        "author": "liurongjie",
-        "date": "2026-03-06 14:41:29",
-        "message": "refactor(media-proxy): 将 Plex 图片缓存从 Redis 迁移到本地文件系统"
       }
     ]
   }
