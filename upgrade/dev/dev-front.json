@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603091143",
+    "items": [
+      {
+        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
+        "author": "xylplm",
+        "date": "2026-03-09 11:43:23",
+        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603091053",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-03-03 22:43:41",
         "message": "style(ui): 优化媒体服务器和整理页面UI组件样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603031854",
-    "items": [
-      {
-        "commit": "6ba9ed1b9b1b8bc24a777ae9dc2042e2ab6d142c",
-        "author": "liurongjie",
-        "date": "2026-03-03 18:35:39",
-        "message": "style(download): 优化下载参数组件的UI布局和样式"
       }
     ]
   }
