@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603091630",
+    "items": [
+      {
+        "commit": "876f7f3f3f210ee5efc4f29fb91c837521e5a0b1",
+        "author": "liurongjie",
+        "date": "2026-03-09 16:28:52",
+        "message": "refactor(media-proxy): 优化 Plex 图片代理与缓存逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603091544",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-03-06 13:50:50",
         "message": "fix(system): 修正缓存图片时的 Content-Type 判断逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061305",
-    "items": [
-      {
-        "commit": "069a5963efd6e2d1a078825452e60d3c5a6a9a44",
-        "author": "liurongjie",
-        "date": "2026-03-06 13:05:26",
-        "message": "feat(media-proxy): 添加 Plex 图片转码请求缓存功能"
       }
     ]
   }
