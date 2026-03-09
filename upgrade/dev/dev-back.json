@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603091544",
+    "items": [
+      {
+        "commit": "5b4962e19a893ef32b3374e9fbe73f9842d47fe9",
+        "author": "liurongjie",
+        "date": "2026-03-09 15:37:51",
+        "message": "fix(plugin): 修复媒体代理中的图片请求URL构建问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603091434",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 13:05:26",
         "message": "feat(media-proxy): 添加 Plex 图片转码请求缓存功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061042",
-    "items": [
-      {
-        "commit": "d4404903c95bef5365f4d48731208c54c26b9117",
-        "author": "liurongjie",
-        "date": "2026-03-06 10:42:20",
-        "message": "feat(plugin): 添加 Plex 图片缓存功能"
       }
     ]
   }
