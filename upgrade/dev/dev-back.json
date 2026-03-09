@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603091737",
+    "items": [
+      {
+        "commit": "cddf451a0a96b2408485ce88ec6d11c5ddaf9432",
+        "author": "liurongjie",
+        "date": "2026-03-09 17:37:27",
+        "message": "refactor(image-proxy): 重构图片代理服务的缓存逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603091630",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 14:41:29",
         "message": "refactor(media-proxy): 将 Plex 图片缓存从 Redis 迁移到本地文件系统"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061443",
-    "items": [
-      {
-        "commit": "a02465522876bd07aff59188bacda44adbe77ef4",
-        "author": "xylplm",
-        "date": "2026-03-06 13:50:50",
-        "message": "fix(system): 修正缓存图片时的 Content-Type 判断逻辑"
       }
     ]
   }
