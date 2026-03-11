@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603111755",
+    "items": [
+      {
+        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
+        "author": "xylplm",
+        "date": "2026-03-09 11:43:23",
+        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
+      },
+      {
+        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
+        "author": "xylplm",
+        "date": "2026-03-09 10:53:04",
+        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603111440",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-03-05 11:42:23",
         "message": "feat(model-icon): AI模型列表添加模型图标组件及相关样式，支持多种AI品牌图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603042358",
-    "items": [
-      {
-        "commit": "a4e75c4aef5c780cee8d8cce32b47cdd91b11369",
-        "author": "xylplm",
-        "date": "2026-03-04 23:49:02",
-        "message": "feat:移除修仙秘籍网络ping，顶部增加网络测试快捷方式"
       }
     ]
   }
