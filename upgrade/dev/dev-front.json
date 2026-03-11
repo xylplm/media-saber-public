@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603111440",
+    "items": [
+      {
+        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
+        "author": "liurongjie",
+        "date": "2026-03-11 14:23:02",
+        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603091143",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "xylplm",
         "date": "2026-03-04 23:49:02",
         "message": "feat:移除修仙秘籍网络ping，顶部增加网络测试快捷方式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603032248",
-    "items": [
-      {
-        "commit": "7c62f64c87e6869eebad21f048d12ccbea75b790",
-        "author": "liurongjie",
-        "date": "2026-03-03 22:43:41",
-        "message": "style(ui): 优化媒体服务器和整理页面UI组件样式"
       }
     ]
   }
