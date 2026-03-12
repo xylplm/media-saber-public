@@ -1,5 +1,66 @@
 [
   {
+    "version": "DEV_202603091939",
+    "items": [
+      {
+        "commit": "ff8e0c242bcd2f92f5834182a921125d010aa2c0",
+        "author": "liurongjie",
+        "date": "2026-03-09 19:38:33",
+        "message": "fix(media-proxy): 解决图片转码请求中URL参数处理问题"
+      },
+      {
+        "commit": "c6288b26c1dcb81d3706af08fc27730dd92528fd",
+        "author": "liurongjie",
+        "date": "2026-03-09 19:21:58",
+        "message": "refactor(media-proxy): 优化日志上下文和函数签名以支持追踪"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202603091737",
+    "items": [
+      {
+        "commit": "cddf451a0a96b2408485ce88ec6d11c5ddaf9432",
+        "author": "liurongjie",
+        "date": "2026-03-09 17:37:27",
+        "message": "refactor(image-proxy): 重构图片代理服务的缓存逻辑"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202603091630",
+    "items": [
+      {
+        "commit": "876f7f3f3f210ee5efc4f29fb91c837521e5a0b1",
+        "author": "liurongjie",
+        "date": "2026-03-09 16:28:52",
+        "message": "refactor(media-proxy): 优化 Plex 图片代理与缓存逻辑"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202603091544",
+    "items": [
+      {
+        "commit": "5b4962e19a893ef32b3374e9fbe73f9842d47fe9",
+        "author": "liurongjie",
+        "date": "2026-03-09 15:37:51",
+        "message": "fix(plugin): 修复媒体代理中的图片请求URL构建问题"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202603091434",
+    "items": [
+      {
+        "commit": "87b7f554a3554f7eee3316c66de10100a95ca7bd",
+        "author": "liurongjie",
+        "date": "2026-03-09 14:33:24",
+        "message": "refactor(plugin): 优化媒体代理的缓存和性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603082153",
     "items": [
       {
@@ -87,67 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 16:34:08",
         "message": "style(plugin): 格式化媒体代理代码并更新注释"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061452",
-    "items": [
-      {
-        "commit": "6878cb92701dfc755d3bfb75272ce9649c260d94",
-        "author": "liurongjie",
-        "date": "2026-03-06 14:56:19",
-        "message": "fix(image-proxy): 修复图片缓存功能中的内容类型变量引用错误"
-      },
-      {
-        "commit": "a01beacc8c97bd8a70068f793f8deb13ab849e9c",
-        "author": "liurongjie",
-        "date": "2026-03-06 14:41:29",
-        "message": "refactor(media-proxy): 将 Plex 图片缓存从 Redis 迁移到本地文件系统"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061443",
-    "items": [
-      {
-        "commit": "a02465522876bd07aff59188bacda44adbe77ef4",
-        "author": "xylplm",
-        "date": "2026-03-06 13:50:50",
-        "message": "fix(system): 修正缓存图片时的 Content-Type 判断逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061305",
-    "items": [
-      {
-        "commit": "069a5963efd6e2d1a078825452e60d3c5a6a9a44",
-        "author": "liurongjie",
-        "date": "2026-03-06 13:05:26",
-        "message": "feat(media-proxy): 添加 Plex 图片转码请求缓存功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061042",
-    "items": [
-      {
-        "commit": "d4404903c95bef5365f4d48731208c54c26b9117",
-        "author": "liurongjie",
-        "date": "2026-03-06 10:42:20",
-        "message": "feat(plugin): 添加 Plex 图片缓存功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061013",
-    "items": [
-      {
-        "commit": "a656fd0c4b22190eba78f695b6d90daebcb31823",
-        "author": "liurongjie",
-        "date": "2026-03-06 10:11:51",
-        "message": "fix(plugin): 修复 Plex 媒体代理路径解析逻辑"
       }
     ]
   }
