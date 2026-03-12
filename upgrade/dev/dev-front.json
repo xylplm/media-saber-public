@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202603121754",
+    "items": [
+      {
+        "commit": "e63bbe8d98d3eca6f923d6eeef90b6bd1893cfa2",
+        "author": "xylplm",
+        "date": "2026-03-10 23:49:45",
+        "message": "feat(media-detail): 更新电影标题样式，调整字体大小以增强可读性"
+      },
+      {
+        "commit": "a0f4f0820fbcba440de6e7b6d05b2c0e6673e7a2",
+        "author": "xylplm",
+        "date": "2026-03-10 23:32:47",
+        "message": "feat(media-detail): 优化季集信息展示，增强响应式布局和交互体验"
+      },
+      {
+        "commit": "178be289ca3258e7301b3943d30c8006071243d4",
+        "author": "xylplm",
+        "date": "2026-03-10 23:18:14",
+        "message": "feat(file-list): 优化文件目录列表，路由支持路径，方便页面跳转记忆"
+      },
+      {
+        "commit": "e48d79873349abf5bb4176622b155f7eb3804e44",
+        "author": "xylplm",
+        "date": "2026-03-10 22:38:24",
+        "message": "feat(file-sort): 更新排序选项图标，显示当前选择的排序方式"
+      },
+      {
+        "commit": "3d9cb7b94b7702781f81734883cb9211b28aab0c",
+        "author": "xylplm",
+        "date": "2026-03-10 22:35:50",
+        "message": "feat(directory-file): 记忆并恢复文件排序选项"
+      },
+      {
+        "commit": "5de0fd8bfe32d916cdcb613f12849cea918ab850",
+        "author": "xylplm",
+        "date": "2026-03-10 21:00:51",
+        "message": "feat(file-sort): 添加文件排序功能，优化排序选项逻辑"
+      },
+      {
+        "commit": "967bcb402960f40d99d722660b8f9d808917cf58",
+        "author": "allen",
+        "date": "2026-03-10 20:06:51",
+        "message": "feat(file-list): 接入文件排序字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603112324",
     "items": [
       {
@@ -119,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-03-05 12:42:23",
         "message": "feat(model-icon): 优化模型数据获取逻辑，支持前缀匹配和斜杠后的匹配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603051224",
-    "items": [
-      {
-        "commit": "839bf21b83d865c32b4fb215061680b3330523a2",
-        "author": "xylplm",
-        "date": "2026-03-05 12:23:19",
-        "message": "feat(model-icon): 添加混元AI图标及相关配置"
       }
     ]
   }
