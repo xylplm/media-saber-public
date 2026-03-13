@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603140001",
+    "items": [
+      {
+        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
+        "author": "liurongjie",
+        "date": "2026-03-11 23:12:45",
+        "message": "fix(tools): 修复动态表单初始化时机问题"
+      },
+      {
+        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
+        "author": "liurongjie",
+        "date": "2026-03-11 14:23:02",
+        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603122242",
     "items": [
       {
@@ -203,23 +220,6 @@
         "author": "xylplm",
         "date": "2026-03-06 14:01:07",
         "message": "feat(image-compression): 优化图片压缩参数添加逻辑，支持目标API判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603051709",
-    "items": [
-      {
-        "commit": "a078dced005a7d8084bf3c1dc5f9f661539a2501",
-        "author": "xylplm",
-        "date": "2026-03-05 17:08:27",
-        "message": "feat(message-center): 消息中心增加消息清空按钮"
-      },
-      {
-        "commit": "d8676ba4f63b1ed9f209df9a53173e340cf69bdf",
-        "author": "xylplm",
-        "date": "2026-03-05 16:27:45",
-        "message": "feat(download): 添加清空下载记录功能，优化界面布局"
       }
     ]
   }
