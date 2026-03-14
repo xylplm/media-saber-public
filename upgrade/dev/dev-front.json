@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603142037",
+    "items": [
+      {
+        "commit": "3eec921b93261479850ba83f912b10928de03c3e",
+        "author": "xylplm",
+        "date": "2026-03-14 20:37:11",
+        "message": "feat(icon-size): 调整图标组件和相关模板的尺寸，优化显示效果"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603141358",
     "items": [
       {
@@ -299,17 +310,6 @@
         "author": "liurongjie",
         "date": "2026-03-11 14:23:02",
         "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603091143",
-    "items": [
-      {
-        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
-        "author": "xylplm",
-        "date": "2026-03-09 11:43:23",
-        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
       }
     ]
   }
