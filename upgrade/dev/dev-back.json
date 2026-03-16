@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603162328",
+    "items": [
+      {
+        "commit": "ccb50e51c4f6ecdb8471e67ea48f1a2736c9c558",
+        "author": "GateCross",
+        "date": "2026-03-16 23:25:04",
+        "message": "fix: 优化默认模板"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603162312",
     "items": [
       {
@@ -239,17 +250,6 @@
         "author": "liurongjie",
         "date": "2026-03-06 23:08:45",
         "message": "perf(plugin): 调整媒体代理服务超时配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603061902",
-    "items": [
-      {
-        "commit": "3b477cfed3ebcf3fd83c016384d5b8673cc87487",
-        "author": "xylplm",
-        "date": "2026-03-06 19:01:55",
-        "message": "fix(system): 移除对 nativewebp 的依赖，webp以jpg支持"
       }
     ]
   }
