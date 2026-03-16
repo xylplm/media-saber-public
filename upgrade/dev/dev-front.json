@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603162312",
+    "items": [
+      {
+        "commit": "ff30488870302d8b2c0733351e68f529cc5a95a3",
+        "author": "GateCross",
+        "date": "2026-03-16 23:10:21",
+        "message": "feat: 调整 pansou 资源展示交互"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603142037",
     "items": [
       {
@@ -299,17 +310,6 @@
         "author": "xylplm",
         "date": "2026-03-09 10:53:04",
         "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603111440",
-    "items": [
-      {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
       }
     ]
   }
