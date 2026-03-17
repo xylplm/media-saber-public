@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603171520",
+    "items": [
+      {
+        "commit": "663c4f74086ff8728fd45011cefb2c30846ddf26",
+        "author": "GateCross",
+        "date": "2026-03-17 15:19:13",
+        "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603162312",
     "items": [
       {
@@ -293,23 +304,6 @@
         "author": "liurongjie",
         "date": "2026-03-11 14:23:02",
         "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603111755",
-    "items": [
-      {
-        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
-        "author": "xylplm",
-        "date": "2026-03-09 11:43:23",
-        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
-      },
-      {
-        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
-        "author": "xylplm",
-        "date": "2026-03-09 10:53:04",
-        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
       }
     ]
   }
