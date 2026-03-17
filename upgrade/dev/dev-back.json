@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603172306",
+    "items": [
+      {
+        "commit": "fd75a51aafa61935b52364b00cfc0bf62c7ec947",
+        "author": "GateCross",
+        "date": "2026-03-17 23:06:06",
+        "message": "fix: 改写 Jellyfin PlaybackInfo 播放地址"
+      },
+      {
+        "commit": "d8e755eaef43ed969cab61ff9a61d064d03008f2",
+        "author": "GateCross",
+        "date": "2026-03-17 22:36:40",
+        "message": "fix: 优化 Jellyfin 自链接 PickCode 查询"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603171520",
     "items": [
       {
@@ -215,23 +232,6 @@
         "author": "GateCross",
         "date": "2026-03-08 21:52:29",
         "message": "fix: 优化jellyfin webhook删除事件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603071611",
-    "items": [
-      {
-        "commit": "30faaade1c307ce76caf87fbbeac3b3c00d573bd",
-        "author": "Jolc",
-        "date": "2026-03-07 16:10:45",
-        "message": "fix: 搜秒传资源问题"
-      },
-      {
-        "commit": "93e8aba5d2e901151645168d126b82ff483e6806",
-        "author": "Jolc",
-        "date": "2026-03-07 00:02:56",
-        "message": "fix: torrent match"
       }
     ]
   }
