@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603171541",
+    "items": [
+      {
+        "commit": "3ee13fedded4542c567e5e4755b7b527fbf2f7af",
+        "author": "GateCross",
+        "date": "2026-03-17 15:40:45",
+        "message": "fix: 调整 HDHive 资源打开交互文案"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603171520",
     "items": [
       {
@@ -287,23 +298,6 @@
         "author": "allen",
         "date": "2026-03-10 20:06:51",
         "message": "feat(file-list): 接入文件排序字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603112324",
-    "items": [
-      {
-        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
-        "author": "liurongjie",
-        "date": "2026-03-11 23:12:45",
-        "message": "fix(tools): 修复动态表单初始化时机问题"
-      },
-      {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
       }
     ]
   }
