@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603181713",
+    "items": [
+      {
+        "commit": "e7fd87e29cc681a154a86a3f22e502e70dbd9eab",
+        "author": "xylplm",
+        "date": "2026-03-18 17:12:31",
+        "message": "fix(model): 将查询条件中的like替换为ilike以支持不区分大小写的匹配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603181006",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "liurongjie",
         "date": "2026-03-09 16:28:52",
         "message": "refactor(media-proxy): 优化 Plex 图片代理与缓存逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603091544",
-    "items": [
-      {
-        "commit": "5b4962e19a893ef32b3374e9fbe73f9842d47fe9",
-        "author": "liurongjie",
-        "date": "2026-03-09 15:37:51",
-        "message": "fix(plugin): 修复媒体代理中的图片请求URL构建问题"
       }
     ]
   }
