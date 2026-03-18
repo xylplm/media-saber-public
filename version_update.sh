@@ -39,7 +39,16 @@ ROOT_DIR=$(pwd)
 # 进入仓库
 # ----------------------------------
 cd "$REPO_DIR" || { echo "仓库目录不存在：$REPO_DIR"; exit 1; }
-ls "$JSON_FILE"
+
+# ----------------------------------
+# Git 日志读取函数
+# ----------------------------------
+get_git_log() {
+    git log --no-merges "$@" --invert-grep --grep="$LOG_EXCLUDE_PATTERN" \
+        --pretty=format:"%H$MESSAGE_SEPARATOR%an$MESSAGE_SEPARATOR%ad$MESSAGE_SEPARATOR%s" \
+        --date=format:'%Y-%m-%d %H:%M:%S'
+}
+
 # ----------------------------------
 # 获取最后一个 commit
 # ----------------------------------
@@ -58,18 +67,31 @@ fi
 LOG_EXCLUDE_PATTERN="^\(chore:\|fix\|fix: 修复前端佬的 bug\)$"
 NUM_LOGS=20
 
-if [ -z "$LAST_COMMIT" ]; then
-    RANGE_OPT="-n $NUM_LOGS"
-    echo "获取最近 $NUM_LOGS 条提交"
-else
-    RANGE_OPT="$LAST_COMMIT..HEAD"
-    echo "获取 $LAST_COMMIT 到 HEAD 的提交"
+if [ -n "$LAST_COMMIT" ] && ! git cat-file -e "${LAST_COMMIT}^{commit}" 2>/dev/null; then
+    echo "历史 commit 在当前仓库中不存在，回退为最近 $NUM_LOGS 条提交：$LAST_COMMIT"
+    LAST_COMMIT=""
 fi
 
 # 使用 git log 获取提交记录，最新的在前
 # 格式：哈希 作者 日期 主题
 MESSAGE_SEPARATOR="lovebigbaby%x09lovebigbaby"
-GIT_LOG_DATA=$(git log --no-merges $RANGE_OPT --invert-grep --grep="$LOG_EXCLUDE_PATTERN" --pretty=format:"%H$MESSAGE_SEPARATOR%an$MESSAGE_SEPARATOR%ad$MESSAGE_SEPARATOR%s" --date=format:'%Y-%m-%d %H:%M:%S')
+
+if [ -z "$LAST_COMMIT" ]; then
+    echo "获取最近 $NUM_LOGS 条提交"
+    if ! GIT_LOG_DATA=$(get_git_log -n "$NUM_LOGS"); then
+        echo "读取最近提交失败"
+        exit 1
+    fi
+else
+    echo "获取 $LAST_COMMIT 到 HEAD 的提交"
+    if ! GIT_LOG_DATA=$(get_git_log "$LAST_COMMIT..HEAD"); then
+        echo "按历史 commit 增量读取失败，回退为最近 $NUM_LOGS 条提交"
+        if ! GIT_LOG_DATA=$(get_git_log -n "$NUM_LOGS"); then
+            echo "读取最近提交失败"
+            exit 1
+        fi
+    fi
+fi
 
 echo "$GIT_LOG_DATA"
 
