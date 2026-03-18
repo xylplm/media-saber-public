@@ -38,7 +38,7 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
       - name: Download Version Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: version
 
@@ -53,7 +53,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
           cache-dependency-path: msaber-front/package-lock.json
 
@@ -167,13 +167,13 @@ jobs:
 
       # --- 修复：分离后端下载以避免文件冲突 ---
       - name: Download Backend Artifacts (amd64)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: my-artifact-backend-amd64
           path: ./msaber-back-amd64 # 下载到 amd64 专属目录
 
       - name: Download Backend Artifacts (arm64)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: my-artifact-backend-arm64
           path: ./msaber-back-arm64 # 下载到 arm64 专属目录
