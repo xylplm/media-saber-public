@@ -280,17 +280,15 @@ jobs:
           tar -czvf mediaSaber-arm64.tar.gz msaber-front msaber-back
 
       - name: Create GitHub Release and Upload Assets
-        uses: softprops/action-gh-release@v2.6.1
-        with:
-          tag_name: ${{ env.version }}
-          name: ${{ env.version }}
-          draft: false
-          prerelease: true
-          files: |
-            release/mediaSaber-amd64.tar.gz
-            release/mediaSaber-arm64.tar.gz
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+        run: |
+          gh release create "${{ env.version }}" \
+            release/mediaSaber-amd64.tar.gz \
+            release/mediaSaber-arm64.tar.gz \
+            --title="${{ env.version }}" \
+            --prerelease \
+            --repo="${{ github.repository }}"
 
       - name: Update version_dev File
         run: echo "${{ env.version }}" > version_dev
@@ -305,10 +303,10 @@ jobs:
           git commit -m "Update version_dev with ${{ env.version }}"
 
       - name: Push changes
-        uses: ad-m/github-push-action@v1.0.0
-        with:
-          github_token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-          branch: main
+        env:
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+        run: |
+          git push origin main
 
       - name: Clean up old DEV* GitHub Releases (keep latest 1)
         env:
