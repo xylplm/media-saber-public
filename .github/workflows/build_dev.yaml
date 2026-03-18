@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 创建版本号
         id: set_version
@@ -17,7 +17,7 @@ jobs:
           echo "version=$(cat version_number)" >> $GITHUB_ENV
 
       - name: Upload Version Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: version
           path: version_number
@@ -26,11 +26,11 @@ jobs:
     needs: [ generate-version ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: 'main'
       - name: Checkout code front end
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ secrets.REPOSITORY_FRONT }}
           path: './msaber-front'
@@ -51,7 +51,7 @@ jobs:
           echo "export const version = '${{ env.version }}';" > msaber-front/version.ts
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: 'npm'
@@ -64,7 +64,7 @@ jobs:
           npm run build
 
       - name: Upload Frontend Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: my-artifact-front-dist
           path: msaber-front/dist/MediaSaber/browser/
@@ -77,12 +77,12 @@ jobs:
         arch: [ amd64, arm64 ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: 'main'
 
       - name: Checkout code back end
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ secrets.REPOSITORY_BACK }}
           path: './msaber-back'
@@ -90,14 +90,14 @@ jobs:
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
       - name: Set up Go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version-file: ./msaber-back/go.mod
           cache: true
           cache-dependency-path: ./msaber-back/go.sum
 
       - name: Download Version Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: version
 
@@ -141,7 +141,7 @@ jobs:
           cp -r msaber-back/doc msaber-back-${{ matrix.arch }}/
 
       - name: Upload Backend Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: my-artifact-backend-${{ matrix.arch }}
           path: msaber-back-${{ matrix.arch }}
@@ -151,12 +151,12 @@ jobs:
     needs: [ build-frontend, build-backend ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: 'main'
 
       - name: Download Frontend Artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: my-artifact-front-*
           merge-multiple: true
@@ -182,16 +182,16 @@ jobs:
       - run: ls -R msaber-back-arm64
 
       - name: Docker Setup Buildx
-        uses: docker/setup-buildx-action@v3.0.0
+        uses: docker/setup-buildx-action@v4
 
       - name: Docker Login
-        uses: docker/login-action@v3.0.0
+        uses: docker/login-action@v4
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and push Docker images
-        uses: docker/build-push-action@v5.0.0
+        uses: docker/build-push-action@v5
         with:
           context: .
           file: ./docker/Dockerfile
@@ -205,12 +205,12 @@ jobs:
     needs: [ docker-setup ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: 'main'
 
       - name: Download Version Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: version
 
@@ -219,7 +219,7 @@ jobs:
         run: echo "version=$(cat version_number)" >> $GITHUB_ENV
 
       - name: Download Frontend Artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           pattern: my-artifact-front-*
           merge-multiple: true
@@ -229,13 +229,13 @@ jobs:
 
       # --- 修复：分离后端下载以避免文件冲突 ---
       - name: Download Backend Artifacts (amd64)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: my-artifact-backend-amd64
           path: ./msaber-back-amd64 # 下载到 amd64 专属目录
 
       - name: Download Backend Artifacts (arm64)
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: my-artifact-backend-arm64
           path: ./msaber-back-arm64 # 下载到 arm64 专属目录
@@ -279,36 +279,18 @@ jobs:
           cd release
           tar -czvf mediaSaber-arm64.tar.gz msaber-front msaber-back
 
-      - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+      - name: Create GitHub Release and Upload Assets
+        uses: softprops/action-gh-release@v2.6.1
         with:
           tag_name: ${{ env.version }}
-          release_name: ${{ env.version }}
+          name: ${{ env.version }}
           draft: false
           prerelease: true
-
-      - name: Upload Release Asset - amd64
-        uses: actions/upload-release-asset@v1
+          files: |
+            release/mediaSaber-amd64.tar.gz
+            release/mediaSaber-arm64.tar.gz
         env:
           GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: release/mediaSaber-amd64.tar.gz
-          asset_name: mediaSaber-amd64.tar.gz
-          asset_content_type: application/gzip
-
-      - name: Upload Release Asset - arm64
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: release/mediaSaber-arm64.tar.gz
-          asset_name: mediaSaber-arm64.tar.gz
-          asset_content_type: application/gzip
 
       - name: Update version_dev File
         run: echo "${{ env.version }}" > version_dev
@@ -323,7 +305,7 @@ jobs:
           git commit -m "Update version_dev with ${{ env.version }}"
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v1.0.0
         with:
           github_token: ${{ secrets.PERSON_ACCESS_TOKEN }}
           branch: main
@@ -348,12 +330,12 @@ jobs:
     needs: [ gen-release ]
     steps:
       - name: Checkout code Now Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: 'main'
 
       - name: Download Version Artifact
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: version
 
@@ -362,7 +344,7 @@ jobs:
         run: echo "version=$(cat version_number)" >> $GITHUB_ENV
 
       - name: Checkout code front end
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ secrets.REPOSITORY_FRONT }}
           path: './msaber-front'
@@ -375,7 +357,7 @@ jobs:
           bash version_update.sh -r ./msaber-front -f ./upgrade/dev/dev-front.json -v ${{ env.version }}
 
       - name: Checkout code back end
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: ${{ secrets.REPOSITORY_BACK }}
           path: './msaber-back'
