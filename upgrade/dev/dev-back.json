@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603191047",
+    "items": [
+      {
+        "commit": "0824f24409e254aa736cb3f817fe638605209538",
+        "author": "liurongjie",
+        "date": "2026-03-19 10:44:29",
+        "message": "refactor(plugin): 重构插件消息通知实现"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603181713",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "liurongjie",
         "date": "2026-03-09 17:37:27",
         "message": "refactor(image-proxy): 重构图片代理服务的缓存逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603091630",
-    "items": [
-      {
-        "commit": "876f7f3f3f210ee5efc4f29fb91c837521e5a0b1",
-        "author": "liurongjie",
-        "date": "2026-03-09 16:28:52",
-        "message": "refactor(media-proxy): 优化 Plex 图片代理与缓存逻辑"
       }
     ]
   }
