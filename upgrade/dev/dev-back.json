@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603192341",
+    "items": [
+      {
+        "commit": "81414bc5892bce7e1bc502d6db88a36d8bec3b90",
+        "author": "liurongjie",
+        "date": "2026-03-19 23:38:36",
+        "message": "Revert \"refactor(mediaserver): 重构 Plex 媒体服务器实现\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202603191344",
     "items": [
       {
@@ -227,23 +238,6 @@
         "author": "GateCross",
         "date": "2026-03-10 23:25:41",
         "message": "feat: 推进媒体代理适配器重构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603091939",
-    "items": [
-      {
-        "commit": "ff8e0c242bcd2f92f5834182a921125d010aa2c0",
-        "author": "liurongjie",
-        "date": "2026-03-09 19:38:33",
-        "message": "fix(media-proxy): 解决图片转码请求中URL参数处理问题"
-      },
-      {
-        "commit": "c6288b26c1dcb81d3706af08fc27730dd92528fd",
-        "author": "liurongjie",
-        "date": "2026-03-09 19:21:58",
-        "message": "refactor(media-proxy): 优化日志上下文和函数签名以支持追踪"
       }
     ]
   }
