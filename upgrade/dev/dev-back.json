@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603191344",
+    "items": [
+      {
+        "commit": "0397feacb7fae5b9b516afb02cb6be2a89042104",
+        "author": "liurongjie",
+        "date": "2026-03-19 13:43:41",
+        "message": "refactor(mediaserver): 重构 Plex 媒体服务器实现"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603191047",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "liurongjie",
         "date": "2026-03-09 19:21:58",
         "message": "refactor(media-proxy): 优化日志上下文和函数签名以支持追踪"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603091737",
-    "items": [
-      {
-        "commit": "cddf451a0a96b2408485ce88ec6d11c5ddaf9432",
-        "author": "liurongjie",
-        "date": "2026-03-09 17:37:27",
-        "message": "refactor(image-proxy): 重构图片代理服务的缓存逻辑"
       }
     ]
   }
