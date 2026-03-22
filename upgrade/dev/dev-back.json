@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603221651",
+    "items": [
+      {
+        "commit": "d8a4aedc45605c7cc79bf5d6ca6e4a9f16fc73ef",
+        "author": "xylplm",
+        "date": "2026-03-22 16:48:18",
+        "message": "feat(plugin): 添加目录定时清理插件，支持黑白名单和文件体积过滤"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603221246",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-03-17 15:19:12",
         "message": "feat: 接入 HDHive 资源查询与解锁接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603162328",
-    "items": [
-      {
-        "commit": "ccb50e51c4f6ecdb8471e67ea48f1a2736c9c558",
-        "author": "GateCross",
-        "date": "2026-03-16 23:25:04",
-        "message": "fix: 优化默认模板"
       }
     ]
   }
