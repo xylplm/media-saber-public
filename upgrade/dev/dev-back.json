@@ -1,5 +1,214 @@
 [
   {
+    "version": "DEV_202603221809",
+    "items": [
+      {
+        "commit": "342a01cef81a1aa7990941276bf26ca08a9f30c5",
+        "author": "xylplm",
+        "date": "2026-03-22 18:08:53",
+        "message": "fix(plugin): 增强目录清理功能，区分本地路径和云存储路径的存在性检查"
+      },
+      {
+        "commit": "cede063c99955846b6aecf1e3e0fe2b45784b1a7",
+        "author": "Jolc",
+        "date": "2026-03-22 12:44:56",
+        "message": "feat：删网盘文件清理pc永久缓存、云存储增加夸克uc驱动。"
+      },
+      {
+        "commit": "81414bc5892bce7e1bc502d6db88a36d8bec3b90",
+        "author": "liurongjie",
+        "date": "2026-03-19 23:38:36",
+        "message": "Revert \"refactor(mediaserver): 重构 Plex 媒体服务器实现\""
+      },
+      {
+        "commit": "0397feacb7fae5b9b516afb02cb6be2a89042104",
+        "author": "liurongjie",
+        "date": "2026-03-19 13:43:41",
+        "message": "refactor(mediaserver): 重构 Plex 媒体服务器实现"
+      },
+      {
+        "commit": "0824f24409e254aa736cb3f817fe638605209538",
+        "author": "liurongjie",
+        "date": "2026-03-19 10:44:29",
+        "message": "refactor(plugin): 重构插件消息通知实现"
+      },
+      {
+        "commit": "e7fd87e29cc681a154a86a3f22e502e70dbd9eab",
+        "author": "xylplm",
+        "date": "2026-03-18 17:12:31",
+        "message": "fix(model): 将查询条件中的like替换为ilike以支持不区分大小写的匹配"
+      },
+      {
+        "commit": "58de92a362ad11703e072a4feef8f06579e18d6c",
+        "author": "GateCross",
+        "date": "2026-03-18 10:06:09",
+        "message": "fix: 修复HDHive签到表单密码字段类型"
+      },
+      {
+        "commit": "5d9c8b33a8384d136bf313d4e1ef7d752cee94a1",
+        "author": "GateCross",
+        "date": "2026-03-18 09:46:20",
+        "message": "fix: 恢复HDHive签到表单配置"
+      },
+      {
+        "commit": "ab2f80de31571547deae55131bb52bc62e7ffd0d",
+        "author": "GateCross",
+        "date": "2026-03-18 09:39:30",
+        "message": "feat: HDHive签到通知增加赌狗模式展示"
+      },
+      {
+        "commit": "8e9b175c578b309513a01559c8dfdc0999c6caa6",
+        "author": "GateCross",
+        "date": "2026-03-17 23:22:09",
+        "message": "fix: 优化 Jellyfin 媒体路径缓存"
+      },
+      {
+        "commit": "fd75a51aafa61935b52364b00cfc0bf62c7ec947",
+        "author": "GateCross",
+        "date": "2026-03-17 23:06:06",
+        "message": "fix: 改写 Jellyfin PlaybackInfo 播放地址"
+      },
+      {
+        "commit": "d8e755eaef43ed969cab61ff9a61d064d03008f2",
+        "author": "GateCross",
+        "date": "2026-03-17 22:36:40",
+        "message": "fix: 优化 Jellyfin 自链接 PickCode 查询"
+      },
+      {
+        "commit": "30c108eeb9b6eb2b728d0040272060eaf4aac660",
+        "author": "GateCross",
+        "date": "2026-03-17 15:19:12",
+        "message": "feat: 接入 HDHive 资源查询与解锁接口"
+      },
+      {
+        "commit": "ccb50e51c4f6ecdb8471e67ea48f1a2736c9c558",
+        "author": "GateCross",
+        "date": "2026-03-16 23:25:04",
+        "message": "fix: 优化默认模板"
+      },
+      {
+        "commit": "1c53c3d991a54106c4b703ccf6f03e54f26b3133",
+        "author": "GateCross",
+        "date": "2026-03-16 23:10:21",
+        "message": "feat: 接入 pansou 资源搜索"
+      },
+      {
+        "commit": "588c08562c9599b883356806d9e577fecb14165c",
+        "author": "GateCross",
+        "date": "2026-03-16 12:27:52",
+        "message": "feat: 增强 Plex 音乐与有声书播放桥接"
+      },
+      {
+        "commit": "86522b61702df32ad9463284a9d81b755399a99b",
+        "author": "liurongjie",
+        "date": "2026-03-14 19:13:39",
+        "message": "fix(config): 优化媒体服务器配置中的字段映射和描述错误"
+      },
+      {
+        "commit": "d69fe19c308fefde7cb764ba3c439d0794c59af0",
+        "author": "GateCross",
+        "date": "2026-03-14 00:14:36",
+        "message": "fix: 调整媒体代理启动探测日志级别"
+      },
+      {
+        "commit": "47bd7788fc22012d534a065be9f82e7af6695d6b",
+        "author": "GateCross",
+        "date": "2026-03-14 00:00:50",
+        "message": "fix: 移除已删除媒体代理插件残留配置"
+      },
+      {
+        "commit": "df74d613104f52314f3fc4d3b77c981b79890bf1",
+        "author": "GateCross",
+        "date": "2026-03-13 23:50:29",
+        "message": "fix: 修复媒体代理通知开关不生效"
+      },
+      {
+        "commit": "69a9dd9b4ae701d17648f66d860996eef3f47517",
+        "author": "GateCross",
+        "date": "2026-03-13 15:37:51",
+        "message": "fix: tooltip优化"
+      },
+      {
+        "commit": "eb2472a7afeda6a85ab9ff5fdf2b7ab9539bc24d",
+        "author": "GateCross",
+        "date": "2026-03-13 15:03:14",
+        "message": "docs: 优化媒体代理路径配置文案"
+      },
+      {
+        "commit": "a5e6e5cfd1a6dc6f28bb91647e6598ee1dd58570",
+        "author": "GateCross",
+        "date": "2026-03-13 14:42:09",
+        "message": "refactor: 拆分媒体代理独立处理器职责"
+      },
+      {
+        "commit": "80a803f853b478ed807f5928e3bcaec3e71ddab3",
+        "author": "GateCross",
+        "date": "2026-03-13 13:27:46",
+        "message": "refactor: 移除媒体代理遗留桥接与插件配置"
+      },
+      {
+        "commit": "20a03ce751f86ab70a9243215a9679ea59875e4a",
+        "author": "GateCross",
+        "date": "2026-03-12 23:22:16",
+        "message": "fix: 收敛媒体代理配置并整理302代理逻辑"
+      },
+      {
+        "commit": "f372286558356dcb636bb4ce2280498c70a27b65",
+        "author": "GateCross",
+        "date": "2026-03-12 22:07:15",
+        "message": "refactor: 迁移媒体代理独立处理器"
+      },
+      {
+        "commit": "4d6dee46f0d42339f14e7b93ea757da5f75efabb",
+        "author": "GateCross",
+        "date": "2026-03-12 21:39:15",
+        "message": "refactor: 调整媒体代理展示日志并清理测试"
+      },
+      {
+        "commit": "5629476909caff7e6bd51c76f241f52a3e57bd21",
+        "author": "allen",
+        "date": "2026-03-10 20:09:35",
+        "message": "feat(path-file): 文件列表新增入参：排序方式"
+      },
+      {
+        "commit": "49ebba5956224a2139d8568e67b2878233980868",
+        "author": "GateCross",
+        "date": "2026-03-12 17:18:50",
+        "message": "feat: 重构媒体代理直连启停并移除插件配置"
+      },
+      {
+        "commit": "db0fffd1f80fa4101a56a6fece875656325aee00",
+        "author": "liurongjie",
+        "date": "2026-03-12 16:43:00",
+        "message": "fix(plugin): add logs"
+      },
+      {
+        "commit": "a051a3c47bf7cf92200fbec9ff047576cebeeabc",
+        "author": "liurongjie",
+        "date": "2026-03-11 23:24:00",
+        "message": "feat(plugin): 添加 Plex 拼音本地化插件日志记录功能"
+      },
+      {
+        "commit": "1199e4f008e6c2cda642e1c714b3a79dd2e7ba1b",
+        "author": "GateCross",
+        "date": "2026-03-11 17:37:01",
+        "message": "feat: 推进媒体代理重构与插件桥接"
+      },
+      {
+        "commit": "4b2018bb01246e89e52ee69043212a3816bca156",
+        "author": "liurongjie",
+        "date": "2026-03-11 14:22:02",
+        "message": "feat(plugin): 添加 Plex 拼音本地化插件"
+      },
+      {
+        "commit": "6587b2c89e9f4603c9ff7d8e2b956a5fc8dbdccc",
+        "author": "GateCross",
+        "date": "2026-03-10 23:25:41",
+        "message": "feat: 推进媒体代理适配器重构"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603221651",
     "items": [
       {
@@ -113,17 +322,6 @@
         "author": "GateCross",
         "date": "2026-03-17 22:36:40",
         "message": "fix: 优化 Jellyfin 自链接 PickCode 查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603171520",
-    "items": [
-      {
-        "commit": "30c108eeb9b6eb2b728d0040272060eaf4aac660",
-        "author": "GateCross",
-        "date": "2026-03-17 15:19:12",
-        "message": "feat: 接入 HDHive 资源查询与解锁接口"
       }
     ]
   }
