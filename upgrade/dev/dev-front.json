@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603222206",
+    "items": [
+      {
+        "commit": "bf6aeece9e0e808b69592ebfc75b8b922d5e5b66",
+        "author": "xylplm",
+        "date": "2026-03-22 15:59:03",
+        "message": "feat(svg-icon): 添加目录清理器SVG图标文件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603221809",
     "items": [
       {
@@ -209,23 +220,6 @@
         "author": "allen",
         "date": "2026-03-10 20:06:51",
         "message": "feat(file-list): 接入文件排序字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603140001",
-    "items": [
-      {
-        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
-        "author": "liurongjie",
-        "date": "2026-03-11 23:12:45",
-        "message": "fix(tools): 修复动态表单初始化时机问题"
-      },
-      {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603222206",
+    "items": [
+      {
+        "commit": "72457404f2ae742f055fde8d41ef57b0281553ec",
+        "author": "xylplm",
+        "date": "2026-03-22 22:05:28",
+        "message": "feat(plugin): 添加保留削刮文件和清除孤立文件的选项，增强目录清理功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603221809",
     "items": [
       {
@@ -305,23 +316,6 @@
         "author": "GateCross",
         "date": "2026-03-17 23:22:09",
         "message": "fix: 优化 Jellyfin 媒体路径缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603172306",
-    "items": [
-      {
-        "commit": "fd75a51aafa61935b52364b00cfc0bf62c7ec947",
-        "author": "GateCross",
-        "date": "2026-03-17 23:06:06",
-        "message": "fix: 改写 Jellyfin PlaybackInfo 播放地址"
-      },
-      {
-        "commit": "d8e755eaef43ed969cab61ff9a61d064d03008f2",
-        "author": "GateCross",
-        "date": "2026-03-17 22:36:40",
-        "message": "fix: 优化 Jellyfin 自链接 PickCode 查询"
       }
     ]
   }
