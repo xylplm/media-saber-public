@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603231657",
+    "items": [
+      {
+        "commit": "18f4f3d63fd932290fd0d1c511046db3625abfae",
+        "author": "xylplm",
+        "date": "2026-03-23 16:57:09",
+        "message": "fix 🐛: 兼容旧版本极影视状态接口，优化服务状态检查"
+      },
+      {
+        "commit": "802d3a2492094c61dc1b527019898fc27a5dea23",
+        "author": "xylplm",
+        "date": "2026-03-23 11:02:31",
+        "message": "📚 docs: 更新 README，添加 GitHub Copilot 提交信息生成配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603222206",
     "items": [
       {
@@ -305,17 +322,6 @@
         "author": "GateCross",
         "date": "2026-03-18 09:39:30",
         "message": "feat: HDHive签到通知增加赌狗模式展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603172323",
-    "items": [
-      {
-        "commit": "8e9b175c578b309513a01559c8dfdc0999c6caa6",
-        "author": "GateCross",
-        "date": "2026-03-17 23:22:09",
-        "message": "fix: 优化 Jellyfin 媒体路径缓存"
       }
     ]
   }

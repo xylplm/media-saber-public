@@ -1,5 +1,70 @@
 [
   {
+    "version": "DEV_202603231657",
+    "items": [
+      {
+        "commit": "0459850d571dd7807e49462447c126e948c01914",
+        "author": "xylplm",
+        "date": "2026-03-23 16:17:32",
+        "message": "✨ feat: 更新云存储设置提交逻辑，优化用户反馈信息"
+      },
+      {
+        "commit": "070271fa6294a99abacf880b1c4b576bd060cfb9",
+        "author": "xylplm",
+        "date": "2026-03-23 11:05:24",
+        "message": "📚 docs: 更新提交信息生成说明，调整字符限制至150字"
+      },
+      {
+        "commit": "4998c8d08169c32a3a8ccc99d0890a548934c066",
+        "author": "xylplm",
+        "date": "2026-03-23 11:04:55",
+        "message": "📚 docs: 更新提交信息生成说明，调整字符限制至100字"
+      },
+      {
+        "commit": "47bd02514fffd9cb255df6e6cc7a90b4c88545e8",
+        "author": "xylplm",
+        "date": "2026-03-23 11:04:19",
+        "message": "📚 docs: 更新提交信息生成说明，调整格式"
+      },
+      {
+        "commit": "918be3c5ea8ba26236aa25a5346444ee349dad63",
+        "author": "xylplm",
+        "date": "2026-03-23 11:03:58",
+        "message": "📚 docs: 更新 README.md，添加 git commit 前缀约定和 Copilot 提交信息生成说明"
+      },
+      {
+        "commit": "a9e3e11a15978df8a9124368e79a14f8654ebcc2",
+        "author": "xylplm",
+        "date": "2026-03-22 22:39:18",
+        "message": "fix: 移除对小于148px宽度容器的.top-right位置调整"
+      },
+      {
+        "commit": "db5b7bf89e48ac859b1982e7cbfffdde789e8a3d",
+        "author": "GateCross",
+        "date": "2026-03-17 16:39:48",
+        "message": "fix: 媒体详情页未配置资源源显示为未启用"
+      },
+      {
+        "commit": "3ee13fedded4542c567e5e4755b7b527fbf2f7af",
+        "author": "GateCross",
+        "date": "2026-03-17 15:40:45",
+        "message": "fix: 调整 HDHive 资源打开交互文案"
+      },
+      {
+        "commit": "663c4f74086ff8728fd45011cefb2c30846ddf26",
+        "author": "GateCross",
+        "date": "2026-03-17 15:19:13",
+        "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
+      },
+      {
+        "commit": "ff30488870302d8b2c0733351e68f529cc5a95a3",
+        "author": "GateCross",
+        "date": "2026-03-16 23:10:21",
+        "message": "feat: 调整 pansou 资源展示交互"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603222206",
     "items": [
       {
@@ -167,59 +232,6 @@
         "author": "liurongjie",
         "date": "2026-03-11 14:23:02",
         "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603140016",
-    "items": [
-      {
-        "commit": "f251604b931fb6e2aa0cf67c475f13e42eb2578e",
-        "author": "xylplm",
-        "date": "2026-03-11 17:54:56",
-        "message": "feat(site-manage): 优化VPN标签样式，增强可读性和视觉效果"
-      },
-      {
-        "commit": "e63bbe8d98d3eca6f923d6eeef90b6bd1893cfa2",
-        "author": "xylplm",
-        "date": "2026-03-10 23:49:45",
-        "message": "feat(media-detail): 更新电影标题样式，调整字体大小以增强可读性"
-      },
-      {
-        "commit": "a0f4f0820fbcba440de6e7b6d05b2c0e6673e7a2",
-        "author": "xylplm",
-        "date": "2026-03-10 23:32:47",
-        "message": "feat(media-detail): 优化季集信息展示，增强响应式布局和交互体验"
-      },
-      {
-        "commit": "178be289ca3258e7301b3943d30c8006071243d4",
-        "author": "xylplm",
-        "date": "2026-03-10 23:18:14",
-        "message": "feat(file-list): 优化文件目录列表，路由支持路径，方便页面跳转记忆"
-      },
-      {
-        "commit": "e48d79873349abf5bb4176622b155f7eb3804e44",
-        "author": "xylplm",
-        "date": "2026-03-10 22:38:24",
-        "message": "feat(file-sort): 更新排序选项图标，显示当前选择的排序方式"
-      },
-      {
-        "commit": "3d9cb7b94b7702781f81734883cb9211b28aab0c",
-        "author": "xylplm",
-        "date": "2026-03-10 22:35:50",
-        "message": "feat(directory-file): 记忆并恢复文件排序选项"
-      },
-      {
-        "commit": "5de0fd8bfe32d916cdcb613f12849cea918ab850",
-        "author": "xylplm",
-        "date": "2026-03-10 21:00:51",
-        "message": "feat(file-sort): 添加文件排序功能，优化排序选项逻辑"
-      },
-      {
-        "commit": "967bcb402960f40d99d722660b8f9d808917cf58",
-        "author": "allen",
-        "date": "2026-03-10 20:06:51",
-        "message": "feat(file-list): 接入文件排序字段"
       }
     ]
   }
