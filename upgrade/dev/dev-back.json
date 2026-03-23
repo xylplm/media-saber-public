@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603232332",
+    "items": [
+      {
+        "commit": "90c99bdd62428ce6920c8921c41ba24ea48dc760",
+        "author": "Jolc",
+        "date": "2026-03-23 23:31:33",
+        "message": "fix: ed2k 文件名不要编码"
+      },
+      {
+        "commit": "e89f6551a7684b78df0b1f10eb4429106bf03722",
+        "author": "liurongjie",
+        "date": "2026-03-23 22:53:39",
+        "message": "refactor(plugin): 重构 Plex 拼音本地化插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603232256",
     "items": [
       {
@@ -299,17 +316,6 @@
         "author": "liurongjie",
         "date": "2026-03-19 10:44:29",
         "message": "refactor(plugin): 重构插件消息通知实现"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603181713",
-    "items": [
-      {
-        "commit": "e7fd87e29cc681a154a86a3f22e502e70dbd9eab",
-        "author": "xylplm",
-        "date": "2026-03-18 17:12:31",
-        "message": "fix(model): 将查询条件中的like替换为ilike以支持不区分大小写的匹配"
       }
     ]
   }

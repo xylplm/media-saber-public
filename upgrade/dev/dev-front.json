@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603232332",
+    "items": [
+      {
+        "commit": "2a2118eda3353f442c43d2a483a39b48a9fbfd5c",
+        "author": "Jolc",
+        "date": "2026-03-23 23:31:53",
+        "message": "feat：本地文件增加生成 ed2k 按钮"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603231657",
     "items": [
       {
@@ -167,71 +178,6 @@
         "author": "xylplm",
         "date": "2026-03-14 20:37:11",
         "message": "feat(icon-size): 调整图标组件和相关模板的尺寸，优化显示效果"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603141358",
-    "items": [
-      {
-        "commit": "7523bcee390227fda3575a85df8f2d1f36629d58",
-        "author": "xylplm",
-        "date": "2026-03-14 13:57:18",
-        "message": "feat(ai-chat): 添加模型选择器自定义触发器和渲染模板"
-      },
-      {
-        "commit": "99eb4280d42c16407c22db37bda053c544c19f5a",
-        "author": "xylplm",
-        "date": "2026-03-14 13:57:10",
-        "message": "feat(model-icon): 优化图标组件模板和样式，增强图标显示效果"
-      },
-      {
-        "commit": "4a0dea3916f9648a5b791344c77b61cb63fcced3",
-        "author": "xylplm",
-        "date": "2026-03-14 13:52:02",
-        "message": "feat(cloud-storage-update): 优化驱动选择器的渲染，添加自定义触发器支持"
-      },
-      {
-        "commit": "c3d26488f70c64193bc98facd9a6f594ae406dda",
-        "author": "xylplm",
-        "date": "2026-03-14 13:49:56",
-        "message": "feat(setting-notify-update): 添加消息渠道类型选择器的选中项渲染支持"
-      },
-      {
-        "commit": "32c09064b9483a3da7ded146933bf8a120416d03",
-        "author": "xylplm",
-        "date": "2026-03-14 13:49:48",
-        "message": "feat(media-server-setting): 添加媒体服务器类型选择器的选中项渲染支持"
-      },
-      {
-        "commit": "9433d04311845d036cb780e8fe19ad75c6019052",
-        "author": "xylplm",
-        "date": "2026-03-14 13:49:38",
-        "message": "feat(download-downloader): 添加下载器类型选择器的触发器，优化选中项显示"
-      },
-      {
-        "commit": "e39029c16dc36bac9ba2b694933e911331e9410a",
-        "author": "xylplm",
-        "date": "2026-03-14 13:49:10",
-        "message": "feat(input-autocomplete): 添加已选中项渲染支持，优化输入框前缀显示"
-      },
-      {
-        "commit": "0051108d6ebb13373101d8b41702684d6c99d4fc",
-        "author": "xylplm",
-        "date": "2026-03-14 13:48:57",
-        "message": "feat(site-manage): 添加站点图标支持，优化站点选择器的显示效果"
-      },
-      {
-        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
-        "author": "liurongjie",
-        "date": "2026-03-11 23:12:45",
-        "message": "fix(tools): 修复动态表单初始化时机问题"
-      },
-      {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
       }
     ]
   }
