@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603232256",
+    "items": [
+      {
+        "commit": "c8b8438c6cedadf1db819a30dd27cf46feb78d4d",
+        "author": "Jolc",
+        "date": "2026-03-23 22:52:40",
+        "message": "feat：本地文件生成 ed2k 链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603231657",
     "items": [
       {
@@ -299,29 +310,6 @@
         "author": "xylplm",
         "date": "2026-03-18 17:12:31",
         "message": "fix(model): 将查询条件中的like替换为ilike以支持不区分大小写的匹配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603181006",
-    "items": [
-      {
-        "commit": "58de92a362ad11703e072a4feef8f06579e18d6c",
-        "author": "GateCross",
-        "date": "2026-03-18 10:06:09",
-        "message": "fix: 修复HDHive签到表单密码字段类型"
-      },
-      {
-        "commit": "5d9c8b33a8384d136bf313d4e1ef7d752cee94a1",
-        "author": "GateCross",
-        "date": "2026-03-18 09:46:20",
-        "message": "fix: 恢复HDHive签到表单配置"
-      },
-      {
-        "commit": "ab2f80de31571547deae55131bb52bc62e7ffd0d",
-        "author": "GateCross",
-        "date": "2026-03-18 09:39:30",
-        "message": "feat: HDHive签到通知增加赌狗模式展示"
       }
     ]
   }
