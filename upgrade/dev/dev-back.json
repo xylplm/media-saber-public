@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603250102",
+    "items": [
+      {
+        "commit": "52671f5e293514695dc8e6f3c57fb375ea2d9a02",
+        "author": "Jolc",
+        "date": "2026-03-25 00:48:17",
+        "message": "feat：云存储 hash 自动上报以及插件手动批量上报。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603241747",
     "items": [
       {
@@ -323,17 +334,6 @@
         "author": "GateCross",
         "date": "2026-03-10 23:25:41",
         "message": "feat: 推进媒体代理适配器重构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603221651",
-    "items": [
-      {
-        "commit": "d8a4aedc45605c7cc79bf5d6ca6e4a9f16fc73ef",
-        "author": "xylplm",
-        "date": "2026-03-22 16:48:18",
-        "message": "feat(plugin): 添加目录定时清理插件，支持黑白名单和文件体积过滤"
       }
     ]
   }
