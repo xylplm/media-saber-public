@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603241322",
+    "items": [
+      {
+        "commit": "2a2118eda3353f442c43d2a483a39b48a9fbfd5c",
+        "author": "Jolc",
+        "date": "2026-03-23 23:31:53",
+        "message": "feat：本地文件增加生成 ed2k 按钮"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603240005",
     "items": [
       {
@@ -353,17 +364,6 @@
         "author": "GateCross",
         "date": "2026-03-17 15:19:13",
         "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603162312",
-    "items": [
-      {
-        "commit": "ff30488870302d8b2c0733351e68f529cc5a95a3",
-        "author": "GateCross",
-        "date": "2026-03-16 23:10:21",
-        "message": "feat: 调整 pansou 资源展示交互"
       }
     ]
   }

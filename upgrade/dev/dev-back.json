@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603241322",
+    "items": [
+      {
+        "commit": "06b3ac587032076eba36673cd632e101a5ca5a09",
+        "author": "Jolc",
+        "date": "2026-03-24 12:59:32",
+        "message": "feat：接入云端 ed2k 资源"
+      },
+      {
+        "commit": "c1e656a2ea7f9647b63cd70c70a3e74d8702410a",
+        "author": "Jolc",
+        "date": "2026-03-24 12:46:47",
+        "message": "feat：搜云端 ed2k 链接"
+      },
+      {
+        "commit": "1dbb6d885ef991746729351bb546c76d94dec211",
+        "author": "Jolc",
+        "date": "2026-03-24 12:29:21",
+        "message": "feat：删除资源分享、接入云端 ed2k。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603240005",
     "items": [
       {
@@ -311,17 +334,6 @@
         "author": "liurongjie",
         "date": "2026-03-19 23:38:36",
         "message": "Revert \"refactor(mediaserver): 重构 Plex 媒体服务器实现\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603191344",
-    "items": [
-      {
-        "commit": "0397feacb7fae5b9b516afb02cb6be2a89042104",
-        "author": "liurongjie",
-        "date": "2026-03-19 13:43:41",
-        "message": "refactor(mediaserver): 重构 Plex 媒体服务器实现"
       }
     ]
   }
