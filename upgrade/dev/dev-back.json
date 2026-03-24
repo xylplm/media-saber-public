@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603241747",
+    "items": [
+      {
+        "commit": "f092441144a360546b93a4a46948eac106764a78",
+        "author": "Jolc",
+        "date": "2026-03-24 17:36:00",
+        "message": "fix: ed2k 优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603241447",
     "items": [
       {
@@ -323,17 +334,6 @@
         "author": "xylplm",
         "date": "2026-03-22 16:48:18",
         "message": "feat(plugin): 添加目录定时清理插件，支持黑白名单和文件体积过滤"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603221246",
-    "items": [
-      {
-        "commit": "cede063c99955846b6aecf1e3e0fe2b45784b1a7",
-        "author": "Jolc",
-        "date": "2026-03-22 12:44:56",
-        "message": "feat：删网盘文件清理pc永久缓存、云存储增加夸克uc驱动。"
       }
     ]
   }
