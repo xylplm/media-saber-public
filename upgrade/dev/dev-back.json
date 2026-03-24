@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603241447",
+    "items": [
+      {
+        "commit": "fb88368454f65c8720a51a465541da992d772c45",
+        "author": "Jolc",
+        "date": "2026-03-24 14:37:50",
+        "message": "fix: 115 sdk invalid state log"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603241322",
     "items": [
       {
@@ -323,17 +334,6 @@
         "author": "Jolc",
         "date": "2026-03-22 12:44:56",
         "message": "feat：删网盘文件清理pc永久缓存、云存储增加夸克uc驱动。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603192341",
-    "items": [
-      {
-        "commit": "81414bc5892bce7e1bc502d6db88a36d8bec3b90",
-        "author": "liurongjie",
-        "date": "2026-03-19 23:38:36",
-        "message": "Revert \"refactor(mediaserver): 重构 Plex 媒体服务器实现\""
       }
     ]
   }

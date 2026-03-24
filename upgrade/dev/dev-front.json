@@ -1,5 +1,202 @@
 [
   {
+    "version": "DEV_202603241447",
+    "items": [
+      {
+        "commit": "0459850d571dd7807e49462447c126e948c01914",
+        "author": "xylplm",
+        "date": "2026-03-23 16:17:32",
+        "message": "✨ feat: 更新云存储设置提交逻辑，优化用户反馈信息"
+      },
+      {
+        "commit": "070271fa6294a99abacf880b1c4b576bd060cfb9",
+        "author": "xylplm",
+        "date": "2026-03-23 11:05:24",
+        "message": "📚 docs: 更新提交信息生成说明，调整字符限制至150字"
+      },
+      {
+        "commit": "4998c8d08169c32a3a8ccc99d0890a548934c066",
+        "author": "xylplm",
+        "date": "2026-03-23 11:04:55",
+        "message": "📚 docs: 更新提交信息生成说明，调整字符限制至100字"
+      },
+      {
+        "commit": "47bd02514fffd9cb255df6e6cc7a90b4c88545e8",
+        "author": "xylplm",
+        "date": "2026-03-23 11:04:19",
+        "message": "📚 docs: 更新提交信息生成说明，调整格式"
+      },
+      {
+        "commit": "918be3c5ea8ba26236aa25a5346444ee349dad63",
+        "author": "xylplm",
+        "date": "2026-03-23 11:03:58",
+        "message": "📚 docs: 更新 README.md，添加 git commit 前缀约定和 Copilot 提交信息生成说明"
+      },
+      {
+        "commit": "a9e3e11a15978df8a9124368e79a14f8654ebcc2",
+        "author": "xylplm",
+        "date": "2026-03-22 22:39:18",
+        "message": "fix: 移除对小于148px宽度容器的.top-right位置调整"
+      },
+      {
+        "commit": "bf6aeece9e0e808b69592ebfc75b8b922d5e5b66",
+        "author": "xylplm",
+        "date": "2026-03-22 15:59:03",
+        "message": "feat(svg-icon): 添加目录清理器SVG图标文件"
+      },
+      {
+        "commit": "db5b7bf89e48ac859b1982e7cbfffdde789e8a3d",
+        "author": "GateCross",
+        "date": "2026-03-17 16:39:48",
+        "message": "fix: 媒体详情页未配置资源源显示为未启用"
+      },
+      {
+        "commit": "3ee13fedded4542c567e5e4755b7b527fbf2f7af",
+        "author": "GateCross",
+        "date": "2026-03-17 15:40:45",
+        "message": "fix: 调整 HDHive 资源打开交互文案"
+      },
+      {
+        "commit": "663c4f74086ff8728fd45011cefb2c30846ddf26",
+        "author": "GateCross",
+        "date": "2026-03-17 15:19:13",
+        "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
+      },
+      {
+        "commit": "ff30488870302d8b2c0733351e68f529cc5a95a3",
+        "author": "GateCross",
+        "date": "2026-03-16 23:10:21",
+        "message": "feat: 调整 pansou 资源展示交互"
+      },
+      {
+        "commit": "3eec921b93261479850ba83f912b10928de03c3e",
+        "author": "xylplm",
+        "date": "2026-03-14 20:37:11",
+        "message": "feat(icon-size): 调整图标组件和相关模板的尺寸，优化显示效果"
+      },
+      {
+        "commit": "7523bcee390227fda3575a85df8f2d1f36629d58",
+        "author": "xylplm",
+        "date": "2026-03-14 13:57:18",
+        "message": "feat(ai-chat): 添加模型选择器自定义触发器和渲染模板"
+      },
+      {
+        "commit": "99eb4280d42c16407c22db37bda053c544c19f5a",
+        "author": "xylplm",
+        "date": "2026-03-14 13:57:10",
+        "message": "feat(model-icon): 优化图标组件模板和样式，增强图标显示效果"
+      },
+      {
+        "commit": "4a0dea3916f9648a5b791344c77b61cb63fcced3",
+        "author": "xylplm",
+        "date": "2026-03-14 13:52:02",
+        "message": "feat(cloud-storage-update): 优化驱动选择器的渲染，添加自定义触发器支持"
+      },
+      {
+        "commit": "c3d26488f70c64193bc98facd9a6f594ae406dda",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:56",
+        "message": "feat(setting-notify-update): 添加消息渠道类型选择器的选中项渲染支持"
+      },
+      {
+        "commit": "32c09064b9483a3da7ded146933bf8a120416d03",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:48",
+        "message": "feat(media-server-setting): 添加媒体服务器类型选择器的选中项渲染支持"
+      },
+      {
+        "commit": "9433d04311845d036cb780e8fe19ad75c6019052",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:38",
+        "message": "feat(download-downloader): 添加下载器类型选择器的触发器，优化选中项显示"
+      },
+      {
+        "commit": "e39029c16dc36bac9ba2b694933e911331e9410a",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:10",
+        "message": "feat(input-autocomplete): 添加已选中项渲染支持，优化输入框前缀显示"
+      },
+      {
+        "commit": "0051108d6ebb13373101d8b41702684d6c99d4fc",
+        "author": "xylplm",
+        "date": "2026-03-14 13:48:57",
+        "message": "feat(site-manage): 添加站点图标支持，优化站点选择器的显示效果"
+      },
+      {
+        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
+        "author": "liurongjie",
+        "date": "2026-03-11 23:12:45",
+        "message": "fix(tools): 修复动态表单初始化时机问题"
+      },
+      {
+        "commit": "f251604b931fb6e2aa0cf67c475f13e42eb2578e",
+        "author": "xylplm",
+        "date": "2026-03-11 17:54:56",
+        "message": "feat(site-manage): 优化VPN标签样式，增强可读性和视觉效果"
+      },
+      {
+        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
+        "author": "liurongjie",
+        "date": "2026-03-11 14:23:02",
+        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+      },
+      {
+        "commit": "e63bbe8d98d3eca6f923d6eeef90b6bd1893cfa2",
+        "author": "xylplm",
+        "date": "2026-03-10 23:49:45",
+        "message": "feat(media-detail): 更新电影标题样式，调整字体大小以增强可读性"
+      },
+      {
+        "commit": "a0f4f0820fbcba440de6e7b6d05b2c0e6673e7a2",
+        "author": "xylplm",
+        "date": "2026-03-10 23:32:47",
+        "message": "feat(media-detail): 优化季集信息展示，增强响应式布局和交互体验"
+      },
+      {
+        "commit": "178be289ca3258e7301b3943d30c8006071243d4",
+        "author": "xylplm",
+        "date": "2026-03-10 23:18:14",
+        "message": "feat(file-list): 优化文件目录列表，路由支持路径，方便页面跳转记忆"
+      },
+      {
+        "commit": "e48d79873349abf5bb4176622b155f7eb3804e44",
+        "author": "xylplm",
+        "date": "2026-03-10 22:38:24",
+        "message": "feat(file-sort): 更新排序选项图标，显示当前选择的排序方式"
+      },
+      {
+        "commit": "3d9cb7b94b7702781f81734883cb9211b28aab0c",
+        "author": "xylplm",
+        "date": "2026-03-10 22:35:50",
+        "message": "feat(directory-file): 记忆并恢复文件排序选项"
+      },
+      {
+        "commit": "5de0fd8bfe32d916cdcb613f12849cea918ab850",
+        "author": "xylplm",
+        "date": "2026-03-10 21:00:51",
+        "message": "feat(file-sort): 添加文件排序功能，优化排序选项逻辑"
+      },
+      {
+        "commit": "967bcb402960f40d99d722660b8f9d808917cf58",
+        "author": "allen",
+        "date": "2026-03-10 20:06:51",
+        "message": "feat(file-list): 接入文件排序字段"
+      },
+      {
+        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
+        "author": "xylplm",
+        "date": "2026-03-09 11:43:23",
+        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
+      },
+      {
+        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
+        "author": "xylplm",
+        "date": "2026-03-09 10:53:04",
+        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603241322",
     "items": [
       {
@@ -353,17 +550,6 @@
         "author": "GateCross",
         "date": "2026-03-17 15:40:45",
         "message": "fix: 调整 HDHive 资源打开交互文案"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603171520",
-    "items": [
-      {
-        "commit": "663c4f74086ff8728fd45011cefb2c30846ddf26",
-        "author": "GateCross",
-        "date": "2026-03-17 15:19:13",
-        "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
       }
     ]
   }
