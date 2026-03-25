@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603252258",
+    "items": [
+      {
+        "commit": "17d9ce633d519490ef116a5ba4eecb243cc228ae",
+        "author": "GateCross",
+        "date": "2026-03-25 22:55:27",
+        "message": "feat: 优化媒体详情云端资源下载交互"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603250102",
     "items": [
       {
@@ -575,17 +586,6 @@
         "author": "GateCross",
         "date": "2026-03-16 23:10:21",
         "message": "feat: 调整 pansou 资源展示交互"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603221651",
-    "items": [
-      {
-        "commit": "bf6aeece9e0e808b69592ebfc75b8b922d5e5b66",
-        "author": "xylplm",
-        "date": "2026-03-22 15:59:03",
-        "message": "feat(svg-icon): 添加目录清理器SVG图标文件"
       }
     ]
   }
