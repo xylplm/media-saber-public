@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603252046",
+    "items": [
+      {
+        "commit": "85ab2f3d6821ad86ac34104c8e20d3ce8706d5eb",
+        "author": "Jolc",
+        "date": "2026-03-25 20:50:56",
+        "message": "fix：脱敏"
+      },
+      {
+        "commit": "755ce4b03519f6d19975520fb82bcba045e29b2c",
+        "author": "xylplm",
+        "date": "2026-03-25 20:01:22",
+        "message": "fix: rename WxName to GroupNickname in UserForwardDetail"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251945",
     "items": [
       {
@@ -95,17 +112,6 @@
         "author": "Jolc",
         "date": "2026-03-25 00:48:17",
         "message": "feat：云存储 hash 自动上报以及插件手动批量上报。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603241747",
-    "items": [
-      {
-        "commit": "f092441144a360546b93a4a46948eac106764a78",
-        "author": "Jolc",
-        "date": "2026-03-24 17:36:00",
-        "message": "fix: ed2k 优化"
       }
     ]
   }
