@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603251448",
+    "items": [
+      {
+        "commit": "eb62864aca5d6b29f684d5d68aacf10d1a1f3943",
+        "author": "Jolc",
+        "date": "2026-03-25 14:48:17",
+        "message": "fix：上传任务hash复用，无需重复计算"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251324",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-03-23 22:53:39",
         "message": "refactor(plugin): 重构 Plex 拼音本地化插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603232256",
-    "items": [
-      {
-        "commit": "c8b8438c6cedadf1db819a30dd27cf46feb78d4d",
-        "author": "Jolc",
-        "date": "2026-03-23 22:52:40",
-        "message": "feat：本地文件生成 ed2k 链接"
       }
     ]
   }
