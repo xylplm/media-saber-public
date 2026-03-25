@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603251707",
+    "items": [
+      {
+        "commit": "ba8c9921748d42fcd1ef6dcfdb15909fda5a33f4",
+        "author": "allen",
+        "date": "2026-03-25 14:57:56",
+        "message": "fix: 检查媒体库的时候，去重已存在的集号"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251448",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-24 00:05:16",
         "message": "fix: 生成 ed2k 打日志"
-      },
-      {
-        "commit": "e89f6551a7684b78df0b1f10eb4429106bf03722",
-        "author": "liurongjie",
-        "date": "2026-03-23 22:53:39",
-        "message": "refactor(plugin): 重构 Plex 拼音本地化插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603232332",
-    "items": [
-      {
-        "commit": "90c99bdd62428ce6920c8921c41ba24ea48dc760",
-        "author": "Jolc",
-        "date": "2026-03-23 23:31:33",
-        "message": "fix: ed2k 文件名不要编码"
       },
       {
         "commit": "e89f6551a7684b78df0b1f10eb4429106bf03722",
