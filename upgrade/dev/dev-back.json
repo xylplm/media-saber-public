@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603252128",
+    "items": [
+      {
+        "commit": "636abcb4a65294f73dbb4a4a1111681c4d87b706",
+        "author": "xylplm",
+        "date": "2026-03-25 21:25:15",
+        "message": "fix(mlist): reorder hash calculation after metadata extraction"
+      },
+      {
+        "commit": "e9010955f3e2a89cb6756ef16bd81eee18b709f5",
+        "author": "xylplm",
+        "date": "2026-03-25 21:19:47",
+        "message": "fix: add Redis deduplication for hash reporting"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603252046",
     "items": [
       {
@@ -101,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-25 12:09:40",
         "message": "feat：云存储资源链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603250102",
-    "items": [
-      {
-        "commit": "52671f5e293514695dc8e6f3c57fb375ea2d9a02",
-        "author": "Jolc",
-        "date": "2026-03-25 00:48:17",
-        "message": "feat：云存储 hash 自动上报以及插件手动批量上报。"
       }
     ]
   }
