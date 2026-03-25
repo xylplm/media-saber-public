@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603251324",
+    "items": [
+      {
+        "commit": "ba727544497babb751c052bc2d108a7ff267a521",
+        "author": "Jolc",
+        "date": "2026-03-25 13:22:59",
+        "message": "feat: 123秒传"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251259",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "Jolc",
         "date": "2026-03-23 22:52:40",
         "message": "feat：本地文件生成 ed2k 链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603231657",
-    "items": [
-      {
-        "commit": "18f4f3d63fd932290fd0d1c511046db3625abfae",
-        "author": "xylplm",
-        "date": "2026-03-23 16:57:09",
-        "message": "fix 🐛: 兼容旧版本极影视状态接口，优化服务状态检查"
-      },
-      {
-        "commit": "802d3a2492094c61dc1b527019898fc27a5dea23",
-        "author": "xylplm",
-        "date": "2026-03-23 11:02:31",
-        "message": "📚 docs: 更新 README，添加 GitHub Copilot 提交信息生成配置"
       }
     ]
   }
