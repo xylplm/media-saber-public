@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603251259",
+    "items": [
+      {
+        "commit": "2df5848a6efedc9cf53bdf8182ab2ca60ad87158",
+        "author": "Jolc",
+        "date": "2026-03-25 12:59:03",
+        "message": "feat：hash 上报优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251213",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-03-23 11:02:31",
         "message": "📚 docs: 更新 README，添加 GitHub Copilot 提交信息生成配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603222206",
-    "items": [
-      {
-        "commit": "72457404f2ae742f055fde8d41ef57b0281553ec",
-        "author": "xylplm",
-        "date": "2026-03-22 22:05:28",
-        "message": "feat(plugin): 添加保留削刮文件和清除孤立文件的选项，增强目录清理功能"
       }
     ]
   }
