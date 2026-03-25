@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603251752",
+    "items": [
+      {
+        "commit": "21c8f13f844b666d19e8d1d61c110339ce89e3f8",
+        "author": "Jolc",
+        "date": "2026-03-25 17:49:03",
+        "message": "fix: hash 汇报统计"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251707",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-24 12:29:21",
         "message": "feat：删除资源分享、接入云端 ed2k。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603240005",
-    "items": [
-      {
-        "commit": "d0e8934785b4502759eccb353e3e84e919798949",
-        "author": "Jolc",
-        "date": "2026-03-24 00:05:16",
-        "message": "fix: 生成 ed2k 打日志"
-      },
-      {
-        "commit": "e89f6551a7684b78df0b1f10eb4429106bf03722",
-        "author": "liurongjie",
-        "date": "2026-03-23 22:53:39",
-        "message": "refactor(plugin): 重构 Plex 拼音本地化插件"
       }
     ]
   }
