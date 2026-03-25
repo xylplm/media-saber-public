@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603251854",
+    "items": [
+      {
+        "commit": "5e0bec4b08a0f7e7e2e79bae6351198847bef280",
+        "author": "Jolc",
+        "date": "2026-03-25 18:53:33",
+        "message": "fix：hash 上报插件 logger code"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603251752",
     "items": [
       {
@@ -95,29 +106,6 @@
         "author": "Jolc",
         "date": "2026-03-24 14:37:50",
         "message": "fix: 115 sdk invalid state log"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603241322",
-    "items": [
-      {
-        "commit": "06b3ac587032076eba36673cd632e101a5ca5a09",
-        "author": "Jolc",
-        "date": "2026-03-24 12:59:32",
-        "message": "feat：接入云端 ed2k 资源"
-      },
-      {
-        "commit": "c1e656a2ea7f9647b63cd70c70a3e74d8702410a",
-        "author": "Jolc",
-        "date": "2026-03-24 12:46:47",
-        "message": "feat：搜云端 ed2k 链接"
-      },
-      {
-        "commit": "1dbb6d885ef991746729351bb546c76d94dec211",
-        "author": "Jolc",
-        "date": "2026-03-24 12:29:21",
-        "message": "feat：删除资源分享、接入云端 ed2k。"
       }
     ]
   }
