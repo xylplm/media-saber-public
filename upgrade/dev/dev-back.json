@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603252200",
+    "items": [
+      {
+        "commit": "b52d9d0c37a20219d81cbe1a3f48b619a5a90347",
+        "author": "Jolc",
+        "date": "2026-03-25 22:00:06",
+        "message": "feat: 刷流如果配置了云存储默认上传目录，则自动上报 hash。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603252128",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-25 12:59:03",
         "message": "feat：hash 上报优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603251213",
-    "items": [
-      {
-        "commit": "d63b589e6d6098108922dc21b27401248e7c1d4e",
-        "author": "Jolc",
-        "date": "2026-03-25 12:09:40",
-        "message": "feat：云存储资源链接"
       }
     ]
   }
