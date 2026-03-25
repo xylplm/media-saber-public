@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603252234",
+    "items": [
+      {
+        "commit": "27e033da383d107ddea47eeeb6545d87f64de434",
+        "author": "Jolc",
+        "date": "2026-03-25 22:34:14",
+        "message": "fix：hash 今日贡献榜数量配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603252200",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-25 13:22:59",
         "message": "feat: 123秒传"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603251259",
-    "items": [
-      {
-        "commit": "2df5848a6efedc9cf53bdf8182ab2ca60ad87158",
-        "author": "Jolc",
-        "date": "2026-03-25 12:59:03",
-        "message": "feat：hash 上报优化"
       }
     ]
   }
