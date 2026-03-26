@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603260932",
+    "items": [
+      {
+        "commit": "aad9c8b241f0e61bef8efc7cf79db57b1fb539bd",
+        "author": "xylplm",
+        "date": "2026-03-26 09:32:19",
+        "message": "feat ✨: 添加自动执行选项以支持任务自动运行"
+      },
+      {
+        "commit": "0909820a30aa7e8e6eda14f94fd863c85dc0b300",
+        "author": "xylplm",
+        "date": "2026-03-26 09:27:36",
+        "message": "fix 🐛: 添加基于文件路径的 Redis 去重机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603252234",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-03-25 14:48:17",
         "message": "fix：上传任务hash复用，无需重复计算"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603251324",
-    "items": [
-      {
-        "commit": "ba727544497babb751c052bc2d108a7ff267a521",
-        "author": "Jolc",
-        "date": "2026-03-25 13:22:59",
-        "message": "feat: 123秒传"
       }
     ]
   }
