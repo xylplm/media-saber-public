@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603280400",
+    "items": [
+      {
+        "commit": "08077f88888b3ccd464e0f9134316b01f19afc26",
+        "author": "Jolc",
+        "date": "2026-03-28 03:59:32",
+        "message": "feat：撤回 bt"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603272235",
     "items": [
       {
@@ -143,77 +154,6 @@
         "author": "Jolc",
         "date": "2026-03-27 10:19:25",
         "message": "feat：hash 上报 mq 最多 5 次重试，延迟 1 分钟后重试。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603270201",
-    "items": [
-      {
-        "commit": "bc64451732ccb8c69e11b83bb9450b538bb9d743",
-        "author": "Jolc",
-        "date": "2026-03-27 01:45:48",
-        "message": "feat：云端资源直搜"
-      },
-      {
-        "commit": "efa27cff1135dfba16191929774c3d0dbd224f17",
-        "author": "Jolc",
-        "date": "2026-03-27 00:48:36",
-        "message": "fix：默认订阅参数"
-      },
-      {
-        "commit": "c74c974e8fd9d6020ed8ebde18a49fc199a3aad8",
-        "author": "Jolc",
-        "date": "2026-03-27 00:35:15",
-        "message": "feat：mlist hash 性能优化。"
-      },
-      {
-        "commit": "1a9530c6c54f6a60add00d1f934304c9e0ca357a",
-        "author": "Jolc",
-        "date": "2026-03-26 21:39:15",
-        "message": "feat：mlist hash 性能优化。"
-      },
-      {
-        "commit": "5f154842671be94dced523bcf96d1f91495b5d09",
-        "author": "Jolc",
-        "date": "2026-03-26 20:29:59",
-        "message": "feat：云端资源接入订阅、下载。"
-      },
-      {
-        "commit": "46e585c9e30ae61aa21b732e754990829ce30c6c",
-        "author": "Jolc",
-        "date": "2026-03-26 17:48:45",
-        "message": "feat：搜云端资源"
-      },
-      {
-        "commit": "613ec7002244e6761f5d83e862f919157ff46333",
-        "author": "Jolc",
-        "date": "2026-03-26 15:12:18",
-        "message": "feat：云存储优化一刀"
-      },
-      {
-        "commit": "ee6e450bf82732a56aca494745a53f0fa373b1f5",
-        "author": "Jolc",
-        "date": "2026-03-26 13:10:21",
-        "message": "feat：云资源模糊搜索"
-      },
-      {
-        "commit": "84b4450cf14b6dbbe35c25867add17f2911e6626",
-        "author": "Jolc",
-        "date": "2026-03-26 11:55:12",
-        "message": "feat：资源链接再砍一小刀"
-      },
-      {
-        "commit": "441f0b2fbadc863d6aa5409b2e85853f463dd0d3",
-        "author": "Jolc",
-        "date": "2026-03-26 11:41:11",
-        "message": "feat：资源链接小砍一刀（api清理）"
-      },
-      {
-        "commit": "c0e83973bbf7fcedecfce8caaa0f9df6e4ca45b0",
-        "author": "Jolc",
-        "date": "2026-03-26 11:39:06",
-        "message": "feat：资源链接小砍一刀"
       }
     ]
   }
