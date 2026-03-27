@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603272235",
+    "items": [
+      {
+        "commit": "ccdb1ea1b0e8f8d3347e35454a6ddb2558d42b9e",
+        "author": "Jolc",
+        "date": "2026-03-27 22:31:53",
+        "message": "feat：订阅搜索云端资源集过滤优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603272104",
     "items": [
       {
@@ -203,23 +214,6 @@
         "author": "Jolc",
         "date": "2026-03-26 11:39:06",
         "message": "feat：资源链接小砍一刀"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603260932",
-    "items": [
-      {
-        "commit": "aad9c8b241f0e61bef8efc7cf79db57b1fb539bd",
-        "author": "xylplm",
-        "date": "2026-03-26 09:32:19",
-        "message": "feat ✨: 添加自动执行选项以支持任务自动运行"
-      },
-      {
-        "commit": "0909820a30aa7e8e6eda14f94fd863c85dc0b300",
-        "author": "xylplm",
-        "date": "2026-03-26 09:27:36",
-        "message": "fix 🐛: 添加基于文件路径的 Redis 去重机制"
       }
     ]
   }
