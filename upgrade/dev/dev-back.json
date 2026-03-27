@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603271505",
+    "items": [
+      {
+        "commit": "6e7c5511bf6c0168946728945e7a48e4f504df5a",
+        "author": "Jolc",
+        "date": "2026-03-27 15:02:30",
+        "message": "feat：hash 上报改为选择驱动名。"
+      },
+      {
+        "commit": "fb26d3cc23b289a2b92711dc5ad308c3cb0d8d13",
+        "author": "xylplm",
+        "date": "2026-03-27 14:36:54",
+        "message": "fix 🐛: 修复跳过文件名过长的路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603271315",
     "items": [
       {
@@ -203,23 +220,6 @@
         "author": "Jolc",
         "date": "2026-03-25 22:00:06",
         "message": "feat: 刷流如果配置了云存储默认上传目录，则自动上报 hash。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603252128",
-    "items": [
-      {
-        "commit": "636abcb4a65294f73dbb4a4a1111681c4d87b706",
-        "author": "xylplm",
-        "date": "2026-03-25 21:25:15",
-        "message": "fix(mlist): reorder hash calculation after metadata extraction"
-      },
-      {
-        "commit": "e9010955f3e2a89cb6756ef16bd81eee18b709f5",
-        "author": "xylplm",
-        "date": "2026-03-25 21:19:47",
-        "message": "fix: add Redis deduplication for hash reporting"
       }
     ]
   }
