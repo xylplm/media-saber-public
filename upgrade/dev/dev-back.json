@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603271019",
+    "items": [
+      {
+        "commit": "4af7943aed85cbcff66a7121294137c970209b77",
+        "author": "Jolc",
+        "date": "2026-03-27 10:19:25",
+        "message": "feat：hash 上报 mq 最多 5 次重试，延迟 1 分钟后重试。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603270201",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "Jolc",
         "date": "2026-03-25 17:49:03",
         "message": "fix: hash 汇报统计"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603251707",
-    "items": [
-      {
-        "commit": "ba8c9921748d42fcd1ef6dcfdb15909fda5a33f4",
-        "author": "allen",
-        "date": "2026-03-25 14:57:56",
-        "message": "fix: 检查媒体库的时候，去重已存在的集号"
       }
     ]
   }
