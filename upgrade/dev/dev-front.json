@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603272104",
+    "items": [
+      {
+        "commit": "b0da4ae63652bd71930570b2d1f0657ef7fcb7f1",
+        "author": "xylplm",
+        "date": "2026-03-27 21:02:49",
+        "message": "🔁 refactor: 优化 Hash 报告组件的样式"
+      },
+      {
+        "commit": "375d7f3c2cf04b3e7a8f66d7e551d0a0229cb8e7",
+        "author": "xylplm",
+        "date": "2026-03-27 20:55:50",
+        "message": "✨ feat: 添加必选部件 Hash 上报贡献榜的逻辑处理"
+      },
+      {
+        "commit": "25bca5ced3a98d83d81c622dd99d58ab98a3613e",
+        "author": "xylplm",
+        "date": "2026-03-27 20:43:47",
+        "message": "✨ feat: 添加 Hash 上报贡献榜组件及相关功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603252258",
     "items": [
       {
@@ -557,35 +580,6 @@
         "author": "xylplm",
         "date": "2026-03-22 15:59:03",
         "message": "feat(svg-icon): 添加目录清理器SVG图标文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603221809",
-    "items": [
-      {
-        "commit": "db5b7bf89e48ac859b1982e7cbfffdde789e8a3d",
-        "author": "GateCross",
-        "date": "2026-03-17 16:39:48",
-        "message": "fix: 媒体详情页未配置资源源显示为未启用"
-      },
-      {
-        "commit": "3ee13fedded4542c567e5e4755b7b527fbf2f7af",
-        "author": "GateCross",
-        "date": "2026-03-17 15:40:45",
-        "message": "fix: 调整 HDHive 资源打开交互文案"
-      },
-      {
-        "commit": "663c4f74086ff8728fd45011cefb2c30846ddf26",
-        "author": "GateCross",
-        "date": "2026-03-17 15:19:13",
-        "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
-      },
-      {
-        "commit": "ff30488870302d8b2c0733351e68f529cc5a95a3",
-        "author": "GateCross",
-        "date": "2026-03-16 23:10:21",
-        "message": "feat: 调整 pansou 资源展示交互"
       }
     ]
   }

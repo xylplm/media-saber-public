@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603272104",
+    "items": [
+      {
+        "commit": "e9d680dd555c09d887a7c4d0de81b07c3e685448",
+        "author": "xylplm",
+        "date": "2026-03-27 16:36:25",
+        "message": "✨ feat: 更新 HashReportStatisticReq 结构体，添加 RangeType 和 StatType 字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603271601",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "xylplm",
         "date": "2026-03-26 09:27:36",
         "message": "fix 🐛: 添加基于文件路径的 Redis 去重机制"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603252234",
-    "items": [
-      {
-        "commit": "27e033da383d107ddea47eeeb6545d87f64de434",
-        "author": "Jolc",
-        "date": "2026-03-25 22:34:14",
-        "message": "fix：hash 今日贡献榜数量配置"
       }
     ]
   }
