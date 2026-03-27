@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603271226",
+    "items": [
+      {
+        "commit": "33a40a7051a5e41cdf3dafa777f34badf80eb945",
+        "author": "Jolc",
+        "date": "2026-03-27 12:25:54",
+        "message": "fix：hash 总榜显示体积，10 分钟实时性。"
+      },
+      {
+        "commit": "c0021a1e6286b5e59cf57b3377e52e31f9ed277e",
+        "author": "Jolc",
+        "date": "2026-03-27 11:33:48",
+        "message": "feat：hash 上报插件开关关闭后不再上报。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603271141",
     "items": [
       {
@@ -191,17 +208,6 @@
         "author": "xylplm",
         "date": "2026-03-25 20:01:22",
         "message": "fix: rename WxName to GroupNickname in UserForwardDetail"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603251945",
-    "items": [
-      {
-        "commit": "14a9ced2592b2a3049f4ee135f8f6fd55991eced",
-        "author": "Jolc",
-        "date": "2026-03-25 19:44:47",
-        "message": "fix：hash 上报插件 logger"
       }
     ]
   }
