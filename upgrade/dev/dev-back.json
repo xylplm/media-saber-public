@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603271601",
+    "items": [
+      {
+        "commit": "85aebb3d16bd46ebfe2c0b9f93aa34778d5ff34f",
+        "author": "Jolc",
+        "date": "2026-03-27 16:00:37",
+        "message": "feat：站点资源增加搜云端资源入口； fix：修复订阅过滤问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603271505",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "Jolc",
         "date": "2026-03-25 22:34:14",
         "message": "fix：hash 今日贡献榜数量配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603252200",
-    "items": [
-      {
-        "commit": "b52d9d0c37a20219d81cbe1a3f48b619a5a90347",
-        "author": "Jolc",
-        "date": "2026-03-25 22:00:06",
-        "message": "feat: 刷流如果配置了云存储默认上传目录，则自动上报 hash。"
       }
     ]
   }
