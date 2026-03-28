@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603282350",
+    "items": [
+      {
+        "commit": "ec82bb7f7895ca9f3637c3ed1f56a90aa7a9a5e8",
+        "author": "Jolc",
+        "date": "2026-03-28 18:46:02",
+        "message": "fix: 空指针"
+      },
+      {
+        "commit": "fabfea08b60bb83174fec87684cad496773d06d1",
+        "author": "xylplm",
+        "date": "2026-03-28 15:09:06",
+        "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281726",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "Jolc",
         "date": "2026-03-27 22:31:53",
         "message": "feat：订阅搜索云端资源集过滤优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603272104",
-    "items": [
-      {
-        "commit": "e9d680dd555c09d887a7c4d0de81b07c3e685448",
-        "author": "xylplm",
-        "date": "2026-03-27 16:36:25",
-        "message": "✨ feat: 更新 HashReportStatisticReq 结构体，添加 RangeType 和 StatType 字段"
       }
     ]
   }

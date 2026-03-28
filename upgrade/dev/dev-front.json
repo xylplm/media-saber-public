@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603282350",
+    "items": [
+      {
+        "commit": "674b3005f441788404b07f6da3aa76208b371627",
+        "author": "Jolc",
+        "date": "2026-03-28 23:49:52",
+        "message": "feat：云资源支持集数范围过滤"
+      },
+      {
+        "commit": "c78bf6971c372f6901737ecbbb7de3ad84f0ddb6",
+        "author": "GateCross",
+        "date": "2026-03-28 23:16:38",
+        "message": "feat: 增加云端资源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281726",
     "items": [
       {
@@ -443,17 +460,6 @@
         "author": "GateCross",
         "date": "2026-03-28 11:16:57",
         "message": "fix: 优化云端搜索条件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281041",
-    "items": [
-      {
-        "commit": "1c817ef158dea22881688bd4a06a41481471b816",
-        "author": "GateCross",
-        "date": "2026-03-28 10:41:36",
-        "message": "feat: 增加云端资源搜索条件"
       }
     ]
   }
