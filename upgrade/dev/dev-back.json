@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281509",
+    "items": [
+      {
+        "commit": "fabfea08b60bb83174fec87684cad496773d06d1",
+        "author": "xylplm",
+        "date": "2026-03-28 15:09:06",
+        "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281117",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "xylplm",
         "date": "2026-03-27 13:11:15",
         "message": "feat ✨: 添加 hash 上报统计功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271226",
-    "items": [
-      {
-        "commit": "33a40a7051a5e41cdf3dafa777f34badf80eb945",
-        "author": "Jolc",
-        "date": "2026-03-27 12:25:54",
-        "message": "fix：hash 总榜显示体积，10 分钟实时性。"
-      },
-      {
-        "commit": "c0021a1e6286b5e59cf57b3377e52e31f9ed277e",
-        "author": "Jolc",
-        "date": "2026-03-27 11:33:48",
-        "message": "feat：hash 上报插件开关关闭后不再上报。"
       }
     ]
   }
