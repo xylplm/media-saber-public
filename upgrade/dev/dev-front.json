@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281244",
+    "items": [
+      {
+        "commit": "c47aa61eb24a16c0a4e610327391703522c87f75",
+        "author": "xylplm",
+        "date": "2026-03-28 12:38:14",
+        "message": "✨ feat: 添加消息缓存配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281215",
     "items": [
       {
@@ -107,41 +118,6 @@
         "author": "GateCross",
         "date": "2026-03-25 22:55:27",
         "message": "feat: 优化媒体详情云端资源下载交互"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603250102",
-    "items": [
-      {
-        "commit": "3588670d690b4627963064feacce47a9f63a9381",
-        "author": "xylplm",
-        "date": "2026-03-24 22:35:11",
-        "message": "fix 🐛: 移除取消订阅按钮的背景颜色样式"
-      },
-      {
-        "commit": "3b6fd6bc9141308f66bfee684a5cf89f473b1dca",
-        "author": "GateCross",
-        "date": "2026-03-24 20:48:21",
-        "message": "feat: 优化ED2K资源列表分页与云下载交互"
-      },
-      {
-        "commit": "3e4eae978aabe392a92968880ac321c6a278932e",
-        "author": "Jolc",
-        "date": "2026-03-24 20:37:21",
-        "message": "feat：插件 svg skill"
-      },
-      {
-        "commit": "1aa6fffe2c214bfe74e915e70ad8bfe0f082bf58",
-        "author": "xylplm",
-        "date": "2026-03-24 19:42:57",
-        "message": "✨ feat: 添加地址修改警告提示功能"
-      },
-      {
-        "commit": "2af74d21eff1d0b75f355daefb539a84828cc7ff",
-        "author": "xylplm",
-        "date": "2026-03-24 19:42:50",
-        "message": "✨ feat: 修改确认对话框按钮名称逻辑，仅在用户未自定义时更新"
       }
     ]
   }
