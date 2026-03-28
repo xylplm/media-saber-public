@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281726",
+    "items": [
+      {
+        "commit": "1142ec3cf22009f045e094d3c8c01431bff324e3",
+        "author": "GateCross",
+        "date": "2026-03-28 17:25:48",
+        "message": "fix: 移除云端存储搜索结果相关代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281705",
     "items": [
       {
@@ -443,17 +454,6 @@
         "author": "GateCross",
         "date": "2026-03-28 10:41:36",
         "message": "feat: 增加云端资源搜索条件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281021",
-    "items": [
-      {
-        "commit": "65407d7583825634de9889c1093f5893513afbc7",
-        "author": "GateCross",
-        "date": "2026-03-28 10:16:00",
-        "message": "feat: 根据默认云下载目录自动判断云下载方式"
       }
     ]
   }

@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202603281726",
+    "items": [
+      {
+        "commit": "3364ef9d5e77e3cbeb81d0dba0d0b513dcbb764c",
+        "author": "GateCross",
+        "date": "2026-03-28 11:16:53",
+        "message": "fix: 优化云端搜索"
+      },
+      {
+        "commit": "82d23ca2efea618fb228263385850d1c9bf1faf2",
+        "author": "GateCross",
+        "date": "2026-03-28 10:41:10",
+        "message": "feat: 云端资源支持搜索tmdbid"
+      },
+      {
+        "commit": "5e59d4703925de4fe1c0f5a38a537cfa73e8d927",
+        "author": "GateCross",
+        "date": "2026-03-28 10:20:51",
+        "message": "fix: 优化云端资源分页参数"
+      },
+      {
+        "commit": "08077f88888b3ccd464e0f9134316b01f19afc26",
+        "author": "Jolc",
+        "date": "2026-03-28 03:59:32",
+        "message": "feat：撤回 bt"
+      },
+      {
+        "commit": "ccdb1ea1b0e8f8d3347e35454a6ddb2558d42b9e",
+        "author": "Jolc",
+        "date": "2026-03-27 22:31:53",
+        "message": "feat：订阅搜索云端资源集过滤优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281705",
     "items": [
       {
@@ -119,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-03-27 16:36:25",
         "message": "✨ feat: 更新 HashReportStatisticReq 结构体，添加 RangeType 和 StatType 字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271601",
-    "items": [
-      {
-        "commit": "85aebb3d16bd46ebfe2c0b9f93aa34778d5ff34f",
-        "author": "Jolc",
-        "date": "2026-03-27 16:00:37",
-        "message": "feat：站点资源增加搜云端资源入口； fix：修复订阅过滤问题。"
       }
     ]
   }
