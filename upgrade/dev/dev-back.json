@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202603281535",
+    "items": [
+      {
+        "commit": "3364ef9d5e77e3cbeb81d0dba0d0b513dcbb764c",
+        "author": "GateCross",
+        "date": "2026-03-28 11:16:53",
+        "message": "fix: 优化云端搜索"
+      },
+      {
+        "commit": "82d23ca2efea618fb228263385850d1c9bf1faf2",
+        "author": "GateCross",
+        "date": "2026-03-28 10:41:10",
+        "message": "feat: 云端资源支持搜索tmdbid"
+      },
+      {
+        "commit": "5e59d4703925de4fe1c0f5a38a537cfa73e8d927",
+        "author": "GateCross",
+        "date": "2026-03-28 10:20:51",
+        "message": "fix: 优化云端资源分页参数"
+      },
+      {
+        "commit": "08077f88888b3ccd464e0f9134316b01f19afc26",
+        "author": "Jolc",
+        "date": "2026-03-28 03:59:32",
+        "message": "feat：撤回 bt"
+      },
+      {
+        "commit": "ccdb1ea1b0e8f8d3347e35454a6ddb2558d42b9e",
+        "author": "Jolc",
+        "date": "2026-03-27 22:31:53",
+        "message": "feat：订阅搜索云端资源集过滤优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281509",
     "items": [
       {
@@ -101,35 +136,6 @@
         "author": "xylplm",
         "date": "2026-03-27 14:36:54",
         "message": "fix 🐛: 修复跳过文件名过长的路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271315",
-    "items": [
-      {
-        "commit": "badca0574b8edcf494b9d192f5eeaba1576f584f",
-        "author": "xylplm",
-        "date": "2026-03-27 13:17:15",
-        "message": "feat ✨: 添加 HashReportStatisticItem 中的 Size 字段"
-      },
-      {
-        "commit": "f8ba5dccfdafa9fa442ad468983c42fa092e276f",
-        "author": "Jolc",
-        "date": "2026-03-27 13:14:22",
-        "message": "fix：hash 统计，10 分钟实时性。"
-      },
-      {
-        "commit": "c0f310cd716b1c872d1d5d9cccb970f25d36d28e",
-        "author": "xylplm",
-        "date": "2026-03-27 13:13:29",
-        "message": "fix 🐛: 更新 .gitignore，忽略 .codex 目录"
-      },
-      {
-        "commit": "c6b8570633cded7d8fb463a54905c949f5a8c057",
-        "author": "xylplm",
-        "date": "2026-03-27 13:11:15",
-        "message": "feat ✨: 添加 hash 上报统计功能"
       }
     ]
   }

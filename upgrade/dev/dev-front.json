@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281535",
+    "items": [
+      {
+        "commit": "c47aa61eb24a16c0a4e610327391703522c87f75",
+        "author": "xylplm",
+        "date": "2026-03-28 12:38:14",
+        "message": "✨ feat: 添加消息缓存配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281509",
     "items": [
       {
@@ -323,17 +334,6 @@
         "author": "GateCross",
         "date": "2026-03-28 09:08:01",
         "message": "fix: 优化云端资源115批量下载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603280400",
-    "items": [
-      {
-        "commit": "8f912baab5d341766f170611473b7fe2dd6f8bb8",
-        "author": "GateCross",
-        "date": "2026-03-27 23:39:25",
-        "message": "fix: 隐藏云端资源Ed2k复制按钮"
       }
     ]
   }
