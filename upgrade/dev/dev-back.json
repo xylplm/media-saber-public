@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281705",
+    "items": [
+      {
+        "commit": "fabfea08b60bb83174fec87684cad496773d06d1",
+        "author": "xylplm",
+        "date": "2026-03-28 15:09:06",
+        "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281535",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "Jolc",
         "date": "2026-03-27 16:00:37",
         "message": "feat：站点资源增加搜云端资源入口； fix：修复订阅过滤问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271505",
-    "items": [
-      {
-        "commit": "6e7c5511bf6c0168946728945e7a48e4f504df5a",
-        "author": "Jolc",
-        "date": "2026-03-27 15:02:30",
-        "message": "feat：hash 上报改为选择驱动名。"
-      },
-      {
-        "commit": "fb26d3cc23b289a2b92711dc5ad308c3cb0d8d13",
-        "author": "xylplm",
-        "date": "2026-03-27 14:36:54",
-        "message": "fix 🐛: 修复跳过文件名过长的路径"
       }
     ]
   }

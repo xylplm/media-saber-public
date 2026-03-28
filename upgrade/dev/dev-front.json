@@ -1,5 +1,136 @@
 [
   {
+    "version": "DEV_202603281705",
+    "items": [
+      {
+        "commit": "34ba277d5cf6535715df47241cf9e302fabbe787",
+        "author": "GateCross",
+        "date": "2026-03-28 17:03:11",
+        "message": "fix: 优化hdhive和pansou设置逻辑"
+      },
+      {
+        "commit": "4510476a48b3e7bf1365c8d119241599169f818e",
+        "author": "GateCross",
+        "date": "2026-03-28 12:15:21",
+        "message": "fix: 优化云盘资源123转存"
+      },
+      {
+        "commit": "98c74a863f721d873386de13095d01ae51f937bc",
+        "author": "GateCross",
+        "date": "2026-03-28 11:16:57",
+        "message": "fix: 优化云端搜索条件"
+      },
+      {
+        "commit": "1c817ef158dea22881688bd4a06a41481471b816",
+        "author": "GateCross",
+        "date": "2026-03-28 10:41:36",
+        "message": "feat: 增加云端资源搜索条件"
+      },
+      {
+        "commit": "65407d7583825634de9889c1093f5893513afbc7",
+        "author": "GateCross",
+        "date": "2026-03-28 10:16:00",
+        "message": "feat: 根据默认云下载目录自动判断云下载方式"
+      },
+      {
+        "commit": "5bdf99d227dc82606023e6aafb1694399adbe24d",
+        "author": "GateCross",
+        "date": "2026-03-28 09:08:01",
+        "message": "fix: 优化云端资源115批量下载"
+      },
+      {
+        "commit": "8f912baab5d341766f170611473b7fe2dd6f8bb8",
+        "author": "GateCross",
+        "date": "2026-03-27 23:39:25",
+        "message": "fix: 隐藏云端资源Ed2k复制按钮"
+      },
+      {
+        "commit": "161ed14fab0d3e6601ea85ad33774f075ed67022",
+        "author": "GateCross",
+        "date": "2026-03-27 23:11:48",
+        "message": "refactor: 合并云端资源搜索结果页"
+      },
+      {
+        "commit": "b0da4ae63652bd71930570b2d1f0657ef7fcb7f1",
+        "author": "xylplm",
+        "date": "2026-03-27 21:02:49",
+        "message": "🔁 refactor: 优化 Hash 报告组件的样式"
+      },
+      {
+        "commit": "375d7f3c2cf04b3e7a8f66d7e551d0a0229cb8e7",
+        "author": "xylplm",
+        "date": "2026-03-27 20:55:50",
+        "message": "✨ feat: 添加必选部件 Hash 上报贡献榜的逻辑处理"
+      },
+      {
+        "commit": "25bca5ced3a98d83d81c622dd99d58ab98a3613e",
+        "author": "xylplm",
+        "date": "2026-03-27 20:43:47",
+        "message": "✨ feat: 添加 Hash 上报贡献榜组件及相关功能"
+      },
+      {
+        "commit": "17d9ce633d519490ef116a5ba4eecb243cc228ae",
+        "author": "GateCross",
+        "date": "2026-03-25 22:55:27",
+        "message": "feat: 优化媒体详情云端资源下载交互"
+      },
+      {
+        "commit": "3588670d690b4627963064feacce47a9f63a9381",
+        "author": "xylplm",
+        "date": "2026-03-24 22:35:11",
+        "message": "fix 🐛: 移除取消订阅按钮的背景颜色样式"
+      },
+      {
+        "commit": "3b6fd6bc9141308f66bfee684a5cf89f473b1dca",
+        "author": "GateCross",
+        "date": "2026-03-24 20:48:21",
+        "message": "feat: 优化ED2K资源列表分页与云下载交互"
+      },
+      {
+        "commit": "3e4eae978aabe392a92968880ac321c6a278932e",
+        "author": "Jolc",
+        "date": "2026-03-24 20:37:21",
+        "message": "feat：插件 svg skill"
+      },
+      {
+        "commit": "1aa6fffe2c214bfe74e915e70ad8bfe0f082bf58",
+        "author": "xylplm",
+        "date": "2026-03-24 19:42:57",
+        "message": "✨ feat: 添加地址修改警告提示功能"
+      },
+      {
+        "commit": "2af74d21eff1d0b75f355daefb539a84828cc7ff",
+        "author": "xylplm",
+        "date": "2026-03-24 19:42:50",
+        "message": "✨ feat: 修改确认对话框按钮名称逻辑，仅在用户未自定义时更新"
+      },
+      {
+        "commit": "312760252ef98c95c8ba3a1bf57b773c87c6be8b",
+        "author": "syueya",
+        "date": "2026-03-24 16:45:29",
+        "message": "ed2k"
+      },
+      {
+        "commit": "5c4a206620d756643348ead50f41ed44e18c1307",
+        "author": "syueya",
+        "date": "2026-03-24 14:52:16",
+        "message": "ed2k链接"
+      },
+      {
+        "commit": "2a2118eda3353f442c43d2a483a39b48a9fbfd5c",
+        "author": "Jolc",
+        "date": "2026-03-23 23:31:53",
+        "message": "feat：本地文件增加生成 ed2k 按钮"
+      },
+      {
+        "commit": "0459850d571dd7807e49462447c126e948c01914",
+        "author": "xylplm",
+        "date": "2026-03-23 16:17:32",
+        "message": "✨ feat: 更新云存储设置提交逻辑，优化用户反馈信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281535",
     "items": [
       {
@@ -323,17 +454,6 @@
         "author": "GateCross",
         "date": "2026-03-28 10:16:00",
         "message": "feat: 根据默认云下载目录自动判断云下载方式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603280909",
-    "items": [
-      {
-        "commit": "5bdf99d227dc82606023e6aafb1694399adbe24d",
-        "author": "GateCross",
-        "date": "2026-03-28 09:08:01",
-        "message": "fix: 优化云端资源115批量下载"
       }
     ]
   }
