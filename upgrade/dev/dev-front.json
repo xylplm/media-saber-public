@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281215",
+    "items": [
+      {
+        "commit": "4510476a48b3e7bf1365c8d119241599169f818e",
+        "author": "GateCross",
+        "date": "2026-03-28 12:15:21",
+        "message": "fix: 优化云盘资源123转存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281117",
     "items": [
       {
@@ -131,29 +142,6 @@
         "author": "xylplm",
         "date": "2026-03-24 19:42:50",
         "message": "✨ feat: 修改确认对话框按钮名称逻辑，仅在用户未自定义时更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603241747",
-    "items": [
-      {
-        "commit": "312760252ef98c95c8ba3a1bf57b773c87c6be8b",
-        "author": "syueya",
-        "date": "2026-03-24 16:45:29",
-        "message": "ed2k"
-      },
-      {
-        "commit": "5c4a206620d756643348ead50f41ed44e18c1307",
-        "author": "syueya",
-        "date": "2026-03-24 14:52:16",
-        "message": "ed2k链接"
-      },
-      {
-        "commit": "2a2118eda3353f442c43d2a483a39b48a9fbfd5c",
-        "author": "Jolc",
-        "date": "2026-03-23 23:31:53",
-        "message": "feat：本地文件增加生成 ed2k 按钮"
       }
     ]
   }
