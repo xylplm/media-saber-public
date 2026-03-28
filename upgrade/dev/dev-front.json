@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281041",
+    "items": [
+      {
+        "commit": "1c817ef158dea22881688bd4a06a41481471b816",
+        "author": "GateCross",
+        "date": "2026-03-28 10:41:36",
+        "message": "feat: 增加云端资源搜索条件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281021",
     "items": [
       {
@@ -329,17 +340,6 @@
         "author": "xylplm",
         "date": "2026-03-09 10:53:04",
         "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603241322",
-    "items": [
-      {
-        "commit": "2a2118eda3353f442c43d2a483a39b48a9fbfd5c",
-        "author": "Jolc",
-        "date": "2026-03-23 23:31:53",
-        "message": "feat：本地文件增加生成 ed2k 按钮"
       }
     ]
   }

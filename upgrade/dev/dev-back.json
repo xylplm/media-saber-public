@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281041",
+    "items": [
+      {
+        "commit": "82d23ca2efea618fb228263385850d1c9bf1faf2",
+        "author": "GateCross",
+        "date": "2026-03-28 10:41:10",
+        "message": "feat: 云端资源支持搜索tmdbid"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281021",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "Jolc",
         "date": "2026-03-27 10:19:25",
         "message": "feat：hash 上报 mq 最多 5 次重试，延迟 1 分钟后重试。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271047",
-    "items": [
-      {
-        "commit": "ae852833d8764c08e329f7f7ba646efaff579f8e",
-        "author": "liurongjie",
-        "date": "2026-03-27 10:44:49",
-        "message": "feat(plugin): 添加Plex拼音本地化插件并发处理功能"
       }
     ]
   }
