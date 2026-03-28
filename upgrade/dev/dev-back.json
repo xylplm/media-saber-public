@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281117",
+    "items": [
+      {
+        "commit": "3364ef9d5e77e3cbeb81d0dba0d0b513dcbb764c",
+        "author": "GateCross",
+        "date": "2026-03-28 11:16:53",
+        "message": "fix: 优化云端搜索"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281041",
     "items": [
       {
@@ -125,35 +136,6 @@
         "author": "Jolc",
         "date": "2026-03-27 11:33:48",
         "message": "feat：hash 上报插件开关关闭后不再上报。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271141",
-    "items": [
-      {
-        "commit": "3fb21da8d9ad148746f603a42cd64f4634168147",
-        "author": "liurongjie",
-        "date": "2026-03-27 11:40:31",
-        "message": "fix(plugin): 修复 Plex 本地化插件日志前缀显示问题"
-      },
-      {
-        "commit": "c0021a1e6286b5e59cf57b3377e52e31f9ed277e",
-        "author": "Jolc",
-        "date": "2026-03-27 11:33:48",
-        "message": "feat：hash 上报插件开关关闭后不再上报。"
-      },
-      {
-        "commit": "0f1736727685f3975f82a53d627611a0bbb6ba21",
-        "author": "liurongjie",
-        "date": "2026-03-27 11:29:38",
-        "message": "fix(form): 修复中文本地化文件中的列宽度配置"
-      },
-      {
-        "commit": "4af7943aed85cbcff66a7121294137c970209b77",
-        "author": "Jolc",
-        "date": "2026-03-27 10:19:25",
-        "message": "feat：hash 上报 mq 最多 5 次重试，延迟 1 分钟后重试。"
       }
     ]
   }
