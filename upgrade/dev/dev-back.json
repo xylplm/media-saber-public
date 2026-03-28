@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281021",
+    "items": [
+      {
+        "commit": "5e59d4703925de4fe1c0f5a38a537cfa73e8d927",
+        "author": "GateCross",
+        "date": "2026-03-28 10:20:51",
+        "message": "fix: 优化云端资源分页参数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603280400",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-03-27 10:44:49",
         "message": "feat(plugin): 添加Plex拼音本地化插件并发处理功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603271019",
-    "items": [
-      {
-        "commit": "4af7943aed85cbcff66a7121294137c970209b77",
-        "author": "Jolc",
-        "date": "2026-03-27 10:19:25",
-        "message": "feat：hash 上报 mq 最多 5 次重试，延迟 1 分钟后重试。"
       }
     ]
   }
