@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603281440",
+    "items": [
+      {
+        "commit": "c47aa61eb24a16c0a4e610327391703522c87f75",
+        "author": "xylplm",
+        "date": "2026-03-28 12:38:14",
+        "message": "✨ feat: 添加消息缓存配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603281345",
     "items": [
       {
@@ -209,29 +220,6 @@
         "author": "GateCross",
         "date": "2026-03-27 23:11:48",
         "message": "refactor: 合并云端资源搜索结果页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603272104",
-    "items": [
-      {
-        "commit": "b0da4ae63652bd71930570b2d1f0657ef7fcb7f1",
-        "author": "xylplm",
-        "date": "2026-03-27 21:02:49",
-        "message": "🔁 refactor: 优化 Hash 报告组件的样式"
-      },
-      {
-        "commit": "375d7f3c2cf04b3e7a8f66d7e551d0a0229cb8e7",
-        "author": "xylplm",
-        "date": "2026-03-27 20:55:50",
-        "message": "✨ feat: 添加必选部件 Hash 上报贡献榜的逻辑处理"
-      },
-      {
-        "commit": "25bca5ced3a98d83d81c622dd99d58ab98a3613e",
-        "author": "xylplm",
-        "date": "2026-03-27 20:43:47",
-        "message": "✨ feat: 添加 Hash 上报贡献榜组件及相关功能"
       }
     ]
   }
