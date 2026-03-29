@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603292108",
+    "items": [
+      {
+        "commit": "697324922c889a82cd5c058abe4bfc259af7c38b",
+        "author": "GateCross",
+        "date": "2026-03-29 20:40:48",
+        "message": "fix: 修复云端订阅"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603292041",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "Jolc",
         "date": "2026-03-27 22:31:53",
         "message": "feat：订阅搜索云端资源集过滤优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281509",
-    "items": [
-      {
-        "commit": "fabfea08b60bb83174fec87684cad496773d06d1",
-        "author": "xylplm",
-        "date": "2026-03-28 15:09:06",
-        "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
       }
     ]
   }

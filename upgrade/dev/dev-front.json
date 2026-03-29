@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603292108",
+    "items": [
+      {
+        "commit": "d2053132a9a077350d2c5650f5e7ae7e3467353e",
+        "author": "liurongjie",
+        "date": "2026-03-29 21:04:34",
+        "message": "style(search): 调整搜索结果卡片布局和文本显示样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603282350",
     "items": [
       {
@@ -449,17 +460,6 @@
         "author": "GateCross",
         "date": "2026-03-28 12:15:21",
         "message": "fix: 优化云盘资源123转存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281117",
-    "items": [
-      {
-        "commit": "98c74a863f721d873386de13095d01ae51f937bc",
-        "author": "GateCross",
-        "date": "2026-03-28 11:16:57",
-        "message": "fix: 优化云端搜索条件"
       }
     ]
   }
