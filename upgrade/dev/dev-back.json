@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603292139",
+    "items": [
+      {
+        "commit": "8cb9b3220abf05ba5189d3acb141cc9f24376e90",
+        "author": "Jolc",
+        "date": "2026-03-29 21:32:35",
+        "message": "fix：上传报 hash 判断是否有整理前的文件，有的话用整理前的文件名。"
+      },
+      {
+        "commit": "e67236668a3ab4067038deefdc87741f27a5327c",
+        "author": "Jolc",
+        "date": "2026-03-29 20:20:49",
+        "message": "fix: report app 日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603292108",
     "items": [
       {
@@ -131,41 +148,6 @@
         "author": "xylplm",
         "date": "2026-03-28 15:09:06",
         "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281535",
-    "items": [
-      {
-        "commit": "3364ef9d5e77e3cbeb81d0dba0d0b513dcbb764c",
-        "author": "GateCross",
-        "date": "2026-03-28 11:16:53",
-        "message": "fix: 优化云端搜索"
-      },
-      {
-        "commit": "82d23ca2efea618fb228263385850d1c9bf1faf2",
-        "author": "GateCross",
-        "date": "2026-03-28 10:41:10",
-        "message": "feat: 云端资源支持搜索tmdbid"
-      },
-      {
-        "commit": "5e59d4703925de4fe1c0f5a38a537cfa73e8d927",
-        "author": "GateCross",
-        "date": "2026-03-28 10:20:51",
-        "message": "fix: 优化云端资源分页参数"
-      },
-      {
-        "commit": "08077f88888b3ccd464e0f9134316b01f19afc26",
-        "author": "Jolc",
-        "date": "2026-03-28 03:59:32",
-        "message": "feat：撤回 bt"
-      },
-      {
-        "commit": "ccdb1ea1b0e8f8d3347e35454a6ddb2558d42b9e",
-        "author": "Jolc",
-        "date": "2026-03-27 22:31:53",
-        "message": "feat：订阅搜索云端资源集过滤优化"
       }
     ]
   }
