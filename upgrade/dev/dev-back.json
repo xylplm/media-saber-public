@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603291901",
+    "items": [
+      {
+        "commit": "4dbfc38d5a92c038ba2a3a681b92000b2702b642",
+        "author": "Jolc",
+        "date": "2026-03-29 19:00:33",
+        "message": "fix: 云资源种子分组加上资源链接类型。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603291656",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "GateCross",
         "date": "2026-03-28 11:16:53",
         "message": "fix: 优化云端搜索"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281041",
-    "items": [
-      {
-        "commit": "82d23ca2efea618fb228263385850d1c9bf1faf2",
-        "author": "GateCross",
-        "date": "2026-03-28 10:41:10",
-        "message": "feat: 云端资源支持搜索tmdbid"
       }
     ]
   }
