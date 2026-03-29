@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603292148",
+    "items": [
+      {
+        "commit": "4f49bf42bba73fd606256d8ca9a9d9f738d91dd1",
+        "author": "Jolc",
+        "date": "2026-03-29 21:45:20",
+        "message": "feat：常用功能增加搜索云端资源。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603292108",
     "items": [
       {
@@ -449,17 +460,6 @@
         "author": "xylplm",
         "date": "2026-03-28 12:38:14",
         "message": "✨ feat: 添加消息缓存配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281215",
-    "items": [
-      {
-        "commit": "4510476a48b3e7bf1365c8d119241599169f818e",
-        "author": "GateCross",
-        "date": "2026-03-28 12:15:21",
-        "message": "fix: 优化云盘资源123转存"
       }
     ]
   }
