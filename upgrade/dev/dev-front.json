@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603292336",
+    "items": [
+      {
+        "commit": "ab1c9eab01b341052fa9d4dd138e8a5ff595da49",
+        "author": "xylplm",
+        "date": "2026-03-29 23:37:32",
+        "message": "✨ feat: 增强贡献统计鼓励信息"
+      },
+      {
+        "commit": "658f5e2bf1362bde37e7b6f0da1aac721cd8000f",
+        "author": "xylplm",
+        "date": "2026-03-29 23:34:02",
+        "message": "✨ feat: 添加个人贡献统计与鼓励信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603292148",
     "items": [
       {
@@ -449,17 +466,6 @@
         "author": "xylplm",
         "date": "2026-03-23 16:17:32",
         "message": "✨ feat: 更新云存储设置提交逻辑，优化用户反馈信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281244",
-    "items": [
-      {
-        "commit": "c47aa61eb24a16c0a4e610327391703522c87f75",
-        "author": "xylplm",
-        "date": "2026-03-28 12:38:14",
-        "message": "✨ feat: 添加消息缓存配置"
       }
     ]
   }
