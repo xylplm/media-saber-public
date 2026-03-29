@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603300030",
+    "items": [
+      {
+        "commit": "346b754d1b8b29961bb324100fc25207d84dce35",
+        "author": "Jolc",
+        "date": "2026-03-30 00:30:08",
+        "message": "fix: 刷流自动上报hash"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603292336",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "Jolc",
         "date": "2026-03-29 11:45:50",
         "message": "feat：从文件路径提取tmdbid问题修复、入库时立即同步该媒体的媒体库信息。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603282350",
-    "items": [
-      {
-        "commit": "ec82bb7f7895ca9f3637c3ed1f56a90aa7a9a5e8",
-        "author": "Jolc",
-        "date": "2026-03-28 18:46:02",
-        "message": "fix: 空指针"
-      },
-      {
-        "commit": "fabfea08b60bb83174fec87684cad496773d06d1",
-        "author": "xylplm",
-        "date": "2026-03-28 15:09:06",
-        "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
       }
     ]
   }
