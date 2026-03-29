@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603292222",
+    "items": [
+      {
+        "commit": "7290e3c39a82327113b364ee4fec60504b63694d",
+        "author": "Jolc",
+        "date": "2026-03-29 22:21:40",
+        "message": "fix：修复订阅优先订阅云再走pt。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603292139",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-03-27 22:31:53",
         "message": "feat：订阅搜索云端资源集过滤优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281705",
-    "items": [
-      {
-        "commit": "fabfea08b60bb83174fec87684cad496773d06d1",
-        "author": "xylplm",
-        "date": "2026-03-28 15:09:06",
-        "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
       }
     ]
   }
