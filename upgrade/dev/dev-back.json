@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603292041",
+    "items": [
+      {
+        "commit": "e67236668a3ab4067038deefdc87741f27a5327c",
+        "author": "Jolc",
+        "date": "2026-03-29 20:20:49",
+        "message": "fix: report app 日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603291901",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-03-28 15:09:06",
         "message": "fix: 更新极影视刷新接口【重新获取】方式，之前用的【重新匹配】太慢了"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281117",
-    "items": [
-      {
-        "commit": "3364ef9d5e77e3cbeb81d0dba0d0b513dcbb764c",
-        "author": "GateCross",
-        "date": "2026-03-28 11:16:53",
-        "message": "fix: 优化云端搜索"
       }
     ]
   }
