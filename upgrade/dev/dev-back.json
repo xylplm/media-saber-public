@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603301726",
+    "items": [
+      {
+        "commit": "ef02b0229959d01e968be71b70906da81ce923e8",
+        "author": "liurongjie",
+        "date": "2026-03-30 17:25:02",
+        "message": "fix(transfer): 优化文件入库失败提醒消息格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603301649",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-03-29 20:20:49",
         "message": "fix: report app 日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603292108",
-    "items": [
-      {
-        "commit": "697324922c889a82cd5c058abe4bfc259af7c38b",
-        "author": "GateCross",
-        "date": "2026-03-29 20:40:48",
-        "message": "fix: 修复云端订阅"
       }
     ]
   }
