@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603301649",
+    "items": [
+      {
+        "commit": "328e278e767169e1b654d8ab43d9d1d6bdb09fd7",
+        "author": "liurongjie",
+        "date": "2026-03-30 16:48:18",
+        "message": "feat(tasks): 优化云存储下载成功消息推送功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603301230",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-03-29 20:40:48",
         "message": "fix: 修复云端订阅"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603292041",
-    "items": [
-      {
-        "commit": "e67236668a3ab4067038deefdc87741f27a5327c",
-        "author": "Jolc",
-        "date": "2026-03-29 20:20:49",
-        "message": "fix: report app 日志"
       }
     ]
   }
