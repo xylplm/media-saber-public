@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603302223",
+    "items": [
+      {
+        "commit": "498d3644442fe3ba00b8b1c56b622cd856fea083",
+        "author": "Jolc",
+        "date": "2026-03-30 22:23:37",
+        "message": "feat：emby webhook 入库通知时立即同步媒体库媒体信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603302112",
     "items": [
       {
@@ -100,17 +111,6 @@
         "commit": "44a2bd5bbcfc8b6d4112b956aa9afaacf4f07860",
         "author": "Jolc",
         "date": "2026-03-30 01:05:27",
-        "message": "fix: 刷流自动上报hash"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603300030",
-    "items": [
-      {
-        "commit": "346b754d1b8b29961bb324100fc25207d84dce35",
-        "author": "Jolc",
-        "date": "2026-03-30 00:30:08",
         "message": "fix: 刷流自动上报hash"
       }
     ]
