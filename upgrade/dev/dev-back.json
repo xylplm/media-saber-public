@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603302112",
+    "items": [
+      {
+        "commit": "8829a51a325527d91314bf333fa942d1181a3f85",
+        "author": "Jolc",
+        "date": "2026-03-30 21:11:23",
+        "message": "feat：hash贡献榜点击进入云端资源搜索。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603302031",
     "items": [
       {
@@ -101,29 +112,6 @@
         "author": "Jolc",
         "date": "2026-03-30 00:30:08",
         "message": "fix: 刷流自动上报hash"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603292336",
-    "items": [
-      {
-        "commit": "684f76f38e8c78223d667c2cfa220ea2114a91a8",
-        "author": "Jolc",
-        "date": "2026-03-29 23:36:13",
-        "message": "fix：修复正在做种状态判断、修复刷流报hash问题。"
-      },
-      {
-        "commit": "635ce31107afa2d2a72006844d704f990f82a817",
-        "author": "Jolc",
-        "date": "2026-03-29 23:33:51",
-        "message": "fix：修复正在做种状态判断、修复刷流报hash问题。"
-      },
-      {
-        "commit": "0719562377ffb5a619f78d5ea1e347419b61b668",
-        "author": "xylplm",
-        "date": "2026-03-29 23:30:53",
-        "message": "feat ✨: 更新 HashReportStatistic 接口，添加统计维度贡献信息"
       }
     ]
   }
