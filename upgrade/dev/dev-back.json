@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603301839",
+    "items": [
+      {
+        "commit": "495ae9b5cb45fd076c769aae8cf5d51c0489cb6d",
+        "author": "Jolc",
+        "date": "2026-03-30 18:37:40",
+        "message": "fix: 下载上传上报hash异常问题修复。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603301726",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "Jolc",
         "date": "2026-03-29 22:21:40",
         "message": "fix：修复订阅优先订阅云再走pt。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603292139",
-    "items": [
-      {
-        "commit": "8cb9b3220abf05ba5189d3acb141cc9f24376e90",
-        "author": "Jolc",
-        "date": "2026-03-29 21:32:35",
-        "message": "fix：上传报 hash 判断是否有整理前的文件，有的话用整理前的文件名。"
-      },
-      {
-        "commit": "e67236668a3ab4067038deefdc87741f27a5327c",
-        "author": "Jolc",
-        "date": "2026-03-29 20:20:49",
-        "message": "fix: report app 日志"
       }
     ]
   }
