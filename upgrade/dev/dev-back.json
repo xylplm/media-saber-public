@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603300922",
+    "items": [
+      {
+        "commit": "25efc77abe1cce3e4bcffde83a675af37a56fe87",
+        "author": "Jolc",
+        "date": "2026-03-30 09:22:29",
+        "message": "fix: 先撤回刷流自动上报hash"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603300106",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "Jolc",
         "date": "2026-03-29 15:24:40",
         "message": "fix: hash 上报外挂"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603291226",
-    "items": [
-      {
-        "commit": "7c5e0c55add018a6826b41bc79b92ae6a99dec71",
-        "author": "Jolc",
-        "date": "2026-03-29 12:23:14",
-        "message": "fix：上报榜单缓存碰撞问题。"
       }
     ]
   }
