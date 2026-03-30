@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603302031",
+    "items": [
+      {
+        "commit": "01e67707550c1f0f01b3265dfa5a1105fe1072a7",
+        "author": "Jolc",
+        "date": "2026-03-30 20:30:36",
+        "message": "fix: 下载上传上报hash异常问题修复。"
+      },
+      {
+        "commit": "ef02b0229959d01e968be71b70906da81ce923e8",
+        "author": "liurongjie",
+        "date": "2026-03-30 17:25:02",
+        "message": "fix(transfer): 优化文件入库失败提醒消息格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603301839",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-03-29 23:30:53",
         "message": "feat ✨: 更新 HashReportStatistic 接口，添加统计维度贡献信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603292222",
-    "items": [
-      {
-        "commit": "7290e3c39a82327113b364ee4fec60504b63694d",
-        "author": "Jolc",
-        "date": "2026-03-29 22:21:40",
-        "message": "fix：修复订阅优先订阅云再走pt。"
       }
     ]
   }
