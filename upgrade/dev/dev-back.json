@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603302303",
+    "items": [
+      {
+        "commit": "a7293d94cefd1b388c8f1c75160e87756a3317f1",
+        "author": "Jolc",
+        "date": "2026-03-30 23:04:37",
+        "message": "feat：云下载、转存通知显示贡献者"
+      },
+      {
+        "commit": "4bea0f241d1cfb8b8ada6447337557f72d4c2647",
+        "author": "Jolc",
+        "date": "2026-03-30 23:01:22",
+        "message": "feat：云下载、转存通知显示贡献者"
+      },
+      {
+        "commit": "d60d4d7ee78ace81d39f732c0060acd54eb5c3f3",
+        "author": "Jolc",
+        "date": "2026-03-30 22:47:09",
+        "message": "feat：云下载、转存通知显示贡献者"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603302223",
     "items": [
       {
@@ -101,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-03-30 09:22:29",
         "message": "fix: 先撤回刷流自动上报hash"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603300106",
-    "items": [
-      {
-        "commit": "44a2bd5bbcfc8b6d4112b956aa9afaacf4f07860",
-        "author": "Jolc",
-        "date": "2026-03-30 01:05:27",
-        "message": "fix: 刷流自动上报hash"
       }
     ]
   }
