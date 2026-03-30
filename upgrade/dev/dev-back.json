@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603301230",
+    "items": [
+      {
+        "commit": "f8ca1085f9bd2107dab5b53507e545b59cbadc92",
+        "author": "Jolc",
+        "date": "2026-03-30 12:30:28",
+        "message": "feat：订阅指定云端资源贡献者"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603301057",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-03-29 20:20:49",
         "message": "fix: report app 日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603291901",
-    "items": [
-      {
-        "commit": "4dbfc38d5a92c038ba2a3a681b92000b2702b642",
-        "author": "Jolc",
-        "date": "2026-03-29 19:00:33",
-        "message": "fix: 云资源种子分组加上资源链接类型。"
       }
     ]
   }
