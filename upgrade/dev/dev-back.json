@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603301057",
+    "items": [
+      {
+        "commit": "022d2ccde0705517d9991a92b2ce8912cd424b91",
+        "author": "Jolc",
+        "date": "2026-03-30 10:57:02",
+        "message": "feat：刷流可选上报hash、上报hash屏蔽调adult内容"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603300922",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "Jolc",
         "date": "2026-03-29 19:00:33",
         "message": "fix: 云资源种子分组加上资源链接类型。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603291656",
-    "items": [
-      {
-        "commit": "194e33bbe2f36bf44e1df24c64088a088d1e74dc",
-        "author": "Jolc",
-        "date": "2026-03-29 16:55:42",
-        "message": "fix: 轻量识别"
-      },
-      {
-        "commit": "c2dfc9abbd7eb00af427e1d8d866d13ff7e90789",
-        "author": "Jolc",
-        "date": "2026-03-29 15:24:40",
-        "message": "fix: hash 上报外挂"
       }
     ]
   }
