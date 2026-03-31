@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603312237",
+    "items": [
+      {
+        "commit": "486f66b10d3c329c3a906b87152908e1ef647b67",
+        "author": "xylplm",
+        "date": "2026-03-31 22:33:05",
+        "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312233",
     "items": [
       {
@@ -143,23 +154,6 @@
         "author": "Jolc",
         "date": "2026-03-30 21:11:23",
         "message": "feat：hash贡献榜点击进入云端资源搜索。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603302031",
-    "items": [
-      {
-        "commit": "01e67707550c1f0f01b3265dfa5a1105fe1072a7",
-        "author": "Jolc",
-        "date": "2026-03-30 20:30:36",
-        "message": "fix: 下载上传上报hash异常问题修复。"
-      },
-      {
-        "commit": "ef02b0229959d01e968be71b70906da81ce923e8",
-        "author": "liurongjie",
-        "date": "2026-03-30 17:25:02",
-        "message": "fix(transfer): 优化文件入库失败提醒消息格式"
       }
     ]
   }
