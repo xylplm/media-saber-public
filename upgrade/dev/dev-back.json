@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603312113",
+    "items": [
+      {
+        "commit": "43c213b40a63d8d15b2f63511d56ed4df8c0cc05",
+        "author": "Jolc",
+        "date": "2026-03-31 21:12:32",
+        "message": "feat：cpa 监控插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312052",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-03-30 16:48:18",
         "message": "feat(tasks): 优化云存储下载成功消息推送功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603301230",
-    "items": [
-      {
-        "commit": "f8ca1085f9bd2107dab5b53507e545b59cbadc92",
-        "author": "Jolc",
-        "date": "2026-03-30 12:30:28",
-        "message": "feat：订阅指定云端资源贡献者"
       }
     ]
   }
