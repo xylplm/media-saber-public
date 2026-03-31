@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603312215",
+    "items": [
+      {
+        "commit": "9334ca33d934da6a6da8a521a697eea2248c170e",
+        "author": "Jolc",
+        "date": "2026-03-31 22:13:11",
+        "message": "fix：擦屁股"
+      },
+      {
+        "commit": "b0488e2e3e8da97030e6385f0cb5e342a61c14b7",
+        "author": "xylplm",
+        "date": "2026-03-31 22:10:07",
+        "message": "add ➕: 添加 Copilot 指令与插件开发技能说明文件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312150",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "Jolc",
         "date": "2026-03-30 18:37:40",
         "message": "fix: 下载上传上报hash异常问题修复。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603301726",
-    "items": [
-      {
-        "commit": "ef02b0229959d01e968be71b70906da81ce923e8",
-        "author": "liurongjie",
-        "date": "2026-03-30 17:25:02",
-        "message": "fix(transfer): 优化文件入库失败提醒消息格式"
       }
     ]
   }
