@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603311112",
+    "items": [
+      {
+        "commit": "58aff4df5ade148c1dcd5898095bd8dc8c42a255",
+        "author": "Jolc",
+        "date": "2026-03-31 11:08:23",
+        "message": "feat：cs hash 上报增加种子标签体、描述、标签。"
+      },
+      {
+        "commit": "6486841e5ec8c61e1e3317c44ab0cbeab9fc2332",
+        "author": "Jolc",
+        "date": "2026-03-31 09:49:45",
+        "message": "fix: cs hash 代码优化"
+      },
+      {
+        "commit": "8ab26e0c9a9fc479056f3a7416224d95ecbf984b",
+        "author": "Jolc",
+        "date": "2026-03-31 09:31:01",
+        "message": "fix：hash 上报查是否有转移记录，有的话统一取转移之前的文件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603302303",
     "items": [
       {
@@ -113,17 +136,6 @@
         "author": "Jolc",
         "date": "2026-03-30 10:57:02",
         "message": "feat：刷流可选上报hash、上报hash屏蔽调adult内容"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603300922",
-    "items": [
-      {
-        "commit": "25efc77abe1cce3e4bcffde83a675af37a56fe87",
-        "author": "Jolc",
-        "date": "2026-03-30 09:22:29",
-        "message": "fix: 先撤回刷流自动上报hash"
       }
     ]
   }

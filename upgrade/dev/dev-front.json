@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603311112",
+    "items": [
+      {
+        "commit": "ab2c147fe9bbde4c441507111471ee0dde0e1e67",
+        "author": "liurongjie",
+        "date": "2026-03-31 10:38:37",
+        "message": "style(rss): 调整云端资源相关表单字段布局样式"
+      },
+      {
+        "commit": "028de878284bd17ce0dfff6906e31fffa493213b",
+        "author": "xylplm",
+        "date": "2026-03-31 09:57:52",
+        "message": "feat(dashboard): 优化贡献统计鼓励信息展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603301839",
     "items": [
       {
@@ -227,17 +244,6 @@
         "author": "xylplm",
         "date": "2026-03-23 16:17:32",
         "message": "✨ feat: 更新云存储设置提交逻辑，优化用户反馈信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603281535",
-    "items": [
-      {
-        "commit": "c47aa61eb24a16c0a4e610327391703522c87f75",
-        "author": "xylplm",
-        "date": "2026-03-28 12:38:14",
-        "message": "✨ feat: 添加消息缓存配置"
       }
     ]
   }
