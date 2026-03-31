@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202603312349",
+    "items": [
+      {
+        "commit": "cbd733347d04622d3262115cb5d1c4c1de148cff",
+        "author": "xylplm",
+        "date": "2026-03-31 23:04:04",
+        "message": "feat ✨: 添加系统开关查询接口及相关逻辑"
+      },
+      {
+        "commit": "363095258a3edec1e9969c79faac80b0472c1441",
+        "author": "Jolc",
+        "date": "2026-03-31 22:33:13",
+        "message": "fix：要用就报起来吧"
+      },
+      {
+        "commit": "f6ac7dfe718880cc716a2f1d8146feea4400ab78",
+        "author": "Jolc",
+        "date": "2026-03-31 22:31:29",
+        "message": "fix：连自己都禁"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312237",
     "items": [
       {
@@ -143,17 +166,6 @@
         "author": "Jolc",
         "date": "2026-03-30 22:23:37",
         "message": "feat：emby webhook 入库通知时立即同步媒体库媒体信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603302112",
-    "items": [
-      {
-        "commit": "8829a51a325527d91314bf333fa942d1181a3f85",
-        "author": "Jolc",
-        "date": "2026-03-30 21:11:23",
-        "message": "feat：hash贡献榜点击进入云端资源搜索。"
       }
     ]
   }

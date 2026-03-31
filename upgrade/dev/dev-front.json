@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202603312349",
+    "items": [
+      {
+        "commit": "4773989e4ef26f0a6c9b6dc8c7beb8fb37f2da1b",
+        "author": "xylplm",
+        "date": "2026-03-31 23:40:20",
+        "message": "✨ feat: 添加云端资源功能开关，优化相关组件显示逻辑"
+      },
+      {
+        "commit": "4d2b8dd24a0f0e135747e685f30c67c5fe4d7959",
+        "author": "xylplm",
+        "date": "2026-03-31 23:28:36",
+        "message": "✨ feat: 添加系统开关服务及相关功能！ 未上报用户，不再显示相关功能入口！"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312233",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-03-29 23:34:02",
         "message": "✨ feat: 添加个人贡献统计与鼓励信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603292148",
-    "items": [
-      {
-        "commit": "4f49bf42bba73fd606256d8ca9a9d9f738d91dd1",
-        "author": "Jolc",
-        "date": "2026-03-29 21:45:20",
-        "message": "feat：常用功能增加搜索云端资源。"
       }
     ]
   }
