@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603312150",
+    "items": [
+      {
+        "commit": "366673896316960975c24b16e80efbc19953073e",
+        "author": "xylplm",
+        "date": "2026-03-31 21:46:47",
+        "message": "✨ feat: 优化哈希报告统计数据加载逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603311828",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-03-29 21:04:34",
         "message": "style(search): 调整搜索结果卡片布局和文本显示样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603282350",
-    "items": [
-      {
-        "commit": "674b3005f441788404b07f6da3aa76208b371627",
-        "author": "Jolc",
-        "date": "2026-03-28 23:49:52",
-        "message": "feat：云资源支持集数范围过滤"
-      },
-      {
-        "commit": "c78bf6971c372f6901737ecbbb7de3ad84f0ddb6",
-        "author": "GateCross",
-        "date": "2026-03-28 23:16:38",
-        "message": "feat: 增加云端资源"
       }
     ]
   }

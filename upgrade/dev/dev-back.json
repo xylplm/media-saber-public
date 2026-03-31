@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603312150",
+    "items": [
+      {
+        "commit": "153e959c4d6326853e0e9e126de8073b8478c68f",
+        "author": "xylplm",
+        "date": "2026-03-31 21:46:23",
+        "message": "feat ✨: 添加 hashReportStatisticMine 接口及相关逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312113",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-03-30 17:25:02",
         "message": "fix(transfer): 优化文件入库失败提醒消息格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603301649",
-    "items": [
-      {
-        "commit": "328e278e767169e1b654d8ab43d9d1d6bdb09fd7",
-        "author": "liurongjie",
-        "date": "2026-03-30 16:48:18",
-        "message": "feat(tasks): 优化云存储下载成功消息推送功能"
       }
     ]
   }
