@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202603312052",
+    "items": [
+      {
+        "commit": "fb1afb1e4f3517b3cd576350c0dbc82711527332",
+        "author": "Jolc",
+        "date": "2026-03-31 20:51:15",
+        "message": "feat：cpa 监控插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603311112",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "Jolc",
         "date": "2026-03-30 12:30:28",
         "message": "feat：订阅指定云端资源贡献者"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603301057",
-    "items": [
-      {
-        "commit": "022d2ccde0705517d9991a92b2ce8912cd424b91",
-        "author": "Jolc",
-        "date": "2026-03-30 10:57:02",
-        "message": "feat：刷流可选上报hash、上报hash屏蔽调adult内容"
       }
     ]
   }
