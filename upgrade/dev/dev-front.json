@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011537",
+    "items": [
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011458",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-03-31 12:43:27",
         "message": "style(media): 更新HDHive组件UI样式和设置页面布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603311112",
-    "items": [
-      {
-        "commit": "ab2c147fe9bbde4c441507111471ee0dde0e1e67",
-        "author": "liurongjie",
-        "date": "2026-03-31 10:38:37",
-        "message": "style(rss): 调整云端资源相关表单字段布局样式"
-      },
-      {
-        "commit": "028de878284bd17ce0dfff6906e31fffa493213b",
-        "author": "xylplm",
-        "date": "2026-03-31 09:57:52",
-        "message": "feat(dashboard): 优化贡献统计鼓励信息展示"
       }
     ]
   }

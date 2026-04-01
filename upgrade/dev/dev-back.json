@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604011537",
+    "items": [
+      {
+        "commit": "1d5504dbc422216415d4b59747bc8fc1aef4ffb8",
+        "author": "Jolc",
+        "date": "2026-04-01 15:36:57",
+        "message": "fix: 解决 %s"
+      },
+      {
+        "commit": "44d47b04ced489c2c4f49ba7ae9fbff633ab85e7",
+        "author": "Jolc",
+        "date": "2026-04-01 13:36:26",
+        "message": "feat：上报通知。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011458",
     "items": [
       {
@@ -137,29 +154,6 @@
         "author": "Jolc",
         "date": "2026-03-31 20:51:15",
         "message": "feat：cpa 监控插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603311112",
-    "items": [
-      {
-        "commit": "58aff4df5ade148c1dcd5898095bd8dc8c42a255",
-        "author": "Jolc",
-        "date": "2026-03-31 11:08:23",
-        "message": "feat：cs hash 上报增加种子标签体、描述、标签。"
-      },
-      {
-        "commit": "6486841e5ec8c61e1e3317c44ab0cbeab9fc2332",
-        "author": "Jolc",
-        "date": "2026-03-31 09:49:45",
-        "message": "fix: cs hash 代码优化"
-      },
-      {
-        "commit": "8ab26e0c9a9fc479056f3a7416224d95ecbf984b",
-        "author": "Jolc",
-        "date": "2026-03-31 09:31:01",
-        "message": "fix：hash 上报查是否有转移记录，有的话统一取转移之前的文件"
       }
     ]
   }
