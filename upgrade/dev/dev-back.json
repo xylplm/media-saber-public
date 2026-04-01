@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011413",
+    "items": [
+      {
+        "commit": "44d47b04ced489c2c4f49ba7ae9fbff633ab85e7",
+        "author": "Jolc",
+        "date": "2026-04-01 13:36:26",
+        "message": "feat：上报通知。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202603312349",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "Jolc",
         "date": "2026-03-30 22:47:09",
         "message": "feat：云下载、转存通知显示贡献者"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603302223",
-    "items": [
-      {
-        "commit": "498d3644442fe3ba00b8b1c56b622cd856fea083",
-        "author": "Jolc",
-        "date": "2026-03-30 22:23:37",
-        "message": "feat：emby webhook 入库通知时立即同步媒体库媒体信息"
       }
     ]
   }

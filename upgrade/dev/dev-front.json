@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011413",
+    "items": [
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011338",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-03-30 18:30:37",
         "message": "feat(rss): 添加云端资源订阅状态标识"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603301230",
-    "items": [
-      {
-        "commit": "568c598c8d05605afebb515424085c97c35b76a8",
-        "author": "Jolc",
-        "date": "2026-03-30 12:30:00",
-        "message": "feat：常用功能增加搜索云端资源。"
       }
     ]
   }
