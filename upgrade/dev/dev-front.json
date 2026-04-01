@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604020019",
+    "items": [
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604020006",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "GateCross",
         "date": "2026-04-01 13:42:11",
         "message": "fix: 优化云下载，支持多个下载链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011413",
-    "items": [
-      {
-        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
-        "author": "xylplm",
-        "date": "2026-04-01 14:13:03",
-        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   }

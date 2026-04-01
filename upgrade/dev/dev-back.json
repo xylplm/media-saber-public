@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604020019",
+    "items": [
+      {
+        "commit": "1d650f79eb220c1fb52b4d11d4caacb298915f46",
+        "author": "Jolc",
+        "date": "2026-04-02 00:18:52",
+        "message": "fix：云资源旧版本上报资源中字兜底。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604020006",
     "items": [
       {
@@ -353,29 +364,6 @@
         "author": "Jolc",
         "date": "2026-04-01 13:36:26",
         "message": "feat：上报通知。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312349",
-    "items": [
-      {
-        "commit": "cbd733347d04622d3262115cb5d1c4c1de148cff",
-        "author": "xylplm",
-        "date": "2026-03-31 23:04:04",
-        "message": "feat ✨: 添加系统开关查询接口及相关逻辑"
-      },
-      {
-        "commit": "363095258a3edec1e9969c79faac80b0472c1441",
-        "author": "Jolc",
-        "date": "2026-03-31 22:33:13",
-        "message": "fix：要用就报起来吧"
-      },
-      {
-        "commit": "f6ac7dfe718880cc716a2f1d8146feea4400ab78",
-        "author": "Jolc",
-        "date": "2026-03-31 22:31:29",
-        "message": "fix：连自己都禁"
       }
     ]
   }
