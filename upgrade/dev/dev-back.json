@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604012307",
+    "items": [
+      {
+        "commit": "31738dff6210765cb88a8d0141967970ac8d63df",
+        "author": "Jolc",
+        "date": "2026-04-01 23:06:42",
+        "message": "feat：详情页显示云端资源数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604012155",
     "items": [
       {
@@ -365,35 +376,6 @@
         "author": "xylplm",
         "date": "2026-03-31 22:33:05",
         "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312233",
-    "items": [
-      {
-        "commit": "363095258a3edec1e9969c79faac80b0472c1441",
-        "author": "Jolc",
-        "date": "2026-03-31 22:33:13",
-        "message": "fix：要用就报起来吧"
-      },
-      {
-        "commit": "486f66b10d3c329c3a906b87152908e1ef647b67",
-        "author": "xylplm",
-        "date": "2026-03-31 22:33:05",
-        "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
-      },
-      {
-        "commit": "f6ac7dfe718880cc716a2f1d8146feea4400ab78",
-        "author": "Jolc",
-        "date": "2026-03-31 22:31:29",
-        "message": "fix：连自己都禁"
-      },
-      {
-        "commit": "b0488e2e3e8da97030e6385f0cb5e342a61c14b7",
-        "author": "xylplm",
-        "date": "2026-03-31 22:10:07",
-        "message": "add ➕: 添加 Copilot 指令与插件开发技能说明文件"
       }
     ]
   }

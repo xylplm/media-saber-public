@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604012307",
+    "items": [
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604012205",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "xylplm",
         "date": "2026-04-01 13:03:47",
         "message": "✨ feat: 优化复选框组件，增强数据处理和渲染功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011104",
-    "items": [
-      {
-        "commit": "fb41bbdebba0485239b078969923321d9f1cd4ba",
-        "author": "xylplm",
-        "date": "2026-04-01 11:04:09",
-        "message": "✨ feat: 优化贡献统计逻辑，仅显示有效排名的贡献信息"
-      },
-      {
-        "commit": "e8d59147e9240dfde2c3d456521ed539494d80ed",
-        "author": "xylplm",
-        "date": "2026-04-01 11:01:39",
-        "message": "✨ feat: 优化贡献统计展示，增加前三名激励信息"
       }
     ]
   }
