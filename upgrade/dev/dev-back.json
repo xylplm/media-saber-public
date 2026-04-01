@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011650",
+    "items": [
+      {
+        "commit": "cb04c3f78d464d244059c8aca1314e954089ece9",
+        "author": "xylplm",
+        "date": "2026-04-01 16:48:48",
+        "message": "refactor 🔁: 优化订阅过滤逻辑，合并文本字段用于正则匹配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011537",
     "items": [
       {
@@ -142,17 +153,6 @@
         "commit": "43c213b40a63d8d15b2f63511d56ed4df8c0cc05",
         "author": "Jolc",
         "date": "2026-03-31 21:12:32",
-        "message": "feat：cpa 监控插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312052",
-    "items": [
-      {
-        "commit": "fb1afb1e4f3517b3cd576350c0dbc82711527332",
-        "author": "Jolc",
-        "date": "2026-03-31 20:51:15",
         "message": "feat：cpa 监控插件"
       }
     ]

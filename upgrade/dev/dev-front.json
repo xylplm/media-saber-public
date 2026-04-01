@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011650",
+    "items": [
+      {
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011537",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-03-31 16:56:46",
         "message": "style(media-detail): 更新 HDHive 组件 UI 样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603311244",
-    "items": [
-      {
-        "commit": "277550c7994ea9ffa858c85458b5edb00572df1c",
-        "author": "liurongjie",
-        "date": "2026-03-31 12:43:27",
-        "message": "style(media): 更新HDHive组件UI样式和设置页面布局"
       }
     ]
   }
