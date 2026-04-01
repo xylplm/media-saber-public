@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604020006",
+    "items": [
+      {
+        "commit": "e43b8a42a15b1b5a6d4966ce8a6694a7a2f8667e",
+        "author": "Jolc",
+        "date": "2026-04-02 00:05:40",
+        "message": "fix：云资源旧版本上报资源中字兜底。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604012307",
     "items": [
       {
@@ -365,17 +376,6 @@
         "author": "Jolc",
         "date": "2026-03-31 22:31:29",
         "message": "fix：连自己都禁"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312237",
-    "items": [
-      {
-        "commit": "486f66b10d3c329c3a906b87152908e1ef647b67",
-        "author": "xylplm",
-        "date": "2026-03-31 22:33:05",
-        "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604020006",
+    "items": [
+      {
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604012307",
     "items": [
       {
@@ -95,41 +106,6 @@
         "author": "xylplm",
         "date": "2026-04-01 14:13:03",
         "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011338",
-    "items": [
-      {
-        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
-        "author": "GateCross",
-        "date": "2026-04-01 13:42:11",
-        "message": "fix: 优化云下载，支持多个下载链接"
-      },
-      {
-        "commit": "b117218ba106e58d34dbebc80aea66358f73cbd4",
-        "author": "xylplm",
-        "date": "2026-04-01 13:29:20",
-        "message": "📚 docs: 更新 Angular 编码规范和项目结构文档"
-      },
-      {
-        "commit": "682fa5494f6b29fe9f61b92fc9913d5ab9030d3b",
-        "author": "xylplm",
-        "date": "2026-04-01 13:22:36",
-        "message": "🔁 refactor: 优化组件中的 untracked 使用，提升性能"
-      },
-      {
-        "commit": "64fe148639e80b68326a404f15d505288d052f04",
-        "author": "xylplm",
-        "date": "2026-04-01 13:04:16",
-        "message": "🔁 refactor: 调整导入顺序，优化代码结构"
-      },
-      {
-        "commit": "1708fca7d89d2abd747918297b51c055083ebae6",
-        "author": "xylplm",
-        "date": "2026-04-01 13:03:47",
-        "message": "✨ feat: 优化复选框组件，增强数据处理和渲染功能"
       }
     ]
   }
