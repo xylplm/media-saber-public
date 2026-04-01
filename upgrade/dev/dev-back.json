@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604012056",
+    "items": [
+      {
+        "commit": "fd0199e9f6df69fc8b47fff6d59e45525ba1cd5c",
+        "author": "GateCross",
+        "date": "2026-04-01 20:55:04",
+        "message": "fix: 取消hash通知"
+      },
+      {
+        "commit": "cb04c3f78d464d244059c8aca1314e954089ece9",
+        "author": "xylplm",
+        "date": "2026-04-01 16:48:48",
+        "message": "refactor 🔁: 优化订阅过滤逻辑，合并文本字段用于正则匹配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011940",
     "items": [
       {
@@ -383,17 +400,6 @@
         "author": "xylplm",
         "date": "2026-03-31 22:10:07",
         "message": "add ➕: 添加 Copilot 指令与插件开发技能说明文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312150",
-    "items": [
-      {
-        "commit": "153e959c4d6326853e0e9e126de8073b8478c68f",
-        "author": "xylplm",
-        "date": "2026-03-31 21:46:23",
-        "message": "feat ✨: 添加 hashReportStatisticMine 接口及相关逻辑"
       }
     ]
   }

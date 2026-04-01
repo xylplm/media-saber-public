@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604012056",
+    "items": [
+      {
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011940",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-03-31 22:33:13",
         "message": "✨ feat: 优化哈希报告统计接口响应处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312150",
-    "items": [
-      {
-        "commit": "366673896316960975c24b16e80efbc19953073e",
-        "author": "xylplm",
-        "date": "2026-03-31 21:46:47",
-        "message": "✨ feat: 优化哈希报告统计数据加载逻辑"
       }
     ]
   }
