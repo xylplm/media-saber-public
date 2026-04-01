@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604020118",
+    "items": [
+      {
+        "commit": "e67132f7f0bcae7a0da9da04c600b0ab27544757",
+        "author": "Jolc",
+        "date": "2026-04-02 01:18:07",
+        "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
+      },
+      {
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604020019",
     "items": [
       {
@@ -95,17 +112,6 @@
         "author": "xylplm",
         "date": "2026-04-01 14:13:03",
         "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011458",
-    "items": [
-      {
-        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
-        "author": "GateCross",
-        "date": "2026-04-01 13:42:11",
-        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   }
