@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011458",
+    "items": [
+      {
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011413",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-03-31 09:57:52",
         "message": "feat(dashboard): 优化贡献统计鼓励信息展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603301839",
-    "items": [
-      {
-        "commit": "e58223763a87a65b6841262db637a3d3a79b9a91",
-        "author": "liurongjie",
-        "date": "2026-03-30 18:30:37",
-        "message": "feat(rss): 添加云端资源订阅状态标识"
       }
     ]
   }

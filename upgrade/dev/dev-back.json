@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604011458",
+    "items": [
+      {
+        "commit": "cbd733347d04622d3262115cb5d1c4c1de148cff",
+        "author": "xylplm",
+        "date": "2026-03-31 23:04:04",
+        "message": "feat ✨: 添加系统开关查询接口及相关逻辑"
+      },
+      {
+        "commit": "486f66b10d3c329c3a906b87152908e1ef647b67",
+        "author": "xylplm",
+        "date": "2026-03-31 22:33:05",
+        "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011413",
     "items": [
       {
@@ -143,29 +160,6 @@
         "author": "Jolc",
         "date": "2026-03-31 09:31:01",
         "message": "fix：hash 上报查是否有转移记录，有的话统一取转移之前的文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603302303",
-    "items": [
-      {
-        "commit": "a7293d94cefd1b388c8f1c75160e87756a3317f1",
-        "author": "Jolc",
-        "date": "2026-03-30 23:04:37",
-        "message": "feat：云下载、转存通知显示贡献者"
-      },
-      {
-        "commit": "4bea0f241d1cfb8b8ada6447337557f72d4c2647",
-        "author": "Jolc",
-        "date": "2026-03-30 23:01:22",
-        "message": "feat：云下载、转存通知显示贡献者"
-      },
-      {
-        "commit": "d60d4d7ee78ace81d39f732c0060acd54eb5c3f3",
-        "author": "Jolc",
-        "date": "2026-03-30 22:47:09",
-        "message": "feat：云下载、转存通知显示贡献者"
       }
     ]
   }
