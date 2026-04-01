@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604012155",
+    "items": [
+      {
+        "commit": "9f2d2b02e21fad68d719573e495738c29b2f0cc3",
+        "author": "Jolc",
+        "date": "2026-04-01 21:54:57",
+        "message": "fix: 抢报者"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604012056",
     "items": [
       {
@@ -377,23 +388,6 @@
         "author": "Jolc",
         "date": "2026-03-31 22:31:29",
         "message": "fix：连自己都禁"
-      },
-      {
-        "commit": "b0488e2e3e8da97030e6385f0cb5e342a61c14b7",
-        "author": "xylplm",
-        "date": "2026-03-31 22:10:07",
-        "message": "add ➕: 添加 Copilot 指令与插件开发技能说明文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312215",
-    "items": [
-      {
-        "commit": "9334ca33d934da6a6da8a521a697eea2248c170e",
-        "author": "Jolc",
-        "date": "2026-03-31 22:13:11",
-        "message": "fix：擦屁股"
       },
       {
         "commit": "b0488e2e3e8da97030e6385f0cb5e342a61c14b7",

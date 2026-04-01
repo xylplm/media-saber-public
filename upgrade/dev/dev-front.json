@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604012155",
+    "items": [
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604012056",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-03-31 23:28:36",
         "message": "✨ feat: 添加系统开关服务及相关功能！ 未上报用户，不再显示相关功能入口！"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312233",
-    "items": [
-      {
-        "commit": "e742b70d6ae2d0b586de631aefb29f3f44b6c481",
-        "author": "xylplm",
-        "date": "2026-03-31 22:33:13",
-        "message": "✨ feat: 优化哈希报告统计接口响应处理"
       }
     ]
   }
