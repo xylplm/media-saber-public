@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604011940",
+    "items": [
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011650",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-03-31 21:46:47",
         "message": "✨ feat: 优化哈希报告统计数据加载逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603311828",
-    "items": [
-      {
-        "commit": "9288daa6be5f38fa8fe161505d2b11c47777fc57",
-        "author": "liurongjie",
-        "date": "2026-03-31 16:56:46",
-        "message": "style(media-detail): 更新 HDHive 组件 UI 样式"
       }
     ]
   }

@@ -1,5 +1,256 @@
 [
   {
+    "version": "DEV_202604011940",
+    "items": [
+      {
+        "commit": "1d5504dbc422216415d4b59747bc8fc1aef4ffb8",
+        "author": "Jolc",
+        "date": "2026-04-01 15:36:57",
+        "message": "fix: 解决 %s"
+      },
+      {
+        "commit": "44d47b04ced489c2c4f49ba7ae9fbff633ab85e7",
+        "author": "Jolc",
+        "date": "2026-04-01 13:36:26",
+        "message": "feat：上报通知。"
+      },
+      {
+        "commit": "cbd733347d04622d3262115cb5d1c4c1de148cff",
+        "author": "xylplm",
+        "date": "2026-03-31 23:04:04",
+        "message": "feat ✨: 添加系统开关查询接口及相关逻辑"
+      },
+      {
+        "commit": "363095258a3edec1e9969c79faac80b0472c1441",
+        "author": "Jolc",
+        "date": "2026-03-31 22:33:13",
+        "message": "fix：要用就报起来吧"
+      },
+      {
+        "commit": "486f66b10d3c329c3a906b87152908e1ef647b67",
+        "author": "xylplm",
+        "date": "2026-03-31 22:33:05",
+        "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
+      },
+      {
+        "commit": "f6ac7dfe718880cc716a2f1d8146feea4400ab78",
+        "author": "Jolc",
+        "date": "2026-03-31 22:31:29",
+        "message": "fix：连自己都禁"
+      },
+      {
+        "commit": "9334ca33d934da6a6da8a521a697eea2248c170e",
+        "author": "Jolc",
+        "date": "2026-03-31 22:13:11",
+        "message": "fix：擦屁股"
+      },
+      {
+        "commit": "b0488e2e3e8da97030e6385f0cb5e342a61c14b7",
+        "author": "xylplm",
+        "date": "2026-03-31 22:10:07",
+        "message": "add ➕: 添加 Copilot 指令与插件开发技能说明文件"
+      },
+      {
+        "commit": "153e959c4d6326853e0e9e126de8073b8478c68f",
+        "author": "xylplm",
+        "date": "2026-03-31 21:46:23",
+        "message": "feat ✨: 添加 hashReportStatisticMine 接口及相关逻辑"
+      },
+      {
+        "commit": "43c213b40a63d8d15b2f63511d56ed4df8c0cc05",
+        "author": "Jolc",
+        "date": "2026-03-31 21:12:32",
+        "message": "feat：cpa 监控插件"
+      },
+      {
+        "commit": "fb1afb1e4f3517b3cd576350c0dbc82711527332",
+        "author": "Jolc",
+        "date": "2026-03-31 20:51:15",
+        "message": "feat：cpa 监控插件"
+      },
+      {
+        "commit": "58aff4df5ade148c1dcd5898095bd8dc8c42a255",
+        "author": "Jolc",
+        "date": "2026-03-31 11:08:23",
+        "message": "feat：cs hash 上报增加种子标签体、描述、标签。"
+      },
+      {
+        "commit": "6486841e5ec8c61e1e3317c44ab0cbeab9fc2332",
+        "author": "Jolc",
+        "date": "2026-03-31 09:49:45",
+        "message": "fix: cs hash 代码优化"
+      },
+      {
+        "commit": "8ab26e0c9a9fc479056f3a7416224d95ecbf984b",
+        "author": "Jolc",
+        "date": "2026-03-31 09:31:01",
+        "message": "fix：hash 上报查是否有转移记录，有的话统一取转移之前的文件"
+      },
+      {
+        "commit": "a7293d94cefd1b388c8f1c75160e87756a3317f1",
+        "author": "Jolc",
+        "date": "2026-03-30 23:04:37",
+        "message": "feat：云下载、转存通知显示贡献者"
+      },
+      {
+        "commit": "4bea0f241d1cfb8b8ada6447337557f72d4c2647",
+        "author": "Jolc",
+        "date": "2026-03-30 23:01:22",
+        "message": "feat：云下载、转存通知显示贡献者"
+      },
+      {
+        "commit": "d60d4d7ee78ace81d39f732c0060acd54eb5c3f3",
+        "author": "Jolc",
+        "date": "2026-03-30 22:47:09",
+        "message": "feat：云下载、转存通知显示贡献者"
+      },
+      {
+        "commit": "498d3644442fe3ba00b8b1c56b622cd856fea083",
+        "author": "Jolc",
+        "date": "2026-03-30 22:23:37",
+        "message": "feat：emby webhook 入库通知时立即同步媒体库媒体信息"
+      },
+      {
+        "commit": "8829a51a325527d91314bf333fa942d1181a3f85",
+        "author": "Jolc",
+        "date": "2026-03-30 21:11:23",
+        "message": "feat：hash贡献榜点击进入云端资源搜索。"
+      },
+      {
+        "commit": "01e67707550c1f0f01b3265dfa5a1105fe1072a7",
+        "author": "Jolc",
+        "date": "2026-03-30 20:30:36",
+        "message": "fix: 下载上传上报hash异常问题修复。"
+      },
+      {
+        "commit": "495ae9b5cb45fd076c769aae8cf5d51c0489cb6d",
+        "author": "Jolc",
+        "date": "2026-03-30 18:37:40",
+        "message": "fix: 下载上传上报hash异常问题修复。"
+      },
+      {
+        "commit": "ef02b0229959d01e968be71b70906da81ce923e8",
+        "author": "liurongjie",
+        "date": "2026-03-30 17:25:02",
+        "message": "fix(transfer): 优化文件入库失败提醒消息格式"
+      },
+      {
+        "commit": "328e278e767169e1b654d8ab43d9d1d6bdb09fd7",
+        "author": "liurongjie",
+        "date": "2026-03-30 16:48:18",
+        "message": "feat(tasks): 优化云存储下载成功消息推送功能"
+      },
+      {
+        "commit": "f8ca1085f9bd2107dab5b53507e545b59cbadc92",
+        "author": "Jolc",
+        "date": "2026-03-30 12:30:28",
+        "message": "feat：订阅指定云端资源贡献者"
+      },
+      {
+        "commit": "022d2ccde0705517d9991a92b2ce8912cd424b91",
+        "author": "Jolc",
+        "date": "2026-03-30 10:57:02",
+        "message": "feat：刷流可选上报hash、上报hash屏蔽调adult内容"
+      },
+      {
+        "commit": "25efc77abe1cce3e4bcffde83a675af37a56fe87",
+        "author": "Jolc",
+        "date": "2026-03-30 09:22:29",
+        "message": "fix: 先撤回刷流自动上报hash"
+      },
+      {
+        "commit": "44a2bd5bbcfc8b6d4112b956aa9afaacf4f07860",
+        "author": "Jolc",
+        "date": "2026-03-30 01:05:27",
+        "message": "fix: 刷流自动上报hash"
+      },
+      {
+        "commit": "346b754d1b8b29961bb324100fc25207d84dce35",
+        "author": "Jolc",
+        "date": "2026-03-30 00:30:08",
+        "message": "fix: 刷流自动上报hash"
+      },
+      {
+        "commit": "684f76f38e8c78223d667c2cfa220ea2114a91a8",
+        "author": "Jolc",
+        "date": "2026-03-29 23:36:13",
+        "message": "fix：修复正在做种状态判断、修复刷流报hash问题。"
+      },
+      {
+        "commit": "635ce31107afa2d2a72006844d704f990f82a817",
+        "author": "Jolc",
+        "date": "2026-03-29 23:33:51",
+        "message": "fix：修复正在做种状态判断、修复刷流报hash问题。"
+      },
+      {
+        "commit": "0719562377ffb5a619f78d5ea1e347419b61b668",
+        "author": "xylplm",
+        "date": "2026-03-29 23:30:53",
+        "message": "feat ✨: 更新 HashReportStatistic 接口，添加统计维度贡献信息"
+      },
+      {
+        "commit": "7290e3c39a82327113b364ee4fec60504b63694d",
+        "author": "Jolc",
+        "date": "2026-03-29 22:21:40",
+        "message": "fix：修复订阅优先订阅云再走pt。"
+      },
+      {
+        "commit": "8cb9b3220abf05ba5189d3acb141cc9f24376e90",
+        "author": "Jolc",
+        "date": "2026-03-29 21:32:35",
+        "message": "fix：上传报 hash 判断是否有整理前的文件，有的话用整理前的文件名。"
+      },
+      {
+        "commit": "697324922c889a82cd5c058abe4bfc259af7c38b",
+        "author": "GateCross",
+        "date": "2026-03-29 20:40:48",
+        "message": "fix: 修复云端订阅"
+      },
+      {
+        "commit": "e67236668a3ab4067038deefdc87741f27a5327c",
+        "author": "Jolc",
+        "date": "2026-03-29 20:20:49",
+        "message": "fix: report app 日志"
+      },
+      {
+        "commit": "4dbfc38d5a92c038ba2a3a681b92000b2702b642",
+        "author": "Jolc",
+        "date": "2026-03-29 19:00:33",
+        "message": "fix: 云资源种子分组加上资源链接类型。"
+      },
+      {
+        "commit": "194e33bbe2f36bf44e1df24c64088a088d1e74dc",
+        "author": "Jolc",
+        "date": "2026-03-29 16:55:42",
+        "message": "fix: 轻量识别"
+      },
+      {
+        "commit": "c2dfc9abbd7eb00af427e1d8d866d13ff7e90789",
+        "author": "Jolc",
+        "date": "2026-03-29 15:24:40",
+        "message": "fix: hash 上报外挂"
+      },
+      {
+        "commit": "7c5e0c55add018a6826b41bc79b92ae6a99dec71",
+        "author": "Jolc",
+        "date": "2026-03-29 12:23:14",
+        "message": "fix：上报榜单缓存碰撞问题。"
+      },
+      {
+        "commit": "5dc513c8997c66421a4d8ae10979fd4c1145d6f2",
+        "author": "Jolc",
+        "date": "2026-03-29 11:45:50",
+        "message": "feat：从文件路径提取tmdbid问题修复、入库时立即同步该媒体的媒体库信息。"
+      },
+      {
+        "commit": "ec82bb7f7895ca9f3637c3ed1f56a90aa7a9a5e8",
+        "author": "Jolc",
+        "date": "2026-03-28 18:46:02",
+        "message": "fix: 空指针"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604011650",
     "items": [
       {
@@ -143,17 +394,6 @@
         "author": "xylplm",
         "date": "2026-03-31 21:46:23",
         "message": "feat ✨: 添加 hashReportStatisticMine 接口及相关逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202603312113",
-    "items": [
-      {
-        "commit": "43c213b40a63d8d15b2f63511d56ed4df8c0cc05",
-        "author": "Jolc",
-        "date": "2026-03-31 21:12:32",
-        "message": "feat：cpa 监控插件"
       }
     ]
   }
