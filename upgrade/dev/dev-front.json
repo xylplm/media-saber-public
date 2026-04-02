@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604022257",
+    "items": [
+      {
+        "commit": "ee95bc4de4711e1efc1d6bc3789c8a73faca3686",
+        "author": "GateCross",
+        "date": "2026-04-02 23:00:03",
+        "message": "fix: 修复云端资源列表样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604021756",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-04-01 14:13:03",
         "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604012056",
-    "items": [
-      {
-        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
-        "author": "GateCross",
-        "date": "2026-04-01 13:42:11",
-        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   }
