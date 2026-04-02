@@ -310,6 +310,14 @@ jobs:
           asset_name: mediaSaber-arm64.tar.gz
           asset_content_type: application/gzip
 
+      - name: Upload Release Archives Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-archives
+          path: |
+            release/mediaSaber-amd64.tar.gz
+            release/mediaSaber-arm64.tar.gz
+
       - name: Update version_dev File
         run: echo "${{ env.version }}" > version_dev
 
@@ -386,6 +394,19 @@ jobs:
       - name: Upgrade Backend version json
         run: |
           bash version_update.sh -r ./msaber-back -f ./upgrade/dev/dev-back.json -v ${{ env.version }}
+
+      - name: Download Release Archives Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: release-archives
+          path: release
+
+      - name: Report System Version
+        env:
+          MS_SYSTEM_VERSION_REPORT_URL: ${{ secrets.MS_SYSTEM_VERSION_REPORT_URL }}
+          MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN: ${{ secrets.MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN }}
+        run: |
+          bash ./.github/scripts/report_system_version.sh dev "${{ env.version }}" "./upgrade/dev/dev-front.json" "./upgrade/dev/dev-back.json"
 
       - name: Commit and Push Changes
         run: |
