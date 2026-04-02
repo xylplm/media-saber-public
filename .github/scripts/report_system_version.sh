@@ -128,9 +128,17 @@ attempt=1
 success=0
 last_error=""
 
+# Generate traceparent header for distributed tracing
+trace_id=$(openssl rand -hex 16)
+parent_id=$(openssl rand -hex 8)
+trace_parent="00-${trace_id}-${parent_id}-01"
+
 echo "[report_system_version] === Request Info ==="
 echo "[report_system_version] URL: ${MS_SYSTEM_VERSION_REPORT_URL}?random=$(date +%s)"
-echo "[report_system_version] Content-Type: application/json"
+echo "[report_system_version] Headers:"
+echo "[report_system_version]   Content-Type: application/json"
+echo "[report_system_version]   traceparent: $trace_parent"
+echo "[report_system_version]   Authorization: ${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN:0:10}***${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN: -10}"
 
 while [[ $attempt -le $max_attempts ]]; do
   echo "[report_system_version] attempt ${attempt}/${max_attempts}"
@@ -138,6 +146,7 @@ while [[ $attempt -le $max_attempts ]]; do
   if response=$(curl -sS -X POST "${MS_SYSTEM_VERSION_REPORT_URL}?random=$(date +%s)" \
     -H "Content-Type: application/json" \
     -H "Authorization: ${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN}" \
+    -H "traceparent: ${trace_parent}" \
     -d "$payload" 2>&1); then
     echo "[report_system_version] Response: $response"
     if echo "$response" | grep -Eq '"code"\s*:\s*20000'; then
