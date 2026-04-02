@@ -41,15 +41,6 @@ if [[ -z "$FRONT_JSON" || -z "$BACK_JSON" ]]; then
   fi
 fi
 
-# Debug: Print all input parameters
-echo "[report_system_version] === Debug Info ==="
-echo "[report_system_version] CHANNEL: $CHANNEL"
-echo "[report_system_version] VERSION: $VERSION"
-echo "[report_system_version] FRONT_JSON: $FRONT_JSON (exists: $(test -f "$FRONT_JSON" && echo "yes" || echo "no"))"
-echo "[report_system_version] BACK_JSON: $BACK_JSON (exists: $(test -f "$BACK_JSON" && echo "yes" || echo "no"))"
-echo "[report_system_version] GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
-echo "[report_system_version] MS_SYSTEM_VERSION_REPORT_URL: $MS_SYSTEM_VERSION_REPORT_URL"
-
 released_at=$(date +%s)
 release_base="https://github.com/${GITHUB_REPOSITORY}/releases/download/${VERSION}"
 amd64_url="${release_base}/mediaSaber-amd64.tar.gz"
@@ -118,11 +109,6 @@ print(json.dumps(payload, ensure_ascii=False))
 PY
 )
 
-# Debug: Print payload
-echo "[report_system_version] === Payload Info ==="
-echo "[report_system_version] Payload:"
-echo "$payload" | python3 -m json.tool 2>/dev/null || echo "$payload"
-
 max_attempts=3
 attempt=1
 success=0
@@ -133,13 +119,6 @@ trace_id=$(openssl rand -hex 16)
 parent_id=$(openssl rand -hex 8)
 trace_parent="00-${trace_id}-${parent_id}-01"
 
-echo "[report_system_version] === Request Info ==="
-echo "[report_system_version] URL: ${MS_SYSTEM_VERSION_REPORT_URL}?random=$(date +%s)"
-echo "[report_system_version] Headers:"
-echo "[report_system_version]   Content-Type: application/json"
-echo "[report_system_version]   traceparent: $trace_parent"
-echo "[report_system_version]   Authorization: ${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN:0:10}***${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN: -10}"
-
 while [[ $attempt -le $max_attempts ]]; do
   echo "[report_system_version] attempt ${attempt}/${max_attempts}"
 
@@ -148,14 +127,14 @@ while [[ $attempt -le $max_attempts ]]; do
     -H "Authorization: ${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN}" \
     -H "traceparent: ${trace_parent}" \
     -d "$payload" 2>&1); then
-    echo "[report_system_version] Response: $response"
+    echo "$response"
     if echo "$response" | grep -Eq '"code"\s*:\s*20000'; then
       success=1
       break
     fi
     last_error="API返回非成功code"
   else
-    echo "[report_system_version] Curl Error: $response"
+    echo "$response"
     last_error="请求失败(curl error)"
   fi
 
