@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604021138",
+    "items": [
+      {
+        "commit": "99902beb2c2d9ea17d1cc02ebf184d3d8fc09fe1",
+        "author": "xylplm",
+        "date": "2026-04-02 11:15:47",
+        "message": "fix: 修复识别词 屏蔽功能失效问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604020019",
     "items": [
       {
@@ -353,17 +364,6 @@
         "author": "xylplm",
         "date": "2026-03-31 22:33:05",
         "message": "feat ✨: 更新 hashReportStatistic 接口返回类型，简化 hashReportStatisticMine 接口逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011413",
-    "items": [
-      {
-        "commit": "44d47b04ced489c2c4f49ba7ae9fbff633ab85e7",
-        "author": "Jolc",
-        "date": "2026-04-01 13:36:26",
-        "message": "feat：上报通知。"
       }
     ]
   }

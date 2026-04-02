@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604021138",
+    "items": [
+      {
+        "commit": "9bcad5bd38f6fdcfb4bca83e5f04ca78eae8481c",
+        "author": "xylplm",
+        "date": "2026-04-02 11:37:21",
+        "message": "✨ feat: 识别词 添加AI生成识别词功能  不会写正则没关系，AI帮你写  妈妈再也不担心我的提示词不会写了"
+      },
+      {
+        "commit": "71b82ea26dc2ff0dd1541bde1355ff154aa11411",
+        "author": "xylplm",
+        "date": "2026-04-02 11:33:47",
+        "message": "🔁 refactor: 优化媒体类型选择的跟踪方式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604020118",
     "items": [
       {
@@ -101,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-04-01 13:42:11",
         "message": "fix: 优化云下载，支持多个下载链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011537",
-    "items": [
-      {
-        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
-        "author": "xylplm",
-        "date": "2026-04-01 14:13:03",
-        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   }
