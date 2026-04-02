@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202604022236",
+    "items": [
+      {
+        "commit": "970f6e3b1a6df101790884d2eb924f9316a5f8d7",
+        "author": "GateCross",
+        "date": "2026-04-02 22:35:04",
+        "message": "fix: 优化hash上报种子信息"
+      },
+      {
+        "commit": "275ec28515d055e5502e54077becf8f25d0d89ea",
+        "author": "liurongjie",
+        "date": "2026-04-02 22:31:41",
+        "message": "feat(cloud_storage): 更新云存储服务消息格式"
+      },
+      {
+        "commit": "2f450beaaad470e6585724d5cd25c870f835b099",
+        "author": "liurongjie",
+        "date": "2026-04-02 22:30:16",
+        "message": "feat(cloud_storage): 更新云存储服务消息格式"
+      },
+      {
+        "commit": "3ed5745e5704998857ad8a0528785027f0c3e654",
+        "author": "liurongjie",
+        "date": "2026-04-02 22:17:57",
+        "message": "feat(tasks): 优化云存储上报提示消息格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604021836",
     "items": [
       {
@@ -341,23 +370,6 @@
         "author": "xylplm",
         "date": "2026-04-01 16:48:48",
         "message": "refactor 🔁: 优化订阅过滤逻辑，合并文本字段用于正则匹配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604011537",
-    "items": [
-      {
-        "commit": "1d5504dbc422216415d4b59747bc8fc1aef4ffb8",
-        "author": "Jolc",
-        "date": "2026-04-01 15:36:57",
-        "message": "fix: 解决 %s"
-      },
-      {
-        "commit": "44d47b04ced489c2c4f49ba7ae9fbff633ab85e7",
-        "author": "Jolc",
-        "date": "2026-04-01 13:36:26",
-        "message": "feat：上报通知。"
       }
     ]
   }
