@@ -1,225 +1,141 @@
 [
   {
-    "version": "DEV_202603122242",
+    "version": "DEV_202604021756",
     "items": [
       {
-        "commit": "f251604b931fb6e2aa0cf67c475f13e42eb2578e",
+        "commit": "62813938c6c9d9405ea57737f9ce158dbf6346bc",
         "author": "xylplm",
-        "date": "2026-03-11 17:54:56",
-        "message": "feat(site-manage): 优化VPN标签样式，增强可读性和视觉效果"
-      },
-      {
-        "commit": "e63bbe8d98d3eca6f923d6eeef90b6bd1893cfa2",
-        "author": "xylplm",
-        "date": "2026-03-10 23:49:45",
-        "message": "feat(media-detail): 更新电影标题样式，调整字体大小以增强可读性"
-      },
-      {
-        "commit": "a0f4f0820fbcba440de6e7b6d05b2c0e6673e7a2",
-        "author": "xylplm",
-        "date": "2026-03-10 23:32:47",
-        "message": "feat(media-detail): 优化季集信息展示，增强响应式布局和交互体验"
-      },
-      {
-        "commit": "178be289ca3258e7301b3943d30c8006071243d4",
-        "author": "xylplm",
-        "date": "2026-03-10 23:18:14",
-        "message": "feat(file-list): 优化文件目录列表，路由支持路径，方便页面跳转记忆"
-      },
-      {
-        "commit": "e48d79873349abf5bb4176622b155f7eb3804e44",
-        "author": "xylplm",
-        "date": "2026-03-10 22:38:24",
-        "message": "feat(file-sort): 更新排序选项图标，显示当前选择的排序方式"
-      },
-      {
-        "commit": "3d9cb7b94b7702781f81734883cb9211b28aab0c",
-        "author": "xylplm",
-        "date": "2026-03-10 22:35:50",
-        "message": "feat(directory-file): 记忆并恢复文件排序选项"
-      },
-      {
-        "commit": "5de0fd8bfe32d916cdcb613f12849cea918ab850",
-        "author": "xylplm",
-        "date": "2026-03-10 21:00:51",
-        "message": "feat(file-sort): 添加文件排序功能，优化排序选项逻辑"
-      },
-      {
-        "commit": "967bcb402960f40d99d722660b8f9d808917cf58",
-        "author": "allen",
-        "date": "2026-03-10 20:06:51",
-        "message": "feat(file-list): 接入文件排序字段"
+        "date": "2026-04-02 17:53:59",
+        "message": "✨ feat: 添加AI生成Cron表达式功能"
       }
     ]
   },
   {
-    "version": "DEV_202603122229",
+    "version": "DEV_202604021312",
     "items": [
       {
-        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
-        "author": "liurongjie",
-        "date": "2026-03-11 23:12:45",
-        "message": "fix(tools): 修复动态表单初始化时机问题"
-      },
-      {
-        "commit": "f251604b931fb6e2aa0cf67c475f13e42eb2578e",
+        "commit": "bbcf860896dc7d64577515d2bc3770ed2c137566",
         "author": "xylplm",
-        "date": "2026-03-11 17:54:56",
-        "message": "feat(site-manage): 优化VPN标签样式，增强可读性和视觉效果"
+        "date": "2026-04-02 13:10:46",
+        "message": "✨ feat: 添加TMDB索引绑定功能，支持点击名称绑定TMDB信息"
       },
       {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+        "commit": "bede91ff659f40bf86aa24c6502118209c33b7e1",
+        "author": "xylplm",
+        "date": "2026-04-02 13:10:31",
+        "message": "✨ feat: 更新TMDB索引表单，添加帮助提示信息"
+      },
+      {
+        "commit": "d4839bd5b12686b26cec3076ef88e5f3bcd967d5",
+        "author": "xylplm",
+        "date": "2026-04-02 13:10:12",
+        "message": "🔁 refactor: 移除媒体类型列表中的冗余项"
+      },
+      {
+        "commit": "e67132f7f0bcae7a0da9da04c600b0ab27544757",
+        "author": "Jolc",
+        "date": "2026-04-02 01:18:07",
+        "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
       }
     ]
   },
   {
-    "version": "DEV_202603121754",
+    "version": "DEV_202604021138",
     "items": [
       {
-        "commit": "e63bbe8d98d3eca6f923d6eeef90b6bd1893cfa2",
+        "commit": "9bcad5bd38f6fdcfb4bca83e5f04ca78eae8481c",
         "author": "xylplm",
-        "date": "2026-03-10 23:49:45",
-        "message": "feat(media-detail): 更新电影标题样式，调整字体大小以增强可读性"
+        "date": "2026-04-02 11:37:21",
+        "message": "✨ feat: 识别词 添加AI生成识别词功能  不会写正则没关系，AI帮你写  妈妈再也不担心我的提示词不会写了"
       },
       {
-        "commit": "a0f4f0820fbcba440de6e7b6d05b2c0e6673e7a2",
+        "commit": "71b82ea26dc2ff0dd1541bde1355ff154aa11411",
         "author": "xylplm",
-        "date": "2026-03-10 23:32:47",
-        "message": "feat(media-detail): 优化季集信息展示，增强响应式布局和交互体验"
-      },
-      {
-        "commit": "178be289ca3258e7301b3943d30c8006071243d4",
-        "author": "xylplm",
-        "date": "2026-03-10 23:18:14",
-        "message": "feat(file-list): 优化文件目录列表，路由支持路径，方便页面跳转记忆"
-      },
-      {
-        "commit": "e48d79873349abf5bb4176622b155f7eb3804e44",
-        "author": "xylplm",
-        "date": "2026-03-10 22:38:24",
-        "message": "feat(file-sort): 更新排序选项图标，显示当前选择的排序方式"
-      },
-      {
-        "commit": "3d9cb7b94b7702781f81734883cb9211b28aab0c",
-        "author": "xylplm",
-        "date": "2026-03-10 22:35:50",
-        "message": "feat(directory-file): 记忆并恢复文件排序选项"
-      },
-      {
-        "commit": "5de0fd8bfe32d916cdcb613f12849cea918ab850",
-        "author": "xylplm",
-        "date": "2026-03-10 21:00:51",
-        "message": "feat(file-sort): 添加文件排序功能，优化排序选项逻辑"
-      },
-      {
-        "commit": "967bcb402960f40d99d722660b8f9d808917cf58",
-        "author": "allen",
-        "date": "2026-03-10 20:06:51",
-        "message": "feat(file-list): 接入文件排序字段"
+        "date": "2026-04-02 11:33:47",
+        "message": "🔁 refactor: 优化媒体类型选择的跟踪方式"
       }
     ]
   },
   {
-    "version": "DEV_202603112324",
+    "version": "DEV_202604020118",
     "items": [
       {
-        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
-        "author": "liurongjie",
-        "date": "2026-03-11 23:12:45",
-        "message": "fix(tools): 修复动态表单初始化时机问题"
+        "commit": "e67132f7f0bcae7a0da9da04c600b0ab27544757",
+        "author": "Jolc",
+        "date": "2026-04-02 01:18:07",
+        "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
       },
       {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   },
   {
-    "version": "DEV_202603111755",
+    "version": "DEV_202604020019",
     "items": [
       {
-        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
         "author": "xylplm",
-        "date": "2026-03-09 11:43:23",
-        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
-      },
-      {
-        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
-        "author": "xylplm",
-        "date": "2026-03-09 10:53:04",
-        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   },
   {
-    "version": "DEV_202603111440",
+    "version": "DEV_202604020006",
     "items": [
       {
-        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
-        "author": "liurongjie",
-        "date": "2026-03-11 14:23:02",
-        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   },
   {
-    "version": "DEV_202603091143",
+    "version": "DEV_202604012307",
     "items": [
       {
-        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
         "author": "xylplm",
-        "date": "2026-03-09 11:43:23",
-        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   },
   {
-    "version": "DEV_202603091053",
+    "version": "DEV_202604012205",
     "items": [
       {
-        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
-        "author": "xylplm",
-        "date": "2026-03-09 10:53:04",
-        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   },
   {
-    "version": "DEV_202603061443",
+    "version": "DEV_202604012155",
     "items": [
       {
-        "commit": "2c00e01f188bae3bd3de7e88c57dab26be612d17",
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
         "author": "xylplm",
-        "date": "2026-03-06 14:32:24",
-        "message": "feat(image-compression): 移除冗余压缩参数字段，直接在原始字段上添加图片压缩参数"
-      },
-      {
-        "commit": "ec660488a2e8e092ce96f9633570f308079721d9",
-        "author": "xylplm",
-        "date": "2026-03-06 14:01:07",
-        "message": "feat(image-compression): 优化图片压缩参数添加逻辑，支持目标API判断"
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   },
   {
-    "version": "DEV_202603051709",
+    "version": "DEV_202604012056",
     "items": [
       {
-        "commit": "a078dced005a7d8084bf3c1dc5f9f661539a2501",
-        "author": "xylplm",
-        "date": "2026-03-05 17:08:27",
-        "message": "feat(message-center): 消息中心增加消息清空按钮"
-      },
-      {
-        "commit": "d8676ba4f63b1ed9f209df9a53173e340cf69bdf",
-        "author": "xylplm",
-        "date": "2026-03-05 16:27:45",
-        "message": "feat(download): 添加清空下载记录功能，优化界面布局"
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   }
