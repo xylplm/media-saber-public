@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202604032212",
+    "items": [
+      {
+        "commit": "4589064cf3e0bf2f6bee4128c69cc608809ec023",
+        "author": "xylplm",
+        "date": "2026-04-03 22:12:14",
+        "message": "fix 🐛: 增加升级包下载失败时的错误提示，处理过期或不存在的安装包情况"
+      },
+      {
+        "commit": "5e954883e55e8a1a2452bb627e3d30c343b41b5f",
+        "author": "xylplm",
+        "date": "2026-04-03 22:08:54",
+        "message": "fix 🐛: 优化站点验证逻辑，避免重复记录无效站点"
+      },
+      {
+        "commit": "b12a5a8d40560110d2b1e525f66e56d223acc4d5",
+        "author": "xylplm",
+        "date": "2026-04-03 22:01:17",
+        "message": "fix 🐛: 修改空数组处理逻辑，保留累计结果"
+      },
+      {
+        "commit": "1036d7df8a0ff48f95c599acc44574fed3746a29",
+        "author": "xylplm",
+        "date": "2026-04-03 21:53:01",
+        "message": "fix 🐛: 优化辅种任务并发处理，修复 Redis 缓存记录逻辑"
+      },
+      {
+        "commit": "4051da6ff189d8c5875db650e17f7064978deae0",
+        "author": "xylplm",
+        "date": "2026-04-03 21:46:21",
+        "message": "fix 🐛: 优化种子处理逻辑，增加站点有效性检查"
+      },
+      {
+        "commit": "174343e007e830ee4e726fd55b4d0e4646d0d933",
+        "author": "xylplm",
+        "date": "2026-04-03 21:33:28",
+        "message": "fix 🐛: 优化IYUU辅种站点信息验证逻辑，确保有效性检查"
+      },
+      {
+        "commit": "37f5555cc4be34c905b05a434aef48e0e2ad24df",
+        "author": "xylplm",
+        "date": "2026-04-03 17:46:31",
+        "message": "fix 🐛: 修改 上报 Redis 缓存有效期为 30 天"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604031145",
     "items": [
       {
@@ -215,17 +262,6 @@
         "author": "xylplm",
         "date": "2026-04-02 11:15:47",
         "message": "fix: 修复识别词 屏蔽功能失效问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604020019",
-    "items": [
-      {
-        "commit": "1d650f79eb220c1fb52b4d11d4caacb298915f46",
-        "author": "Jolc",
-        "date": "2026-04-02 00:18:52",
-        "message": "fix：云资源旧版本上报资源中字兜底。"
       }
     ]
   }
