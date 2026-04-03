@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604031039",
+    "items": [
+      {
+        "commit": "389dbdf30b6fa89ae50f7f0a485475fefe99e640",
+        "author": "xylplm",
+        "date": "2026-04-03 10:38:16",
+        "message": "feat ✨: 添加系统版本查询接口及相关逻辑"
+      },
+      {
+        "commit": "970f6e3b1a6df101790884d2eb924f9316a5f8d7",
+        "author": "GateCross",
+        "date": "2026-04-02 22:35:04",
+        "message": "fix: 优化hash上报种子信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604022302",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "Jolc",
         "date": "2026-04-01 23:06:42",
         "message": "feat：详情页显示云端资源数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604012155",
-    "items": [
-      {
-        "commit": "9f2d2b02e21fad68d719573e495738c29b2f0cc3",
-        "author": "Jolc",
-        "date": "2026-04-01 21:54:57",
-        "message": "fix: 抢报者"
       }
     ]
   }
