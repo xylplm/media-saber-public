@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202604031145",
+    "items": [
+      {
+        "commit": "24cf76c971fb572c92fd490042f51395abea9ec2",
+        "author": "xylplm",
+        "date": "2026-04-03 11:44:43",
+        "message": "fix 🐛: 修复 SearchTorrents 返回值，确保返回条目数量而非总数"
+      },
+      {
+        "commit": "82f4568ba22ab5e788456cede32997d04589190e",
+        "author": "xylplm",
+        "date": "2026-04-03 11:44:33",
+        "message": "fix 🐛: 修复空切片返回值，确保返回空数组而非nil"
+      },
+      {
+        "commit": "389dbdf30b6fa89ae50f7f0a485475fefe99e640",
+        "author": "xylplm",
+        "date": "2026-04-03 10:38:16",
+        "message": "feat ✨: 添加系统版本查询接口及相关逻辑"
+      },
+      {
+        "commit": "275ec28515d055e5502e54077becf8f25d0d89ea",
+        "author": "liurongjie",
+        "date": "2026-04-02 22:31:41",
+        "message": "feat(cloud_storage): 更新云存储服务消息格式"
+      },
+      {
+        "commit": "2f450beaaad470e6585724d5cd25c870f835b099",
+        "author": "liurongjie",
+        "date": "2026-04-02 22:30:16",
+        "message": "feat(cloud_storage): 更新云存储服务消息格式"
+      },
+      {
+        "commit": "3ed5745e5704998857ad8a0528785027f0c3e654",
+        "author": "liurongjie",
+        "date": "2026-04-02 22:17:57",
+        "message": "feat(tasks): 优化云存储上报提示消息格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604031103",
     "items": [
       {
@@ -184,17 +225,6 @@
         "commit": "1d650f79eb220c1fb52b4d11d4caacb298915f46",
         "author": "Jolc",
         "date": "2026-04-02 00:18:52",
-        "message": "fix：云资源旧版本上报资源中字兜底。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604020006",
-    "items": [
-      {
-        "commit": "e43b8a42a15b1b5a6d4966ce8a6694a7a2f8667e",
-        "author": "Jolc",
-        "date": "2026-04-02 00:05:40",
         "message": "fix：云资源旧版本上报资源中字兜底。"
       }
     ]
