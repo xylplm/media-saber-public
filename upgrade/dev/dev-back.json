@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604052116",
+    "items": [
+      {
+        "commit": "83d93b1bf8f0d841fcc1519a3f648090c8bb51cf",
+        "author": "liurongjie",
+        "date": "2026-04-05 21:15:08",
+        "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604042145",
     "items": [
       {
@@ -250,17 +261,6 @@
         "commit": "3ed5745e5704998857ad8a0528785027f0c3e654",
         "author": "liurongjie",
         "date": "2026-04-02 22:17:57",
-        "message": "feat(tasks): 优化云存储上报提示消息格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604021836",
-    "items": [
-      {
-        "commit": "e04a43c154cffdf31866c027b6c7bd1ee42ba16b",
-        "author": "liurongjie",
-        "date": "2026-04-02 18:35:29",
         "message": "feat(tasks): 优化云存储上报提示消息格式"
       }
     ]
