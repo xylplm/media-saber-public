@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604052140",
+    "items": [
+      {
+        "commit": "92b75ef55f64ac95bf07f6d3d3c08f458f6e0293",
+        "author": "liurongjie",
+        "date": "2026-04-05 21:39:05",
+        "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604052116",
     "items": [
       {
@@ -216,35 +227,6 @@
   {
     "version": "DEV_202604022242",
     "items": [
-      {
-        "commit": "275ec28515d055e5502e54077becf8f25d0d89ea",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:31:41",
-        "message": "feat(cloud_storage): 更新云存储服务消息格式"
-      },
-      {
-        "commit": "2f450beaaad470e6585724d5cd25c870f835b099",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:30:16",
-        "message": "feat(cloud_storage): 更新云存储服务消息格式"
-      },
-      {
-        "commit": "3ed5745e5704998857ad8a0528785027f0c3e654",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:17:57",
-        "message": "feat(tasks): 优化云存储上报提示消息格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604022236",
-    "items": [
-      {
-        "commit": "970f6e3b1a6df101790884d2eb924f9316a5f8d7",
-        "author": "GateCross",
-        "date": "2026-04-02 22:35:04",
-        "message": "fix: 优化hash上报种子信息"
-      },
       {
         "commit": "275ec28515d055e5502e54077becf8f25d0d89ea",
         "author": "liurongjie",
