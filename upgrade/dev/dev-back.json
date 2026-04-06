@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604061614",
+    "items": [
+      {
+        "commit": "abd70548450335b451f4e6077c16f90093d6cc14",
+        "author": "GateCross",
+        "date": "2026-04-06 16:13:58",
+        "message": "fix: 优化云端订阅，避免重复下载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604060006",
     "items": [
       {
@@ -227,17 +238,6 @@
         "author": "liurongjie",
         "date": "2026-04-02 22:17:57",
         "message": "feat(tasks): 优化云存储上报提示消息格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604022257",
-    "items": [
-      {
-        "commit": "970f6e3b1a6df101790884d2eb924f9316a5f8d7",
-        "author": "GateCross",
-        "date": "2026-04-02 22:35:04",
-        "message": "fix: 优化hash上报种子信息"
       }
     ]
   }
