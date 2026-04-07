@@ -1,5 +1,100 @@
 [
   {
+    "version": "DEV_202604071818",
+    "items": [
+      {
+        "commit": "e122483a32d1732c2a0a5f270615d9f7171d3cb3",
+        "author": "xylplm",
+        "date": "2026-04-07 18:26:15",
+        "message": "🔁 refactor: 更新版本导入路径，提升代码一致性"
+      },
+      {
+        "commit": "ec944fbf5d504bd6e8e5a110d7529357bfc2128b",
+        "author": "xylplm",
+        "date": "2026-04-07 18:13:23",
+        "message": "✨ feat: 更新模块导入路径，优化代码结构"
+      },
+      {
+        "commit": "697caa31f17e7062dbdb82256f57fec810c48e2f",
+        "author": "xylplm",
+        "date": "2026-04-07 17:49:57",
+        "message": "🔁 refactor: 优化类型定义，提升代码可读性"
+      },
+      {
+        "commit": "72f7dc9bbf611a039d9a9d87e0679045885f369e",
+        "author": "xylplm",
+        "date": "2026-04-07 16:40:46",
+        "message": "format code"
+      },
+      {
+        "commit": "d340921d3503c349e7d5bab73c15840bc1c8ffe7",
+        "author": "xylplm",
+        "date": "2026-04-07 16:39:27",
+        "message": "✨ feat: 优化云存储模块，调整导入顺序和类型定义，提升代码可读性"
+      },
+      {
+        "commit": "b79c71d16f214d06bea3ba72a6025ef9d9ea3858",
+        "author": "xylplm",
+        "date": "2026-04-07 16:33:35",
+        "message": "✨ feat: 订阅云端资源启用状态和路由参数变化，优化搜索触发逻辑"
+      },
+      {
+        "commit": "533543e290dda61511ff8da84346c9df601ab4c5",
+        "author": "xylplm",
+        "date": "2026-04-07 16:28:33",
+        "message": "✨ feat: 添加云端资源搜索选项，支持动态启用状态"
+      },
+      {
+        "commit": "2527c50f3452792b0b98e66e595a4c2d3f6f17e3",
+        "author": "xylplm",
+        "date": "2026-04-07 16:21:56",
+        "message": "✨ feat: 优化系统开关加载逻辑，支持并发请求共享，提升性能"
+      },
+      {
+        "commit": "5974797e697411afd007ed39f5554678e7bbaffb",
+        "author": "xylplm",
+        "date": "2026-04-07 16:13:08",
+        "message": "✨ feat: 优化系统开关服务，支持并发请求共享，增强加载效率"
+      },
+      {
+        "commit": "043f3a5168274beddf8f557e8014ccf0957d7efa",
+        "author": "xylplm",
+        "date": "2026-04-07 15:48:44",
+        "message": "✨ feat: 云端资源添加关键词历史记录功能以增强搜索体验"
+      },
+      {
+        "commit": "c509eb603a1ab5f58dd693bf4e3b8606e00de45b",
+        "author": "xylplm",
+        "date": "2026-04-07 15:39:35",
+        "message": "✨ feat: 添加可展开详情功能以增强文件下载对话框的用户体验"
+      },
+      {
+        "commit": "0fad4259a901fc3d39c3c83a87909011836ef688",
+        "author": "xylplm",
+        "date": "2026-04-07 15:37:27",
+        "message": "✨ feat: 为种子信息添加工具提示以增强用户体验"
+      },
+      {
+        "commit": "a0cb50477d91e09ae2914b9878facfa0c5db17f3",
+        "author": "xylplm",
+        "date": "2026-04-07 15:01:06",
+        "message": "✨ feat: 添加升级过程中的 loading 消息管理功能"
+      },
+      {
+        "commit": "c63cd4fb2b874b2d4d8fc06edcc6bfc47ad27c1a",
+        "author": "xylplm",
+        "date": "2026-04-07 15:00:49",
+        "message": "✨ feat: 添加根据 messageId 关闭指定消息的功能"
+      },
+      {
+        "commit": "c1848b23f718b127583942d16bcdda1755123bb0",
+        "author": "xylplm",
+        "date": "2026-04-07 14:37:13",
+        "message": "✨ feat: 添加版本初始化功能以优化组件加载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604071421",
     "items": [
       {
@@ -167,17 +262,6 @@
         "author": "GateCross",
         "date": "2026-04-01 13:42:11",
         "message": "fix: 优化云下载，支持多个下载链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604012307",
-    "items": [
-      {
-        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
-        "author": "xylplm",
-        "date": "2026-04-01 14:13:03",
-        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   }
