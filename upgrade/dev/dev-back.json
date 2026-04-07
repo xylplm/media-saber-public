@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604072107",
+    "items": [
+      {
+        "commit": "b806e9b4e25f79b2812478ff16353ec58ee4a259",
+        "author": "Jolc",
+        "date": "2026-04-07 21:06:06",
+        "message": "fix：紧急修复上报描述"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604072004",
     "items": [
       {
@@ -209,23 +220,6 @@
         "author": "Jolc",
         "date": "2026-04-02 00:05:40",
         "message": "fix：云资源旧版本上报资源中字兜底。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604031039",
-    "items": [
-      {
-        "commit": "389dbdf30b6fa89ae50f7f0a485475fefe99e640",
-        "author": "xylplm",
-        "date": "2026-04-03 10:38:16",
-        "message": "feat ✨: 添加系统版本查询接口及相关逻辑"
-      },
-      {
-        "commit": "970f6e3b1a6df101790884d2eb924f9316a5f8d7",
-        "author": "GateCross",
-        "date": "2026-04-02 22:35:04",
-        "message": "fix: 优化hash上报种子信息"
       }
     ]
   }
