@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604072306",
+    "items": [
+      {
+        "commit": "201c5e5e9ef4e73406d615fae5620a460e305059",
+        "author": "xylplm",
+        "date": "2026-04-07 23:06:05",
+        "message": "✨ feat: 添加发布时间和优化种子数提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604071818",
     "items": [
       {
@@ -251,17 +262,6 @@
         "author": "xylplm",
         "date": "2026-04-01 14:13:03",
         "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604020006",
-    "items": [
-      {
-        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
-        "author": "GateCross",
-        "date": "2026-04-01 13:42:11",
-        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   }
