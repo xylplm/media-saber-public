@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604072004",
+    "items": [
+      {
+        "commit": "84247106d025afab18d063528ef74f88774e1db7",
+        "author": "Jolc",
+        "date": "2026-04-07 19:52:15",
+        "message": "feat：云存储列表增加显示已禁用开关"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604061614",
     "items": [
       {
@@ -215,29 +226,6 @@
         "author": "GateCross",
         "date": "2026-04-02 22:35:04",
         "message": "fix: 优化hash上报种子信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604022302",
-    "items": [
-      {
-        "commit": "275ec28515d055e5502e54077becf8f25d0d89ea",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:31:41",
-        "message": "feat(cloud_storage): 更新云存储服务消息格式"
-      },
-      {
-        "commit": "2f450beaaad470e6585724d5cd25c870f835b099",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:30:16",
-        "message": "feat(cloud_storage): 更新云存储服务消息格式"
-      },
-      {
-        "commit": "3ed5745e5704998857ad8a0528785027f0c3e654",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:17:57",
-        "message": "feat(tasks): 优化云存储上报提示消息格式"
       }
     ]
   }
