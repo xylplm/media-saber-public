@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604081508",
+    "items": [
+      {
+        "commit": "d27b515dd816025b6a5efe8f86be0d1c61093949",
+        "author": "xylplm",
+        "date": "2026-04-08 15:04:37",
+        "message": "📦 deps: 更新依赖包版本"
+      },
+      {
+        "commit": "64241364deb56bdbf64e2057d75304307e6c5ff6",
+        "author": "xylplm",
+        "date": "2026-04-08 15:02:25",
+        "message": "📦 deps: 更新 Angular 相关依赖版本"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604081457",
     "items": [
       {
@@ -257,23 +274,6 @@
         "author": "xylplm",
         "date": "2026-04-02 11:33:47",
         "message": "🔁 refactor: 优化媒体类型选择的跟踪方式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604020118",
-    "items": [
-      {
-        "commit": "e67132f7f0bcae7a0da9da04c600b0ab27544757",
-        "author": "Jolc",
-        "date": "2026-04-02 01:18:07",
-        "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
-      },
-      {
-        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
-        "author": "GateCross",
-        "date": "2026-04-01 13:42:11",
-        "message": "fix: 优化云下载，支持多个下载链接"
       }
     ]
   }
