@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604082253",
+    "items": [
+      {
+        "commit": "7e122dc32e8c758cb8c1fa49a6eb182ef7e751df",
+        "author": "liurongjie",
+        "date": "2026-04-08 22:52:33",
+        "message": "fix(plex): 修复 Plex webhook 中音乐专辑名称显示错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604082230",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "GateCross",
         "date": "2026-04-06 16:13:58",
         "message": "fix: 优化云端订阅，避免重复下载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604060006",
-    "items": [
-      {
-        "commit": "045f29a3a6bf695979039e4394e0fd6160bbc2b1",
-        "author": "liurongjie",
-        "date": "2026-04-06 00:02:15",
-        "message": "refactor(plugin): 重构插件消息通知实现"
-      },
-      {
-        "commit": "a8c7dfce7de870519f6f0757bbe1c1ef638a6784",
-        "author": "liurongjie",
-        "date": "2026-04-05 23:48:55",
-        "message": "refactor(plugin): 优化IYUU自动辅种插件的通知格式"
       }
     ]
   }
