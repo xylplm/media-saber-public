@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604081457",
+    "items": [
+      {
+        "commit": "55920808d491df307e66e1fa6e451a8799df8686",
+        "author": "xylplm",
+        "date": "2026-04-07 23:30:55",
+        "message": "fix 🐛: 更新服务器密钥和版本号"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604072107",
     "items": [
       {
@@ -167,59 +178,6 @@
         "author": "liurongjie",
         "date": "2026-04-02 22:17:57",
         "message": "feat(tasks): 优化云存储上报提示消息格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604031103",
-    "items": [
-      {
-        "commit": "970f6e3b1a6df101790884d2eb924f9316a5f8d7",
-        "author": "GateCross",
-        "date": "2026-04-02 22:35:04",
-        "message": "fix: 优化hash上报种子信息"
-      },
-      {
-        "commit": "275ec28515d055e5502e54077becf8f25d0d89ea",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:31:41",
-        "message": "feat(cloud_storage): 更新云存储服务消息格式"
-      },
-      {
-        "commit": "2f450beaaad470e6585724d5cd25c870f835b099",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:30:16",
-        "message": "feat(cloud_storage): 更新云存储服务消息格式"
-      },
-      {
-        "commit": "3ed5745e5704998857ad8a0528785027f0c3e654",
-        "author": "liurongjie",
-        "date": "2026-04-02 22:17:57",
-        "message": "feat(tasks): 优化云存储上报提示消息格式"
-      },
-      {
-        "commit": "e04a43c154cffdf31866c027b6c7bd1ee42ba16b",
-        "author": "liurongjie",
-        "date": "2026-04-02 18:35:29",
-        "message": "feat(tasks): 优化云存储上报提示消息格式"
-      },
-      {
-        "commit": "99902beb2c2d9ea17d1cc02ebf184d3d8fc09fe1",
-        "author": "xylplm",
-        "date": "2026-04-02 11:15:47",
-        "message": "fix: 修复识别词 屏蔽功能失效问题"
-      },
-      {
-        "commit": "1d650f79eb220c1fb52b4d11d4caacb298915f46",
-        "author": "Jolc",
-        "date": "2026-04-02 00:18:52",
-        "message": "fix：云资源旧版本上报资源中字兜底。"
-      },
-      {
-        "commit": "e43b8a42a15b1b5a6d4966ce8a6694a7a2f8667e",
-        "author": "Jolc",
-        "date": "2026-04-02 00:05:40",
-        "message": "fix：云资源旧版本上报资源中字兜底。"
       }
     ]
   }

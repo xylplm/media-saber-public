@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202604081457",
+    "items": [
+      {
+        "commit": "ab9ea0c8adf45a300df7c8f91ffc543de2b0f8f6",
+        "author": "xylplm",
+        "date": "2026-04-08 14:57:31",
+        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
+      },
+      {
+        "commit": "d4d5520e1c7aaf3762194cb94df0763322598850",
+        "author": "xylplm",
+        "date": "2026-04-08 14:53:12",
+        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
+      },
+      {
+        "commit": "bc7e16178f53e99b4adbb2083df02a0769c94c57",
+        "author": "xylplm",
+        "date": "2026-04-07 23:23:57",
+        "message": "🔁 refactor: 优化H&R天数显示格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604072306",
     "items": [
       {
@@ -251,17 +274,6 @@
         "author": "GateCross",
         "date": "2026-04-01 13:42:11",
         "message": "fix: 优化云下载，支持多个下载链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604020019",
-    "items": [
-      {
-        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
-        "author": "xylplm",
-        "date": "2026-04-01 14:13:03",
-        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
       }
     ]
   }
