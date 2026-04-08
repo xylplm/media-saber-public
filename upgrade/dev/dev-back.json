@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202604081713",
+    "items": [
+      {
+        "commit": "1ae394388bcf8868d956eb61b8bd60fdabde5e4e",
+        "author": "GateCross",
+        "date": "2026-04-08 17:01:54",
+        "message": "fix: 云端资源描述优化（优先长的）"
+      },
+      {
+        "commit": "849a63f6aa26b77468ef6046236ac80701f89705",
+        "author": "Jolc",
+        "date": "2026-04-08 16:32:19",
+        "message": "fix：hash report 谁长以谁为准"
+      },
+      {
+        "commit": "55920808d491df307e66e1fa6e451a8799df8686",
+        "author": "xylplm",
+        "date": "2026-04-07 23:30:55",
+        "message": "fix 🐛: 更新服务器密钥和版本号"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604081533",
     "items": [
       {
@@ -143,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-04-05 21:15:08",
         "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604042145",
-    "items": [
-      {
-        "commit": "a2780b0196c9f4dfad7274a5b8f752f7efeeaaeb",
-        "author": "xylplm",
-        "date": "2026-04-04 21:45:11",
-        "message": "fix 🐛: 优化搜索结果返回逻辑，处理分页大小和总数的情况"
       }
     ]
   }

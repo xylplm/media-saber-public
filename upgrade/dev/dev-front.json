@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604081713",
+    "items": [
+      {
+        "commit": "eb8e62e121ffcbc7c937dfc4e8352a45472e15fb",
+        "author": "GateCross",
+        "date": "2026-04-08 17:11:04",
+        "message": "fix: 修改云端资源贡献人显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604081508",
     "items": [
       {
@@ -257,23 +268,6 @@
         "author": "Jolc",
         "date": "2026-04-02 01:18:07",
         "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604021138",
-    "items": [
-      {
-        "commit": "9bcad5bd38f6fdcfb4bca83e5f04ca78eae8481c",
-        "author": "xylplm",
-        "date": "2026-04-02 11:37:21",
-        "message": "✨ feat: 识别词 添加AI生成识别词功能  不会写正则没关系，AI帮你写  妈妈再也不担心我的提示词不会写了"
-      },
-      {
-        "commit": "71b82ea26dc2ff0dd1541bde1355ff154aa11411",
-        "author": "xylplm",
-        "date": "2026-04-02 11:33:47",
-        "message": "🔁 refactor: 优化媒体类型选择的跟踪方式"
       }
     ]
   }
