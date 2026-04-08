@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604082230",
+    "items": [
+      {
+        "commit": "a158012561afff3786ef369501df06957cc02b2c",
+        "author": "liurongjie",
+        "date": "2026-04-08 22:27:32",
+        "message": "fix(plex): 优化音乐轨道消息格式并优化元数据显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604081859",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-04-05 23:48:55",
         "message": "refactor(plugin): 优化IYUU自动辅种插件的通知格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604052140",
-    "items": [
-      {
-        "commit": "92b75ef55f64ac95bf07f6d3d3c08f458f6e0293",
-        "author": "liurongjie",
-        "date": "2026-04-05 21:39:05",
-        "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
       }
     ]
   }
