@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604091410",
+    "items": [
+      {
+        "commit": "e64fd5c5a0c2410e1f5be628421179bc43002dbe",
+        "author": "liurongjie",
+        "date": "2026-04-09 14:08:42",
+        "message": "feat(directory): 添加目录匹配调试日志功能"
+      },
+      {
+        "commit": "64b5c0adc16b01067bdd4faf46032e8e93bd629e",
+        "author": "syueya",
+        "date": "2026-04-09 11:56:05",
+        "message": "fix：音乐磁场加代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604091115",
     "items": [
       {
@@ -161,17 +178,6 @@
         "author": "Jolc",
         "date": "2026-04-07 21:06:06",
         "message": "fix：紧急修复上报描述"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604072004",
-    "items": [
-      {
-        "commit": "84247106d025afab18d063528ef74f88774e1db7",
-        "author": "Jolc",
-        "date": "2026-04-07 19:52:15",
-        "message": "feat：云存储列表增加显示已禁用开关"
       }
     ]
   }
