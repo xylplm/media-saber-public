@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604091115",
+    "items": [
+      {
+        "commit": "65c56a47e0b03be895888a9bb6868d579ea3eed2",
+        "author": "xylplm",
+        "date": "2026-04-09 00:28:20",
+        "message": "✨ feat: 添加自动完成字段类型支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604081713",
     "items": [
       {
@@ -239,35 +250,6 @@
         "author": "xylplm",
         "date": "2026-04-02 17:53:59",
         "message": "✨ feat: 添加AI生成Cron表达式功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604021312",
-    "items": [
-      {
-        "commit": "bbcf860896dc7d64577515d2bc3770ed2c137566",
-        "author": "xylplm",
-        "date": "2026-04-02 13:10:46",
-        "message": "✨ feat: 添加TMDB索引绑定功能，支持点击名称绑定TMDB信息"
-      },
-      {
-        "commit": "bede91ff659f40bf86aa24c6502118209c33b7e1",
-        "author": "xylplm",
-        "date": "2026-04-02 13:10:31",
-        "message": "✨ feat: 更新TMDB索引表单，添加帮助提示信息"
-      },
-      {
-        "commit": "d4839bd5b12686b26cec3076ef88e5f3bcd967d5",
-        "author": "xylplm",
-        "date": "2026-04-02 13:10:12",
-        "message": "🔁 refactor: 移除媒体类型列表中的冗余项"
-      },
-      {
-        "commit": "e67132f7f0bcae7a0da9da04c600b0ab27544757",
-        "author": "Jolc",
-        "date": "2026-04-02 01:18:07",
-        "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
       }
     ]
   }

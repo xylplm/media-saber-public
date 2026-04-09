@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202604091115",
+    "items": [
+      {
+        "commit": "334c7c7a57f7eefd8a64db44615a175b2736bf43",
+        "author": "xylplm",
+        "date": "2026-04-09 11:04:43",
+        "message": "add ➕: 网络唤醒插件 新增局域网 MAC 地址提取功能及相关工具"
+      },
+      {
+        "commit": "5c65cb3cdf61278f9c1b2e4b25c5aebff1395d5e",
+        "author": "xylplm",
+        "date": "2026-04-09 01:03:35",
+        "message": "fix 🐛: 修改定时唤醒字段的显示文本"
+      },
+      {
+        "commit": "4f11e5e11f3bb57460216c81272683952bd2e8dd",
+        "author": "xylplm",
+        "date": "2026-04-09 00:54:43",
+        "message": "feat ✨: 添加远程网络唤醒插件及相关功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604082253",
     "items": [
       {
@@ -149,17 +172,6 @@
         "author": "Jolc",
         "date": "2026-04-07 19:52:15",
         "message": "feat：云存储列表增加显示已禁用开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604061614",
-    "items": [
-      {
-        "commit": "abd70548450335b451f4e6077c16f90093d6cc14",
-        "author": "GateCross",
-        "date": "2026-04-06 16:13:58",
-        "message": "fix: 优化云端订阅，避免重复下载"
       }
     ]
   }
