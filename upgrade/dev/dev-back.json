@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604102333",
+    "items": [
+      {
+        "commit": "e608fe3fc7b2b237ea7842d7590a1fa30c1b8e60",
+        "author": "Jolc",
+        "date": "2026-04-10 23:33:03",
+        "message": "fix：删配置"
+      },
+      {
+        "commit": "79b606b0d6a5a6a6e722d9451a60a9f9ec164a34",
+        "author": "GateCross",
+        "date": "2026-04-10 22:19:24",
+        "message": "fix: 优化订阅调整集数问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604091558",
     "items": [
       {
@@ -209,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-04-05 21:15:08",
         "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081457",
-    "items": [
-      {
-        "commit": "55920808d491df307e66e1fa6e451a8799df8686",
-        "author": "xylplm",
-        "date": "2026-04-07 23:30:55",
-        "message": "fix 🐛: 更新服务器密钥和版本号"
       }
     ]
   }
