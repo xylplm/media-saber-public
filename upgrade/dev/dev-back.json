@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604112229",
+    "items": [
+      {
+        "commit": "12b81c6cc5624279f7d9122b9eb116ca8aa67a2b",
+        "author": "GateCross",
+        "date": "2026-04-11 22:28:58",
+        "message": "fix: hdhive优先cookie签到"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604112154",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "liurongjie",
         "date": "2026-04-08 22:27:32",
         "message": "fix(plex): 优化音乐轨道消息格式并优化元数据显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081859",
-    "items": [
-      {
-        "commit": "77a4a42d44b27a2577cf27c0286bdfc4b60ba74d",
-        "author": "Jolc",
-        "date": "2026-04-08 18:47:24",
-        "message": "fix：cs hash 更新上报性能优化"
       }
     ]
   }
