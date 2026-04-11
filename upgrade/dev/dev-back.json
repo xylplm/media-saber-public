@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604111322",
+    "items": [
+      {
+        "commit": "8e307f64f6495e63f84771298e85ef0b93efe9a6",
+        "author": "Jolc",
+        "date": "2026-04-11 13:21:29",
+        "message": "feat：榜单 mcp"
+      },
+      {
+        "commit": "bf4f9d430244c805d941e92a38fbb31bf080ece2",
+        "author": "liurongjie",
+        "date": "2026-04-11 12:20:44",
+        "message": "fix(media): 修复媒体服务中的URL转义问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604111122",
     "items": [
       {
@@ -167,23 +184,6 @@
         "author": "Jolc",
         "date": "2026-04-08 16:32:19",
         "message": "fix：hash report 谁长以谁为准"
-      },
-      {
-        "commit": "55920808d491df307e66e1fa6e451a8799df8686",
-        "author": "xylplm",
-        "date": "2026-04-07 23:30:55",
-        "message": "fix 🐛: 更新服务器密钥和版本号"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081533",
-    "items": [
-      {
-        "commit": "6583502a2a7f6307051df565716d02997591eade",
-        "author": "Jolc",
-        "date": "2026-04-08 15:33:01",
-        "message": "feat：紧急版本自动更新机制。"
       },
       {
         "commit": "55920808d491df307e66e1fa6e451a8799df8686",
