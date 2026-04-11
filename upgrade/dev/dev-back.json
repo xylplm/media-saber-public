@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604111122",
+    "items": [
+      {
+        "commit": "f3e2498d0bdf8c34f58f2209b99bbe5998c65bc6",
+        "author": "Jolc",
+        "date": "2026-04-11 11:21:41",
+        "message": "fix：tmdb索引不自动删除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604102333",
     "items": [
       {
@@ -179,53 +190,6 @@
         "author": "xylplm",
         "date": "2026-04-07 23:30:55",
         "message": "fix 🐛: 更新服务器密钥和版本号"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081508",
-    "items": [
-      {
-        "commit": "b806e9b4e25f79b2812478ff16353ec58ee4a259",
-        "author": "Jolc",
-        "date": "2026-04-07 21:06:06",
-        "message": "fix：紧急修复上报描述"
-      },
-      {
-        "commit": "84247106d025afab18d063528ef74f88774e1db7",
-        "author": "Jolc",
-        "date": "2026-04-07 19:52:15",
-        "message": "feat：云存储列表增加显示已禁用开关"
-      },
-      {
-        "commit": "abd70548450335b451f4e6077c16f90093d6cc14",
-        "author": "GateCross",
-        "date": "2026-04-06 16:13:58",
-        "message": "fix: 优化云端订阅，避免重复下载"
-      },
-      {
-        "commit": "045f29a3a6bf695979039e4394e0fd6160bbc2b1",
-        "author": "liurongjie",
-        "date": "2026-04-06 00:02:15",
-        "message": "refactor(plugin): 重构插件消息通知实现"
-      },
-      {
-        "commit": "a8c7dfce7de870519f6f0757bbe1c1ef638a6784",
-        "author": "liurongjie",
-        "date": "2026-04-05 23:48:55",
-        "message": "refactor(plugin): 优化IYUU自动辅种插件的通知格式"
-      },
-      {
-        "commit": "92b75ef55f64ac95bf07f6d3d3c08f458f6e0293",
-        "author": "liurongjie",
-        "date": "2026-04-05 21:39:05",
-        "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
-      },
-      {
-        "commit": "83d93b1bf8f0d841fcc1519a3f648090c8bb51cf",
-        "author": "liurongjie",
-        "date": "2026-04-05 21:15:08",
-        "message": "refactor(plugin): 优化IYUU自动辅种插件的上下文管理和性能"
       }
     ]
   }
