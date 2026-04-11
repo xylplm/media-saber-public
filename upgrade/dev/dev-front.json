@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604112354",
+    "items": [
+      {
+        "commit": "eb55fcae3688ace0c7412184ed2793ee252c8980",
+        "author": "GateCross",
+        "date": "2026-04-11 23:54:03",
+        "message": "fix: 修改云端资源UI"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604091115",
     "items": [
       {
@@ -239,17 +250,6 @@
         "author": "GateCross",
         "date": "2026-04-02 23:00:03",
         "message": "fix: 修复云端资源列表样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604021756",
-    "items": [
-      {
-        "commit": "62813938c6c9d9405ea57737f9ce158dbf6346bc",
-        "author": "xylplm",
-        "date": "2026-04-02 17:53:59",
-        "message": "✨ feat: 添加AI生成Cron表达式功能"
       }
     ]
   }
