@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604112154",
+    "items": [
+      {
+        "commit": "1e05a53c0ed8ae103b840b4d419883dd5b60235c",
+        "author": "GateCross",
+        "date": "2026-04-11 21:46:11",
+        "message": "fix: 修改hdhive请求UA"
+      },
+      {
+        "commit": "fc6855b442774697132238e8ede013ec37edbcad",
+        "author": "xylplm",
+        "date": "2026-04-11 13:56:49",
+        "message": "fix 🐛: 调整大文件下载超时时间为10分钟"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604111322",
     "items": [
       {
@@ -167,29 +184,6 @@
         "author": "Jolc",
         "date": "2026-04-08 18:47:24",
         "message": "fix：cs hash 更新上报性能优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081713",
-    "items": [
-      {
-        "commit": "1ae394388bcf8868d956eb61b8bd60fdabde5e4e",
-        "author": "GateCross",
-        "date": "2026-04-08 17:01:54",
-        "message": "fix: 云端资源描述优化（优先长的）"
-      },
-      {
-        "commit": "849a63f6aa26b77468ef6046236ac80701f89705",
-        "author": "Jolc",
-        "date": "2026-04-08 16:32:19",
-        "message": "fix：hash report 谁长以谁为准"
-      },
-      {
-        "commit": "55920808d491df307e66e1fa6e451a8799df8686",
-        "author": "xylplm",
-        "date": "2026-04-07 23:30:55",
-        "message": "fix 🐛: 更新服务器密钥和版本号"
       }
     ]
   }
