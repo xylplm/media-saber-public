@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604121628",
+    "items": [
+      {
+        "commit": "e9113295759a3b471b167d85a9e3cb666501a1aa",
+        "author": "xylplm",
+        "date": "2026-04-12 16:27:32",
+        "message": "🔁 refactor: 移除MCP功能开关相关代码并简化服务配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604112354",
     "items": [
       {
@@ -239,17 +250,6 @@
         "author": "GateCross",
         "date": "2026-04-06 20:47:28",
         "message": "feat: 显示贡献者ID"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604022257",
-    "items": [
-      {
-        "commit": "ee95bc4de4711e1efc1d6bc3789c8a73faca3686",
-        "author": "GateCross",
-        "date": "2026-04-02 23:00:03",
-        "message": "fix: 修复云端资源列表样式"
       }
     ]
   }

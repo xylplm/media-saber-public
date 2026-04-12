@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202604121628",
+    "items": [
+      {
+        "commit": "7172234bd792e59cfeef6f5cb0166bb8a8ad740f",
+        "author": "xylplm",
+        "date": "2026-04-12 16:00:12",
+        "message": "fix 🐛: 移除 AI 配置中的 mcpEnabled 选项"
+      },
+      {
+        "commit": "d3cc8ac44748cbddebde4f8b75e9e3e4cc4ff517",
+        "author": "xylplm",
+        "date": "2026-04-12 15:57:17",
+        "message": "fix 🐛: 移除不再使用的依赖项并更新 go.sum 文件"
+      },
+      {
+        "commit": "393228b17a440ffcc5789a41eb894fec7c4312cd",
+        "author": "xylplm",
+        "date": "2026-04-12 15:53:22",
+        "message": "fix 🐛: 移除不再使用的缓存相关配置及逻辑"
+      },
+      {
+        "commit": "f3f7d79d50514a4b164432beefd9868a6ef373ed",
+        "author": "xylplm",
+        "date": "2026-04-12 15:49:03",
+        "message": "fix 🐛: 移除不再使用的缓存天数等配置及相关逻辑"
+      },
+      {
+        "commit": "c98d132e302d1c67b65c40b042092b030e59e204",
+        "author": "xylplm",
+        "date": "2026-04-12 15:45:18",
+        "message": "fix 🐛: 移除不再使用的下载超时时间等配置及相关逻辑"
+      },
+      {
+        "commit": "5e1980b01af7bf7428970ff2653d0bceace93078",
+        "author": "xylplm",
+        "date": "2026-04-12 15:32:13",
+        "message": "fix 🐛: 移除日志保留天数配置及相关逻辑"
+      },
+      {
+        "commit": "b7adcd615bb7eec338920996348fff7a23616e0d",
+        "author": "xylplm",
+        "date": "2026-04-12 15:28:48",
+        "message": "fix 🐛: 移除不再使用的文件管理目录配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604112229",
     "items": [
       {
@@ -173,17 +220,6 @@
         "author": "liurongjie",
         "date": "2026-04-08 22:52:33",
         "message": "fix(plex): 修复 Plex webhook 中音乐专辑名称显示错误"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604082230",
-    "items": [
-      {
-        "commit": "a158012561afff3786ef369501df06957cc02b2c",
-        "author": "liurongjie",
-        "date": "2026-04-08 22:27:32",
-        "message": "fix(plex): 优化音乐轨道消息格式并优化元数据显示"
       }
     ]
   }
