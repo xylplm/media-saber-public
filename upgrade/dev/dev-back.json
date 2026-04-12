@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604122134",
+    "items": [
+      {
+        "commit": "883945d0dbe3af61c1548986c3f25f83df958694",
+        "author": "Jolc",
+        "date": "2026-04-12 21:31:36",
+        "message": "feat：死链自动删 hash，提交云下载通知。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604121628",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "xylplm",
         "date": "2026-04-09 00:54:43",
         "message": "feat ✨: 添加远程网络唤醒插件及相关功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604082253",
-    "items": [
-      {
-        "commit": "7e122dc32e8c758cb8c1fa49a6eb182ef7e751df",
-        "author": "liurongjie",
-        "date": "2026-04-08 22:52:33",
-        "message": "fix(plex): 修复 Plex webhook 中音乐专辑名称显示错误"
       }
     ]
   }
