@@ -1,5 +1,76 @@
 [
   {
+    "version": "DEV_202604122243",
+    "items": [
+      {
+        "commit": "fad9b5ec5aded3ebbf7c48aac3f74e7a4d506a92",
+        "author": "Jolc",
+        "date": "2026-04-12 22:43:01",
+        "message": "fix：死链自动删 hash，提交云下载通知。（暂时关闭）"
+      },
+      {
+        "commit": "7172234bd792e59cfeef6f5cb0166bb8a8ad740f",
+        "author": "xylplm",
+        "date": "2026-04-12 16:00:12",
+        "message": "fix 🐛: 移除 AI 配置中的 mcpEnabled 选项"
+      },
+      {
+        "commit": "d3cc8ac44748cbddebde4f8b75e9e3e4cc4ff517",
+        "author": "xylplm",
+        "date": "2026-04-12 15:57:17",
+        "message": "fix 🐛: 移除不再使用的依赖项并更新 go.sum 文件"
+      },
+      {
+        "commit": "393228b17a440ffcc5789a41eb894fec7c4312cd",
+        "author": "xylplm",
+        "date": "2026-04-12 15:53:22",
+        "message": "fix 🐛: 移除不再使用的缓存相关配置及逻辑"
+      },
+      {
+        "commit": "f3f7d79d50514a4b164432beefd9868a6ef373ed",
+        "author": "xylplm",
+        "date": "2026-04-12 15:49:03",
+        "message": "fix 🐛: 移除不再使用的缓存天数等配置及相关逻辑"
+      },
+      {
+        "commit": "c98d132e302d1c67b65c40b042092b030e59e204",
+        "author": "xylplm",
+        "date": "2026-04-12 15:45:18",
+        "message": "fix 🐛: 移除不再使用的下载超时时间等配置及相关逻辑"
+      },
+      {
+        "commit": "5e1980b01af7bf7428970ff2653d0bceace93078",
+        "author": "xylplm",
+        "date": "2026-04-12 15:32:13",
+        "message": "fix 🐛: 移除日志保留天数配置及相关逻辑"
+      },
+      {
+        "commit": "b7adcd615bb7eec338920996348fff7a23616e0d",
+        "author": "xylplm",
+        "date": "2026-04-12 15:28:48",
+        "message": "fix 🐛: 移除不再使用的文件管理目录配置"
+      },
+      {
+        "commit": "12b81c6cc5624279f7d9122b9eb116ca8aa67a2b",
+        "author": "GateCross",
+        "date": "2026-04-11 22:28:58",
+        "message": "fix: hdhive优先cookie签到"
+      },
+      {
+        "commit": "1e05a53c0ed8ae103b840b4d419883dd5b60235c",
+        "author": "GateCross",
+        "date": "2026-04-11 21:46:11",
+        "message": "fix: 修改hdhive请求UA"
+      },
+      {
+        "commit": "fc6855b442774697132238e8ede013ec37edbcad",
+        "author": "xylplm",
+        "date": "2026-04-11 13:56:49",
+        "message": "fix 🐛: 调整大文件下载超时时间为10分钟"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604122134",
     "items": [
       {
@@ -197,29 +268,6 @@
         "author": "syueya",
         "date": "2026-04-09 11:56:05",
         "message": "fix：音乐磁场加代理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604091115",
-    "items": [
-      {
-        "commit": "334c7c7a57f7eefd8a64db44615a175b2736bf43",
-        "author": "xylplm",
-        "date": "2026-04-09 11:04:43",
-        "message": "add ➕: 网络唤醒插件 新增局域网 MAC 地址提取功能及相关工具"
-      },
-      {
-        "commit": "5c65cb3cdf61278f9c1b2e4b25c5aebff1395d5e",
-        "author": "xylplm",
-        "date": "2026-04-09 01:03:35",
-        "message": "fix 🐛: 修改定时唤醒字段的显示文本"
-      },
-      {
-        "commit": "4f11e5e11f3bb57460216c81272683952bd2e8dd",
-        "author": "xylplm",
-        "date": "2026-04-09 00:54:43",
-        "message": "feat ✨: 添加远程网络唤醒插件及相关功能"
       }
     ]
   }
