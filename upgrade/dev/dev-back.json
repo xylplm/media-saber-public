@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604130040",
+    "items": [
+      {
+        "commit": "4569657c396e2a30ea48bcf3e39719091ca61940",
+        "author": "Jolc",
+        "date": "2026-04-13 00:40:07",
+        "message": "feat：115 Open 云下载超时时间配置。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604130020",
     "items": [
       {
@@ -203,23 +214,6 @@
         "author": "Jolc",
         "date": "2026-04-11 11:21:41",
         "message": "fix：tmdb索引不自动删除"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604102333",
-    "items": [
-      {
-        "commit": "e608fe3fc7b2b237ea7842d7590a1fa30c1b8e60",
-        "author": "Jolc",
-        "date": "2026-04-10 23:33:03",
-        "message": "fix：删配置"
-      },
-      {
-        "commit": "79b606b0d6a5a6a6e722d9451a60a9f9ec164a34",
-        "author": "GateCross",
-        "date": "2026-04-10 22:19:24",
-        "message": "fix: 优化订阅调整集数问题"
       }
     ]
   }
