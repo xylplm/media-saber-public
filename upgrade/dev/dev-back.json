@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604130208",
+    "items": [
+      {
+        "commit": "9f71fbc3401aa66dc429b9ddc513a5005e5fc302",
+        "author": "Jolc",
+        "date": "2026-04-13 02:07:45",
+        "message": "feat：115 Open 云下载超时时间配置。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604130040",
     "items": [
       {
@@ -203,17 +214,6 @@
         "author": "liurongjie",
         "date": "2026-04-11 12:20:44",
         "message": "fix(media): 修复媒体服务中的URL转义问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604111122",
-    "items": [
-      {
-        "commit": "f3e2498d0bdf8c34f58f2209b99bbe5998c65bc6",
-        "author": "Jolc",
-        "date": "2026-04-11 11:21:41",
-        "message": "fix：tmdb索引不自动删除"
       }
     ]
   }
