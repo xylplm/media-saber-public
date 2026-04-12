@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604130020",
+    "items": [
+      {
+        "commit": "e1aae28b1f839c11fdf751350340021191d306a4",
+        "author": "Jolc",
+        "date": "2026-04-13 00:20:13",
+        "message": "fix：撤回夕阳改动的订阅集数问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604122334",
     "items": [
       {
@@ -209,59 +220,6 @@
         "author": "GateCross",
         "date": "2026-04-10 22:19:24",
         "message": "fix: 优化订阅调整集数问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604091558",
-    "items": [
-      {
-        "commit": "174ddf905c31cdc8e966335ff48966586915cd17",
-        "author": "GateCross",
-        "date": "2026-04-09 15:52:25",
-        "message": "fix: hdhive签到修复"
-      },
-      {
-        "commit": "2c1e7dc440c9f2fd191b7f8fed9cc919d078d672",
-        "author": "liurongjie",
-        "date": "2026-04-09 14:54:51",
-        "message": "Revert \"feat(directory): 添加目录匹配调试日志功能\""
-      },
-      {
-        "commit": "9591bb478b42949c2fa74ce17ab720836f62a49b",
-        "author": "liurongjie",
-        "date": "2026-04-09 14:54:36",
-        "message": "Revert \"feat(directory): 添加目录匹配调试日志功能\""
-      },
-      {
-        "commit": "698298a48f2a6b2d0dc0674342135dc065056e9c",
-        "author": "liurongjie",
-        "date": "2026-04-09 14:36:11",
-        "message": "feat(directory): 添加目录匹配调试日志功能"
-      },
-      {
-        "commit": "64b5c0adc16b01067bdd4faf46032e8e93bd629e",
-        "author": "syueya",
-        "date": "2026-04-09 11:56:05",
-        "message": "fix：音乐磁场加代理"
-      },
-      {
-        "commit": "334c7c7a57f7eefd8a64db44615a175b2736bf43",
-        "author": "xylplm",
-        "date": "2026-04-09 11:04:43",
-        "message": "add ➕: 网络唤醒插件 新增局域网 MAC 地址提取功能及相关工具"
-      },
-      {
-        "commit": "5c65cb3cdf61278f9c1b2e4b25c5aebff1395d5e",
-        "author": "xylplm",
-        "date": "2026-04-09 01:03:35",
-        "message": "fix 🐛: 修改定时唤醒字段的显示文本"
-      },
-      {
-        "commit": "4f11e5e11f3bb57460216c81272683952bd2e8dd",
-        "author": "xylplm",
-        "date": "2026-04-09 00:54:43",
-        "message": "feat ✨: 添加远程网络唤醒插件及相关功能"
       }
     ]
   }
