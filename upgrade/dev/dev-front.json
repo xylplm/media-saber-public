@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604131656",
+    "items": [
+      {
+        "commit": "39a59a219f16943b023fdc352cd335b38fc97c85",
+        "author": "liurongjie",
+        "date": "2026-04-13 16:55:41",
+        "message": "style(torrent-recog-test): 更新图标导入配置并优化识别结果显示样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604122334",
     "items": [
       {
@@ -197,59 +208,6 @@
         "author": "xylplm",
         "date": "2026-04-07 14:37:13",
         "message": "✨ feat: 添加版本初始化功能以优化组件加载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604071421",
-    "items": [
-      {
-        "commit": "c12390be21dee9d49c9f50e2190b25a00dbd19a2",
-        "author": "xylplm",
-        "date": "2026-04-07 14:08:04",
-        "message": "✨ feat: 优化状态标签样式与背景颜色"
-      },
-      {
-        "commit": "9ef5c3be47549a2252beb568314313cff76a19f6",
-        "author": "xylplm",
-        "date": "2026-04-07 14:06:51",
-        "message": "✨ feat: 替换AES密钥生成提示为自定义组件并引入相关模块"
-      },
-      {
-        "commit": "6a7a19cc28b89683e0125b3f5f46919e7f8fd75f",
-        "author": "xylplm",
-        "date": "2026-04-07 14:02:27",
-        "message": "🔁 refactor: 统一样式变量，优化组件样式"
-      },
-      {
-        "commit": "0a1944b268a619d8489e4ecf7a365a433370cf34",
-        "author": "xylplm",
-        "date": "2026-04-07 13:31:03",
-        "message": "✨ feat: 优化种子标签样式与信息展示"
-      },
-      {
-        "commit": "436c6f18c1da741070db4bf1bf02133446407e56",
-        "author": "xylplm",
-        "date": "2026-04-07 13:18:01",
-        "message": "✨ feat: 添加下载确认对话框详细信息展开功能"
-      },
-      {
-        "commit": "41f87c0d50c5527db117d636e3e41cfdb21a3466",
-        "author": "xylplm",
-        "date": "2026-04-07 12:42:49",
-        "message": "✨ feat: 优化种子信息卡片样式与标签显示"
-      },
-      {
-        "commit": "eb930e8e5149d4192f9c6439b94b3927b48e0728",
-        "author": "xylplm",
-        "date": "2026-04-07 11:21:36",
-        "message": "✨ feat: 添加下载确认对话框文件信息展示功能"
-      },
-      {
-        "commit": "4525f120d8a7972585151d4d94f4ed1ba29844b1",
-        "author": "xylplm",
-        "date": "2026-04-07 11:10:48",
-        "message": "✨ feat: 添加云下载对话框功能，展示文件基本信息"
       }
     ]
   }

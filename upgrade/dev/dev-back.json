@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604131656",
+    "items": [
+      {
+        "commit": "3ae118dc4256c55a38c7ff1cf301ed57f8540e2c",
+        "author": "liurongjie",
+        "date": "2026-04-13 15:59:06",
+        "message": "fix(moviesubject): 修复B站Top100评分解析问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604131634",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-11 13:56:49",
         "message": "fix 🐛: 调整大文件下载超时时间为10分钟"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604122134",
-    "items": [
-      {
-        "commit": "883945d0dbe3af61c1548986c3f25f83df958694",
-        "author": "Jolc",
-        "date": "2026-04-12 21:31:36",
-        "message": "feat：死链自动删 hash，提交云下载通知。"
       }
     ]
   }
