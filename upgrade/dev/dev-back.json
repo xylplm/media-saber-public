@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604132242",
+    "items": [
+      {
+        "commit": "6ee176e7d321de52766ac419b766470dd2544f5b",
+        "author": "Jolc",
+        "date": "2026-04-13 22:41:32",
+        "message": "feat：媒体列表增加云端资源数量显示。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604132158",
     "items": [
       {
@@ -106,17 +117,6 @@
         "commit": "9f71fbc3401aa66dc429b9ddc513a5005e5fc302",
         "author": "Jolc",
         "date": "2026-04-13 02:07:45",
-        "message": "feat：115 Open 云下载超时时间配置。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604130040",
-    "items": [
-      {
-        "commit": "4569657c396e2a30ea48bcf3e39719091ca61940",
-        "author": "Jolc",
-        "date": "2026-04-13 00:40:07",
         "message": "feat：115 Open 云下载超时时间配置。"
       }
     ]
