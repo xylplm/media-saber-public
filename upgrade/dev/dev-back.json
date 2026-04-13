@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604132158",
+    "items": [
+      {
+        "commit": "3682ee9fd688aaf04f43913562401ce2adfa9204",
+        "author": "Jolc",
+        "date": "2026-04-13 21:57:26",
+        "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604132102",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-04-13 00:40:07",
         "message": "feat：115 Open 云下载超时时间配置。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604130020",
-    "items": [
-      {
-        "commit": "e1aae28b1f839c11fdf751350340021191d306a4",
-        "author": "Jolc",
-        "date": "2026-04-13 00:20:13",
-        "message": "fix：撤回夕阳改动的订阅集数问题。"
       }
     ]
   }
