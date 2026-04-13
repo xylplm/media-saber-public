@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604131256",
+    "items": [
+      {
+        "commit": "3fe285a56afa01f2037f914a580228023c9d4ee4",
+        "author": "Jolc",
+        "date": "2026-04-13 12:56:08",
+        "message": "fix: 别有多余逻辑，以 auth 为准。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604130910",
     "items": [
       {
@@ -191,23 +202,6 @@
         "author": "GateCross",
         "date": "2026-04-11 22:28:58",
         "message": "fix: hdhive优先cookie签到"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604112154",
-    "items": [
-      {
-        "commit": "1e05a53c0ed8ae103b840b4d419883dd5b60235c",
-        "author": "GateCross",
-        "date": "2026-04-11 21:46:11",
-        "message": "fix: 修改hdhive请求UA"
-      },
-      {
-        "commit": "fc6855b442774697132238e8ede013ec37edbcad",
-        "author": "xylplm",
-        "date": "2026-04-11 13:56:49",
-        "message": "fix 🐛: 调整大文件下载超时时间为10分钟"
       }
     ]
   }
