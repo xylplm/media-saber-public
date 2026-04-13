@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604132102",
+    "items": [
+      {
+        "commit": "83658fe660de2ad1f8240ba4a079857b26fb4ddd",
+        "author": "Jolc",
+        "date": "2026-04-13 21:01:48",
+        "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604131925",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-04-13 00:20:13",
         "message": "fix：撤回夕阳改动的订阅集数问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604122334",
-    "items": [
-      {
-        "commit": "d26bfc6e1a5a70c617bfc5bbeb27040cf5f3d7e4",
-        "author": "Jolc",
-        "date": "2026-04-12 23:33:58",
-        "message": "feat：订阅云端资源支持指定目录"
       }
     ]
   }
