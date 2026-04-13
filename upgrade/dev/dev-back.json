@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604131602",
+    "items": [
+      {
+        "commit": "3ae118dc4256c55a38c7ff1cf301ed57f8540e2c",
+        "author": "liurongjie",
+        "date": "2026-04-13 15:59:06",
+        "message": "fix(moviesubject): 修复B站Top100评分解析问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604131256",
     "items": [
       {
@@ -191,17 +202,6 @@
         "author": "xylplm",
         "date": "2026-04-12 15:28:48",
         "message": "fix 🐛: 移除不再使用的文件管理目录配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604112229",
-    "items": [
-      {
-        "commit": "12b81c6cc5624279f7d9122b9eb116ca8aa67a2b",
-        "author": "GateCross",
-        "date": "2026-04-11 22:28:58",
-        "message": "fix: hdhive优先cookie签到"
       }
     ]
   }
