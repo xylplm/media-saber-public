@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604141847",
+    "items": [
+      {
+        "commit": "470438678fe20379cee1b01024fa6a59dcefe768",
+        "author": "xylplm",
+        "date": "2026-04-14 18:46:45",
+        "message": "✨ feat: 云存储整理模块文件更名"
+      },
+      {
+        "commit": "d424bcffb73d4b6448d018a046dbc1a73b6d5740",
+        "author": "xylplm",
+        "date": "2026-04-14 18:41:59",
+        "message": "🔁 refactor: 移除云存储整理和strm生成的定时整理字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604141523",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-04-07 23:23:57",
         "message": "🔁 refactor: 优化H&R天数显示格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604072306",
-    "items": [
-      {
-        "commit": "201c5e5e9ef4e73406d615fae5620a460e305059",
-        "author": "xylplm",
-        "date": "2026-04-07 23:06:05",
-        "message": "✨ feat: 添加发布时间和优化种子数提示"
       }
     ]
   }

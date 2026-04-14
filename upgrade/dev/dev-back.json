@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202604141847",
+    "items": [
+      {
+        "commit": "9ba39860d20ea78fe17bc9180c5ad59fec80cc85",
+        "author": "Jolc",
+        "date": "2026-04-14 18:40:11",
+        "message": "fix：砍了生成strm的cron"
+      },
+      {
+        "commit": "196bf59485006bbc8e2d1ad6f1c590ab84ab1ad5",
+        "author": "xylplm",
+        "date": "2026-04-14 17:34:54",
+        "message": "🔁 refactor: 将日志级别从 Info 改为 Debug，优化磁盘统计日志输出"
+      },
+      {
+        "commit": "f24d6b4027fd36ed0bc8d10d103082197ec2f4cb",
+        "author": "xylplm",
+        "date": "2026-04-14 17:16:04",
+        "message": "🔁 refactor: 删除已经无用的 Windows 和 Unix 的 Id 函数实现"
+      },
+      {
+        "commit": "3ee3a5be51301189cb04e23ecc7a667515527b60",
+        "author": "xylplm",
+        "date": "2026-04-14 16:55:42",
+        "message": "🔁 refactor: 优化磁盘分区去重逻辑，使用 Total+Free 指纹实现"
+      },
+      {
+        "commit": "5278a4d74f91887d28cc03ba481868b4a6a5c08d",
+        "author": "xylplm",
+        "date": "2026-04-14 16:38:41",
+        "message": "🔁 refactor: 优化磁盘 ID 获取逻辑，使用挂载点去重实现"
+      },
+      {
+        "commit": "9ea3cde2c7705d45bfe6fe1f149a20721498f8f5",
+        "author": "xylplm",
+        "date": "2026-04-14 15:53:48",
+        "message": "🔁 refactor: 优化文件系统 ID 获取逻辑，使用设备号代替 Fsid"
+      },
+      {
+        "commit": "e566110f9d9d4410ae77535fe35be76a88c2687e",
+        "author": "xylplm",
+        "date": "2026-04-14 15:42:09",
+        "message": "🔁 refactor: 优化磁盘统计逻辑，添加调试日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604141523",
     "items": [
       {
@@ -167,17 +214,6 @@
         "author": "liurongjie",
         "date": "2026-04-13 15:59:06",
         "message": "fix(moviesubject): 修复B站Top100评分解析问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131256",
-    "items": [
-      {
-        "commit": "3fe285a56afa01f2037f914a580228023c9d4ee4",
-        "author": "Jolc",
-        "date": "2026-04-13 12:56:08",
-        "message": "fix: 别有多余逻辑，以 auth 为准。"
       }
     ]
   }
