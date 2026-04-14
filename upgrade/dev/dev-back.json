@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604141050",
+    "items": [
+      {
+        "commit": "f5936e1ea6b59f1f7c7f0c57ab0034d3fb513fe7",
+        "author": "xylplm",
+        "date": "2026-04-14 10:49:33",
+        "message": "✨ feat: 文件列表添加根目录过滤和高风险文件过滤功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604132242",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "Jolc",
         "date": "2026-04-13 09:10:17",
         "message": "fix：修复动了 cron 没有更新 job 的问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604130208",
-    "items": [
-      {
-        "commit": "9f71fbc3401aa66dc429b9ddc513a5005e5fc302",
-        "author": "Jolc",
-        "date": "2026-04-13 02:07:45",
-        "message": "feat：115 Open 云下载超时时间配置。"
       }
     ]
   }
