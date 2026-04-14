@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604142037",
+    "items": [
+      {
+        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
+        "author": "GateCross",
+        "date": "2026-04-14 20:35:54",
+        "message": "fix: 媒体代理123网盘优先本地代理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604141948",
     "items": [
       {
@@ -287,17 +298,6 @@
         "author": "liurongjie",
         "date": "2026-04-13 15:59:06",
         "message": "fix(moviesubject): 修复B站Top100评分解析问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131634",
-    "items": [
-      {
-        "commit": "7f30866785a4450c26291addf742c324c0019bb7",
-        "author": "Jolc",
-        "date": "2026-04-13 16:34:07",
-        "message": "fix：todo A 佬测试（钢铁森林已入库17-23、25-28，重新订阅会订阅1-16，24-28）"
       }
     ]
   }
