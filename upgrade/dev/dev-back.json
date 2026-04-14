@@ -1,5 +1,76 @@
 [
   {
+    "version": "DEV_202604141523",
+    "items": [
+      {
+        "commit": "29c36ed6dc66037cd9954db23a19b1bd59186044",
+        "author": "xylplm",
+        "date": "2026-04-14 15:14:52",
+        "message": "🔁 refactor: 优化媒体文件扩展名检查逻辑性能"
+      },
+      {
+        "commit": "4ec00114de6bf6e16d7e3016bbae8482a5951d3c",
+        "author": "xylplm",
+        "date": "2026-04-14 15:12:39",
+        "message": "🔁 refactor: 优化文件系统 ID 获取逻辑，简化代码结构"
+      },
+      {
+        "commit": "d98da968846d5aac81e470cf1fbbc15d11d9849b",
+        "author": "xylplm",
+        "date": "2026-04-14 15:09:00",
+        "message": "🔁 refactor: 优化空间统计逻辑，支持多目录统计"
+      },
+      {
+        "commit": "b048a171a900ab6e7bfdbc4c7de0cab2dab8337a",
+        "author": "xylplm",
+        "date": "2026-04-14 14:54:20",
+        "message": "refactor 🔁: 更新根目录隐藏的系统目录列表，添加应用目录"
+      },
+      {
+        "commit": "c4de8b15f9be6056463201569fdf05327920dd1b",
+        "author": "xylplm",
+        "date": "2026-04-14 14:53:00",
+        "message": "fix 🐛: 修复挂载路径检查逻辑，禁止挂载到 Linux 系统目录"
+      },
+      {
+        "commit": "75cded5cae3e5f6ab01a6bee7a347de0e143746d",
+        "author": "xylplm",
+        "date": "2026-04-14 14:52:18",
+        "message": "fix 🐛: 修复获取存储详情时的错误日志格式"
+      },
+      {
+        "commit": "55176996400547c1293ed5162faffaf97bfc9623",
+        "author": "xylplm",
+        "date": "2026-04-14 11:26:33",
+        "message": "refactor 🔁: 移除不再使用的媒体资源链接相关类型"
+      },
+      {
+        "commit": "6ee176e7d321de52766ac419b766470dd2544f5b",
+        "author": "Jolc",
+        "date": "2026-04-13 22:41:32",
+        "message": "feat：媒体列表增加云端资源数量显示。"
+      },
+      {
+        "commit": "3682ee9fd688aaf04f43913562401ce2adfa9204",
+        "author": "Jolc",
+        "date": "2026-04-13 21:57:26",
+        "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
+      },
+      {
+        "commit": "83658fe660de2ad1f8240ba4a079857b26fb4ddd",
+        "author": "Jolc",
+        "date": "2026-04-13 21:01:48",
+        "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
+      },
+      {
+        "commit": "18cf417d98e61de7bfe47dab21833e731b8aea9f",
+        "author": "Jolc",
+        "date": "2026-04-13 19:23:59",
+        "message": "feat：mlist 云下载增加默认超时 2h，云存储管理界面可以单独配置 115 Open 超时。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604141050",
     "items": [
       {
@@ -107,17 +178,6 @@
         "author": "Jolc",
         "date": "2026-04-13 12:56:08",
         "message": "fix: 别有多余逻辑，以 auth 为准。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604130910",
-    "items": [
-      {
-        "commit": "1fe083e5be6abd6b7df4484b54994c2a1b13e2fe",
-        "author": "Jolc",
-        "date": "2026-04-13 09:10:17",
-        "message": "fix：修复动了 cron 没有更新 job 的问题。"
       }
     ]
   }
