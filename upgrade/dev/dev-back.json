@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604151252",
+    "items": [
+      {
+        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
+        "author": "liurongjie",
+        "date": "2026-04-15 12:51:19",
+        "message": "fix(media): 修复动态背景图片缓存问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604151037",
     "items": [
       {
@@ -280,17 +291,6 @@
         "commit": "3682ee9fd688aaf04f43913562401ce2adfa9204",
         "author": "Jolc",
         "date": "2026-04-13 21:57:26",
-        "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604132102",
-    "items": [
-      {
-        "commit": "83658fe660de2ad1f8240ba4a079857b26fb4ddd",
-        "author": "Jolc",
-        "date": "2026-04-13 21:01:48",
         "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
       }
     ]
