@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202604151815",
+    "items": [
+      {
+        "commit": "aeff9ddb3e7f27fa87049450ba03fc4fb0e38c6c",
+        "author": "xylplm",
+        "date": "2026-04-15 18:13:26",
+        "message": "✨ feat: AI 诊断对话框和定时任务生成模块增加流式处理支持"
+      },
+      {
+        "commit": "1fe5e3476f14d8eaf12aa3dc024151a514267368",
+        "author": "xylplm",
+        "date": "2026-04-15 17:37:23",
+        "message": "🔧 chore: 优化批量操作面板的布局样式"
+      },
+      {
+        "commit": "4f405b76547e27234c40e3dea42ff33326ec93bd",
+        "author": "xylplm",
+        "date": "2026-04-15 17:35:06",
+        "message": "🔧 chore: 优化多个页面按钮图标样式"
+      },
+      {
+        "commit": "fca0c7821159d5f6a69cb16c428422127a85fe98",
+        "author": "xylplm",
+        "date": "2026-04-15 16:18:46",
+        "message": "✨ feat: 系统日志增加AI诊断功能，针对错误日志可以让AI诊断 提升体验"
+      },
+      {
+        "commit": "f6a92b051187cf5916db75e5fff808bd9fdb90fe",
+        "author": "xylplm",
+        "date": "2026-04-15 16:17:40",
+        "message": "✨ feat: 公共消息内容组件，支持流式内容和代码高亮"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604141847",
     "items": [
       {
@@ -131,29 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-08 15:02:25",
         "message": "📦 deps: 更新 Angular 相关依赖版本"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081457",
-    "items": [
-      {
-        "commit": "ab9ea0c8adf45a300df7c8f91ffc543de2b0f8f6",
-        "author": "xylplm",
-        "date": "2026-04-08 14:57:31",
-        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
-      },
-      {
-        "commit": "d4d5520e1c7aaf3762194cb94df0763322598850",
-        "author": "xylplm",
-        "date": "2026-04-08 14:53:12",
-        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
-      },
-      {
-        "commit": "bc7e16178f53e99b4adbb2083df02a0769c94c57",
-        "author": "xylplm",
-        "date": "2026-04-07 23:23:57",
-        "message": "🔁 refactor: 优化H&R天数显示格式"
       }
     ]
   }

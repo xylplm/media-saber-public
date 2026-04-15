@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202604151815",
+    "items": [
+      {
+        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
+        "author": "liurongjie",
+        "date": "2026-04-15 12:51:19",
+        "message": "fix(media): 修复动态背景图片缓存问题"
+      },
+      {
+        "commit": "953d958ea9011836adf938bcaba314c92b689970",
+        "author": "liurongjie",
+        "date": "2026-04-15 10:36:13",
+        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
+      },
+      {
+        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
+        "author": "liurongjie",
+        "date": "2026-04-15 09:57:04",
+        "message": "chore(tasks): 调整任务队列优先级"
+      },
+      {
+        "commit": "3655401e08c764e1d96a742b29350f754c0f0f8b",
+        "author": "liurongjie",
+        "date": "2026-04-14 23:09:06",
+        "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
+      },
+      {
+        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
+        "author": "GateCross",
+        "date": "2026-04-14 20:35:54",
+        "message": "fix: 媒体代理123网盘优先本地代理"
+      },
+      {
+        "commit": "fd163a42195a1839a0454ac21f5f03cc5345fa04",
+        "author": "liurongjie",
+        "date": "2026-04-14 19:47:52",
+        "message": "refactor(webhook): 将 Webhook 处理逻辑迁移到 Asynq 队列中"
+      },
+      {
+        "commit": "9ba39860d20ea78fe17bc9180c5ad59fec80cc85",
+        "author": "Jolc",
+        "date": "2026-04-14 18:40:11",
+        "message": "fix：砍了生成strm的cron"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604151329",
     "items": [
       {
@@ -281,17 +328,6 @@
         "author": "xylplm",
         "date": "2026-04-14 10:49:33",
         "message": "✨ feat: 文件列表添加根目录过滤和高风险文件过滤功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604132242",
-    "items": [
-      {
-        "commit": "6ee176e7d321de52766ac419b766470dd2544f5b",
-        "author": "Jolc",
-        "date": "2026-04-13 22:41:32",
-        "message": "feat：媒体列表增加云端资源数量显示。"
       }
     ]
   }
