@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604151037",
+    "items": [
+      {
+        "commit": "953d958ea9011836adf938bcaba314c92b689970",
+        "author": "liurongjie",
+        "date": "2026-04-15 10:36:13",
+        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
+      },
+      {
+        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
+        "author": "liurongjie",
+        "date": "2026-04-15 09:57:04",
+        "message": "chore(tasks): 调整任务队列优先级"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604142309",
     "items": [
       {
@@ -275,29 +292,6 @@
         "author": "Jolc",
         "date": "2026-04-13 21:01:48",
         "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131925",
-    "items": [
-      {
-        "commit": "18cf417d98e61de7bfe47dab21833e731b8aea9f",
-        "author": "Jolc",
-        "date": "2026-04-13 19:23:59",
-        "message": "feat：mlist 云下载增加默认超时 2h，云存储管理界面可以单独配置 115 Open 超时。"
-      },
-      {
-        "commit": "9d1139911ad482da266f442c03922176d702ea98",
-        "author": "dependabot[bot]",
-        "date": "2026-04-13 09:38:05",
-        "message": "build(deps): bump google.golang.org/grpc from 1.73.0 to 1.79.3"
-      },
-      {
-        "commit": "7f30866785a4450c26291addf742c324c0019bb7",
-        "author": "Jolc",
-        "date": "2026-04-13 16:34:07",
-        "message": "fix：todo A 佬测试（钢铁森林已入库17-23、25-28，重新订阅会订阅1-16，24-28）"
       }
     ]
   }
