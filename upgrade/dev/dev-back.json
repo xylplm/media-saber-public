@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604151329",
+    "items": [
+      {
+        "commit": "99cd23ad393a0967e050d8cb45f32c5b747013ce",
+        "author": "xylplm",
+        "date": "2026-04-15 13:18:17",
+        "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604151252",
     "items": [
       {
@@ -281,17 +292,6 @@
         "author": "Jolc",
         "date": "2026-04-13 22:41:32",
         "message": "feat：媒体列表增加云端资源数量显示。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604132158",
-    "items": [
-      {
-        "commit": "3682ee9fd688aaf04f43913562401ce2adfa9204",
-        "author": "Jolc",
-        "date": "2026-04-13 21:57:26",
-        "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
       }
     ]
   }
