@@ -1,5 +1,1252 @@
 [
   {
+    "version": "3.0_202604161108",
+    "items": [
+      {
+        "commit": "aeff9ddb3e7f27fa87049450ba03fc4fb0e38c6c",
+        "author": "xylplm",
+        "date": "2026-04-15 18:13:26",
+        "message": "✨ feat: AI 诊断对话框和定时任务生成模块增加流式处理支持"
+      },
+      {
+        "commit": "1fe5e3476f14d8eaf12aa3dc024151a514267368",
+        "author": "xylplm",
+        "date": "2026-04-15 17:37:23",
+        "message": "🔧 chore: 优化批量操作面板的布局样式"
+      },
+      {
+        "commit": "4f405b76547e27234c40e3dea42ff33326ec93bd",
+        "author": "xylplm",
+        "date": "2026-04-15 17:35:06",
+        "message": "🔧 chore: 优化多个页面按钮图标样式"
+      },
+      {
+        "commit": "fca0c7821159d5f6a69cb16c428422127a85fe98",
+        "author": "xylplm",
+        "date": "2026-04-15 16:18:46",
+        "message": "✨ feat: 系统日志增加AI诊断功能，针对错误日志可以让AI诊断 提升体验"
+      },
+      {
+        "commit": "f6a92b051187cf5916db75e5fff808bd9fdb90fe",
+        "author": "xylplm",
+        "date": "2026-04-15 16:17:40",
+        "message": "✨ feat: 公共消息内容组件，支持流式内容和代码高亮"
+      },
+      {
+        "commit": "470438678fe20379cee1b01024fa6a59dcefe768",
+        "author": "xylplm",
+        "date": "2026-04-14 18:46:45",
+        "message": "✨ feat: 云存储整理模块文件更名"
+      },
+      {
+        "commit": "d424bcffb73d4b6448d018a046dbc1a73b6d5740",
+        "author": "xylplm",
+        "date": "2026-04-14 18:41:59",
+        "message": "🔁 refactor: 移除云存储整理和strm生成的定时整理字段"
+      },
+      {
+        "commit": "81b194781602c0ec775f3543e0fdb8e261edd2f8",
+        "author": "xylplm",
+        "date": "2026-04-14 13:55:11",
+        "message": "🔁 refactor: 媒体识别测试组件优化海报加载方式"
+      },
+      {
+        "commit": "d59d80915e0d2b0a2b119e86f4225f2242dba7ed",
+        "author": "xylplm",
+        "date": "2026-04-14 13:42:50",
+        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
+      },
+      {
+        "commit": "f3a492d041c27ee945ec35fee11d46a3deb32e93",
+        "author": "xylplm",
+        "date": "2026-04-14 13:36:35",
+        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
+      },
+      {
+        "commit": "f3237720b3aff6d3da783a5c4655693bec50fd4a",
+        "author": "xylplm",
+        "date": "2026-04-14 13:36:26",
+        "message": "🔁 refactor: 更新提交信息"
+      },
+      {
+        "commit": "44150d71557f8f2741c2a27787878e034e78e9d3",
+        "author": "xylplm",
+        "date": "2026-04-14 13:36:11",
+        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
+      },
+      {
+        "commit": "39a59a219f16943b023fdc352cd335b38fc97c85",
+        "author": "liurongjie",
+        "date": "2026-04-13 16:55:41",
+        "message": "style(torrent-recog-test): 更新图标导入配置并优化识别结果显示样式"
+      },
+      {
+        "commit": "5ec9b9fe93acbd337f4669a3fd5ce9d64b448d76",
+        "author": "Jolc",
+        "date": "2026-04-12 23:34:02",
+        "message": "feat：订阅云端资源支持指定目录"
+      },
+      {
+        "commit": "e9113295759a3b471b167d85a9e3cb666501a1aa",
+        "author": "xylplm",
+        "date": "2026-04-12 16:27:32",
+        "message": "🔁 refactor: 移除MCP功能开关相关代码并简化服务配置"
+      },
+      {
+        "commit": "eb55fcae3688ace0c7412184ed2793ee252c8980",
+        "author": "GateCross",
+        "date": "2026-04-11 23:54:03",
+        "message": "fix: 修改云端资源UI"
+      },
+      {
+        "commit": "65c56a47e0b03be895888a9bb6868d579ea3eed2",
+        "author": "xylplm",
+        "date": "2026-04-09 00:28:20",
+        "message": "✨ feat: 添加自动完成字段类型支持"
+      },
+      {
+        "commit": "eb8e62e121ffcbc7c937dfc4e8352a45472e15fb",
+        "author": "GateCross",
+        "date": "2026-04-08 17:11:04",
+        "message": "fix: 修改云端资源贡献人显示"
+      },
+      {
+        "commit": "d27b515dd816025b6a5efe8f86be0d1c61093949",
+        "author": "xylplm",
+        "date": "2026-04-08 15:04:37",
+        "message": "📦 deps: 更新依赖包版本"
+      },
+      {
+        "commit": "64241364deb56bdbf64e2057d75304307e6c5ff6",
+        "author": "xylplm",
+        "date": "2026-04-08 15:02:25",
+        "message": "📦 deps: 更新 Angular 相关依赖版本"
+      },
+      {
+        "commit": "ab9ea0c8adf45a300df7c8f91ffc543de2b0f8f6",
+        "author": "xylplm",
+        "date": "2026-04-08 14:57:31",
+        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
+      },
+      {
+        "commit": "d4d5520e1c7aaf3762194cb94df0763322598850",
+        "author": "xylplm",
+        "date": "2026-04-08 14:53:12",
+        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
+      },
+      {
+        "commit": "bc7e16178f53e99b4adbb2083df02a0769c94c57",
+        "author": "xylplm",
+        "date": "2026-04-07 23:23:57",
+        "message": "🔁 refactor: 优化H&R天数显示格式"
+      },
+      {
+        "commit": "201c5e5e9ef4e73406d615fae5620a460e305059",
+        "author": "xylplm",
+        "date": "2026-04-07 23:06:05",
+        "message": "✨ feat: 添加发布时间和优化种子数提示"
+      },
+      {
+        "commit": "e122483a32d1732c2a0a5f270615d9f7171d3cb3",
+        "author": "xylplm",
+        "date": "2026-04-07 18:26:15",
+        "message": "🔁 refactor: 更新版本导入路径，提升代码一致性"
+      },
+      {
+        "commit": "ec944fbf5d504bd6e8e5a110d7529357bfc2128b",
+        "author": "xylplm",
+        "date": "2026-04-07 18:13:23",
+        "message": "✨ feat: 更新模块导入路径，优化代码结构"
+      },
+      {
+        "commit": "697caa31f17e7062dbdb82256f57fec810c48e2f",
+        "author": "xylplm",
+        "date": "2026-04-07 17:49:57",
+        "message": "🔁 refactor: 优化类型定义，提升代码可读性"
+      },
+      {
+        "commit": "72f7dc9bbf611a039d9a9d87e0679045885f369e",
+        "author": "xylplm",
+        "date": "2026-04-07 16:40:46",
+        "message": "format code"
+      },
+      {
+        "commit": "d340921d3503c349e7d5bab73c15840bc1c8ffe7",
+        "author": "xylplm",
+        "date": "2026-04-07 16:39:27",
+        "message": "✨ feat: 优化云存储模块，调整导入顺序和类型定义，提升代码可读性"
+      },
+      {
+        "commit": "b79c71d16f214d06bea3ba72a6025ef9d9ea3858",
+        "author": "xylplm",
+        "date": "2026-04-07 16:33:35",
+        "message": "✨ feat: 订阅云端资源启用状态和路由参数变化，优化搜索触发逻辑"
+      },
+      {
+        "commit": "533543e290dda61511ff8da84346c9df601ab4c5",
+        "author": "xylplm",
+        "date": "2026-04-07 16:28:33",
+        "message": "✨ feat: 添加云端资源搜索选项，支持动态启用状态"
+      },
+      {
+        "commit": "2527c50f3452792b0b98e66e595a4c2d3f6f17e3",
+        "author": "xylplm",
+        "date": "2026-04-07 16:21:56",
+        "message": "✨ feat: 优化系统开关加载逻辑，支持并发请求共享，提升性能"
+      },
+      {
+        "commit": "5974797e697411afd007ed39f5554678e7bbaffb",
+        "author": "xylplm",
+        "date": "2026-04-07 16:13:08",
+        "message": "✨ feat: 优化系统开关服务，支持并发请求共享，增强加载效率"
+      },
+      {
+        "commit": "043f3a5168274beddf8f557e8014ccf0957d7efa",
+        "author": "xylplm",
+        "date": "2026-04-07 15:48:44",
+        "message": "✨ feat: 云端资源添加关键词历史记录功能以增强搜索体验"
+      },
+      {
+        "commit": "c509eb603a1ab5f58dd693bf4e3b8606e00de45b",
+        "author": "xylplm",
+        "date": "2026-04-07 15:39:35",
+        "message": "✨ feat: 添加可展开详情功能以增强文件下载对话框的用户体验"
+      },
+      {
+        "commit": "0fad4259a901fc3d39c3c83a87909011836ef688",
+        "author": "xylplm",
+        "date": "2026-04-07 15:37:27",
+        "message": "✨ feat: 为种子信息添加工具提示以增强用户体验"
+      },
+      {
+        "commit": "a0cb50477d91e09ae2914b9878facfa0c5db17f3",
+        "author": "xylplm",
+        "date": "2026-04-07 15:01:06",
+        "message": "✨ feat: 添加升级过程中的 loading 消息管理功能"
+      },
+      {
+        "commit": "c63cd4fb2b874b2d4d8fc06edcc6bfc47ad27c1a",
+        "author": "xylplm",
+        "date": "2026-04-07 15:00:49",
+        "message": "✨ feat: 添加根据 messageId 关闭指定消息的功能"
+      },
+      {
+        "commit": "c1848b23f718b127583942d16bcdda1755123bb0",
+        "author": "xylplm",
+        "date": "2026-04-07 14:37:13",
+        "message": "✨ feat: 添加版本初始化功能以优化组件加载"
+      },
+      {
+        "commit": "c12390be21dee9d49c9f50e2190b25a00dbd19a2",
+        "author": "xylplm",
+        "date": "2026-04-07 14:08:04",
+        "message": "✨ feat: 优化状态标签样式与背景颜色"
+      },
+      {
+        "commit": "9ef5c3be47549a2252beb568314313cff76a19f6",
+        "author": "xylplm",
+        "date": "2026-04-07 14:06:51",
+        "message": "✨ feat: 替换AES密钥生成提示为自定义组件并引入相关模块"
+      },
+      {
+        "commit": "6a7a19cc28b89683e0125b3f5f46919e7f8fd75f",
+        "author": "xylplm",
+        "date": "2026-04-07 14:02:27",
+        "message": "🔁 refactor: 统一样式变量，优化组件样式"
+      },
+      {
+        "commit": "0a1944b268a619d8489e4ecf7a365a433370cf34",
+        "author": "xylplm",
+        "date": "2026-04-07 13:31:03",
+        "message": "✨ feat: 优化种子标签样式与信息展示"
+      },
+      {
+        "commit": "436c6f18c1da741070db4bf1bf02133446407e56",
+        "author": "xylplm",
+        "date": "2026-04-07 13:18:01",
+        "message": "✨ feat: 添加下载确认对话框详细信息展开功能"
+      },
+      {
+        "commit": "41f87c0d50c5527db117d636e3e41cfdb21a3466",
+        "author": "xylplm",
+        "date": "2026-04-07 12:42:49",
+        "message": "✨ feat: 优化种子信息卡片样式与标签显示"
+      },
+      {
+        "commit": "eb930e8e5149d4192f9c6439b94b3927b48e0728",
+        "author": "xylplm",
+        "date": "2026-04-07 11:21:36",
+        "message": "✨ feat: 添加下载确认对话框文件信息展示功能"
+      },
+      {
+        "commit": "4525f120d8a7972585151d4d94f4ed1ba29844b1",
+        "author": "xylplm",
+        "date": "2026-04-07 11:10:48",
+        "message": "✨ feat: 添加云下载对话框功能，展示文件基本信息"
+      },
+      {
+        "commit": "2d44e62aa070a55e45b096e42deba647807e5e44",
+        "author": "GateCross",
+        "date": "2026-04-06 20:47:28",
+        "message": "feat: 显示贡献者ID"
+      },
+      {
+        "commit": "ee95bc4de4711e1efc1d6bc3789c8a73faca3686",
+        "author": "GateCross",
+        "date": "2026-04-02 23:00:03",
+        "message": "fix: 修复云端资源列表样式"
+      },
+      {
+        "commit": "62813938c6c9d9405ea57737f9ce158dbf6346bc",
+        "author": "xylplm",
+        "date": "2026-04-02 17:53:59",
+        "message": "✨ feat: 添加AI生成Cron表达式功能"
+      },
+      {
+        "commit": "bbcf860896dc7d64577515d2bc3770ed2c137566",
+        "author": "xylplm",
+        "date": "2026-04-02 13:10:46",
+        "message": "✨ feat: 添加TMDB索引绑定功能，支持点击名称绑定TMDB信息"
+      },
+      {
+        "commit": "bede91ff659f40bf86aa24c6502118209c33b7e1",
+        "author": "xylplm",
+        "date": "2026-04-02 13:10:31",
+        "message": "✨ feat: 更新TMDB索引表单，添加帮助提示信息"
+      },
+      {
+        "commit": "d4839bd5b12686b26cec3076ef88e5f3bcd967d5",
+        "author": "xylplm",
+        "date": "2026-04-02 13:10:12",
+        "message": "🔁 refactor: 移除媒体类型列表中的冗余项"
+      },
+      {
+        "commit": "9bcad5bd38f6fdcfb4bca83e5f04ca78eae8481c",
+        "author": "xylplm",
+        "date": "2026-04-02 11:37:21",
+        "message": "✨ feat: 识别词 添加AI生成识别词功能  不会写正则没关系，AI帮你写  妈妈再也不担心我的提示词不会写了"
+      },
+      {
+        "commit": "71b82ea26dc2ff0dd1541bde1355ff154aa11411",
+        "author": "xylplm",
+        "date": "2026-04-02 11:33:47",
+        "message": "🔁 refactor: 优化媒体类型选择的跟踪方式"
+      },
+      {
+        "commit": "e67132f7f0bcae7a0da9da04c600b0ab27544757",
+        "author": "Jolc",
+        "date": "2026-04-02 01:18:07",
+        "message": "feat：云端资源放到云端存储菜单下，菜单顺序调整。"
+      },
+      {
+        "commit": "99536dacbf670cabdd1bfcacaad930690dfcf31c",
+        "author": "xylplm",
+        "date": "2026-04-01 14:13:03",
+        "message": "🔁 refactor: 优化组件加载逻辑，提升视图初始化效率"
+      },
+      {
+        "commit": "537b69bcf124e353ea8ff470ed6f02dbcdeb461f",
+        "author": "GateCross",
+        "date": "2026-04-01 13:42:11",
+        "message": "fix: 优化云下载，支持多个下载链接"
+      },
+      {
+        "commit": "b117218ba106e58d34dbebc80aea66358f73cbd4",
+        "author": "xylplm",
+        "date": "2026-04-01 13:29:20",
+        "message": "📚 docs: 更新 Angular 编码规范和项目结构文档"
+      },
+      {
+        "commit": "682fa5494f6b29fe9f61b92fc9913d5ab9030d3b",
+        "author": "xylplm",
+        "date": "2026-04-01 13:22:36",
+        "message": "🔁 refactor: 优化组件中的 untracked 使用，提升性能"
+      },
+      {
+        "commit": "64fe148639e80b68326a404f15d505288d052f04",
+        "author": "xylplm",
+        "date": "2026-04-01 13:04:16",
+        "message": "🔁 refactor: 调整导入顺序，优化代码结构"
+      },
+      {
+        "commit": "1708fca7d89d2abd747918297b51c055083ebae6",
+        "author": "xylplm",
+        "date": "2026-04-01 13:03:47",
+        "message": "✨ feat: 优化复选框组件，增强数据处理和渲染功能"
+      },
+      {
+        "commit": "fb41bbdebba0485239b078969923321d9f1cd4ba",
+        "author": "xylplm",
+        "date": "2026-04-01 11:04:09",
+        "message": "✨ feat: 优化贡献统计逻辑，仅显示有效排名的贡献信息"
+      },
+      {
+        "commit": "e8d59147e9240dfde2c3d456521ed539494d80ed",
+        "author": "xylplm",
+        "date": "2026-04-01 11:01:39",
+        "message": "✨ feat: 优化贡献统计展示，增加前三名激励信息"
+      },
+      {
+        "commit": "4773989e4ef26f0a6c9b6dc8c7beb8fb37f2da1b",
+        "author": "xylplm",
+        "date": "2026-03-31 23:40:20",
+        "message": "✨ feat: 添加云端资源功能开关，优化相关组件显示逻辑"
+      },
+      {
+        "commit": "4d2b8dd24a0f0e135747e685f30c67c5fe4d7959",
+        "author": "xylplm",
+        "date": "2026-03-31 23:28:36",
+        "message": "✨ feat: 添加系统开关服务及相关功能！ 未上报用户，不再显示相关功能入口！"
+      },
+      {
+        "commit": "e742b70d6ae2d0b586de631aefb29f3f44b6c481",
+        "author": "xylplm",
+        "date": "2026-03-31 22:33:13",
+        "message": "✨ feat: 优化哈希报告统计接口响应处理"
+      },
+      {
+        "commit": "366673896316960975c24b16e80efbc19953073e",
+        "author": "xylplm",
+        "date": "2026-03-31 21:46:47",
+        "message": "✨ feat: 优化哈希报告统计数据加载逻辑"
+      },
+      {
+        "commit": "9288daa6be5f38fa8fe161505d2b11c47777fc57",
+        "author": "liurongjie",
+        "date": "2026-03-31 16:56:46",
+        "message": "style(media-detail): 更新 HDHive 组件 UI 样式"
+      },
+      {
+        "commit": "277550c7994ea9ffa858c85458b5edb00572df1c",
+        "author": "liurongjie",
+        "date": "2026-03-31 12:43:27",
+        "message": "style(media): 更新HDHive组件UI样式和设置页面布局"
+      },
+      {
+        "commit": "ab2c147fe9bbde4c441507111471ee0dde0e1e67",
+        "author": "liurongjie",
+        "date": "2026-03-31 10:38:37",
+        "message": "style(rss): 调整云端资源相关表单字段布局样式"
+      },
+      {
+        "commit": "028de878284bd17ce0dfff6906e31fffa493213b",
+        "author": "xylplm",
+        "date": "2026-03-31 09:57:52",
+        "message": "feat(dashboard): 优化贡献统计鼓励信息展示"
+      },
+      {
+        "commit": "e58223763a87a65b6841262db637a3d3a79b9a91",
+        "author": "liurongjie",
+        "date": "2026-03-30 18:30:37",
+        "message": "feat(rss): 添加云端资源订阅状态标识"
+      },
+      {
+        "commit": "568c598c8d05605afebb515424085c97c35b76a8",
+        "author": "Jolc",
+        "date": "2026-03-30 12:30:00",
+        "message": "feat：常用功能增加搜索云端资源。"
+      },
+      {
+        "commit": "fcb9a5920f2db8f8cf1c8d074187b2ab4d985e2d",
+        "author": "GateCross",
+        "date": "2026-03-30 09:45:23",
+        "message": "fix: 优化站点搜索进度中的站点总数显示"
+      },
+      {
+        "commit": "ab1c9eab01b341052fa9d4dd138e8a5ff595da49",
+        "author": "xylplm",
+        "date": "2026-03-29 23:37:32",
+        "message": "✨ feat: 增强贡献统计鼓励信息"
+      },
+      {
+        "commit": "658f5e2bf1362bde37e7b6f0da1aac721cd8000f",
+        "author": "xylplm",
+        "date": "2026-03-29 23:34:02",
+        "message": "✨ feat: 添加个人贡献统计与鼓励信息"
+      },
+      {
+        "commit": "4f49bf42bba73fd606256d8ca9a9d9f738d91dd1",
+        "author": "Jolc",
+        "date": "2026-03-29 21:45:20",
+        "message": "feat：常用功能增加搜索云端资源。"
+      },
+      {
+        "commit": "d2053132a9a077350d2c5650f5e7ae7e3467353e",
+        "author": "liurongjie",
+        "date": "2026-03-29 21:04:34",
+        "message": "style(search): 调整搜索结果卡片布局和文本显示样式"
+      },
+      {
+        "commit": "674b3005f441788404b07f6da3aa76208b371627",
+        "author": "Jolc",
+        "date": "2026-03-28 23:49:52",
+        "message": "feat：云资源支持集数范围过滤"
+      },
+      {
+        "commit": "c78bf6971c372f6901737ecbbb7de3ad84f0ddb6",
+        "author": "GateCross",
+        "date": "2026-03-28 23:16:38",
+        "message": "feat: 增加云端资源"
+      },
+      {
+        "commit": "1142ec3cf22009f045e094d3c8c01431bff324e3",
+        "author": "GateCross",
+        "date": "2026-03-28 17:25:48",
+        "message": "fix: 移除云端存储搜索结果相关代码"
+      },
+      {
+        "commit": "34ba277d5cf6535715df47241cf9e302fabbe787",
+        "author": "GateCross",
+        "date": "2026-03-28 17:03:11",
+        "message": "fix: 优化hdhive和pansou设置逻辑"
+      },
+      {
+        "commit": "c47aa61eb24a16c0a4e610327391703522c87f75",
+        "author": "xylplm",
+        "date": "2026-03-28 12:38:14",
+        "message": "✨ feat: 添加消息缓存配置"
+      },
+      {
+        "commit": "4510476a48b3e7bf1365c8d119241599169f818e",
+        "author": "GateCross",
+        "date": "2026-03-28 12:15:21",
+        "message": "fix: 优化云盘资源123转存"
+      },
+      {
+        "commit": "98c74a863f721d873386de13095d01ae51f937bc",
+        "author": "GateCross",
+        "date": "2026-03-28 11:16:57",
+        "message": "fix: 优化云端搜索条件"
+      },
+      {
+        "commit": "1c817ef158dea22881688bd4a06a41481471b816",
+        "author": "GateCross",
+        "date": "2026-03-28 10:41:36",
+        "message": "feat: 增加云端资源搜索条件"
+      },
+      {
+        "commit": "65407d7583825634de9889c1093f5893513afbc7",
+        "author": "GateCross",
+        "date": "2026-03-28 10:16:00",
+        "message": "feat: 根据默认云下载目录自动判断云下载方式"
+      },
+      {
+        "commit": "5bdf99d227dc82606023e6aafb1694399adbe24d",
+        "author": "GateCross",
+        "date": "2026-03-28 09:08:01",
+        "message": "fix: 优化云端资源115批量下载"
+      },
+      {
+        "commit": "8f912baab5d341766f170611473b7fe2dd6f8bb8",
+        "author": "GateCross",
+        "date": "2026-03-27 23:39:25",
+        "message": "fix: 隐藏云端资源Ed2k复制按钮"
+      },
+      {
+        "commit": "161ed14fab0d3e6601ea85ad33774f075ed67022",
+        "author": "GateCross",
+        "date": "2026-03-27 23:11:48",
+        "message": "refactor: 合并云端资源搜索结果页"
+      },
+      {
+        "commit": "b0da4ae63652bd71930570b2d1f0657ef7fcb7f1",
+        "author": "xylplm",
+        "date": "2026-03-27 21:02:49",
+        "message": "🔁 refactor: 优化 Hash 报告组件的样式"
+      },
+      {
+        "commit": "375d7f3c2cf04b3e7a8f66d7e551d0a0229cb8e7",
+        "author": "xylplm",
+        "date": "2026-03-27 20:55:50",
+        "message": "✨ feat: 添加必选部件 Hash 上报贡献榜的逻辑处理"
+      },
+      {
+        "commit": "25bca5ced3a98d83d81c622dd99d58ab98a3613e",
+        "author": "xylplm",
+        "date": "2026-03-27 20:43:47",
+        "message": "✨ feat: 添加 Hash 上报贡献榜组件及相关功能"
+      },
+      {
+        "commit": "17d9ce633d519490ef116a5ba4eecb243cc228ae",
+        "author": "GateCross",
+        "date": "2026-03-25 22:55:27",
+        "message": "feat: 优化媒体详情云端资源下载交互"
+      },
+      {
+        "commit": "3588670d690b4627963064feacce47a9f63a9381",
+        "author": "xylplm",
+        "date": "2026-03-24 22:35:11",
+        "message": "fix 🐛: 移除取消订阅按钮的背景颜色样式"
+      },
+      {
+        "commit": "3b6fd6bc9141308f66bfee684a5cf89f473b1dca",
+        "author": "GateCross",
+        "date": "2026-03-24 20:48:21",
+        "message": "feat: 优化ED2K资源列表分页与云下载交互"
+      },
+      {
+        "commit": "3e4eae978aabe392a92968880ac321c6a278932e",
+        "author": "Jolc",
+        "date": "2026-03-24 20:37:21",
+        "message": "feat：插件 svg skill"
+      },
+      {
+        "commit": "1aa6fffe2c214bfe74e915e70ad8bfe0f082bf58",
+        "author": "xylplm",
+        "date": "2026-03-24 19:42:57",
+        "message": "✨ feat: 添加地址修改警告提示功能"
+      },
+      {
+        "commit": "2af74d21eff1d0b75f355daefb539a84828cc7ff",
+        "author": "xylplm",
+        "date": "2026-03-24 19:42:50",
+        "message": "✨ feat: 修改确认对话框按钮名称逻辑，仅在用户未自定义时更新"
+      },
+      {
+        "commit": "312760252ef98c95c8ba3a1bf57b773c87c6be8b",
+        "author": "syueya",
+        "date": "2026-03-24 16:45:29",
+        "message": "ed2k"
+      },
+      {
+        "commit": "5c4a206620d756643348ead50f41ed44e18c1307",
+        "author": "syueya",
+        "date": "2026-03-24 14:52:16",
+        "message": "ed2k链接"
+      },
+      {
+        "commit": "2a2118eda3353f442c43d2a483a39b48a9fbfd5c",
+        "author": "Jolc",
+        "date": "2026-03-23 23:31:53",
+        "message": "feat：本地文件增加生成 ed2k 按钮"
+      },
+      {
+        "commit": "0459850d571dd7807e49462447c126e948c01914",
+        "author": "xylplm",
+        "date": "2026-03-23 16:17:32",
+        "message": "✨ feat: 更新云存储设置提交逻辑，优化用户反馈信息"
+      },
+      {
+        "commit": "070271fa6294a99abacf880b1c4b576bd060cfb9",
+        "author": "xylplm",
+        "date": "2026-03-23 11:05:24",
+        "message": "📚 docs: 更新提交信息生成说明，调整字符限制至150字"
+      },
+      {
+        "commit": "4998c8d08169c32a3a8ccc99d0890a548934c066",
+        "author": "xylplm",
+        "date": "2026-03-23 11:04:55",
+        "message": "📚 docs: 更新提交信息生成说明，调整字符限制至100字"
+      },
+      {
+        "commit": "47bd02514fffd9cb255df6e6cc7a90b4c88545e8",
+        "author": "xylplm",
+        "date": "2026-03-23 11:04:19",
+        "message": "📚 docs: 更新提交信息生成说明，调整格式"
+      },
+      {
+        "commit": "918be3c5ea8ba26236aa25a5346444ee349dad63",
+        "author": "xylplm",
+        "date": "2026-03-23 11:03:58",
+        "message": "📚 docs: 更新 README.md，添加 git commit 前缀约定和 Copilot 提交信息生成说明"
+      },
+      {
+        "commit": "a9e3e11a15978df8a9124368e79a14f8654ebcc2",
+        "author": "xylplm",
+        "date": "2026-03-22 22:39:18",
+        "message": "fix: 移除对小于148px宽度容器的.top-right位置调整"
+      },
+      {
+        "commit": "bf6aeece9e0e808b69592ebfc75b8b922d5e5b66",
+        "author": "xylplm",
+        "date": "2026-03-22 15:59:03",
+        "message": "feat(svg-icon): 添加目录清理器SVG图标文件"
+      },
+      {
+        "commit": "db5b7bf89e48ac859b1982e7cbfffdde789e8a3d",
+        "author": "GateCross",
+        "date": "2026-03-17 16:39:48",
+        "message": "fix: 媒体详情页未配置资源源显示为未启用"
+      },
+      {
+        "commit": "3ee13fedded4542c567e5e4755b7b527fbf2f7af",
+        "author": "GateCross",
+        "date": "2026-03-17 15:40:45",
+        "message": "fix: 调整 HDHive 资源打开交互文案"
+      },
+      {
+        "commit": "663c4f74086ff8728fd45011cefb2c30846ddf26",
+        "author": "GateCross",
+        "date": "2026-03-17 15:19:13",
+        "message": "feat: 新增 HDHive 资源卡片与分网盘交互"
+      },
+      {
+        "commit": "ff30488870302d8b2c0733351e68f529cc5a95a3",
+        "author": "GateCross",
+        "date": "2026-03-16 23:10:21",
+        "message": "feat: 调整 pansou 资源展示交互"
+      },
+      {
+        "commit": "3eec921b93261479850ba83f912b10928de03c3e",
+        "author": "xylplm",
+        "date": "2026-03-14 20:37:11",
+        "message": "feat(icon-size): 调整图标组件和相关模板的尺寸，优化显示效果"
+      },
+      {
+        "commit": "7523bcee390227fda3575a85df8f2d1f36629d58",
+        "author": "xylplm",
+        "date": "2026-03-14 13:57:18",
+        "message": "feat(ai-chat): 添加模型选择器自定义触发器和渲染模板"
+      },
+      {
+        "commit": "99eb4280d42c16407c22db37bda053c544c19f5a",
+        "author": "xylplm",
+        "date": "2026-03-14 13:57:10",
+        "message": "feat(model-icon): 优化图标组件模板和样式，增强图标显示效果"
+      },
+      {
+        "commit": "4a0dea3916f9648a5b791344c77b61cb63fcced3",
+        "author": "xylplm",
+        "date": "2026-03-14 13:52:02",
+        "message": "feat(cloud-storage-update): 优化驱动选择器的渲染，添加自定义触发器支持"
+      },
+      {
+        "commit": "c3d26488f70c64193bc98facd9a6f594ae406dda",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:56",
+        "message": "feat(setting-notify-update): 添加消息渠道类型选择器的选中项渲染支持"
+      },
+      {
+        "commit": "32c09064b9483a3da7ded146933bf8a120416d03",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:48",
+        "message": "feat(media-server-setting): 添加媒体服务器类型选择器的选中项渲染支持"
+      },
+      {
+        "commit": "9433d04311845d036cb780e8fe19ad75c6019052",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:38",
+        "message": "feat(download-downloader): 添加下载器类型选择器的触发器，优化选中项显示"
+      },
+      {
+        "commit": "e39029c16dc36bac9ba2b694933e911331e9410a",
+        "author": "xylplm",
+        "date": "2026-03-14 13:49:10",
+        "message": "feat(input-autocomplete): 添加已选中项渲染支持，优化输入框前缀显示"
+      },
+      {
+        "commit": "0051108d6ebb13373101d8b41702684d6c99d4fc",
+        "author": "xylplm",
+        "date": "2026-03-14 13:48:57",
+        "message": "feat(site-manage): 添加站点图标支持，优化站点选择器的显示效果"
+      },
+      {
+        "commit": "6bb473e8e64dc88a7e6fc6c2945756960c3e64df",
+        "author": "liurongjie",
+        "date": "2026-03-11 23:12:45",
+        "message": "fix(tools): 修复动态表单初始化时机问题"
+      },
+      {
+        "commit": "f251604b931fb6e2aa0cf67c475f13e42eb2578e",
+        "author": "xylplm",
+        "date": "2026-03-11 17:54:56",
+        "message": "feat(site-manage): 优化VPN标签样式，增强可读性和视觉效果"
+      },
+      {
+        "commit": "34b7affe3bb63f71b51ba18ed9c8f5aed5573adb",
+        "author": "liurongjie",
+        "date": "2026-03-11 14:23:02",
+        "message": "feat(dynamic-form): 优化动态表单控件更新逻辑并为 Plex 本地化插件添加媒体库选择功能"
+      },
+      {
+        "commit": "e63bbe8d98d3eca6f923d6eeef90b6bd1893cfa2",
+        "author": "xylplm",
+        "date": "2026-03-10 23:49:45",
+        "message": "feat(media-detail): 更新电影标题样式，调整字体大小以增强可读性"
+      },
+      {
+        "commit": "a0f4f0820fbcba440de6e7b6d05b2c0e6673e7a2",
+        "author": "xylplm",
+        "date": "2026-03-10 23:32:47",
+        "message": "feat(media-detail): 优化季集信息展示，增强响应式布局和交互体验"
+      },
+      {
+        "commit": "178be289ca3258e7301b3943d30c8006071243d4",
+        "author": "xylplm",
+        "date": "2026-03-10 23:18:14",
+        "message": "feat(file-list): 优化文件目录列表，路由支持路径，方便页面跳转记忆"
+      },
+      {
+        "commit": "e48d79873349abf5bb4176622b155f7eb3804e44",
+        "author": "xylplm",
+        "date": "2026-03-10 22:38:24",
+        "message": "feat(file-sort): 更新排序选项图标，显示当前选择的排序方式"
+      },
+      {
+        "commit": "3d9cb7b94b7702781f81734883cb9211b28aab0c",
+        "author": "xylplm",
+        "date": "2026-03-10 22:35:50",
+        "message": "feat(directory-file): 记忆并恢复文件排序选项"
+      },
+      {
+        "commit": "5de0fd8bfe32d916cdcb613f12849cea918ab850",
+        "author": "xylplm",
+        "date": "2026-03-10 21:00:51",
+        "message": "feat(file-sort): 添加文件排序功能，优化排序选项逻辑"
+      },
+      {
+        "commit": "967bcb402960f40d99d722660b8f9d808917cf58",
+        "author": "allen",
+        "date": "2026-03-10 20:06:51",
+        "message": "feat(file-list): 接入文件排序字段"
+      },
+      {
+        "commit": "b349c28bb987714fef8dfcd7aae405b0cd208c4c",
+        "author": "xylplm",
+        "date": "2026-03-09 11:43:23",
+        "message": "feat(ai-chat): 重构ai-chat模块为独立组件，支持全屏和标准显示模式"
+      },
+      {
+        "commit": "ad9db8236bce57ee1a24152cb1c1daaa96f6c3b2",
+        "author": "xylplm",
+        "date": "2026-03-09 10:53:04",
+        "message": "feat(ngsw-config): 更新导航URL配置，添加对ai-chat的排除"
+      },
+      {
+        "commit": "2c00e01f188bae3bd3de7e88c57dab26be612d17",
+        "author": "xylplm",
+        "date": "2026-03-06 14:32:24",
+        "message": "feat(image-compression): 移除冗余压缩参数字段，直接在原始字段上添加图片压缩参数"
+      },
+      {
+        "commit": "ec660488a2e8e092ce96f9633570f308079721d9",
+        "author": "xylplm",
+        "date": "2026-03-06 14:01:07",
+        "message": "feat(image-compression): 优化图片压缩参数添加逻辑，支持目标API判断"
+      },
+      {
+        "commit": "a078dced005a7d8084bf3c1dc5f9f661539a2501",
+        "author": "xylplm",
+        "date": "2026-03-05 17:08:27",
+        "message": "feat(message-center): 消息中心增加消息清空按钮"
+      },
+      {
+        "commit": "d8676ba4f63b1ed9f209df9a53173e340cf69bdf",
+        "author": "xylplm",
+        "date": "2026-03-05 16:27:45",
+        "message": "feat(download): 添加清空下载记录功能，优化界面布局"
+      },
+      {
+        "commit": "130eeddf558bf4ab5ff6c462a1e2603e369e8945",
+        "author": "xylplm",
+        "date": "2026-03-05 12:50:47",
+        "message": "feat(ai-chat): 优化模型设置逻辑，按ID排序可用模型列表"
+      },
+      {
+        "commit": "83e820b401a3a99b3dae1fbf9eca8ade3eb9e191",
+        "author": "xylplm",
+        "date": "2026-03-05 12:42:23",
+        "message": "feat(model-icon): 优化模型数据获取逻辑，支持前缀匹配和斜杠后的匹配"
+      },
+      {
+        "commit": "839bf21b83d865c32b4fb215061680b3330523a2",
+        "author": "xylplm",
+        "date": "2026-03-05 12:23:19",
+        "message": "feat(model-icon): 添加混元AI图标及相关配置"
+      },
+      {
+        "commit": "c74a7cc9329aa7bbdf10ba6fb060893fc9eacd9e",
+        "author": "xylplm",
+        "date": "2026-03-05 11:42:23",
+        "message": "feat(model-icon): AI模型列表添加模型图标组件及相关样式，支持多种AI品牌图标"
+      },
+      {
+        "commit": "a4e75c4aef5c780cee8d8cce32b47cdd91b11369",
+        "author": "xylplm",
+        "date": "2026-03-04 23:49:02",
+        "message": "feat:移除修仙秘籍网络ping，顶部增加网络测试快捷方式"
+      },
+      {
+        "commit": "7c62f64c87e6869eebad21f048d12ccbea75b790",
+        "author": "liurongjie",
+        "date": "2026-03-03 22:43:41",
+        "message": "style(ui): 优化媒体服务器和整理页面UI组件样式"
+      },
+      {
+        "commit": "6ba9ed1b9b1b8bc24a777ae9dc2042e2ab6d142c",
+        "author": "liurongjie",
+        "date": "2026-03-03 18:35:39",
+        "message": "style(download): 优化下载参数组件的UI布局和样式"
+      },
+      {
+        "commit": "ea19008b52c4c6735895c57a0012f6addb34e038",
+        "author": "GateCross",
+        "date": "2026-03-03 17:33:42",
+        "message": "feat(cloud-storage): 添加按文件生成 Strm 功能及相关组件"
+      },
+      {
+        "commit": "82637a3338fbdb2c04d76947e9c127dffa3758eb",
+        "author": "liurongjie",
+        "date": "2026-03-03 01:26:09",
+        "message": "feat(media-tidy): 添加移动端自定义识别词界面适配"
+      },
+      {
+        "commit": "aa87cab53f3c630a9b6b4cc0f1ea9132c4863468",
+        "author": "liurongjie",
+        "date": "2026-03-03 00:32:07",
+        "message": "fix(tools): 修复备份文件下载的base64解码问题"
+      },
+      {
+        "commit": "4c9fe31fbaa71c4d22641554be9bdf5bc0c1ab59",
+        "author": "liurongjie",
+        "date": "2026-03-03 00:24:39",
+        "message": "feat(directory): 添加移动端响应式布局和拖拽排序功能"
+      },
+      {
+        "commit": "4a221b5ea8dea22eb5592adc41f73d199cc3f2f2",
+        "author": "liurongjie",
+        "date": "2026-03-03 00:05:07",
+        "message": "fix(media-library): 修复媒体库组件网格布局显示问题"
+      },
+      {
+        "commit": "63a46f71d784860765ff2e839fb5ce36f0dc718f",
+        "author": "liurongjie",
+        "date": "2026-03-02 23:47:19",
+        "message": "(uifix): 修复移动端卡片视图样式问题"
+      },
+      {
+        "commit": "a8850e758e72ed710afa86c8c8e9570c3d83d5a0",
+        "author": "liurongjie",
+        "date": "2026-03-02 23:05:14",
+        "message": "fix(media-tidy): 修复移动端卡片视图的间距问题"
+      },
+      {
+        "commit": "4fd42360b65baf631227d8a7faeeff98cb437972",
+        "author": "liurongjie",
+        "date": "2026-03-02 21:42:04",
+        "message": "style(ui): 优化界面布局和移动端适配"
+      },
+      {
+        "commit": "df97b19092266424a92727bb4653f40bec94bad0",
+        "author": "xylplm",
+        "date": "2026-02-28 22:21:36",
+        "message": "feat(ai-chat): 升级消息内容渲染引擎"
+      },
+      {
+        "commit": "e4ff72ab6bfdd54d962eaf01f9bc60a393c1fcf5",
+        "author": "Jolc",
+        "date": "2026-02-28 22:07:50",
+        "message": "feat：防止白嫖肉鸡"
+      },
+      {
+        "commit": "e297557688b269738f62f12586e1c15eb72d810f",
+        "author": "Jolc",
+        "date": "2026-02-28 20:28:52",
+        "message": "feat：防止白嫖肉鸡"
+      },
+      {
+        "commit": "1b3ce498f27516266917cf7566179ce74916622b",
+        "author": "liurongjie",
+        "date": "2026-02-28 17:36:38",
+        "message": "feat(plugin): 添加云驱动配置图标"
+      },
+      {
+        "commit": "affaba9c011a2a0b10662a35e8daa32f3f90f797",
+        "author": "GateCross",
+        "date": "2026-02-27 20:20:54",
+        "message": "fix: 优化秒传分享显示"
+      },
+      {
+        "commit": "a30dcbcc3dbdb7cfb00b6cce82f9ea910133a15f",
+        "author": "GateCross",
+        "date": "2026-02-27 20:10:09",
+        "message": "feat: 新增种子分享次数显示"
+      },
+      {
+        "commit": "289dfdb3fcb82869b27c3d0b1e65822b8b166b6a",
+        "author": "GateCross",
+        "date": "2026-02-27 17:10:47",
+        "message": "feat: 秒传分享显示上传下载"
+      },
+      {
+        "commit": "7a8e5b6498de532f8fafa93ca5f48b9235ed389f",
+        "author": "syueya",
+        "date": "2026-02-27 12:10:44",
+        "message": "秒传"
+      },
+      {
+        "commit": "6b95ea9ec392d2584eca49a192452c1724519238",
+        "author": "syueya",
+        "date": "2026-02-27 11:52:51",
+        "message": "刷新状态按钮"
+      },
+      {
+        "commit": "a1c14f80be14be28de569a471a918d5ef7aa5d91",
+        "author": "xylplm",
+        "date": "2026-02-27 11:33:28",
+        "message": "feat: 优化毛玻璃主题的侧边栏和模态遮罩、修仙秘籍等样式，增强 UI 体验"
+      },
+      {
+        "commit": "2e5867f53a76e449665eca7c361bd83f128670f0",
+        "author": "xylplm",
+        "date": "2026-02-27 11:15:10",
+        "message": "feat: 添加云存储设置组件的联动删除警告对话框功能"
+      },
+      {
+        "commit": "7db32c394ffd77e4e1bb31d3baee96c8ed6f6686",
+        "author": "GateCross",
+        "date": "2026-02-26 20:58:24",
+        "message": "fix: 更新前端依赖及 lock 文件"
+      },
+      {
+        "commit": "6e97efca30ab7984b6797d5e4a9fbece358f6971",
+        "author": "syueya",
+        "date": "2026-02-26 20:12:39",
+        "message": "妙传"
+      },
+      {
+        "commit": "46abae90abae344e5a693db5cb411e5d0487dec0",
+        "author": "syueya",
+        "date": "2026-02-26 19:01:18",
+        "message": "搜索按钮合并"
+      },
+      {
+        "commit": "96f572676ab4c85ce5019aa85a4cc6dcb591ab95",
+        "author": "xylplm",
+        "date": "2026-02-26 13:47:05",
+        "message": "chore: update Angular and related dependencies to version 21.2.0, and upgrade other packages"
+      },
+      {
+        "commit": "8949f821d88c8d9d8d9f3fea3d3fa96cac588597",
+        "author": "xylplm",
+        "date": "2026-02-24 20:16:56",
+        "message": "fix: 调整各个组件的响应式布局，更新每页显示项数"
+      },
+      {
+        "commit": "dd50b9f4521065c59ac774f2bcea55f863ab8334",
+        "author": "xylplm",
+        "date": "2026-02-24 18:51:03",
+        "message": "feat: 添加类似苹果的玻璃主题支持，更新样式和颜色变量"
+      },
+      {
+        "commit": "b9f9291a72107e4f1ce58ffc3cc19ab5c1b15b9a",
+        "author": "xylplm",
+        "date": "2026-02-24 12:34:57",
+        "message": "fix: 修改搜索按钮图标大小样式"
+      },
+      {
+        "commit": "1590d74163d50a44f672d2a7e4ee2feef93c84e8",
+        "author": "xylplm",
+        "date": "2026-02-24 12:33:25",
+        "message": "fix: 调整媒体item 搜索按钮图标大小样式"
+      },
+      {
+        "commit": "8ed7edb6ee35d1f81d8dd7a51f3a6c60ff7e53eb",
+        "author": "xylplm",
+        "date": "2026-02-23 19:56:39",
+        "message": "fix: 修复常用功能菜单的布局，调整列间距以优化显示效果"
+      },
+      {
+        "commit": "78a8d7a67b8e45192db239f833be10837e105911",
+        "author": "xylplm",
+        "date": "2026-02-23 19:48:23",
+        "message": "feat: 更新媒体库组件的布局和样式，支持更高分辨率屏幕"
+      },
+      {
+        "commit": "2a978aad289c5ed3a508fdb2e17b9c63c063ecfc",
+        "author": "xylplm",
+        "date": "2026-02-23 19:01:31",
+        "message": "feat: 更新多个组件的分页配置以优化显示效果"
+      },
+      {
+        "commit": "0101943efa9fa7b5864261ae721047e57d21eea1",
+        "author": "xylplm",
+        "date": "2026-02-22 22:20:10",
+        "message": "feat: 在多个组件中添加对父类 ngOnInit 和 ngOnDestroy 的调用"
+      },
+      {
+        "commit": "8f006e31a014751201e5f2bc514d9b67023fb351",
+        "author": "xylplm",
+        "date": "2026-02-22 21:55:49",
+        "message": "feat: 添加 TimerManager 以改进定时器管理，禁止直接使用原生定时器"
+      },
+      {
+        "commit": "eb38990209f0df73024fc039d75e6c8596aadad5",
+        "author": "xylplm",
+        "date": "2026-02-22 21:32:32",
+        "message": "feat: introduce TimerManager for better timer management across components and services"
+      },
+      {
+        "commit": "af767f4159a8b1233830c68ff19e33facb19aac4",
+        "author": "xylplm",
+        "date": "2026-02-22 20:42:48",
+        "message": "feat: 为多个组件和服务添加 OnDestroy 生命周期钩子以清理计时器"
+      },
+      {
+        "commit": "4c6f09e291bed27271a4dcff152964b88d21cd5d",
+        "author": "liurongjie",
+        "date": "2026-02-21 21:59:47",
+        "message": "feat(cloud-storage): 添加媒体库刷新功能"
+      },
+      {
+        "commit": "ee0bbb76b68cddf0c5b42b456e59da8a3b7eaff0",
+        "author": "liurongjie",
+        "date": "2026-02-21 20:32:31",
+        "message": "feat(cloud-storage): 添加媒体库刷新功能"
+      },
+      {
+        "commit": "008642c25f5f01eb67814cc85af0034fd1dd4a33",
+        "author": "liurongjie",
+        "date": "2026-02-17 00:26:56",
+        "message": "feat(site): 实现移动端适配的签到表格视图"
+      },
+      {
+        "commit": "57bc5effc24e7d10bf9452c890681555e6c184c1",
+        "author": "liurongjie",
+        "date": "2026-02-17 00:17:19",
+        "message": "feat(site): 添加移动端响应式卡片布局支持"
+      },
+      {
+        "commit": "3a3ae43b35071120ecf70e387e2f1f73c655d2ef",
+        "author": "xylplm",
+        "date": "2026-02-16 13:42:57",
+        "message": "feat: 为媒体项和媒体详情添加图片压缩参数支持"
+      },
+      {
+        "commit": "ca5f3f66656a1f13c6fc8778301352556b3a3448",
+        "author": "xylplm",
+        "date": "2026-02-15 17:31:59",
+        "message": "feat(ai-chat): add AI chat module with standalone and internal versions"
+      },
+      {
+        "commit": "80b7d28753641af7fb9f67a87d5080253fd86916",
+        "author": "xylplm",
+        "date": "2026-02-14 20:40:56",
+        "message": "feat: 独立页面添加主题颜色切换功能"
+      },
+      {
+        "commit": "2d81681420877a26db77c68d939165f77586e1ad",
+        "author": "xylplm",
+        "date": "2026-02-14 15:24:39",
+        "message": "fix: 修复桌面小部件 今日开播列表"
+      },
+      {
+        "commit": "8422ef066e78f5866a206f2f04d35a5fa7dd1ca4",
+        "author": "xylplm",
+        "date": "2026-02-14 15:14:50",
+        "message": "feat: 添加图片代理缓存功能及其有效期设置"
+      },
+      {
+        "commit": "5ce26fe8f9af2d38a19489d54609904256c983a3",
+        "author": "xylplm",
+        "date": "2026-02-14 14:20:22",
+        "message": "feat: 添加MCP禁用模型列表字段到AI设置表单"
+      },
+      {
+        "commit": "118c271473e11da2ce8d73c2d10d40a55674439a",
+        "author": "xylplm",
+        "date": "2026-02-12 16:09:36",
+        "message": "refactor: replace owl-carousel with custom cm-carousel-list component"
+      },
+      {
+        "commit": "fac969546367b04e46f01d80f9e4237cea7d1896",
+        "author": "xylplm",
+        "date": "2026-02-12 15:49:48",
+        "message": "feat: 优化轮播组件"
+      },
+      {
+        "commit": "a7f8e7704b82282ef46e06f8dfa0bb0cd0ffde42",
+        "author": "xylplm",
+        "date": "2026-02-12 15:07:46",
+        "message": "feat: ms专属轮播组件"
+      },
+      {
+        "commit": "796a717d49ca2d8296789cdfc058675e680770b1",
+        "author": "liurongjie",
+        "date": "2026-02-12 12:22:06",
+        "message": "样式优化"
+      },
+      {
+        "commit": "1c1056cb3e0e4054ea6fabc96e426f0ecf56efc1",
+        "author": "xylplm",
+        "date": "2026-02-09 16:53:08",
+        "message": "feat: 消息中心增加极空间系统状态，并优化消息中心组件的变更检测"
+      },
+      {
+        "commit": "d4197fc033dc087714832c2bc8e251674ef8bc75",
+        "author": "xylplm",
+        "date": "2026-02-09 16:28:31",
+        "message": "feat: 增强风扇状态显示，添加未检测到风扇的提示信息"
+      },
+      {
+        "commit": "4ad4027a686dc2315ab0dd20756d406e98a73fe5",
+        "author": "xylplm",
+        "date": "2026-02-09 14:54:23",
+        "message": "feat: 完善极空间设备详情 添加电源信息和扩展存储设备支持，优化存储计算逻辑"
+      },
+      {
+        "commit": "12aaed1a38e00318d2ffbafe78a8dccc7dc596f3",
+        "author": "xylplm",
+        "date": "2026-02-09 13:45:22",
+        "message": "feat: 极空间桌面小部件 显示内存和存储的总量信息"
+      },
+      {
+        "commit": "45d9be0554a2a5c230ec10163ebb818e94c1ea0d",
+        "author": "xylplm",
+        "date": "2026-02-08 21:20:03",
+        "message": "feat: 桌面小部件增加极空间Nas信息"
+      },
+      {
+        "commit": "45cc0f5cf1fcd72b553e00c593a1705300de7c58",
+        "author": "GateCross",
+        "date": "2026-02-07 23:33:31",
+        "message": "feat: 增加批量手动识别"
+      },
+      {
+        "commit": "784c6bc8be0e2bd801c3f6e2299fcab9a125a894",
+        "author": "GateCross",
+        "date": "2026-02-07 22:46:33",
+        "message": "feat: 历史记录添加文件来源筛选"
+      },
+      {
+        "commit": "dc04290dae9588fb972253e226758b8dada2e817",
+        "author": "liurongjie",
+        "date": "2026-02-06 13:10:20",
+        "message": "style(search-torrent-result): 优化按钮组件的宽度样式和布局结构"
+      },
+      {
+        "commit": "f7a92186657d3c14bc55580839a0d7d1fc8a5684",
+        "author": "xylplm",
+        "date": "2026-02-05 22:08:08",
+        "message": "chore(deps): update dependencies to latest versions"
+      },
+      {
+        "commit": "380aee73a4301399d6a811348e46d887eba93f5f",
+        "author": "xylplm",
+        "date": "2026-02-05 22:03:08",
+        "message": "chore: update Angular dependencies to version 21.1.3 and related devDependencies to latest compatible versions"
+      },
+      {
+        "commit": "c609d336d2d98d79cc62012062d0839b14b6ebbc",
+        "author": "xylplm",
+        "date": "2026-02-05 21:58:12",
+        "message": "fix: 移除不必要的管道导入以简化组件依赖"
+      },
+      {
+        "commit": "3bbf26badb0d3ae6ab3630e9a8aceb35d703e657",
+        "author": "GateCross",
+        "date": "2026-01-30 21:47:04",
+        "message": "ix: 优化硬链接清理"
+      },
+      {
+        "commit": "325b8d953f6bd1b4e716794bd4c2b9ac82b06323",
+        "author": "GateCross",
+        "date": "2026-01-30 20:58:06",
+        "message": "feat: 无效硬链接清理按钮"
+      }
+    ]
+  },
+  {
     "version": "3.0_202601291647",
     "items": [
       {

@@ -1,5 +1,92 @@
 [
   {
+    "version": "DEV_202604151815",
+    "items": [
+      {
+        "commit": "aeff9ddb3e7f27fa87049450ba03fc4fb0e38c6c",
+        "author": "xylplm",
+        "date": "2026-04-15 18:13:26",
+        "message": "✨ feat: AI 诊断对话框和定时任务生成模块增加流式处理支持"
+      },
+      {
+        "commit": "1fe5e3476f14d8eaf12aa3dc024151a514267368",
+        "author": "xylplm",
+        "date": "2026-04-15 17:37:23",
+        "message": "🔧 chore: 优化批量操作面板的布局样式"
+      },
+      {
+        "commit": "4f405b76547e27234c40e3dea42ff33326ec93bd",
+        "author": "xylplm",
+        "date": "2026-04-15 17:35:06",
+        "message": "🔧 chore: 优化多个页面按钮图标样式"
+      },
+      {
+        "commit": "fca0c7821159d5f6a69cb16c428422127a85fe98",
+        "author": "xylplm",
+        "date": "2026-04-15 16:18:46",
+        "message": "✨ feat: 系统日志增加AI诊断功能，针对错误日志可以让AI诊断 提升体验"
+      },
+      {
+        "commit": "f6a92b051187cf5916db75e5fff808bd9fdb90fe",
+        "author": "xylplm",
+        "date": "2026-04-15 16:17:40",
+        "message": "✨ feat: 公共消息内容组件，支持流式内容和代码高亮"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604141847",
+    "items": [
+      {
+        "commit": "470438678fe20379cee1b01024fa6a59dcefe768",
+        "author": "xylplm",
+        "date": "2026-04-14 18:46:45",
+        "message": "✨ feat: 云存储整理模块文件更名"
+      },
+      {
+        "commit": "d424bcffb73d4b6448d018a046dbc1a73b6d5740",
+        "author": "xylplm",
+        "date": "2026-04-14 18:41:59",
+        "message": "🔁 refactor: 移除云存储整理和strm生成的定时整理字段"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604141523",
+    "items": [
+      {
+        "commit": "81b194781602c0ec775f3543e0fdb8e261edd2f8",
+        "author": "xylplm",
+        "date": "2026-04-14 13:55:11",
+        "message": "🔁 refactor: 媒体识别测试组件优化海报加载方式"
+      },
+      {
+        "commit": "d59d80915e0d2b0a2b119e86f4225f2242dba7ed",
+        "author": "xylplm",
+        "date": "2026-04-14 13:42:50",
+        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
+      },
+      {
+        "commit": "f3a492d041c27ee945ec35fee11d46a3deb32e93",
+        "author": "xylplm",
+        "date": "2026-04-14 13:36:35",
+        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
+      },
+      {
+        "commit": "f3237720b3aff6d3da783a5c4655693bec50fd4a",
+        "author": "xylplm",
+        "date": "2026-04-14 13:36:26",
+        "message": "🔁 refactor: 更新提交信息"
+      },
+      {
+        "commit": "44150d71557f8f2741c2a27787878e034e78e9d3",
+        "author": "xylplm",
+        "date": "2026-04-14 13:36:11",
+        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604131656",
     "items": [
       {
@@ -79,135 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-08 15:02:25",
         "message": "📦 deps: 更新 Angular 相关依赖版本"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081457",
-    "items": [
-      {
-        "commit": "ab9ea0c8adf45a300df7c8f91ffc543de2b0f8f6",
-        "author": "xylplm",
-        "date": "2026-04-08 14:57:31",
-        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
-      },
-      {
-        "commit": "d4d5520e1c7aaf3762194cb94df0763322598850",
-        "author": "xylplm",
-        "date": "2026-04-08 14:53:12",
-        "message": "📦 deps: 更新依赖包版本，提升项目稳定性"
-      },
-      {
-        "commit": "bc7e16178f53e99b4adbb2083df02a0769c94c57",
-        "author": "xylplm",
-        "date": "2026-04-07 23:23:57",
-        "message": "🔁 refactor: 优化H&R天数显示格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604072306",
-    "items": [
-      {
-        "commit": "201c5e5e9ef4e73406d615fae5620a460e305059",
-        "author": "xylplm",
-        "date": "2026-04-07 23:06:05",
-        "message": "✨ feat: 添加发布时间和优化种子数提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604071818",
-    "items": [
-      {
-        "commit": "e122483a32d1732c2a0a5f270615d9f7171d3cb3",
-        "author": "xylplm",
-        "date": "2026-04-07 18:26:15",
-        "message": "🔁 refactor: 更新版本导入路径，提升代码一致性"
-      },
-      {
-        "commit": "ec944fbf5d504bd6e8e5a110d7529357bfc2128b",
-        "author": "xylplm",
-        "date": "2026-04-07 18:13:23",
-        "message": "✨ feat: 更新模块导入路径，优化代码结构"
-      },
-      {
-        "commit": "697caa31f17e7062dbdb82256f57fec810c48e2f",
-        "author": "xylplm",
-        "date": "2026-04-07 17:49:57",
-        "message": "🔁 refactor: 优化类型定义，提升代码可读性"
-      },
-      {
-        "commit": "72f7dc9bbf611a039d9a9d87e0679045885f369e",
-        "author": "xylplm",
-        "date": "2026-04-07 16:40:46",
-        "message": "format code"
-      },
-      {
-        "commit": "d340921d3503c349e7d5bab73c15840bc1c8ffe7",
-        "author": "xylplm",
-        "date": "2026-04-07 16:39:27",
-        "message": "✨ feat: 优化云存储模块，调整导入顺序和类型定义，提升代码可读性"
-      },
-      {
-        "commit": "b79c71d16f214d06bea3ba72a6025ef9d9ea3858",
-        "author": "xylplm",
-        "date": "2026-04-07 16:33:35",
-        "message": "✨ feat: 订阅云端资源启用状态和路由参数变化，优化搜索触发逻辑"
-      },
-      {
-        "commit": "533543e290dda61511ff8da84346c9df601ab4c5",
-        "author": "xylplm",
-        "date": "2026-04-07 16:28:33",
-        "message": "✨ feat: 添加云端资源搜索选项，支持动态启用状态"
-      },
-      {
-        "commit": "2527c50f3452792b0b98e66e595a4c2d3f6f17e3",
-        "author": "xylplm",
-        "date": "2026-04-07 16:21:56",
-        "message": "✨ feat: 优化系统开关加载逻辑，支持并发请求共享，提升性能"
-      },
-      {
-        "commit": "5974797e697411afd007ed39f5554678e7bbaffb",
-        "author": "xylplm",
-        "date": "2026-04-07 16:13:08",
-        "message": "✨ feat: 优化系统开关服务，支持并发请求共享，增强加载效率"
-      },
-      {
-        "commit": "043f3a5168274beddf8f557e8014ccf0957d7efa",
-        "author": "xylplm",
-        "date": "2026-04-07 15:48:44",
-        "message": "✨ feat: 云端资源添加关键词历史记录功能以增强搜索体验"
-      },
-      {
-        "commit": "c509eb603a1ab5f58dd693bf4e3b8606e00de45b",
-        "author": "xylplm",
-        "date": "2026-04-07 15:39:35",
-        "message": "✨ feat: 添加可展开详情功能以增强文件下载对话框的用户体验"
-      },
-      {
-        "commit": "0fad4259a901fc3d39c3c83a87909011836ef688",
-        "author": "xylplm",
-        "date": "2026-04-07 15:37:27",
-        "message": "✨ feat: 为种子信息添加工具提示以增强用户体验"
-      },
-      {
-        "commit": "a0cb50477d91e09ae2914b9878facfa0c5db17f3",
-        "author": "xylplm",
-        "date": "2026-04-07 15:01:06",
-        "message": "✨ feat: 添加升级过程中的 loading 消息管理功能"
-      },
-      {
-        "commit": "c63cd4fb2b874b2d4d8fc06edcc6bfc47ad27c1a",
-        "author": "xylplm",
-        "date": "2026-04-07 15:00:49",
-        "message": "✨ feat: 添加根据 messageId 关闭指定消息的功能"
-      },
-      {
-        "commit": "c1848b23f718b127583942d16bcdda1755123bb0",
-        "author": "xylplm",
-        "date": "2026-04-07 14:37:13",
-        "message": "✨ feat: 添加版本初始化功能以优化组件加载"
       }
     ]
   }

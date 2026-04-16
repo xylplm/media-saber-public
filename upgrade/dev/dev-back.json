@@ -1,7 +1,199 @@
 [
   {
-    "version": "DEV_202604141050",
+    "version": "DEV_202604151815",
     "items": [
+      {
+        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
+        "author": "liurongjie",
+        "date": "2026-04-15 12:51:19",
+        "message": "fix(media): 修复动态背景图片缓存问题"
+      },
+      {
+        "commit": "953d958ea9011836adf938bcaba314c92b689970",
+        "author": "liurongjie",
+        "date": "2026-04-15 10:36:13",
+        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
+      },
+      {
+        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
+        "author": "liurongjie",
+        "date": "2026-04-15 09:57:04",
+        "message": "chore(tasks): 调整任务队列优先级"
+      },
+      {
+        "commit": "3655401e08c764e1d96a742b29350f754c0f0f8b",
+        "author": "liurongjie",
+        "date": "2026-04-14 23:09:06",
+        "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
+      },
+      {
+        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
+        "author": "GateCross",
+        "date": "2026-04-14 20:35:54",
+        "message": "fix: 媒体代理123网盘优先本地代理"
+      },
+      {
+        "commit": "fd163a42195a1839a0454ac21f5f03cc5345fa04",
+        "author": "liurongjie",
+        "date": "2026-04-14 19:47:52",
+        "message": "refactor(webhook): 将 Webhook 处理逻辑迁移到 Asynq 队列中"
+      },
+      {
+        "commit": "9ba39860d20ea78fe17bc9180c5ad59fec80cc85",
+        "author": "Jolc",
+        "date": "2026-04-14 18:40:11",
+        "message": "fix：砍了生成strm的cron"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604151329",
+    "items": [
+      {
+        "commit": "99cd23ad393a0967e050d8cb45f32c5b747013ce",
+        "author": "xylplm",
+        "date": "2026-04-15 13:18:17",
+        "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604151252",
+    "items": [
+      {
+        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
+        "author": "liurongjie",
+        "date": "2026-04-15 12:51:19",
+        "message": "fix(media): 修复动态背景图片缓存问题"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604151037",
+    "items": [
+      {
+        "commit": "953d958ea9011836adf938bcaba314c92b689970",
+        "author": "liurongjie",
+        "date": "2026-04-15 10:36:13",
+        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
+      },
+      {
+        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
+        "author": "liurongjie",
+        "date": "2026-04-15 09:57:04",
+        "message": "chore(tasks): 调整任务队列优先级"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604142309",
+    "items": [
+      {
+        "commit": "3655401e08c764e1d96a742b29350f754c0f0f8b",
+        "author": "liurongjie",
+        "date": "2026-04-14 23:09:06",
+        "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604142037",
+    "items": [
+      {
+        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
+        "author": "GateCross",
+        "date": "2026-04-14 20:35:54",
+        "message": "fix: 媒体代理123网盘优先本地代理"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604141948",
+    "items": [
+      {
+        "commit": "fd163a42195a1839a0454ac21f5f03cc5345fa04",
+        "author": "liurongjie",
+        "date": "2026-04-14 19:47:52",
+        "message": "refactor(webhook): 将 Webhook 处理逻辑迁移到 Asynq 队列中"
+      },
+      {
+        "commit": "196bf59485006bbc8e2d1ad6f1c590ab84ab1ad5",
+        "author": "xylplm",
+        "date": "2026-04-14 17:34:54",
+        "message": "🔁 refactor: 将日志级别从 Info 改为 Debug，优化磁盘统计日志输出"
+      },
+      {
+        "commit": "f24d6b4027fd36ed0bc8d10d103082197ec2f4cb",
+        "author": "xylplm",
+        "date": "2026-04-14 17:16:04",
+        "message": "🔁 refactor: 删除已经无用的 Windows 和 Unix 的 Id 函数实现"
+      },
+      {
+        "commit": "3ee3a5be51301189cb04e23ecc7a667515527b60",
+        "author": "xylplm",
+        "date": "2026-04-14 16:55:42",
+        "message": "🔁 refactor: 优化磁盘分区去重逻辑，使用 Total+Free 指纹实现"
+      },
+      {
+        "commit": "5278a4d74f91887d28cc03ba481868b4a6a5c08d",
+        "author": "xylplm",
+        "date": "2026-04-14 16:38:41",
+        "message": "🔁 refactor: 优化磁盘 ID 获取逻辑，使用挂载点去重实现"
+      },
+      {
+        "commit": "9ea3cde2c7705d45bfe6fe1f149a20721498f8f5",
+        "author": "xylplm",
+        "date": "2026-04-14 15:53:48",
+        "message": "🔁 refactor: 优化文件系统 ID 获取逻辑，使用设备号代替 Fsid"
+      },
+      {
+        "commit": "e566110f9d9d4410ae77535fe35be76a88c2687e",
+        "author": "xylplm",
+        "date": "2026-04-14 15:42:09",
+        "message": "🔁 refactor: 优化磁盘统计逻辑，添加调试日志"
+      },
+      {
+        "commit": "29c36ed6dc66037cd9954db23a19b1bd59186044",
+        "author": "xylplm",
+        "date": "2026-04-14 15:14:52",
+        "message": "🔁 refactor: 优化媒体文件扩展名检查逻辑性能"
+      },
+      {
+        "commit": "4ec00114de6bf6e16d7e3016bbae8482a5951d3c",
+        "author": "xylplm",
+        "date": "2026-04-14 15:12:39",
+        "message": "🔁 refactor: 优化文件系统 ID 获取逻辑，简化代码结构"
+      },
+      {
+        "commit": "d98da968846d5aac81e470cf1fbbc15d11d9849b",
+        "author": "xylplm",
+        "date": "2026-04-14 15:09:00",
+        "message": "🔁 refactor: 优化空间统计逻辑，支持多目录统计"
+      },
+      {
+        "commit": "b048a171a900ab6e7bfdbc4c7de0cab2dab8337a",
+        "author": "xylplm",
+        "date": "2026-04-14 14:54:20",
+        "message": "refactor 🔁: 更新根目录隐藏的系统目录列表，添加应用目录"
+      },
+      {
+        "commit": "c4de8b15f9be6056463201569fdf05327920dd1b",
+        "author": "xylplm",
+        "date": "2026-04-14 14:53:00",
+        "message": "fix 🐛: 修复挂载路径检查逻辑，禁止挂载到 Linux 系统目录"
+      },
+      {
+        "commit": "75cded5cae3e5f6ab01a6bee7a347de0e143746d",
+        "author": "xylplm",
+        "date": "2026-04-14 14:52:18",
+        "message": "fix 🐛: 修复获取存储详情时的错误日志格式"
+      },
+      {
+        "commit": "55176996400547c1293ed5162faffaf97bfc9623",
+        "author": "xylplm",
+        "date": "2026-04-14 11:26:33",
+        "message": "refactor 🔁: 移除不再使用的媒体资源链接相关类型"
+      },
       {
         "commit": "f5936e1ea6b59f1f7c7f0c57ab0034d3fb513fe7",
         "author": "xylplm",
@@ -11,113 +203,131 @@
     ]
   },
   {
-    "version": "DEV_202604132242",
+    "version": "DEV_202604141847",
     "items": [
+      {
+        "commit": "9ba39860d20ea78fe17bc9180c5ad59fec80cc85",
+        "author": "Jolc",
+        "date": "2026-04-14 18:40:11",
+        "message": "fix：砍了生成strm的cron"
+      },
+      {
+        "commit": "196bf59485006bbc8e2d1ad6f1c590ab84ab1ad5",
+        "author": "xylplm",
+        "date": "2026-04-14 17:34:54",
+        "message": "🔁 refactor: 将日志级别从 Info 改为 Debug，优化磁盘统计日志输出"
+      },
+      {
+        "commit": "f24d6b4027fd36ed0bc8d10d103082197ec2f4cb",
+        "author": "xylplm",
+        "date": "2026-04-14 17:16:04",
+        "message": "🔁 refactor: 删除已经无用的 Windows 和 Unix 的 Id 函数实现"
+      },
+      {
+        "commit": "3ee3a5be51301189cb04e23ecc7a667515527b60",
+        "author": "xylplm",
+        "date": "2026-04-14 16:55:42",
+        "message": "🔁 refactor: 优化磁盘分区去重逻辑，使用 Total+Free 指纹实现"
+      },
+      {
+        "commit": "5278a4d74f91887d28cc03ba481868b4a6a5c08d",
+        "author": "xylplm",
+        "date": "2026-04-14 16:38:41",
+        "message": "🔁 refactor: 优化磁盘 ID 获取逻辑，使用挂载点去重实现"
+      },
+      {
+        "commit": "9ea3cde2c7705d45bfe6fe1f149a20721498f8f5",
+        "author": "xylplm",
+        "date": "2026-04-14 15:53:48",
+        "message": "🔁 refactor: 优化文件系统 ID 获取逻辑，使用设备号代替 Fsid"
+      },
+      {
+        "commit": "e566110f9d9d4410ae77535fe35be76a88c2687e",
+        "author": "xylplm",
+        "date": "2026-04-14 15:42:09",
+        "message": "🔁 refactor: 优化磁盘统计逻辑，添加调试日志"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202604141523",
+    "items": [
+      {
+        "commit": "29c36ed6dc66037cd9954db23a19b1bd59186044",
+        "author": "xylplm",
+        "date": "2026-04-14 15:14:52",
+        "message": "🔁 refactor: 优化媒体文件扩展名检查逻辑性能"
+      },
+      {
+        "commit": "4ec00114de6bf6e16d7e3016bbae8482a5951d3c",
+        "author": "xylplm",
+        "date": "2026-04-14 15:12:39",
+        "message": "🔁 refactor: 优化文件系统 ID 获取逻辑，简化代码结构"
+      },
+      {
+        "commit": "d98da968846d5aac81e470cf1fbbc15d11d9849b",
+        "author": "xylplm",
+        "date": "2026-04-14 15:09:00",
+        "message": "🔁 refactor: 优化空间统计逻辑，支持多目录统计"
+      },
+      {
+        "commit": "b048a171a900ab6e7bfdbc4c7de0cab2dab8337a",
+        "author": "xylplm",
+        "date": "2026-04-14 14:54:20",
+        "message": "refactor 🔁: 更新根目录隐藏的系统目录列表，添加应用目录"
+      },
+      {
+        "commit": "c4de8b15f9be6056463201569fdf05327920dd1b",
+        "author": "xylplm",
+        "date": "2026-04-14 14:53:00",
+        "message": "fix 🐛: 修复挂载路径检查逻辑，禁止挂载到 Linux 系统目录"
+      },
+      {
+        "commit": "75cded5cae3e5f6ab01a6bee7a347de0e143746d",
+        "author": "xylplm",
+        "date": "2026-04-14 14:52:18",
+        "message": "fix 🐛: 修复获取存储详情时的错误日志格式"
+      },
+      {
+        "commit": "55176996400547c1293ed5162faffaf97bfc9623",
+        "author": "xylplm",
+        "date": "2026-04-14 11:26:33",
+        "message": "refactor 🔁: 移除不再使用的媒体资源链接相关类型"
+      },
       {
         "commit": "6ee176e7d321de52766ac419b766470dd2544f5b",
         "author": "Jolc",
         "date": "2026-04-13 22:41:32",
         "message": "feat：媒体列表增加云端资源数量显示。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604132158",
-    "items": [
+      },
       {
         "commit": "3682ee9fd688aaf04f43913562401ce2adfa9204",
         "author": "Jolc",
         "date": "2026-04-13 21:57:26",
         "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604132102",
-    "items": [
+      },
       {
         "commit": "83658fe660de2ad1f8240ba4a079857b26fb4ddd",
         "author": "Jolc",
         "date": "2026-04-13 21:01:48",
         "message": "fix：订阅rss未过滤体积、日志模块传递问题。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131925",
-    "items": [
+      },
       {
         "commit": "18cf417d98e61de7bfe47dab21833e731b8aea9f",
         "author": "Jolc",
         "date": "2026-04-13 19:23:59",
         "message": "feat：mlist 云下载增加默认超时 2h，云存储管理界面可以单独配置 115 Open 超时。"
-      },
-      {
-        "commit": "9d1139911ad482da266f442c03922176d702ea98",
-        "author": "dependabot[bot]",
-        "date": "2026-04-13 09:38:05",
-        "message": "build(deps): bump google.golang.org/grpc from 1.73.0 to 1.79.3"
-      },
-      {
-        "commit": "7f30866785a4450c26291addf742c324c0019bb7",
-        "author": "Jolc",
-        "date": "2026-04-13 16:34:07",
-        "message": "fix：todo A 佬测试（钢铁森林已入库17-23、25-28，重新订阅会订阅1-16，24-28）"
       }
     ]
   },
   {
-    "version": "DEV_202604131656",
+    "version": "DEV_202604141050",
     "items": [
       {
-        "commit": "3ae118dc4256c55a38c7ff1cf301ed57f8540e2c",
-        "author": "liurongjie",
-        "date": "2026-04-13 15:59:06",
-        "message": "fix(moviesubject): 修复B站Top100评分解析问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131634",
-    "items": [
-      {
-        "commit": "7f30866785a4450c26291addf742c324c0019bb7",
-        "author": "Jolc",
-        "date": "2026-04-13 16:34:07",
-        "message": "fix：todo A 佬测试（钢铁森林已入库17-23、25-28，重新订阅会订阅1-16，24-28）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131602",
-    "items": [
-      {
-        "commit": "3ae118dc4256c55a38c7ff1cf301ed57f8540e2c",
-        "author": "liurongjie",
-        "date": "2026-04-13 15:59:06",
-        "message": "fix(moviesubject): 修复B站Top100评分解析问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131256",
-    "items": [
-      {
-        "commit": "3fe285a56afa01f2037f914a580228023c9d4ee4",
-        "author": "Jolc",
-        "date": "2026-04-13 12:56:08",
-        "message": "fix: 别有多余逻辑，以 auth 为准。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604130910",
-    "items": [
-      {
-        "commit": "1fe083e5be6abd6b7df4484b54994c2a1b13e2fe",
-        "author": "Jolc",
-        "date": "2026-04-13 09:10:17",
-        "message": "fix：修复动了 cron 没有更新 job 的问题。"
+        "commit": "f5936e1ea6b59f1f7c7f0c57ab0034d3fb513fe7",
+        "author": "xylplm",
+        "date": "2026-04-14 10:49:33",
+        "message": "✨ feat: 文件列表添加根目录过滤和高风险文件过滤功能"
       }
     ]
   }
