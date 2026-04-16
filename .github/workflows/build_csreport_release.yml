@@ -106,12 +106,12 @@ jobs:
 
           必填参数：
 
-          - `--email`
-          - `--slogan`
-          - `--driver-name`
-          - `--folder`
-          - `--ms-url`（也可用环境变量 `CSREPORT_MS_URL`）
-          - `--ms-api-key`（也可用环境变量 `CSREPORT_MS_API_KEY`）
+          - `--email`  你的MS认证邮箱
+          - `--slogan`  你的MS认证口令
+          - `--driver-name`   上传网盘驱动 一般默认 115 Open 即可
+          - `--folder`   你需要扫描的媒体文件夹目录  推荐削刮前的文件夹，避免上报的名称不完整
+          - `--ms-url`（也可用环境变量 `CSREPORT_MS_URL`）  你的MS服务地址，上报需要连接到你的MS服务
+          - `--ms-api-key`（也可用环境变量 `CSREPORT_MS_API_KEY`） 你的MS服务 API Key，上报需要连接到你的MS服务
 
           可选参数：
 
