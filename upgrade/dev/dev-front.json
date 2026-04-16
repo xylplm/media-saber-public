@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604162301",
+    "items": [
+      {
+        "commit": "2d44a98e3535e3df0bf76323b4f9012605d4fafd",
+        "author": "GateCross",
+        "date": "2026-04-16 23:00:16",
+        "message": "fix: 恢复系统日志排版"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604151815",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "GateCross",
         "date": "2026-04-08 17:11:04",
         "message": "fix: 修改云端资源贡献人显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081508",
-    "items": [
-      {
-        "commit": "d27b515dd816025b6a5efe8f86be0d1c61093949",
-        "author": "xylplm",
-        "date": "2026-04-08 15:04:37",
-        "message": "📦 deps: 更新依赖包版本"
-      },
-      {
-        "commit": "64241364deb56bdbf64e2057d75304307e6c5ff6",
-        "author": "xylplm",
-        "date": "2026-04-08 15:02:25",
-        "message": "📦 deps: 更新 Angular 相关依赖版本"
       }
     ]
   }
