@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604161404",
+    "items": [
+      {
+        "commit": "b8d524cdf62b902d9598493f3f7f02c69ba5e921",
+        "author": "xylplm",
+        "date": "2026-04-16 12:50:14",
+        "message": "✨ feat: 上报脚本增加对 Linux arm64 的支持，更新构建脚本"
+      },
+      {
+        "commit": "99cd23ad393a0967e050d8cb45f32c5b747013ce",
+        "author": "xylplm",
+        "date": "2026-04-15 13:18:17",
+        "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604151815",
     "items": [
       {
@@ -317,17 +334,6 @@
         "author": "Jolc",
         "date": "2026-04-13 19:23:59",
         "message": "feat：mlist 云下载增加默认超时 2h，云存储管理界面可以单独配置 115 Open 超时。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604141050",
-    "items": [
-      {
-        "commit": "f5936e1ea6b59f1f7c7f0c57ab0034d3fb513fe7",
-        "author": "xylplm",
-        "date": "2026-04-14 10:49:33",
-        "message": "✨ feat: 文件列表添加根目录过滤和高风险文件过滤功能"
       }
     ]
   }
