@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604172107",
+    "items": [
+      {
+        "commit": "2c3fc88ae4acb0fbcaae9be5f76be5e1345cee56",
+        "author": "xylplm",
+        "date": "2026-04-17 20:55:07",
+        "message": "fix: 搜索列表"
+      },
+      {
+        "commit": "5eca44de19f1932d21e9feaa6bd264803fb4b3d5",
+        "author": "xylplm",
+        "date": "2026-04-17 00:13:43",
+        "message": "✨ feat: AI诊断对话框增加流式处理支持，优化诊断结果展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604162301",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-09 00:28:20",
         "message": "✨ feat: 添加自动完成字段类型支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604081713",
-    "items": [
-      {
-        "commit": "eb8e62e121ffcbc7c937dfc4e8352a45472e15fb",
-        "author": "GateCross",
-        "date": "2026-04-08 17:11:04",
-        "message": "fix: 修改云端资源贡献人显示"
       }
     ]
   }

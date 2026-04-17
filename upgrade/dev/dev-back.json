@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604172107",
+    "items": [
+      {
+        "commit": "d85f850eed42dca9ec8049eae68631cda620d81d",
+        "author": "xylplm",
+        "date": "2026-04-17 00:33:06",
+        "message": "fix 🐛: 将 MCP 禁用模型标志设置为启用"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604161643",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-04-14 23:09:06",
         "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604142037",
-    "items": [
-      {
-        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
-        "author": "GateCross",
-        "date": "2026-04-14 20:35:54",
-        "message": "fix: 媒体代理123网盘优先本地代理"
       }
     ]
   }
