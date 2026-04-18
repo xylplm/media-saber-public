@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604182259",
+    "items": [
+      {
+        "commit": "879121920ee2753b251fc6f2a49de7cbd613a5b4",
+        "author": "Jolc",
+        "date": "2026-04-18 22:57:09",
+        "message": "feat：ed2k hash 上报"
+      },
+      {
+        "commit": "8be18548b0d447087eca2350fa94c0f71ff6b41e",
+        "author": "Jolc",
+        "date": "2026-04-18 22:16:04",
+        "message": "feat：ed2k hash 上报"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604181441",
     "items": [
       {
@@ -203,23 +220,6 @@
         "author": "liurongjie",
         "date": "2026-04-15 12:51:19",
         "message": "fix(media): 修复动态背景图片缓存问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604151037",
-    "items": [
-      {
-        "commit": "953d958ea9011836adf938bcaba314c92b689970",
-        "author": "liurongjie",
-        "date": "2026-04-15 10:36:13",
-        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
-      },
-      {
-        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
-        "author": "liurongjie",
-        "date": "2026-04-15 09:57:04",
-        "message": "chore(tasks): 调整任务队列优先级"
       }
     ]
   }
