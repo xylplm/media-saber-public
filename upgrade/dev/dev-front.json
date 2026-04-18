@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604181636",
+    "items": [
+      {
+        "commit": "006fe073c734523939055af8f07eb7f7615020e1",
+        "author": "xylplm",
+        "date": "2026-04-18 15:44:34",
+        "message": "✨ feat: 自定义识别词生成模块增加生成模式切换功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604181441",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-12 16:27:32",
         "message": "🔁 refactor: 移除MCP功能开关相关代码并简化服务配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604112354",
-    "items": [
-      {
-        "commit": "eb55fcae3688ace0c7412184ed2793ee252c8980",
-        "author": "GateCross",
-        "date": "2026-04-11 23:54:03",
-        "message": "fix: 修改云端资源UI"
       }
     ]
   }
