@@ -1,5 +1,40 @@
 [
   {
+    "version": "3.0_202604172106",
+    "items": [
+      {
+        "commit": "006fe073c734523939055af8f07eb7f7615020e1",
+        "author": "xylplm",
+        "date": "2026-04-18 15:44:34",
+        "message": "✨ feat: 自定义识别词生成模块增加生成模式切换功能"
+      },
+      {
+        "commit": "dbe1f4415f6ff2f349871343dd7824b8dd961319",
+        "author": "xylplm",
+        "date": "2026-04-18 14:25:53",
+        "message": "✨ feat: 去除智能体页面"
+      },
+      {
+        "commit": "2c3fc88ae4acb0fbcaae9be5f76be5e1345cee56",
+        "author": "xylplm",
+        "date": "2026-04-17 20:55:07",
+        "message": "fix: 搜索列表"
+      },
+      {
+        "commit": "5eca44de19f1932d21e9feaa6bd264803fb4b3d5",
+        "author": "xylplm",
+        "date": "2026-04-17 00:13:43",
+        "message": "✨ feat: AI诊断对话框增加流式处理支持，优化诊断结果展示"
+      },
+      {
+        "commit": "2d44a98e3535e3df0bf76323b4f9012605d4fafd",
+        "author": "GateCross",
+        "date": "2026-04-16 23:00:16",
+        "message": "fix: 恢复系统日志排版"
+      }
+    ]
+  },
+  {
     "version": "3.0_202604161108",
     "items": [
       {

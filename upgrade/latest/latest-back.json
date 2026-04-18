@@ -1,5 +1,94 @@
 [
   {
+    "version": "3.0_202604172106",
+    "items": [
+      {
+        "commit": "324d5f611eda7cd84041731106b4e9e09e2030d1",
+        "author": "xylplm",
+        "date": "2026-04-18 14:23:02",
+        "message": "feat ✨: 删除与 MCP 服务器相关的逻辑和模型"
+      },
+      {
+        "commit": "d85f850eed42dca9ec8049eae68631cda620d81d",
+        "author": "xylplm",
+        "date": "2026-04-17 00:33:06",
+        "message": "fix 🐛: 将 MCP 禁用模型标志设置为启用"
+      },
+      {
+        "commit": "c8e0fd8ac89a26e67e6ee22c47cd92e560de95bb",
+        "author": "xylplm",
+        "date": "2026-04-16 16:42:20",
+        "message": "🐛 fix: 云端搜索增加离线下载和转存目录配置友好提示"
+      },
+      {
+        "commit": "dd7921c12b737fb3a2702d74b502e1bf639b30f9",
+        "author": "xylplm",
+        "date": "2026-04-16 15:35:05",
+        "message": "🐛 fix(115-sdk): 修复 API 错误信息丢失问题，完善错误日志"
+      },
+      {
+        "commit": "d24bcd40b6eb98f219d413d632c2d32d6f639624",
+        "author": "xylplm",
+        "date": "2026-04-16 15:28:16",
+        "message": "Revert \"🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情\""
+      },
+      {
+        "commit": "6974bed849021b9aa1a60f449c4b01d131a6d0ff",
+        "author": "xylplm",
+        "date": "2026-04-16 14:21:42",
+        "message": "🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情"
+      },
+      {
+        "commit": "b8d524cdf62b902d9598493f3f7f02c69ba5e921",
+        "author": "xylplm",
+        "date": "2026-04-16 12:50:14",
+        "message": "✨ feat: 上报脚本增加对 Linux arm64 的支持，更新构建脚本"
+      },
+      {
+        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
+        "author": "liurongjie",
+        "date": "2026-04-15 12:51:19",
+        "message": "fix(media): 修复动态背景图片缓存问题"
+      },
+      {
+        "commit": "953d958ea9011836adf938bcaba314c92b689970",
+        "author": "liurongjie",
+        "date": "2026-04-15 10:36:13",
+        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
+      },
+      {
+        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
+        "author": "liurongjie",
+        "date": "2026-04-15 09:57:04",
+        "message": "chore(tasks): 调整任务队列优先级"
+      },
+      {
+        "commit": "3655401e08c764e1d96a742b29350f754c0f0f8b",
+        "author": "liurongjie",
+        "date": "2026-04-14 23:09:06",
+        "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
+      },
+      {
+        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
+        "author": "GateCross",
+        "date": "2026-04-14 20:35:54",
+        "message": "fix: 媒体代理123网盘优先本地代理"
+      },
+      {
+        "commit": "fd163a42195a1839a0454ac21f5f03cc5345fa04",
+        "author": "liurongjie",
+        "date": "2026-04-14 19:47:52",
+        "message": "refactor(webhook): 将 Webhook 处理逻辑迁移到 Asynq 队列中"
+      },
+      {
+        "commit": "9ba39860d20ea78fe17bc9180c5ad59fec80cc85",
+        "author": "Jolc",
+        "date": "2026-04-14 18:40:11",
+        "message": "fix：砍了生成strm的cron"
+      }
+    ]
+  },
+  {
     "version": "3.0_202604161108",
     "items": [
       {
