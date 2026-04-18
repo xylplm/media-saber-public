@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604181441",
+    "items": [
+      {
+        "commit": "dbe1f4415f6ff2f349871343dd7824b8dd961319",
+        "author": "xylplm",
+        "date": "2026-04-18 14:25:53",
+        "message": "✨ feat: 去除智能体页面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604172107",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "GateCross",
         "date": "2026-04-11 23:54:03",
         "message": "fix: 修改云端资源UI"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604091115",
-    "items": [
-      {
-        "commit": "65c56a47e0b03be895888a9bb6868d579ea3eed2",
-        "author": "xylplm",
-        "date": "2026-04-09 00:28:20",
-        "message": "✨ feat: 添加自动完成字段类型支持"
       }
     ]
   }
