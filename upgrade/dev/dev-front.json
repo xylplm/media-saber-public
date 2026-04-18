@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604182220",
+    "items": [
+      {
+        "commit": "b5b21e85c63d167f7d59c1410e2da0a99bdd50b6",
+        "author": "xylplm",
+        "date": "2026-04-18 22:19:17",
+        "message": "✨ feat: 设置页面增加关于模块"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604181636",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "Jolc",
         "date": "2026-04-12 23:34:02",
         "message": "feat：订阅云端资源支持指定目录"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604121628",
-    "items": [
-      {
-        "commit": "e9113295759a3b471b167d85a9e3cb666501a1aa",
-        "author": "xylplm",
-        "date": "2026-04-12 16:27:32",
-        "message": "🔁 refactor: 移除MCP功能开关相关代码并简化服务配置"
       }
     ]
   }
