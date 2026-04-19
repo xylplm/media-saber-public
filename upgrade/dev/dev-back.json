@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604192124",
+    "items": [
+      {
+        "commit": "1146cf3c5ddcc7dbaadc29d23d11edceb3fd6be3",
+        "author": "Jolc",
+        "date": "2026-04-19 21:22:25",
+        "message": "feat：oplist sync"
+      },
+      {
+        "commit": "88fd61a31929ceeaffeda6e695099d3fe80b624a",
+        "author": "Jolc",
+        "date": "2026-04-19 19:52:27",
+        "message": "feat：115-sdk-go sync"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604182259",
     "items": [
       {
@@ -209,17 +226,6 @@
         "author": "xylplm",
         "date": "2026-04-15 13:18:17",
         "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604151252",
-    "items": [
-      {
-        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
-        "author": "liurongjie",
-        "date": "2026-04-15 12:51:19",
-        "message": "fix(media): 修复动态背景图片缓存问题"
       }
     ]
   }
