@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604192321",
+    "items": [
+      {
+        "commit": "92e40323dd778825a3ddf6b9d9fac74388b065e8",
+        "author": "Jolc",
+        "date": "2026-04-19 23:13:22",
+        "message": "fix：hash statistic refresh cache"
+      },
+      {
+        "commit": "4ce6518089fc153cbc567e40cd979cd7355055bd",
+        "author": "Jolc",
+        "date": "2026-04-19 23:12:00",
+        "message": "fix：hash statistic refresh cache"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604192124",
     "items": [
       {
@@ -215,17 +232,6 @@
         "author": "Jolc",
         "date": "2026-04-14 18:40:11",
         "message": "fix：砍了生成strm的cron"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604151329",
-    "items": [
-      {
-        "commit": "99cd23ad393a0967e050d8cb45f32c5b747013ce",
-        "author": "xylplm",
-        "date": "2026-04-15 13:18:17",
-        "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
       }
     ]
   }
