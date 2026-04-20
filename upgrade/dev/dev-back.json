@@ -1,5 +1,58 @@
 [
   {
+    "version": "DEV_202604202111",
+    "items": [
+      {
+        "commit": "545fe2a36f72bf172a775dbdbc864c5b948071b2",
+        "author": "GateCross",
+        "date": "2026-04-20 21:10:39",
+        "message": "feat: 搜索tmdb入列"
+      },
+      {
+        "commit": "a65f2868bd7e984e659bb9d34d6d1f07aabd3fbc",
+        "author": "GateCross",
+        "date": "2026-04-19 22:33:05",
+        "message": "feat: 媒体代理(emby)增加Web播放strm302"
+      },
+      {
+        "commit": "b2e5fa6c9f7d0fb3ab25cf20fa87202d59e850b0",
+        "author": "GateCross",
+        "date": "2026-04-17 14:09:12",
+        "message": "fix: 修复 mediaproxy 播放源缓存与响应处理"
+      },
+      {
+        "commit": "5ba5192673f17dc851bc85ed7f6f56869e5de995",
+        "author": "GateCross",
+        "date": "2026-04-16 23:03:46",
+        "message": "fix: 修复mediaproxy重定向并精简播放信息提取链路"
+      },
+      {
+        "commit": "7a13124b2c0274a530552045d3ba590dcc5f5692",
+        "author": "GateCross",
+        "date": "2026-04-16 16:49:36",
+        "message": "fix: 避免 mediaproxy 错误反馈中英混杂"
+      },
+      {
+        "commit": "e0c1a3f32b416ff837dbef95e72d87203f6e3217",
+        "author": "GateCross",
+        "date": "2026-04-15 22:59:57",
+        "message": "refactor: 整理 mediaproxy 代理链路与日志追踪"
+      },
+      {
+        "commit": "5a097b5cfa302e2c87c7bee493109bc65b79e998",
+        "author": "GateCross",
+        "date": "2026-04-15 17:19:17",
+        "message": "feat: 让 mediaproxy 日志携带请求链路追踪信息"
+      },
+      {
+        "commit": "eb4c43d806b7ecb0afa0a730cf26e206a72856a4",
+        "author": "GateCross",
+        "date": "2026-04-15 17:06:37",
+        "message": "feat: 降低 mediaproxy 分流复杂度并补齐 123 网盘策略切换"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604192321",
     "items": [
       {
@@ -185,53 +238,6 @@
         "author": "xylplm",
         "date": "2026-04-15 13:18:17",
         "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604151815",
-    "items": [
-      {
-        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
-        "author": "liurongjie",
-        "date": "2026-04-15 12:51:19",
-        "message": "fix(media): 修复动态背景图片缓存问题"
-      },
-      {
-        "commit": "953d958ea9011836adf938bcaba314c92b689970",
-        "author": "liurongjie",
-        "date": "2026-04-15 10:36:13",
-        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
-      },
-      {
-        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
-        "author": "liurongjie",
-        "date": "2026-04-15 09:57:04",
-        "message": "chore(tasks): 调整任务队列优先级"
-      },
-      {
-        "commit": "3655401e08c764e1d96a742b29350f754c0f0f8b",
-        "author": "liurongjie",
-        "date": "2026-04-14 23:09:06",
-        "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
-      },
-      {
-        "commit": "73c85641fefd796a29816b55d6034f6ee13c2ead",
-        "author": "GateCross",
-        "date": "2026-04-14 20:35:54",
-        "message": "fix: 媒体代理123网盘优先本地代理"
-      },
-      {
-        "commit": "fd163a42195a1839a0454ac21f5f03cc5345fa04",
-        "author": "liurongjie",
-        "date": "2026-04-14 19:47:52",
-        "message": "refactor(webhook): 将 Webhook 处理逻辑迁移到 Asynq 队列中"
-      },
-      {
-        "commit": "9ba39860d20ea78fe17bc9180c5ad59fec80cc85",
-        "author": "Jolc",
-        "date": "2026-04-14 18:40:11",
-        "message": "fix：砍了生成strm的cron"
       }
     ]
   }
