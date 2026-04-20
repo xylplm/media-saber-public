@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604202245",
+    "items": [
+      {
+        "commit": "ba4d20d629b05a34cd00117d29e6555af0255fa1",
+        "author": "GateCross",
+        "date": "2026-04-20 22:44:51",
+        "message": "fix: 修tmd的hdhive"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604202111",
     "items": [
       {
@@ -221,23 +232,6 @@
         "author": "xylplm",
         "date": "2026-04-16 14:21:42",
         "message": "🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604161404",
-    "items": [
-      {
-        "commit": "b8d524cdf62b902d9598493f3f7f02c69ba5e921",
-        "author": "xylplm",
-        "date": "2026-04-16 12:50:14",
-        "message": "✨ feat: 上报脚本增加对 Linux arm64 的支持，更新构建脚本"
-      },
-      {
-        "commit": "99cd23ad393a0967e050d8cb45f32c5b747013ce",
-        "author": "xylplm",
-        "date": "2026-04-15 13:18:17",
-        "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
       }
     ]
   }
