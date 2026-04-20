@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604210026",
+    "items": [
+      {
+        "commit": "699ec43e32a3ebaa68939aebbdb560d2e78c9591",
+        "author": "xylplm",
+        "date": "2026-04-21 00:25:17",
+        "message": "✨ feat: 设置页面当前版本信息样式优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604182220",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-04-13 16:55:41",
         "message": "style(torrent-recog-test): 更新图标导入配置并优化识别结果显示样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604122334",
-    "items": [
-      {
-        "commit": "5ec9b9fe93acbd337f4669a3fd5ce9d64b448d76",
-        "author": "Jolc",
-        "date": "2026-04-12 23:34:02",
-        "message": "feat：订阅云端资源支持指定目录"
       }
     ]
   }

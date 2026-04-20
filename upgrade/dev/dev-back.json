@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202604210026",
+    "items": [
+      {
+        "commit": "d69e8012c3018c991100f7c6055b17c92b247174",
+        "author": "xylplm",
+        "date": "2026-04-20 23:52:02",
+        "message": "✨ feat: 优化种子列表订阅逻辑，支持无媒体信息时的提示"
+      },
+      {
+        "commit": "b56856865910e089bd39fcc44ae18ce38959365e",
+        "author": "xylplm",
+        "date": "2026-04-20 23:44:27",
+        "message": "✨ feat: 优化种子搜索和订阅逻辑，支持直接输入关键词订阅"
+      },
+      {
+        "commit": "fddad3c9065cfece44cb201726a445b5bf75cf04",
+        "author": "xylplm",
+        "date": "2026-04-20 23:11:49",
+        "message": "✨ feat: 优化媒体搜索交互说明和命令列表展示"
+      },
+      {
+        "commit": "147f0d571c10ed8ebdecf009f941bc184e314d95",
+        "author": "xylplm",
+        "date": "2026-04-20 23:11:36",
+        "message": "✨ feat: 优化翻页指令提示和处理逻辑"
+      },
+      {
+        "commit": "17e7027479fe48396afed31482c70095f9590770",
+        "author": "xylplm",
+        "date": "2026-04-20 23:01:22",
+        "message": "feat ✨: 优化订阅和搜索前缀处理逻辑"
+      },
+      {
+        "commit": "f5b10e2b710355894cc135fae0a34f1c051c8f20",
+        "author": "xylplm",
+        "date": "2026-04-20 22:16:49",
+        "message": "✨ feat: 优化微信交互消息逻辑"
+      },
+      {
+        "commit": "2a371dd0f227ffd379200017f9f3085e58ced7ab",
+        "author": "xylplm",
+        "date": "2026-04-20 22:14:42",
+        "message": "Update .gitignore"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604202245",
     "items": [
       {
@@ -221,17 +268,6 @@
         "author": "xylplm",
         "date": "2026-04-16 15:28:16",
         "message": "Revert \"🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604161422",
-    "items": [
-      {
-        "commit": "6974bed849021b9aa1a60f449c4b01d131a6d0ff",
-        "author": "xylplm",
-        "date": "2026-04-16 14:21:42",
-        "message": "🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情"
       }
     ]
   }
