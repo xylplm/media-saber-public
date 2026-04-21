@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604211722",
+    "items": [
+      {
+        "commit": "2527f1164b0625d351ecd19a67af47e2da58c015",
+        "author": "liurongjie",
+        "date": "2026-04-21 17:11:49",
+        "message": "feat(metadata): 从路径中提取年份信息并更新元数据"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604211342",
     "items": [
       {
@@ -299,77 +310,6 @@
         "author": "Jolc",
         "date": "2026-04-18 22:16:04",
         "message": "feat：ed2k hash 上报"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604181441",
-    "items": [
-      {
-        "commit": "324d5f611eda7cd84041731106b4e9e09e2030d1",
-        "author": "xylplm",
-        "date": "2026-04-18 14:23:02",
-        "message": "feat ✨: 删除与 MCP 服务器相关的逻辑和模型"
-      },
-      {
-        "commit": "c8e0fd8ac89a26e67e6ee22c47cd92e560de95bb",
-        "author": "xylplm",
-        "date": "2026-04-16 16:42:20",
-        "message": "🐛 fix: 云端搜索增加离线下载和转存目录配置友好提示"
-      },
-      {
-        "commit": "dd7921c12b737fb3a2702d74b502e1bf639b30f9",
-        "author": "xylplm",
-        "date": "2026-04-16 15:35:05",
-        "message": "🐛 fix(115-sdk): 修复 API 错误信息丢失问题，完善错误日志"
-      },
-      {
-        "commit": "d24bcd40b6eb98f219d413d632c2d32d6f639624",
-        "author": "xylplm",
-        "date": "2026-04-16 15:28:16",
-        "message": "Revert \"🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情\""
-      },
-      {
-        "commit": "6974bed849021b9aa1a60f449c4b01d131a6d0ff",
-        "author": "xylplm",
-        "date": "2026-04-16 14:21:42",
-        "message": "🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情"
-      },
-      {
-        "commit": "b8d524cdf62b902d9598493f3f7f02c69ba5e921",
-        "author": "xylplm",
-        "date": "2026-04-16 12:50:14",
-        "message": "✨ feat: 上报脚本增加对 Linux arm64 的支持，更新构建脚本"
-      },
-      {
-        "commit": "99cd23ad393a0967e050d8cb45f32c5b747013ce",
-        "author": "xylplm",
-        "date": "2026-04-15 13:18:17",
-        "message": "🔧 chore: 系统日常任务 增加 清理系统日志（保留最近3天）"
-      },
-      {
-        "commit": "82b35b904629024d10ad571323b7b2e1395369ea",
-        "author": "liurongjie",
-        "date": "2026-04-15 12:51:19",
-        "message": "fix(media): 修复动态背景图片缓存问题"
-      },
-      {
-        "commit": "953d958ea9011836adf938bcaba314c92b689970",
-        "author": "liurongjie",
-        "date": "2026-04-15 10:36:13",
-        "message": "feat(qywx): 优化图片上传功能支持内外网地址转换"
-      },
-      {
-        "commit": "67728dddf2fcfbef2b0fa4347b2025b9215f493f",
-        "author": "liurongjie",
-        "date": "2026-04-15 09:57:04",
-        "message": "chore(tasks): 调整任务队列优先级"
-      },
-      {
-        "commit": "3655401e08c764e1d96a742b29350f754c0f0f8b",
-        "author": "liurongjie",
-        "date": "2026-04-14 23:09:06",
-        "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
       }
     ]
   }
