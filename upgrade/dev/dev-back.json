@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604210918",
+    "items": [
+      {
+        "commit": "e1e4ebcf9eb0477264e0e2010d0d7b3795de5fd8",
+        "author": "GateCross",
+        "date": "2026-04-21 09:17:00",
+        "message": "fix: 123上传增加日志"
+      },
+      {
+        "commit": "ba4d20d629b05a34cd00117d29e6555af0255fa1",
+        "author": "GateCross",
+        "date": "2026-04-20 22:44:51",
+        "message": "fix: 修tmd的hdhive"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604210026",
     "items": [
       {
@@ -251,23 +268,6 @@
         "author": "xylplm",
         "date": "2026-04-16 16:42:20",
         "message": "🐛 fix: 云端搜索增加离线下载和转存目录配置友好提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604161542",
-    "items": [
-      {
-        "commit": "dd7921c12b737fb3a2702d74b502e1bf639b30f9",
-        "author": "xylplm",
-        "date": "2026-04-16 15:35:05",
-        "message": "🐛 fix(115-sdk): 修复 API 错误信息丢失问题，完善错误日志"
-      },
-      {
-        "commit": "d24bcd40b6eb98f219d413d632c2d32d6f639624",
-        "author": "xylplm",
-        "date": "2026-04-16 15:28:16",
-        "message": "Revert \"🐛 fix:  115 sdk接口 手动解析非2xx状态响应体以保留错误详情\""
       }
     ]
   }
