@@ -1,5 +1,118 @@
 [
   {
+    "version": "DEV_202604211342",
+    "items": [
+      {
+        "commit": "7e392c6c983e82b54eba473a4ffeaa43195bd5da",
+        "author": "GateCross",
+        "date": "2026-04-21 13:42:17",
+        "message": "fix: 123优化"
+      },
+      {
+        "commit": "e1e4ebcf9eb0477264e0e2010d0d7b3795de5fd8",
+        "author": "GateCross",
+        "date": "2026-04-21 09:17:00",
+        "message": "fix: 123上传增加日志"
+      },
+      {
+        "commit": "d69e8012c3018c991100f7c6055b17c92b247174",
+        "author": "xylplm",
+        "date": "2026-04-20 23:52:02",
+        "message": "✨ feat: 优化种子列表订阅逻辑，支持无媒体信息时的提示"
+      },
+      {
+        "commit": "b56856865910e089bd39fcc44ae18ce38959365e",
+        "author": "xylplm",
+        "date": "2026-04-20 23:44:27",
+        "message": "✨ feat: 优化种子搜索和订阅逻辑，支持直接输入关键词订阅"
+      },
+      {
+        "commit": "fddad3c9065cfece44cb201726a445b5bf75cf04",
+        "author": "xylplm",
+        "date": "2026-04-20 23:11:49",
+        "message": "✨ feat: 优化媒体搜索交互说明和命令列表展示"
+      },
+      {
+        "commit": "147f0d571c10ed8ebdecf009f941bc184e314d95",
+        "author": "xylplm",
+        "date": "2026-04-20 23:11:36",
+        "message": "✨ feat: 优化翻页指令提示和处理逻辑"
+      },
+      {
+        "commit": "17e7027479fe48396afed31482c70095f9590770",
+        "author": "xylplm",
+        "date": "2026-04-20 23:01:22",
+        "message": "feat ✨: 优化订阅和搜索前缀处理逻辑"
+      },
+      {
+        "commit": "ba4d20d629b05a34cd00117d29e6555af0255fa1",
+        "author": "GateCross",
+        "date": "2026-04-20 22:44:51",
+        "message": "fix: 修tmd的hdhive"
+      },
+      {
+        "commit": "f5b10e2b710355894cc135fae0a34f1c051c8f20",
+        "author": "xylplm",
+        "date": "2026-04-20 22:16:49",
+        "message": "✨ feat: 优化微信交互消息逻辑"
+      },
+      {
+        "commit": "2a371dd0f227ffd379200017f9f3085e58ced7ab",
+        "author": "xylplm",
+        "date": "2026-04-20 22:14:42",
+        "message": "Update .gitignore"
+      },
+      {
+        "commit": "545fe2a36f72bf172a775dbdbc864c5b948071b2",
+        "author": "GateCross",
+        "date": "2026-04-20 21:10:39",
+        "message": "feat: 搜索tmdb入列"
+      },
+      {
+        "commit": "a65f2868bd7e984e659bb9d34d6d1f07aabd3fbc",
+        "author": "GateCross",
+        "date": "2026-04-19 22:33:05",
+        "message": "feat: 媒体代理(emby)增加Web播放strm302"
+      },
+      {
+        "commit": "b2e5fa6c9f7d0fb3ab25cf20fa87202d59e850b0",
+        "author": "GateCross",
+        "date": "2026-04-17 14:09:12",
+        "message": "fix: 修复 mediaproxy 播放源缓存与响应处理"
+      },
+      {
+        "commit": "5ba5192673f17dc851bc85ed7f6f56869e5de995",
+        "author": "GateCross",
+        "date": "2026-04-16 23:03:46",
+        "message": "fix: 修复mediaproxy重定向并精简播放信息提取链路"
+      },
+      {
+        "commit": "7a13124b2c0274a530552045d3ba590dcc5f5692",
+        "author": "GateCross",
+        "date": "2026-04-16 16:49:36",
+        "message": "fix: 避免 mediaproxy 错误反馈中英混杂"
+      },
+      {
+        "commit": "e0c1a3f32b416ff837dbef95e72d87203f6e3217",
+        "author": "GateCross",
+        "date": "2026-04-15 22:59:57",
+        "message": "refactor: 整理 mediaproxy 代理链路与日志追踪"
+      },
+      {
+        "commit": "5a097b5cfa302e2c87c7bee493109bc65b79e998",
+        "author": "GateCross",
+        "date": "2026-04-15 17:19:17",
+        "message": "feat: 让 mediaproxy 日志携带请求链路追踪信息"
+      },
+      {
+        "commit": "eb4c43d806b7ecb0afa0a730cf26e206a72856a4",
+        "author": "GateCross",
+        "date": "2026-04-15 17:06:37",
+        "message": "feat: 降低 mediaproxy 分流复杂度并补齐 123 网盘策略切换"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604211227",
     "items": [
       {
@@ -257,17 +370,6 @@
         "author": "liurongjie",
         "date": "2026-04-14 23:09:06",
         "message": "fix(system): 修复 Plex Webhook 服务器匹配和连接问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604172107",
-    "items": [
-      {
-        "commit": "d85f850eed42dca9ec8049eae68631cda620d81d",
-        "author": "xylplm",
-        "date": "2026-04-17 00:33:06",
-        "message": "fix 🐛: 将 MCP 禁用模型标志设置为启用"
       }
     ]
   }
