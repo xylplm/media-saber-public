@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604211227",
+    "items": [
+      {
+        "commit": "0df8102d1da52b6e67b83a96c39563c63bfae85d",
+        "author": "Jolc",
+        "date": "2026-04-21 12:26:47",
+        "message": "fix：修 115 分享 302"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604210918",
     "items": [
       {
@@ -257,17 +268,6 @@
         "author": "xylplm",
         "date": "2026-04-17 00:33:06",
         "message": "fix 🐛: 将 MCP 禁用模型标志设置为启用"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604161643",
-    "items": [
-      {
-        "commit": "c8e0fd8ac89a26e67e6ee22c47cd92e560de95bb",
-        "author": "xylplm",
-        "date": "2026-04-16 16:42:20",
-        "message": "🐛 fix: 云端搜索增加离线下载和转存目录配置友好提示"
       }
     ]
   }
