@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604221132",
+    "items": [
+      {
+        "commit": "36507d7ee32d48c9f6b2dc18f4c4ad0ce1ad7f3d",
+        "author": "GateCross",
+        "date": "2026-04-22 10:51:54",
+        "message": "fix: 优化媒体代理获取直链超时时间和日志等级"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604212016",
     "items": [
       {
@@ -293,23 +304,6 @@
         "author": "Jolc",
         "date": "2026-04-19 23:12:00",
         "message": "fix：hash statistic refresh cache"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604192124",
-    "items": [
-      {
-        "commit": "1146cf3c5ddcc7dbaadc29d23d11edceb3fd6be3",
-        "author": "Jolc",
-        "date": "2026-04-19 21:22:25",
-        "message": "feat：oplist sync"
-      },
-      {
-        "commit": "88fd61a31929ceeaffeda6e695099d3fe80b624a",
-        "author": "Jolc",
-        "date": "2026-04-19 19:52:27",
-        "message": "feat：115-sdk-go sync"
       }
     ]
   }

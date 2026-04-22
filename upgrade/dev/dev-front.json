@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604221132",
+    "items": [
+      {
+        "commit": "25316d02aff809af809b90723b03ce7b9fa47934",
+        "author": "xylplm",
+        "date": "2026-04-21 22:29:17",
+        "message": "feat：飞书图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604210026",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-14 13:36:11",
         "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604131656",
-    "items": [
-      {
-        "commit": "39a59a219f16943b023fdc352cd335b38fc97c85",
-        "author": "liurongjie",
-        "date": "2026-04-13 16:55:41",
-        "message": "style(torrent-recog-test): 更新图标导入配置并优化识别结果显示样式"
       }
     ]
   }
