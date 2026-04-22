@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202604221725",
+    "items": [
+      {
+        "commit": "6e7a538c7bfe2fc7b3dae0cccb7d5655ab7169f2",
+        "author": "xylplm",
+        "date": "2026-04-22 17:17:39",
+        "message": "🔁 refactor: 优化飞书消息监听器的日志级别"
+      },
+      {
+        "commit": "d58b5462e158ab5589cd0c22b4a4413f47cd2e43",
+        "author": "xylplm",
+        "date": "2026-04-22 11:24:22",
+        "message": "🔧 chore: 重构消息监听器，拆分飞书监听逻辑并优化代码结构"
+      },
+      {
+        "commit": "c09b1d23183fb98cc92cc1c919cb2af335a2df9d",
+        "author": "xylplm",
+        "date": "2026-04-22 10:24:14",
+        "message": "✨ feat: 增加飞书消息和卡片回调的事件ID和消息ID日志记录"
+      },
+      {
+        "commit": "50242e9aba0fe194930a5a239560324c28664dae",
+        "author": "xylplm",
+        "date": "2026-04-22 00:56:46",
+        "message": "✨ feat: 添加飞书消息渠道的提示信息"
+      },
+      {
+        "commit": "f562ea68a4b2c560e6a1863846525397bb9874c7",
+        "author": "xylplm",
+        "date": "2026-04-21 22:31:01",
+        "message": "feat:飞书消息渠道"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604221132",
     "items": [
       {
@@ -287,23 +322,6 @@
         "author": "GateCross",
         "date": "2026-04-15 17:06:37",
         "message": "feat: 降低 mediaproxy 分流复杂度并补齐 123 网盘策略切换"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604192321",
-    "items": [
-      {
-        "commit": "92e40323dd778825a3ddf6b9d9fac74388b065e8",
-        "author": "Jolc",
-        "date": "2026-04-19 23:13:22",
-        "message": "fix：hash statistic refresh cache"
-      },
-      {
-        "commit": "4ce6518089fc153cbc567e40cd979cd7355055bd",
-        "author": "Jolc",
-        "date": "2026-04-19 23:12:00",
-        "message": "fix：hash statistic refresh cache"
       }
     ]
   }
