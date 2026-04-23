@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604232207",
+    "items": [
+      {
+        "commit": "85a420b7fbf7399304b2ea9bddc03fd8f3914701",
+        "author": "Jolc",
+        "date": "2026-04-23 22:07:31",
+        "message": "fix：指定标题订阅时，以匹配到的 tmdb 信息为准"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604232200",
     "items": [
       {
@@ -389,17 +400,6 @@
         "author": "xylplm",
         "date": "2026-04-21 22:31:01",
         "message": "feat:飞书消息渠道"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604221132",
-    "items": [
-      {
-        "commit": "36507d7ee32d48c9f6b2dc18f4c4ad0ce1ad7f3d",
-        "author": "GateCross",
-        "date": "2026-04-22 10:51:54",
-        "message": "fix: 优化媒体代理获取直链超时时间和日志等级"
       }
     ]
   }

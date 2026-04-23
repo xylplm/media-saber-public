@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604232207",
+    "items": [
+      {
+        "commit": "25316d02aff809af809b90723b03ce7b9fa47934",
+        "author": "xylplm",
+        "date": "2026-04-21 22:29:17",
+        "message": "feat：飞书图标"
+      },
+      {
+        "commit": "699ec43e32a3ebaa68939aebbdb560d2e78c9591",
+        "author": "xylplm",
+        "date": "2026-04-21 00:25:17",
+        "message": "✨ feat: 设置页面当前版本信息样式优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604232200",
     "items": [
       {
@@ -125,23 +142,6 @@
         "author": "xylplm",
         "date": "2026-04-15 16:17:40",
         "message": "✨ feat: 公共消息内容组件，支持流式内容和代码高亮"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604141847",
-    "items": [
-      {
-        "commit": "470438678fe20379cee1b01024fa6a59dcefe768",
-        "author": "xylplm",
-        "date": "2026-04-14 18:46:45",
-        "message": "✨ feat: 云存储整理模块文件更名"
-      },
-      {
-        "commit": "d424bcffb73d4b6448d018a046dbc1a73b6d5740",
-        "author": "xylplm",
-        "date": "2026-04-14 18:41:59",
-        "message": "🔁 refactor: 移除云存储整理和strm生成的定时整理字段"
       }
     ]
   }
