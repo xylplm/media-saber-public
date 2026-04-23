@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604232200",
+    "items": [
+      {
+        "commit": "5a4aad33f46840e7271b7496415c0e879034c3e7",
+        "author": "Jolc",
+        "date": "2026-04-23 21:59:58",
+        "message": "fix：媒体库单个条目同步时优化获取媒体库名称的逻辑。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604231933",
     "items": [
       {
@@ -389,23 +400,6 @@
         "author": "GateCross",
         "date": "2026-04-22 10:51:54",
         "message": "fix: 优化媒体代理获取直链超时时间和日志等级"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604212016",
-    "items": [
-      {
-        "commit": "b6fdefb5907857f2eed230e98ee88554c2f43ae0",
-        "author": "GateCross",
-        "date": "2026-04-21 19:45:25",
-        "message": "Revert \"fix: 123上传增加日志\""
-      },
-      {
-        "commit": "22920d6f46f70307f932f355ca4669f6fde8cdcd",
-        "author": "GateCross",
-        "date": "2026-04-21 19:45:03",
-        "message": "Revert \"fix: 123优化\""
       }
     ]
   }

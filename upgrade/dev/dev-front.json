@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604232200",
+    "items": [
+      {
+        "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
+        "author": "Jolc",
+        "date": "2026-04-23 21:37:42",
+        "message": "feat：媒体库同步记录增加字段显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604221132",
     "items": [
       {
@@ -131,41 +142,6 @@
         "author": "xylplm",
         "date": "2026-04-14 18:41:59",
         "message": "🔁 refactor: 移除云存储整理和strm生成的定时整理字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604141523",
-    "items": [
-      {
-        "commit": "81b194781602c0ec775f3543e0fdb8e261edd2f8",
-        "author": "xylplm",
-        "date": "2026-04-14 13:55:11",
-        "message": "🔁 refactor: 媒体识别测试组件优化海报加载方式"
-      },
-      {
-        "commit": "d59d80915e0d2b0a2b119e86f4225f2242dba7ed",
-        "author": "xylplm",
-        "date": "2026-04-14 13:42:50",
-        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
-      },
-      {
-        "commit": "f3a492d041c27ee945ec35fee11d46a3deb32e93",
-        "author": "xylplm",
-        "date": "2026-04-14 13:36:35",
-        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
-      },
-      {
-        "commit": "f3237720b3aff6d3da783a5c4655693bec50fd4a",
-        "author": "xylplm",
-        "date": "2026-04-14 13:36:26",
-        "message": "🔁 refactor: 更新提交信息"
-      },
-      {
-        "commit": "44150d71557f8f2741c2a27787878e034e78e9d3",
-        "author": "xylplm",
-        "date": "2026-04-14 13:36:11",
-        "message": "🔁 refactor: 媒体详情季集列表组件优化布局和简化代码"
       }
     ]
   }
