@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202604242119",
+    "items": [
+      {
+        "commit": "85a420b7fbf7399304b2ea9bddc03fd8f3914701",
+        "author": "Jolc",
+        "date": "2026-04-23 22:07:31",
+        "message": "fix：指定标题订阅时，以匹配到的 tmdb 信息为准"
+      },
+      {
+        "commit": "5a4aad33f46840e7271b7496415c0e879034c3e7",
+        "author": "Jolc",
+        "date": "2026-04-23 21:59:58",
+        "message": "fix：媒体库单个条目同步时优化获取媒体库名称的逻辑。"
+      },
+      {
+        "commit": "cb54e4c65ff17c1e9c8b336e5587c4d9f100aa3e",
+        "author": "Jolc",
+        "date": "2026-04-23 19:33:18",
+        "message": "fix：媒体库同步条目媒体库名称缺失问题。"
+      },
+      {
+        "commit": "b9b41a5fe8a59bf5838893a4f289e4c9791881be",
+        "author": "Jolc",
+        "date": "2026-04-23 16:07:41",
+        "message": "feat：查漏集接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604241523",
     "items": [
       {
@@ -365,23 +394,6 @@
         "author": "xylplm",
         "date": "2026-04-21 22:31:01",
         "message": "feat:飞书消息渠道"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604221756",
-    "items": [
-      {
-        "commit": "cdcc74c9025e8645c11b6b50590b6b995908bfa4",
-        "author": "liurongjie",
-        "date": "2026-04-22 17:48:18",
-        "message": "fix(tasks): 优化 TMDB 缓存搜索任务的日志记录"
-      },
-      {
-        "commit": "36507d7ee32d48c9f6b2dc18f4c4ad0ce1ad7f3d",
-        "author": "GateCross",
-        "date": "2026-04-22 10:51:54",
-        "message": "fix: 优化媒体代理获取直链超时时间和日志等级"
       }
     ]
   }

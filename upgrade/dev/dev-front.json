@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604242119",
+    "items": [
+      {
+        "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
+        "author": "Jolc",
+        "date": "2026-04-23 21:37:42",
+        "message": "feat：媒体库同步记录增加字段显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604241523",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-04-17 00:13:43",
         "message": "✨ feat: AI诊断对话框增加流式处理支持，优化诊断结果展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604162301",
-    "items": [
-      {
-        "commit": "2d44a98e3535e3df0bf76323b4f9012605d4fafd",
-        "author": "GateCross",
-        "date": "2026-04-16 23:00:16",
-        "message": "fix: 恢复系统日志排版"
       }
     ]
   }
