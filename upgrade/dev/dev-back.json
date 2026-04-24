@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604241523",
+    "items": [
+      {
+        "commit": "6f9502df7a708fed7d8597ff370fb89ee4b11a25",
+        "author": "xylplm",
+        "date": "2026-04-24 13:20:28",
+        "message": "🔁 refactor: 移除 AI 配置中的初始提示和消息渠道记忆分钟数"
+      },
+      {
+        "commit": "a28fc08a75ce9fc67b1f847afb2335d60541e103",
+        "author": "xylplm",
+        "date": "2026-04-24 13:13:28",
+        "message": "🔁 refactor: 移除 AI 配置中的角色名称字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604232207",
     "items": [
       {
@@ -365,41 +382,6 @@
         "author": "GateCross",
         "date": "2026-04-22 10:51:54",
         "message": "fix: 优化媒体代理获取直链超时时间和日志等级"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604221725",
-    "items": [
-      {
-        "commit": "6e7a538c7bfe2fc7b3dae0cccb7d5655ab7169f2",
-        "author": "xylplm",
-        "date": "2026-04-22 17:17:39",
-        "message": "🔁 refactor: 优化飞书消息监听器的日志级别"
-      },
-      {
-        "commit": "d58b5462e158ab5589cd0c22b4a4413f47cd2e43",
-        "author": "xylplm",
-        "date": "2026-04-22 11:24:22",
-        "message": "🔧 chore: 重构消息监听器，拆分飞书监听逻辑并优化代码结构"
-      },
-      {
-        "commit": "c09b1d23183fb98cc92cc1c919cb2af335a2df9d",
-        "author": "xylplm",
-        "date": "2026-04-22 10:24:14",
-        "message": "✨ feat: 增加飞书消息和卡片回调的事件ID和消息ID日志记录"
-      },
-      {
-        "commit": "50242e9aba0fe194930a5a239560324c28664dae",
-        "author": "xylplm",
-        "date": "2026-04-22 00:56:46",
-        "message": "✨ feat: 添加飞书消息渠道的提示信息"
-      },
-      {
-        "commit": "f562ea68a4b2c560e6a1863846525397bb9874c7",
-        "author": "xylplm",
-        "date": "2026-04-21 22:31:01",
-        "message": "feat:飞书消息渠道"
       }
     ]
   }

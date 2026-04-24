@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604241523",
+    "items": [
+      {
+        "commit": "f1ae6ff328498211b0077f16022cc3715c834051",
+        "author": "xylplm",
+        "date": "2026-04-24 13:20:43",
+        "message": "🔧 chore: 移除智能体设置页面不必要的表单字段"
+      },
+      {
+        "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
+        "author": "Jolc",
+        "date": "2026-04-23 21:37:42",
+        "message": "feat：媒体库同步记录增加字段显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604232207",
     "items": [
       {
@@ -107,41 +124,6 @@
         "author": "GateCross",
         "date": "2026-04-16 23:00:16",
         "message": "fix: 恢复系统日志排版"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604151815",
-    "items": [
-      {
-        "commit": "aeff9ddb3e7f27fa87049450ba03fc4fb0e38c6c",
-        "author": "xylplm",
-        "date": "2026-04-15 18:13:26",
-        "message": "✨ feat: AI 诊断对话框和定时任务生成模块增加流式处理支持"
-      },
-      {
-        "commit": "1fe5e3476f14d8eaf12aa3dc024151a514267368",
-        "author": "xylplm",
-        "date": "2026-04-15 17:37:23",
-        "message": "🔧 chore: 优化批量操作面板的布局样式"
-      },
-      {
-        "commit": "4f405b76547e27234c40e3dea42ff33326ec93bd",
-        "author": "xylplm",
-        "date": "2026-04-15 17:35:06",
-        "message": "🔧 chore: 优化多个页面按钮图标样式"
-      },
-      {
-        "commit": "fca0c7821159d5f6a69cb16c428422127a85fe98",
-        "author": "xylplm",
-        "date": "2026-04-15 16:18:46",
-        "message": "✨ feat: 系统日志增加AI诊断功能，针对错误日志可以让AI诊断 提升体验"
-      },
-      {
-        "commit": "f6a92b051187cf5916db75e5fff808bd9fdb90fe",
-        "author": "xylplm",
-        "date": "2026-04-15 16:17:40",
-        "message": "✨ feat: 公共消息内容组件，支持流式内容和代码高亮"
       }
     ]
   }
