@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202604242159",
+    "items": [
+      {
+        "commit": "f1ae6ff328498211b0077f16022cc3715c834051",
+        "author": "xylplm",
+        "date": "2026-04-24 13:20:43",
+        "message": "🔧 chore: 移除智能体设置页面不必要的表单字段"
+      },
+      {
+        "commit": "25316d02aff809af809b90723b03ce7b9fa47934",
+        "author": "xylplm",
+        "date": "2026-04-21 22:29:17",
+        "message": "feat：飞书图标"
+      },
+      {
+        "commit": "699ec43e32a3ebaa68939aebbdb560d2e78c9591",
+        "author": "xylplm",
+        "date": "2026-04-21 00:25:17",
+        "message": "✨ feat: 设置页面当前版本信息样式优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604242119",
     "items": [
       {
@@ -107,23 +130,6 @@
         "author": "xylplm",
         "date": "2026-04-18 14:25:53",
         "message": "✨ feat: 去除智能体页面"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604172107",
-    "items": [
-      {
-        "commit": "2c3fc88ae4acb0fbcaae9be5f76be5e1345cee56",
-        "author": "xylplm",
-        "date": "2026-04-17 20:55:07",
-        "message": "fix: 搜索列表"
-      },
-      {
-        "commit": "5eca44de19f1932d21e9feaa6bd264803fb4b3d5",
-        "author": "xylplm",
-        "date": "2026-04-17 00:13:43",
-        "message": "✨ feat: AI诊断对话框增加流式处理支持，优化诊断结果展示"
       }
     ]
   }
