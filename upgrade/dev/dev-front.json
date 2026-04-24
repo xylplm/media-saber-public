@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604242211",
+    "items": [
+      {
+        "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
+        "author": "Jolc",
+        "date": "2026-04-23 21:37:42",
+        "message": "feat：媒体库同步记录增加字段显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604242159",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-04-18 15:44:34",
         "message": "✨ feat: 自定义识别词生成模块增加生成模式切换功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604181441",
-    "items": [
-      {
-        "commit": "dbe1f4415f6ff2f349871343dd7824b8dd961319",
-        "author": "xylplm",
-        "date": "2026-04-18 14:25:53",
-        "message": "✨ feat: 去除智能体页面"
       }
     ]
   }
