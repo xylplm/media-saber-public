@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202604262113",
+    "items": [
+      {
+        "commit": "40bf1fb6c89090c91873c76e281d00ac82fa0b92",
+        "author": "Jolc",
+        "date": "2026-04-26 21:13:13",
+        "message": "feat：站点ck快速填充"
+      },
+      {
+        "commit": "f1ae6ff328498211b0077f16022cc3715c834051",
+        "author": "xylplm",
+        "date": "2026-04-24 13:20:43",
+        "message": "🔧 chore: 移除智能体设置页面不必要的表单字段"
+      },
+      {
+        "commit": "25316d02aff809af809b90723b03ce7b9fa47934",
+        "author": "xylplm",
+        "date": "2026-04-21 22:29:17",
+        "message": "feat：飞书图标"
+      },
+      {
+        "commit": "699ec43e32a3ebaa68939aebbdb560d2e78c9591",
+        "author": "xylplm",
+        "date": "2026-04-21 00:25:17",
+        "message": "✨ feat: 设置页面当前版本信息样式优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604242211",
     "items": [
       {
@@ -119,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-04-18 22:19:17",
         "message": "✨ feat: 设置页面增加关于模块"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604181636",
-    "items": [
-      {
-        "commit": "006fe073c734523939055af8f07eb7f7615020e1",
-        "author": "xylplm",
-        "date": "2026-04-18 15:44:34",
-        "message": "✨ feat: 自定义识别词生成模块增加生成模式切换功能"
       }
     ]
   }
