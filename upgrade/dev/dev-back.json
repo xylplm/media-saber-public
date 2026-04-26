@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604262320",
+    "items": [
+      {
+        "commit": "a3252fb210ca4c2f3fe0557e63b0425c26fe3db4",
+        "author": "Jolc",
+        "date": "2026-04-26 23:20:00",
+        "message": "feat：云端资源支持无参数查询"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604242159",
     "items": [
       {
@@ -341,23 +352,6 @@
         "author": "xylplm",
         "date": "2026-04-23 14:20:45",
         "message": "✨ feat: 重构飞书消息发送逻辑，优化接收者处理和消息构建"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604231337",
-    "items": [
-      {
-        "commit": "639a994790e163f87ea967eb2b024a53c84f797a",
-        "author": "GateCross",
-        "date": "2026-04-23 13:28:21",
-        "message": "feat: 优化订阅集数处理逻辑"
-      },
-      {
-        "commit": "ef367287950ab2562636b1d1e0ed9dcb621905e4",
-        "author": "xylplm",
-        "date": "2026-04-23 13:08:51",
-        "message": "✨ feat: 优化唯一匹配媒体搜索提示信息"
       }
     ]
   }

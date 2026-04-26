@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604262320",
+    "items": [
+      {
+        "commit": "cab7d79275122165fb24d74f2125178ff5887263",
+        "author": "Jolc",
+        "date": "2026-04-26 22:55:55",
+        "message": "feat：云端资源输入片名联想"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604262113",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-04-21 00:25:17",
         "message": "✨ feat: 设置页面当前版本信息样式优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604182220",
-    "items": [
-      {
-        "commit": "b5b21e85c63d167f7d59c1410e2da0a99bdd50b6",
-        "author": "xylplm",
-        "date": "2026-04-18 22:19:17",
-        "message": "✨ feat: 设置页面增加关于模块"
       }
     ]
   }
