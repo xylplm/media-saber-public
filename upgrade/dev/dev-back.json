@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604271811",
+    "items": [
+      {
+        "commit": "47f564bd3d5ba23b1c77535c382fc971ffdcd094",
+        "author": "xylplm",
+        "date": "2026-04-27 18:10:59",
+        "message": "🔧 chore: 注释掉 app 目录以隐藏在根目录下"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604271704",
     "items": [
       {
@@ -263,17 +274,6 @@
         "author": "xylplm",
         "date": "2026-04-21 22:31:01",
         "message": "feat:飞书消息渠道"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604231718",
-    "items": [
-      {
-        "commit": "b9b41a5fe8a59bf5838893a4f289e4c9791881be",
-        "author": "Jolc",
-        "date": "2026-04-23 16:07:41",
-        "message": "feat：查漏集接口"
       }
     ]
   }
