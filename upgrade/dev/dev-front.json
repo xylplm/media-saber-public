@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604271302",
+    "items": [
+      {
+        "commit": "193ade2533a31b0f900775d884010723fc76ab47",
+        "author": "Jolc",
+        "date": "2026-04-27 13:02:24",
+        "message": "feat：系统日志清爽模式、复制日志到剪贴板。"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604262320",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-04-21 22:29:17",
         "message": "feat：飞书图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604210026",
-    "items": [
-      {
-        "commit": "699ec43e32a3ebaa68939aebbdb560d2e78c9591",
-        "author": "xylplm",
-        "date": "2026-04-21 00:25:17",
-        "message": "✨ feat: 设置页面当前版本信息样式优化"
       }
     ]
   }
