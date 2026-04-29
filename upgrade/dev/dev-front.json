@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202604291729",
+    "items": [
+      {
+        "commit": "193ade2533a31b0f900775d884010723fc76ab47",
+        "author": "Jolc",
+        "date": "2026-04-27 13:02:24",
+        "message": "feat：系统日志清爽模式、复制日志到剪贴板。"
+      },
+      {
+        "commit": "cab7d79275122165fb24d74f2125178ff5887263",
+        "author": "Jolc",
+        "date": "2026-04-26 22:55:55",
+        "message": "feat：云端资源输入片名联想"
+      },
+      {
+        "commit": "40bf1fb6c89090c91873c76e281d00ac82fa0b92",
+        "author": "Jolc",
+        "date": "2026-04-26 21:13:13",
+        "message": "feat：站点ck快速填充"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604291538",
     "items": [
       {
@@ -132,23 +155,6 @@
   {
     "version": "DEV_202604242119",
     "items": [
-      {
-        "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
-        "author": "Jolc",
-        "date": "2026-04-23 21:37:42",
-        "message": "feat：媒体库同步记录增加字段显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604241523",
-    "items": [
-      {
-        "commit": "f1ae6ff328498211b0077f16022cc3715c834051",
-        "author": "xylplm",
-        "date": "2026-04-24 13:20:43",
-        "message": "🔧 chore: 移除智能体设置页面不必要的表单字段"
-      },
       {
         "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
         "author": "Jolc",
