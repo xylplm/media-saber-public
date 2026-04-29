@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604291506",
+    "items": [
+      {
+        "commit": "dc8ed9b679d853d36450c1f3228cb527949be5d9",
+        "author": "xylplm",
+        "date": "2026-04-29 10:43:22",
+        "message": "✨ feat: AI模块增加推理模式控制参数与事件源解析支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604271302",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-04-23 21:37:42",
         "message": "feat：媒体库同步记录增加字段显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604221132",
-    "items": [
-      {
-        "commit": "25316d02aff809af809b90723b03ce7b9fa47934",
-        "author": "xylplm",
-        "date": "2026-04-21 22:29:17",
-        "message": "feat：飞书图标"
       }
     ]
   }

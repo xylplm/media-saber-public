@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202604291506",
+    "items": [
+      {
+        "commit": "92837ee852d43c8bf0cdcf0ff3d3d09b4b7a3882",
+        "author": "xylplm",
+        "date": "2026-04-29 15:02:53",
+        "message": "🐛 fix: 修复任务状态返回值，返回状态信息而非 nil"
+      },
+      {
+        "commit": "a1d061bcfd855ee33a90d54df9c3b477060f681d",
+        "author": "xylplm",
+        "date": "2026-04-29 14:20:13",
+        "message": "✨ feat: 更新 ChatCompletionReq 结构体，增强请求参数支持"
+      },
+      {
+        "commit": "095fd6d32886ecdc43e26892e417e8a031d7c1cc",
+        "author": "allen",
+        "date": "2026-04-28 19:12:41",
+        "message": "fix: 对调 path 和pickCode 的顺序"
+      },
+      {
+        "commit": "213d38833043db752efcf6c5f6c70fed5b47a478",
+        "author": "xylplm",
+        "date": "2026-04-28 18:31:09",
+        "message": "✨ feat: 集成 any-llm 作为 OpenAI 提供者，优化推理模式处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604271811",
     "items": [
       {
@@ -167,113 +196,6 @@
         "author": "Jolc",
         "date": "2026-04-23 21:59:58",
         "message": "fix：媒体库单个条目同步时优化获取媒体库名称的逻辑。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604231933",
-    "items": [
-      {
-        "commit": "cb54e4c65ff17c1e9c8b336e5587c4d9f100aa3e",
-        "author": "Jolc",
-        "date": "2026-04-23 19:33:18",
-        "message": "fix：媒体库同步条目媒体库名称缺失问题。"
-      },
-      {
-        "commit": "c2e5d3ba7b5a25e000a4e3431d54dc30984ce3fe",
-        "author": "xylplm",
-        "date": "2026-04-23 15:33:33",
-        "message": "✨ feat: 优化飞书消息处理逻辑，采用异步方式提升响应速度。避免飞书重复推送"
-      },
-      {
-        "commit": "c570522a19f9e1306c64e516048b96a84d3806fe",
-        "author": "xylplm",
-        "date": "2026-04-23 14:39:17",
-        "message": "✨ feat: 优化列表卡片内容格式，添加序号显示"
-      },
-      {
-        "commit": "fa04461e13b70b2bf7f201a85b23cd51723077d8",
-        "author": "xylplm",
-        "date": "2026-04-23 14:20:45",
-        "message": "✨ feat: 重构飞书消息发送逻辑，优化接收者处理和消息构建"
-      },
-      {
-        "commit": "639a994790e163f87ea967eb2b024a53c84f797a",
-        "author": "GateCross",
-        "date": "2026-04-23 13:28:21",
-        "message": "feat: 优化订阅集数处理逻辑"
-      },
-      {
-        "commit": "ef367287950ab2562636b1d1e0ed9dcb621905e4",
-        "author": "xylplm",
-        "date": "2026-04-23 13:08:51",
-        "message": "✨ feat: 优化唯一匹配媒体搜索提示信息"
-      },
-      {
-        "commit": "90fe7cac8e95bf36613dc3ac61b679b1d1497444",
-        "author": "liurongjie",
-        "date": "2026-04-22 18:20:38",
-        "message": "refactor(tasks): 移除 TMDB 缓存搜索任务的调试日志"
-      },
-      {
-        "commit": "f3c234063f7c557369e49fe21e9f27dc48015931",
-        "author": "liurongjie",
-        "date": "2026-04-22 18:19:55",
-        "message": "Revert \"fix(tasks): 优化 TMDB 缓存搜索任务的日志记录\""
-      },
-      {
-        "commit": "784ae88bbd4b0cc225e12a28987850de77e61d94",
-        "author": "liurongjie",
-        "date": "2026-04-22 18:19:50",
-        "message": "Revert \"fix(tasks): 优化 TMDB 缓存搜索任务的日志记录\""
-      },
-      {
-        "commit": "33c7bf33536026fc2941b227b2770a851863da03",
-        "author": "liurongjie",
-        "date": "2026-04-22 18:18:28",
-        "message": "fix(tasks): 优化 TMDB 缓存搜索任务的日志记录"
-      },
-      {
-        "commit": "cdcc74c9025e8645c11b6b50590b6b995908bfa4",
-        "author": "liurongjie",
-        "date": "2026-04-22 17:48:18",
-        "message": "fix(tasks): 优化 TMDB 缓存搜索任务的日志记录"
-      },
-      {
-        "commit": "6e7a538c7bfe2fc7b3dae0cccb7d5655ab7169f2",
-        "author": "xylplm",
-        "date": "2026-04-22 17:17:39",
-        "message": "🔁 refactor: 优化飞书消息监听器的日志级别"
-      },
-      {
-        "commit": "d58b5462e158ab5589cd0c22b4a4413f47cd2e43",
-        "author": "xylplm",
-        "date": "2026-04-22 11:24:22",
-        "message": "🔧 chore: 重构消息监听器，拆分飞书监听逻辑并优化代码结构"
-      },
-      {
-        "commit": "36507d7ee32d48c9f6b2dc18f4c4ad0ce1ad7f3d",
-        "author": "GateCross",
-        "date": "2026-04-22 10:51:54",
-        "message": "fix: 优化媒体代理获取直链超时时间和日志等级"
-      },
-      {
-        "commit": "c09b1d23183fb98cc92cc1c919cb2af335a2df9d",
-        "author": "xylplm",
-        "date": "2026-04-22 10:24:14",
-        "message": "✨ feat: 增加飞书消息和卡片回调的事件ID和消息ID日志记录"
-      },
-      {
-        "commit": "50242e9aba0fe194930a5a239560324c28664dae",
-        "author": "xylplm",
-        "date": "2026-04-22 00:56:46",
-        "message": "✨ feat: 添加飞书消息渠道的提示信息"
-      },
-      {
-        "commit": "f562ea68a4b2c560e6a1863846525397bb9874c7",
-        "author": "xylplm",
-        "date": "2026-04-21 22:31:01",
-        "message": "feat:飞书消息渠道"
       }
     ]
   }
