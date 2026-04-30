@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604302059",
+    "items": [
+      {
+        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
+        "author": "GateCross",
+        "date": "2026-04-30 14:46:22",
+        "message": "fix: 优化hdhive一次性请求次数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604302038",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "Jolc",
         "date": "2026-04-27 13:02:24",
         "message": "feat：系统日志清爽模式、复制日志到剪贴板。"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604262320",
-    "items": [
-      {
-        "commit": "cab7d79275122165fb24d74f2125178ff5887263",
-        "author": "Jolc",
-        "date": "2026-04-26 22:55:55",
-        "message": "feat：云端资源输入片名联想"
       }
     ]
   }

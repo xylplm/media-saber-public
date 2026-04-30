@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604302059",
+    "items": [
+      {
+        "commit": "24c873cb0e616887ab7933301d31e729c9389461",
+        "author": "xylplm",
+        "date": "2026-04-30 20:58:10",
+        "message": "✨ feat: 增强季度列表提示信息，显示媒体标题和年份"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604302038",
     "items": [
       {
@@ -131,35 +142,6 @@
         "author": "Jolc",
         "date": "2026-04-26 23:20:00",
         "message": "feat：云端资源支持无参数查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604271302",
-    "items": [
-      {
-        "commit": "dbe25c6b66dc02a503ef939d652d7369a1d1be64",
-        "author": "xylplm",
-        "date": "2026-04-24 21:58:18",
-        "message": "✨ feat: 优化订阅和搜索提示信息"
-      },
-      {
-        "commit": "872064247484cfb7d0a25bb363fe93b5f9ce6f70",
-        "author": "xylplm",
-        "date": "2026-04-24 21:43:09",
-        "message": "✨ feat: 优化订阅和搜索提示格式，增加视觉引导"
-      },
-      {
-        "commit": "6f9502df7a708fed7d8597ff370fb89ee4b11a25",
-        "author": "xylplm",
-        "date": "2026-04-24 13:20:28",
-        "message": "🔁 refactor: 移除 AI 配置中的初始提示和消息渠道记忆分钟数"
-      },
-      {
-        "commit": "a28fc08a75ce9fc67b1f847afb2335d60541e103",
-        "author": "xylplm",
-        "date": "2026-04-24 13:13:28",
-        "message": "🔁 refactor: 移除 AI 配置中的角色名称字段"
       }
     ]
   }
