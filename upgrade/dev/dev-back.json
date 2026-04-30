@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604301532",
+    "items": [
+      {
+        "commit": "ea248cc4959ee1b36d327d40ea7d441f1ca63aac",
+        "author": "harry",
+        "date": "2026-04-30 14:49:02",
+        "message": "feat(plugin): add rename by tmdb generator"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604301453",
     "items": [
       {
@@ -161,35 +172,6 @@
         "author": "xylplm",
         "date": "2026-04-24 13:13:28",
         "message": "🔁 refactor: 移除 AI 配置中的角色名称字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604242119",
-    "items": [
-      {
-        "commit": "85a420b7fbf7399304b2ea9bddc03fd8f3914701",
-        "author": "Jolc",
-        "date": "2026-04-23 22:07:31",
-        "message": "fix：指定标题订阅时，以匹配到的 tmdb 信息为准"
-      },
-      {
-        "commit": "5a4aad33f46840e7271b7496415c0e879034c3e7",
-        "author": "Jolc",
-        "date": "2026-04-23 21:59:58",
-        "message": "fix：媒体库单个条目同步时优化获取媒体库名称的逻辑。"
-      },
-      {
-        "commit": "cb54e4c65ff17c1e9c8b336e5587c4d9f100aa3e",
-        "author": "Jolc",
-        "date": "2026-04-23 19:33:18",
-        "message": "fix：媒体库同步条目媒体库名称缺失问题。"
-      },
-      {
-        "commit": "b9b41a5fe8a59bf5838893a4f289e4c9791881be",
-        "author": "Jolc",
-        "date": "2026-04-23 16:07:41",
-        "message": "feat：查漏集接口"
       }
     ]
   }
