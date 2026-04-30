@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604302038",
+    "items": [
+      {
+        "commit": "caaffab43e49cb10a3e6734792c6bba41e4f3098",
+        "author": "xylplm",
+        "date": "2026-04-30 20:37:21",
+        "message": "✨ feat: 增强媒体订阅功能，支持电视剧季度选择"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604301835",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-04-24 13:13:28",
         "message": "🔁 refactor: 移除 AI 配置中的角色名称字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604262320",
-    "items": [
-      {
-        "commit": "a3252fb210ca4c2f3fe0557e63b0425c26fe3db4",
-        "author": "Jolc",
-        "date": "2026-04-26 23:20:00",
-        "message": "feat：云端资源支持无参数查询"
       }
     ]
   }

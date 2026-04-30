@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604302038",
+    "items": [
+      {
+        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
+        "author": "harry",
+        "date": "2026-04-30 14:49:02",
+        "message": "feat(plugin): add rename by tmdb config page"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604301835",
     "items": [
       {
@@ -125,35 +136,6 @@
         "author": "Jolc",
         "date": "2026-04-26 22:55:55",
         "message": "feat：云端资源输入片名联想"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604262113",
-    "items": [
-      {
-        "commit": "40bf1fb6c89090c91873c76e281d00ac82fa0b92",
-        "author": "Jolc",
-        "date": "2026-04-26 21:13:13",
-        "message": "feat：站点ck快速填充"
-      },
-      {
-        "commit": "f1ae6ff328498211b0077f16022cc3715c834051",
-        "author": "xylplm",
-        "date": "2026-04-24 13:20:43",
-        "message": "🔧 chore: 移除智能体设置页面不必要的表单字段"
-      },
-      {
-        "commit": "25316d02aff809af809b90723b03ce7b9fa47934",
-        "author": "xylplm",
-        "date": "2026-04-21 22:29:17",
-        "message": "feat：飞书图标"
-      },
-      {
-        "commit": "699ec43e32a3ebaa68939aebbdb560d2e78c9591",
-        "author": "xylplm",
-        "date": "2026-04-21 00:25:17",
-        "message": "✨ feat: 设置页面当前版本信息样式优化"
       }
     ]
   }
