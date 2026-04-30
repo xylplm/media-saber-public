@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202604301453",
+    "items": [
+      {
+        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
+        "author": "GateCross",
+        "date": "2026-04-30 14:46:22",
+        "message": "fix: 优化hdhive一次性请求次数"
+      },
+      {
+        "commit": "dc8ed9b679d853d36450c1f3228cb527949be5d9",
+        "author": "xylplm",
+        "date": "2026-04-29 10:43:22",
+        "message": "✨ feat: AI模块增加推理模式控制参数与事件源解析支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604291729",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-04-21 00:25:17",
         "message": "✨ feat: 设置页面当前版本信息样式优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604242119",
-    "items": [
-      {
-        "commit": "a594f76a20baf006654fc50bb8f962c81b23785e",
-        "author": "Jolc",
-        "date": "2026-04-23 21:37:42",
-        "message": "feat：媒体库同步记录增加字段显示"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202604301453",
+    "items": [
+      {
+        "commit": "65281cfa30201b00206ce35d101773b7412cf7ae",
+        "author": "GateCross",
+        "date": "2026-04-30 14:52:44",
+        "message": "feat: hdhive增加限流"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604291538",
     "items": [
       {
@@ -179,23 +190,6 @@
         "author": "Jolc",
         "date": "2026-04-23 16:07:41",
         "message": "feat：查漏集接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604241523",
-    "items": [
-      {
-        "commit": "6f9502df7a708fed7d8597ff370fb89ee4b11a25",
-        "author": "xylplm",
-        "date": "2026-04-24 13:20:28",
-        "message": "🔁 refactor: 移除 AI 配置中的初始提示和消息渠道记忆分钟数"
-      },
-      {
-        "commit": "a28fc08a75ce9fc67b1f847afb2335d60541e103",
-        "author": "xylplm",
-        "date": "2026-04-24 13:13:28",
-        "message": "🔁 refactor: 移除 AI 配置中的角色名称字段"
       }
     ]
   }
