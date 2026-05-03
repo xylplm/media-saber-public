@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605032238",
+    "items": [
+      {
+        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
+        "author": "GateCross",
+        "date": "2026-04-30 14:46:22",
+        "message": "fix: 优化hdhive一次性请求次数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605031518",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "Jolc",
         "date": "2026-04-26 21:13:13",
         "message": "feat：站点ck快速填充"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604291506",
-    "items": [
-      {
-        "commit": "dc8ed9b679d853d36450c1f3228cb527949be5d9",
-        "author": "xylplm",
-        "date": "2026-04-29 10:43:22",
-        "message": "✨ feat: AI模块增加推理模式控制参数与事件源解析支持"
       }
     ]
   }

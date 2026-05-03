@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202605032238",
+    "items": [
+      {
+        "commit": "38a5d4f7fcc6001da7bbbbbb8258e86c7f3a40b0",
+        "author": "Jolc",
+        "date": "2026-05-03 22:37:05",
+        "message": "feat：媒体库文件夹合并插件"
+      },
+      {
+        "commit": "24c873cb0e616887ab7933301d31e729c9389461",
+        "author": "xylplm",
+        "date": "2026-04-30 20:58:10",
+        "message": "✨ feat: 增强季度列表提示信息，显示媒体标题和年份"
+      },
+      {
+        "commit": "caaffab43e49cb10a3e6734792c6bba41e4f3098",
+        "author": "xylplm",
+        "date": "2026-04-30 20:37:21",
+        "message": "✨ feat: 增强媒体订阅功能，支持电视剧季度选择"
+      },
+      {
+        "commit": "34c75f9508429e80df85df91c67c85bc6d259a15",
+        "author": "xylplm",
+        "date": "2026-04-30 18:34:20",
+        "message": "✨ feat: 交互消息 增强季度选择功能，支持用户选择和订阅季度"
+      },
+      {
+        "commit": "65281cfa30201b00206ce35d101773b7412cf7ae",
+        "author": "GateCross",
+        "date": "2026-04-30 14:52:44",
+        "message": "feat: hdhive增加限流"
+      },
+      {
+        "commit": "ea248cc4959ee1b36d327d40ea7d441f1ca63aac",
+        "author": "harry",
+        "date": "2026-04-30 14:49:02",
+        "message": "feat(plugin): add rename by tmdb generator"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605031518",
     "items": [
       {
@@ -119,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-04-28 18:31:09",
         "message": "✨ feat: 集成 any-llm 作为 OpenAI 提供者，优化推理模式处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604271811",
-    "items": [
-      {
-        "commit": "47f564bd3d5ba23b1c77535c382fc971ffdcd094",
-        "author": "xylplm",
-        "date": "2026-04-27 18:10:59",
-        "message": "🔧 chore: 注释掉 app 目录以隐藏在根目录下"
       }
     ]
   }
