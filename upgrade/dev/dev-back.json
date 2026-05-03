@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605031518",
+    "items": [
+      {
+        "commit": "d0b03fa008fcfa2de164470e5907cf0844c71068",
+        "author": "Jolc",
+        "date": "2026-05-03 15:10:17",
+        "message": "fix: prevent subscribe episode list expansion"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604302059",
     "items": [
       {
@@ -119,29 +130,6 @@
         "author": "xylplm",
         "date": "2026-04-27 18:10:59",
         "message": "🔧 chore: 注释掉 app 目录以隐藏在根目录下"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604271704",
-    "items": [
-      {
-        "commit": "a8166a8a14712454e5596a83ceb93c10eb675360",
-        "author": "xylplm",
-        "date": "2026-04-27 17:02:56",
-        "message": "✨ feat: 优化AI媒体名称提取规则，增强标题解析准确性"
-      },
-      {
-        "commit": "4ef59e6fc8d7fd933411451aefc038b76a72a94d",
-        "author": "xylplm",
-        "date": "2026-04-27 16:43:34",
-        "message": "✨ feat: 优化AI识别媒体文件名解析逻辑，增强 JSON 输出格式"
-      },
-      {
-        "commit": "a3252fb210ca4c2f3fe0557e63b0425c26fe3db4",
-        "author": "Jolc",
-        "date": "2026-04-26 23:20:00",
-        "message": "feat：云端资源支持无参数查询"
       }
     ]
   }

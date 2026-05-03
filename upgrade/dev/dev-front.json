@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605031518",
+    "items": [
+      {
+        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
+        "author": "harry",
+        "date": "2026-04-30 14:49:02",
+        "message": "feat(plugin): add rename by tmdb config page"
+      }
+    ]
+  },
+  {
     "version": "DEV_202604302059",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-04-29 10:43:22",
         "message": "✨ feat: AI模块增加推理模式控制参数与事件源解析支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604271302",
-    "items": [
-      {
-        "commit": "193ade2533a31b0f900775d884010723fc76ab47",
-        "author": "Jolc",
-        "date": "2026-04-27 13:02:24",
-        "message": "feat：系统日志清爽模式、复制日志到剪贴板。"
       }
     ]
   }
