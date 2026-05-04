@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605041128",
+    "items": [
+      {
+        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
+        "author": "GateCross",
+        "date": "2026-04-30 14:46:22",
+        "message": "fix: 优化hdhive一次性请求次数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605041022",
     "items": [
       {
@@ -95,23 +106,6 @@
         "author": "harry",
         "date": "2026-04-30 14:49:02",
         "message": "feat(plugin): add rename by tmdb config page"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604301453",
-    "items": [
-      {
-        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
-        "author": "GateCross",
-        "date": "2026-04-30 14:46:22",
-        "message": "fix: 优化hdhive一次性请求次数"
-      },
-      {
-        "commit": "dc8ed9b679d853d36450c1f3228cb527949be5d9",
-        "author": "xylplm",
-        "date": "2026-04-29 10:43:22",
-        "message": "✨ feat: AI模块增加推理模式控制参数与事件源解析支持"
       }
     ]
   }

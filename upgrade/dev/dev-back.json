@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605041128",
+    "items": [
+      {
+        "commit": "b464cf58c3d0b64f53138d80ef9ca2174bb5dea4",
+        "author": "Jolc",
+        "date": "2026-05-04 11:25:16",
+        "message": "feat：查漏集逻辑优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605040943",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-04-29 15:36:37",
         "message": "Reapply \"🐛 fix: 修复任务状态返回值，返回状态信息而非 nil\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604291529",
-    "items": [
-      {
-        "commit": "eb263571e2e4297f435f358304470113b6b9c162",
-        "author": "xylplm",
-        "date": "2026-04-29 15:25:56",
-        "message": "Revert \"🐛 fix: 修复任务状态返回值，返回状态信息而非 nil\""
       }
     ]
   }
