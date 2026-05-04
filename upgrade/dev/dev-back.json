@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605040943",
+    "items": [
+      {
+        "commit": "8084a03917f81bae5a06a6dcd42035771d041aa7",
+        "author": "Jolc",
+        "date": "2026-05-04 09:42:08",
+        "message": "feat(plugin): add media library folder merge"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605032238",
     "items": [
       {
@@ -131,35 +142,6 @@
         "author": "xylplm",
         "date": "2026-04-29 15:25:56",
         "message": "Revert \"🐛 fix: 修复任务状态返回值，返回状态信息而非 nil\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604291506",
-    "items": [
-      {
-        "commit": "92837ee852d43c8bf0cdcf0ff3d3d09b4b7a3882",
-        "author": "xylplm",
-        "date": "2026-04-29 15:02:53",
-        "message": "🐛 fix: 修复任务状态返回值，返回状态信息而非 nil"
-      },
-      {
-        "commit": "a1d061bcfd855ee33a90d54df9c3b477060f681d",
-        "author": "xylplm",
-        "date": "2026-04-29 14:20:13",
-        "message": "✨ feat: 更新 ChatCompletionReq 结构体，增强请求参数支持"
-      },
-      {
-        "commit": "095fd6d32886ecdc43e26892e417e8a031d7c1cc",
-        "author": "allen",
-        "date": "2026-04-28 19:12:41",
-        "message": "fix: 对调 path 和pickCode 的顺序"
-      },
-      {
-        "commit": "213d38833043db752efcf6c5f6c70fed5b47a478",
-        "author": "xylplm",
-        "date": "2026-04-28 18:31:09",
-        "message": "✨ feat: 集成 any-llm 作为 OpenAI 提供者，优化推理模式处理"
       }
     ]
   }
