@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605041022",
+    "items": [
+      {
+        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
+        "author": "harry",
+        "date": "2026-04-30 14:49:02",
+        "message": "feat(plugin): add rename by tmdb config page"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605040943",
     "items": [
       {
@@ -101,29 +112,6 @@
         "author": "xylplm",
         "date": "2026-04-29 10:43:22",
         "message": "✨ feat: AI模块增加推理模式控制参数与事件源解析支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604291729",
-    "items": [
-      {
-        "commit": "193ade2533a31b0f900775d884010723fc76ab47",
-        "author": "Jolc",
-        "date": "2026-04-27 13:02:24",
-        "message": "feat：系统日志清爽模式、复制日志到剪贴板。"
-      },
-      {
-        "commit": "cab7d79275122165fb24d74f2125178ff5887263",
-        "author": "Jolc",
-        "date": "2026-04-26 22:55:55",
-        "message": "feat：云端资源输入片名联想"
-      },
-      {
-        "commit": "40bf1fb6c89090c91873c76e281d00ac82fa0b92",
-        "author": "Jolc",
-        "date": "2026-04-26 21:13:13",
-        "message": "feat：站点ck快速填充"
       }
     ]
   }
