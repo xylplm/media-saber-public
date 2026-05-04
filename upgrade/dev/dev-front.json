@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605041555",
+    "items": [
+      {
+        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
+        "author": "harry",
+        "date": "2026-04-30 14:49:02",
+        "message": "feat(plugin): add rename by tmdb config page"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605041128",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "GateCross",
         "date": "2026-04-30 14:46:22",
         "message": "fix: 优化hdhive一次性请求次数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604301532",
-    "items": [
-      {
-        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
-        "author": "harry",
-        "date": "2026-04-30 14:49:02",
-        "message": "feat(plugin): add rename by tmdb config page"
       }
     ]
   }
