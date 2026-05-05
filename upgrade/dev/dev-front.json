@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605051115",
+    "items": [
+      {
+        "commit": "07fb81e2a24aa837b20268a7c70b62f1ad8bd445",
+        "author": "GateCross",
+        "date": "2026-05-05 11:13:38",
+        "message": "fix: 修复hdhive资源显示数量"
+      },
+      {
+        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
+        "author": "GateCross",
+        "date": "2026-04-30 14:46:22",
+        "message": "fix: 优化hdhive一次性请求次数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605041555",
     "items": [
       {
@@ -95,17 +112,6 @@
         "author": "harry",
         "date": "2026-04-30 14:49:02",
         "message": "feat(plugin): add rename by tmdb config page"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604301835",
-    "items": [
-      {
-        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
-        "author": "GateCross",
-        "date": "2026-04-30 14:46:22",
-        "message": "fix: 优化hdhive一次性请求次数"
       }
     ]
   }
