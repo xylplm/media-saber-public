@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605051553",
+    "items": [
+      {
+        "commit": "fce3f939b71586f423062f658c6b248f71920c33",
+        "author": "liurongjie",
+        "date": "2026-05-05 15:51:55",
+        "message": "feat(cloud_storage): 优化离线下载任务消息推送功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605041128",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-04-30 14:52:44",
         "message": "feat: hdhive增加限流"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604291538",
-    "items": [
-      {
-        "commit": "078107d04dcd12831482f0fc85703af0dac034f5",
-        "author": "xylplm",
-        "date": "2026-04-29 15:36:37",
-        "message": "Reapply \"🐛 fix: 修复任务状态返回值，返回状态信息而非 nil\""
       }
     ]
   }
