@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202605062306",
+    "items": [
+      {
+        "commit": "4226ae0d7b7e93e2d3844b158c44aca06c788617",
+        "author": "xylplm",
+        "date": "2026-05-06 22:48:25",
+        "message": "feat ✨: 统一云存储资源响应字段命名风格"
+      },
+      {
+        "commit": "8c907e1b5cefa0eef18f5a9cca23435905842aa3",
+        "author": "xylplm",
+        "date": "2026-05-06 13:50:15",
+        "message": "fix: 优化AI识别处理标题没有任何分隔符的情况"
+      },
+      {
+        "commit": "5895403c2fb7577fd20c52031bb9ede36b0b55a1",
+        "author": "xylplm",
+        "date": "2026-05-01 00:16:16",
+        "message": "feat: PTPP 导入重命名为 PT Depiler 导入，适配新版备份格式"
+      },
+      {
+        "commit": "9a8b53cef8ea084876ad363dacfa58b2bc0a5987",
+        "author": "xylplm",
+        "date": "2026-04-30 23:20:48",
+        "message": "feat: 云端资源权限管理与 CRUD 接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605051553",
     "items": [
       {
@@ -131,17 +160,6 @@
         "author": "harry",
         "date": "2026-04-30 14:49:02",
         "message": "feat(plugin): add rename by tmdb generator"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604301453",
-    "items": [
-      {
-        "commit": "65281cfa30201b00206ce35d101773b7412cf7ae",
-        "author": "GateCross",
-        "date": "2026-04-30 14:52:44",
-        "message": "feat: hdhive增加限流"
       }
     ]
   }
