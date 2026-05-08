@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605081359",
+    "items": [
+      {
+        "commit": "2e4182ba6801ca2dcbf8fc161b159c52a88690aa",
+        "author": "liurongjie",
+        "date": "2026-05-08 13:58:18",
+        "message": "feat(cloud_storage): 添加转存文件的 TMDB 识别和图片消息推送功能"
+      },
+      {
+        "commit": "6e260de5ccf2b92911cb8e4c7e4057e24bb53d14",
+        "author": "xylplm",
+        "date": "2026-05-08 10:27:10",
+        "message": "🔁 refactor: 将查找插件实例的方法名称从 FindByCode 修改为 FindOneByCode"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605071719",
     "items": [
       {
@@ -179,23 +196,6 @@
         "author": "xylplm",
         "date": "2026-04-30 20:37:21",
         "message": "✨ feat: 增强媒体订阅功能，支持电视剧季度选择"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604301835",
-    "items": [
-      {
-        "commit": "34c75f9508429e80df85df91c67c85bc6d259a15",
-        "author": "xylplm",
-        "date": "2026-04-30 18:34:20",
-        "message": "✨ feat: 交互消息 增强季度选择功能，支持用户选择和订阅季度"
-      },
-      {
-        "commit": "65281cfa30201b00206ce35d101773b7412cf7ae",
-        "author": "GateCross",
-        "date": "2026-04-30 14:52:44",
-        "message": "feat: hdhive增加限流"
       }
     ]
   }
