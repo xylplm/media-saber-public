@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605091343",
+    "items": [
+      {
+        "commit": "78a611645f7c9352765dae36c9b2a1a2cae462f0",
+        "author": "liurongjie",
+        "date": "2026-05-09 13:41:53",
+        "message": "perf(log): 优化系统日志关键词搜索性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605091201",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "Jolc",
         "date": "2026-05-03 15:10:17",
         "message": "fix: prevent subscribe episode list expansion"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604302059",
-    "items": [
-      {
-        "commit": "24c873cb0e616887ab7933301d31e729c9389461",
-        "author": "xylplm",
-        "date": "2026-04-30 20:58:10",
-        "message": "✨ feat: 增强季度列表提示信息，显示媒体标题和年份"
       }
     ]
   }
