@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605091201",
+    "items": [
+      {
+        "commit": "695f28c964e6ce35859f358bbc57af8b2e514124",
+        "author": "GateCross",
+        "date": "2026-05-09 12:01:23",
+        "message": "fix: 兼容qb5.2"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605081359",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "xylplm",
         "date": "2026-04-30 20:58:10",
         "message": "✨ feat: 增强季度列表提示信息，显示媒体标题和年份"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202604302038",
-    "items": [
-      {
-        "commit": "caaffab43e49cb10a3e6734792c6bba41e4f3098",
-        "author": "xylplm",
-        "date": "2026-04-30 20:37:21",
-        "message": "✨ feat: 增强媒体订阅功能，支持电视剧季度选择"
       }
     ]
   }
