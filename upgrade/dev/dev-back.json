@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605101434",
+    "items": [
+      {
+        "commit": "bcd8ea9027b0958ccea24ff20abb279fac69a81a",
+        "author": "xylplm",
+        "date": "2026-05-10 14:33:01",
+        "message": "feat ✨: 添加获取 NAS 信息的功能并移除 zspace 相关工具"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605101424",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "Jolc",
         "date": "2026-05-04 11:25:16",
         "message": "feat：查漏集逻辑优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605040943",
-    "items": [
-      {
-        "commit": "8084a03917f81bae5a06a6dcd42035771d041aa7",
-        "author": "Jolc",
-        "date": "2026-05-04 09:42:08",
-        "message": "feat(plugin): add media library folder merge"
       }
     ]
   }
