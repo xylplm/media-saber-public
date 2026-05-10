@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202605101424",
+    "items": [
+      {
+        "commit": "0f17265ffb012d98d19fc8b87767571114dd93e9",
+        "author": "xylplm",
+        "date": "2026-05-10 14:23:50",
+        "message": "🔧 chore: 优化设置页面和工具页面的代码结构与样式"
+      },
+      {
+        "commit": "aa901f4f41b3719a69a1b41c60f63e7a2182f2c6",
+        "author": "xylplm",
+        "date": "2026-05-10 14:21:16",
+        "message": "🔁 refactor: 优化媒体详情对话框和云存储资源表组件，调整参数和修复导入顺序"
+      },
+      {
+        "commit": "40fc6cafa4b77446f0e57a9b5d40016cd278482b",
+        "author": "xylplm",
+        "date": "2026-05-10 14:06:45",
+        "message": "🔁 refactor: 优化 NAS 信息仪表盘组件，移除未使用的关闭方法和样式"
+      },
+      {
+        "commit": "17b32f66e7546a5b76203704725786c6369c80d7",
+        "author": "xylplm",
+        "date": "2026-05-10 13:55:26",
+        "message": "✨ feat: 新增 NAS 信息仪表盘组件及详情对话框"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605071719",
     "items": [
       {
@@ -143,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-04-30 14:46:22",
         "message": "fix: 优化hdhive一次性请求次数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605031518",
-    "items": [
-      {
-        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
-        "author": "harry",
-        "date": "2026-04-30 14:49:02",
-        "message": "feat(plugin): add rename by tmdb config page"
       }
     ]
   }
