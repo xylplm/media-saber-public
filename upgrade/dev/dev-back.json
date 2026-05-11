@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605111650",
+    "items": [
+      {
+        "commit": "d0e3fc0f84e1604d61aaf576d51889d95ca4a2a5",
+        "author": "GateCross",
+        "date": "2026-05-11 16:49:02",
+        "message": "fix: 兼容qb5.2"
+      },
+      {
+        "commit": "134aa0ab7ae1ef68366cf1f5710921aeee1dfd7f",
+        "author": "xylplm",
+        "date": "2026-05-10 23:18:49",
+        "message": "feat ✨: 目录清理秘籍 添加云存储清理流程中的节流与限流重试机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605101434",
     "items": [
       {
@@ -173,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-05-05 15:51:55",
         "message": "feat(cloud_storage): 优化离线下载任务消息推送功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605041128",
-    "items": [
-      {
-        "commit": "b464cf58c3d0b64f53138d80ef9ca2174bb5dea4",
-        "author": "Jolc",
-        "date": "2026-05-04 11:25:16",
-        "message": "feat：查漏集逻辑优化"
       }
     ]
   }
