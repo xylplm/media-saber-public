@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605122258",
+    "items": [
+      {
+        "commit": "94d06b485e6b4c83a2291ac57ba8dce97557f629",
+        "author": "xylplm",
+        "date": "2026-05-12 17:54:22",
+        "message": "✨ feat: 优化电影电视剧订阅合并为统一的订阅列表"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605122226",
     "items": [
       {
@@ -173,23 +184,6 @@
         "author": "xylplm",
         "date": "2026-04-30 23:20:04",
         "message": "feat: 云端资源权限管理与编辑删除功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605051115",
-    "items": [
-      {
-        "commit": "07fb81e2a24aa837b20268a7c70b62f1ad8bd445",
-        "author": "GateCross",
-        "date": "2026-05-05 11:13:38",
-        "message": "fix: 修复hdhive资源显示数量"
-      },
-      {
-        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
-        "author": "GateCross",
-        "date": "2026-04-30 14:46:22",
-        "message": "fix: 优化hdhive一次性请求次数"
       }
     ]
   }
