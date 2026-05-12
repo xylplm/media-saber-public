@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605121716",
+    "items": [
+      {
+        "commit": "b6dffb0c6f4edc0c6d6810d100e452cc85551d62",
+        "author": "Jolc",
+        "date": "2026-05-12 17:15:12",
+        "message": "feat：绿联服务助手 mpnews"
+      },
+      {
+        "commit": "3046dea8f0b634a37cc1edf93083662b2c9daecb",
+        "author": "xylplm",
+        "date": "2026-05-12 16:50:53",
+        "message": "feat ✨: 重构短剧削刮监控模块，优化站点处理器和搜索缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605121637",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-05-09 12:01:23",
         "message": "fix: 兼容qb5.2"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605091343",
-    "items": [
-      {
-        "commit": "78a611645f7c9352765dae36c9b2a1a2cae462f0",
-        "author": "liurongjie",
-        "date": "2026-05-09 13:41:53",
-        "message": "perf(log): 优化系统日志关键词搜索性能"
       }
     ]
   }
