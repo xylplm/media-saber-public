@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605121637",
+    "items": [
+      {
+        "commit": "707bd9c5e8aa28f01c86f4cfef81d70aba764465",
+        "author": "GateCross",
+        "date": "2026-05-12 16:37:17",
+        "message": "fix: pve直通显示优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605121541",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-05-09 13:41:53",
         "message": "perf(log): 优化系统日志关键词搜索性能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605091201",
-    "items": [
-      {
-        "commit": "695f28c964e6ce35859f358bbc57af8b2e514124",
-        "author": "GateCross",
-        "date": "2026-05-09 12:01:23",
-        "message": "fix: 兼容qb5.2"
       }
     ]
   }
