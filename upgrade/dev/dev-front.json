@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605130006",
+    "items": [
+      {
+        "commit": "4df8e1d378c22073847f334362a9eb4a15aa8caa",
+        "author": "GateCross",
+        "date": "2026-05-12 16:37:01",
+        "message": "fix: pve直通显示优化"
+      },
+      {
+        "commit": "6b410e2316b70f734009c9fb7d57704cc8a6f25c",
+        "author": "GateCross",
+        "date": "2026-05-12 15:40:33",
+        "message": "feat: pve svg"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605122258",
     "items": [
       {
@@ -131,59 +148,6 @@
         "author": "harry",
         "date": "2026-05-07 17:17:13",
         "message": "“TMDB 识别词生成”插件添加了调用“TMDB搜素”组件功能， 修复插件生成的“被替换词”中带“\\”的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605062306",
-    "items": [
-      {
-        "commit": "820813813591e4bc68d1da3c5df274d411da2f17",
-        "author": "xylplm",
-        "date": "2026-05-06 22:54:47",
-        "message": "✨ feat: 云端资源编辑对话框更新季集和集数处理逻辑"
-      },
-      {
-        "commit": "005a68a22f4c0e0b03c398b017878d76efab86f8",
-        "author": "xylplm",
-        "date": "2026-05-06 22:45:54",
-        "message": "✨ feat: 优化整理的未知目录字段显示"
-      },
-      {
-        "commit": "81745577ff6d8b135de11436377a572157339bb7",
-        "author": "xylplm",
-        "date": "2026-05-06 22:38:13",
-        "message": "✨ feat: 云端资源操作菜单优化，增加图标和描述"
-      },
-      {
-        "commit": "d8c9f915706efdb94acbdf51a6f20f92de12bb30",
-        "author": "xylplm",
-        "date": "2026-05-06 22:31:12",
-        "message": "✨ feat: 云端资源编辑对话框新增 TMDB ID 和类型选择功能"
-      },
-      {
-        "commit": "58cd095ad51d6d73983a19305168a439fea40f0e",
-        "author": "xylplm",
-        "date": "2026-05-06 21:54:45",
-        "message": "✨ feat: 云端资源编辑对话框新增标签输入组件"
-      },
-      {
-        "commit": "868263728a09de5c7902b7a1a3c766970af1e296",
-        "author": "xylplm",
-        "date": "2026-05-01 00:15:36",
-        "message": "feat: PTPP 导入重命名为 PT Depiler 导入"
-      },
-      {
-        "commit": "f6660605f02e02e1f60e853b34ece039dfeab144",
-        "author": "xylplm",
-        "date": "2026-04-30 23:31:30",
-        "message": "refactor: 编辑/删除按钮移入更多菜单"
-      },
-      {
-        "commit": "3ca5c6a046ac8fda707b1522b84fccca697b22a1",
-        "author": "xylplm",
-        "date": "2026-04-30 23:20:04",
-        "message": "feat: 云端资源权限管理与编辑删除功能"
       }
     ]
   }

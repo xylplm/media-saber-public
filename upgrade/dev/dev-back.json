@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605130006",
+    "items": [
+      {
+        "commit": "f8702785136f361290d9f3497e16d32364bee9f8",
+        "author": "xylplm",
+        "date": "2026-05-12 23:17:07",
+        "message": "feat ✨: 飞牛登录支持添加两步验证密钥支持，增强安全性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605122258",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "xylplm",
         "date": "2026-05-11 22:52:59",
         "message": "feat ✨: 新增飞牛服务助手系统消息推送和状态告警相关常量"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605111650",
-    "items": [
-      {
-        "commit": "d0e3fc0f84e1604d61aaf576d51889d95ca4a2a5",
-        "author": "GateCross",
-        "date": "2026-05-11 16:49:02",
-        "message": "fix: 兼容qb5.2"
-      },
-      {
-        "commit": "134aa0ab7ae1ef68366cf1f5710921aeee1dfd7f",
-        "author": "xylplm",
-        "date": "2026-05-10 23:18:49",
-        "message": "feat ✨: 目录清理秘籍 添加云存储清理流程中的节流与限流重试机制"
       }
     ]
   }
