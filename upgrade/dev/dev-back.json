@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605121421",
+    "items": [
+      {
+        "commit": "23afc808a0955e4537778090c83fc64f53118298",
+        "author": "Jolc",
+        "date": "2026-05-12 14:20:58",
+        "message": "feat：绿联服务助手"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605121414",
     "items": [
       {
@@ -143,53 +154,6 @@
         "author": "xylplm",
         "date": "2026-05-08 10:27:10",
         "message": "🔁 refactor: 将查找插件实例的方法名称从 FindByCode 修改为 FindOneByCode"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605071719",
-    "items": [
-      {
-        "commit": "4f3ec0f2c90ad998ee7c41da4851b17ac908de36",
-        "author": "harry",
-        "date": "2026-05-07 17:17:14",
-        "message": "“TMDB 识别词生成”插件添加了调用“TMDB搜素”组件功能， 修复插件生成的“被替换词”中带“\\”的问题"
-      },
-      {
-        "commit": "8c907e1b5cefa0eef18f5a9cca23435905842aa3",
-        "author": "xylplm",
-        "date": "2026-05-06 13:50:15",
-        "message": "fix: 优化AI识别处理标题没有任何分隔符的情况"
-      },
-      {
-        "commit": "fce3f939b71586f423062f658c6b248f71920c33",
-        "author": "liurongjie",
-        "date": "2026-05-05 15:51:55",
-        "message": "feat(cloud_storage): 优化离线下载任务消息推送功能"
-      },
-      {
-        "commit": "b464cf58c3d0b64f53138d80ef9ca2174bb5dea4",
-        "author": "Jolc",
-        "date": "2026-05-04 11:25:16",
-        "message": "feat：查漏集逻辑优化"
-      },
-      {
-        "commit": "8084a03917f81bae5a06a6dcd42035771d041aa7",
-        "author": "Jolc",
-        "date": "2026-05-04 09:42:08",
-        "message": "feat(plugin): add media library folder merge"
-      },
-      {
-        "commit": "38a5d4f7fcc6001da7bbbbbb8258e86c7f3a40b0",
-        "author": "Jolc",
-        "date": "2026-05-03 22:37:05",
-        "message": "feat：媒体库文件夹合并插件"
-      },
-      {
-        "commit": "d0b03fa008fcfa2de164470e5907cf0844c71068",
-        "author": "Jolc",
-        "date": "2026-05-03 15:10:17",
-        "message": "fix: prevent subscribe episode list expansion"
       }
     ]
   }
