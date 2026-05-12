@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605122020",
+    "items": [
+      {
+        "commit": "94d06b485e6b4c83a2291ac57ba8dce97557f629",
+        "author": "xylplm",
+        "date": "2026-05-12 17:54:22",
+        "message": "✨ feat: 优化电影电视剧订阅合并为统一的订阅列表"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605121637",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "harry",
         "date": "2026-04-30 14:49:02",
         "message": "feat(plugin): add rename by tmdb config page"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605041128",
-    "items": [
-      {
-        "commit": "111fe53165c7cbb69bc1fd3b719a61ade969bd38",
-        "author": "GateCross",
-        "date": "2026-04-30 14:46:22",
-        "message": "fix: 优化hdhive一次性请求次数"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605122020",
+    "items": [
+      {
+        "commit": "67d85dde57a0a671bfd7638230d15dc6017be989",
+        "author": "Jolc",
+        "date": "2026-05-12 20:20:07",
+        "message": "feat：绿联服务助手系统消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605121716",
     "items": [
       {
@@ -131,29 +142,6 @@
         "author": "xylplm",
         "date": "2026-05-10 13:55:51",
         "message": "feat ✨: 添加 NAS 信息接口及相关逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605092049",
-    "items": [
-      {
-        "commit": "7da74ea9e657e6859a7a29b1cfd4d8abb159b7ad",
-        "author": "allen",
-        "date": "2026-05-09 19:45:41",
-        "message": "fix: 使用自定义OrderedValues，对url进行手动排序，避免url.Values.Encode() 方法会对 key 进行排序"
-      },
-      {
-        "commit": "53bd21a2b1e561865db401ef2f1645d6be8d9340",
-        "author": "allen",
-        "date": "2026-05-09 18:48:48",
-        "message": "fix: 修改refresh dir的日志等级为debug，避免同季整理的时候出现大量refresh dir信息"
-      },
-      {
-        "commit": "695f28c964e6ce35859f358bbc57af8b2e514124",
-        "author": "GateCross",
-        "date": "2026-05-09 12:01:23",
-        "message": "fix: 兼容qb5.2"
       }
     ]
   }
