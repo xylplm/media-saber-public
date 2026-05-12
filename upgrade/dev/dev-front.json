@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605122226",
+    "items": [
+      {
+        "commit": "4df8e1d378c22073847f334362a9eb4a15aa8caa",
+        "author": "GateCross",
+        "date": "2026-05-12 16:37:01",
+        "message": "fix: pve直通显示优化"
+      },
+      {
+        "commit": "6b410e2316b70f734009c9fb7d57704cc8a6f25c",
+        "author": "GateCross",
+        "date": "2026-05-12 15:40:33",
+        "message": "feat: pve svg"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605122020",
     "items": [
       {
@@ -173,17 +190,6 @@
         "author": "GateCross",
         "date": "2026-04-30 14:46:22",
         "message": "fix: 优化hdhive一次性请求次数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605041555",
-    "items": [
-      {
-        "commit": "3b83f207ebc0a6ca5f4a194ff17f43f97d339558",
-        "author": "harry",
-        "date": "2026-04-30 14:49:02",
-        "message": "feat(plugin): add rename by tmdb config page"
       }
     ]
   }

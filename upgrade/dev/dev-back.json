@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605122226",
+    "items": [
+      {
+        "commit": "2788e2092eb08784097cd776cace24bf1b807c9e",
+        "author": "Jolc",
+        "date": "2026-05-12 22:24:58",
+        "message": "feat：绿联服务助手网速"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605122020",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "xylplm",
         "date": "2026-05-10 14:33:01",
         "message": "feat ✨: 添加获取 NAS 信息的功能并移除 zspace 相关工具"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605101424",
-    "items": [
-      {
-        "commit": "9b7029f8aabd14456b33f47d7c5d04eaabaebdac",
-        "author": "xylplm",
-        "date": "2026-05-10 14:06:57",
-        "message": "fix 🐛: 移除未使用的 firstNonZeroUint64 函数"
-      },
-      {
-        "commit": "fe3607111ff996db68d2789ffe0cfd6743f1663c",
-        "author": "xylplm",
-        "date": "2026-05-10 13:55:51",
-        "message": "feat ✨: 添加 NAS 信息接口及相关逻辑"
       }
     ]
   }
