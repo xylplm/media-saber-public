@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605121414",
+    "items": [
+      {
+        "commit": "f38b4220bcc94f9861f00df2987cae75acd86873",
+        "author": "Jolc",
+        "date": "2026-05-12 14:13:41",
+        "message": "feat：绿联服务助手"
+      },
+      {
+        "commit": "d0e3fc0f84e1604d61aaf576d51889d95ca4a2a5",
+        "author": "GateCross",
+        "date": "2026-05-11 16:49:02",
+        "message": "fix: 兼容qb5.2"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605120027",
     "items": [
       {
@@ -173,35 +190,6 @@
         "author": "Jolc",
         "date": "2026-05-03 15:10:17",
         "message": "fix: prevent subscribe episode list expansion"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605062306",
-    "items": [
-      {
-        "commit": "4226ae0d7b7e93e2d3844b158c44aca06c788617",
-        "author": "xylplm",
-        "date": "2026-05-06 22:48:25",
-        "message": "feat ✨: 统一云存储资源响应字段命名风格"
-      },
-      {
-        "commit": "8c907e1b5cefa0eef18f5a9cca23435905842aa3",
-        "author": "xylplm",
-        "date": "2026-05-06 13:50:15",
-        "message": "fix: 优化AI识别处理标题没有任何分隔符的情况"
-      },
-      {
-        "commit": "5895403c2fb7577fd20c52031bb9ede36b0b55a1",
-        "author": "xylplm",
-        "date": "2026-05-01 00:16:16",
-        "message": "feat: PTPP 导入重命名为 PT Depiler 导入，适配新版备份格式"
-      },
-      {
-        "commit": "9a8b53cef8ea084876ad363dacfa58b2bc0a5987",
-        "author": "xylplm",
-        "date": "2026-04-30 23:20:48",
-        "message": "feat: 云端资源权限管理与 CRUD 接口"
       }
     ]
   }
