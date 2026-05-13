@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605132248",
+    "items": [
+      {
+        "commit": "4c791ce1e7310c12ad67e8845112ec0104bceac0",
+        "author": "xylplm",
+        "date": "2026-05-13 22:47:14",
+        "message": "✨ feat: 添加 NAS 状态查询功能，替代极空间系统状态"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605131638",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-05-12 16:37:17",
         "message": "fix: pve直通显示优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605121541",
-    "items": [
-      {
-        "commit": "f4620ad559d702f05c81e0b83b0b58473d261221",
-        "author": "GateCross",
-        "date": "2026-05-12 15:40:49",
-        "message": "feat: pve服务助手"
       }
     ]
   }
