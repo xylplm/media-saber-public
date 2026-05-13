@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605131638",
+    "items": [
+      {
+        "commit": "d6a743e59217f37f82d624fc83cef41b8580e1aa",
+        "author": "allen",
+        "date": "2026-05-13 16:35:16",
+        "message": "feat: 添加 season_02d、episode_02d 两种名字格式化，方便自定义路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605131553",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-05-12 15:40:49",
         "message": "feat: pve服务助手"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605121421",
-    "items": [
-      {
-        "commit": "23afc808a0955e4537778090c83fc64f53118298",
-        "author": "Jolc",
-        "date": "2026-05-12 14:20:58",
-        "message": "feat：绿联服务助手"
       }
     ]
   }
