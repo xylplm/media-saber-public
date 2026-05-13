@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202605130854",
+    "items": [
+      {
+        "commit": "9ef12f00c8c824e1414b199adedd1ef3db5aca29",
+        "author": "GateCross",
+        "date": "2026-05-13 08:52:09",
+        "message": "fix: 修复订阅推荐卡片"
+      },
+      {
+        "commit": "82ae0b194474e6500f0744ec6e7d8c8b7428fd28",
+        "author": "xylplm",
+        "date": "2026-05-13 00:36:07",
+        "message": "feat ✨: 优化极空间设备信息"
+      },
+      {
+        "commit": "744059123dbe6c3995d6ac08402afc8f94d6356b",
+        "author": "GateCross",
+        "date": "2026-05-12 22:57:02",
+        "message": "fix: pve服务优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605130006",
     "items": [
       {
@@ -107,29 +130,6 @@
         "author": "GateCross",
         "date": "2026-05-11 16:49:02",
         "message": "fix: 兼容qb5.2"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605120027",
-    "items": [
-      {
-        "commit": "13b9dda1a22432e75ae5e0cca3815ca2a5c55440",
-        "author": "xylplm",
-        "date": "2026-05-12 00:22:15",
-        "message": "feat ✨: 支持多 GPU 信息获取，更新相关数据结构和接口"
-      },
-      {
-        "commit": "c49799bcb90236ee9f9430ea4bbd19a3d95dd167",
-        "author": "xylplm",
-        "date": "2026-05-11 23:51:30",
-        "message": "feat ✨: 添加 UPS 支持及相关接口，增强 NAS 信息获取功能"
-      },
-      {
-        "commit": "65c03678f8818cb1537304a9b4e81b851f2946b5",
-        "author": "xylplm",
-        "date": "2026-05-11 22:52:59",
-        "message": "feat ✨: 新增飞牛服务助手系统消息推送和状态告警相关常量"
       }
     ]
   }

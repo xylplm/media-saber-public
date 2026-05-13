@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605130854",
+    "items": [
+      {
+        "commit": "da5be45266086c7b8a554b9e78587103a74380b0",
+        "author": "xylplm",
+        "date": "2026-05-13 00:19:22",
+        "message": "🔁 refactor: 优化 NAS 详情对话框网络速率显示格式"
+      },
+      {
+        "commit": "94d06b485e6b4c83a2291ac57ba8dce97557f629",
+        "author": "xylplm",
+        "date": "2026-05-12 17:54:22",
+        "message": "✨ feat: 优化电影电视剧订阅合并为统一的订阅列表"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605130006",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-05-10 13:55:26",
         "message": "✨ feat: 新增 NAS 信息仪表盘组件及详情对话框"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605071719",
-    "items": [
-      {
-        "commit": "353fb7328ead298cd8cf2ce104f8656d3f767c11",
-        "author": "harry",
-        "date": "2026-05-07 17:17:13",
-        "message": "“TMDB 识别词生成”插件添加了调用“TMDB搜素”组件功能， 修复插件生成的“被替换词”中带“\\”的问题"
       }
     ]
   }
