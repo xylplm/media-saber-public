@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605131553",
+    "items": [
+      {
+        "commit": "b6b9b1c398cbf9852745518b34a2d4dc5c79e024",
+        "author": "xylplm",
+        "date": "2026-05-13 13:30:05",
+        "message": "🔁 refactor: 优化目录文件模块的搜索框和路径管理逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605130854",
     "items": [
       {
@@ -125,35 +136,6 @@
         "author": "xylplm",
         "date": "2026-05-11 14:00:32",
         "message": "🔁 refactor: 优化 NAS 信息仪表盘组件的模板和样式结构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605101424",
-    "items": [
-      {
-        "commit": "0f17265ffb012d98d19fc8b87767571114dd93e9",
-        "author": "xylplm",
-        "date": "2026-05-10 14:23:50",
-        "message": "🔧 chore: 优化设置页面和工具页面的代码结构与样式"
-      },
-      {
-        "commit": "aa901f4f41b3719a69a1b41c60f63e7a2182f2c6",
-        "author": "xylplm",
-        "date": "2026-05-10 14:21:16",
-        "message": "🔁 refactor: 优化媒体详情对话框和云存储资源表组件，调整参数和修复导入顺序"
-      },
-      {
-        "commit": "40fc6cafa4b77446f0e57a9b5d40016cd278482b",
-        "author": "xylplm",
-        "date": "2026-05-10 14:06:45",
-        "message": "🔁 refactor: 优化 NAS 信息仪表盘组件，移除未使用的关闭方法和样式"
-      },
-      {
-        "commit": "17b32f66e7546a5b76203704725786c6369c80d7",
-        "author": "xylplm",
-        "date": "2026-05-10 13:55:26",
-        "message": "✨ feat: 新增 NAS 信息仪表盘组件及详情对话框"
       }
     ]
   }
