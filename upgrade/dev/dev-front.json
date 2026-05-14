@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605142339",
+    "items": [
+      {
+        "commit": "ed4dcb2871d0bc8cdcb6d398d310ccca93ce88dd",
+        "author": "liurongjie",
+        "date": "2026-05-14 23:38:39",
+        "message": "style(layout): 优化对话框头部和RSS表格工具栏布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605141816",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-05-12 16:37:01",
         "message": "fix: pve直通显示优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605121541",
-    "items": [
-      {
-        "commit": "6b410e2316b70f734009c9fb7d57704cc8a6f25c",
-        "author": "GateCross",
-        "date": "2026-05-12 15:40:33",
-        "message": "feat: pve svg"
       }
     ]
   }
