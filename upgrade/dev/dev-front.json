@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605141816",
+    "items": [
+      {
+        "commit": "1f23c879e345ada860b5de944693366152dd6971",
+        "author": "liurongjie",
+        "date": "2026-05-14 18:13:20",
+        "message": "docs(settings): 更新电视剧命名格式帮助文档"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605141433",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "GateCross",
         "date": "2026-05-12 15:40:33",
         "message": "feat: pve svg"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605120027",
-    "items": [
-      {
-        "commit": "a81335fbdbe365bf9a57389fa0a51d3b425f18de",
-        "author": "xylplm",
-        "date": "2026-05-12 00:22:27",
-        "message": "🔁 refactor: 优化 NAS 详情对话框，支持多 GPU 列表显示及相关字段调整"
-      },
-      {
-        "commit": "274e0fbea99556b0e795ca30da81196f8258cf77",
-        "author": "xylplm",
-        "date": "2026-05-11 23:49:28",
-        "message": "🔁 refactor: 优化 NAS 详情对话框，增加 UPS 支持及相关字段"
-      },
-      {
-        "commit": "4db20100298932d88ce852f5a81d104254eba49f",
-        "author": "xylplm",
-        "date": "2026-05-11 22:52:20",
-        "message": "🔁 refactor: 优化 NAS 实例切换控件的模板和样式结构"
       }
     ]
   }

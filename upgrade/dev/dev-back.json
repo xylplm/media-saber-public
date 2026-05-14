@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605141816",
+    "items": [
+      {
+        "commit": "2f44e524851d9f008ca734708814621d9fc0d19b",
+        "author": "liurongjie",
+        "date": "2026-05-14 18:15:44",
+        "message": "refactor(mediaserver): 重构 Plex 媒体服务器代码结构"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605141521",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-05-12 22:57:02",
         "message": "fix: pve服务优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605122226",
-    "items": [
-      {
-        "commit": "2788e2092eb08784097cd776cace24bf1b807c9e",
-        "author": "Jolc",
-        "date": "2026-05-12 22:24:58",
-        "message": "feat：绿联服务助手网速"
       }
     ]
   }
