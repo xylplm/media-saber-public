@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605141521",
+    "items": [
+      {
+        "commit": "22b5cf136b2f6e92ec756110be5f517dcc78c14b",
+        "author": "GateCross",
+        "date": "2026-05-14 15:20:27",
+        "message": "fix: 修复刷流 HASH 上报描述为空"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605141433",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "Jolc",
         "date": "2026-05-12 22:24:58",
         "message": "feat：绿联服务助手网速"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605122020",
-    "items": [
-      {
-        "commit": "67d85dde57a0a671bfd7638230d15dc6017be989",
-        "author": "Jolc",
-        "date": "2026-05-12 20:20:07",
-        "message": "feat：绿联服务助手系统消息"
       }
     ]
   }
