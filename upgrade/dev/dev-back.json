@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605141433",
+    "items": [
+      {
+        "commit": "28a45db5c6c1be303bf477306ecec011c7b6fb1f",
+        "author": "Jolc",
+        "date": "2026-05-14 14:29:22",
+        "message": "feat: add emby webhook config switch"
+      },
+      {
+        "commit": "4c791ce1e7310c12ad67e8845112ec0104bceac0",
+        "author": "xylplm",
+        "date": "2026-05-13 22:47:14",
+        "message": "✨ feat: 添加 NAS 状态查询功能，替代极空间系统状态"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605132349",
     "items": [
       {
@@ -107,23 +124,6 @@
         "author": "Jolc",
         "date": "2026-05-12 20:20:07",
         "message": "feat：绿联服务助手系统消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605121716",
-    "items": [
-      {
-        "commit": "b6dffb0c6f4edc0c6d6810d100e452cc85551d62",
-        "author": "Jolc",
-        "date": "2026-05-12 17:15:12",
-        "message": "feat：绿联服务助手 mpnews"
-      },
-      {
-        "commit": "3046dea8f0b634a37cc1edf93083662b2c9daecb",
-        "author": "xylplm",
-        "date": "2026-05-12 16:50:53",
-        "message": "feat ✨: 重构短剧削刮监控模块，优化站点处理器和搜索缓存"
       }
     ]
   }

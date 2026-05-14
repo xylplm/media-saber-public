@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605141433",
+    "items": [
+      {
+        "commit": "cef1cb45e745cfd5a46744d35279ace1f18cc6e5",
+        "author": "Jolc",
+        "date": "2026-05-14 14:29:22",
+        "message": "feat: expose emby webhook switch"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605131553",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-05-11 22:52:20",
         "message": "🔁 refactor: 优化 NAS 实例切换控件的模板和样式结构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605111650",
-    "items": [
-      {
-        "commit": "f54b38b82bddfee8d6e2d2130bce0404b5139d9d",
-        "author": "xylplm",
-        "date": "2026-05-11 14:00:32",
-        "message": "🔁 refactor: 优化 NAS 信息仪表盘组件的模板和样式结构"
       }
     ]
   }
