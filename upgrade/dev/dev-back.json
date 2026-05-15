@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151504",
+    "items": [
+      {
+        "commit": "37f33abe7cbca74e3132fb21119a2225ade5bff2",
+        "author": "liurongjie",
+        "date": "2026-05-15 15:02:08",
+        "message": "feat(nas): 添加群晖NAS服务助手功能（残血版）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151440",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-05-12 22:57:02",
         "message": "fix: pve服务优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605130006",
-    "items": [
-      {
-        "commit": "f8702785136f361290d9f3497e16d32364bee9f8",
-        "author": "xylplm",
-        "date": "2026-05-12 23:17:07",
-        "message": "feat ✨: 飞牛登录支持添加两步验证密钥支持，增强安全性"
       }
     ]
   }
