@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605160244",
+    "items": [
+      {
+        "commit": "eb6ca39c7b8e752bcd41730ae7dd292526b437d7",
+        "author": "liurongjie",
+        "date": "2026-05-16 02:44:09",
+        "message": "refactor(synology): 重构客户端实现以支持上下文和并发安全"
+      },
+      {
+        "commit": "9fa660225a3a048c02353f2c4b5f01425f50875b",
+        "author": "liurongjie",
+        "date": "2026-05-16 02:11:17",
+        "message": "refactor(plugin): 重构群晖服务助手系统概览显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605160124",
     "items": [
       {
@@ -95,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 17:38:15",
         "message": "refactor(nasInfo): 简化 Synology 数据转换逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151726",
-    "items": [
-      {
-        "commit": "8168f3d7d71cf746f1376c4364cf07c2d8d283a5",
-        "author": "liurongjie",
-        "date": "2026-05-15 17:25:59",
-        "message": "feat(synology): 添加网络流量监控并优化状态报告格式"
       }
     ]
   }
