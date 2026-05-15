@@ -48,8 +48,8 @@ COPY upgrade.sh /upgrade.sh
 
 RUN apk --no-cache add \
         tzdata \
-        nginx \
-        nginx-mod-http-js \
+        nginx~=1.30.1 \
+        nginx-mod-http-js~=1.30.1 \
         gettext \
         su-exec \
         bash \
