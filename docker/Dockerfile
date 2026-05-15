@@ -48,7 +48,7 @@ COPY upgrade.sh /upgrade.sh
 
 RUN apk --no-cache add \
         tzdata \
-        nginx~=1.30.1 \
+        nginx \
         gettext \
         su-exec \
         bash \
