@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151242",
+    "items": [
+      {
+        "commit": "ec0e90c283b59400fdd2fa2bb9c7136857e0602b",
+        "author": "liurongjie",
+        "date": "2026-05-15 12:42:03",
+        "message": "style(rss): 移除RSS工具栏操作样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605142339",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-05-12 17:54:22",
         "message": "✨ feat: 优化电影电视剧订阅合并为统一的订阅列表"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605121637",
-    "items": [
-      {
-        "commit": "4df8e1d378c22073847f334362a9eb4a15aa8caa",
-        "author": "GateCross",
-        "date": "2026-05-12 16:37:01",
-        "message": "fix: pve直通显示优化"
       }
     ]
   }
