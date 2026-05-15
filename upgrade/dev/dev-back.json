@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605151535",
+    "items": [
+      {
+        "commit": "12e88197acc439e6bfbe96f535967bee63bf2f37",
+        "author": "liurongjie",
+        "date": "2026-05-15 15:32:48",
+        "message": "refactor(plugin): 优化群晖插件配置处理逻辑"
+      },
+      {
+        "commit": "ff49d9b77d6f676bf4ad0243cf9693d0e1abb2f9",
+        "author": "Jolc",
+        "date": "2026-05-15 14:34:23",
+        "message": "fix(ugreen): 修复运行时长单位(秒非分钟)、网速fallback、系统消息POST方法"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151504",
     "items": [
       {
@@ -101,29 +118,6 @@
         "author": "allen",
         "date": "2026-05-13 15:33:15",
         "message": "feat: 添加 season_S02d、episode_E02d 两种名字格式化，方便自定义路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605130854",
-    "items": [
-      {
-        "commit": "9ef12f00c8c824e1414b199adedd1ef3db5aca29",
-        "author": "GateCross",
-        "date": "2026-05-13 08:52:09",
-        "message": "fix: 修复订阅推荐卡片"
-      },
-      {
-        "commit": "82ae0b194474e6500f0744ec6e7d8c8b7428fd28",
-        "author": "xylplm",
-        "date": "2026-05-13 00:36:07",
-        "message": "feat ✨: 优化极空间设备信息"
-      },
-      {
-        "commit": "744059123dbe6c3995d6ac08402afc8f94d6356b",
-        "author": "GateCross",
-        "date": "2026-05-12 22:57:02",
-        "message": "fix: pve服务优化"
       }
     ]
   }
