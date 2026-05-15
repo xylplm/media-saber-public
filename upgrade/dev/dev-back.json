@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151745",
+    "items": [
+      {
+        "commit": "da79805a8a0ac6d7f840d763f6b90454de3bd8c8",
+        "author": "liurongjie",
+        "date": "2026-05-15 17:38:15",
+        "message": "refactor(nasInfo): 简化 Synology 数据转换逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151726",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-05-13 23:47:19",
         "message": "feat: 刷流插件上报hash优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605132248",
-    "items": [
-      {
-        "commit": "4c791ce1e7310c12ad67e8845112ec0104bceac0",
-        "author": "xylplm",
-        "date": "2026-05-13 22:47:14",
-        "message": "✨ feat: 添加 NAS 状态查询功能，替代极空间系统状态"
       }
     ]
   }
