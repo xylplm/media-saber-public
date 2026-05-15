@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151900",
+    "items": [
+      {
+        "commit": "738fb233deff3a3bfc38fcd3f405d767ae2f9fbb",
+        "author": "liurongjie",
+        "date": "2026-05-15 18:59:17",
+        "message": "feat(synology): 添加磁盘信息并优化存储数据处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151832",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-05-14 18:15:44",
         "message": "refactor(mediaserver): 重构 Plex 媒体服务器代码结构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605141521",
-    "items": [
-      {
-        "commit": "22b5cf136b2f6e92ec756110be5f517dcc78c14b",
-        "author": "GateCross",
-        "date": "2026-05-14 15:20:27",
-        "message": "fix: 修复刷流 HASH 上报描述为空"
       }
     ]
   }
