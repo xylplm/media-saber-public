@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151759",
+    "items": [
+      {
+        "commit": "defb5c66fc7af606e8985ddb7084750cf54895cf",
+        "author": "liurongjie",
+        "date": "2026-05-15 17:58:41",
+        "message": "feat(nasInfo): 更新群晖系统信息获取功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151745",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "xylplm",
         "date": "2026-05-13 22:47:14",
         "message": "✨ feat: 添加 NAS 状态查询功能，替代极空间系统状态"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605132349",
-    "items": [
-      {
-        "commit": "d657c2801f7be56d1d211da7f0cd3648908f4595",
-        "author": "GateCross",
-        "date": "2026-05-13 23:47:19",
-        "message": "feat: 刷流插件上报hash优化"
       }
     ]
   }
