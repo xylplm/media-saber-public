@@ -1,4 +1,4 @@
-FROM alpine:3.22
+FROM alpine:3.23
 
 ARG TARGETARCH
 
@@ -49,7 +49,6 @@ COPY upgrade.sh /upgrade.sh
 RUN apk --no-cache add \
         tzdata \
         nginx~=1.30.1 \
-        nginx-mod-http-js~=1.30.1 \
         gettext \
         su-exec \
         bash \
