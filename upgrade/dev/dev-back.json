@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151726",
+    "items": [
+      {
+        "commit": "8168f3d7d71cf746f1376c4364cf07c2d8d283a5",
+        "author": "liurongjie",
+        "date": "2026-05-15 17:25:59",
+        "message": "feat(synology): 添加网络流量监控并优化状态报告格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151653",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "xylplm",
         "date": "2026-05-13 22:47:14",
         "message": "✨ feat: 添加 NAS 状态查询功能，替代极空间系统状态"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605131638",
-    "items": [
-      {
-        "commit": "d6a743e59217f37f82d624fc83cef41b8580e1aa",
-        "author": "allen",
-        "date": "2026-05-13 16:35:16",
-        "message": "feat: 添加 season_02d、episode_02d 两种名字格式化，方便自定义路径"
       }
     ]
   }
