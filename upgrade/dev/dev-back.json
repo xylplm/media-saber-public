@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151913",
+    "items": [
+      {
+        "commit": "61d0711ad6bbc4d5aab516a376d98eb3d818d7c1",
+        "author": "liurongjie",
+        "date": "2026-05-15 19:12:31",
+        "message": "fix(nasInfo): 修正群晖存储池和卷的磁盘使用量计算逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151900",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2026-05-15 14:34:23",
         "message": "fix(ugreen): 修复运行时长单位(秒非分钟)、网速fallback、系统消息POST方法"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605141816",
-    "items": [
-      {
-        "commit": "2f44e524851d9f008ca734708814621d9fc0d19b",
-        "author": "liurongjie",
-        "date": "2026-05-14 18:15:44",
-        "message": "refactor(mediaserver): 重构 Plex 媒体服务器代码结构"
       }
     ]
   }
