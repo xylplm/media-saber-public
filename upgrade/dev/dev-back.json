@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605151955",
+    "items": [
+      {
+        "commit": "5bed9f672fb00d09b4b079b5d089dd9dba99e67f",
+        "author": "liurongjie",
+        "date": "2026-05-15 19:54:53",
+        "message": "rename(plugin): 重命名插件文件并更新消息标题格式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151913",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 15:02:08",
         "message": "feat(nas): 添加群晖NAS服务助手功能（残血版）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151440",
-    "items": [
-      {
-        "commit": "ff49d9b77d6f676bf4ad0243cf9693d0e1abb2f9",
-        "author": "Jolc",
-        "date": "2026-05-15 14:34:23",
-        "message": "fix(ugreen): 修复运行时长单位(秒非分钟)、网速fallback、系统消息POST方法"
       }
     ]
   }
