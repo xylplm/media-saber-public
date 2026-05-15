@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605160124",
+    "items": [
+      {
+        "commit": "434ff35b3b9835f0dad676d6cdb1b175d832bc34",
+        "author": "liurongjie",
+        "date": "2026-05-16 01:24:23",
+        "message": "perf(synology): 优化群晖服务助手数据获取性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605160052",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 17:25:59",
         "message": "feat(synology): 添加网络流量监控并优化状态报告格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151653",
-    "items": [
-      {
-        "commit": "82e84c348ad3ec09c5832c4022ca175886c8ce4d",
-        "author": "liurongjie",
-        "date": "2026-05-15 16:52:42",
-        "message": "feat(synology): 添加 HTTPS 支持和系统资源监控功能"
       }
     ]
   }
