@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605152032",
+    "items": [
+      {
+        "commit": "8c85295ff69a26b6242395e125968df0b5b5e4c2",
+        "author": "liurongjie",
+        "date": "2026-05-15 20:31:58",
+        "message": "refactor(synology): 重构存储池和卷的数据结构及信息展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605151955",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "Jolc",
         "date": "2026-05-15 14:34:23",
         "message": "fix(ugreen): 修复运行时长单位(秒非分钟)、网速fallback、系统消息POST方法"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151504",
-    "items": [
-      {
-        "commit": "37f33abe7cbca74e3132fb21119a2225ade5bff2",
-        "author": "liurongjie",
-        "date": "2026-05-15 15:02:08",
-        "message": "feat(nas): 添加群晖NAS服务助手功能（残血版）"
       }
     ]
   }
