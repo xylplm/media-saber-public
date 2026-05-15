@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605160052",
+    "items": [
+      {
+        "commit": "753d2369ffca0110bad7b856a1a7414e02ec0772",
+        "author": "liurongjie",
+        "date": "2026-05-16 00:51:35",
+        "message": "refactor(plugin): 重构群晖服务助手插件逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605152032",
     "items": [
       {
@@ -95,23 +106,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 16:52:42",
         "message": "feat(synology): 添加 HTTPS 支持和系统资源监控功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151535",
-    "items": [
-      {
-        "commit": "12e88197acc439e6bfbe96f535967bee63bf2f37",
-        "author": "liurongjie",
-        "date": "2026-05-15 15:32:48",
-        "message": "refactor(plugin): 优化群晖插件配置处理逻辑"
-      },
-      {
-        "commit": "ff49d9b77d6f676bf4ad0243cf9693d0e1abb2f9",
-        "author": "Jolc",
-        "date": "2026-05-15 14:34:23",
-        "message": "fix(ugreen): 修复运行时长单位(秒非分钟)、网速fallback、系统消息POST方法"
       }
     ]
   }
