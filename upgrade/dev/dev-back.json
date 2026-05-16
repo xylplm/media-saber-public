@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605161607",
+    "items": [
+      {
+        "commit": "e11569f453b37ef89b162baf6e99ec01266055bb",
+        "author": "liurongjie",
+        "date": "2026-05-16 16:06:24",
+        "message": "feat(synology): 优化群晖客户端实现增加会话缓存和批量请求支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605160827",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 18:32:01",
         "message": "feat(synology): 添加网络信息获取功能并优化存储池数据显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151759",
-    "items": [
-      {
-        "commit": "defb5c66fc7af606e8985ddb7084750cf54895cf",
-        "author": "liurongjie",
-        "date": "2026-05-15 17:58:41",
-        "message": "feat(nasInfo): 更新群晖系统信息获取功能"
       }
     ]
   }
