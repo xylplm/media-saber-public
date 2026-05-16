@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605161621",
+    "items": [
+      {
+        "commit": "4152d3f8407d7e47e839deb8ba1acea32ba93447",
+        "author": "liurongjie",
+        "date": "2026-05-16 16:20:52",
+        "message": "refactor(plugin): 调整群晖服务助手网络状态显示逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605161607",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 18:59:17",
         "message": "feat(synology): 添加磁盘信息并优化存储数据处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151832",
-    "items": [
-      {
-        "commit": "aa8066f711f604c48c44efc741b91536c878fb75",
-        "author": "liurongjie",
-        "date": "2026-05-15 18:32:01",
-        "message": "feat(synology): 添加网络信息获取功能并优化存储池数据显示"
       }
     ]
   }
