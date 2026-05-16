@@ -1,5 +1,130 @@
 [
   {
+    "version": "DEV_202605160827",
+    "items": [
+      {
+        "commit": "8c85295ff69a26b6242395e125968df0b5b5e4c2",
+        "author": "liurongjie",
+        "date": "2026-05-15 20:31:58",
+        "message": "refactor(synology): 重构存储池和卷的数据结构及信息展示"
+      },
+      {
+        "commit": "5bed9f672fb00d09b4b079b5d089dd9dba99e67f",
+        "author": "liurongjie",
+        "date": "2026-05-15 19:54:53",
+        "message": "rename(plugin): 重命名插件文件并更新消息标题格式"
+      },
+      {
+        "commit": "61d0711ad6bbc4d5aab516a376d98eb3d818d7c1",
+        "author": "liurongjie",
+        "date": "2026-05-15 19:12:31",
+        "message": "fix(nasInfo): 修正群晖存储池和卷的磁盘使用量计算逻辑"
+      },
+      {
+        "commit": "738fb233deff3a3bfc38fcd3f405d767ae2f9fbb",
+        "author": "liurongjie",
+        "date": "2026-05-15 18:59:17",
+        "message": "feat(synology): 添加磁盘信息并优化存储数据处理"
+      },
+      {
+        "commit": "aa8066f711f604c48c44efc741b91536c878fb75",
+        "author": "liurongjie",
+        "date": "2026-05-15 18:32:01",
+        "message": "feat(synology): 添加网络信息获取功能并优化存储池数据显示"
+      },
+      {
+        "commit": "defb5c66fc7af606e8985ddb7084750cf54895cf",
+        "author": "liurongjie",
+        "date": "2026-05-15 17:58:41",
+        "message": "feat(nasInfo): 更新群晖系统信息获取功能"
+      },
+      {
+        "commit": "da79805a8a0ac6d7f840d763f6b90454de3bd8c8",
+        "author": "liurongjie",
+        "date": "2026-05-15 17:38:15",
+        "message": "refactor(nasInfo): 简化 Synology 数据转换逻辑"
+      },
+      {
+        "commit": "8168f3d7d71cf746f1376c4364cf07c2d8d283a5",
+        "author": "liurongjie",
+        "date": "2026-05-15 17:25:59",
+        "message": "feat(synology): 添加网络流量监控并优化状态报告格式"
+      },
+      {
+        "commit": "82e84c348ad3ec09c5832c4022ca175886c8ce4d",
+        "author": "liurongjie",
+        "date": "2026-05-15 16:52:42",
+        "message": "feat(synology): 添加 HTTPS 支持和系统资源监控功能"
+      },
+      {
+        "commit": "12e88197acc439e6bfbe96f535967bee63bf2f37",
+        "author": "liurongjie",
+        "date": "2026-05-15 15:32:48",
+        "message": "refactor(plugin): 优化群晖插件配置处理逻辑"
+      },
+      {
+        "commit": "37f33abe7cbca74e3132fb21119a2225ade5bff2",
+        "author": "liurongjie",
+        "date": "2026-05-15 15:02:08",
+        "message": "feat(nas): 添加群晖NAS服务助手功能（残血版）"
+      },
+      {
+        "commit": "ff49d9b77d6f676bf4ad0243cf9693d0e1abb2f9",
+        "author": "Jolc",
+        "date": "2026-05-15 14:34:23",
+        "message": "fix(ugreen): 修复运行时长单位(秒非分钟)、网速fallback、系统消息POST方法"
+      },
+      {
+        "commit": "2f44e524851d9f008ca734708814621d9fc0d19b",
+        "author": "liurongjie",
+        "date": "2026-05-14 18:15:44",
+        "message": "refactor(mediaserver): 重构 Plex 媒体服务器代码结构"
+      },
+      {
+        "commit": "22b5cf136b2f6e92ec756110be5f517dcc78c14b",
+        "author": "GateCross",
+        "date": "2026-05-14 15:20:27",
+        "message": "fix: 修复刷流 HASH 上报描述为空"
+      },
+      {
+        "commit": "28a45db5c6c1be303bf477306ecec011c7b6fb1f",
+        "author": "Jolc",
+        "date": "2026-05-14 14:29:22",
+        "message": "feat: add emby webhook config switch"
+      },
+      {
+        "commit": "d657c2801f7be56d1d211da7f0cd3648908f4595",
+        "author": "GateCross",
+        "date": "2026-05-13 23:47:19",
+        "message": "feat: 刷流插件上报hash优化"
+      },
+      {
+        "commit": "4c791ce1e7310c12ad67e8845112ec0104bceac0",
+        "author": "xylplm",
+        "date": "2026-05-13 22:47:14",
+        "message": "✨ feat: 添加 NAS 状态查询功能，替代极空间系统状态"
+      },
+      {
+        "commit": "d6a743e59217f37f82d624fc83cef41b8580e1aa",
+        "author": "allen",
+        "date": "2026-05-13 16:35:16",
+        "message": "feat: 添加 season_02d、episode_02d 两种名字格式化，方便自定义路径"
+      },
+      {
+        "commit": "e3810c9e886596d2ae4f599a20abf1d2e36b726c",
+        "author": "allen",
+        "date": "2026-05-13 15:33:15",
+        "message": "feat: 添加 season_S02d、episode_E02d 两种名字格式化，方便自定义路径"
+      },
+      {
+        "commit": "9ef12f00c8c824e1414b199adedd1ef3db5aca29",
+        "author": "GateCross",
+        "date": "2026-05-13 08:52:09",
+        "message": "fix: 修复订阅推荐卡片"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605160244",
     "items": [
       {
@@ -101,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 17:58:41",
         "message": "feat(nasInfo): 更新群晖系统信息获取功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151745",
-    "items": [
-      {
-        "commit": "da79805a8a0ac6d7f840d763f6b90454de3bd8c8",
-        "author": "liurongjie",
-        "date": "2026-05-15 17:38:15",
-        "message": "refactor(nasInfo): 简化 Synology 数据转换逻辑"
       }
     ]
   }
