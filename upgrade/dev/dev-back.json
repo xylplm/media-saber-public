@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605171751",
+    "items": [
+      {
+        "commit": "eadb2b4d38a84256eac08814c9a6bfff5a646742",
+        "author": "xylplm",
+        "date": "2026-05-17 17:50:15",
+        "message": "feat ✨: 添加旧版识别词数据迁移功能及相关接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605171253",
     "items": [
       {
@@ -329,17 +340,6 @@
         "author": "liurongjie",
         "date": "2026-05-16 01:24:23",
         "message": "perf(synology): 优化群晖服务助手数据获取性能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605160052",
-    "items": [
-      {
-        "commit": "753d2369ffca0110bad7b856a1a7414e02ec0772",
-        "author": "liurongjie",
-        "date": "2026-05-16 00:51:35",
-        "message": "refactor(plugin): 重构群晖服务助手插件逻辑"
       }
     ]
   }

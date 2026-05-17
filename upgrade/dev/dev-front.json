@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605171751",
+    "items": [
+      {
+        "commit": "cf0fd53af54cd544ea78567816816d69331956eb",
+        "author": "xylplm",
+        "date": "2026-05-17 17:50:48",
+        "message": "✨ feat: 在本地识别词列表中添加迁移旧版数据功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605171102",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "xylplm",
         "date": "2026-05-12 17:54:22",
         "message": "✨ feat: 优化电影电视剧订阅合并为统一的订阅列表"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605130006",
-    "items": [
-      {
-        "commit": "4df8e1d378c22073847f334362a9eb4a15aa8caa",
-        "author": "GateCross",
-        "date": "2026-05-12 16:37:01",
-        "message": "fix: pve直通显示优化"
-      },
-      {
-        "commit": "6b410e2316b70f734009c9fb7d57704cc8a6f25c",
-        "author": "GateCross",
-        "date": "2026-05-12 15:40:33",
-        "message": "feat: pve svg"
       }
     ]
   }
