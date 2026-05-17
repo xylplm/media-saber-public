@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605172348",
+    "items": [
+      {
+        "commit": "44843ece6ec94bcbab181c23bcee0e49c634d5bc",
+        "author": "liurongjie",
+        "date": "2026-05-17 23:48:17",
+        "message": "refactor(synology): 优化群晖客户端登录和请求逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605172145",
     "items": [
       {
@@ -323,23 +334,6 @@
         "author": "GateCross",
         "date": "2026-05-13 08:52:09",
         "message": "fix: 修复订阅推荐卡片"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605160244",
-    "items": [
-      {
-        "commit": "eb6ca39c7b8e752bcd41730ae7dd292526b437d7",
-        "author": "liurongjie",
-        "date": "2026-05-16 02:44:09",
-        "message": "refactor(synology): 重构客户端实现以支持上下文和并发安全"
-      },
-      {
-        "commit": "9fa660225a3a048c02353f2c4b5f01425f50875b",
-        "author": "liurongjie",
-        "date": "2026-05-16 02:11:17",
-        "message": "refactor(plugin): 重构群晖服务助手系统概览显示"
       }
     ]
   }
