@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605172145",
+    "items": [
+      {
+        "commit": "8e47e16597b3010729d6a071ed5e2866264a74a6",
+        "author": "liurongjie",
+        "date": "2026-05-17 21:44:11",
+        "message": "refactor(synology): 优化群晖客户端登录和会话管理机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605171751",
     "items": [
       {
@@ -329,17 +340,6 @@
         "author": "liurongjie",
         "date": "2026-05-16 02:11:17",
         "message": "refactor(plugin): 重构群晖服务助手系统概览显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605160124",
-    "items": [
-      {
-        "commit": "434ff35b3b9835f0dad676d6cdb1b175d832bc34",
-        "author": "liurongjie",
-        "date": "2026-05-16 01:24:23",
-        "message": "perf(synology): 优化群晖服务助手数据获取性能"
       }
     ]
   }
