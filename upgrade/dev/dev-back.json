@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605171102",
+    "items": [
+      {
+        "commit": "6c39ac751fb4b48933035cbb8d77bd330887cd7d",
+        "author": "xylplm",
+        "date": "2026-05-17 00:52:06",
+        "message": "feat ✨: 全新社区化的识别词共享！识别词可以自由共享传统无阻碍，打破传统束缚！识别词模块全面重构"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605161621",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 19:12:31",
         "message": "fix(nasInfo): 修正群晖存储池和卷的磁盘使用量计算逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151900",
-    "items": [
-      {
-        "commit": "738fb233deff3a3bfc38fcd3f405d767ae2f9fbb",
-        "author": "liurongjie",
-        "date": "2026-05-15 18:59:17",
-        "message": "feat(synology): 添加磁盘信息并优化存储数据处理"
       }
     ]
   }
