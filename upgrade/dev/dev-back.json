@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605171253",
+    "items": [
+      {
+        "commit": "492fca8e0190cff4acd49f8b56511085c1bf4630",
+        "author": "xylplm",
+        "date": "2026-05-17 12:51:42",
+        "message": "fix 🐛: 添加标题约束以避免生成无效词组"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605171245",
     "items": [
       {
@@ -329,17 +340,6 @@
         "author": "liurongjie",
         "date": "2026-05-16 00:51:35",
         "message": "refactor(plugin): 重构群晖服务助手插件逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605152032",
-    "items": [
-      {
-        "commit": "8c85295ff69a26b6242395e125968df0b5b5e4c2",
-        "author": "liurongjie",
-        "date": "2026-05-15 20:31:58",
-        "message": "refactor(synology): 重构存储池和卷的数据结构及信息展示"
       }
     ]
   }
