@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605171245",
+    "items": [
+      {
+        "commit": "9b2e2fee1c71b606e435b42d1e377dc8a89b8945",
+        "author": "xylplm",
+        "date": "2026-05-17 12:45:09",
+        "message": "feat ✨: 优化 CsHashReportService 提交流程，复用创建端点以简化更新逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605171230",
     "items": [
       {
@@ -329,17 +340,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 20:31:58",
         "message": "refactor(synology): 重构存储池和卷的数据结构及信息展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151955",
-    "items": [
-      {
-        "commit": "5bed9f672fb00d09b4b079b5d089dd9dba99e67f",
-        "author": "liurongjie",
-        "date": "2026-05-15 19:54:53",
-        "message": "rename(plugin): 重命名插件文件并更新消息标题格式"
       }
     ]
   }
