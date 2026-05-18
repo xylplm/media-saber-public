@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202605190007",
+    "items": [
+      {
+        "commit": "cbbae7bc12b75436c6759b816db8fc9a8bea3377",
+        "author": "liurongjie",
+        "date": "2026-05-19 00:06:25",
+        "message": "feat(unraid): 扩展Unraid客户端以支持更多系统信息"
+      },
+      {
+        "commit": "6fbd5ec98e7e162a573bca27eab6621050480217",
+        "author": "liurongjie",
+        "date": "2026-05-18 23:14:45",
+        "message": "refactor(unraid): 重构Unraid客户端数据结构和查询方式"
+      },
+      {
+        "commit": "24f9ebe2c6819ea5e10d4d080473da4aec581c86",
+        "author": "allen",
+        "date": "2026-05-18 19:40:18",
+        "message": "feat(system): 优化升级消息，减少消息干扰"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605181837",
     "items": [
       {
@@ -101,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-05-17 17:50:15",
         "message": "feat ✨: 添加旧版识别词数据迁移功能及相关接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605171253",
-    "items": [
-      {
-        "commit": "492fca8e0190cff4acd49f8b56511085c1bf4630",
-        "author": "xylplm",
-        "date": "2026-05-17 12:51:42",
-        "message": "fix 🐛: 添加标题约束以避免生成无效词组"
       }
     ]
   }
