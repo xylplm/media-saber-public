@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605181637",
+    "items": [
+      {
+        "commit": "162f6811502b3bc9faf40645f0aeed7f2c86b705",
+        "author": "liurongjie",
+        "date": "2026-05-18 16:36:48",
+        "message": "feat(unraid): 重构 Unraid 客户端实现并优化数据结构 （未测试）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605181549",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "xylplm",
         "date": "2026-05-17 00:52:06",
         "message": "feat ✨: 全新社区化的识别词共享！识别词可以自由共享传统无阻碍，打破传统束缚！识别词模块全面重构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605161621",
-    "items": [
-      {
-        "commit": "4152d3f8407d7e47e839deb8ba1acea32ba93447",
-        "author": "liurongjie",
-        "date": "2026-05-16 16:20:52",
-        "message": "refactor(plugin): 调整群晖服务助手网络状态显示逻辑"
       }
     ]
   }
