@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605181549",
+    "items": [
+      {
+        "commit": "e0e4bdc0a4bf42e3f8a9e0beb3f725fd4d5968d1",
+        "author": "liurongjie",
+        "date": "2026-05-18 15:48:32",
+        "message": "refactor(unraid): 将客户端认证方式从用户名密码改为API密钥（待测试）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605181155",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "liurongjie",
         "date": "2026-05-16 16:20:52",
         "message": "refactor(plugin): 调整群晖服务助手网络状态显示逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605161607",
-    "items": [
-      {
-        "commit": "e11569f453b37ef89b162baf6e99ec01266055bb",
-        "author": "liurongjie",
-        "date": "2026-05-16 16:06:24",
-        "message": "feat(synology): 优化群晖客户端实现增加会话缓存和批量请求支持"
       }
     ]
   }
