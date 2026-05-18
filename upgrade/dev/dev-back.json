@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605181837",
+    "items": [
+      {
+        "commit": "cf30d63a1cc43789a6fb084a08a77b8761adc8e2",
+        "author": "liurongjie",
+        "date": "2026-05-18 18:37:15",
+        "message": "feat(unraid): 重构 Unraid 客户端实现并优化数据结构 （未测试）"
+      },
+      {
+        "commit": "1f949c57d671e2596c65abd209e0d3dd291f7e9e",
+        "author": "xylplm",
+        "date": "2026-05-18 17:09:03",
+        "message": "✨ feat: 优化旧版识别词数据迁移逻辑，增加对本地自定义数据的检查"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605181739",
     "items": [
       {
@@ -95,17 +112,6 @@
         "author": "xylplm",
         "date": "2026-05-17 12:51:42",
         "message": "fix 🐛: 添加标题约束以避免生成无效词组"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605171245",
-    "items": [
-      {
-        "commit": "9b2e2fee1c71b606e435b42d1e377dc8a89b8945",
-        "author": "xylplm",
-        "date": "2026-05-17 12:45:09",
-        "message": "feat ✨: 优化 CsHashReportService 提交流程，复用创建端点以简化更新逻辑"
       }
     ]
   }
