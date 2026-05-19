@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202605192326",
+    "items": [
+      {
+        "commit": "25eead3f56f7a8c4be87b4cf0994281d9e73f5b0",
+        "author": "liurongjie",
+        "date": "2026-05-19 23:23:36",
+        "message": "fix(qnap): 修复QNAP客户端登录和数据解析问题"
+      },
+      {
+        "commit": "d3b74e42459d19023b68c0b6c7f7e4104551a99d",
+        "author": "xylplm",
+        "date": "2026-05-19 18:58:11",
+        "message": "fix 🐛: 优化推送成功后本地状态更新失败的错误处理"
+      },
+      {
+        "commit": "bb8004e1ba71da4d3a4729c1b1b4b4fa23ee4421",
+        "author": "xylplm",
+        "date": "2026-05-19 18:37:22",
+        "message": "fix 🐛: 识别词推送修复合并成功后本地回写失败的错误提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605191801",
     "items": [
       {
@@ -119,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-05-18 11:54:59",
         "message": "feat(nas): 添加威联通和Unraid NAS支持（没设备未经过测试）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605172348",
-    "items": [
-      {
-        "commit": "44843ece6ec94bcbab181c23bcee0e49c634d5bc",
-        "author": "liurongjie",
-        "date": "2026-05-17 23:48:17",
-        "message": "refactor(synology): 优化群晖客户端登录和请求逻辑"
       }
     ]
   }
