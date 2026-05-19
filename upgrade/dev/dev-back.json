@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605191801",
+    "items": [
+      {
+        "commit": "aef920d905c491718382818f140cbfabf94d3973",
+        "author": "xylplm",
+        "date": "2026-05-19 17:49:00",
+        "message": "feat ✨: 更新插件定义描述，增强可读性和功能说明"
+      },
+      {
+        "commit": "2072cb5fdc6630d90ef16b4f735776941c80140f",
+        "author": "xylplm",
+        "date": "2026-05-19 17:28:10",
+        "message": "feat ✨: 新增插件实例管理功能，包括启用/禁用、排序和使用记录上报"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605191406",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-05-17 23:48:17",
         "message": "refactor(synology): 优化群晖客户端登录和请求逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605172145",
-    "items": [
-      {
-        "commit": "8e47e16597b3010729d6a071ed5e2866264a74a6",
-        "author": "liurongjie",
-        "date": "2026-05-17 21:44:11",
-        "message": "refactor(synology): 优化群晖客户端登录和会话管理机制"
       }
     ]
   }

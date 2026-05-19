@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605191801",
+    "items": [
+      {
+        "commit": "c8779a4586018ec1cc042807582f42ea16925037",
+        "author": "xylplm",
+        "date": "2026-05-19 17:35:46",
+        "message": "🔁 refactor: 优化工具库模块中的类型定义与测试用例"
+      },
+      {
+        "commit": "94cdaf842886f10219a043fa2f3452f454699757",
+        "author": "xylplm",
+        "date": "2026-05-19 17:27:16",
+        "message": "✨ feat: 修仙秘籍页面全面重构，全新用户体验重磅来袭！心头好模式，梦萦收藏，分类流派和榜单。搜索过滤，秘籍详情 应有尽有"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605191546",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "Jolc",
         "date": "2026-05-14 14:29:22",
         "message": "feat: expose emby webhook switch"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605131553",
-    "items": [
-      {
-        "commit": "b6b9b1c398cbf9852745518b34a2d4dc5c79e024",
-        "author": "xylplm",
-        "date": "2026-05-13 13:30:05",
-        "message": "🔁 refactor: 优化目录文件模块的搜索框和路径管理逻辑"
       }
     ]
   }
