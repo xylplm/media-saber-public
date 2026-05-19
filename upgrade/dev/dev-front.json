@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605191546",
+    "items": [
+      {
+        "commit": "213a1c74402d76c3bb8186c98018a75c6a8f16f0",
+        "author": "liurongjie",
+        "date": "2026-05-19 15:44:21",
+        "message": "refactor(tmdb-autosuggest-input): 移除左侧封面并修改候选数量限制"
+      },
+      {
+        "commit": "364a2fedc4dd675c43f387ec4470af84751fac58",
+        "author": "liurongjie",
+        "date": "2026-05-19 15:41:22",
+        "message": "add plugin icon"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605171751",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "xylplm",
         "date": "2026-05-13 13:30:05",
         "message": "🔁 refactor: 优化目录文件模块的搜索框和路径管理逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605130854",
-    "items": [
-      {
-        "commit": "da5be45266086c7b8a554b9e78587103a74380b0",
-        "author": "xylplm",
-        "date": "2026-05-13 00:19:22",
-        "message": "🔁 refactor: 优化 NAS 详情对话框网络速率显示格式"
-      },
-      {
-        "commit": "94d06b485e6b4c83a2291ac57ba8dce97557f629",
-        "author": "xylplm",
-        "date": "2026-05-12 17:54:22",
-        "message": "✨ feat: 优化电影电视剧订阅合并为统一的订阅列表"
       }
     ]
   }
