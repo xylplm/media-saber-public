@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605191808",
+    "items": [
+      {
+        "commit": "1cfaa9b95745d476dcf8a0802e1909c0afb47b8f",
+        "author": "xylplm",
+        "date": "2026-05-19 18:07:37",
+        "message": "✨ feat: 更新插件开关描述，优化用户体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605191801",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-05-14 18:13:20",
         "message": "docs(settings): 更新电视剧命名格式帮助文档"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605141433",
-    "items": [
-      {
-        "commit": "cef1cb45e745cfd5a46744d35279ace1f18cc6e5",
-        "author": "Jolc",
-        "date": "2026-05-14 14:29:22",
-        "message": "feat: expose emby webhook switch"
       }
     ]
   }
