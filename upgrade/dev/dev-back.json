@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605191406",
+    "items": [
+      {
+        "commit": "abdd1534d58b79372ee9c14efec39b33750ee7d8",
+        "author": "Jolc",
+        "date": "2026-05-19 14:05:48",
+        "message": "fix(115-sdk): 用 singleflight 合并并发 token 刷新避免触发流控"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605190007",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-05-17 21:44:11",
         "message": "refactor(synology): 优化群晖客户端登录和会话管理机制"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605171751",
-    "items": [
-      {
-        "commit": "eadb2b4d38a84256eac08814c9a6bfff5a646742",
-        "author": "xylplm",
-        "date": "2026-05-17 17:50:15",
-        "message": "feat ✨: 添加旧版识别词数据迁移功能及相关接口"
       }
     ]
   }
