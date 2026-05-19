@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202605200014",
+    "items": [
+      {
+        "commit": "7b963a481498fe0603dc0ea8a6a10f7f4de19423",
+        "author": "liurongjie",
+        "date": "2026-05-20 00:13:39",
+        "message": "feat(unraid): 完善 Unraid 客户端功能并添加状态告警"
+      },
+      {
+        "commit": "6a73b83f9d085e51e7413e77801e4bcf22340aad",
+        "author": "xylplm",
+        "date": "2026-05-19 23:38:17",
+        "message": "fix 🐛: 修复识别词合并错误"
+      },
+      {
+        "commit": "d3b74e42459d19023b68c0b6c7f7e4104551a99d",
+        "author": "xylplm",
+        "date": "2026-05-19 18:58:11",
+        "message": "fix 🐛: 优化推送成功后本地状态更新失败的错误处理"
+      },
+      {
+        "commit": "bb8004e1ba71da4d3a4729c1b1b4b4fa23ee4421",
+        "author": "xylplm",
+        "date": "2026-05-19 18:37:22",
+        "message": "fix 🐛: 识别词推送修复合并成功后本地回写失败的错误提示"
+      },
+      {
+        "commit": "aef920d905c491718382818f140cbfabf94d3973",
+        "author": "xylplm",
+        "date": "2026-05-19 17:49:00",
+        "message": "feat ✨: 更新插件定义描述，增强可读性和功能说明"
+      },
+      {
+        "commit": "2072cb5fdc6630d90ef16b4f735776941c80140f",
+        "author": "xylplm",
+        "date": "2026-05-19 17:28:10",
+        "message": "feat ✨: 新增插件实例管理功能，包括启用/禁用、排序和使用记录上报"
+      },
+      {
+        "commit": "abdd1534d58b79372ee9c14efec39b33750ee7d8",
+        "author": "Jolc",
+        "date": "2026-05-19 14:05:48",
+        "message": "fix(115-sdk): 用 singleflight 合并并发 token 刷新避免触发流控"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605192326",
     "items": [
       {
@@ -131,17 +178,6 @@
         "author": "liurongjie",
         "date": "2026-05-18 15:48:32",
         "message": "refactor(unraid): 将客户端认证方式从用户名密码改为API密钥（待测试）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605181155",
-    "items": [
-      {
-        "commit": "73c369f1fedd8bfd363a95ad1738ac0e04cad658",
-        "author": "liurongjie",
-        "date": "2026-05-18 11:54:59",
-        "message": "feat(nas): 添加威联通和Unraid NAS支持（没设备未经过测试）"
       }
     ]
   }
