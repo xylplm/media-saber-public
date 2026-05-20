@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605201324",
+    "items": [
+      {
+        "commit": "370ed0c08fe45a9aa67a066997e922bbac2eb59c",
+        "author": "xylplm",
+        "date": "2026-05-20 13:23:55",
+        "message": "🔁 refactor: 优化屏幕断点定义，消除死区并调整媒体查询条件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201054",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 12:42:03",
         "message": "style(rss): 移除RSS工具栏操作样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605142339",
-    "items": [
-      {
-        "commit": "ed4dcb2871d0bc8cdcb6d398d310ccca93ce88dd",
-        "author": "liurongjie",
-        "date": "2026-05-14 23:38:39",
-        "message": "style(layout): 优化对话框头部和RSS表格工具栏布局"
       }
     ]
   }

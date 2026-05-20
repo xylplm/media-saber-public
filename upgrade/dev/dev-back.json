@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605201324",
+    "items": [
+      {
+        "commit": "baa3457fc2602308c4fb275e296c5950e7b79a08",
+        "author": "xylplm",
+        "date": "2026-05-20 13:17:26",
+        "message": "feat ✨: 识别词相关接口添加正则表达式语法校验功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201054",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "xylplm",
         "date": "2026-05-18 17:09:03",
         "message": "✨ feat: 优化旧版识别词数据迁移逻辑，增加对本地自定义数据的检查"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605181637",
-    "items": [
-      {
-        "commit": "162f6811502b3bc9faf40645f0aeed7f2c86b705",
-        "author": "liurongjie",
-        "date": "2026-05-18 16:36:48",
-        "message": "feat(unraid): 重构 Unraid 客户端实现并优化数据结构 （未测试）"
       }
     ]
   }
