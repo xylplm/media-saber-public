@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605201821",
+    "items": [
+      {
+        "commit": "a0fce20810bd181e13c1b258f58283f786d3b139",
+        "author": "xylplm",
+        "date": "2026-05-20 18:20:39",
+        "message": "🔁 refactor: 菜单“手动识别”名称更改为“失败列表”"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201814",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "liurongjie",
         "date": "2026-05-19 15:41:22",
         "message": "add plugin icon"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605171751",
-    "items": [
-      {
-        "commit": "cf0fd53af54cd544ea78567816816d69331956eb",
-        "author": "xylplm",
-        "date": "2026-05-17 17:50:48",
-        "message": "✨ feat: 在本地识别词列表中添加迁移旧版数据功能"
       }
     ]
   }
