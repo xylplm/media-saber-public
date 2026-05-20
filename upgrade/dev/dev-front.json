@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202605201752",
+    "items": [
+      {
+        "commit": "3c4eabde39cb906d16b67fd44467b94d18478b6b",
+        "author": "xylplm",
+        "date": "2026-05-20 17:46:16",
+        "message": "✨ feat: 媒体整理历史模块增加浮动批量操作条组件，优化用户操作体验"
+      },
+      {
+        "commit": "ae65b9a17e8d2aadf1188aa4177048c84a0d0288",
+        "author": "xylplm",
+        "date": "2026-05-20 17:46:02",
+        "message": "add ➕: 新增前端规范文档，定义技术栈与组件使用规范"
+      },
+      {
+        "commit": "528183d63493af96cc5abe88c9f74e348f637832",
+        "author": "xylplm",
+        "date": "2026-05-20 17:25:23",
+        "message": "✨ feat: 增加通用批量操作浮动条组件，统一批量操作体验"
+      },
+      {
+        "commit": "98e5559918bfd6ab9d9f72104a26ebc27c11f257",
+        "author": "xylplm",
+        "date": "2026-05-20 16:32:42",
+        "message": "🔁 refactor: 优化升级版本消息提示内容，提升用户体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201624",
     "items": [
       {
@@ -179,17 +208,6 @@
         "author": "Jolc",
         "date": "2026-05-16 23:39:26",
         "message": "feat(rss): 优化订阅列表工具栏和操作菜单"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151745",
-    "items": [
-      {
-        "commit": "861567e0fd4600748710649202148f62c531424c",
-        "author": "liurongjie",
-        "date": "2026-05-15 17:44:58",
-        "message": "remove(asset): 更新Synology logo"
       }
     ]
   }
