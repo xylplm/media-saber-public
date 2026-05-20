@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605201814",
+    "items": [
+      {
+        "commit": "d647d71b2e67777ccad1abc7c34d682b8ec85e7a",
+        "author": "xylplm",
+        "date": "2026-05-20 18:13:53",
+        "message": "✨ feat: 媒体整理手动识别增加浮动批量操作条，优化用户操作体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201752",
     "items": [
       {
@@ -161,53 +172,6 @@
         "author": "xylplm",
         "date": "2026-05-17 17:50:48",
         "message": "✨ feat: 在本地识别词列表中添加迁移旧版数据功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605171102",
-    "items": [
-      {
-        "commit": "28c77ef1be55844e0523270db8a1ee053cbcabe3",
-        "author": "xylplm",
-        "date": "2026-05-17 02:08:08",
-        "message": "✨ feat: tmdb-autosuggest-input 组件重构，优化搜索建议功能"
-      },
-      {
-        "commit": "7f1d2aeae62eb75792aa325cc73fd44650965972",
-        "author": "xylplm",
-        "date": "2026-05-17 01:49:04",
-        "message": "🔁 refactor: 优化识别词模块中多个组件的逻辑与类型检查"
-      },
-      {
-        "commit": "a4361c22597feba2fed82172f1fde7624a05456a",
-        "author": "xylplm",
-        "date": "2026-05-17 01:42:00",
-        "message": "🔁 refactor: 优化 tmdb 自动建议输入组件的样式和 tooltip 逻辑"
-      },
-      {
-        "commit": "125312d6ac0e627452a6bc47a55ac7e2ebb0b898",
-        "author": "xylplm",
-        "date": "2026-05-17 00:57:38",
-        "message": "🔁 refactor: 识别词前端页面全面重构"
-      },
-      {
-        "commit": "aa2a9b1513f49221ca2cffb5851e2dc41af017f7",
-        "author": "xylplm",
-        "date": "2026-05-17 00:57:13",
-        "message": "🔁 refactor: 识别词前端页面全面重构"
-      },
-      {
-        "commit": "84b2ca19e4d5c32b459dd24e1e55bce85ac29816",
-        "author": "Jolc",
-        "date": "2026-05-16 23:54:47",
-        "message": "style(rss): 工具栏单行布局并调整边距对齐"
-      },
-      {
-        "commit": "da98d183e3a01996f745e2eea0971886dca8a1ba",
-        "author": "Jolc",
-        "date": "2026-05-16 23:39:26",
-        "message": "feat(rss): 优化订阅列表工具栏和操作菜单"
       }
     ]
   }
