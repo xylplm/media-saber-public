@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605202318",
+    "items": [
+      {
+        "commit": "e9c0d5603a91b4dbdcd46088547079396abab4da",
+        "author": "liurongjie",
+        "date": "2026-05-20 23:17:42",
+        "message": "feat(qnap): 重构威联通 NAS，群晖添加 二步认证支持，重构过滤规则分享与导入"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201624",
     "items": [
       {
@@ -203,17 +214,6 @@
         "author": "xylplm",
         "date": "2026-05-18 17:09:03",
         "message": "✨ feat: 优化旧版识别词数据迁移逻辑，增加对本地自定义数据的检查"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605181739",
-    "items": [
-      {
-        "commit": "32db47419136af5bf838c92fa0f87fd4400215a9",
-        "author": "liurongjie",
-        "date": "2026-05-18 17:38:46",
-        "message": "feat(unraid): 重构 Unraid 客户端实现并优化数据结构 （未测试）"
       }
     ]
   }
