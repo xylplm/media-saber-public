@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202605201054",
+    "items": [
+      {
+        "commit": "cdbfdc6fb547702d37c1065f6ee38631c50470bf",
+        "author": "liurongjie",
+        "date": "2026-05-20 10:52:04",
+        "message": "style(ui): 优化识别词汇页面UI样式和响应式布局"
+      },
+      {
+        "commit": "1490710876c3f606d535d23a002a4008df610739",
+        "author": "liurongjie",
+        "date": "2026-05-20 10:29:31",
+        "message": "feat(media-tidy): 优化识别词组列表移动端适配和自动搜索功能"
+      },
+      {
+        "commit": "8a6a9b92bb312dcf3348941b7fe6e3768a1c827a",
+        "author": "xylplm",
+        "date": "2026-05-20 09:55:54",
+        "message": "✨ feat: 媒体识别词词组模块增加媒体详情功能，支持显示媒体类型和年份"
+      },
+      {
+        "commit": "1144a3d00fb9edf2977b1045e7566816c37e2f09",
+        "author": "xylplm",
+        "date": "2026-05-20 09:55:04",
+        "message": "✨ feat: 扩展工具库模块大屏列数支持，优化 XXLarge 和 XXXLarge 断点布局"
+      },
+      {
+        "commit": "c9c7e00ee86adb67c5656511b7962dad0ae605f4",
+        "author": "xylplm",
+        "date": "2026-05-20 01:29:25",
+        "message": "✨ feat: 媒体词组模块支持保留名称，无需绑定 TMDB 信息"
+      },
+      {
+        "commit": "3e2aeb245d9a896962e641c0af78eb43ba488aea",
+        "author": "xylplm",
+        "date": "2026-05-20 01:15:19",
+        "message": "🔁 refactor: 调整屏幕尺寸服务中的 XXLarge 断点定义"
+      },
+      {
+        "commit": "b7cb3fe4389b135c937b1578dde4631472244fff",
+        "author": "xylplm",
+        "date": "2026-05-20 01:14:57",
+        "message": "✨ feat: tmdb-autosuggest-input 组件优化，新增候选项展示逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605191808",
     "items": [
       {
@@ -143,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-05-14 23:38:39",
         "message": "style(layout): 优化对话框头部和RSS表格工具栏布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605141816",
-    "items": [
-      {
-        "commit": "1f23c879e345ada860b5de944693366152dd6971",
-        "author": "liurongjie",
-        "date": "2026-05-14 18:13:20",
-        "message": "docs(settings): 更新电视剧命名格式帮助文档"
       }
     ]
   }
