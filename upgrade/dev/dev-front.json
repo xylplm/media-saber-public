@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605201624",
+    "items": [
+      {
+        "commit": "7430c15b2ea551be9bd96cf66489cf54eb679781",
+        "author": "xylplm",
+        "date": "2026-05-20 15:41:32",
+        "message": "🔁 refactor: 优化部分修仙秘籍交互逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605201349",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-05-15 17:44:58",
         "message": "remove(asset): 更新Synology logo"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605151726",
-    "items": [
-      {
-        "commit": "977b35fea6e567b033bfd67fef4e12e3fc23d242",
-        "author": "liurongjie",
-        "date": "2026-05-15 17:25:17",
-        "message": "feat(provider): 添加群晖服务助手SVG图标"
       }
     ]
   }
