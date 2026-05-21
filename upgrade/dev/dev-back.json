@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605211431",
+    "items": [
+      {
+        "commit": "a0a46d84f09966626a8874fa509d10fbf6e736df",
+        "author": "GateCross",
+        "date": "2026-05-21 14:24:12",
+        "message": "feat: 增加版本升级消息通知开关（默认开启）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605211232",
     "items": [
       {
@@ -203,29 +214,6 @@
         "author": "Jolc",
         "date": "2026-05-19 14:05:48",
         "message": "fix(115-sdk): 用 singleflight 合并并发 token 刷新避免触发流控"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605190007",
-    "items": [
-      {
-        "commit": "cbbae7bc12b75436c6759b816db8fc9a8bea3377",
-        "author": "liurongjie",
-        "date": "2026-05-19 00:06:25",
-        "message": "feat(unraid): 扩展Unraid客户端以支持更多系统信息"
-      },
-      {
-        "commit": "6fbd5ec98e7e162a573bca27eab6621050480217",
-        "author": "liurongjie",
-        "date": "2026-05-18 23:14:45",
-        "message": "refactor(unraid): 重构Unraid客户端数据结构和查询方式"
-      },
-      {
-        "commit": "24f9ebe2c6819ea5e10d4d080473da4aec581c86",
-        "author": "allen",
-        "date": "2026-05-18 19:40:18",
-        "message": "feat(system): 优化升级消息，减少消息干扰"
       }
     ]
   }
