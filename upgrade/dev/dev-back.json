@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605221640",
+    "items": [
+      {
+        "commit": "1535c86fcc81d881bd5a9f760f20db54037e0cce",
+        "author": "xylplm",
+        "date": "2026-05-22 14:31:20",
+        "message": "fix 🐛: api定义"
+      },
+      {
+        "commit": "042b9b2978a00ff7737f49710730c451f0a1c66f",
+        "author": "xylplm",
+        "date": "2026-05-22 14:02:13",
+        "message": "feat ✨: 添加自定义两步验证功能及相关接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605211431",
     "items": [
       {
@@ -203,17 +220,6 @@
         "author": "xylplm",
         "date": "2026-05-19 17:28:10",
         "message": "feat ✨: 新增插件实例管理功能，包括启用/禁用、排序和使用记录上报"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605191406",
-    "items": [
-      {
-        "commit": "abdd1534d58b79372ee9c14efec39b33750ee7d8",
-        "author": "Jolc",
-        "date": "2026-05-19 14:05:48",
-        "message": "fix(115-sdk): 用 singleflight 合并并发 token 刷新避免触发流控"
       }
     ]
   }
