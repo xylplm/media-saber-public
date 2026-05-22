@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605221004",
+    "items": [
+      {
+        "commit": "ebb3663631f4a1677e16e5585f9c24b77a52c5d1",
+        "author": "liurongjie",
+        "date": "2026-05-22 00:51:53",
+        "message": "feat: 优化站点消息、种子匹配、种子排序、过滤规则样式布局"
+      },
+      {
+        "commit": "90cea461bfd837695f7a617c09311b5475d225be",
+        "author": "liurongjie",
+        "date": "2026-05-21 23:10:53",
+        "message": "feat(cloud-storage): 优化任务卡片界面并新增路径查看功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605211449",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-05-20 01:14:57",
         "message": "✨ feat: tmdb-autosuggest-input 组件优化，新增候选项展示逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605191808",
-    "items": [
-      {
-        "commit": "1cfaa9b95745d476dcf8a0802e1909c0afb47b8f",
-        "author": "xylplm",
-        "date": "2026-05-19 18:07:37",
-        "message": "✨ feat: 更新插件开关描述，优化用户体验"
       }
     ]
   }
