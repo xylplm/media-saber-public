@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605221945",
+    "items": [
+      {
+        "commit": "0af129c58d0c112d818f74bc5125c31c352d2e1a",
+        "author": "liurongjie",
+        "date": "2026-05-22 19:24:29",
+        "message": "refactor(cloud_storage): 优化 CloudDrive2 路径刷新机制"
+      },
+      {
+        "commit": "722d9369b8933207704914024062e5115347e7f1",
+        "author": "liurongjie",
+        "date": "2026-05-22 18:19:39",
+        "message": "fix(clouddrive2): 修复API地址配置和解析问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605221640",
     "items": [
       {
@@ -203,23 +220,6 @@
         "author": "xylplm",
         "date": "2026-05-19 18:37:22",
         "message": "fix 🐛: 识别词推送修复合并成功后本地回写失败的错误提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605191801",
-    "items": [
-      {
-        "commit": "aef920d905c491718382818f140cbfabf94d3973",
-        "author": "xylplm",
-        "date": "2026-05-19 17:49:00",
-        "message": "feat ✨: 更新插件定义描述，增强可读性和功能说明"
-      },
-      {
-        "commit": "2072cb5fdc6630d90ef16b4f735776941c80140f",
-        "author": "xylplm",
-        "date": "2026-05-19 17:28:10",
-        "message": "feat ✨: 新增插件实例管理功能，包括启用/禁用、排序和使用记录上报"
       }
     ]
   }

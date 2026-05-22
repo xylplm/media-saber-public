@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605221945",
+    "items": [
+      {
+        "commit": "6e01812772977793c718e799d2451260212b0d4b",
+        "author": "xylplm",
+        "date": "2026-05-22 19:30:51",
+        "message": "🔁 refactor: 更新 recog-words-group-update 组件，确保表单在选择建议后标记为脏"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605221640",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-05-20 13:49:20",
         "message": "🔁 refactor: 优化候选项显示逻辑，改善用户输入体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201324",
-    "items": [
-      {
-        "commit": "370ed0c08fe45a9aa67a066997e922bbac2eb59c",
-        "author": "xylplm",
-        "date": "2026-05-20 13:23:55",
-        "message": "🔁 refactor: 优化屏幕断点定义，消除死区并调整媒体查询条件"
       }
     ]
   }
