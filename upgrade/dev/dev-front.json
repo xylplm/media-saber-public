@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605232116",
+    "items": [
+      {
+        "commit": "1e840d87b21b4abb3769730e0ed55a170f403469",
+        "author": "GateCross",
+        "date": "2026-05-23 18:11:46",
+        "message": "✨ feat: 添加 emby_metadata_filler SVG 图像文件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605221945",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-05-20 15:41:32",
         "message": "🔁 refactor: 优化部分修仙秘籍交互逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201349",
-    "items": [
-      {
-        "commit": "e70f4c34301ff32e33ff3b7d31ddc7d976a1beae",
-        "author": "xylplm",
-        "date": "2026-05-20 13:49:20",
-        "message": "🔁 refactor: 优化候选项显示逻辑，改善用户输入体验"
       }
     ]
   }
