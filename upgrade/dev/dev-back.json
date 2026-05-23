@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605232333",
+    "items": [
+      {
+        "commit": "6fc1279b4b931a6f383e244f73bb9fa1a83b8993",
+        "author": "GateCross",
+        "date": "2026-05-23 23:26:44",
+        "message": "fix: 支持单集路径识别 TMDB"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605232251",
     "items": [
       {
@@ -137,35 +148,6 @@
         "author": "liurongjie",
         "date": "2026-05-20 23:17:42",
         "message": "feat(qnap): 重构威联通 NAS，群晖添加 二步认证支持，重构过滤规则分享与导入"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201624",
-    "items": [
-      {
-        "commit": "f040a18b0a41ad45aea33c8fc357085b63447737",
-        "author": "xylplm",
-        "date": "2026-05-20 16:26:13",
-        "message": "fix 🐛: 更新 NAS 服务助手插件版本号至 1.1.4 和 1.2.0"
-      },
-      {
-        "commit": "6f8db3edcbb47a6c2ce9fe764b4168344cd93466",
-        "author": "xylplm",
-        "date": "2026-05-20 15:42:10",
-        "message": "fix 🐛: 修仙秘籍 修复保存实例时返回数据为空的问题"
-      },
-      {
-        "commit": "dac2d7b43beebd641d98579a6d68068cf5431a25",
-        "author": "xylplm",
-        "date": "2026-05-20 15:08:43",
-        "message": "feat ✨: 识别词性能优化，添加正则编译缓存以优化性能，避免重复编译开销"
-      },
-      {
-        "commit": "3efccf9cf9bd1e1abbe18ba28e861a75466474c3",
-        "author": "liurongjie",
-        "date": "2026-05-20 13:55:53",
-        "message": "fix(qnap): 解决QNAP客户端认证失败检测问题"
       }
     ]
   }
