@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605232138",
+    "items": [
+      {
+        "commit": "f57364b7765ea4a07b80e27eec52fefc5ed2bee0",
+        "author": "GateCross",
+        "date": "2026-05-23 21:29:50",
+        "message": "fix: 忽略 Emby IMDb 和 TVDB 缺失字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605232116",
     "items": [
       {
@@ -149,35 +160,6 @@
         "author": "xylplm",
         "date": "2026-05-20 13:17:26",
         "message": "feat ✨: 识别词相关接口添加正则表达式语法校验功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201054",
-    "items": [
-      {
-        "commit": "ad6414e3e6217a6dfe9aeba703d5537c52f8e0cd",
-        "author": "xylplm",
-        "date": "2026-05-20 10:54:05",
-        "message": "fix 🐛: 修复修仙秘籍保存错误"
-      },
-      {
-        "commit": "a0cd809c4716ff591f5f6c9dca6023e76d094288",
-        "author": "xylplm",
-        "date": "2026-05-20 09:57:43",
-        "message": "feat ✨: 添加保留名称优先排序的 SQL 片段"
-      },
-      {
-        "commit": "cd1223a8ae6c7873beb66df5312da745f4eb3dc9",
-        "author": "xylplm",
-        "date": "2026-05-20 01:22:52",
-        "message": "fix 🐛: 优化词组名称唯一性校验及 TMDB 绑定规则"
-      },
-      {
-        "commit": "6a73b83f9d085e51e7413e77801e4bcf22340aad",
-        "author": "xylplm",
-        "date": "2026-05-19 23:38:17",
-        "message": "fix 🐛: 修复识别词合并错误"
       }
     ]
   }
