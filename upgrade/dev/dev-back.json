@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605232251",
+    "items": [
+      {
+        "commit": "d3e5fdfbaf150b896867a316228c82feab69cac5",
+        "author": "liurongjie",
+        "date": "2026-05-23 22:54:55",
+        "message": "fix(cloud_storage): 仅在目标为云存储时刷新 CloudDrive2 缓存"
+      },
+      {
+        "commit": "54450a821570604f34d36cdafe81da99e6e16d30",
+        "author": "GateCross",
+        "date": "2026-05-23 22:51:02",
+        "message": "fix: 跳过 TMDB 404 单集补齐"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605232138",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-05-20 13:55:53",
         "message": "fix(qnap): 解决QNAP客户端认证失败检测问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201324",
-    "items": [
-      {
-        "commit": "baa3457fc2602308c4fb275e296c5950e7b79a08",
-        "author": "xylplm",
-        "date": "2026-05-20 13:17:26",
-        "message": "feat ✨: 识别词相关接口添加正则表达式语法校验功能"
       }
     ]
   }

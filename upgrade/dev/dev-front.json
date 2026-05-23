@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605232251",
+    "items": [
+      {
+        "commit": "4da9d101a2104e95c0f0771ede27acc79e8d0009",
+        "author": "liurongjie",
+        "date": "2026-05-23 22:55:25",
+        "message": "style(ui): 更新站点请求和签到页面的UI样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605232116",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-05-20 16:32:42",
         "message": "🔁 refactor: 优化升级版本消息提示内容，提升用户体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201624",
-    "items": [
-      {
-        "commit": "7430c15b2ea551be9bd96cf66489cf54eb679781",
-        "author": "xylplm",
-        "date": "2026-05-20 15:41:32",
-        "message": "🔁 refactor: 优化部分修仙秘籍交互逻辑"
       }
     ]
   }
