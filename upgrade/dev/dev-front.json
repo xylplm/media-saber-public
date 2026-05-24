@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605242156",
+    "items": [
+      {
+        "commit": "2ebcce3e9096c37e73f4dbca1a816bdae39e64ea",
+        "author": "GateCross",
+        "date": "2026-05-24 21:53:16",
+        "message": "fix: 支持插件媒体库动态选择"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605241522",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-05-20 18:20:39",
         "message": "🔁 refactor: 菜单“手动识别”名称更改为“失败列表”"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201814",
-    "items": [
-      {
-        "commit": "d647d71b2e67777ccad1abc7c34d682b8ec85e7a",
-        "author": "xylplm",
-        "date": "2026-05-20 18:13:53",
-        "message": "✨ feat: 媒体整理手动识别增加浮动批量操作条，优化用户操作体验"
       }
     ]
   }
