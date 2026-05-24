@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605242313",
+    "items": [
+      {
+        "commit": "083b5bdd433b82f32667527a1442a151461f009c",
+        "author": "GateCross",
+        "date": "2026-05-24 23:11:26",
+        "message": "fix: 优化 Emby 元数据补齐日志与字段判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605242216",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-05-22 14:02:13",
         "message": "feat ✨: 添加自定义两步验证功能及相关接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605211431",
-    "items": [
-      {
-        "commit": "a0a46d84f09966626a8874fa509d10fbf6e736df",
-        "author": "GateCross",
-        "date": "2026-05-21 14:24:12",
-        "message": "feat: 增加版本升级消息通知开关（默认开启）"
       }
     ]
   }
