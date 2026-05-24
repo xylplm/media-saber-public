@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202605241522",
+    "items": [
+      {
+        "commit": "9ac4f626abc40151e361c7594254a9b43394a7e3",
+        "author": "xylplm",
+        "date": "2026-05-24 15:22:19",
+        "message": "🔁 refactor: 优化电影日历模块，调整移动端日期跳转和导航按钮显示逻辑"
+      },
+      {
+        "commit": "f721107322b35478189b2567985c96f4f6103075",
+        "author": "xylplm",
+        "date": "2026-05-24 15:13:35",
+        "message": "✨ feat: 电影日历模块重构，优化日期选择与数据请求逻辑"
+      },
+      {
+        "commit": "4ab8f415e8027ce5850f8b8d7403ebc1b1a2d7a9",
+        "author": "xylplm",
+        "date": "2026-05-24 14:05:59",
+        "message": "✨ feat: 订阅日历模块重构，增加时间线与海报网格视图，优化响应式设计"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605232251",
     "items": [
       {
@@ -125,35 +148,6 @@
         "author": "xylplm",
         "date": "2026-05-20 18:13:53",
         "message": "✨ feat: 媒体整理手动识别增加浮动批量操作条，优化用户操作体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201752",
-    "items": [
-      {
-        "commit": "3c4eabde39cb906d16b67fd44467b94d18478b6b",
-        "author": "xylplm",
-        "date": "2026-05-20 17:46:16",
-        "message": "✨ feat: 媒体整理历史模块增加浮动批量操作条组件，优化用户操作体验"
-      },
-      {
-        "commit": "ae65b9a17e8d2aadf1188aa4177048c84a0d0288",
-        "author": "xylplm",
-        "date": "2026-05-20 17:46:02",
-        "message": "add ➕: 新增前端规范文档，定义技术栈与组件使用规范"
-      },
-      {
-        "commit": "528183d63493af96cc5abe88c9f74e348f637832",
-        "author": "xylplm",
-        "date": "2026-05-20 17:25:23",
-        "message": "✨ feat: 增加通用批量操作浮动条组件，统一批量操作体验"
-      },
-      {
-        "commit": "98e5559918bfd6ab9d9f72104a26ebc27c11f257",
-        "author": "xylplm",
-        "date": "2026-05-20 16:32:42",
-        "message": "🔁 refactor: 优化升级版本消息提示内容，提升用户体验"
       }
     ]
   }
