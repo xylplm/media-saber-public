@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202605242216",
+    "items": [
+      {
+        "commit": "be2de625edefe2b7cf1e807bfa45130f5070549e",
+        "author": "xylplm",
+        "date": "2026-05-24 22:15:28",
+        "message": "fix 🐛: 更新 NAS 服务助手插件版本号至 1.1.3 和 1.2.1"
+      },
+      {
+        "commit": "411d8c82abac906d5b3e114e06b5df41a5dd4d91",
+        "author": "liurongjie",
+        "date": "2026-05-24 22:11:17",
+        "message": "feat(cloudStorage): 实现云存储重命名后更新关联 strm 文件功能"
+      },
+      {
+        "commit": "6800d93cbfe746d35b8c0ae18975afd4ef96f5d9",
+        "author": "liurongjie",
+        "date": "2026-05-24 20:57:57",
+        "message": "feat(cloud-storage): 添加云存储操作后的缓存刷新功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605242156",
     "items": [
       {
@@ -119,35 +142,6 @@
         "author": "GateCross",
         "date": "2026-05-21 14:24:12",
         "message": "feat: 增加版本升级消息通知开关（默认开启）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605211232",
-    "items": [
-      {
-        "commit": "654744b5d7a4f3168e06b0d633f1859d9508944c",
-        "author": "xylplm",
-        "date": "2026-05-21 12:29:01",
-        "message": "feat ✨: 添加按路径源删除失败记录功能，清理转移成功后的历史失败记录"
-      },
-      {
-        "commit": "f040a18b0a41ad45aea33c8fc357085b63447737",
-        "author": "xylplm",
-        "date": "2026-05-20 16:26:13",
-        "message": "fix 🐛: 更新 NAS 服务助手插件版本号至 1.1.4 和 1.2.0"
-      },
-      {
-        "commit": "6f8db3edcbb47a6c2ce9fe764b4168344cd93466",
-        "author": "xylplm",
-        "date": "2026-05-20 15:42:10",
-        "message": "fix 🐛: 修仙秘籍 修复保存实例时返回数据为空的问题"
-      },
-      {
-        "commit": "dac2d7b43beebd641d98579a6d68068cf5431a25",
-        "author": "xylplm",
-        "date": "2026-05-20 15:08:43",
-        "message": "feat ✨: 识别词性能优化，添加正则编译缓存以优化性能，避免重复编译开销"
       }
     ]
   }
