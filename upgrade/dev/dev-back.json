@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605242331",
+    "items": [
+      {
+        "commit": "44d90610866c70e6663b3d24a0e44b3edadffaea",
+        "author": "GateCross",
+        "date": "2026-05-24 23:30:26",
+        "message": "fix: 补充 Emby 补齐跳过日志来源信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605242313",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-05-22 18:19:39",
         "message": "fix(clouddrive2): 修复API地址配置和解析问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605221640",
-    "items": [
-      {
-        "commit": "1535c86fcc81d881bd5a9f760f20db54037e0cce",
-        "author": "xylplm",
-        "date": "2026-05-22 14:31:20",
-        "message": "fix 🐛: api定义"
-      },
-      {
-        "commit": "042b9b2978a00ff7737f49710730c451f0a1c66f",
-        "author": "xylplm",
-        "date": "2026-05-22 14:02:13",
-        "message": "feat ✨: 添加自定义两步验证功能及相关接口"
       }
     ]
   }
