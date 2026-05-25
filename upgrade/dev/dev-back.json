@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605252036",
+    "items": [
+      {
+        "commit": "2833af19c3a306b9de01ff759e0b173b4e44a794",
+        "author": "GateCross",
+        "date": "2026-05-25 20:35:09",
+        "message": "fix: hash上报优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605251637",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "GateCross",
         "date": "2026-05-23 23:26:44",
         "message": "fix: 支持单集路径识别 TMDB"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605232251",
-    "items": [
-      {
-        "commit": "d3e5fdfbaf150b896867a316228c82feab69cac5",
-        "author": "liurongjie",
-        "date": "2026-05-23 22:54:55",
-        "message": "fix(cloud_storage): 仅在目标为云存储时刷新 CloudDrive2 缓存"
-      },
-      {
-        "commit": "54450a821570604f34d36cdafe81da99e6e16d30",
-        "author": "GateCross",
-        "date": "2026-05-23 22:51:02",
-        "message": "fix: 跳过 TMDB 404 单集补齐"
       }
     ]
   }
