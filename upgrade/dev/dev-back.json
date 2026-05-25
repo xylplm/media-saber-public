@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605250943",
+    "items": [
+      {
+        "commit": "2fee859c452456f01462c0dda14f7a6db92af08b",
+        "author": "liurongjie",
+        "date": "2026-05-25 00:05:32",
+        "message": "feat(unraid): 添加 Unraid 系统通知功能"
+      },
+      {
+        "commit": "e49042e428a66d1f05f30166e810e3f1b44e1a7b",
+        "author": "liurongjie",
+        "date": "2026-05-24 23:45:38",
+        "message": "feat(synology): 添加群晖 DSM 系统通知功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605242331",
     "items": [
       {
@@ -119,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-05-23 09:11:09",
         "message": "refactor(tasks): 移除任务中的CloudDrive2路径刷新逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605221945",
-    "items": [
-      {
-        "commit": "0af129c58d0c112d818f74bc5125c31c352d2e1a",
-        "author": "liurongjie",
-        "date": "2026-05-22 19:24:29",
-        "message": "refactor(cloud_storage): 优化 CloudDrive2 路径刷新机制"
-      },
-      {
-        "commit": "722d9369b8933207704914024062e5115347e7f1",
-        "author": "liurongjie",
-        "date": "2026-05-22 18:19:39",
-        "message": "fix(clouddrive2): 修复API地址配置和解析问题"
       }
     ]
   }
