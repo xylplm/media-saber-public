@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605251515",
+    "items": [
+      {
+        "commit": "31c891ae7c2ddc5e5cb697c1794b8567f1033971",
+        "author": "liurongjie",
+        "date": "2026-05-25 15:13:46",
+        "message": "fix(cloud_storage): 优化云存储文件删除后的缓存刷新机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605251344",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "GateCross",
         "date": "2026-05-23 21:29:50",
         "message": "fix: 忽略 Emby IMDb 和 TVDB 缺失字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605232116",
-    "items": [
-      {
-        "commit": "e8f6c3c49e945a3b46a5883e9bc986274e737bf2",
-        "author": "GateCross",
-        "date": "2026-05-23 21:15:58",
-        "message": "feat: 新增 Emby 元数据补全插件"
-      },
-      {
-        "commit": "159ddb6503792bdbd99b0a3e6fff90a5b76abbdc",
-        "author": "GateCross",
-        "date": "2026-05-23 12:43:15",
-        "message": "fix: 删除多余日志"
       }
     ]
   }
