@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605252253",
+    "items": [
+      {
+        "commit": "dbbf860fde236ba133162e6524477e565ceca9a7",
+        "author": "GateCross",
+        "date": "2026-05-25 22:51:27",
+        "message": "feat: 优化云端哈希上报逻辑，增加标题与描述的直传及多级降级兜底机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605252036",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "GateCross",
         "date": "2026-05-24 21:53:16",
         "message": "feat: 优化 Emby 元数据补齐"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605232333",
-    "items": [
-      {
-        "commit": "6fc1279b4b931a6f383e244f73bb9fa1a83b8993",
-        "author": "GateCross",
-        "date": "2026-05-23 23:26:44",
-        "message": "fix: 支持单集路径识别 TMDB"
       }
     ]
   }
