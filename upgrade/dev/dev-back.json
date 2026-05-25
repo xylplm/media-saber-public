@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605251637",
+    "items": [
+      {
+        "commit": "fa80e1e76278e5fd39197bb80aff97f96286e609",
+        "author": "liurongjie",
+        "date": "2026-05-25 16:36:31",
+        "message": "fix(cloud_storage): 修复strm文件删除后媒体库刷新路径问题"
+      },
+      {
+        "commit": "6e5edd055da63fa89fbd8492f062e6083afa0847",
+        "author": "GateCross",
+        "date": "2026-05-25 13:43:51",
+        "message": "feat: 新增 Emby 元数据补齐结果汇总"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605251515",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-05-23 22:51:02",
         "message": "fix: 跳过 TMDB 404 单集补齐"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605232138",
-    "items": [
-      {
-        "commit": "f57364b7765ea4a07b80e27eec52fefc5ed2bee0",
-        "author": "GateCross",
-        "date": "2026-05-23 21:29:50",
-        "message": "fix: 忽略 Emby IMDb 和 TVDB 缺失字段"
       }
     ]
   }
