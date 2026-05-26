@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202605262330",
+    "items": [
+      {
+        "commit": "f08256d784768772e62624cc653428dc36d51719",
+        "author": "GateCross",
+        "date": "2026-05-26 23:29:39",
+        "message": "fix: 优化Emby元数据补齐日志为剧名S1E15格式并清理高频入列调试日志"
+      },
+      {
+        "commit": "c6cef0228392cc4aee17cee4b7cbd48aa536c636",
+        "author": "xylplm",
+        "date": "2026-05-26 21:04:09",
+        "message": "feat ✨: 绿联nas 完善系统信息采集功能，包括机型、CPU、存储拓扑等"
+      },
+      {
+        "commit": "e8d3036447b39a6f26fc090004e69700fd1de7ce",
+        "author": "xylplm",
+        "date": "2026-05-26 21:03:47",
+        "message": "fix 🐛: 添加 NAS 信息中的保修截止时间字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605261101",
     "items": [
       {
@@ -179,17 +202,6 @@
         "author": "GateCross",
         "date": "2026-05-24 23:30:26",
         "message": "fix: 补充 Emby 补齐跳过日志来源信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605242313",
-    "items": [
-      {
-        "commit": "083b5bdd433b82f32667527a1442a151461f009c",
-        "author": "GateCross",
-        "date": "2026-05-24 23:11:26",
-        "message": "fix: 优化 Emby 元数据补齐日志与字段判断"
       }
     ]
   }

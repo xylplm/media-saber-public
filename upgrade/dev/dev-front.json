@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605262330",
+    "items": [
+      {
+        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
+        "author": "xylplm",
+        "date": "2026-05-26 21:02:58",
+        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
+      },
+      {
+        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
+        "author": "xylplm",
+        "date": "2026-05-26 18:43:34",
+        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605242156",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-05-21 14:30:33",
         "message": "feat: 增加版本升级消息通知开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605201821",
-    "items": [
-      {
-        "commit": "a0fce20810bd181e13c1b258f58283f786d3b139",
-        "author": "xylplm",
-        "date": "2026-05-20 18:20:39",
-        "message": "🔁 refactor: 菜单“手动识别”名称更改为“失败列表”"
       }
     ]
   }
