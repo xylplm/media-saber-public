@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605261012",
+    "items": [
+      {
+        "commit": "f47e698d872f36f1ae3d01358486cc437b255c55",
+        "author": "xylplm",
+        "date": "2026-05-26 10:11:51",
+        "message": "fix 🐛: 更新系统初始化检查 以一致性检查超级管理员存在性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605252253",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-05-24 20:57:57",
         "message": "feat(cloud-storage): 添加云存储操作后的缓存刷新功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605242156",
-    "items": [
-      {
-        "commit": "f125e2beae96f53d36f28e2b2454136a6853ecb9",
-        "author": "GateCross",
-        "date": "2026-05-24 21:53:16",
-        "message": "feat: 优化 Emby 元数据补齐"
       }
     ]
   }
