@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605262338",
+    "items": [
+      {
+        "commit": "a02ee1eb38f1d7426ee52f9ebd694e206234a568",
+        "author": "GateCross",
+        "date": "2026-05-26 23:37:49",
+        "message": "fix: 优化PVE直通盘状态拼接以保留原始健康度"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605262330",
     "items": [
       {
@@ -191,17 +202,6 @@
         "author": "liurongjie",
         "date": "2026-05-24 23:45:38",
         "message": "feat(synology): 添加群晖 DSM 系统通知功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605242331",
-    "items": [
-      {
-        "commit": "44d90610866c70e6663b3d24a0e44b3edadffaea",
-        "author": "GateCross",
-        "date": "2026-05-24 23:30:26",
-        "message": "fix: 补充 Emby 补齐跳过日志来源信息"
       }
     ]
   }

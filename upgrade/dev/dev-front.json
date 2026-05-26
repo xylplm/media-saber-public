@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605262338",
+    "items": [
+      {
+        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
+        "author": "GateCross",
+        "date": "2026-05-26 23:38:02",
+        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605262330",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-05-21 14:49:12",
         "message": "fix: 修复版本升级通知开关问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605211431",
-    "items": [
-      {
-        "commit": "e92cd3d4812ae4df7e47441b2aa559bcc849c124",
-        "author": "GateCross",
-        "date": "2026-05-21 14:30:33",
-        "message": "feat: 增加版本升级消息通知开关"
       }
     ]
   }
