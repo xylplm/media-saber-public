@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605272323",
+    "items": [
+      {
+        "commit": "605853a15b9fed915e8e4d83faee138786e13a59",
+        "author": "liurongjie",
+        "date": "2026-05-27 23:22:39",
+        "message": "feat(plugin): 增强文件重命名功能并添加系统消息通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605262338",
     "items": [
       {
@@ -185,23 +196,6 @@
         "author": "xylplm",
         "date": "2026-05-24 22:15:28",
         "message": "fix 🐛: 更新 NAS 服务助手插件版本号至 1.1.3 和 1.2.1"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605250943",
-    "items": [
-      {
-        "commit": "2fee859c452456f01462c0dda14f7a6db92af08b",
-        "author": "liurongjie",
-        "date": "2026-05-25 00:05:32",
-        "message": "feat(unraid): 添加 Unraid 系统通知功能"
-      },
-      {
-        "commit": "e49042e428a66d1f05f30166e810e3f1b44e1a7b",
-        "author": "liurongjie",
-        "date": "2026-05-24 23:45:38",
-        "message": "feat(synology): 添加群晖 DSM 系统通知功能"
       }
     ]
   }
