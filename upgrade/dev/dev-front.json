@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605280937",
+    "items": [
+      {
+        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
+        "author": "xylplm",
+        "date": "2026-05-26 21:02:58",
+        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
+      },
+      {
+        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
+        "author": "xylplm",
+        "date": "2026-05-26 18:43:34",
+        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605272343",
     "items": [
       {
@@ -119,41 +136,6 @@
         "author": "xylplm",
         "date": "2026-05-22 19:30:51",
         "message": "🔁 refactor: 更新 recog-words-group-update 组件，确保表单在选择建议后标记为脏"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605221640",
-    "items": [
-      {
-        "commit": "2faa0916d2f53240e356baf91f67a0f12407244a",
-        "author": "xylplm",
-        "date": "2026-05-22 15:18:58",
-        "message": "🔁 refactor: 自定义两步验证表单调整备注位置"
-      },
-      {
-        "commit": "604e9f65e965e7cb6fc53c434b448c2df8c429d3",
-        "author": "xylplm",
-        "date": "2026-05-22 14:10:22",
-        "message": "✨ feat: 自定义两步验证表单增加发行方和标签的候选列表自动完成"
-      },
-      {
-        "commit": "61b9fe2ff9a077baa3169efed1b4e716c06e41fd",
-        "author": "xylplm",
-        "date": "2026-05-22 13:33:16",
-        "message": "✨ feat: 两步验证支持自定义"
-      },
-      {
-        "commit": "b8360a75b19c11541a6c36b69148376dc249c1f8",
-        "author": "xylplm",
-        "date": "2026-05-22 13:12:32",
-        "message": "🔁 refactor: 优化两步验证对扫描状态的检查逻辑"
-      },
-      {
-        "commit": "b93e6a751ad636d4d3814e2a4b7688e10586a7e8",
-        "author": "xylplm",
-        "date": "2026-05-22 13:02:24",
-        "message": "✨ feat: no-data 组件优化，增加自定义图片模板与动态尺寸计算"
       }
     ]
   }
