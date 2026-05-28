@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202605281051",
+    "items": [
+      {
+        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
+        "author": "xylplm",
+        "date": "2026-05-26 21:02:58",
+        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
+      },
+      {
+        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
+        "author": "xylplm",
+        "date": "2026-05-26 18:43:34",
+        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605281019",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-05-23 22:55:25",
         "message": "style(ui): 更新站点请求和签到页面的UI样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605232116",
-    "items": [
-      {
-        "commit": "1e840d87b21b4abb3769730e0ed55a170f403469",
-        "author": "GateCross",
-        "date": "2026-05-23 18:11:46",
-        "message": "✨ feat: 添加 emby_metadata_filler SVG 图像文件"
       }
     ]
   }
