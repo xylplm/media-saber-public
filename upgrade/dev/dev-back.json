@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605281019",
+    "items": [
+      {
+        "commit": "c5e36aabb3b06106a9d00b6c7fbebfad27a09fe4",
+        "author": "GateCross",
+        "date": "2026-05-28 10:18:43",
+        "message": "fix: 优化刷流上报"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605280937",
     "items": [
       {
@@ -215,23 +226,6 @@
         "author": "GateCross",
         "date": "2026-05-25 20:35:09",
         "message": "fix: hash上报优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605251637",
-    "items": [
-      {
-        "commit": "fa80e1e76278e5fd39197bb80aff97f96286e609",
-        "author": "liurongjie",
-        "date": "2026-05-25 16:36:31",
-        "message": "fix(cloud_storage): 修复strm文件删除后媒体库刷新路径问题"
-      },
-      {
-        "commit": "6e5edd055da63fa89fbd8492f062e6083afa0847",
-        "author": "GateCross",
-        "date": "2026-05-25 13:43:51",
-        "message": "feat: 新增 Emby 元数据补齐结果汇总"
       }
     ]
   }

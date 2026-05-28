@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605281019",
+    "items": [
+      {
+        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
+        "author": "GateCross",
+        "date": "2026-05-26 23:38:02",
+        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605280937",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-05-23 18:11:46",
         "message": "✨ feat: 添加 emby_metadata_filler SVG 图像文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605221945",
-    "items": [
-      {
-        "commit": "6e01812772977793c718e799d2451260212b0d4b",
-        "author": "xylplm",
-        "date": "2026-05-22 19:30:51",
-        "message": "🔁 refactor: 更新 recog-words-group-update 组件，确保表单在选择建议后标记为脏"
       }
     ]
   }
