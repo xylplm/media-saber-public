@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605281348",
+    "items": [
+      {
+        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
+        "author": "GateCross",
+        "date": "2026-05-26 23:38:02",
+        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605281051",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-05-24 14:05:59",
         "message": "✨ feat: 订阅日历模块重构，增加时间线与海报网格视图，优化响应式设计"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605232251",
-    "items": [
-      {
-        "commit": "4da9d101a2104e95c0f0771ede27acc79e8d0009",
-        "author": "liurongjie",
-        "date": "2026-05-23 22:55:25",
-        "message": "style(ui): 更新站点请求和签到页面的UI样式"
       }
     ]
   }

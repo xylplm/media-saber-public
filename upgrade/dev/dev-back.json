@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605281348",
+    "items": [
+      {
+        "commit": "69b377cf38e1564bbd429aab949fa56f4a9981c1",
+        "author": "GateCross",
+        "date": "2026-05-28 13:47:32",
+        "message": "feat: 优化刷流上报，增加redis缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605281019",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "GateCross",
         "date": "2026-05-25 22:51:27",
         "message": "feat: 优化云端哈希上报逻辑，增加标题与描述的直传及多级降级兜底机制"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605252036",
-    "items": [
-      {
-        "commit": "2833af19c3a306b9de01ff759e0b173b4e44a794",
-        "author": "GateCross",
-        "date": "2026-05-25 20:35:09",
-        "message": "fix: hash上报优化"
       }
     ]
   }
