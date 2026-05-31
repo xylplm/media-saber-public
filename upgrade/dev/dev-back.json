@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605311027",
+    "items": [
+      {
+        "commit": "92bed345b7da33f52c759dd5ae891d52416ae3f7",
+        "author": "GateCross",
+        "date": "2026-05-31 10:25:58",
+        "message": "fix: hdhive加了CF盾，再见"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605310003",
     "items": [
       {
@@ -245,17 +256,6 @@
         "author": "GateCross",
         "date": "2026-05-24 23:11:26",
         "message": "fix: 优化 Emby 元数据补齐日志与字段判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605261012",
-    "items": [
-      {
-        "commit": "f47e698d872f36f1ae3d01358486cc437b255c55",
-        "author": "xylplm",
-        "date": "2026-05-26 10:11:51",
-        "message": "fix 🐛: 更新系统初始化检查 以一致性检查超级管理员存在性"
       }
     ]
   }
