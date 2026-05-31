@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605312342",
+    "items": [
+      {
+        "commit": "fe91a6cd17bb00d766fa2cab765b82dc838ef41d",
+        "author": "GateCross",
+        "date": "2026-05-31 23:42:05",
+        "message": "fix: 修复 csHashId 类型转换问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605312328",
     "items": [
       {
@@ -173,23 +184,6 @@
         "author": "GateCross",
         "date": "2026-05-26 23:38:02",
         "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605272323",
-    "items": [
-      {
-        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
-        "author": "xylplm",
-        "date": "2026-05-26 21:02:58",
-        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
-      },
-      {
-        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
-        "author": "xylplm",
-        "date": "2026-05-26 18:43:34",
-        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
       }
     ]
   }
