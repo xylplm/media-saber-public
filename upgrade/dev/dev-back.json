@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202605311309",
+    "items": [
+      {
+        "commit": "2dc4c0ee3e2687d449fea99e45bb814e77c3d36d",
+        "author": "GateCross",
+        "date": "2026-05-31 13:03:19",
+        "message": "refactor: 移除 HDHive"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605311027",
     "items": [
       {
@@ -191,71 +202,6 @@
         "author": "xylplm",
         "date": "2026-05-26 21:03:47",
         "message": "fix 🐛: 添加 NAS 信息中的保修截止时间字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605261101",
-    "items": [
-      {
-        "commit": "f10625806b96d24af3383907d490f13afa556563",
-        "author": "GateCross",
-        "date": "2026-05-26 11:00:40",
-        "message": "feat: 添加新的iOS应用推送密钥"
-      },
-      {
-        "commit": "dbbf860fde236ba133162e6524477e565ceca9a7",
-        "author": "GateCross",
-        "date": "2026-05-25 22:51:27",
-        "message": "feat: 优化云端哈希上报逻辑，增加标题与描述的直传及多级降级兜底机制"
-      },
-      {
-        "commit": "2833af19c3a306b9de01ff759e0b173b4e44a794",
-        "author": "GateCross",
-        "date": "2026-05-25 20:35:09",
-        "message": "fix: hash上报优化"
-      },
-      {
-        "commit": "fa80e1e76278e5fd39197bb80aff97f96286e609",
-        "author": "liurongjie",
-        "date": "2026-05-25 16:36:31",
-        "message": "fix(cloud_storage): 修复strm文件删除后媒体库刷新路径问题"
-      },
-      {
-        "commit": "31c891ae7c2ddc5e5cb697c1794b8567f1033971",
-        "author": "liurongjie",
-        "date": "2026-05-25 15:13:46",
-        "message": "fix(cloud_storage): 优化云存储文件删除后的缓存刷新机制"
-      },
-      {
-        "commit": "6e5edd055da63fa89fbd8492f062e6083afa0847",
-        "author": "GateCross",
-        "date": "2026-05-25 13:43:51",
-        "message": "feat: 新增 Emby 元数据补齐结果汇总"
-      },
-      {
-        "commit": "2fee859c452456f01462c0dda14f7a6db92af08b",
-        "author": "liurongjie",
-        "date": "2026-05-25 00:05:32",
-        "message": "feat(unraid): 添加 Unraid 系统通知功能"
-      },
-      {
-        "commit": "e49042e428a66d1f05f30166e810e3f1b44e1a7b",
-        "author": "liurongjie",
-        "date": "2026-05-24 23:45:38",
-        "message": "feat(synology): 添加群晖 DSM 系统通知功能"
-      },
-      {
-        "commit": "44d90610866c70e6663b3d24a0e44b3edadffaea",
-        "author": "GateCross",
-        "date": "2026-05-24 23:30:26",
-        "message": "fix: 补充 Emby 补齐跳过日志来源信息"
-      },
-      {
-        "commit": "083b5bdd433b82f32667527a1442a151461f009c",
-        "author": "GateCross",
-        "date": "2026-05-24 23:11:26",
-        "message": "fix: 优化 Emby 元数据补齐日志与字段判断"
       }
     ]
   }
