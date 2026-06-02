@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606021428",
+    "items": [
+      {
+        "commit": "8f9e4f88788f7082bcd5574612ea9b0aff9f8335",
+        "author": "GateCross",
+        "date": "2026-06-02 14:17:41",
+        "message": "fix: 优化emby元数据补齐插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605312328",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-05-27 23:22:39",
         "message": "feat(plugin): 增强文件重命名功能并添加系统消息通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605262338",
-    "items": [
-      {
-        "commit": "a02ee1eb38f1d7426ee52f9ebd694e206234a568",
-        "author": "GateCross",
-        "date": "2026-05-26 23:37:49",
-        "message": "fix: 优化PVE直通盘状态拼接以保留原始健康度"
       }
     ]
   }
