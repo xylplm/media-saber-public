@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606042347",
+    "items": [
+      {
+        "commit": "adbced5a2d58c9aacc284cebf95ca26f602a1200",
+        "author": "GateCross",
+        "date": "2026-06-04 23:47:00",
+        "message": "fix:修复hash上报问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606042335",
     "items": [
       {
@@ -137,65 +148,6 @@
         "author": "GateCross",
         "date": "2026-05-28 09:27:38",
         "message": "feat: 添加下载器启用状态校验，禁用时返回相应错误信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605272343",
-    "items": [
-      {
-        "commit": "89e72ce94412fdf1f75d932ad3c1387fd6f14d15",
-        "author": "liurongjie",
-        "date": "2026-05-27 23:42:44",
-        "message": "perf(nasInfo): 增加超时配置以支持完整的会话重连流程"
-      },
-      {
-        "commit": "a02ee1eb38f1d7426ee52f9ebd694e206234a568",
-        "author": "GateCross",
-        "date": "2026-05-26 23:37:49",
-        "message": "fix: 优化PVE直通盘状态拼接以保留原始健康度"
-      },
-      {
-        "commit": "f08256d784768772e62624cc653428dc36d51719",
-        "author": "GateCross",
-        "date": "2026-05-26 23:29:39",
-        "message": "fix: 优化Emby元数据补齐日志为剧名S1E15格式并清理高频入列调试日志"
-      },
-      {
-        "commit": "c6cef0228392cc4aee17cee4b7cbd48aa536c636",
-        "author": "xylplm",
-        "date": "2026-05-26 21:04:09",
-        "message": "feat ✨: 绿联nas 完善系统信息采集功能，包括机型、CPU、存储拓扑等"
-      },
-      {
-        "commit": "e8d3036447b39a6f26fc090004e69700fd1de7ce",
-        "author": "xylplm",
-        "date": "2026-05-26 21:03:47",
-        "message": "fix 🐛: 添加 NAS 信息中的保修截止时间字段"
-      },
-      {
-        "commit": "f10625806b96d24af3383907d490f13afa556563",
-        "author": "GateCross",
-        "date": "2026-05-26 11:00:40",
-        "message": "feat: 添加新的iOS应用推送密钥"
-      },
-      {
-        "commit": "f47e698d872f36f1ae3d01358486cc437b255c55",
-        "author": "xylplm",
-        "date": "2026-05-26 10:11:51",
-        "message": "fix 🐛: 更新系统初始化检查 以一致性检查超级管理员存在性"
-      },
-      {
-        "commit": "dbbf860fde236ba133162e6524477e565ceca9a7",
-        "author": "GateCross",
-        "date": "2026-05-25 22:51:27",
-        "message": "feat: 优化云端哈希上报逻辑，增加标题与描述的直传及多级降级兜底机制"
-      },
-      {
-        "commit": "2833af19c3a306b9de01ff759e0b173b4e44a794",
-        "author": "GateCross",
-        "date": "2026-05-25 20:35:09",
-        "message": "fix: hash上报优化"
       }
     ]
   }
