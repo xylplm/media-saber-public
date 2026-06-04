@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606042335",
+    "items": [
+      {
+        "commit": "2bb279c21199881698d1f6e504e42f0a64c9c8bc",
+        "author": "GateCross",
+        "date": "2026-06-04 23:34:28",
+        "message": "fix:修复hash上报问题"
+      },
+      {
+        "commit": "a92f58c0e8ed5a9d34c94a6d6a1856af7e010ac7",
+        "author": "GateCross",
+        "date": "2026-06-03 23:04:27",
+        "message": "fix: emby插件优化报错"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606021428",
     "items": [
       {
@@ -179,17 +196,6 @@
         "author": "GateCross",
         "date": "2026-05-25 20:35:09",
         "message": "fix: hash上报优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605272323",
-    "items": [
-      {
-        "commit": "605853a15b9fed915e8e4d83faee138786e13a59",
-        "author": "liurongjie",
-        "date": "2026-05-27 23:22:39",
-        "message": "feat(plugin): 增强文件重命名功能并添加系统消息通知"
       }
     ]
   }
