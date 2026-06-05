@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606051741",
+    "items": [
+      {
+        "commit": "dcb77b659e5482e872fa79a53a72bea20f699c59",
+        "author": "xylplm",
+        "date": "2026-06-05 17:39:04",
+        "message": "feat: HDHive OpenAPI 接入（前端）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202605312342",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "xylplm",
         "date": "2026-05-26 18:43:34",
         "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605272343",
-    "items": [
-      {
-        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
-        "author": "GateCross",
-        "date": "2026-05-26 23:38:02",
-        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606051741",
+    "items": [
+      {
+        "commit": "9c361a9e42ec62f256b9a3b5b81768a62550805b",
+        "author": "xylplm",
+        "date": "2026-06-05 17:38:25",
+        "message": "feat: HDHive OpenAPI 接入（后端）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606042347",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "GateCross",
         "date": "2026-05-28 10:18:43",
         "message": "fix: 优化刷流上报"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605280937",
-    "items": [
-      {
-        "commit": "892bc6746eb28beb9ce57e48d23ad8a5e43b9365",
-        "author": "GateCross",
-        "date": "2026-05-28 09:36:57",
-        "message": "feat: 添加 Media Saber5 到 iOS 应用编号列表"
-      },
-      {
-        "commit": "8cdfbe1b6c48f9fc616c236c64e90b820ad07053",
-        "author": "GateCross",
-        "date": "2026-05-28 09:27:38",
-        "message": "feat: 添加下载器启用状态校验，禁用时返回相应错误信息"
       }
     ]
   }
