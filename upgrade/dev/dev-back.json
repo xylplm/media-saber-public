@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606062202",
+    "items": [
+      {
+        "commit": "036643264bce922ac15f50058aaf71f32ef2b3d2",
+        "author": "GateCross",
+        "date": "2026-06-06 21:59:06",
+        "message": "feat: 增加HDHive用户信息字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606051741",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-05-28 13:47:32",
         "message": "feat: 优化刷流上报，增加redis缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605281019",
-    "items": [
-      {
-        "commit": "c5e36aabb3b06106a9d00b6c7fbebfad27a09fe4",
-        "author": "GateCross",
-        "date": "2026-05-28 10:18:43",
-        "message": "fix: 优化刷流上报"
       }
     ]
   }
