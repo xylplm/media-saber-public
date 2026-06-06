@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606062348",
+    "items": [
+      {
+        "commit": "a4af24745db2e39860bbf10b33366a4519e9b5f9",
+        "author": "liurongjie",
+        "date": "2026-06-06 23:48:12",
+        "message": "feat(mediaproxy): 添加 Plex STRM 元数据增强功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606062202",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-05-28 15:43:01",
         "message": "fix: 修复 Emby 元数据补齐插件扫描锁、重试计数及遗留索引清理问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605281348",
-    "items": [
-      {
-        "commit": "69b377cf38e1564bbd429aab949fa56f4a9981c1",
-        "author": "GateCross",
-        "date": "2026-05-28 13:47:32",
-        "message": "feat: 优化刷流上报，增加redis缓存"
       }
     ]
   }
