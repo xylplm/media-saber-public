@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606072223",
+    "items": [
+      {
+        "commit": "bf745c2672be75afb2fd272bcdc0308b32c27c7b",
+        "author": "GateCross",
+        "date": "2026-06-07 22:21:56",
+        "message": "Revert \"fix: 优化milist的缓存逻辑\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202606072203",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "GateCross",
         "date": "2026-05-31 13:03:19",
         "message": "refactor: 移除 HDHive"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605311027",
-    "items": [
-      {
-        "commit": "92bed345b7da33f52c759dd5ae891d52416ae3f7",
-        "author": "GateCross",
-        "date": "2026-05-31 10:25:58",
-        "message": "fix: hdhive加了CF盾，再见"
       }
     ]
   }
