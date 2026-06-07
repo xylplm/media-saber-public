@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606072203",
+    "items": [
+      {
+        "commit": "ece3226718385cbf30bafd44d89fd0ff6eabd597",
+        "author": "GateCross",
+        "date": "2026-06-07 22:03:37",
+        "message": "fix: 优化milist的缓存逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606062348",
     "items": [
       {
@@ -101,47 +112,6 @@
         "author": "GateCross",
         "date": "2026-05-31 10:25:58",
         "message": "fix: hdhive加了CF盾，再见"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605310003",
-    "items": [
-      {
-        "commit": "bfc11a8b5c4205794c1a053b72d0ea511c26f910",
-        "author": "xylplm",
-        "date": "2026-05-29 16:32:32",
-        "message": "✨ feat: 更新插件版本信息，修复相关字段"
-      },
-      {
-        "commit": "88eeed702051401a8f9e69dc5472ab7a1ed0bdec",
-        "author": "xylplm",
-        "date": "2026-05-29 16:27:24",
-        "message": "✨ feat: 为各服务助手插件添加警告提示信息和错误处理"
-      },
-      {
-        "commit": "d83d3c9b9563b06abe2a6a45e43dd5cc0f357eb8",
-        "author": "xylplm",
-        "date": "2026-05-29 16:17:08",
-        "message": "✨ feat: 添加115生活事件插件的提示信息和错误处理"
-      },
-      {
-        "commit": "ec832dd9e39ce8a1d0ecfade4ec9db6a8de4e8e5",
-        "author": "liurongjie",
-        "date": "2026-05-29 00:35:17",
-        "message": "feat(synology): 添加 UPS 和电源恢复信息支持"
-      },
-      {
-        "commit": "d524a78b8a882d75a0e35868173e476b24e8473a",
-        "author": "GateCross",
-        "date": "2026-05-28 17:12:04",
-        "message": "perf: 优化 Emby 元数据补全的 API 缓存与主图获取"
-      },
-      {
-        "commit": "62eabb7318853c45cf78ecd0f2d7e5c0f32a0615",
-        "author": "GateCross",
-        "date": "2026-05-28 15:43:01",
-        "message": "fix: 修复 Emby 元数据补齐插件扫描锁、重试计数及遗留索引清理问题"
       }
     ]
   }
