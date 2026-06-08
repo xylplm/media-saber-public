@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606081616",
+    "items": [
+      {
+        "commit": "3ac2d560857706017a437e9c038b56093256a186",
+        "author": "GateCross",
+        "date": "2026-06-08 16:15:05",
+        "message": "feat: 微信渠道添加云端资源搜索功能"
+      },
+      {
+        "commit": "431fb48a11627ad109b0990807121d2b41f1c7ff",
+        "author": "liurongjie",
+        "date": "2026-06-08 14:21:40",
+        "message": "feat(mediaproxy): 新增 Plex STRM 深度元数据探测功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606081049",
     "items": [
       {
@@ -101,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-06-02 14:17:41",
         "message": "fix: 优化emby元数据补齐插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605312328",
-    "items": [
-      {
-        "commit": "5a1accdddb0da266c0bb6653fa733b259ed40659",
-        "author": "GateCross",
-        "date": "2026-05-31 23:28:25",
-        "message": "feat: 云存储添加分组页面处理逻辑及相关数据结构"
       }
     ]
   }
