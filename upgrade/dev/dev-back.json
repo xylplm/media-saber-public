@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606082306",
+    "items": [
+      {
+        "commit": "ae9fd5ccda3f363f389259901c45ce23d7cebfa4",
+        "author": "GateCross",
+        "date": "2026-06-08 23:04:01",
+        "message": "feat: 添加115分享链接批量转存功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606081616",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-06-03 23:04:27",
         "message": "fix: emby插件优化报错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606021428",
-    "items": [
-      {
-        "commit": "8f9e4f88788f7082bcd5574612ea9b0aff9f8335",
-        "author": "GateCross",
-        "date": "2026-06-02 14:17:41",
-        "message": "fix: 优化emby元数据补齐插件"
       }
     ]
   }
