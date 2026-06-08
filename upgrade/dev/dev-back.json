@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606081049",
+    "items": [
+      {
+        "commit": "7891e5e0d125c7c4bec602373625c099d152b30b",
+        "author": "GateCross",
+        "date": "2026-06-08 10:48:36",
+        "message": "fix: 增加直链在未找到文件时重试机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606072223",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "GateCross",
         "date": "2026-05-31 23:28:25",
         "message": "feat: 云存储添加分组页面处理逻辑及相关数据结构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605311309",
-    "items": [
-      {
-        "commit": "2dc4c0ee3e2687d449fea99e45bb814e77c3d36d",
-        "author": "GateCross",
-        "date": "2026-05-31 13:03:19",
-        "message": "refactor: 移除 HDHive"
       }
     ]
   }
