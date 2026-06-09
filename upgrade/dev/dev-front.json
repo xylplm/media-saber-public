@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606091732",
+    "items": [
+      {
+        "commit": "c21c25c40f6f4979354fe27865af37640d92d3e3",
+        "author": "liurongjie",
+        "date": "2026-06-09 17:30:04",
+        "message": "feat(widget-nas-info): 添加风扇状态显示功能支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606091047",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-05-26 18:43:34",
         "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605281019",
-    "items": [
-      {
-        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
-        "author": "GateCross",
-        "date": "2026-05-26 23:38:02",
-        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
       }
     ]
   }

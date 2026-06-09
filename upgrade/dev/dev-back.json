@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606091732",
+    "items": [
+      {
+        "commit": "671e76f8b64ca2fa771e2bed04ca0a47603d0923",
+        "author": "liurongjie",
+        "date": "2026-06-09 17:27:18",
+        "message": "refactor(synology): 优化风扇模式处理逻辑"
+      },
+      {
+        "commit": "41cc928209bdcfa383d20a2497ae7b3b576e14e1",
+        "author": "liurongjie",
+        "date": "2026-06-09 17:15:09",
+        "message": "feat(plugin): 优化群晖服务助手风扇模式和UPS状态显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606091649",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-06-06 23:48:12",
         "message": "feat(mediaproxy): 添加 Plex STRM 元数据增强功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606062202",
-    "items": [
-      {
-        "commit": "036643264bce922ac15f50058aaf71f32ef2b3d2",
-        "author": "GateCross",
-        "date": "2026-06-06 21:59:06",
-        "message": "feat: 增加HDHive用户信息字段"
       }
     ]
   }
