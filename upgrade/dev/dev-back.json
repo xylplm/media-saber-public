@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606091047",
+    "items": [
+      {
+        "commit": "d4da569232d228de0f80dad4a9cf3b0dc8229bdd",
+        "author": "GateCross",
+        "date": "2026-06-09 10:46:27",
+        "message": "feat: add asynq api"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606082306",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "GateCross",
         "date": "2026-06-04 23:47:00",
         "message": "fix:修复hash上报问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606042335",
-    "items": [
-      {
-        "commit": "2bb279c21199881698d1f6e504e42f0a64c9c8bc",
-        "author": "GateCross",
-        "date": "2026-06-04 23:34:28",
-        "message": "fix:修复hash上报问题"
-      },
-      {
-        "commit": "a92f58c0e8ed5a9d34c94a6d6a1856af7e010ac7",
-        "author": "GateCross",
-        "date": "2026-06-03 23:04:27",
-        "message": "fix: emby插件优化报错"
       }
     ]
   }
