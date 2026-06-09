@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606091449",
+    "items": [
+      {
+        "commit": "6b589328b722f8ab76d2fc1afe3273c7f84c1ee1",
+        "author": "liurongjie",
+        "date": "2026-06-09 14:48:16",
+        "message": "feat(btsite): 添加 Rousi 客户端支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606091047",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "xylplm",
         "date": "2026-06-05 17:38:25",
         "message": "feat: HDHive OpenAPI 接入（后端）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606042347",
-    "items": [
-      {
-        "commit": "adbced5a2d58c9aacc284cebf95ca26f602a1200",
-        "author": "GateCross",
-        "date": "2026-06-04 23:47:00",
-        "message": "fix:修复hash上报问题"
       }
     ]
   }
