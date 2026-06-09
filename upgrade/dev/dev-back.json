@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202606091649",
+    "items": [
+      {
+        "commit": "145a49fe358b2f54438c804c188262465c2437b0",
+        "author": "liurongjie",
+        "date": "2026-06-09 16:48:52",
+        "message": "feat(synology): 添加 DSM 系统通知分页拉取功能"
+      },
+      {
+        "commit": "d4da569232d228de0f80dad4a9cf3b0dc8229bdd",
+        "author": "GateCross",
+        "date": "2026-06-09 10:46:27",
+        "message": "feat: add asynq api"
+      },
+      {
+        "commit": "ae9fd5ccda3f363f389259901c45ce23d7cebfa4",
+        "author": "GateCross",
+        "date": "2026-06-08 23:04:01",
+        "message": "feat: 添加115分享链接批量转存功能"
+      },
+      {
+        "commit": "3ac2d560857706017a437e9c038b56093256a186",
+        "author": "GateCross",
+        "date": "2026-06-08 16:15:05",
+        "message": "feat: 微信渠道添加云端资源搜索功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606091449",
     "items": [
       {
@@ -101,17 +130,6 @@
         "author": "GateCross",
         "date": "2026-06-06 21:59:06",
         "message": "feat: 增加HDHive用户信息字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606051741",
-    "items": [
-      {
-        "commit": "9c361a9e42ec62f256b9a3b5b81768a62550805b",
-        "author": "xylplm",
-        "date": "2026-06-05 17:38:25",
-        "message": "feat: HDHive OpenAPI 接入（后端）"
       }
     ]
   }
