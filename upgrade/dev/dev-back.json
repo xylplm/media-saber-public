@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606102200",
+    "items": [
+      {
+        "commit": "406e4e3fe48b9b624148debe183da6da8e5b417a",
+        "author": "liurongjie",
+        "date": "2026-06-10 21:59:20",
+        "message": "refactor(plugin): 重构群晖 DSM 通知显示逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606092304",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-06-07 22:21:56",
         "message": "Revert \"fix: 优化milist的缓存逻辑\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606072203",
-    "items": [
-      {
-        "commit": "ece3226718385cbf30bafd44d89fd0ff6eabd597",
-        "author": "GateCross",
-        "date": "2026-06-07 22:03:37",
-        "message": "fix: 优化milist的缓存逻辑"
       }
     ]
   }
