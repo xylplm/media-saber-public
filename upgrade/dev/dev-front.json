@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606132044",
+    "items": [
+      {
+        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
+        "author": "Jolc",
+        "date": "2026-06-13 20:40:49",
+        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606091732",
     "items": [
       {
@@ -161,23 +172,6 @@
         "author": "GateCross",
         "date": "2026-05-26 23:38:02",
         "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605281051",
-    "items": [
-      {
-        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
-        "author": "xylplm",
-        "date": "2026-05-26 21:02:58",
-        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
-      },
-      {
-        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
-        "author": "xylplm",
-        "date": "2026-05-26 18:43:34",
-        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
       }
     ]
   }
