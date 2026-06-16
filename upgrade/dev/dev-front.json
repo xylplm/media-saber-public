@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606161147",
+    "items": [
+      {
+        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
+        "author": "xylplm",
+        "date": "2026-06-16 11:18:35",
+        "message": "feat:癫影 icon"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606161141",
     "items": [
       {
@@ -113,53 +124,6 @@
         "author": "xylplm",
         "date": "2026-05-26 18:43:34",
         "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605311027",
-    "items": [
-      {
-        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
-        "author": "GateCross",
-        "date": "2026-05-26 23:38:02",
-        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
-      },
-      {
-        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
-        "author": "xylplm",
-        "date": "2026-05-26 21:02:58",
-        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
-      },
-      {
-        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
-        "author": "xylplm",
-        "date": "2026-05-26 18:43:34",
-        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
-      },
-      {
-        "commit": "2ebcce3e9096c37e73f4dbca1a816bdae39e64ea",
-        "author": "GateCross",
-        "date": "2026-05-24 21:53:16",
-        "message": "fix: 支持插件媒体库动态选择"
-      },
-      {
-        "commit": "9ac4f626abc40151e361c7594254a9b43394a7e3",
-        "author": "xylplm",
-        "date": "2026-05-24 15:22:19",
-        "message": "🔁 refactor: 优化电影日历模块，调整移动端日期跳转和导航按钮显示逻辑"
-      },
-      {
-        "commit": "f721107322b35478189b2567985c96f4f6103075",
-        "author": "xylplm",
-        "date": "2026-05-24 15:13:35",
-        "message": "✨ feat: 电影日历模块重构，优化日期选择与数据请求逻辑"
-      },
-      {
-        "commit": "4ab8f415e8027ce5850f8b8d7403ebc1b1a2d7a9",
-        "author": "xylplm",
-        "date": "2026-05-24 14:05:59",
-        "message": "✨ feat: 订阅日历模块重构，增加时间线与海报网格视图，优化响应式设计"
       }
     ]
   }

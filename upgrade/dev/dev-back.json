@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606161147",
+    "items": [
+      {
+        "commit": "57f2b643069cb0a1669ded287dc237824067efb3",
+        "author": "xylplm",
+        "date": "2026-06-16 11:46:43",
+        "message": "chore(plugin): 更新插件定义和版本信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606161141",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "GateCross",
         "date": "2026-06-08 23:04:01",
         "message": "feat: 添加115分享链接批量转存功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606081616",
-    "items": [
-      {
-        "commit": "3ac2d560857706017a437e9c038b56093256a186",
-        "author": "GateCross",
-        "date": "2026-06-08 16:15:05",
-        "message": "feat: 微信渠道添加云端资源搜索功能"
-      },
-      {
-        "commit": "431fb48a11627ad109b0990807121d2b41f1c7ff",
-        "author": "liurongjie",
-        "date": "2026-06-08 14:21:40",
-        "message": "feat(mediaproxy): 新增 Plex STRM 深度元数据探测功能"
       }
     ]
   }
