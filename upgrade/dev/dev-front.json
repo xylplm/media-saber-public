@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606161902",
+    "items": [
+      {
+        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
+        "author": "Jolc",
+        "date": "2026-06-13 20:40:49",
+        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606161147",
     "items": [
       {
@@ -95,35 +106,6 @@
         "author": "GateCross",
         "date": "2026-05-31 23:28:10",
         "message": "feat: 云存储添加分组视图支持，优化布局切换功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605311309",
-    "items": [
-      {
-        "commit": "6a5935479c8e99b72d653a06d734b2aa3d961267",
-        "author": "GateCross",
-        "date": "2026-05-31 13:03:35",
-        "message": "refactor: 移除 HDHive 相关组件和接口"
-      },
-      {
-        "commit": "9b57c8f85da7087d77e4474fc173246e1beaa336",
-        "author": "liurongjie",
-        "date": "2026-05-29 00:36:19",
-        "message": "fix(input-cron): 修复AI生成标签页内容渲染问题"
-      },
-      {
-        "commit": "4331ce69dac6a137afc9c2a03f74533d863d9f3f",
-        "author": "xylplm",
-        "date": "2026-05-26 21:02:58",
-        "message": "✨ feat: NAS 信息模块增加保修截止时间字段"
-      },
-      {
-        "commit": "45b2fe8e781afed5779edc68f6157d50ba711af1",
-        "author": "xylplm",
-        "date": "2026-05-26 18:43:34",
-        "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
       }
     ]
   }
