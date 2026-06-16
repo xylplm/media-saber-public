@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606161141",
+    "items": [
+      {
+        "commit": "72962b67c7b83831fd17c46887e410489c36ffe4",
+        "author": "xylplm",
+        "date": "2026-06-16 11:40:49",
+        "message": "feat(plugin): 优化癫影签到响应状态处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606161132",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-06-08 14:21:40",
         "message": "feat(mediaproxy): 新增 Plex STRM 深度元数据探测功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606081049",
-    "items": [
-      {
-        "commit": "7891e5e0d125c7c4bec602373625c099d152b30b",
-        "author": "GateCross",
-        "date": "2026-06-08 10:48:36",
-        "message": "fix: 增加直链在未找到文件时重试机制"
       }
     ]
   }
