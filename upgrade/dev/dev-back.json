@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606161132",
+    "items": [
+      {
+        "commit": "60592eb559da5061776826d780c57d3a94c82655",
+        "author": "xylplm",
+        "date": "2026-06-16 11:31:44",
+        "message": "feat(plugin): 优化癫影签到逻辑处理"
+      },
+      {
+        "commit": "dee6b74ce0b76bb8c13db5cf988e519a378b5f42",
+        "author": "xylplm",
+        "date": "2026-06-16 11:18:24",
+        "message": "feat:癫影 签到 秘籍"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606102200",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-06-08 10:48:36",
         "message": "fix: 增加直链在未找到文件时重试机制"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606072223",
-    "items": [
-      {
-        "commit": "bf745c2672be75afb2fd272bcdc0308b32c27c7b",
-        "author": "GateCross",
-        "date": "2026-06-07 22:21:56",
-        "message": "Revert \"fix: 优化milist的缓存逻辑\""
       }
     ]
   }

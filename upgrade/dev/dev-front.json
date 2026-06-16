@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606161132",
+    "items": [
+      {
+        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
+        "author": "xylplm",
+        "date": "2026-06-16 11:18:35",
+        "message": "feat:癫影 icon"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606132044",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "xylplm",
         "date": "2026-05-26 18:43:34",
         "message": "🔁 refactor: 更新 unraid和威联通图标颜色为白色"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605281348",
-    "items": [
-      {
-        "commit": "967bbc5c828a3d515141deaf448bce1beccc4c65",
-        "author": "GateCross",
-        "date": "2026-05-26 23:38:02",
-        "message": "fix: 优化前台存储卡片状态判定支持直通前缀并展示状态值"
       }
     ]
   }
