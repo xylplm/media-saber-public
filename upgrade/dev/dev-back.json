@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606170004",
+    "items": [
+      {
+        "commit": "90ab370047ce471f1fa7e7286907574b1166a4bb",
+        "author": "liurongjie",
+        "date": "2026-06-16 23:58:16",
+        "message": "feat(synology): 添加 DSM 通知本地化支持和消息格式化增强"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606161902",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-06-09 14:48:16",
         "message": "feat(btsite): 添加 Rousi 客户端支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606091047",
-    "items": [
-      {
-        "commit": "d4da569232d228de0f80dad4a9cf3b0dc8229bdd",
-        "author": "GateCross",
-        "date": "2026-06-09 10:46:27",
-        "message": "feat: add asynq api"
       }
     ]
   }

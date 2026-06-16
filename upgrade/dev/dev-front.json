@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606170004",
+    "items": [
+      {
+        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
+        "author": "xylplm",
+        "date": "2026-06-16 11:18:35",
+        "message": "feat:癫影 icon"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606161902",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "GateCross",
         "date": "2026-05-31 23:42:05",
         "message": "fix: 修复 csHashId 类型转换问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605312328",
-    "items": [
-      {
-        "commit": "ff2b6f511b728f0a8e1bb0e4d8518997f0f5726a",
-        "author": "GateCross",
-        "date": "2026-05-31 23:28:10",
-        "message": "feat: 云存储添加分组视图支持，优化布局切换功能"
       }
     ]
   }
