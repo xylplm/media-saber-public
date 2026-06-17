@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606170959",
+    "items": [
+      {
+        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
+        "author": "Jolc",
+        "date": "2026-06-13 20:40:49",
+        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606170004",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "xylplm",
         "date": "2026-06-05 17:39:04",
         "message": "feat: HDHive OpenAPI 接入（前端）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202605312342",
-    "items": [
-      {
-        "commit": "fe91a6cd17bb00d766fa2cab765b82dc838ef41d",
-        "author": "GateCross",
-        "date": "2026-05-31 23:42:05",
-        "message": "fix: 修复 csHashId 类型转换问题"
       }
     ]
   }
