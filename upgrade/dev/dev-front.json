@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606171413",
+    "items": [
+      {
+        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
+        "author": "xylplm",
+        "date": "2026-06-16 11:18:35",
+        "message": "feat:癫影 icon"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606170959",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "GateCross",
         "date": "2026-06-09 10:46:35",
         "message": "feat: 增加后台任务管理页面"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606051741",
-    "items": [
-      {
-        "commit": "dcb77b659e5482e872fa79a53a72bea20f699c59",
-        "author": "xylplm",
-        "date": "2026-06-05 17:39:04",
-        "message": "feat: HDHive OpenAPI 接入（前端）"
       }
     ]
   }

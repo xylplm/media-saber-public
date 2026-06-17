@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606171413",
+    "items": [
+      {
+        "commit": "d2c8a30f9dd2727c6ea0af10048cf3922cd260d3",
+        "author": "liurongjie",
+        "date": "2026-06-17 14:09:11",
+        "message": "style(notification): 更新错误级别图标为更醒目的样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606170959",
     "items": [
       {
@@ -113,35 +124,6 @@
         "author": "liurongjie",
         "date": "2026-06-09 17:15:09",
         "message": "feat(plugin): 优化群晖服务助手风扇模式和UPS状态显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606091649",
-    "items": [
-      {
-        "commit": "145a49fe358b2f54438c804c188262465c2437b0",
-        "author": "liurongjie",
-        "date": "2026-06-09 16:48:52",
-        "message": "feat(synology): 添加 DSM 系统通知分页拉取功能"
-      },
-      {
-        "commit": "d4da569232d228de0f80dad4a9cf3b0dc8229bdd",
-        "author": "GateCross",
-        "date": "2026-06-09 10:46:27",
-        "message": "feat: add asynq api"
-      },
-      {
-        "commit": "ae9fd5ccda3f363f389259901c45ce23d7cebfa4",
-        "author": "GateCross",
-        "date": "2026-06-08 23:04:01",
-        "message": "feat: 添加115分享链接批量转存功能"
-      },
-      {
-        "commit": "3ac2d560857706017a437e9c038b56093256a186",
-        "author": "GateCross",
-        "date": "2026-06-08 16:15:05",
-        "message": "feat: 微信渠道添加云端资源搜索功能"
       }
     ]
   }
