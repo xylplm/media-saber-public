@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202606181503",
+    "items": [
+      {
+        "commit": "db34fbe98dab761d0efceea3eadde58650038bb4",
+        "author": "xylplm",
+        "date": "2026-06-18 13:45:09",
+        "message": "feat ✨: 搜索任务统一批量操作工具条"
+      },
+      {
+        "commit": "3829d697ef67b80dc9c3a4e25a2018f183c95f30",
+        "author": "xylplm",
+        "date": "2026-06-18 10:25:56",
+        "message": "feat ✨: TMDB索引优化批量操作工具条"
+      },
+      {
+        "commit": "94347eedb51cfd61e1c7972eebd6dd8d30aad45a",
+        "author": "xylplm",
+        "date": "2026-06-18 09:56:58",
+        "message": "feat ✨: TMDB索引新增单条缓存清理入口"
+      },
+      {
+        "commit": "3d1b282368d5791ac9cb66117b1d0adf8c5c4a94",
+        "author": "xylplm",
+        "date": "2026-06-17 23:42:37",
+        "message": "fix: 云端资源 非管理员使用"
+      },
+      {
+        "commit": "88f4764940b6e68f7b2de94e2da954786d7f378e",
+        "author": "xylplm",
+        "date": "2026-06-17 23:23:28",
+        "message": "feat: add netdata plugin icon"
+      },
+      {
+        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
+        "author": "Jolc",
+        "date": "2026-06-13 20:40:49",
+        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606171413",
     "items": [
       {
@@ -95,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-06-09 17:30:04",
         "message": "feat(widget-nas-info): 添加风扇状态显示功能支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606091047",
-    "items": [
-      {
-        "commit": "67ddcbac8d0cd39388096517bc2e1d06074724f4",
-        "author": "GateCross",
-        "date": "2026-06-09 10:46:35",
-        "message": "feat: 增加后台任务管理页面"
       }
     ]
   }
