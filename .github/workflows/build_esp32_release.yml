@@ -1,0 +1,148 @@
+name: build-esp32-release
+
+# 编译私有库 ms-esp32-s3-box 的 ms-helper 固件，按发布规范打包，
+# 并发布到公开库固定的 esp32 tag（https://github.com/xylplm/media-saber-public/releases/tag/esp32）。
+# 每次运行用日期版本号作为 release 标题，方便区分构建批次；tag 始终为 esp32。
+#
+# 需在公开库配置 Secrets：
+#   PERSON_ACCESS_TOKEN  能拉取私有库 ms-esp32-s3-box 的 PAT（同时用于发布 release）
+#   REPOSITORY_ESP32     私有 ESP32 仓库全名，例如 xylplm/ms-esp32-s3-box
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # ------------------------------------------------------------------
+  # Job 1：在 espressif/idf 容器里编译 + 打包，产出 artifact
+  # ------------------------------------------------------------------
+  build:
+    name: Build & package
+    runs-on: ubuntu-latest
+    container:
+      image: espressif/idf:v5.5.2
+    steps:
+      - name: Checkout private ESP32 repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ secrets.REPOSITORY_ESP32 }}
+          path: ms-esp32-s3-box
+          ref: main
+          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          fetch-depth: 0
+
+      - name: Build and merge ms-helper
+        shell: bash
+        run: |
+          cd ms-esp32-s3-box
+          source $IDF_PATH/export.sh
+          # release.py 完成 set-target + build + merge-bin，
+          # 产物 build/merged-binary.bin（含 bootloader+分区+ota+app+assets）
+          python scripts/release.py ms-helper --name ms-helper
+
+      # ============================================================
+      # 按社区发布规范打包：合并包 + 分散包
+      # ============================================================
+      - name: Package release archives
+        shell: bash
+        run: |
+          set -e
+          cd ms-esp32-s3-box
+          mkdir -p release/merged release/split
+
+          # ---------- 合并固件包（单文件，烧到 0x0） ----------
+          cp build/merged-binary.bin release/merged/media-saber-esp32s3-ms-helper.bin
+          cp scripts/release_readme_merged.txt release/merged/README.txt
+
+          # ---------- 分散固件包（5 个分区固件 + flash_args） ----------
+          cp build/bootloader/bootloader.bin            release/split/
+          cp build/partition_table/partition-table.bin release/split/
+          cp build/ota_data_initial.bin                release/split/
+          cp build/xiaozhi.bin                         release/split/
+          cp build/generated_assets.bin                release/split/
+          cp scripts/release_readme_split.txt          release/split/README.txt
+
+          # flash_args：解压后同级目录可直接 @flash_args
+          {
+            echo "--flash_mode dio --flash_freq 80m --flash_size 16MB"
+            echo "0x0 bootloader.bin"
+            echo "0x8000 partition-table.bin"
+            echo "0xd000 ota_data_initial.bin"
+            echo "0x20000 xiaozhi.bin"
+            echo "0x800000 generated_assets.bin"
+          } > release/split/flash_args
+
+          ( cd release/merged && zip -r ../media-saber-esp32s3-ms-helper-merged.zip . )
+          ( cd release/split  && zip -r ../media-saber-esp32s3-ms-helper-split.zip . )
+
+          echo "=== packaged ==="
+          ls -la release/*.zip
+
+      - name: Upload release archives
+        uses: actions/upload-artifact@v4
+        with:
+          name: esp32-release-archives
+          path: |
+            ms-esp32-s3-box/release/media-saber-esp32s3-ms-helper-merged.zip
+            ms-esp32-s3-box/release/media-saber-esp32s3-ms-helper-split.zip
+          if-no-files-found: error
+
+  # ------------------------------------------------------------------
+  # Job 2：在普通 runner（自带 gh CLI）上发布 release 到 esp32 tag
+  # ------------------------------------------------------------------
+  release:
+    name: Publish to esp32 tag
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout public repo（取 release notes 模板）
+        uses: actions/checkout@v4
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: esp32-release-archives
+          path: release
+
+      - name: Generate build version
+        id: ver
+        run: |
+          # 版本号：ESP32_YYYYMMDDHHMM（北京时间）
+          VERSION="ESP32_$(TZ='Asia/Shanghai' date +'%Y%m%d%H%M')"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "build version: $VERSION"
+
+      - name: Generate release notes
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          # 模板统一维护在 .github/workflows/esp32_release_notes.md，
+          # 用 sed 替换版本号与构建时间占位符，避免 heredoc 缩进问题
+          BUILD_TIME="$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          sed \
+            -e "s|__VERSION__|${VERSION}|g" \
+            -e "s|__BUILD_TIME__|${BUILD_TIME}|g" \
+            .github/workflows/esp32_release_notes.md > release_notes.md
+          echo "=== release notes ==="
+          cat release_notes.md
+
+      - name: Delete previous esp32 release (cleanup tag)
+        env:
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+        run: |
+          # esp32 是固定 tag，每次发布前删除旧 release 与 tag，由下一步重建
+          gh release delete esp32 --repo "${{ github.repository }}" --yes --cleanup-tag || true
+
+      - name: Create GitHub Release on esp32 tag
+        env:
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          gh release create esp32 \
+            release/media-saber-esp32s3-ms-helper-merged.zip \
+            release/media-saber-esp32s3-ms-helper-split.zip \
+            --title "${VERSION}" \
+            --notes-file release_notes.md \
+            --repo "${{ github.repository }}"
