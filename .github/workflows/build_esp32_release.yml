@@ -30,7 +30,6 @@ jobs:
           path: ms-esp32-s3-box
           ref: main
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
-          fetch-depth: 0
 
       - name: Build and merge ms-helper
         shell: bash
