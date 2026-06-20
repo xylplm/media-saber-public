@@ -5,7 +5,7 @@ name: build-esp32-release
 # 每次运行用日期版本号作为 release 标题，方便区分构建批次；tag 始终为 esp32。
 #
 # 需在公开库配置 Secrets：
-#   PERSON_ACCESS_TOKEN  能拉取私有库 ms-esp32-s3-box 的 PAT（同时用于发布 release）
+#   TO_GITHUB_TOKEN  能拉取私有库 ms-esp32-s3-box 的 PAT（同时用于发布 release）
 
 on:
   workflow_dispatch:
@@ -29,7 +29,7 @@ jobs:
           repository: xylplm/ms-esp32-s3-box
           path: ms-esp32-s3-box
           ref: main
-          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          token: ${{ secrets.TO_GITHUB_TOKEN }}
 
       - name: Build and merge ms-helper
         shell: bash
@@ -128,14 +128,14 @@ jobs:
 
       - name: Delete previous esp32 release (cleanup tag)
         env:
-          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.TO_GITHUB_TOKEN }}
         run: |
           # esp32 是固定 tag，每次发布前删除旧 release 与 tag，由下一步重建
           gh release delete esp32 --repo "${{ github.repository }}" --yes --cleanup-tag || true
 
       - name: Create GitHub Release on esp32 tag
         env:
-          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.TO_GITHUB_TOKEN }}
           VERSION: ${{ steps.ver.outputs.version }}
         run: |
           gh release create esp32 \
