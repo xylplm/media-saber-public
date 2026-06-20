@@ -6,7 +6,6 @@ name: build-esp32-release
 #
 # 需在公开库配置 Secrets：
 #   PERSON_ACCESS_TOKEN  能拉取私有库 ms-esp32-s3-box 的 PAT（同时用于发布 release）
-#   REPOSITORY_ESP32     私有 ESP32 仓库全名，例如 xylplm/ms-esp32-s3-box
 
 on:
   workflow_dispatch:
@@ -27,7 +26,7 @@ jobs:
       - name: Checkout private ESP32 repo
         uses: actions/checkout@v4
         with:
-          repository: ${{ secrets.REPOSITORY_ESP32 }}
+          repository: xylplm/ms-esp32-s3-box
           path: ms-esp32-s3-box
           ref: main
           token: ${{ secrets.PERSON_ACCESS_TOKEN }}
