@@ -5,7 +5,7 @@ name: build-esp32-release
 # 每次运行用日期版本号作为 release 标题，方便区分构建批次；tag 始终为 esp32。
 #
 # 需在公开库配置 Secrets：
-#   TO_GITHUB_TOKEN  能拉取私有库 ms-esp32-s3-box 的 PAT（同时用于发布 release）
+#   PERSON_ACCESS_TOKEN  能拉取私有库 ms-esp32-s3-box 的 PAT（同时用于发布 release）
 
 on:
   workflow_dispatch:
@@ -24,12 +24,12 @@ jobs:
       image: espressif/idf:v5.5.2
     steps:
       - name: Checkout private ESP32 repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: xylplm/ms-esp32-s3-box
           path: ms-esp32-s3-box
           ref: main
-          token: ${{ secrets.TO_GITHUB_TOKEN }}
+          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
 
       - name: Build and merge ms-helper
         shell: bash
@@ -79,7 +79,7 @@ jobs:
           ls -la release/*.zip
 
       - name: Upload release archives
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: esp32-release-archives
           path: |
@@ -96,10 +96,10 @@ jobs:
     needs: build
     steps:
       - name: Checkout public repo（取 release notes 模板）
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Download build artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: esp32-release-archives
           path: release
@@ -128,14 +128,14 @@ jobs:
 
       - name: Delete previous esp32 release (cleanup tag)
         env:
-          GH_TOKEN: ${{ secrets.TO_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
         run: |
           # esp32 是固定 tag，每次发布前删除旧 release 与 tag，由下一步重建
           gh release delete esp32 --repo "${{ github.repository }}" --yes --cleanup-tag || true
 
       - name: Create GitHub Release on esp32 tag
         env:
-          GH_TOKEN: ${{ secrets.TO_GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
           VERSION: ${{ steps.ver.outputs.version }}
         run: |
           gh release create esp32 \
