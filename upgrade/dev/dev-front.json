@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606221218",
+    "items": [
+      {
+        "commit": "736108dab93146bf55d8b71cde2a44611b13a262",
+        "author": "GateCross",
+        "date": "2026-06-22 12:16:50",
+        "message": "feat: 优化后台任务列表展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606221112",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-06-13 20:40:49",
         "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161132",
-    "items": [
-      {
-        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
-        "author": "xylplm",
-        "date": "2026-06-16 11:18:35",
-        "message": "feat:癫影 icon"
       }
     ]
   }

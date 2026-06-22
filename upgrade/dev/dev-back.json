@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606221218",
+    "items": [
+      {
+        "commit": "d5f1a681aa48b20e7aee448569760000f036c724",
+        "author": "GateCross",
+        "date": "2026-06-22 12:16:50",
+        "message": "feat: 优化后台任务时间排序"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606221042",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-06-16 11:18:24",
         "message": "feat:癫影 签到 秘籍"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606102200",
-    "items": [
-      {
-        "commit": "406e4e3fe48b9b624148debe183da6da8e5b417a",
-        "author": "liurongjie",
-        "date": "2026-06-10 21:59:20",
-        "message": "refactor(plugin): 重构群晖 DSM 通知显示逻辑"
       }
     ]
   }
