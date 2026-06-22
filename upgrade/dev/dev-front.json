@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606221112",
+    "items": [
+      {
+        "commit": "251794a6fd58bc479e3f9ab10f668188b4fe3851",
+        "author": "GateCross",
+        "date": "2026-06-22 11:09:32",
+        "message": "fix: 修正批量云下载大小显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606221042",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-06-16 11:18:35",
         "message": "feat:癫影 icon"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606132044",
-    "items": [
-      {
-        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
-        "author": "Jolc",
-        "date": "2026-06-13 20:40:49",
-        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
       }
     ]
   }
