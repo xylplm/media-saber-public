@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202606221042",
+    "items": [
+      {
+        "commit": "cfed2be949adbc6a357bcf49672a0dfba0c083a5",
+        "author": "xylplm",
+        "date": "2026-06-18 21:30:21",
+        "message": "fix: 规则 展开优化"
+      },
+      {
+        "commit": "ec7d2024df82633788f6687952abfb74831164d6",
+        "author": "xylplm",
+        "date": "2026-06-18 20:43:32",
+        "message": "feat ✨: 前端云端资源增加黑名单与彻底删除操作"
+      },
+      {
+        "commit": "d6d4c722fee1c76558ef7fef3e298ae799cfc3d3",
+        "author": "xylplm",
+        "date": "2026-06-18 14:13:10",
+        "message": "feat ✨: 目录同步支持点击标题切换面板"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606181503",
     "items": [
       {
@@ -125,17 +148,6 @@
         "author": "Jolc",
         "date": "2026-06-13 20:40:49",
         "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606091732",
-    "items": [
-      {
-        "commit": "c21c25c40f6f4979354fe27865af37640d92d3e3",
-        "author": "liurongjie",
-        "date": "2026-06-09 17:30:04",
-        "message": "feat(widget-nas-info): 添加风扇状态显示功能支持"
       }
     ]
   }

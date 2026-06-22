@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606221042",
+    "items": [
+      {
+        "commit": "4aa3da2ace9f5457d6ced807673711b0d5ebd64d",
+        "author": "liurongjie",
+        "date": "2026-06-22 10:13:26",
+        "message": "refactor(clouddrive2): 重构配置加载逻辑并添加缓存机制"
+      },
+      {
+        "commit": "7c1353c8cd943c45a10b920a4b84cd56dc17a6b1",
+        "author": "xylplm",
+        "date": "2026-06-18 20:43:34",
+        "message": "feat ✨: 后端云端资源区分软删除与硬删除接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606181503",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-06-10 21:59:20",
         "message": "refactor(plugin): 重构群晖 DSM 通知显示逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606092304",
-    "items": [
-      {
-        "commit": "4e08c2089fe9a9eff26e82b403037231181354f9",
-        "author": "liurongjie",
-        "date": "2026-06-09 23:03:48",
-        "message": "fix(mediaproxy): 修复 ffprobe 错误处理"
       }
     ]
   }
