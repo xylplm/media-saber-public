@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606222357",
+    "items": [
+      {
+        "commit": "4b100e1cf55431ab239ed13864a5935858a60a17",
+        "author": "GateCross",
+        "date": "2026-06-22 23:56:31",
+        "message": "fix: 修复豆瓣订阅请求源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606222352",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-06-16 23:58:16",
         "message": "feat(synology): 添加 DSM 通知本地化支持和消息格式化增强"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161902",
-    "items": [
-      {
-        "commit": "c29b664f4e8ef7fd22bf7814a6124f8937e4f2d6",
-        "author": "liurongjie",
-        "date": "2026-06-16 19:02:12",
-        "message": "feat(synology): 添加 DSM 通知本地化支持和消息格式化增强"
-      },
-      {
-        "commit": "795c622b49a219f99cc3dee00b763cce62619f74",
-        "author": "xylplm",
-        "date": "2026-06-16 13:13:08",
-        "message": "chore(cert): 更新服务证书和版本信息"
       }
     ]
   }
