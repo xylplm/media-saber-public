@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606221256",
+    "items": [
+      {
+        "commit": "0fc5cac64cbf69ef28a121d1b114d276b15109f9",
+        "author": "liurongjie",
+        "date": "2026-06-22 12:54:11",
+        "message": "feat(cloud-drive2): 添加CD2路径映射功能以支持MS路径转换 feat(mediaserver): 为Emby/Jellyfin/Plex媒体服务器添加路径映射刷新支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606221218",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "xylplm",
         "date": "2026-06-16 11:40:49",
         "message": "feat(plugin): 优化癫影签到响应状态处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161132",
-    "items": [
-      {
-        "commit": "60592eb559da5061776826d780c57d3a94c82655",
-        "author": "xylplm",
-        "date": "2026-06-16 11:31:44",
-        "message": "feat(plugin): 优化癫影签到逻辑处理"
-      },
-      {
-        "commit": "dee6b74ce0b76bb8c13db5cf988e519a378b5f42",
-        "author": "xylplm",
-        "date": "2026-06-16 11:18:24",
-        "message": "feat:癫影 签到 秘籍"
       }
     ]
   }
