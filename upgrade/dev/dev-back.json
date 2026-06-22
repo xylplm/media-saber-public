@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606222352",
+    "items": [
+      {
+        "commit": "552adbb794ef2c8a6fded8a68d7381445be1b226",
+        "author": "liurongjie",
+        "date": "2026-06-22 23:36:48",
+        "message": "Revert \"feat(cloud-drive2): 添加CD2路径映射功能以支持MS路径转换\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202606221303",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-06-16 13:13:08",
         "message": "chore(cert): 更新服务证书和版本信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161147",
-    "items": [
-      {
-        "commit": "57f2b643069cb0a1669ded287dc237824067efb3",
-        "author": "xylplm",
-        "date": "2026-06-16 11:46:43",
-        "message": "chore(plugin): 更新插件定义和版本信息"
       }
     ]
   }
