@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606221303",
+    "items": [
+      {
+        "commit": "486a5b9c18148ac540e483a5d7bb9ce60f960511",
+        "author": "liurongjie",
+        "date": "2026-06-22 13:03:10",
+        "message": "feat(plugin): 添加群晖服务助手通知令牌别名支持"
+      },
+      {
+        "commit": "d5f1a681aa48b20e7aee448569760000f036c724",
+        "author": "GateCross",
+        "date": "2026-06-22 12:16:50",
+        "message": "feat: 优化后台任务时间排序"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606221256",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-06-16 11:46:43",
         "message": "chore(plugin): 更新插件定义和版本信息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161141",
-    "items": [
-      {
-        "commit": "72962b67c7b83831fd17c46887e410489c36ffe4",
-        "author": "xylplm",
-        "date": "2026-06-16 11:40:49",
-        "message": "feat(plugin): 优化癫影签到响应状态处理"
       }
     ]
   }
