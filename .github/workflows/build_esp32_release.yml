@@ -52,7 +52,31 @@ jobs:
 
           # ---------- 合并固件包（单文件，烧到 0x0） ----------
           cp build/merged-binary.bin release/merged/media-saber-esp32s3-ms-helper.bin
-          cp scripts/release_readme_merged.txt release/merged/README.txt
+          cat > release/merged/README.txt <<'EOF'
+          Media Saber ESP32-S3 桌面小助手固件（合并版）
+          ==============================================
+
+          本压缩包内含一个合并固件文件，烧录到地址 0x0 即可，无需手动指定分区地址。
+
+          文件
+          ----
+          media-saber-esp32s3-ms-helper.bin   合并固件（bootloader + 分区表 + OTA 数据 + 应用 + 资源）
+
+          命令行烧录（esptool.py）
+          ------------------------
+              pip install esptool
+              esptool.py --chip esp32s3 --port COMx --baud 921600 write_flash -z 0x0 media-saber-esp32s3-ms-helper.bin
+
+          图形化烧录（Flash Download Tool）
+          ---------------------------------
+          - 芯片选 ESP32-S3，勾选地址 0x0，选择 media-saber-esp32s3-ms-helper.bin
+          - SPI Speed: 80MHz / SPI Mode: DIO / FlashSize: 16MB
+
+          完整教程
+          --------
+          参见 Media Saber Wiki：ESP32 桌面小助手 / 固件烧录教程
+          https://github.com/xylplm/media-saber-public/releases/tag/esp32
+          EOF
 
           # ---------- 分散固件包（5 个分区固件 + flash_args） ----------
           cp build/bootloader/bootloader.bin            release/split/
@@ -60,7 +84,44 @@ jobs:
           cp build/ota_data_initial.bin                release/split/
           cp build/xiaozhi.bin                         release/split/
           cp build/generated_assets.bin                release/split/
-          cp scripts/release_readme_split.txt          release/split/README.txt
+          cat > release/split/README.txt <<'EOF'
+          Media Saber ESP32-S3 桌面小助手固件（分散版）
+          ============================================
+
+          本压缩包内含 5 个分区固件，按各自地址分别烧录，适合需要单独刷新某个分区的用户。
+
+          文件与地址
+          ----------
+              地址        文件
+              0x0         bootloader.bin
+              0x8000      partition-table.bin
+              0xd000      ota_data_initial.bin
+              0x20000     xiaozhi.bin
+              0x800000    generated_assets.bin
+
+          命令行烧录（esptool.py，使用 flash_args 一次性烧录）
+          ---------------------------------------------------
+              pip install esptool
+              esptool.py --chip esp32s3 --port COMx --baud 921600 write_flash -z @flash_args
+
+          或分条写入：
+              esptool.py --chip esp32s3 --port COMx --baud 921600 write_flash -z `
+                0x0 bootloader.bin `
+                0x8000 partition-table.bin `
+                0xd000 ota_data_initial.bin `
+                0x20000 xiaozhi.bin `
+                0x800000 generated_assets.bin
+
+          图形化烧录（Flash Download Tool）
+          ---------------------------------
+          按上面的地址表逐行添加文件，全部勾选后开始烧录。
+          SPI Speed: 80MHz / SPI Mode: DIO / FlashSize: 16MB
+
+          完整教程
+          --------
+          参见 Media Saber Wiki：ESP32 桌面小助手 / 固件烧录教程
+          https://github.com/xylplm/media-saber-public/releases/tag/esp32
+          EOF
 
           # flash_args：解压后同级目录可直接 @flash_args
           {
