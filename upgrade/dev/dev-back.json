@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606231156",
+    "items": [
+      {
+        "commit": "0d041e49e6ef3f74acc02e7aebe515afe230a5b7",
+        "author": "GateCross",
+        "date": "2026-06-23 11:52:51",
+        "message": "feat: 增加豆瓣订阅忽略记录"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606230856",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-06-17 14:09:11",
         "message": "style(notification): 更新错误级别图标为更醒目的样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606170959",
-    "items": [
-      {
-        "commit": "050ccdb5a6798e695335611b6d34e197358cc896",
-        "author": "GateCross",
-        "date": "2026-06-17 09:48:02",
-        "message": "fix: bug"
       }
     ]
   }
