@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606230856",
+    "items": [
+      {
+        "commit": "2ebc9bbae84c2a70fb2fef3d4da8c8ae0b54a6cb",
+        "author": "GateCross",
+        "date": "2026-06-23 08:54:45",
+        "message": "feat: 支持豆瓣订阅指定用户列表"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606222357",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-06-17 09:48:02",
         "message": "fix: bug"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606170004",
-    "items": [
-      {
-        "commit": "90ab370047ce471f1fa7e7286907574b1166a4bb",
-        "author": "liurongjie",
-        "date": "2026-06-16 23:58:16",
-        "message": "feat(synology): 添加 DSM 通知本地化支持和消息格式化增强"
       }
     ]
   }
