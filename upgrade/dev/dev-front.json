@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606242200",
+    "items": [
+      {
+        "commit": "1809783a0d7312c4fc925e31d8027352dad0a95e",
+        "author": "xylplm",
+        "date": "2026-06-24 20:21:55",
+        "message": "feat ✅: 前端新增媒体健康中心"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606241831",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-06-16 11:18:35",
         "message": "feat:癫影 icon"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161902",
-    "items": [
-      {
-        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
-        "author": "Jolc",
-        "date": "2026-06-13 20:40:49",
-        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
       }
     ]
   }

@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202606242200",
+    "items": [
+      {
+        "commit": "6c397bb57dd798eb9d6e5428b9e8a92e56f1e25a",
+        "author": "xylplm",
+        "date": "2026-06-24 21:56:45",
+        "message": "feat ✅: 后端新增健康检查接口"
+      },
+      {
+        "commit": "1a57ccdac82b98ed83b4e0573f499278b75bfb0a",
+        "author": "xylplm",
+        "date": "2026-06-24 21:25:36",
+        "message": "fix 🐛: 后端优化极空间剧集同步"
+      },
+      {
+        "commit": "34926e5bfb6a56426d7a64e39ee61a4679f6da3c",
+        "author": "xylplm",
+        "date": "2026-06-24 20:42:48",
+        "message": "fix 🐛: 后端修复极空间剧集同步"
+      },
+      {
+        "commit": "d2ec2d29ec0565069387532befd8ae401b3aeb7e",
+        "author": "xylplm",
+        "date": "2026-06-24 20:22:30",
+        "message": "feat ✅: 后端新增媒体健康中心"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606241831",
     "items": [
       {
@@ -137,23 +166,6 @@
         "author": "GateCross",
         "date": "2026-06-22 12:16:50",
         "message": "feat: 优化后台任务时间排序"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221042",
-    "items": [
-      {
-        "commit": "4aa3da2ace9f5457d6ced807673711b0d5ebd64d",
-        "author": "liurongjie",
-        "date": "2026-06-22 10:13:26",
-        "message": "refactor(clouddrive2): 重构配置加载逻辑并添加缓存机制"
-      },
-      {
-        "commit": "7c1353c8cd943c45a10b920a4b84cd56dc17a6b1",
-        "author": "xylplm",
-        "date": "2026-06-18 20:43:34",
-        "message": "feat ✨: 后端云端资源区分软删除与硬删除接口"
       }
     ]
   }
