@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202606241831",
+    "items": [
+      {
+        "commit": "4da30b31f3d1d5318b35c24c06e611808027f8c1",
+        "author": "xylplm",
+        "date": "2026-06-24 17:55:33",
+        "message": "feat ✨: 前端增加种子过滤原因面板"
+      },
+      {
+        "commit": "736108dab93146bf55d8b71cde2a44611b13a262",
+        "author": "GateCross",
+        "date": "2026-06-22 12:16:50",
+        "message": "feat: 优化后台任务列表展示"
+      },
+      {
+        "commit": "251794a6fd58bc479e3f9ab10f668188b4fe3851",
+        "author": "GateCross",
+        "date": "2026-06-22 11:09:32",
+        "message": "fix: 修正批量云下载大小显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606241534",
     "items": [
       {
@@ -155,17 +178,6 @@
         "author": "Jolc",
         "date": "2026-06-13 20:40:49",
         "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606161147",
-    "items": [
-      {
-        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
-        "author": "xylplm",
-        "date": "2026-06-16 11:18:35",
-        "message": "feat:癫影 icon"
       }
     ]
   }

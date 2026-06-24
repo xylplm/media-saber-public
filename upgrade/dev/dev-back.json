@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606241831",
+    "items": [
+      {
+        "commit": "fe9ea2100f081f985ea3b069c902d6b411bb6172",
+        "author": "xylplm",
+        "date": "2026-06-24 17:55:33",
+        "message": "feat ✨: 后端增加种子规则解释"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606241327",
     "items": [
       {
@@ -143,41 +154,6 @@
         "author": "xylplm",
         "date": "2026-06-18 20:43:34",
         "message": "feat ✨: 后端云端资源区分软删除与硬删除接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606181503",
-    "items": [
-      {
-        "commit": "e00a775e103fbfa55556efe4238fe28335116b59",
-        "author": "xylplm",
-        "date": "2026-06-18 13:53:44",
-        "message": "feat ✨: 企业微信可信 IP 增加仅失败通知开关"
-      },
-      {
-        "commit": "bb292d505005bbfedf43df3f1999c2f685bd5824",
-        "author": "xylplm",
-        "date": "2026-06-18 13:21:51",
-        "message": "refactor 🔁: 移除 TMDB 配置数据下载与读取"
-      },
-      {
-        "commit": "003adf2c710a17d39cce9b2cff8d980edeb2e93a",
-        "author": "xylplm",
-        "date": "2026-06-18 12:27:38",
-        "message": "fix(tmdb): 修复 TMDB 缓存清理 key 不匹配并对齐各业务清理逻辑"
-      },
-      {
-        "commit": "b8e71d39edde79cd87a5dd5c7fdce29b2d9b31c4",
-        "author": "xylplm",
-        "date": "2026-06-17 23:23:28",
-        "message": "feat: add netdata service assistant"
-      },
-      {
-        "commit": "050ccdb5a6798e695335611b6d34e197358cc896",
-        "author": "GateCross",
-        "date": "2026-06-17 09:48:02",
-        "message": "fix: bug"
       }
     ]
   }
