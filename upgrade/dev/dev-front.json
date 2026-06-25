@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202606251119",
+    "items": [
+      {
+        "commit": "02a0fc69227942670a5873ae33c1e529d60ffe57",
+        "author": "xylplm",
+        "date": "2026-06-25 10:30:45",
+        "message": "fix 🐛: 健康中心统一未匹配文案"
+      },
+      {
+        "commit": "263ad28ebafb6cd86468634cc7d0810c0fbf7318",
+        "author": "xylplm",
+        "date": "2026-06-25 10:06:54",
+        "message": "fix 🐛: 修复我的媒体库固定选项卡背景"
+      },
+      {
+        "commit": "b62663f577c43f941b44e20ce0f5fbe09dc2838b",
+        "author": "xylplm",
+        "date": "2026-06-25 00:59:55",
+        "message": "fix 🐛: 前端完善健康中心交互闭环"
+      },
+      {
+        "commit": "13bb26851d6abca3ea6c05192a0cb42df7870dff",
+        "author": "xylplm",
+        "date": "2026-06-25 00:32:28",
+        "message": "feat ✨: 健康中心支持可升级问题展示"
+      },
+      {
+        "commit": "21c1f3e27417b5700f4c9846b5eb379fcfa19a10",
+        "author": "xylplm",
+        "date": "2026-06-24 23:53:02",
+        "message": "feat ✨: 健康中心优化问题卡片与详情体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606242200",
     "items": [
       {
@@ -167,17 +202,6 @@
         "author": "Jolc",
         "date": "2026-06-13 20:40:49",
         "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606170004",
-    "items": [
-      {
-        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
-        "author": "xylplm",
-        "date": "2026-06-16 11:18:35",
-        "message": "feat:癫影 icon"
       }
     ]
   }

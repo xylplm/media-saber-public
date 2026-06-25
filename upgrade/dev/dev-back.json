@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202606251119",
+    "items": [
+      {
+        "commit": "ef30d48d0a3f05bb15f210a34a9e073631ad0bd4",
+        "author": "xylplm",
+        "date": "2026-06-25 10:30:45",
+        "message": "fix 🐛: MCP 统一媒体健康中心未匹配描述"
+      },
+      {
+        "commit": "26f26e69592808aa1aa3f14d66329b98e3506c22",
+        "author": "xylplm",
+        "date": "2026-06-25 01:17:23",
+        "message": "feat ✨: MCP 增加媒体健康中心查询"
+      },
+      {
+        "commit": "c9b07f4528fa0aea132f633efb299cf5bd78ae03",
+        "author": "xylplm",
+        "date": "2026-06-25 00:59:55",
+        "message": "fix 🐛: 后端完善健康中心边界逻辑"
+      },
+      {
+        "commit": "1bdacd72e395f81920aed3ef95e2e1b8e0713d43",
+        "author": "xylplm",
+        "date": "2026-06-25 00:32:28",
+        "message": "feat ✨: 健康中心增加可升级问题发现"
+      },
+      {
+        "commit": "3dcbb9fb10db8c71ebc9eba34556c3c190f90dd6",
+        "author": "xylplm",
+        "date": "2026-06-24 23:53:02",
+        "message": "feat ✨: 健康中心增加未归宗问题发现"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606242200",
     "items": [
       {
@@ -155,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-06-22 12:54:11",
         "message": "feat(cloud-drive2): 添加CD2路径映射功能以支持MS路径转换 feat(mediaserver): 为Emby/Jellyfin/Plex媒体服务器添加路径映射刷新支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221218",
-    "items": [
-      {
-        "commit": "d5f1a681aa48b20e7aee448569760000f036c724",
-        "author": "GateCross",
-        "date": "2026-06-22 12:16:50",
-        "message": "feat: 优化后台任务时间排序"
       }
     ]
   }
