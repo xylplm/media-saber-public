@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606251454",
+    "items": [
+      {
+        "commit": "b3e77e446ab394f7a568e1e3bb6fed29118f9e6a",
+        "author": "xylplm",
+        "date": "2026-06-25 14:32:36",
+        "message": "feat: 媒体健康中心查询仅返回已启用媒体服务器的数据"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606251119",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "GateCross",
         "date": "2026-06-22 12:16:50",
         "message": "feat: 优化后台任务时间排序"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221256",
-    "items": [
-      {
-        "commit": "0fc5cac64cbf69ef28a121d1b114d276b15109f9",
-        "author": "liurongjie",
-        "date": "2026-06-22 12:54:11",
-        "message": "feat(cloud-drive2): 添加CD2路径映射功能以支持MS路径转换 feat(mediaserver): 为Emby/Jellyfin/Plex媒体服务器添加路径映射刷新支持"
       }
     ]
   }

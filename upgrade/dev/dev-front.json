@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606251454",
+    "items": [
+      {
+        "commit": "bae8645fb046e501243a0c17446a6ece3c2dbe35",
+        "author": "xylplm",
+        "date": "2026-06-25 14:32:37",
+        "message": "feat: 媒体健康中心下拉过滤仅显示已启用的媒体服务器"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606251119",
     "items": [
       {
@@ -191,17 +202,6 @@
         "author": "xylplm",
         "date": "2026-06-16 11:18:35",
         "message": "feat:癫影 icon"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606170959",
-    "items": [
-      {
-        "commit": "74791c9776db7aa06514c2eb0943d924cd607ea9",
-        "author": "Jolc",
-        "date": "2026-06-13 20:40:49",
-        "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
       }
     ]
   }
