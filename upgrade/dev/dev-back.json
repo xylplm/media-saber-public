@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606251547",
+    "items": [
+      {
+        "commit": "a743f9efa48ea13d94a766db8a18d8efc46e787d",
+        "author": "xylplm",
+        "date": "2026-06-25 15:42:46",
+        "message": "fix(subscribe): 修复订阅过滤因 TMDB 搜索限流导致批量未匹配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606251454",
     "items": [
       {
@@ -173,23 +184,6 @@
         "author": "liurongjie",
         "date": "2026-06-22 23:36:48",
         "message": "Revert \"feat(cloud-drive2): 添加CD2路径映射功能以支持MS路径转换\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221303",
-    "items": [
-      {
-        "commit": "486a5b9c18148ac540e483a5d7bb9ce60f960511",
-        "author": "liurongjie",
-        "date": "2026-06-22 13:03:10",
-        "message": "feat(plugin): 添加群晖服务助手通知令牌别名支持"
-      },
-      {
-        "commit": "d5f1a681aa48b20e7aee448569760000f036c724",
-        "author": "GateCross",
-        "date": "2026-06-22 12:16:50",
-        "message": "feat: 优化后台任务时间排序"
       }
     ]
   }
