@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606262247",
+    "items": [
+      {
+        "commit": "f33962fd638ba9461e50bd80a439750188439a01",
+        "author": "xylplm",
+        "date": "2026-06-26 22:22:00",
+        "message": "feat ✨: 搜索规则对比媒体接口 compareFilterMedia 与标准 Result 响应"
+      },
+      {
+        "commit": "ad6cfd1ef7915584518b610739bf58e744aae0ef",
+        "author": "xylplm",
+        "date": "2026-06-26 21:37:46",
+        "message": "feat ✨: 搜索种子分页增加 ext 过滤统计并支持仅查未通过过滤"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606261749",
     "items": [
       {
@@ -203,17 +220,6 @@
         "author": "GateCross",
         "date": "2026-06-23 11:52:51",
         "message": "feat: 增加豆瓣订阅忽略记录"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606230856",
-    "items": [
-      {
-        "commit": "2ebc9bbae84c2a70fb2fef3d4da8c8ae0b54a6cb",
-        "author": "GateCross",
-        "date": "2026-06-23 08:54:45",
-        "message": "feat: 支持豆瓣订阅指定用户列表"
       }
     ]
   }
