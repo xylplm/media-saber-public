@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606261749",
+    "items": [
+      {
+        "commit": "5c49f42ac0cd15f6876cdd287937ef6f2e5aaa1c",
+        "author": "xylplm",
+        "date": "2026-06-26 17:21:15",
+        "message": "feat ✨: SSE 连接支持 client 端类型区分与按端统计"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606251827",
     "items": [
       {
@@ -203,17 +214,6 @@
         "author": "GateCross",
         "date": "2026-06-23 08:54:45",
         "message": "feat: 支持豆瓣订阅指定用户列表"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606222357",
-    "items": [
-      {
-        "commit": "4b100e1cf55431ab239ed13864a5935858a60a17",
-        "author": "GateCross",
-        "date": "2026-06-22 23:56:31",
-        "message": "fix: 修复豆瓣订阅请求源"
       }
     ]
   }

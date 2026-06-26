@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606261749",
+    "items": [
+      {
+        "commit": "413ad0f4435974cef7365516cc25076b2962ed2c",
+        "author": "xylplm",
+        "date": "2026-06-26 17:21:15",
+        "message": "feat ✨: SSE 连接携带 client=web 端类型参数"
+      },
+      {
+        "commit": "bd52fbdc49658e67bc84b37d2cbebace0e236671",
+        "author": "xylplm",
+        "date": "2026-06-26 14:15:35",
+        "message": "feat ✨: 订阅合并新增编辑弹窗并优化默认订阅与小屏排版"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606251454",
     "items": [
       {
@@ -191,17 +208,6 @@
         "author": "Jolc",
         "date": "2026-06-13 20:40:49",
         "message": "feat: 列表加载更多改为无限滚动，下滑到底自动加载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606171413",
-    "items": [
-      {
-        "commit": "47e36840e455b40ba4919c2f0dc9e3e68ce56787",
-        "author": "xylplm",
-        "date": "2026-06-16 11:18:35",
-        "message": "feat:癫影 icon"
       }
     ]
   }
