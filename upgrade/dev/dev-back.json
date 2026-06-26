@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606262321",
+    "items": [
+      {
+        "commit": "8dbadb64bec46226f6f048b992f270ae183d9895",
+        "author": "xylplm",
+        "date": "2026-06-26 23:20:49",
+        "message": "fix 🐛: 短剧监控插件日志文案改为中文"
+      },
+      {
+        "commit": "a6d7481a2b403132ae5123250667f8ed9ff994d9",
+        "author": "xiaojun5270",
+        "date": "2026-06-26 21:59:38",
+        "message": "fix:短剧插件测试"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606262247",
     "items": [
       {
@@ -209,17 +226,6 @@
         "author": "xylplm",
         "date": "2026-06-23 20:12:06",
         "message": "fix 🐛: 后端订阅避免异常总集数误完成"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606231156",
-    "items": [
-      {
-        "commit": "0d041e49e6ef3f74acc02e7aebe515afe230a5b7",
-        "author": "GateCross",
-        "date": "2026-06-23 11:52:51",
-        "message": "feat: 增加豆瓣订阅忽略记录"
       }
     ]
   }
