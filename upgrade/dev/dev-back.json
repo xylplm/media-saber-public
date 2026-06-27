@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606271719",
+    "items": [
+      {
+        "commit": "362795cba3a716a1244bc47a24b5dc3c27ab14fa",
+        "author": "xiaojun5270",
+        "date": "2026-06-27 17:11:21",
+        "message": "fix：短剧封面可选站点"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606271528",
     "items": [
       {
@@ -167,35 +178,6 @@
         "author": "xylplm",
         "date": "2026-06-24 23:53:02",
         "message": "feat ✨: 健康中心增加未归宗问题发现"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606242200",
-    "items": [
-      {
-        "commit": "6c397bb57dd798eb9d6e5428b9e8a92e56f1e25a",
-        "author": "xylplm",
-        "date": "2026-06-24 21:56:45",
-        "message": "feat ✅: 后端新增健康检查接口"
-      },
-      {
-        "commit": "1a57ccdac82b98ed83b4e0573f499278b75bfb0a",
-        "author": "xylplm",
-        "date": "2026-06-24 21:25:36",
-        "message": "fix 🐛: 后端优化极空间剧集同步"
-      },
-      {
-        "commit": "34926e5bfb6a56426d7a64e39ee61a4679f6da3c",
-        "author": "xylplm",
-        "date": "2026-06-24 20:42:48",
-        "message": "fix 🐛: 后端修复极空间剧集同步"
-      },
-      {
-        "commit": "d2ec2d29ec0565069387532befd8ae401b3aeb7e",
-        "author": "xylplm",
-        "date": "2026-06-24 20:22:30",
-        "message": "feat ✅: 后端新增媒体健康中心"
       }
     ]
   }
