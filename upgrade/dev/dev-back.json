@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606271148",
+    "items": [
+      {
+        "commit": "42b35f836dc1c069791478ecdcf46eae577114ce",
+        "author": "GateCross",
+        "date": "2026-06-27 11:47:52",
+        "message": "fix: 优化豆瓣剧集订阅"
+      },
+      {
+        "commit": "edf25a7abfad3b95f4676031180e1103b4ff0d65",
+        "author": "xiaojun5270",
+        "date": "2026-06-27 00:46:37",
+        "message": "fix：消息通知，封面获取"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606262321",
     "items": [
       {
@@ -179,53 +196,6 @@
         "author": "xylplm",
         "date": "2026-06-24 17:55:33",
         "message": "feat ✨: 后端增加种子规则解释"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606241327",
-    "items": [
-      {
-        "commit": "497ba8535427e0d5bd67cc60e6859e2a70d2b4d3",
-        "author": "xylplm",
-        "date": "2026-06-24 13:08:23",
-        "message": "feat ✨: 拦截违禁词优化"
-      },
-      {
-        "commit": "138d6caac4718cde54e240f2cfaa26779c6e4a48",
-        "author": "xylplm",
-        "date": "2026-06-24 09:24:45",
-        "message": "perf ⚡: 优化站点搜索请求超时"
-      },
-      {
-        "commit": "5eddef7220a84566673b12a60d946b503bbe7ed9",
-        "author": "xylplm",
-        "date": "2026-06-24 09:03:50",
-        "message": "perf ⚡: 后端延长异步站点业务请求超时"
-      },
-      {
-        "commit": "0affcfd22b03594791d5d17bd61ae8aab53cdda8",
-        "author": "xylplm",
-        "date": "2026-06-24 00:30:25",
-        "message": "feat ✨: 豆瓣榜单订阅支持每页取前几条"
-      },
-      {
-        "commit": "3d816bf38f39f4d893a19fd59393c9e7f0c788f5",
-        "author": "xylplm",
-        "date": "2026-06-24 00:14:04",
-        "message": "fix 🐛: 修复115生活事件游标推进逻辑"
-      },
-      {
-        "commit": "c1d746d7aaa0e4efbfcb8bbac1fc3d7375620c78",
-        "author": "fanxuankai",
-        "date": "2026-06-23 22:12:02",
-        "message": "docs: add agent app interaction design"
-      },
-      {
-        "commit": "d8938ad4ea4867212802da5621aa61ef59f0b47d",
-        "author": "xylplm",
-        "date": "2026-06-23 20:12:06",
-        "message": "fix 🐛: 后端订阅避免异常总集数误完成"
       }
     ]
   }
