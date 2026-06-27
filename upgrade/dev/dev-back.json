@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606271528",
+    "items": [
+      {
+        "commit": "1f8589bf5783a36a2fdd62431ea3306f97eb5742",
+        "author": "xiaojun5270",
+        "date": "2026-06-27 13:23:38",
+        "message": "feat✨：新增短剧刮削麒麟北洋 fix 🐛：优化短剧刮削完成通知消息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606271148",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "xylplm",
         "date": "2026-06-24 20:22:30",
         "message": "feat ✅: 后端新增媒体健康中心"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606241831",
-    "items": [
-      {
-        "commit": "fe9ea2100f081f985ea3b069c902d6b411bb6172",
-        "author": "xylplm",
-        "date": "2026-06-24 17:55:33",
-        "message": "feat ✨: 后端增加种子规则解释"
       }
     ]
   }
