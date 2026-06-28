@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606280945",
+    "items": [
+      {
+        "commit": "6763b5880f93978111a213944146aaf8ff878279",
+        "author": "GateCross",
+        "date": "2026-06-28 09:39:59",
+        "message": "fix: 修复云存储批量下载"
+      },
+      {
+        "commit": "e8404f28407dce6dbfd121ea2dd4da1204db4bb7",
+        "author": "xylplm",
+        "date": "2026-06-27 22:02:22",
+        "message": "refactor 🔁: 媒体项卡片将 PT 发布站点改为左上角数量角标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606262247",
     "items": [
       {
@@ -173,29 +190,6 @@
         "author": "GateCross",
         "date": "2026-06-22 11:09:32",
         "message": "fix: 修正批量云下载大小显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221042",
-    "items": [
-      {
-        "commit": "cfed2be949adbc6a357bcf49672a0dfba0c083a5",
-        "author": "xylplm",
-        "date": "2026-06-18 21:30:21",
-        "message": "fix: 规则 展开优化"
-      },
-      {
-        "commit": "ec7d2024df82633788f6687952abfb74831164d6",
-        "author": "xylplm",
-        "date": "2026-06-18 20:43:32",
-        "message": "feat ✨: 前端云端资源增加黑名单与彻底删除操作"
-      },
-      {
-        "commit": "d6d4c722fee1c76558ef7fef3e298ae799cfc3d3",
-        "author": "xylplm",
-        "date": "2026-06-18 14:13:10",
-        "message": "feat ✨: 目录同步支持点击标题切换面板"
       }
     ]
   }
