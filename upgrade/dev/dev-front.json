@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202606300143",
+    "items": [
+      {
+        "commit": "7154f70fb1f51dd250d3443486f8077f84e1c26c",
+        "author": "xylplm",
+        "date": "2026-06-30 01:41:52",
+        "message": "feat ✨: media-item 订阅支持多季选择，详情季列表倒序显示发行时间"
+      },
+      {
+        "commit": "4e37bd733b1eef394c8f5001846151d0b654c0e4",
+        "author": "xylplm",
+        "date": "2026-06-30 00:35:46",
+        "message": "fix 🐛: 补全 HDHive 授权状态类型字段与后端对齐"
+      },
+      {
+        "commit": "6716e8115b9379394eae53e7005327c7cab920d6",
+        "author": "xylplm",
+        "date": "2026-06-29 23:43:40",
+        "message": "refactor 🔁: 前端站点统计导出改用后端统一图片接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606291853",
     "items": [
       {
@@ -197,17 +220,6 @@
         "author": "xylplm",
         "date": "2026-06-18 23:57:59",
         "message": "fix 🐛: 消息中心对齐快捷指令"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221218",
-    "items": [
-      {
-        "commit": "736108dab93146bf55d8b71cde2a44611b13a262",
-        "author": "GateCross",
-        "date": "2026-06-22 12:16:50",
-        "message": "feat: 优化后台任务列表展示"
       }
     ]
   }
