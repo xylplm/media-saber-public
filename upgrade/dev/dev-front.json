@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202606291853",
+    "items": [
+      {
+        "commit": "80c694ca204878c51050f2e884eaed79f6032939",
+        "author": "xylplm",
+        "date": "2026-06-29 18:40:09",
+        "message": "refactor 🔁: 站点自定义请求头与媒体路径映射复用键值对编辑器"
+      },
+      {
+        "commit": "54fdac13bdf848964f7eaff6572b289612abeb2f",
+        "author": "xylplm",
+        "date": "2026-06-29 18:13:30",
+        "message": "feat ✨: 媒体服务媒体路径映射改为可增删的成对输入框编辑器"
+      },
+      {
+        "commit": "9085b55c5235d1ba59444dbcbfb0419f70082b46",
+        "author": "xylplm",
+        "date": "2026-06-29 16:20:02",
+        "message": "feat ✨: 健康中心补漏交互——场景化预览弹窗(新建/并入/重搜/无操作)、缺集区间chip、徽标筛选联动、行级loading"
+      },
+      {
+        "commit": "4b7821c2a58b40e08b9480459200c3ece0676e43",
+        "author": "xylplm",
+        "date": "2026-06-29 14:44:52",
+        "message": "chore(frontend): 升级 Angular 22 并迁移 signal input/output"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606280945",
     "items": [
       {
@@ -179,17 +208,6 @@
         "author": "GateCross",
         "date": "2026-06-22 12:16:50",
         "message": "feat: 优化后台任务列表展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606221112",
-    "items": [
-      {
-        "commit": "251794a6fd58bc479e3f9ab10f668188b4fe3851",
-        "author": "GateCross",
-        "date": "2026-06-22 11:09:32",
-        "message": "fix: 修正批量云下载大小显示"
       }
     ]
   }
