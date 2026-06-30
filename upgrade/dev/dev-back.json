@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202606302248",
+    "items": [
+      {
+        "commit": "c1843ad096ee37a88e3ccd8b98bfbe44f8133f5e",
+        "author": "GateCross",
+        "date": "2026-06-30 22:46:37",
+        "message": "fix: 重新优化emby代理的iptv透传"
+      },
+      {
+        "commit": "a52e788d0fcf073a3e74bf05a864c98cc13f092a",
+        "author": "xiaojun5270",
+        "date": "2026-06-30 21:47:34",
+        "message": "fix：修复关闭短剧TMDB刮削，短剧文件名会变成英文的问题"
+      },
+      {
+        "commit": "eb6dbc9188d66ee54860daf31095348ba5970223",
+        "author": "xiaojun5270",
+        "date": "2026-06-30 21:23:41",
+        "message": "fix：修复某些短剧名称中有“：！，”符号搜索不到的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606301544",
     "items": [
       {
@@ -149,23 +172,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-26 21:59:38",
         "message": "fix:短剧插件测试"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606262247",
-    "items": [
-      {
-        "commit": "f33962fd638ba9461e50bd80a439750188439a01",
-        "author": "xylplm",
-        "date": "2026-06-26 22:22:00",
-        "message": "feat ✨: 搜索规则对比媒体接口 compareFilterMedia 与标准 Result 响应"
-      },
-      {
-        "commit": "ad6cfd1ef7915584518b610739bf58e744aae0ef",
-        "author": "xylplm",
-        "date": "2026-06-26 21:37:46",
-        "message": "feat ✨: 搜索种子分页增加 ext 过滤统计并支持仅查未通过过滤"
       }
     ]
   }
