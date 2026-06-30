@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606301410",
+    "items": [
+      {
+        "commit": "e19c812a34f6290758145ebc324e676d6f2c2063",
+        "author": "GateCross",
+        "date": "2026-06-30 14:09:59",
+        "message": "fix: 媒体代理过滤IPTV链接"
+      },
+      {
+        "commit": "657045deff976476b79c26b5304fd2857d1369c1",
+        "author": "xiaojun5270",
+        "date": "2026-06-30 07:17:48",
+        "message": "fix：完善短剧封面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606300143",
     "items": [
       {
@@ -143,47 +160,6 @@
         "author": "xylplm",
         "date": "2026-06-26 17:21:15",
         "message": "feat ✨: SSE 连接支持 client 端类型区分与按端统计"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606251827",
-    "items": [
-      {
-        "commit": "0108c802a309a06cdfdc5d8de3ed748cafea2202",
-        "author": "xylplm",
-        "date": "2026-06-25 18:23:45",
-        "message": "fix 🐛: 修复辅种/转移插件异常流程与资源泄漏"
-      },
-      {
-        "commit": "3a426c0dc61044e1dd512ea13303d859e3e018cb",
-        "author": "xylplm",
-        "date": "2026-06-25 18:23:34",
-        "message": "fix 🐛: 修复 TR TorrentGet 忽略传入 Fields 参数始终使用 defaultFields"
-      },
-      {
-        "commit": "6ebe55530cc2a5bee0569685359dec05fa8bf41f",
-        "author": "xylplm",
-        "date": "2026-06-25 18:23:27",
-        "message": "feat ✨: 适配 qBittorrent 5.2.0+ btclient 业务层"
-      },
-      {
-        "commit": "b275970409ab35f9920787a7da505372399f9830",
-        "author": "xylplm",
-        "date": "2026-06-25 18:23:13",
-        "message": "feat ✨: 适配 qBittorrent 5.2.0+ WebAPI 协议变更"
-      },
-      {
-        "commit": "0cab230e40493e5d1c8206946cb973bfe80f05ea",
-        "author": "xylplm",
-        "date": "2026-06-25 18:22:58",
-        "message": "feat ✨: 新增 qBittorrent WebAPI 版本探测与能力分发层"
-      },
-      {
-        "commit": "90cea554ac78e5044596b4d1902ecc85f55bcdf9",
-        "author": "xylplm",
-        "date": "2026-06-25 16:30:11",
-        "message": "fix 🐛: 修复 strm302 不支持 HEAD 请求导致飞牛影视 Web/安卓无法探测文件大小而播放失败，注册 HEAD 路由并优先读 Redis 文件大小缓存实现零网盘调用探测"
       }
     ]
   }
