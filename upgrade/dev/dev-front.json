@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202606301544",
+    "items": [
+      {
+        "commit": "2cdc21f4384cf7a65f407b3d67e9cf37a88e1d9a",
+        "author": "xylplm",
+        "date": "2026-06-30 15:39:25",
+        "message": "feat ✨: 系统体检中心前端页面与仪表盘体检小部件（流式体检/快捷检查/常见问题排查/评分）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606300143",
     "items": [
       {
@@ -191,35 +202,6 @@
         "author": "GateCross",
         "date": "2026-06-22 11:09:32",
         "message": "fix: 修正批量云下载大小显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606241534",
-    "items": [
-      {
-        "commit": "9b2ffc7ace0b7bbd9674fb60aae7e0938f42d7c5",
-        "author": "xylplm",
-        "date": "2026-06-24 11:15:31",
-        "message": "feat ✨: 前端下载弹窗增加识别测试按钮"
-      },
-      {
-        "commit": "03965ea85c35d969d2bc6600f6dcc178ae1f5c52",
-        "author": "xylplm",
-        "date": "2026-06-23 19:39:55",
-        "message": "fix 🐛: 电视剧订阅总集数自动更新交互"
-      },
-      {
-        "commit": "e8432bee6c499ee846d320b516b455e49f88822e",
-        "author": "xylplm",
-        "date": "2026-06-23 19:02:36",
-        "message": "fix 🐛: 站点同步弹窗优化选择交互"
-      },
-      {
-        "commit": "9bbdf54f74d79a4d5dc0085a50c66abd4d9cafa1",
-        "author": "xylplm",
-        "date": "2026-06-18 23:57:59",
-        "message": "fix 🐛: 消息中心对齐快捷指令"
       }
     ]
   }

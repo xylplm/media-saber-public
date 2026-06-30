@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202606301544",
+    "items": [
+      {
+        "commit": "4a6ca5f3ac071f104cefd6d1bdd5818b26c17033",
+        "author": "xylplm",
+        "date": "2026-06-30 15:38:14",
+        "message": "feat ✨: 系统体检中心后端（聚合体检/SSE 流式扫描/即时概览/评分/忽略）"
+      },
+      {
+        "commit": "4951bd6da84b864e5370dcdfabd42378a195807c",
+        "author": "GateCross",
+        "date": "2026-06-30 15:43:48",
+        "message": "fix: 优化 IPTV 播放"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606301410",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-06-26 21:37:46",
         "message": "feat ✨: 搜索种子分页增加 ext 过滤统计并支持仅查未通过过滤"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606261749",
-    "items": [
-      {
-        "commit": "5c49f42ac0cd15f6876cdd287937ef6f2e5aaa1c",
-        "author": "xylplm",
-        "date": "2026-06-26 17:21:15",
-        "message": "feat ✨: SSE 连接支持 client 端类型区分与按端统计"
       }
     ]
   }
