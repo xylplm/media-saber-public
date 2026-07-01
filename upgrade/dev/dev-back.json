@@ -1,5 +1,58 @@
 [
   {
+    "version": "DEV_202607011604",
+    "items": [
+      {
+        "commit": "b4c825bc5a1e3e29a49647e98c7b7657c7123a42",
+        "author": "xylplm",
+        "date": "2026-07-01 15:59:46",
+        "message": "deps 📦: 升级 gopsutil/viper/carbon/lancet 等零风险/低风险依赖"
+      },
+      {
+        "commit": "ebee0ed3cdad61fe90e534be2a1c1b9a361735e3",
+        "author": "xylplm",
+        "date": "2026-07-01 15:17:58",
+        "message": "deps 📦: 升级 golang.org/x/net、x/crypto、grpc、protobuf 等依赖修复已知漏洞"
+      },
+      {
+        "commit": "bff09f3cadd3035cbc7c2c1070eb54df307f4ea4",
+        "author": "xylplm",
+        "date": "2026-07-01 14:17:40",
+        "message": "feat ✨: 系统体检新增第三方服务健康检查（AI/Pansou/GoogleCSE/OCR/豆瓣/HDHive）"
+      },
+      {
+        "commit": "2d2cdc1f71d3e0f3562c089325b40c84fb47dc30",
+        "author": "xylplm",
+        "date": "2026-07-01 12:36:21",
+        "message": "feat ✨: 系统体检站点检查拆分为连通性与 RSS 两项"
+      },
+      {
+        "commit": "03ef61cf7d2f2bb09f586ad7b210194402e0b4eb",
+        "author": "xylplm",
+        "date": "2026-07-01 12:33:02",
+        "message": "站点测试：优化未登录/RSS无数据提示语"
+      },
+      {
+        "commit": "383fd1d63410fd0ed80384fd67316d8040ab275c",
+        "author": "xylplm",
+        "date": "2026-07-01 12:26:30",
+        "message": "健康检查：区分连接超时错误并给出针对性排查建议"
+      },
+      {
+        "commit": "58c2b8f95654017b3143495c588008a6d1c231d5",
+        "author": "xylplm",
+        "date": "2026-06-30 23:54:59",
+        "message": "feat(plugin): 新增自定义占位符修仙秘籍"
+      },
+      {
+        "commit": "28199470095ab962483640685d5786821800b40b",
+        "author": "xylplm",
+        "date": "2026-06-30 23:15:08",
+        "message": "feat(plugin): 新增自定义制作组/字幕组插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607011025",
     "items": [
       {
@@ -167,23 +220,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-27 13:23:38",
         "message": "feat✨：新增短剧刮削麒麟北洋 fix 🐛：优化短剧刮削完成通知消息"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606271148",
-    "items": [
-      {
-        "commit": "42b35f836dc1c069791478ecdcf46eae577114ce",
-        "author": "GateCross",
-        "date": "2026-06-27 11:47:52",
-        "message": "fix: 优化豆瓣剧集订阅"
-      },
-      {
-        "commit": "edf25a7abfad3b95f4676031180e1103b4ff0d65",
-        "author": "xiaojun5270",
-        "date": "2026-06-27 00:46:37",
-        "message": "fix：消息通知，封面获取"
       }
     ]
   }
