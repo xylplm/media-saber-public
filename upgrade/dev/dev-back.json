@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607011025",
+    "items": [
+      {
+        "commit": "e6363b6c47b03d467d9d733e2d9f06d39172a9d5",
+        "author": "xylplm",
+        "date": "2026-06-30 23:57:11",
+        "message": "feat ✨: 订阅模块新增批量编辑接口（batchUpdate 按字段白名单批量更新）"
+      },
+      {
+        "commit": "f54c146a04b0a5cca936eda66d9a8778fd316616",
+        "author": "xylplm",
+        "date": "2026-06-30 19:45:52",
+        "message": "feat ✨: 观影报告(媒体)新增播放统计与分析面板"
+      },
+      {
+        "commit": "58c2b8f95654017b3143495c588008a6d1c231d5",
+        "author": "xylplm",
+        "date": "2026-06-30 23:54:59",
+        "message": "feat(plugin): 新增自定义占位符修仙秘籍"
+      },
+      {
+        "commit": "28199470095ab962483640685d5786821800b40b",
+        "author": "xylplm",
+        "date": "2026-06-30 23:15:08",
+        "message": "feat(plugin): 新增自定义制作组/字幕组插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202606302248",
     "items": [
       {
@@ -155,23 +184,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-27 00:46:37",
         "message": "fix：消息通知，封面获取"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606262321",
-    "items": [
-      {
-        "commit": "8dbadb64bec46226f6f048b992f270ae183d9895",
-        "author": "xylplm",
-        "date": "2026-06-26 23:20:49",
-        "message": "fix 🐛: 短剧监控插件日志文案改为中文"
-      },
-      {
-        "commit": "a6d7481a2b403132ae5123250667f8ed9ff994d9",
-        "author": "xiaojun5270",
-        "date": "2026-06-26 21:59:38",
-        "message": "fix:短剧插件测试"
       }
     ]
   }
