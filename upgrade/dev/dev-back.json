@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607021415",
+    "items": [
+      {
+        "commit": "575c42f1b0187c25fab13b6b9cc47b7467e9ebce",
+        "author": "xylplm",
+        "date": "2026-07-02 13:53:14",
+        "message": "fix 🐛: 修复今日/7天榜日期计算未指定时区，UTC 环境下 00:00-08:00 会算出昨日日期"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607011604",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-27 17:11:21",
         "message": "fix：短剧封面可选站点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606271528",
-    "items": [
-      {
-        "commit": "1f8589bf5783a36a2fdd62431ea3306f97eb5742",
-        "author": "xiaojun5270",
-        "date": "2026-06-27 13:23:38",
-        "message": "feat✨：新增短剧刮削麒麟北洋 fix 🐛：优化短剧刮削完成通知消息"
       }
     ]
   }

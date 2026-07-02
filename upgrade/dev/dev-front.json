@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607021415",
+    "items": [
+      {
+        "commit": "02ddb5af4f0ff3447552502c5179199377e854bc",
+        "author": "xylplm",
+        "date": "2026-07-02 14:13:07",
+        "message": "fix 🐛: 修复过滤日志开关取消确认弹窗时误触 setValue 导致表单被标脏、保存按钮意外可点的问题"
+      },
+      {
+        "commit": "b4f3c820000900e3f8c37cfbcf4be49e498b241a",
+        "author": "xylplm",
+        "date": "2026-07-02 13:56:14",
+        "message": "fix 🐛: 修复订阅新增弹窗通过 TMDB 查询填入后未触发表单脏状态导致无法保存"
+      },
+      {
+        "commit": "6335640393d2f6c211f3c2e049e789d9c5cb495f",
+        "author": "xylplm",
+        "date": "2026-07-02 13:55:24",
+        "message": "fix 🐛: 修复通过 TMDB 弹窗选择后未触发表单脏状态导致无法保存的问题"
+      },
+      {
+        "commit": "99f5cd51249acbb6bf595d7c5ce76e927330cb3a",
+        "author": "xylplm",
+        "date": "2026-07-02 13:53:52",
+        "message": "fix 🐛: 修复激励文案 seed 为 NaN 时渲染 undefined、切换榜类型时旧数据短暂混显及 localStorage 缺合法性校验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607011604",
     "items": [
       {
@@ -335,17 +364,6 @@
         "author": "xylplm",
         "date": "2026-06-26 14:15:35",
         "message": "feat ✨: 订阅合并新增编辑弹窗并优化默认订阅与小屏排版"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606251454",
-    "items": [
-      {
-        "commit": "bae8645fb046e501243a0c17446a6ece3c2dbe35",
-        "author": "xylplm",
-        "date": "2026-06-25 14:32:37",
-        "message": "feat: 媒体健康中心下拉过滤仅显示已启用的媒体服务器"
       }
     ]
   }
