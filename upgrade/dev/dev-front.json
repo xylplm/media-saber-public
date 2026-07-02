@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607021812",
+    "items": [
+      {
+        "commit": "dee9c9834f507583d93a653b140902eb0d5eb3a2",
+        "author": "xylplm",
+        "date": "2026-07-02 17:11:32",
+        "message": "fix 🐛: 修复 cm-input-cron 的 writeValue 错误调用 onChange，导致父表单初始化时被标脏、保存按钮始终可点"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607021415",
     "items": [
       {
@@ -347,23 +358,6 @@
         "author": "xylplm",
         "date": "2026-06-26 21:37:48",
         "message": "feat ✨: 搜索结果页未通过过滤开关与 ListRespone 分页 ext 泛型"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606261749",
-    "items": [
-      {
-        "commit": "413ad0f4435974cef7365516cc25076b2962ed2c",
-        "author": "xylplm",
-        "date": "2026-06-26 17:21:15",
-        "message": "feat ✨: SSE 连接携带 client=web 端类型参数"
-      },
-      {
-        "commit": "bd52fbdc49658e67bc84b37d2cbebace0e236671",
-        "author": "xylplm",
-        "date": "2026-06-26 14:15:35",
-        "message": "feat ✨: 订阅合并新增编辑弹窗并优化默认订阅与小屏排版"
       }
     ]
   }
