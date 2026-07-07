@@ -1,5 +1,100 @@
 [
   {
+    "version": "DEV_202607071006",
+    "items": [
+      {
+        "commit": "53dae6d3c5a10ad01d1e5d6e6e47cbee040b1e6a",
+        "author": "xylplm",
+        "date": "2026-07-07 01:57:51",
+        "message": "feat ✨: 通知渠道配置增加免打扰与聚合设置"
+      },
+      {
+        "commit": "aa5c7852188e442cb09e132d93fffab6041eccbf",
+        "author": "xylplm",
+        "date": "2026-07-06 21:47:32",
+        "message": "feat ✨: 前端优化列表加载与乐观更新体验"
+      },
+      {
+        "commit": "3237aa58d07febc81404ce3986c0d5eb149eb03c",
+        "author": "xylplm",
+        "date": "2026-07-06 18:38:50",
+        "message": "fix 🐛: 修复前端 lint 检查问题"
+      },
+      {
+        "commit": "b0d826ed1588443fc816872f57776d7462ac89b5",
+        "author": "xylplm",
+        "date": "2026-07-06 16:15:54",
+        "message": "refactor 🔁: 前端移除 HDHive 相关功能"
+      },
+      {
+        "commit": "f9d65144033bb27ef95f6c4a825732779ed7b94a",
+        "author": "xylplm",
+        "date": "2026-07-06 13:54:44",
+        "message": "feat ✨: 设置基础页优化悬浮保存体验"
+      },
+      {
+        "commit": "6285994ab21f2f5fb3296788ac06b933dca1d699",
+        "author": "xylplm",
+        "date": "2026-07-06 12:44:39",
+        "message": "fix 🐛: 用户设置卡片直接编辑并改虚拟分页"
+      },
+      {
+        "commit": "74eb4d768bf002c700acb706825b1abf4c607b0e",
+        "author": "xylplm",
+        "date": "2026-07-06 11:54:57",
+        "message": "fix 🐛: 用户设置移除无效选中态"
+      },
+      {
+        "commit": "9979767fe5524539ec9b865c068f4cb81bb5d819",
+        "author": "xylplm",
+        "date": "2026-07-06 02:36:12",
+        "message": "refactor 🔨: 用户设置改为响应式卡片体验"
+      },
+      {
+        "commit": "69e0b6ecc0af37bf01b982512bd05d7952c9752f",
+        "author": "xylplm",
+        "date": "2026-07-06 01:08:45",
+        "message": "feat ✨: 服务配置增加 Pansou 测试入口"
+      },
+      {
+        "commit": "ebdc1a1771ada439c517fa374ac94f39f0ef578c",
+        "author": "xylplm",
+        "date": "2026-07-06 00:15:58",
+        "message": "feat ✨: 前端优化服务配置分区体验"
+      },
+      {
+        "commit": "1dc93a15f5aa0d5a78363f7ca5e9b8c7db9bb434",
+        "author": "xylplm",
+        "date": "2026-07-05 23:52:48",
+        "message": "feat ✨: 前端支持选择过盾服务"
+      },
+      {
+        "commit": "9704c0388b1c432d36a19429c1e29ca3de98ba3b",
+        "author": "xylplm",
+        "date": "2026-07-05 10:00:23",
+        "message": "feat ✨: 前端统一批量操作栏交互"
+      },
+      {
+        "commit": "5c7ee4ebd34b3087d2467b9f4a3c2669a29d06c0",
+        "author": "xylplm",
+        "date": "2026-07-05 02:14:20",
+        "message": "add ➕: 新增媒体库报告插件图标"
+      },
+      {
+        "commit": "66ad9f35ecf2c26ba1106321ae6768ea15dbef46",
+        "author": "xylplm",
+        "date": "2026-07-05 00:12:46",
+        "message": "feat ✨: 前端支持 iCal 日历订阅链接生成"
+      },
+      {
+        "commit": "e9130b63cb0729674c880c49630fcfb9a365d7b9",
+        "author": "xylplm",
+        "date": "2026-07-04 02:49:21",
+        "message": "feat ✨: 系统备份工作台前端重构"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607021812",
     "items": [
       {
@@ -329,35 +424,6 @@
         "author": "xylplm",
         "date": "2026-06-27 22:02:22",
         "message": "refactor 🔁: 媒体项卡片将 PT 发布站点改为左上角数量角标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606262247",
-    "items": [
-      {
-        "commit": "3f8887b599af29e6bde903fdbf5d1b4518c08a1d",
-        "author": "xylplm",
-        "date": "2026-06-26 22:43:53",
-        "message": "feat ✨: 搜索种子规则解释内嵌 TMDB 媒体对比并修复云下载配置类型"
-      },
-      {
-        "commit": "255a6cead5d9291cad74376c3b962720795d9feb",
-        "author": "xylplm",
-        "date": "2026-06-26 22:26:19",
-        "message": "fix 🐛: 修复 ESLint 报错并通过 ng lint（timerManager、类型与标签）"
-      },
-      {
-        "commit": "a071bcf7703c1471c3a5f466ffff2674f05883a7",
-        "author": "xylplm",
-        "date": "2026-06-26 22:22:01",
-        "message": "feat ✨: 规则解释 TMDB 解析链接与对比媒体详情弹窗"
-      },
-      {
-        "commit": "be8f2e291e2299402cacfaa6e02d85aa6271ec93",
-        "author": "xylplm",
-        "date": "2026-06-26 21:37:48",
-        "message": "feat ✨: 搜索结果页未通过过滤开关与 ListRespone 分页 ext 泛型"
       }
     ]
   }
