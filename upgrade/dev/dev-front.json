@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607071125",
+    "items": [
+      {
+        "commit": "c3086705cbc002c097bd63b904ce02229975d04e",
+        "author": "xylplm",
+        "date": "2026-07-07 11:08:04",
+        "message": "feat ✨: 系统备份插件支持上传备份包还原及单行下载，优化交互与动效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071006",
     "items": [
       {
@@ -407,23 +418,6 @@
         "author": "xylplm",
         "date": "2026-06-29 14:44:52",
         "message": "chore(frontend): 升级 Angular 22 并迁移 signal input/output"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606280945",
-    "items": [
-      {
-        "commit": "6763b5880f93978111a213944146aaf8ff878279",
-        "author": "GateCross",
-        "date": "2026-06-28 09:39:59",
-        "message": "fix: 修复云存储批量下载"
-      },
-      {
-        "commit": "e8404f28407dce6dbfd121ea2dd4da1204db4bb7",
-        "author": "xylplm",
-        "date": "2026-06-27 22:02:22",
-        "message": "refactor 🔁: 媒体项卡片将 PT 发布站点改为左上角数量角标"
       }
     ]
   }

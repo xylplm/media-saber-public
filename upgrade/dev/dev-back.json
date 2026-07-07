@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607071125",
+    "items": [
+      {
+        "commit": "612e580ac4d5ff8e7661d14f6eefa00c9b431304",
+        "author": "xylplm",
+        "date": "2026-07-07 11:07:51",
+        "message": "feat ✨: 系统备份插件支持上传备份包还原及单行下载，修复多项安全与稳定性问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071006",
     "items": [
       {
@@ -257,17 +268,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-28 20:55:51",
         "message": "fix：获取短剧封面会获取douban封面问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606280945",
-    "items": [
-      {
-        "commit": "092668c923d77b0c72ad061934e44f55e29a6561",
-        "author": "xiaojun5270",
-        "date": "2026-06-28 00:31:35",
-        "message": "fix：优化短剧获取站点封面流控"
       }
     ]
   }
