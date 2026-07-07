@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607071443",
+    "items": [
+      {
+        "commit": "4164ebe08ca2af2994e3aea6cf242cd0d5b8a8f6",
+        "author": "xylplm",
+        "date": "2026-07-07 14:37:21",
+        "message": "fix 🐛: 优化后端消息合并摘要展示媒体信息"
+      },
+      {
+        "commit": "9a4ba49e3b8ccc68237ac8510f196f67114ac057",
+        "author": "xylplm",
+        "date": "2026-07-07 14:25:13",
+        "message": "refactor 🔧: 后端移除刮削信息远程上报"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071437",
     "items": [
       {
@@ -251,35 +268,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-30 07:17:48",
         "message": "fix：完善短剧封面"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606300143",
-    "items": [
-      {
-        "commit": "73e1b50330edd93642f45acfac963cc0f36a5d48",
-        "author": "xylplm",
-        "date": "2026-06-30 01:41:25",
-        "message": "feat ✨: 媒体订阅新增轻量季列表接口，支持按季订阅"
-      },
-      {
-        "commit": "9638f62865bcc3886a25de9dcc097ddf97348a78",
-        "author": "xylplm",
-        "date": "2026-06-30 00:35:46",
-        "message": "fix 🐛: 修复 HDHive 解锁响应丢失网盘验证码问题（蛇形字段映射）"
-      },
-      {
-        "commit": "1e512bb2bc416abe0bda0347d7afdd6edc063bad",
-        "author": "xylplm",
-        "date": "2026-06-29 23:43:20",
-        "message": "feat ✨: 后端新增站点数据统一导出图片接口与模板渲染（含内置中文字体）"
-      },
-      {
-        "commit": "645d0de1d26711ae1a5c698f2be6138ddb002f55",
-        "author": "xiaojun5270",
-        "date": "2026-06-29 22:06:34",
-        "message": "fix：优化短剧封面获取"
       }
     ]
   }
