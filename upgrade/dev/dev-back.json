@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202607071437",
+    "items": [
+      {
+        "commit": "eebdc5d5a69fd3de19c39ded24392b698037cb82",
+        "author": "liurongjie",
+        "date": "2026-07-07 14:39:37",
+        "message": "feat(mediaserver): 添加 Plex 路径刷新候选和反向映射功能"
+      },
+      {
+        "commit": "4164ebe08ca2af2994e3aea6cf242cd0d5b8a8f6",
+        "author": "xylplm",
+        "date": "2026-07-07 14:37:21",
+        "message": "fix 🐛: 优化后端消息合并摘要展示媒体信息"
+      },
+      {
+        "commit": "9a4ba49e3b8ccc68237ac8510f196f67114ac057",
+        "author": "xylplm",
+        "date": "2026-07-07 14:25:13",
+        "message": "refactor 🔧: 后端移除刮削信息远程上报"
+      },
+      {
+        "commit": "df64d5c280fd8bf4cf242cf11edcb4c400e8cae9",
+        "author": "liurongjie",
+        "date": "2026-07-07 14:13:38",
+        "message": "feat(mediaserver): 优化媒体库刷新功能支持路径优先匹配"
+      },
+      {
+        "commit": "44ed9f171ea166061a75eef9f8e189eddc19f1c3",
+        "author": "liurongjie",
+        "date": "2026-07-07 13:23:06",
+        "message": "feat(cloud-storage): 添加云存储后置操作刷新服务并优化媒体库刷新逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071125",
     "items": [
       {
@@ -245,29 +280,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-29 22:06:34",
         "message": "fix：优化短剧封面获取"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606291853",
-    "items": [
-      {
-        "commit": "ef25b8db489b8057235084e37db54c073dd14959",
-        "author": "xylplm",
-        "date": "2026-06-29 18:12:52",
-        "message": "feat ✨: 媒体服务极影视补全同步路径并新增媒体路径映射配置"
-      },
-      {
-        "commit": "516c4e446bdf4148eaf19cb863ce1d368a819680",
-        "author": "xylplm",
-        "date": "2026-06-29 16:18:14",
-        "message": "feat ✨: 健康中心补漏闭环——精确集数(持久化)订阅、三信号对账(库/下载/订阅)、已播出口径缺集检测、定时补漏统一对账"
-      },
-      {
-        "commit": "11dc0691ed48c8ea34b978cdc9af8ac447a8571d",
-        "author": "xiaojun5270",
-        "date": "2026-06-28 20:55:51",
-        "message": "fix：获取短剧封面会获取douban封面问题"
       }
     ]
   }
