@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607071820",
+    "items": [
+      {
+        "commit": "7fcf309075f08c9ed486d7550c0844b2f2c1f549",
+        "author": "xylplm",
+        "date": "2026-07-07 17:50:04",
+        "message": "feat ✨: 支持过滤规则包导入导出与规则排序接口"
+      },
+      {
+        "commit": "eebdc5d5a69fd3de19c39ded24392b698037cb82",
+        "author": "liurongjie",
+        "date": "2026-07-07 14:39:37",
+        "message": "feat(mediaserver): 添加 Plex 路径刷新候选和反向映射功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071443",
     "items": [
       {
@@ -251,23 +268,6 @@
         "author": "GateCross",
         "date": "2026-06-30 15:43:48",
         "message": "fix: 优化 IPTV 播放"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606301410",
-    "items": [
-      {
-        "commit": "e19c812a34f6290758145ebc324e676d6f2c2063",
-        "author": "GateCross",
-        "date": "2026-06-30 14:09:59",
-        "message": "fix: 媒体代理过滤IPTV链接"
-      },
-      {
-        "commit": "657045deff976476b79c26b5304fd2857d1369c1",
-        "author": "xiaojun5270",
-        "date": "2026-06-30 07:17:48",
-        "message": "fix：完善短剧封面"
       }
     ]
   }

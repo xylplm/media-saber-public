@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607071820",
+    "items": [
+      {
+        "commit": "d85f7cdf57f5bf4b4cad5c6859eb229ca8a4427a",
+        "author": "xylplm",
+        "date": "2026-07-07 17:50:04",
+        "message": "feat ✨: 优化过滤规则导入导出与拖拽排序体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071125",
     "items": [
       {
@@ -389,35 +400,6 @@
         "author": "xylplm",
         "date": "2026-06-29 23:43:40",
         "message": "refactor 🔁: 前端站点统计导出改用后端统一图片接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606291853",
-    "items": [
-      {
-        "commit": "80c694ca204878c51050f2e884eaed79f6032939",
-        "author": "xylplm",
-        "date": "2026-06-29 18:40:09",
-        "message": "refactor 🔁: 站点自定义请求头与媒体路径映射复用键值对编辑器"
-      },
-      {
-        "commit": "54fdac13bdf848964f7eaff6572b289612abeb2f",
-        "author": "xylplm",
-        "date": "2026-06-29 18:13:30",
-        "message": "feat ✨: 媒体服务媒体路径映射改为可增删的成对输入框编辑器"
-      },
-      {
-        "commit": "9085b55c5235d1ba59444dbcbfb0419f70082b46",
-        "author": "xylplm",
-        "date": "2026-06-29 16:20:02",
-        "message": "feat ✨: 健康中心补漏交互——场景化预览弹窗(新建/并入/重搜/无操作)、缺集区间chip、徽标筛选联动、行级loading"
-      },
-      {
-        "commit": "4b7821c2a58b40e08b9480459200c3ece0676e43",
-        "author": "xylplm",
-        "date": "2026-06-29 14:44:52",
-        "message": "chore(frontend): 升级 Angular 22 并迁移 signal input/output"
       }
     ]
   }
