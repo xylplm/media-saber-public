@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607081713",
+    "items": [
+      {
+        "commit": "e5fe14fd762757ccac9a6f6ab3e4360d8b1d41c3",
+        "author": "liurongjie",
+        "date": "2026-07-08 17:12:54",
+        "message": "fix(mediaproxy): 修复 Plex STRM 探测和解析问题"
+      },
+      {
+        "commit": "0270587438e587fc7416d4dcae67bb0ac5537538",
+        "author": "liurongjie",
+        "date": "2026-07-08 17:11:27",
+        "message": "fix(cloud_storage): 优化CD2缓存刷新逻辑并添加返回状态判断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607081703",
     "items": [
       {
@@ -239,29 +256,6 @@
         "author": "xylplm",
         "date": "2026-06-30 23:15:08",
         "message": "feat(plugin): 新增自定义制作组/字幕组插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606302248",
-    "items": [
-      {
-        "commit": "c1843ad096ee37a88e3ccd8b98bfbe44f8133f5e",
-        "author": "GateCross",
-        "date": "2026-06-30 22:46:37",
-        "message": "fix: 重新优化emby代理的iptv透传"
-      },
-      {
-        "commit": "a52e788d0fcf073a3e74bf05a864c98cc13f092a",
-        "author": "xiaojun5270",
-        "date": "2026-06-30 21:47:34",
-        "message": "fix：修复关闭短剧TMDB刮削，短剧文件名会变成英文的问题"
-      },
-      {
-        "commit": "eb6dbc9188d66ee54860daf31095348ba5970223",
-        "author": "xiaojun5270",
-        "date": "2026-06-30 21:23:41",
-        "message": "fix：修复某些短剧名称中有“：！，”符号搜索不到的问题"
       }
     ]
   }
