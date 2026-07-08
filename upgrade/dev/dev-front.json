@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607081703",
+    "items": [
+      {
+        "commit": "5ad4e786904b2b337563ecf15f5256b4c1103286",
+        "author": "xylplm",
+        "date": "2026-07-08 13:08:10",
+        "message": "feat ✨: 优化种子匹配与排序卡片化体验"
+      },
+      {
+        "commit": "ba9cac034570d1beeae04fe54458757d1ee73767",
+        "author": "liurongjie",
+        "date": "2026-07-08 12:24:37",
+        "message": "feat(plugin): 添加 Plex 音乐插件相关 SVG 图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071820",
     "items": [
       {
@@ -377,29 +394,6 @@
         "author": "xylplm",
         "date": "2026-06-30 15:39:25",
         "message": "feat ✨: 系统体检中心前端页面与仪表盘体检小部件（流式体检/快捷检查/常见问题排查/评分）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606300143",
-    "items": [
-      {
-        "commit": "7154f70fb1f51dd250d3443486f8077f84e1c26c",
-        "author": "xylplm",
-        "date": "2026-06-30 01:41:52",
-        "message": "feat ✨: media-item 订阅支持多季选择，详情季列表倒序显示发行时间"
-      },
-      {
-        "commit": "4e37bd733b1eef394c8f5001846151d0b654c0e4",
-        "author": "xylplm",
-        "date": "2026-06-30 00:35:46",
-        "message": "fix 🐛: 补全 HDHive 授权状态类型字段与后端对齐"
-      },
-      {
-        "commit": "6716e8115b9379394eae53e7005327c7cab920d6",
-        "author": "xylplm",
-        "date": "2026-06-29 23:43:40",
-        "message": "refactor 🔁: 前端站点统计导出改用后端统一图片接口"
       }
     ]
   }

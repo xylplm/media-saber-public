@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607081703",
+    "items": [
+      {
+        "commit": "bca89cd028e5c0eb85e120423bef16b8eece1ab2",
+        "author": "liurongjie",
+        "date": "2026-07-08 14:27:14",
+        "message": "feat(plugin): 添加 Plex 音乐功能插件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607071820",
     "items": [
       {
@@ -251,23 +262,6 @@
         "author": "xiaojun5270",
         "date": "2026-06-30 21:23:41",
         "message": "fix：修复某些短剧名称中有“：！，”符号搜索不到的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606301544",
-    "items": [
-      {
-        "commit": "4a6ca5f3ac071f104cefd6d1bdd5818b26c17033",
-        "author": "xylplm",
-        "date": "2026-06-30 15:38:14",
-        "message": "feat ✨: 系统体检中心后端（聚合体检/SSE 流式扫描/即时概览/评分/忽略）"
-      },
-      {
-        "commit": "4951bd6da84b864e5370dcdfabd42378a195807c",
-        "author": "GateCross",
-        "date": "2026-06-30 15:43:48",
-        "message": "fix: 优化 IPTV 播放"
       }
     ]
   }
