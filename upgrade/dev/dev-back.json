@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607090004",
+    "items": [
+      {
+        "commit": "f4ef17cd2cd406f8182edc69519af20ce67108d7",
+        "author": "liurongjie",
+        "date": "2026-07-08 23:57:10",
+        "message": "feat(logger): add task trace context for plugins and media refresh"
+      },
+      {
+        "commit": "6db17031a8880511391400f43aa6199c1ebf00f2",
+        "author": "liurongjie",
+        "date": "2026-07-08 22:57:16",
+        "message": "feat: align cd2 path mapping config"
+      },
+      {
+        "commit": "0f72aff0ce713363a6a3a2fad4a1d3305870ac85",
+        "author": "liurongjie",
+        "date": "2026-07-08 20:37:26",
+        "message": "refactor(mediaserver): 优化 Plex 媒体库刷新路径匹配逻辑"
+      },
+      {
+        "commit": "622dc11cda2f5ec08e63899fed52d12621a4f352",
+        "author": "liurongjie",
+        "date": "2026-07-08 20:04:19",
+        "message": "refactor(plugin): 优化插件配置验证逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607081713",
     "items": [
       {
@@ -215,35 +244,6 @@
         "author": "xylplm",
         "date": "2026-07-01 12:26:30",
         "message": "健康检查：区分连接超时错误并给出针对性排查建议"
-      },
-      {
-        "commit": "58c2b8f95654017b3143495c588008a6d1c231d5",
-        "author": "xylplm",
-        "date": "2026-06-30 23:54:59",
-        "message": "feat(plugin): 新增自定义占位符修仙秘籍"
-      },
-      {
-        "commit": "28199470095ab962483640685d5786821800b40b",
-        "author": "xylplm",
-        "date": "2026-06-30 23:15:08",
-        "message": "feat(plugin): 新增自定义制作组/字幕组插件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607011025",
-    "items": [
-      {
-        "commit": "e6363b6c47b03d467d9d733e2d9f06d39172a9d5",
-        "author": "xylplm",
-        "date": "2026-06-30 23:57:11",
-        "message": "feat ✨: 订阅模块新增批量编辑接口（batchUpdate 按字段白名单批量更新）"
-      },
-      {
-        "commit": "f54c146a04b0a5cca936eda66d9a8778fd316616",
-        "author": "xylplm",
-        "date": "2026-06-30 19:45:52",
-        "message": "feat ✨: 观影报告(媒体)新增播放统计与分析面板"
       },
       {
         "commit": "58c2b8f95654017b3143495c588008a6d1c231d5",

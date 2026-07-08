@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607090004",
+    "items": [
+      {
+        "commit": "a72eec4dbc12b716957068b837c01f5591ecdb33",
+        "author": "liurongjie",
+        "date": "2026-07-08 22:57:15",
+        "message": "feat: support dynamic path mapping placeholders"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607081703",
     "items": [
       {
@@ -383,17 +394,6 @@
         "author": "xylplm",
         "date": "2026-06-25 14:32:37",
         "message": "feat: 媒体健康中心下拉过滤仅显示已启用的媒体服务器"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606301544",
-    "items": [
-      {
-        "commit": "2cdc21f4384cf7a65f407b3d67e9cf37a88e1d9a",
-        "author": "xylplm",
-        "date": "2026-06-30 15:39:25",
-        "message": "feat ✨: 系统体检中心前端页面与仪表盘体检小部件（流式体检/快捷检查/常见问题排查/评分）"
       }
     ]
   }
