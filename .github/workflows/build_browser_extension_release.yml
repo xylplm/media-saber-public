@@ -1,0 +1,157 @@
+name: build-browser-extension-release
+
+# 编译私有库 media-saber-extension（WXT 多浏览器分支），按发布规范打包，
+# 并发布到公开库固定的 browser-extension tag
+# （https://github.com/xylplm/media-saber-public/releases/tag/browser-extension）。
+# 每次运行用日期版本号作为 release 标题，方便区分构建批次；tag 始终为 browser-extension，
+# 发布前会删除旧 release 与 tag，只保留最新一个版本。
+#
+# 产物覆盖：Chrome / Edge / Firefox(MV2) / Firefox(MV3) / Safari 共 5 个浏览器包。
+#
+# 需在公开库配置 Secrets：
+#   PERSON_ACCESS_TOKEN  能拉取私有库 media-saber-extension 的 PAT（同时用于发布 release）
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: "扩展仓库要构建的分支 / tag / commit（默认 WXT 多浏览器分支）"
+        required: false
+        default: "feat/wxt-migration"
+
+permissions:
+  contents: write
+
+jobs:
+  # ------------------------------------------------------------------
+  # Job 1：拉取私有扩展源码，用 WXT 一次性构建 + 打包全部浏览器，产出 artifact
+  # ------------------------------------------------------------------
+  build:
+    name: Build & package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout private extension repo
+        uses: actions/checkout@v6
+        with:
+          repository: xylplm/media-saber-extension
+          path: media-saber-extension
+          ref: ${{ inputs.ref }}
+          token: ${{ secrets.PERSON_ACCESS_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: media-saber-extension/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          cd media-saber-extension
+          npm ci
+
+      # ============================================================
+      # WXT 一次性构建并打包全部浏览器：chrome / edge / firefox / firefox-mv3 / safari
+      # zip:all 会先 compile（wxt prepare + vue-tsc --noEmit）再逐个 zip
+      # 产物输出在 .output/*.zip
+      # ============================================================
+      - name: Build & zip all browsers
+        run: |
+          cd media-saber-extension
+          npm run zip:all
+          echo "=== zip artifacts ==="
+          ls -la .output/*.zip
+
+      # ============================================================
+      # 重命名为面向用户的简洁文件名（去掉版本号，因为固定 tag 只保留一个版本）
+      # ============================================================
+      - name: Rename to user-friendly filenames
+        shell: bash
+        run: |
+          set -e
+          cd media-saber-extension
+          mkdir -p release
+
+          # 按 browser + manifestVersion 后缀匹配，重命名为稳定的下载文件名
+          cp .output/*-chrome-mv3.zip        release/media-saber-tools-chrome.zip
+          cp .output/*-edge-mv3.zip          release/media-saber-tools-edge.zip
+          cp .output/*-firefox-mv2.zip       release/media-saber-tools-firefox.zip
+          cp .output/*-firefox-mv3.zip       release/media-saber-tools-firefox-mv3.zip
+          cp .output/*-safari-mv2.zip        release/media-saber-tools-safari.zip
+
+          echo "=== renamed release artifacts ==="
+          ls -la release/
+
+      - name: Upload release archives
+        uses: actions/upload-artifact@v7
+        with:
+          name: browser-extension-release-archives
+          path: |
+            media-saber-extension/release/media-saber-tools-chrome.zip
+            media-saber-extension/release/media-saber-tools-edge.zip
+            media-saber-extension/release/media-saber-tools-firefox.zip
+            media-saber-extension/release/media-saber-tools-firefox-mv3.zip
+            media-saber-extension/release/media-saber-tools-safari.zip
+          if-no-files-found: error
+
+  # ------------------------------------------------------------------
+  # Job 2：在普通 runner（自带 gh CLI）上发布 release 到 browser-extension tag
+  # ------------------------------------------------------------------
+  release:
+    name: Publish to browser-extension tag
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Checkout public repo（取 release notes 模板）
+        uses: actions/checkout@v6
+
+      - name: Download build artifacts
+        uses: actions/download-artifact@v8
+        with:
+          name: browser-extension-release-archives
+          path: release
+
+      - name: Generate build version
+        id: ver
+        run: |
+          # 版本号：EXT_YYYYMMDDHHMM（北京时间）
+          VERSION="EXT_$(TZ='Asia/Shanghai' date +'%Y%m%d%H%M')"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "build version: $VERSION"
+
+      - name: Generate release notes
+        env:
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          # 模板统一维护在 .github/workflows/browser_extension_release_notes.md，
+          # 用 sed 替换版本号与构建时间占位符，避免 heredoc 缩进问题
+          BUILD_TIME="$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          sed \
+            -e "s|__VERSION__|${VERSION}|g" \
+            -e "s|__BUILD_TIME__|${BUILD_TIME}|g" \
+            .github/workflows/browser_extension_release_notes.md > release_notes.md
+          echo "=== release notes ==="
+          cat release_notes.md
+
+      - name: Delete previous browser-extension release (cleanup tag)
+        env:
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+        run: |
+          # browser-extension 是固定 tag，每次发布前删除旧 release 与 tag，由下一步重建
+          # 只保留一个最新版本
+          gh release delete browser-extension --repo "${{ github.repository }}" --yes --cleanup-tag || true
+
+      - name: Create GitHub Release on browser-extension tag
+        env:
+          GH_TOKEN: ${{ secrets.PERSON_ACCESS_TOKEN }}
+          VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          gh release create browser-extension \
+            release/media-saber-tools-chrome.zip \
+            release/media-saber-tools-edge.zip \
+            release/media-saber-tools-firefox.zip \
+            release/media-saber-tools-firefox-mv3.zip \
+            release/media-saber-tools-safari.zip \
+            --title "${VERSION}" \
+            --notes-file release_notes.md \
+            --repo "${{ github.repository }}"
