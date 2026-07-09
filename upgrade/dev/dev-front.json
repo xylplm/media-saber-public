@@ -1,5 +1,214 @@
 [
   {
+    "version": "DEV_202607091901",
+    "items": [
+      {
+        "commit": "aca6ec4e0eda5783b9dbdc155b6e52e13c67e454",
+        "author": "xylplm",
+        "date": "2026-07-09 17:08:52",
+        "message": "fix 🐛: 目录分类优化UI交互"
+      },
+      {
+        "commit": "d0cb48ce4563137c4e05e6e582f017bbe5835c59",
+        "author": "xylplm",
+        "date": "2026-07-09 16:04:14",
+        "message": "refactor 🔁: 目录分类手风琴升级为多列卡片网格+子分类卡片化"
+      },
+      {
+        "commit": "7db25b3882e334944a5f7287f05179f0854ddd8b",
+        "author": "xylplm",
+        "date": "2026-07-09 14:19:27",
+        "message": "feat ✨: 站点消息新增全部已读功能"
+      },
+      {
+        "commit": "3457794281241407fee4e6384e57802e5dbcbc6a",
+        "author": "xylplm",
+        "date": "2026-07-09 14:12:09",
+        "message": "refactor 🔁: 进行中/已完成任务弃用选项卡改为左侧导航布局"
+      },
+      {
+        "commit": "04e636ca97c59d90b7138b8a0cd630654402b807",
+        "author": "xylplm",
+        "date": "2026-07-09 14:01:35",
+        "message": "perf ⚡: 站点公告/消息 PC 端正文默认显示 20 行"
+      },
+      {
+        "commit": "9aad3bd0438a044b85041271b89c187c7ad3226a",
+        "author": "xylplm",
+        "date": "2026-07-09 13:57:03",
+        "message": "fix 🐛: 全面修复卡片页逻辑缺陷与 header 间距叠加问题"
+      },
+      {
+        "commit": "0218971f8d090c23d177c7e7658b3da09533e303",
+        "author": "xylplm",
+        "date": "2026-07-09 13:39:13",
+        "message": "refactor 🔁: 媒体服务器表格重构为等高网格卡片"
+      },
+      {
+        "commit": "1423c7874d17b3aebb65ae843afd9f6589ae487f",
+        "author": "xylplm",
+        "date": "2026-07-09 13:38:49",
+        "message": "fix 🐛: 站点消息已读筛选 formControlName 脱离 formGroup 报错"
+      },
+      {
+        "commit": "9f67d9ecfb5b0f96cf962ab5337c580322ea6802",
+        "author": "xylplm",
+        "date": "2026-07-09 12:33:14",
+        "message": "refactor 🔁: 站点公告/站点消息表格重构为瀑布流卡片"
+      },
+      {
+        "commit": "6d19885b5eee861dd0be5c6441ced1288dc28820",
+        "author": "xylplm",
+        "date": "2026-07-09 11:49:14",
+        "message": "fix 🐛: 删除订阅日历/观影报告冗余 padding 避免页面被压缩"
+      },
+      {
+        "commit": "2cfd92b623551290a262f10c8c23d0a12786bc92",
+        "author": "xylplm",
+        "date": "2026-07-09 11:44:46",
+        "message": "refactor 🔁: 订阅日历 iCal 按钮改为图标按钮"
+      },
+      {
+        "commit": "7d258c0b20041f8df195c1528968b08836a42cee",
+        "author": "xylplm",
+        "date": "2026-07-09 11:43:36",
+        "message": "fix 🐛: cm-page-header 默认下边距，修复与表格紧贴问题"
+      },
+      {
+        "commit": "994daef5255852b3af0205b03e3758b6b8e8fe0a",
+        "author": "xylplm",
+        "date": "2026-07-09 11:35:38",
+        "message": "refactor 🔁: 修仙秘籍/秘术宝阁 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "22a9c9015f5a3b3c51462dbf2c5e5511822801df",
+        "author": "xylplm",
+        "date": "2026-07-09 11:30:21",
+        "message": "refactor 🔁: 开播日历 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "9167d0da2e5edc37af4857ac577d7aa99bb362fe",
+        "author": "xylplm",
+        "date": "2026-07-09 11:21:44",
+        "message": "refactor 🔁: 云端文件/文件整理/Strm生成 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "04bdebf43dc04df3e6d49558ef0cd46b402bd1c8",
+        "author": "xylplm",
+        "date": "2026-07-09 11:03:54",
+        "message": "refactor 🔁: 站点维护/签到/资源/公告/消息/请求 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "823dde06f8f5489529fe5dd76cb475c32bb628ca",
+        "author": "xylplm",
+        "date": "2026-07-09 10:55:27",
+        "message": "refactor 🔁: 订阅列表/订阅日历 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "394210f5fa867b1f9eccabefd651d1775bd97600",
+        "author": "xylplm",
+        "date": "2026-07-09 10:47:35",
+        "message": "refactor 🔁: 文件管理/目录管理/目录同步 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "a80f8f56fd74f31557c37ba8ea9aa5dca3810e83",
+        "author": "xylplm",
+        "date": "2026-07-09 10:47:25",
+        "message": "refactor 🔁: 正在下载/下载参数/下载器管理 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "7ba090a39af5412b6d6edda99f8b996f5dc40275",
+        "author": "xylplm",
+        "date": "2026-07-09 10:36:04",
+        "message": "refactor 🔁: 媒体整理失败列表/历史记录/TMDB索引 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "a970e18a7ecaff7cf3a26b7b2fd03531e0f25c0c",
+        "author": "xylplm",
+        "date": "2026-07-09 10:27:55",
+        "message": "refactor 🔁: 媒体服务器页 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "77296bdd133c14bc9c92c66cc8b9623749a1da6c",
+        "author": "xylplm",
+        "date": "2026-07-09 10:23:43",
+        "message": "refactor 🔁: 观影报告页 header 迁移至 cm-page-header"
+      },
+      {
+        "commit": "0f83c6e11a053e09062ede93385767eaab703a8e",
+        "author": "xylplm",
+        "date": "2026-07-09 10:23:33",
+        "message": "refactor 🔁: 移除系统配置页与面包屑重复的 header"
+      },
+      {
+        "commit": "386efcb3621b933bc0b5a15d2aad959f116f160c",
+        "author": "xylplm",
+        "date": "2026-07-09 10:23:23",
+        "message": "refactor 🔁: 系统配置子页 header 统一迁移至 cm-page-header"
+      },
+      {
+        "commit": "d6120c919679367a9814a5575463a1fb8051ae43",
+        "author": "xylplm",
+        "date": "2026-07-09 10:23:10",
+        "message": "refactor 🔁: 顶级面包屑改用 cm-page-header 卡片式头部"
+      },
+      {
+        "commit": "8780c3dd3e5f988e1b3930780dd1604c9bb1809c",
+        "author": "xylplm",
+        "date": "2026-07-09 10:23:01",
+        "message": "add ➕: 菜单数据补充页面描述字段"
+      },
+      {
+        "commit": "0c65f632db7980937c3ae007b88ceb5f3fda7b6e",
+        "author": "xylplm",
+        "date": "2026-07-09 10:22:53",
+        "message": "feat ✨: 新建公共页面头部组件 cm-page-header"
+      },
+      {
+        "commit": "89a994bc19caafaecf9eff878c901100c0f000a5",
+        "author": "xylplm",
+        "date": "2026-07-09 08:35:35",
+        "message": "feat ✨: 系统配置页面重构为左侧导航+分区卡片，新增引导横幅、切换动效与响应式优化"
+      },
+      {
+        "commit": "5ca02ccd1c73dfe203c4a4fc9f5fb88c2dfea774",
+        "author": "xylplm",
+        "date": "2026-07-09 01:01:59",
+        "message": "feat ✨: 体检中心页面深耕动效与状态色，新增充能进度条与光点汇聚科技感动效"
+      },
+      {
+        "commit": "d7a382de7de50dd37582a082957cc4ac5c069080",
+        "author": "xylplm",
+        "date": "2026-07-08 23:57:35",
+        "message": "perf ⚡: 用户卡片4K下放大对齐消息卡片断点体系"
+      },
+      {
+        "commit": "a02581eca768af1f7cc0cd760e2d5cdac0a0ad10",
+        "author": "xylplm",
+        "date": "2026-07-08 23:53:59",
+        "message": "feat ✨: 用户管理页顶部工具栏统一风格并隐藏面包屑"
+      },
+      {
+        "commit": "f258f73850f7312e9d9819685be03e9939164114",
+        "author": "xylplm",
+        "date": "2026-07-08 23:51:02",
+        "message": "feat ✨: 关于页 UI 改造统一设置页卡片风格与响应式"
+      },
+      {
+        "commit": "e9bbe9b629d678bf044a057a7310fbd265712a32",
+        "author": "xylplm",
+        "date": "2026-07-08 23:00:15",
+        "message": "feat ✨: 后台任务页面改造为工具栏卡片与状态卡片联动"
+      },
+      {
+        "commit": "c51740e846bce3a48fafa3daadc77df0c1cbd28f",
+        "author": "xylplm",
+        "date": "2026-07-08 22:29:36",
+        "message": "feat ✨: 优化消息通知渠道卡片界面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607090004",
     "items": [
       {
@@ -383,17 +592,6 @@
         "author": "xylplm",
         "date": "2026-06-26 14:15:35",
         "message": "feat ✨: 订阅合并新增编辑弹窗并优化默认订阅与小屏排版"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202606302248",
-    "items": [
-      {
-        "commit": "bae8645fb046e501243a0c17446a6ece3c2dbe35",
-        "author": "xylplm",
-        "date": "2026-06-25 14:32:37",
-        "message": "feat: 媒体健康中心下拉过滤仅显示已启用的媒体服务器"
       }
     ]
   }
