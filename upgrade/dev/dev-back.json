@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607110030",
+    "items": [
+      {
+        "commit": "4a1550f40db0b319f6094c3acd4465250c0476d8",
+        "author": "liurongjie",
+        "date": "2026-07-11 00:19:27",
+        "message": "chore(deps): 更新项目依赖包版本"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607101556",
     "items": [
       {
@@ -227,65 +238,6 @@
         "author": "xylplm",
         "date": "2026-07-07 11:07:51",
         "message": "feat ✨: 系统备份插件支持上传备份包还原及单行下载，修复多项安全与稳定性问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607071006",
-    "items": [
-      {
-        "commit": "7e9dff707bfa122b6a22a83f808f984b18683175",
-        "author": "xylplm",
-        "date": "2026-07-07 01:57:51",
-        "message": "feat ✨: 消息通知增加免打扰与聚合策略"
-      },
-      {
-        "commit": "f2abb9a64ff64fb097d0d99e40fad682912e264c",
-        "author": "xylplm",
-        "date": "2026-07-06 16:15:54",
-        "message": "refactor 🔁: 后端移除 HDHive 相关功能"
-      },
-      {
-        "commit": "d270f873ab55d0a207f38e7879510cf211e9ab25",
-        "author": "liurongjie",
-        "date": "2026-07-06 15:32:04",
-        "message": "feat(cloudDrive2): 添加路径映射功能支持"
-      },
-      {
-        "commit": "3695540874829feecb1e3d40d1b44e39ecb4f981",
-        "author": "liurongjie",
-        "date": "2026-07-06 12:42:09",
-        "message": "refactor(plugin): 优化群晖 DSM 通知参数解析逻辑"
-      },
-      {
-        "commit": "4cb8290a399a087b7934c1fd06a0aa4b75c8d1ae",
-        "author": "xylplm",
-        "date": "2026-07-06 01:08:45",
-        "message": "feat ✨: 后端增加 Pansou 连通性测试接口"
-      },
-      {
-        "commit": "88bb08774c4ff4377280384dc553c3bf0b8fe004",
-        "author": "xylplm",
-        "date": "2026-07-05 23:52:48",
-        "message": "feat ✨: 后端适配过盾增强双服务"
-      },
-      {
-        "commit": "05fec830ce405ba3c609c38aae4e63d0a388810d",
-        "author": "xylplm",
-        "date": "2026-07-05 02:14:19",
-        "message": "feat ✨: 插件新增媒体库报告"
-      },
-      {
-        "commit": "c5fc19c1f4a25138a6ead1c4c5f92cb024bd9686",
-        "author": "xylplm",
-        "date": "2026-07-05 00:12:46",
-        "message": "feat ✨: 后端新增 iCal 日历订阅接口"
-      },
-      {
-        "commit": "e6bc7f24e31a76d4d989433964582e90ac234685",
-        "author": "xylplm",
-        "date": "2026-07-04 02:49:21",
-        "message": "feat ✨: 系统备份插件后端重构"
       }
     ]
   }
