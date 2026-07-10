@@ -6,7 +6,10 @@ name: build-browser-extension-release
 # 每次运行用日期版本号作为 release 标题，方便区分构建批次；tag 始终为 browser-extension，
 # 发布前会删除旧 release 与 tag，只保留最新一个版本。
 #
-# 产物覆盖：Chrome / Edge / Firefox(MV2) / Firefox(MV3) / Safari 共 5 个浏览器包。
+# 产物覆盖：
+#   Chrome / Edge —— 各 3 种格式：.zip（解压加载）/ .crx（打包签名）/ .crx.zip（规避 .crx 直链下载拦截）
+#   Firefox(MV2) / Firefox(MV3) / Safari —— 各 1 种 .zip
+# Chrome/Edge 的 .crx 使用扩展仓库内 pem/dev_build.pem 签名（随私有源码一起签出）。
 #
 # 需在公开库配置 Secrets：
 #   PERSON_ACCESS_TOKEN  能拉取私有库 media-saber-extension 的 PAT（同时用于发布 release）
@@ -63,23 +66,37 @@ jobs:
           ls -la .output/*.zip
 
       # ============================================================
-      # 重命名为面向用户的简洁文件名（去掉版本号，因为固定 tag 只保留一个版本）
+      # 生成面向用户的稳定文件名（固定 tag 只保留一个版本，不在文件名中带版本号）
+      # Chrome / Edge 各提供：原始 zip、crx、crx.zip 三种格式。
       # ============================================================
-      - name: Rename to user-friendly filenames
+      - name: Package user-friendly archives
         shell: bash
         run: |
           set -e
           cd media-saber-extension
           mkdir -p release
 
-          # 按 browser + manifestVersion 后缀匹配，重命名为稳定的下载文件名
+          # WXT zip：解压后可在扩展管理页通过“加载已解压的扩展程序”安装
           cp .output/*-chrome-mv3.zip        release/media-saber-tools-chrome.zip
           cp .output/*-edge-mv3.zip          release/media-saber-tools-edge.zip
           cp .output/*-firefox-mv2.zip       release/media-saber-tools-firefox.zip
           cp .output/*-firefox-mv3.zip       release/media-saber-tools-firefox-mv3.zip
           cp .output/*-safari-mv2.zip        release/media-saber-tools-safari.zip
 
-          echo "=== renamed release artifacts ==="
+          # CRX3：使用扩展项目提供的开发签名密钥打包 Chrome / Edge 版本。
+          # 同一密钥保证扩展 ID 稳定；crx.zip 用于规避部分浏览器拦截 .crx 直链下载。
+          npx --yes crx3@2.0.0 \
+            -p pem/dev_build.pem \
+            -o release/media-saber-tools-chrome.crx \
+            .output/chrome-mv3
+          npx --yes crx3@2.0.0 \
+            -p pem/dev_build.pem \
+            -o release/media-saber-tools-edge.crx \
+            .output/edge-mv3
+          zip -j release/media-saber-tools-chrome.crx.zip release/media-saber-tools-chrome.crx
+          zip -j release/media-saber-tools-edge.crx.zip release/media-saber-tools-edge.crx
+
+          echo "=== release artifacts ==="
           ls -la release/
 
       - name: Upload release archives
@@ -88,7 +105,11 @@ jobs:
           name: browser-extension-release-archives
           path: |
             media-saber-extension/release/media-saber-tools-chrome.zip
+            media-saber-extension/release/media-saber-tools-chrome.crx
+            media-saber-extension/release/media-saber-tools-chrome.crx.zip
             media-saber-extension/release/media-saber-tools-edge.zip
+            media-saber-extension/release/media-saber-tools-edge.crx
+            media-saber-extension/release/media-saber-tools-edge.crx.zip
             media-saber-extension/release/media-saber-tools-firefox.zip
             media-saber-extension/release/media-saber-tools-firefox-mv3.zip
             media-saber-extension/release/media-saber-tools-safari.zip
@@ -148,7 +169,11 @@ jobs:
         run: |
           gh release create browser-extension \
             release/media-saber-tools-chrome.zip \
+            release/media-saber-tools-chrome.crx \
+            release/media-saber-tools-chrome.crx.zip \
             release/media-saber-tools-edge.zip \
+            release/media-saber-tools-edge.crx \
+            release/media-saber-tools-edge.crx.zip \
             release/media-saber-tools-firefox.zip \
             release/media-saber-tools-firefox-mv3.zip \
             release/media-saber-tools-safari.zip \
