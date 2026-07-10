@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202607101556",
+    "items": [
+      {
+        "commit": "b6362dc1578827508ab1e5ec6c07d0cb325b68af",
+        "author": "liurongjie",
+        "date": "2026-07-09 23:12:06",
+        "message": "fix: 移除 Plex STRM 探测任务标签"
+      },
+      {
+        "commit": "6f35c3932501a8396c77825aa2e6affc0cd53b77",
+        "author": "xylplm",
+        "date": "2026-07-09 22:38:41",
+        "message": "fix 🐛: 修复目录拖拽排序时左上角闪烁"
+      },
+      {
+        "commit": "fcfd0371bf51908c7fbcad7e708811a348fe8fab",
+        "author": "xylplm",
+        "date": "2026-07-09 22:20:34",
+        "message": "refactor 🔁: 目录管理和目录分类卡片操作按钮统一移至右下角"
+      },
+      {
+        "commit": "7ea19811b798777ba1141166711a9bd9f6931cbd",
+        "author": "xylplm",
+        "date": "2026-07-09 21:23:49",
+        "message": "fix 🐛: 优化目录管理卡片排版与样式"
+      },
+      {
+        "commit": "55ad87a78f0be5c6b3a07512796a838d55cb82ba",
+        "author": "xylplm",
+        "date": "2026-07-09 20:03:23",
+        "message": "fix 🐛: 目录同步review修复手机端体验"
+      },
+      {
+        "commit": "031707f2a439ae20075d261e40daa539c3fed2fa",
+        "author": "xylplm",
+        "date": "2026-07-09 18:59:07",
+        "message": "refactor 🔁: 目录同步从手风琴重构为卡片网格+可展开详情"
+      },
+      {
+        "commit": "89f8149adab7cb7b4065b9f4acbb0bcd01bc1196",
+        "author": "xylplm",
+        "date": "2026-07-09 18:17:05",
+        "message": "refactor 🔁: 目录管理重构为按标签分组手风琴+卡片网格"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607091901",
     "items": [
       {
@@ -431,167 +478,6 @@
         "author": "xylplm",
         "date": "2026-07-01 14:18:14",
         "message": "refactor 🔁: 抽取 AppVersionService 统一版本检测与更新弹窗逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607011025",
-    "items": [
-      {
-        "commit": "9d33806dc1d2767fe877e95c0ba11e01ed5d8392",
-        "author": "xylplm",
-        "date": "2026-07-01 10:19:18",
-        "message": "revert(message-center): 加载更多改回按钮触发"
-      },
-      {
-        "commit": "5176375cf2d2c3a55c2513ef0113785b3c04b8be",
-        "author": "xylplm",
-        "date": "2026-07-01 10:03:06",
-        "message": "perf(message-center): 消息列表内层 @for 改用稳定 track"
-      },
-      {
-        "commit": "cc11beb77a683e2e587eecebfcd69cf5dc111b7b",
-        "author": "xylplm",
-        "date": "2026-07-01 10:01:13",
-        "message": "fix(download): 恢复下载列表轮询的免加载动画头"
-      },
-      {
-        "commit": "e9d75be64746d745e8d069bf3368aad8e63786b3",
-        "author": "xylplm",
-        "date": "2026-07-01 10:00:45",
-        "message": "fix(download): 删除下载任务前补二次确认"
-      },
-      {
-        "commit": "cb8d5fe7e228f17abbbd3c279ac3f08d4ab59e40",
-        "author": "xylplm",
-        "date": "2026-07-01 08:39:41",
-        "message": "fix: 秘籍卡片阴影产生直角问题"
-      },
-      {
-        "commit": "549091033dff90d56a372b943614675ed8db7352",
-        "author": "xylplm",
-        "date": "2026-07-01 00:53:08",
-        "message": "chore(site): 移除未完成的刷流任务空壳页"
-      },
-      {
-        "commit": "134c0bf313887a89e3d1863b85eddef64bcfa9a7",
-        "author": "xylplm",
-        "date": "2026-06-30 23:59:26",
-        "message": "feat ✨: 订阅列表新增批量操作（多选/批量编辑/重搜/取消订阅）"
-      },
-      {
-        "commit": "4f38c589cd9d6dcaf5e64b5b5fb7f29237ecc7d1",
-        "author": "xylplm",
-        "date": "2026-06-30 19:48:15",
-        "message": "feat ✨: 媒体服务新增观影报告页与 Dashboard 小部件"
-      },
-      {
-        "commit": "a93e3d66a293d120506db8534e4a637588ccfaba",
-        "author": "xylplm",
-        "date": "2026-06-30 23:55:13",
-        "message": "feat(plugin): 自定义占位符修仙秘籍前端支持"
-      },
-      {
-        "commit": "ad967d3eb23ca814d2cb6d873ac8cc66e1d9f5ae",
-        "author": "xylplm",
-        "date": "2026-06-30 23:15:22",
-        "message": "feat(plugin): 新增自定义制作组/字幕组插件图标"
-      },
-      {
-        "commit": "2cdc21f4384cf7a65f407b3d67e9cf37a88e1d9a",
-        "author": "xylplm",
-        "date": "2026-06-30 15:39:25",
-        "message": "feat ✨: 系统体检中心前端页面与仪表盘体检小部件（流式体检/快捷检查/常见问题排查/评分）"
-      },
-      {
-        "commit": "7154f70fb1f51dd250d3443486f8077f84e1c26c",
-        "author": "xylplm",
-        "date": "2026-06-30 01:41:52",
-        "message": "feat ✨: media-item 订阅支持多季选择，详情季列表倒序显示发行时间"
-      },
-      {
-        "commit": "4e37bd733b1eef394c8f5001846151d0b654c0e4",
-        "author": "xylplm",
-        "date": "2026-06-30 00:35:46",
-        "message": "fix 🐛: 补全 HDHive 授权状态类型字段与后端对齐"
-      },
-      {
-        "commit": "6716e8115b9379394eae53e7005327c7cab920d6",
-        "author": "xylplm",
-        "date": "2026-06-29 23:43:40",
-        "message": "refactor 🔁: 前端站点统计导出改用后端统一图片接口"
-      },
-      {
-        "commit": "80c694ca204878c51050f2e884eaed79f6032939",
-        "author": "xylplm",
-        "date": "2026-06-29 18:40:09",
-        "message": "refactor 🔁: 站点自定义请求头与媒体路径映射复用键值对编辑器"
-      },
-      {
-        "commit": "54fdac13bdf848964f7eaff6572b289612abeb2f",
-        "author": "xylplm",
-        "date": "2026-06-29 18:13:30",
-        "message": "feat ✨: 媒体服务媒体路径映射改为可增删的成对输入框编辑器"
-      },
-      {
-        "commit": "9085b55c5235d1ba59444dbcbfb0419f70082b46",
-        "author": "xylplm",
-        "date": "2026-06-29 16:20:02",
-        "message": "feat ✨: 健康中心补漏交互——场景化预览弹窗(新建/并入/重搜/无操作)、缺集区间chip、徽标筛选联动、行级loading"
-      },
-      {
-        "commit": "4b7821c2a58b40e08b9480459200c3ece0676e43",
-        "author": "xylplm",
-        "date": "2026-06-29 14:44:52",
-        "message": "chore(frontend): 升级 Angular 22 并迁移 signal input/output"
-      },
-      {
-        "commit": "6763b5880f93978111a213944146aaf8ff878279",
-        "author": "GateCross",
-        "date": "2026-06-28 09:39:59",
-        "message": "fix: 修复云存储批量下载"
-      },
-      {
-        "commit": "e8404f28407dce6dbfd121ea2dd4da1204db4bb7",
-        "author": "xylplm",
-        "date": "2026-06-27 22:02:22",
-        "message": "refactor 🔁: 媒体项卡片将 PT 发布站点改为左上角数量角标"
-      },
-      {
-        "commit": "3f8887b599af29e6bde903fdbf5d1b4518c08a1d",
-        "author": "xylplm",
-        "date": "2026-06-26 22:43:53",
-        "message": "feat ✨: 搜索种子规则解释内嵌 TMDB 媒体对比并修复云下载配置类型"
-      },
-      {
-        "commit": "255a6cead5d9291cad74376c3b962720795d9feb",
-        "author": "xylplm",
-        "date": "2026-06-26 22:26:19",
-        "message": "fix 🐛: 修复 ESLint 报错并通过 ng lint（timerManager、类型与标签）"
-      },
-      {
-        "commit": "a071bcf7703c1471c3a5f466ffff2674f05883a7",
-        "author": "xylplm",
-        "date": "2026-06-26 22:22:01",
-        "message": "feat ✨: 规则解释 TMDB 解析链接与对比媒体详情弹窗"
-      },
-      {
-        "commit": "be8f2e291e2299402cacfaa6e02d85aa6271ec93",
-        "author": "xylplm",
-        "date": "2026-06-26 21:37:48",
-        "message": "feat ✨: 搜索结果页未通过过滤开关与 ListRespone 分页 ext 泛型"
-      },
-      {
-        "commit": "413ad0f4435974cef7365516cc25076b2962ed2c",
-        "author": "xylplm",
-        "date": "2026-06-26 17:21:15",
-        "message": "feat ✨: SSE 连接携带 client=web 端类型参数"
-      },
-      {
-        "commit": "bd52fbdc49658e67bc84b37d2cbebace0e236671",
-        "author": "xylplm",
-        "date": "2026-06-26 14:15:35",
-        "message": "feat ✨: 订阅合并新增编辑弹窗并优化默认订阅与小屏排版"
       }
     ]
   }
