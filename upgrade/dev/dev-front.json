@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202607120108",
+    "items": [
+      {
+        "commit": "56d9d7e208a991c6c89df68e61424bc2abca168a",
+        "author": "liurongjie",
+        "date": "2026-07-12 01:04:51",
+        "message": "feat(settings): add play stats toggle to media settings"
+      },
+      {
+        "commit": "a33ade17f23fe72765920e71755f13cc3d6da836",
+        "author": "liurongjie",
+        "date": "2026-07-10 23:18:59",
+        "message": "fix(rss): 优化订阅卡片背景图加载与错误处理"
+      },
+      {
+        "commit": "2fbf6d54a232535854555c6ccf34a36aa99f85ae",
+        "author": "liurongjie",
+        "date": "2026-07-10 23:07:15",
+        "message": "refactor(media-server): 优化媒体库分类卡片样式和云端资源搜索功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607120049",
     "items": [
       {
@@ -683,17 +706,6 @@
         "author": "xylplm",
         "date": "2026-07-04 02:49:21",
         "message": "feat ✨: 系统备份工作台前端重构"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607021812",
-    "items": [
-      {
-        "commit": "dee9c9834f507583d93a653b140902eb0d5eb3a2",
-        "author": "xylplm",
-        "date": "2026-07-02 17:11:32",
-        "message": "fix 🐛: 修复 cm-input-cron 的 writeValue 错误调用 onChange，导致父表单初始化时被标脏、保存按钮始终可点"
       }
     ]
   }
