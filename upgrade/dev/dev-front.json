@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607120049",
+    "items": [
+      {
+        "commit": "083596b6760bbd0ee4ba3cfafe9d8414cca15290",
+        "author": "xylplm",
+        "date": "2026-07-10 19:05:55",
+        "message": "feat(cron): Cron AI 生成改用后端场景接口，弹窗支持响应式"
+      },
+      {
+        "commit": "2da5a59c786d2a53e8ec154e16455d54990d31ec",
+        "author": "xylplm",
+        "date": "2026-07-10 19:05:33",
+        "message": "feat(recog-words): 识别词 AI 生成改为举例子模式，向导式交互"
+      },
+      {
+        "commit": "f8dd8b87c7aaa6ca4b72af87994fb14a31e23462",
+        "author": "xylplm",
+        "date": "2026-07-10 19:05:03",
+        "message": "feat(ai): AI 诊断弹窗改用后端场景接口，升级动效与响应式布局"
+      },
+      {
+        "commit": "911e754fb93a8a23be0fc4d9cbbfeb21a1f1ddb1",
+        "author": "xylplm",
+        "date": "2026-07-10 19:04:43",
+        "message": "feat(ai): 新增极简 SSE service，替换旧的 OpenAI 协议直连 service"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607102325",
     "items": [
       {
@@ -665,35 +694,6 @@
         "author": "xylplm",
         "date": "2026-07-02 17:11:32",
         "message": "fix 🐛: 修复 cm-input-cron 的 writeValue 错误调用 onChange，导致父表单初始化时被标脏、保存按钮始终可点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607021415",
-    "items": [
-      {
-        "commit": "02ddb5af4f0ff3447552502c5179199377e854bc",
-        "author": "xylplm",
-        "date": "2026-07-02 14:13:07",
-        "message": "fix 🐛: 修复过滤日志开关取消确认弹窗时误触 setValue 导致表单被标脏、保存按钮意外可点的问题"
-      },
-      {
-        "commit": "b4f3c820000900e3f8c37cfbcf4be49e498b241a",
-        "author": "xylplm",
-        "date": "2026-07-02 13:56:14",
-        "message": "fix 🐛: 修复订阅新增弹窗通过 TMDB 查询填入后未触发表单脏状态导致无法保存"
-      },
-      {
-        "commit": "6335640393d2f6c211f3c2e049e789d9c5cb495f",
-        "author": "xylplm",
-        "date": "2026-07-02 13:55:24",
-        "message": "fix 🐛: 修复通过 TMDB 弹窗选择后未触发表单脏状态导致无法保存的问题"
-      },
-      {
-        "commit": "99f5cd51249acbb6bf595d7c5ce76e927330cb3a",
-        "author": "xylplm",
-        "date": "2026-07-02 13:53:52",
-        "message": "fix 🐛: 修复激励文案 seed 为 NaN 时渲染 undefined、切换榜类型时旧数据短暂混显及 localStorage 缺合法性校验"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607120049",
+    "items": [
+      {
+        "commit": "987138168d8ea7db4691c472d524199a731bfe1a",
+        "author": "xylplm",
+        "date": "2026-07-10 19:03:44",
+        "message": "feat(ai): 新增场景化 AI 接口，Prompt 与协议兼容性统一后端处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607110030",
     "items": [
       {
@@ -227,17 +238,6 @@
         "author": "liurongjie",
         "date": "2026-07-07 13:23:06",
         "message": "feat(cloud-storage): 添加云存储后置操作刷新服务并优化媒体库刷新逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607071125",
-    "items": [
-      {
-        "commit": "612e580ac4d5ff8e7661d14f6eefa00c9b431304",
-        "author": "xylplm",
-        "date": "2026-07-07 11:07:51",
-        "message": "feat ✨: 系统备份插件支持上传备份包还原及单行下载，修复多项安全与稳定性问题"
       }
     ]
   }
