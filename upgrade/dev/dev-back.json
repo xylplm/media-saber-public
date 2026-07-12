@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607130128",
+    "items": [
+      {
+        "commit": "3c93f01f57a79ad6254d6aec6b646ae0ffd12e20",
+        "author": "xylplm",
+        "date": "2026-07-13 01:24:18",
+        "message": "fix ��: Webhook 内外网地址分别返回不再合并"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607122352",
     "items": [
       {
@@ -209,17 +220,6 @@
         "author": "liurongjie",
         "date": "2026-07-08 17:11:27",
         "message": "fix(cloud_storage): 优化CD2缓存刷新逻辑并添加返回状态判断"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607081703",
-    "items": [
-      {
-        "commit": "bca89cd028e5c0eb85e120423bef16b8eece1ab2",
-        "author": "liurongjie",
-        "date": "2026-07-08 14:27:14",
-        "message": "feat(plugin): 添加 Plex 音乐功能插件"
       }
     ]
   }

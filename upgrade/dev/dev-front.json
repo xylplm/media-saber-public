@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607130128",
+    "items": [
+      {
+        "commit": "027865f37b50eb9ed36b0dc781d101c29835d3b9",
+        "author": "xylplm",
+        "date": "2026-07-13 01:24:18",
+        "message": "feat ✨: Webhook/日历提示改 cm-alert，接收消息 URL 弹窗可复制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607122352",
     "items": [
       {
@@ -659,17 +670,6 @@
         "author": "liurongjie",
         "date": "2026-07-08 12:24:37",
         "message": "feat(plugin): 添加 Plex 音乐插件相关 SVG 图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607071820",
-    "items": [
-      {
-        "commit": "d85f7cdf57f5bf4b4cad5c6859eb229ca8a4427a",
-        "author": "xylplm",
-        "date": "2026-07-07 17:50:04",
-        "message": "feat ✨: 优化过滤规则导入导出与拖拽排序体验"
       }
     ]
   }
