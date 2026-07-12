@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607121955",
+    "items": [
+      {
+        "commit": "0d2b3eb7049022e38b1e74b490cbc485a1393f77",
+        "author": "xylplm",
+        "date": "2026-07-12 19:41:41",
+        "message": "﻿feat: 媒体服务专属 Webhook 与消息推送控制"
+      },
+      {
+        "commit": "987138168d8ea7db4691c472d524199a731bfe1a",
+        "author": "xylplm",
+        "date": "2026-07-10 19:03:44",
+        "message": "feat(ai): 新增场景化 AI 接口，Prompt 与协议兼容性统一后端处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607120108",
     "items": [
       {
@@ -203,23 +220,6 @@
         "author": "liurongjie",
         "date": "2026-07-07 14:39:37",
         "message": "feat(mediaserver): 添加 Plex 路径刷新候选和反向映射功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607071443",
-    "items": [
-      {
-        "commit": "4164ebe08ca2af2994e3aea6cf242cd0d5b8a8f6",
-        "author": "xylplm",
-        "date": "2026-07-07 14:37:21",
-        "message": "fix 🐛: 优化后端消息合并摘要展示媒体信息"
-      },
-      {
-        "commit": "9a4ba49e3b8ccc68237ac8510f196f67114ac057",
-        "author": "xylplm",
-        "date": "2026-07-07 14:25:13",
-        "message": "refactor 🔧: 后端移除刮削信息远程上报"
       }
     ]
   }
