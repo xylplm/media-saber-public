@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607122352",
+    "items": [
+      {
+        "commit": "3349ce1b2c55f3945d177ad9a9f85abac8366c55",
+        "author": "liurongjie",
+        "date": "2026-07-12 23:50:04",
+        "message": "feat: 云端文件更多菜单增加刷新媒体库"
+      },
+      {
+        "commit": "068133d985868b8528d4c77dbf42dfb5c551fad0",
+        "author": "liurongjie",
+        "date": "2026-07-12 23:32:30",
+        "message": "fix: 系统日志导出时间范围与列表查询一致"
+      },
+      {
+        "commit": "c318878a152f90ef6c43a38b1b01c2d702c902ed",
+        "author": "liurongjie",
+        "date": "2026-07-12 23:25:37",
+        "message": "fix: 优化观影报告热门内容移动端标题展示"
+      },
+      {
+        "commit": "0121e01f22c7356ee2852387b50adc1b1564691a",
+        "author": "liurongjie",
+        "date": "2026-07-12 23:19:14",
+        "message": "fix(setting-about): 修正自动化追剧图标显示问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607121955",
     "items": [
       {
@@ -641,17 +670,6 @@
         "author": "xylplm",
         "date": "2026-07-07 17:50:04",
         "message": "feat ✨: 优化过滤规则导入导出与拖拽排序体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607071125",
-    "items": [
-      {
-        "commit": "c3086705cbc002c097bd63b904ce02229975d04e",
-        "author": "xylplm",
-        "date": "2026-07-07 11:08:04",
-        "message": "feat ✨: 系统备份插件支持上传备份包还原及单行下载，优化交互与动效"
       }
     ]
   }
