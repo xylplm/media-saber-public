@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607131405",
+    "items": [
+      {
+        "commit": "df92a016bd800f945af261867231ce13877aef8d",
+        "author": "xylplm",
+        "date": "2026-07-13 13:42:03",
+        "message": "refactor: 统一 Webhook 处理架构，迁移至 Service 层"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607130128",
     "items": [
       {
@@ -203,23 +214,6 @@
         "author": "liurongjie",
         "date": "2026-07-08 20:04:19",
         "message": "refactor(plugin): 优化插件配置验证逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607081713",
-    "items": [
-      {
-        "commit": "e5fe14fd762757ccac9a6f6ab3e4360d8b1d41c3",
-        "author": "liurongjie",
-        "date": "2026-07-08 17:12:54",
-        "message": "fix(mediaproxy): 修复 Plex STRM 探测和解析问题"
-      },
-      {
-        "commit": "0270587438e587fc7416d4dcae67bb0ac5537538",
-        "author": "liurongjie",
-        "date": "2026-07-08 17:11:27",
-        "message": "fix(cloud_storage): 优化CD2缓存刷新逻辑并添加返回状态判断"
       }
     ]
   }

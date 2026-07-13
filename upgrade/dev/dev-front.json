@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607131405",
+    "items": [
+      {
+        "commit": "886bb0eeb138e2a93fdc29bf85243e55faae3ce4",
+        "author": "liurongjie",
+        "date": "2026-07-13 11:56:03",
+        "message": "feat(icons): 添加新的 Tabler 图标支持"
+      },
+      {
+        "commit": "af7ca8970249370d002010913e26913eddeb1c8a",
+        "author": "liurongjie",
+        "date": "2026-07-13 11:15:52",
+        "message": "feat(media-server): 优化播放统计页面图表工具提示显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607130128",
     "items": [
       {
@@ -653,23 +670,6 @@
         "author": "liurongjie",
         "date": "2026-07-08 22:57:15",
         "message": "feat: support dynamic path mapping placeholders"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607081703",
-    "items": [
-      {
-        "commit": "5ad4e786904b2b337563ecf15f5256b4c1103286",
-        "author": "xylplm",
-        "date": "2026-07-08 13:08:10",
-        "message": "feat ✨: 优化种子匹配与排序卡片化体验"
-      },
-      {
-        "commit": "ba9cac034570d1beeae04fe54458757d1ee73767",
-        "author": "liurongjie",
-        "date": "2026-07-08 12:24:37",
-        "message": "feat(plugin): 添加 Plex 音乐插件相关 SVG 图标"
       }
     ]
   }
