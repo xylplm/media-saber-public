@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202607131827",
+    "items": [
+      {
+        "commit": "096ff3addab63916a4474fcd3f2d8f8480b86c96",
+        "author": "liurongjie",
+        "date": "2026-07-13 18:26:39",
+        "message": "refactor(webhook): 优化 Plex webhook 服务代码结构"
+      },
+      {
+        "commit": "b1ecca0b96476c512e388db55c9b85aeea2af550",
+        "author": "liurongjie",
+        "date": "2026-07-13 18:10:25",
+        "message": "fix(mediaproxy): 修复 strm 解析中的路径处理和重定向逻辑"
+      },
+      {
+        "commit": "43c9fe2cb2684bddbf1caaadc4c69fbd98505954",
+        "author": "liurongjie",
+        "date": "2026-07-13 11:56:21",
+        "message": "feat: 第三方 Plex 客户端补全设备信息"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607131405",
     "items": [
       {
@@ -185,35 +208,6 @@
         "author": "xylplm",
         "date": "2026-07-09 01:01:53",
         "message": "fix 🐛: 体检评分坍缩为0，改为单项健康分归一化平均计算"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607090004",
-    "items": [
-      {
-        "commit": "f4ef17cd2cd406f8182edc69519af20ce67108d7",
-        "author": "liurongjie",
-        "date": "2026-07-08 23:57:10",
-        "message": "feat(logger): add task trace context for plugins and media refresh"
-      },
-      {
-        "commit": "6db17031a8880511391400f43aa6199c1ebf00f2",
-        "author": "liurongjie",
-        "date": "2026-07-08 22:57:16",
-        "message": "feat: align cd2 path mapping config"
-      },
-      {
-        "commit": "0f72aff0ce713363a6a3a2fad4a1d3305870ac85",
-        "author": "liurongjie",
-        "date": "2026-07-08 20:37:26",
-        "message": "refactor(mediaserver): 优化 Plex 媒体库刷新路径匹配逻辑"
-      },
-      {
-        "commit": "622dc11cda2f5ec08e63899fed52d12621a4f352",
-        "author": "liurongjie",
-        "date": "2026-07-08 20:04:19",
-        "message": "refactor(plugin): 优化插件配置验证逻辑"
       }
     ]
   }
