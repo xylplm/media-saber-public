@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141322",
+    "items": [
+      {
+        "commit": "6d5051fd493b5898bb3a4c5901d1327716d23d08",
+        "author": "liurongjie",
+        "date": "2026-07-14 13:21:30",
+        "message": "feat(webhook): 扩展媒体服务器webhook功能支持更多事件类型"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141238",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-07-10 19:03:44",
         "message": "feat(ai): 新增场景化 AI 接口，Prompt 与协议兼容性统一后端处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607110030",
-    "items": [
-      {
-        "commit": "4a1550f40db0b319f6094c3acd4465250c0476d8",
-        "author": "liurongjie",
-        "date": "2026-07-11 00:19:27",
-        "message": "chore(deps): 更新项目依赖包版本"
       }
     ]
   }
