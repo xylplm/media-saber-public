@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141238",
+    "items": [
+      {
+        "commit": "9244c32866834e8ca5c8f27dbb269577b2d63d78",
+        "author": "liurongjie",
+        "date": "2026-07-14 12:37:34",
+        "message": "feat(play-stats): 添加媒体服务器信息到播放历史记录"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141122",
     "items": [
       {
@@ -125,83 +136,6 @@
         "author": "liurongjie",
         "date": "2026-07-11 00:19:27",
         "message": "chore(deps): 更新项目依赖包版本"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607101556",
-    "items": [
-      {
-        "commit": "c74b5345c3c4bdcd759fc661eaa5f24cee52dbf3",
-        "author": "xylplm",
-        "date": "2026-07-10 15:21:32",
-        "message": "fix: 重新生成 go.sum (go mod tidy)"
-      },
-      {
-        "commit": "387b4135cb869b839a8a5a240a5d1ad23341ebe1",
-        "author": "xylplm",
-        "date": "2026-07-10 15:13:44",
-        "message": "fix: 移除已删除的 hdhive.api import"
-      },
-      {
-        "commit": "dfe66c842b40dfaf33b9f89dedf7c13a93687a85",
-        "author": "liurongjie",
-        "date": "2026-07-09 23:10:31",
-        "message": "fix: 保留 Plex STRM 基础元数据增强"
-      },
-      {
-        "commit": "094e816848366e1cc7811eb9f76aae486ebfcd53",
-        "author": "liurongjie",
-        "date": "2026-07-09 20:30:27",
-        "message": "refactor(mediaproxy): 移除 Plex STRM 深度探测功能"
-      },
-      {
-        "commit": "3bd91a97bba73840827b0c4f62a3abdc4189823f",
-        "author": "xylplm",
-        "date": "2026-07-09 01:01:53",
-        "message": "fix 🐛: 体检评分坍缩为0，改为单项健康分归一化平均计算"
-      },
-      {
-        "commit": "5331d95fe33455d48f99fd7c6626157e32130fb4",
-        "author": "Jolc",
-        "date": "2026-06-26 20:24:17",
-        "message": "feat(agent): follow-up 追问建议按用户订阅画像个性化"
-      },
-      {
-        "commit": "787ba7e47bfb43e0e49a0cf3ce5de92d097777d2",
-        "author": "Jolc",
-        "date": "2026-06-26 19:07:25",
-        "message": "refactor agent follow-up suggestions"
-      },
-      {
-        "commit": "2bbc5559ea59bca1773917289a987f880624b91a",
-        "author": "Jolc",
-        "date": "2026-06-25 16:02:39",
-        "message": "Revert \"feat(agent): add search ranking and regression scenarios\""
-      },
-      {
-        "commit": "eec388d381c97d4f8db0537e4379545f031c892d",
-        "author": "Jolc",
-        "date": "2026-06-25 15:49:39",
-        "message": "feat(agent): add search ranking and regression scenarios"
-      },
-      {
-        "commit": "aac276db5fc5eba944cf15828e62f43815180a17",
-        "author": "Jolc",
-        "date": "2026-06-25 15:37:04",
-        "message": "fix(agent): keep audit summaries valid utf8"
-      },
-      {
-        "commit": "dec0c5f123e62770b727a3476135dc659425ff14",
-        "author": "Jolc",
-        "date": "2026-06-25 15:34:45",
-        "message": "feat(agent): improve search agent contracts"
-      },
-      {
-        "commit": "930ef15ca5ae7a235d8e2ae3133db4d001748e1d",
-        "author": "Jolc",
-        "date": "2026-06-25 10:53:15",
-        "message": "feat：ms agent"
       }
     ]
   }
