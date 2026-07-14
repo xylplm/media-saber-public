@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607142232",
+    "items": [
+      {
+        "commit": "1d87812d35f7e0ec83ba29a1a6d2f7dbb99be616",
+        "author": "liurongjie",
+        "date": "2026-07-14 22:30:11",
+        "message": "feat(types): 添加 Plex 评分字段兼容性支持"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141837",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "xylplm",
         "date": "2026-07-13 01:24:18",
         "message": "fix ��: Webhook 内外网地址分别返回不再合并"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607122352",
-    "items": [
-      {
-        "commit": "ed4934ac7b9d07270dac365e6c18e51c0a65e781",
-        "author": "liurongjie",
-        "date": "2026-07-12 23:50:04",
-        "message": "feat: 云端文件支持按 path 手动刷新媒体库"
-      },
-      {
-        "commit": "4a461442529ddf7801d61794f9eb813db8e5b8c7",
-        "author": "liurongjie",
-        "date": "2026-07-12 23:25:37",
-        "message": "fix: 从 Plex sessions 补全观影报告播放方式"
       }
     ]
   }
