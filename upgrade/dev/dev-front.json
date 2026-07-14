@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141744",
+    "items": [
+      {
+        "commit": "2f6461fc7d9c4b39618b630e66e4f58a7a61a523",
+        "author": "liurongjie",
+        "date": "2026-07-14 17:34:32",
+        "message": "feat(media-server): 优化播放统计页面设备信息展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141447",
     "items": [
       {
@@ -149,29 +160,6 @@
         "author": "xylplm",
         "date": "2026-07-10 19:04:43",
         "message": "feat(ai): 新增极简 SSE service，替换旧的 OpenAI 协议直连 service"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607120108",
-    "items": [
-      {
-        "commit": "56d9d7e208a991c6c89df68e61424bc2abca168a",
-        "author": "liurongjie",
-        "date": "2026-07-12 01:04:51",
-        "message": "feat(settings): add play stats toggle to media settings"
-      },
-      {
-        "commit": "a33ade17f23fe72765920e71755f13cc3d6da836",
-        "author": "liurongjie",
-        "date": "2026-07-10 23:18:59",
-        "message": "fix(rss): 优化订阅卡片背景图加载与错误处理"
-      },
-      {
-        "commit": "2fbf6d54a232535854555c6ccf34a36aa99f85ae",
-        "author": "liurongjie",
-        "date": "2026-07-10 23:07:15",
-        "message": "refactor(media-server): 优化媒体库分类卡片样式和云端资源搜索功能"
       }
     ]
   }
