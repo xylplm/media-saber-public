@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141122",
+    "items": [
+      {
+        "commit": "e6f9348db57d77f82ad7afa910d940f98c85ceec",
+        "author": "liurongjie",
+        "date": "2026-07-14 10:37:39",
+        "message": "refactor(play_history): 优化播放记录服务并发控制和去重机制"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607131827",
     "items": [
       {
@@ -191,23 +202,6 @@
         "author": "Jolc",
         "date": "2026-06-25 10:53:15",
         "message": "feat：ms agent"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607091901",
-    "items": [
-      {
-        "commit": "ef94e44e1c07ad4064253ebac177d5de38940459",
-        "author": "liurongjie",
-        "date": "2026-07-09 18:31:20",
-        "message": "fix(mediaproxy): 修复 Plex STRM 探测和解析功能"
-      },
-      {
-        "commit": "3bd91a97bba73840827b0c4f62a3abdc4189823f",
-        "author": "xylplm",
-        "date": "2026-07-09 01:01:53",
-        "message": "fix 🐛: 体检评分坍缩为0，改为单项健康分归一化平均计算"
       }
     ]
   }
