@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141447",
+    "items": [
+      {
+        "commit": "38fe38ade173b2f18a403e5b511a1fdc2da4722e",
+        "author": "liurongjie",
+        "date": "2026-07-14 13:54:32",
+        "message": "fix(table): 修复表格分页和数据加载问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141322",
     "items": [
       {
@@ -161,35 +172,6 @@
         "author": "liurongjie",
         "date": "2026-07-10 23:07:15",
         "message": "refactor(media-server): 优化媒体库分类卡片样式和云端资源搜索功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607120049",
-    "items": [
-      {
-        "commit": "083596b6760bbd0ee4ba3cfafe9d8414cca15290",
-        "author": "xylplm",
-        "date": "2026-07-10 19:05:55",
-        "message": "feat(cron): Cron AI 生成改用后端场景接口，弹窗支持响应式"
-      },
-      {
-        "commit": "2da5a59c786d2a53e8ec154e16455d54990d31ec",
-        "author": "xylplm",
-        "date": "2026-07-10 19:05:33",
-        "message": "feat(recog-words): 识别词 AI 生成改为举例子模式，向导式交互"
-      },
-      {
-        "commit": "f8dd8b87c7aaa6ca4b72af87994fb14a31e23462",
-        "author": "xylplm",
-        "date": "2026-07-10 19:05:03",
-        "message": "feat(ai): AI 诊断弹窗改用后端场景接口，升级动效与响应式布局"
-      },
-      {
-        "commit": "911e754fb93a8a23be0fc4d9cbbfeb21a1f1ddb1",
-        "author": "xylplm",
-        "date": "2026-07-10 19:04:43",
-        "message": "feat(ai): 新增极简 SSE service，替换旧的 OpenAI 协议直连 service"
       }
     ]
   }

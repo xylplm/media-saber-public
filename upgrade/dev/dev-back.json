@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141447",
+    "items": [
+      {
+        "commit": "b6bb5a6b7420f004d37617edb0b0f338f80ecdf8",
+        "author": "liurongjie",
+        "date": "2026-07-14 14:46:36",
+        "message": "feat(play-history): 添加Plex设备信息缓存机制优化第三方客户端设备识别"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141322",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-07-11 00:19:27",
         "message": "chore(deps): 更新项目依赖包版本"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607120049",
-    "items": [
-      {
-        "commit": "987138168d8ea7db4691c472d524199a731bfe1a",
-        "author": "xylplm",
-        "date": "2026-07-10 19:03:44",
-        "message": "feat(ai): 新增场景化 AI 接口，Prompt 与协议兼容性统一后端处理"
       }
     ]
   }
