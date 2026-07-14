@@ -20,7 +20,7 @@ on:
       ref:
         description: "扩展仓库要构建的分支 / tag / commit（默认 WXT 多浏览器分支）"
         required: false
-        default: "feat/wxt-migration"
+        default: "master"
 
 permissions:
   contents: write
