@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141837",
+    "items": [
+      {
+        "commit": "ed224dccd5521d23978b309b75ce73c15f75a93d",
+        "author": "liurongjie",
+        "date": "2026-07-14 18:03:39",
+        "message": "refactor(types): 更新评分字段注释以避免反序列化失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141744",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "liurongjie",
         "date": "2026-07-12 23:25:37",
         "message": "fix: 从 Plex sessions 补全观影报告播放方式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607121955",
-    "items": [
-      {
-        "commit": "0d2b3eb7049022e38b1e74b490cbc485a1393f77",
-        "author": "xylplm",
-        "date": "2026-07-12 19:41:41",
-        "message": "﻿feat: 媒体服务专属 Webhook 与消息推送控制"
-      },
-      {
-        "commit": "987138168d8ea7db4691c472d524199a731bfe1a",
-        "author": "xylplm",
-        "date": "2026-07-10 19:03:44",
-        "message": "feat(ai): 新增场景化 AI 接口，Prompt 与协议兼容性统一后端处理"
       }
     ]
   }
