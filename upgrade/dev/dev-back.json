@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607142248",
+    "items": [
+      {
+        "commit": "c4c14077fb6a7482614bb0c55e52fafd79572331",
+        "author": "liurongjie",
+        "date": "2026-07-14 22:48:00",
+        "message": "feat(types): 优化 PlexFlexRating 的 JSON 序列化和反序列化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607142232",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-07-13 13:42:03",
         "message": "refactor: 统一 Webhook 处理架构，迁移至 Service 层"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607130128",
-    "items": [
-      {
-        "commit": "3c93f01f57a79ad6254d6aec6b646ae0ffd12e20",
-        "author": "xylplm",
-        "date": "2026-07-13 01:24:18",
-        "message": "fix ��: Webhook 内外网地址分别返回不再合并"
       }
     ]
   }
