@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607141255",
+    "items": [
+      {
+        "commit": "8996a5f080ea09fb180fa20a5bf135714d5568b3",
+        "author": "liurongjie",
+        "date": "2026-07-14 12:53:46",
+        "message": "feat(media-server): 添加播放统计中的服务器信息显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607131458",
     "items": [
       {
@@ -425,53 +436,6 @@
         "author": "xylplm",
         "date": "2026-07-08 22:29:36",
         "message": "feat ✨: 优化消息通知渠道卡片界面"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607101556",
-    "items": [
-      {
-        "commit": "b6362dc1578827508ab1e5ec6c07d0cb325b68af",
-        "author": "liurongjie",
-        "date": "2026-07-09 23:12:06",
-        "message": "fix: 移除 Plex STRM 探测任务标签"
-      },
-      {
-        "commit": "6f35c3932501a8396c77825aa2e6affc0cd53b77",
-        "author": "xylplm",
-        "date": "2026-07-09 22:38:41",
-        "message": "fix 🐛: 修复目录拖拽排序时左上角闪烁"
-      },
-      {
-        "commit": "fcfd0371bf51908c7fbcad7e708811a348fe8fab",
-        "author": "xylplm",
-        "date": "2026-07-09 22:20:34",
-        "message": "refactor 🔁: 目录管理和目录分类卡片操作按钮统一移至右下角"
-      },
-      {
-        "commit": "7ea19811b798777ba1141166711a9bd9f6931cbd",
-        "author": "xylplm",
-        "date": "2026-07-09 21:23:49",
-        "message": "fix 🐛: 优化目录管理卡片排版与样式"
-      },
-      {
-        "commit": "55ad87a78f0be5c6b3a07512796a838d55cb82ba",
-        "author": "xylplm",
-        "date": "2026-07-09 20:03:23",
-        "message": "fix 🐛: 目录同步review修复手机端体验"
-      },
-      {
-        "commit": "031707f2a439ae20075d261e40daa539c3fed2fa",
-        "author": "xylplm",
-        "date": "2026-07-09 18:59:07",
-        "message": "refactor 🔁: 目录同步从手风琴重构为卡片网格+可展开详情"
-      },
-      {
-        "commit": "89f8149adab7cb7b4065b9f4acbb0bcd01bc1196",
-        "author": "xylplm",
-        "date": "2026-07-09 18:17:05",
-        "message": "refactor 🔁: 目录管理重构为按标签分组手风琴+卡片网格"
       }
     ]
   }
