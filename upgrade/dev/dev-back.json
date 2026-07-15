@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202607160105",
+    "items": [
+      {
+        "commit": "fd7caf9b249423be53f7a20a0b74ba990a092c27",
+        "author": "xylplm",
+        "date": "2026-07-16 00:44:33",
+        "message": "fix 🐛: 修复站点最近活动时间被解析为未来的问题"
+      },
+      {
+        "commit": "33cb15280c2e0392bff7627c757b652bffaa139e",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:35:35",
+        "message": "style(plugin): 注释掉类型显示相关代码"
+      },
+      {
+        "commit": "ac5863d9ed5b71570ff72c98e83c0649b52eadc9",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:34:41",
+        "message": "feat(playStats): 加固无 Webhook 补采并补充 Plex 媒体库通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607152319",
     "items": [
       {
@@ -137,23 +160,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 18:03:39",
         "message": "refactor(types): 更新评分字段注释以避免反序列化失败"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141744",
-    "items": [
-      {
-        "commit": "64fa39654257be7c884eb7d7bf20fd2745ba43fd",
-        "author": "liurongjie",
-        "date": "2026-07-14 17:28:28",
-        "message": "refactor(mediaproxy): 优化 Plex 客户端名称解析逻辑"
-      },
-      {
-        "commit": "acd073cba574fb3f505c00212b222504df093fad",
-        "author": "liurongjie",
-        "date": "2026-07-14 16:06:44",
-        "message": "feat(playback): 增强 Plex 播放历史记录的设备与播放方式追踪功能"
       }
     ]
   }
