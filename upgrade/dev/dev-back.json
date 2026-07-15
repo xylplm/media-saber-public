@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607151833",
+    "items": [
+      {
+        "commit": "08704dff53b59c1c5544ce86db6f6e73f20747fb",
+        "author": "liurongjie",
+        "date": "2026-07-15 17:42:26",
+        "message": "feat(playStats): 添加媒体服务器筛选功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607151251",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 13:21:30",
         "message": "feat(webhook): 扩展媒体服务器webhook功能支持更多事件类型"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141238",
-    "items": [
-      {
-        "commit": "9244c32866834e8ca5c8f27dbb269577b2d63d78",
-        "author": "liurongjie",
-        "date": "2026-07-14 12:37:34",
-        "message": "feat(play-stats): 添加媒体服务器信息到播放历史记录"
       }
     ]
   }

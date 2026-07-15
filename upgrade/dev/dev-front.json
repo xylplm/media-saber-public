@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607151833",
+    "items": [
+      {
+        "commit": "824636cde4ca5b953b26661d41b21bc02a71c252",
+        "author": "liurongjie",
+        "date": "2026-07-15 17:42:08",
+        "message": "feat(media-server): 优化播放统计页面设备信息展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607141744",
     "items": [
       {
@@ -119,47 +130,6 @@
         "author": "liurongjie",
         "date": "2026-07-12 23:19:14",
         "message": "fix(setting-about): 修正自动化追剧图标显示问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607121955",
-    "items": [
-      {
-        "commit": "58fe8a7cce7b585f3272c93ddad2c4771e37119d",
-        "author": "xylplm",
-        "date": "2026-07-12 19:48:47",
-        "message": "﻿fix: 订阅编辑弹窗底部操作区保持单行"
-      },
-      {
-        "commit": "f7858862e5f56675b4905b442e206aa23fdc1b1d",
-        "author": "xylplm",
-        "date": "2026-07-12 19:41:58",
-        "message": "﻿feat: 媒体服务 Webhook 消息配置与地址弹窗"
-      },
-      {
-        "commit": "083596b6760bbd0ee4ba3cfafe9d8414cca15290",
-        "author": "xylplm",
-        "date": "2026-07-10 19:05:55",
-        "message": "feat(cron): Cron AI 生成改用后端场景接口，弹窗支持响应式"
-      },
-      {
-        "commit": "2da5a59c786d2a53e8ec154e16455d54990d31ec",
-        "author": "xylplm",
-        "date": "2026-07-10 19:05:33",
-        "message": "feat(recog-words): 识别词 AI 生成改为举例子模式，向导式交互"
-      },
-      {
-        "commit": "f8dd8b87c7aaa6ca4b72af87994fb14a31e23462",
-        "author": "xylplm",
-        "date": "2026-07-10 19:05:03",
-        "message": "feat(ai): AI 诊断弹窗改用后端场景接口，升级动效与响应式布局"
-      },
-      {
-        "commit": "911e754fb93a8a23be0fc4d9cbbfeb21a1f1ddb1",
-        "author": "xylplm",
-        "date": "2026-07-10 19:04:43",
-        "message": "feat(ai): 新增极简 SSE service，替换旧的 OpenAI 协议直连 service"
       }
     ]
   }
