@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607151251",
+    "items": [
+      {
+        "commit": "fb94890e4ec9ad8bf3ddc50c93fbdc295e807456",
+        "author": "liurongjie",
+        "date": "2026-07-15 12:38:59",
+        "message": "fix(plex): 解决 Plex 通知中的图像 URL 和用户名称处理问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607150019",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 12:37:34",
         "message": "feat(play-stats): 添加媒体服务器信息到播放历史记录"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141122",
-    "items": [
-      {
-        "commit": "e6f9348db57d77f82ad7afa910d940f98c85ceec",
-        "author": "liurongjie",
-        "date": "2026-07-14 10:37:39",
-        "message": "refactor(play_history): 优化播放记录服务并发控制和去重机制"
       }
     ]
   }
