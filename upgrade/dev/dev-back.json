@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202607152248",
+    "items": [
+      {
+        "commit": "33cb15280c2e0392bff7627c757b652bffaa139e",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:35:35",
+        "message": "style(plugin): 注释掉类型显示相关代码"
+      },
+      {
+        "commit": "ac5863d9ed5b71570ff72c98e83c0649b52eadc9",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:34:41",
+        "message": "feat(playStats): 加固无 Webhook 补采并补充 Plex 媒体库通知"
+      },
+      {
+        "commit": "6433ae6273bb7cc11af61475429dfcff7ade985a",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:52",
+        "message": "fix 🐛: 修复传输链路与配置提交相关问题"
+      },
+      {
+        "commit": "f9cfac06144226151dc16bc4c974e1de7b3b1ab4",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:47",
+        "message": "feat ✨: 接入字幕引擎与字幕中心全链路"
+      },
+      {
+        "commit": "4141e7330197e30eddebd11922feab7287edb300",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:41",
+        "message": "feat ✨: 媒体库同步重构为 upsert 并补齐流信息与原始路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607151833",
     "items": [
       {
@@ -107,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 14:46:36",
         "message": "feat(play-history): 添加Plex设备信息缓存机制优化第三方客户端设备识别"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141322",
-    "items": [
-      {
-        "commit": "6d5051fd493b5898bb3a4c5901d1327716d23d08",
-        "author": "liurongjie",
-        "date": "2026-07-14 13:21:30",
-        "message": "feat(webhook): 扩展媒体服务器webhook功能支持更多事件类型"
       }
     ]
   }

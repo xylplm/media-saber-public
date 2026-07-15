@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202607152248",
+    "items": [
+      {
+        "commit": "d24a75baf64d2407024350ffdedd2056fe7a9aca",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:47:43",
+        "message": "fix(charts): 优化播放统计图表的X轴标签显示"
+      },
+      {
+        "commit": "432640c89bbe80a10b55d2a5b9ebbbc5627b58b7",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:42:55",
+        "message": "feat(media-server): 观影报告表格拆分设备/应用并用溢出 Tooltip"
+      },
+      {
+        "commit": "a0f12e349e91dabb345feb7d87723d77790e5b5a",
+        "author": "liurongjie",
+        "date": "2026-07-15 22:34:41",
+        "message": "fix(media-server): 观影报告空态区分 Webhook 与定时补采引导"
+      },
+      {
+        "commit": "3b7e1f99cc2a05195573cfa7582c6494560d779b",
+        "author": "xylplm",
+        "date": "2026-07-15 22:10:09",
+        "message": "feat ✨: 字幕策略格式与来源优先级改为可视化拖拽排序"
+      },
+      {
+        "commit": "cbc379e5b7e87eedf4a14d523801e24cac35272d",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:11",
+        "message": "feat ✨: 完成字幕中心与媒体健康联动"
+      },
+      {
+        "commit": "64d4ed878e21a7b21cb3b041fff4ef4236d67fae",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:11",
+        "message": "fix 🐛: 补充媒体库同步原始路径字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607151959",
     "items": [
       {
@@ -101,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-07-13 11:15:52",
         "message": "feat(media-server): 优化播放统计页面图表工具提示显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607130128",
-    "items": [
-      {
-        "commit": "027865f37b50eb9ed36b0dc781d101c29835d3b9",
-        "author": "xylplm",
-        "date": "2026-07-13 01:24:18",
-        "message": "feat ✨: Webhook/日历提示改 cm-alert，接收消息 URL 弹窗可复制"
       }
     ]
   }
