@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607152319",
+    "items": [
+      {
+        "commit": "c36a0d616aacf55218577478989a746f57fa5f3b",
+        "author": "liurongjie",
+        "date": "2026-07-15 23:14:41",
+        "message": "refactor(media-server): 优化播放统计页面的设备应用显示逻辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607152248",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-07-13 14:16:29",
         "message": "feat(media-server): 添加观影统计页面设置提示功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607131405",
-    "items": [
-      {
-        "commit": "886bb0eeb138e2a93fdc29bf85243e55faae3ce4",
-        "author": "liurongjie",
-        "date": "2026-07-13 11:56:03",
-        "message": "feat(icons): 添加新的 Tabler 图标支持"
-      },
-      {
-        "commit": "af7ca8970249370d002010913e26913eddeb1c8a",
-        "author": "liurongjie",
-        "date": "2026-07-13 11:15:52",
-        "message": "feat(media-server): 优化播放统计页面图表工具提示显示"
       }
     ]
   }

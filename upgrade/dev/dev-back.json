@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202607152319",
+    "items": [
+      {
+        "commit": "6433ae6273bb7cc11af61475429dfcff7ade985a",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:52",
+        "message": "fix 🐛: 修复传输链路与配置提交相关问题"
+      },
+      {
+        "commit": "f9cfac06144226151dc16bc4c974e1de7b3b1ab4",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:47",
+        "message": "feat ✨: 接入字幕引擎与字幕中心全链路"
+      },
+      {
+        "commit": "4141e7330197e30eddebd11922feab7287edb300",
+        "author": "xylplm",
+        "date": "2026-07-15 21:52:41",
+        "message": "feat ✨: 媒体库同步重构为 upsert 并补齐流信息与原始路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607152248",
     "items": [
       {
@@ -131,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 16:06:44",
         "message": "feat(playback): 增强 Plex 播放历史记录的设备与播放方式追踪功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141447",
-    "items": [
-      {
-        "commit": "b6bb5a6b7420f004d37617edb0b0f338f80ecdf8",
-        "author": "liurongjie",
-        "date": "2026-07-14 14:46:36",
-        "message": "feat(play-history): 添加Plex设备信息缓存机制优化第三方客户端设备识别"
       }
     ]
   }
