@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607161629",
+    "items": [
+      {
+        "commit": "13d200af9093e7839d759d6e000234883a03fe45",
+        "author": "xylplm",
+        "date": "2026-07-16 16:23:33",
+        "message": "feat ✨: 字幕任务与巡检批次支持历史清理删除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161323",
     "items": [
       {
@@ -167,23 +178,6 @@
         "author": "liurongjie",
         "date": "2026-07-15 00:17:33",
         "message": "fix(plex): 简化 Webhook 通知跳转，去掉 Resources 覆盖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607142310",
-    "items": [
-      {
-        "commit": "6e0647ac656dd48b4601ead7456400e48d6eb07f",
-        "author": "liurongjie",
-        "date": "2026-07-14 23:06:41",
-        "message": "fix(plex): 修复 Plex Webhook 中 PlayHost 配置和播放链接生成问题"
-      },
-      {
-        "commit": "9b9159afb8d9654990a0c62b9d7ee42e45f8ba98",
-        "author": "liurongjie",
-        "date": "2026-07-14 23:02:06",
-        "message": "refactor(types): 重构 PlexFlexRating 解析逻辑以支持多种数据格式"
       }
     ]
   }

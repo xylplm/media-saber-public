@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607161629",
+    "items": [
+      {
+        "commit": "48d8a08e5f71b078b2d4c60a5539561b049f4b93",
+        "author": "xylplm",
+        "date": "2026-07-16 16:23:53",
+        "message": "feat ✨: 字幕中心支持任务与批次历史清理交互"
+      },
+      {
+        "commit": "5e14786d9fdc746c77ea6334a07d404d7858b946",
+        "author": "xylplm",
+        "date": "2026-07-16 14:32:12",
+        "message": "feat ✨: 前端统一接入动态空状态与业务场景插画"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161323",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 13:54:32",
         "message": "fix(table): 修复表格分页和数据加载问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141322",
-    "items": [
-      {
-        "commit": "064854d15d6233d09297bd9105af95365502dae5",
-        "author": "liurongjie",
-        "date": "2026-07-14 13:18:38",
-        "message": "fix(media-server): 修复媒体服务器设置编辑时的竞态条件问题"
       }
     ]
   }
