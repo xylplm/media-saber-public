@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607161323",
+    "items": [
+      {
+        "commit": "374fd1089db56a7c5a2f39c3f61f283399e390bc",
+        "author": "xylplm",
+        "date": "2026-07-16 13:22:21",
+        "message": "fix 🐛: 字幕来源编辑时正确回填密钥与 Cookie"
+      },
+      {
+        "commit": "38330a559991f9c1bc4da057b3a2ce3b3803bf00",
+        "author": "xylplm",
+        "date": "2026-07-16 13:19:30",
+        "message": "fix 🐛: 优化 OpenSubtitles 配置弹窗与来源卡片布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161205",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 13:18:38",
         "message": "fix(media-server): 修复媒体服务器设置编辑时的竞态条件问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141255",
-    "items": [
-      {
-        "commit": "8996a5f080ea09fb180fa20a5bf135714d5568b3",
-        "author": "liurongjie",
-        "date": "2026-07-14 12:53:46",
-        "message": "feat(media-server): 添加播放统计中的服务器信息显示"
       }
     ]
   }

@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607161323",
+    "items": [
+      {
+        "commit": "c781625ca2faa7e0703034b20413d9eec61716ad",
+        "author": "xylplm",
+        "date": "2026-07-16 13:22:09",
+        "message": "fix 🐛: 字幕来源编辑回显 API Key 与 Cookie"
+      },
+      {
+        "commit": "532e3a750baeda94b3635e3dc245706eaae8ddf9",
+        "author": "xylplm",
+        "date": "2026-07-16 13:19:25",
+        "message": "fix 🐛: 修复 OpenSubtitles 登录 UA 并回显账号密码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161205",
     "items": [
       {
@@ -167,17 +184,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 23:02:06",
         "message": "refactor(types): 重构 PlexFlexRating 解析逻辑以支持多种数据格式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607142248",
-    "items": [
-      {
-        "commit": "c4c14077fb6a7482614bb0c55e52fafd79572331",
-        "author": "liurongjie",
-        "date": "2026-07-14 22:48:00",
-        "message": "feat(types): 优化 PlexFlexRating 的 JSON 序列化和反序列化"
       }
     ]
   }
