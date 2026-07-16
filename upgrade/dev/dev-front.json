@@ -1,5 +1,124 @@
 [
   {
+    "version": "DEV_202607170007",
+    "items": [
+      {
+        "commit": "6b73e2f59ff6fa852c7fab60f36ee07e084fbe70",
+        "author": "xylplm",
+        "date": "2026-07-17 00:00:13",
+        "message": "chore 🔧: 前端统一代码格式化"
+      },
+      {
+        "commit": "c573aba9175e2f26422a4be6ff408c02e63e44c6",
+        "author": "xylplm",
+        "date": "2026-07-16 23:58:24",
+        "message": "fix 🐛: 修复前端 lint 报错与字幕中心定时器/finally 安全问题"
+      },
+      {
+        "commit": "d575c71ac2d217fb9b0bb34ddce274358c975558",
+        "author": "xylplm",
+        "date": "2026-07-16 23:53:39",
+        "message": "feat ✨: 字幕中心繁转简策略与批量条视口悬浮修复"
+      },
+      {
+        "commit": "e513b55abefecfdbb5e3e52f8f0c318649f97a21",
+        "author": "xylplm",
+        "date": "2026-07-16 22:52:06",
+        "message": "feat ✨: 字幕任务 skipped 状态按原因展示可读文案"
+      },
+      {
+        "commit": "4cbf8eea0defc1d9a987883a2753e5380531d6c0",
+        "author": "xylplm",
+        "date": "2026-07-16 22:47:36",
+        "message": "feat ✨: 字幕任务详情强化进行中态避免空候选误导"
+      },
+      {
+        "commit": "b748f42d4335f3b60a100715ab422fbff8d4faad",
+        "author": "xylplm",
+        "date": "2026-07-16 22:41:15",
+        "message": "fix 🐛: 字幕任务详情弹窗进行中状态自动刷新"
+      },
+      {
+        "commit": "b68a574253b0cd6f09336dcead51ec35e703c5ca",
+        "author": "xylplm",
+        "date": "2026-07-16 22:32:25",
+        "message": "chore 🔧: 移除文件列表未使用的字幕弹窗 imports"
+      },
+      {
+        "commit": "ff4ead77520c55dd83685298f3e859e5207af263",
+        "author": "xylplm",
+        "date": "2026-07-16 22:30:07",
+        "message": "fix 🐛: 字幕中心深链批次在列表外也能打开清单"
+      },
+      {
+        "commit": "b336f17c03e7fed6b5c43a70372769d3aa585818",
+        "author": "xylplm",
+        "date": "2026-07-16 22:23:57",
+        "message": "fix 🐛: 优化目录巡检跳转时序与批次展示"
+      },
+      {
+        "commit": "0e5f8754b3824613389d93174ff71cae5796c8e7",
+        "author": "xylplm",
+        "date": "2026-07-16 22:17:20",
+        "message": "feat ✨: 文件管理支持目录字幕巡检并可选跳转字幕中心"
+      },
+      {
+        "commit": "36305d5f9e0d1276ac758a2b0e93bad65a9084bc",
+        "author": "xylplm",
+        "date": "2026-07-16 22:05:06",
+        "message": "fix 🐛: 默认策略去掉启停开关并固定始终生效"
+      },
+      {
+        "commit": "46e6323079078a674b04f68eea37e8279903ed67",
+        "author": "xylplm",
+        "date": "2026-07-16 21:58:04",
+        "message": "fix 🐛: 优化文件字幕检查弹窗体验与失败态"
+      },
+      {
+        "commit": "eb1230cb29d860cdaa1806d914e0f5b6ece60957",
+        "author": "xylplm",
+        "date": "2026-07-16 21:43:24",
+        "message": "feat ✨: 文件管理增加字幕检查入口并复用任务详情"
+      },
+      {
+        "commit": "18693f19093c820e09008905f56a832a18968bb3",
+        "author": "xylplm",
+        "date": "2026-07-16 21:19:30",
+        "message": "feat ✨: 设置页置顶默认策略卡片并支持覆盖策略"
+      },
+      {
+        "commit": "25125b90afb8bac8505e93051968262917f1a68d",
+        "author": "xylplm",
+        "date": "2026-07-16 20:43:37",
+        "message": "feat ✨: 任务列表与批次清单展示本地字幕识别"
+      },
+      {
+        "commit": "20f1c3733ebca4d9f60a3c28d330deed7cc13482",
+        "author": "xylplm",
+        "date": "2026-07-16 20:39:04",
+        "message": "feat ✨: 内封已满足时澄清手动可选外挂意图"
+      },
+      {
+        "commit": "877bd9f78c3522c279b6cb41a1506f051f2c9ce0",
+        "author": "xylplm",
+        "date": "2026-07-16 20:30:53",
+        "message": "feat ✨: 字幕应用成功后即时刷新本地识别面板"
+      },
+      {
+        "commit": "828cea20c161dbc180c83c864baed3554396e2d7",
+        "author": "xylplm",
+        "date": "2026-07-16 20:23:34",
+        "message": "feat ✨: 字幕任务详情展示本地侧车识别面板"
+      },
+      {
+        "commit": "7c061158d64b3e163df58755501430f16bfb04a0",
+        "author": "xylplm",
+        "date": "2026-07-16 20:16:05",
+        "message": "fix 🐛: 字幕任务支持手动替换侧车并修正 STRM 文案"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161629",
     "items": [
       {
@@ -143,17 +262,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 17:34:32",
         "message": "feat(media-server): 优化播放统计页面设备信息展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141447",
-    "items": [
-      {
-        "commit": "38fe38ade173b2f18a403e5b511a1fdc2da4722e",
-        "author": "liurongjie",
-        "date": "2026-07-14 13:54:32",
-        "message": "fix(table): 修复表格分页和数据加载问题"
       }
     ]
   }

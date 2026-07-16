@@ -1,5 +1,94 @@
 [
   {
+    "version": "DEV_202607170007",
+    "items": [
+      {
+        "commit": "03f832e26b43c8453191e4d13658ff80830f38f6",
+        "author": "xylplm",
+        "date": "2026-07-16 23:53:32",
+        "message": "feat ✨: 字幕策略支持繁体转简体写盘与评分准入"
+      },
+      {
+        "commit": "cf8df556a57a8a8bd7343ec057e829cea80c35f3",
+        "author": "xylplm",
+        "date": "2026-07-16 22:34:18",
+        "message": "fix 🐛: 默认策略启用修正写入 is_enabled 列"
+      },
+      {
+        "commit": "55b166eb5790853f7f58b09d0ac447f885f38e93",
+        "author": "xylplm",
+        "date": "2026-07-16 22:23:56",
+        "message": "fix 🐛: 修正目录字幕批次分页偏移并补边界单测"
+      },
+      {
+        "commit": "225cc38246bc24b52f72dbe83e9aee5e3a3e2fbe",
+        "author": "xylplm",
+        "date": "2026-07-16 22:17:22",
+        "message": "feat ✨: 字幕中心支持本地目录批量巡检批次"
+      },
+      {
+        "commit": "67f8c0ec08229a21bf35d55dea2bd59bcb7c85ea",
+        "author": "xylplm",
+        "date": "2026-07-16 22:05:05",
+        "message": "fix 🐛: 默认字幕策略始终启用并作为全局兜底"
+      },
+      {
+        "commit": "3842fdc7aa7f5b15fb52372e8f01527f3d2e3a9d",
+        "author": "xylplm",
+        "date": "2026-07-16 21:58:03",
+        "message": "fix 🐛: 加固本地路径字幕任务边界与幂等键"
+      },
+      {
+        "commit": "1a610a60a055f7f4d0131041c926f30fdb2d11dd",
+        "author": "xylplm",
+        "date": "2026-07-16 21:43:23",
+        "message": "feat ✨: 字幕中心支持本地文件路径检查与搜索任务"
+      },
+      {
+        "commit": "71d01db0e65cf626380abe70b2c2a55b6df4ee22",
+        "author": "xylplm",
+        "date": "2026-07-16 21:19:29",
+        "message": "feat ✨: 字幕中心支持全局默认策略并优先库覆盖"
+      },
+      {
+        "commit": "5413d137d0bcc7a90d79691f26352aba0b977329",
+        "author": "xylplm",
+        "date": "2026-07-16 20:43:36",
+        "message": "feat ✨: 字幕任务列表与批次清单透出本地识别"
+      },
+      {
+        "commit": "aba4d8c395e2ff367da7b46eebf0bf468bf37a46",
+        "author": "xylplm",
+        "date": "2026-07-16 20:39:05",
+        "message": "fix 🐛: 已有首选时手动搜索文案区分内封与外挂"
+      },
+      {
+        "commit": "cf4bd103e43a530e33482a817cbde7de71c24cc0",
+        "author": "xylplm",
+        "date": "2026-07-16 20:30:52",
+        "message": "fix 🐛: 字幕写入后立即固化最新侧车识别结果"
+      },
+      {
+        "commit": "2b2426c3b7ac5d861f15667eb0bb30b7b4b52a76",
+        "author": "xylplm",
+        "date": "2026-07-16 20:23:33",
+        "message": "feat ✨: 字幕任务详情返回本地侧车识别摘要"
+      },
+      {
+        "commit": "f301a202e26ea3587276a677107878bba6532e1c",
+        "author": "xylplm",
+        "date": "2026-07-16 20:16:04",
+        "message": "fix 🐛: 字幕中心支持 STRM 同目录侧车与手动替换"
+      },
+      {
+        "commit": "4bd9af4231731d1334aef563e1917e461fea9736",
+        "author": "xylplm",
+        "date": "2026-07-16 17:08:05",
+        "message": "feat ✨: 极空间同步阶段限流填充 MediaStreams"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161629",
     "items": [
       {
@@ -167,17 +256,6 @@
         "author": "liurongjie",
         "date": "2026-07-15 12:38:59",
         "message": "fix(plex): 解决 Plex 通知中的图像 URL 和用户名称处理问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607150019",
-    "items": [
-      {
-        "commit": "1882009af501c6189aa3471321317b109f4e53c7",
-        "author": "liurongjie",
-        "date": "2026-07-15 00:17:33",
-        "message": "fix(plex): 简化 Webhook 通知跳转，去掉 Resources 覆盖"
       }
     ]
   }
