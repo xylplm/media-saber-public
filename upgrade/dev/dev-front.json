@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607161205",
+    "items": [
+      {
+        "commit": "53e9f4c8401dd0ad0c75bdd1852f77776f173dad",
+        "author": "xylplm",
+        "date": "2026-07-16 11:47:25",
+        "message": "fix 🐛: OpenSubtitles 配置仅保留账号密码并禁用自动填充"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607161054",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-07-14 12:53:46",
         "message": "feat(media-server): 添加播放统计中的服务器信息显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607131458",
-    "items": [
-      {
-        "commit": "f6829a36945eda0bf696f0bddbb607d72a3171fd",
-        "author": "liurongjie",
-        "date": "2026-07-13 14:57:33",
-        "message": "feat(media-server): 添加观影统计页面设置提示功能"
       }
     ]
   }
