@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607161054",
+    "items": [
+      {
+        "commit": "c4fcf28d80cd32180a72eaabd0ba3f3bb2a84bc2",
+        "author": "xylplm",
+        "date": "2026-07-16 10:48:57",
+        "message": "fix 🐛: 修复字幕中心教程按钮图标错位"
+      },
+      {
+        "commit": "01bda0b1eb60c5142548b7f663bea8b2d2ce1ef3",
+        "author": "xylplm",
+        "date": "2026-07-16 01:09:19",
+        "message": "fix 🐛: 修复字幕中心业务失败误报成功与来源配置布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607152319",
     "items": [
       {
@@ -124,17 +141,6 @@
         "commit": "f6829a36945eda0bf696f0bddbb607d72a3171fd",
         "author": "liurongjie",
         "date": "2026-07-13 14:57:33",
-        "message": "feat(media-server): 添加观影统计页面设置提示功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607131417",
-    "items": [
-      {
-        "commit": "2262a4bd7aca311478fd3873352f8e9efee537c1",
-        "author": "liurongjie",
-        "date": "2026-07-13 14:16:29",
         "message": "feat(media-server): 添加观影统计页面设置提示功能"
       }
     ]
