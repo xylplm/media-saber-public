@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607171522",
+    "items": [
+      {
+        "commit": "ba87af1fd82c8677d9ba51f5ad534f26e83fce1d",
+        "author": "xylplm",
+        "date": "2026-07-17 14:59:54",
+        "message": "fix 🐛: 手动应用字幕不再按策略语言拦截"
+      },
+      {
+        "commit": "ab4c10fd3c7c7a1f18b861eb9c86878af10d4fbd",
+        "author": "xylplm",
+        "date": "2026-07-17 11:33:31",
+        "message": "feat ✨: 路径异常总览下钻与巡检清单 focus 筛选"
+      },
+      {
+        "commit": "fb6607eb3511f4dd4cb5f2b2ac73409e40d66113",
+        "author": "xylplm",
+        "date": "2026-07-17 11:24:22",
+        "message": "feat ✨: 巡检清单透出媒体路径与路径不可读说明"
+      },
+      {
+        "commit": "a655f2e424dcd9627a77bc247d0884101c6a2db6",
+        "author": "xylplm",
+        "date": "2026-07-17 10:35:43",
+        "message": "fix 🐛: 总览 pathUnwritable 排除默认策略路径巡检快照"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607171011",
     "items": [
       {
@@ -251,17 +280,6 @@
         "author": "xylplm",
         "date": "2026-07-15 21:52:41",
         "message": "feat ✨: 媒体库同步重构为 upsert 并补齐流信息与原始路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607151833",
-    "items": [
-      {
-        "commit": "08704dff53b59c1c5544ce86db6f6e73f20747fb",
-        "author": "liurongjie",
-        "date": "2026-07-15 17:42:26",
-        "message": "feat(playStats): 添加媒体服务器筛选功能"
       }
     ]
   }

@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202607171522",
+    "items": [
+      {
+        "commit": "d31b537d3695e2b16b850e41a5e33586f4f669f3",
+        "author": "xylplm",
+        "date": "2026-07-17 15:14:36",
+        "message": "feat ✨: 手动应用字幕时对语言不匹配做强化确认"
+      },
+      {
+        "commit": "d115d7a3fa7efcf59fe003b0520e027b8c431178",
+        "author": "xylplm",
+        "date": "2026-07-17 14:51:28",
+        "message": "提交push"
+      },
+      {
+        "commit": "57562749dce6aa52a1b177e11f136dfc264d4b33",
+        "author": "xylplm",
+        "date": "2026-07-17 11:33:37",
+        "message": "feat ✨: 总览路径异常下钻与巡检清单路径焦点"
+      },
+      {
+        "commit": "cd01b07802e69b51624c98d7663b6f4acd328c96",
+        "author": "xylplm",
+        "date": "2026-07-17 11:24:27",
+        "message": "feat ✨: 巡检扫描清单路径不可读时展示媒体路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607171011",
     "items": [
       {
@@ -257,17 +286,6 @@
         "author": "liurongjie",
         "date": "2026-07-15 19:56:16",
         "message": "refactor(media-server): 重构播放统计页面配置引导逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607151833",
-    "items": [
-      {
-        "commit": "824636cde4ca5b953b26661d41b21bc02a71c252",
-        "author": "liurongjie",
-        "date": "2026-07-15 17:42:08",
-        "message": "feat(media-server): 优化播放统计页面设备信息展示"
       }
     ]
   }
