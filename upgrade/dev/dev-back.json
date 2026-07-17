@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607171011",
+    "items": [
+      {
+        "commit": "0a66b9419dbfed975c41ff6915250be668a04fdd",
+        "author": "xylplm",
+        "date": "2026-07-17 09:47:56",
+        "message": "feat ✨: 字幕自动补齐抑制与任务路径诊断"
+      },
+      {
+        "commit": "eab4d5cab109f7a74d1af227e0e8ae43386b90ca",
+        "author": "xylplm",
+        "date": "2026-07-17 00:46:41",
+        "message": "test ✅: 字幕 convert 写前链路补 service 级单测与空依赖防护"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607170007",
     "items": [
       {
@@ -245,17 +262,6 @@
         "author": "liurongjie",
         "date": "2026-07-15 17:42:26",
         "message": "feat(playStats): 添加媒体服务器筛选功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607151251",
-    "items": [
-      {
-        "commit": "fb94890e4ec9ad8bf3ddc50c93fbdc295e807456",
-        "author": "liurongjie",
-        "date": "2026-07-15 12:38:59",
-        "message": "fix(plex): 解决 Plex 通知中的图像 URL 和用户名称处理问题"
       }
     ]
   }

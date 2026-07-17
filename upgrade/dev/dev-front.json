@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607171011",
+    "items": [
+      {
+        "commit": "d622385821a39f59bc912d441c3c79560a70a9fd",
+        "author": "xylplm",
+        "date": "2026-07-17 09:48:18",
+        "message": "feat ✨: 字幕任务详情支持关闭自动补齐与路径诊断"
+      },
+      {
+        "commit": "0b2abd0ce5e68a9c5b6f5ec7f33599efc101b364",
+        "author": "xylplm",
+        "date": "2026-07-17 00:46:42",
+        "message": "fix 🐛: 秘术宝阁组件改 standalone 并修复 unit-test 模板编译"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607170007",
     "items": [
       {
@@ -250,17 +267,6 @@
         "commit": "824636cde4ca5b953b26661d41b21bc02a71c252",
         "author": "liurongjie",
         "date": "2026-07-15 17:42:08",
-        "message": "feat(media-server): 优化播放统计页面设备信息展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607141744",
-    "items": [
-      {
-        "commit": "2f6461fc7d9c4b39618b630e66e4f58a7a61a523",
-        "author": "liurongjie",
-        "date": "2026-07-14 17:34:32",
         "message": "feat(media-server): 优化播放统计页面设备信息展示"
       }
     ]
