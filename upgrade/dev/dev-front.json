@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607180008",
+    "items": [
+      {
+        "commit": "e79019f8a583e16aa8965d363bff6ee316737ee0",
+        "author": "xylplm",
+        "date": "2026-07-18 00:06:49",
+        "message": "feat ✨: 搜索任务失败态展示与空态文案对齐"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607172203",
     "items": [
       {
@@ -299,47 +310,6 @@
         "author": "liurongjie",
         "date": "2026-07-15 23:14:41",
         "message": "refactor(media-server): 优化播放统计页面的设备应用显示逻辑"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607152248",
-    "items": [
-      {
-        "commit": "d24a75baf64d2407024350ffdedd2056fe7a9aca",
-        "author": "liurongjie",
-        "date": "2026-07-15 22:47:43",
-        "message": "fix(charts): 优化播放统计图表的X轴标签显示"
-      },
-      {
-        "commit": "432640c89bbe80a10b55d2a5b9ebbbc5627b58b7",
-        "author": "liurongjie",
-        "date": "2026-07-15 22:42:55",
-        "message": "feat(media-server): 观影报告表格拆分设备/应用并用溢出 Tooltip"
-      },
-      {
-        "commit": "a0f12e349e91dabb345feb7d87723d77790e5b5a",
-        "author": "liurongjie",
-        "date": "2026-07-15 22:34:41",
-        "message": "fix(media-server): 观影报告空态区分 Webhook 与定时补采引导"
-      },
-      {
-        "commit": "3b7e1f99cc2a05195573cfa7582c6494560d779b",
-        "author": "xylplm",
-        "date": "2026-07-15 22:10:09",
-        "message": "feat ✨: 字幕策略格式与来源优先级改为可视化拖拽排序"
-      },
-      {
-        "commit": "cbc379e5b7e87eedf4a14d523801e24cac35272d",
-        "author": "xylplm",
-        "date": "2026-07-15 21:52:11",
-        "message": "feat ✨: 完成字幕中心与媒体健康联动"
-      },
-      {
-        "commit": "64d4ed878e21a7b21cb3b041fff4ef4236d67fae",
-        "author": "xylplm",
-        "date": "2026-07-15 21:52:11",
-        "message": "fix 🐛: 补充媒体库同步原始路径字段"
       }
     ]
   }
