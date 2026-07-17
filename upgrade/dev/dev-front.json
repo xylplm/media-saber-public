@@ -1,5 +1,70 @@
 [
   {
+    "version": "DEV_202607172203",
+    "items": [
+      {
+        "commit": "940f0995134c5966cf52597e3aa5f60fd272f76e",
+        "author": "xylplm",
+        "date": "2026-07-17 22:01:47",
+        "message": "refactor 🔁: 修仙秘籍去掉独立拨序手柄改整卡拖拽"
+      },
+      {
+        "commit": "fca35ffa238d778de7b3cc00a475edebfbaa1607",
+        "author": "xylplm",
+        "date": "2026-07-17 21:59:00",
+        "message": "feat ✨: 优化修仙秘籍与秘术宝阁卡片交互与视觉"
+      },
+      {
+        "commit": "10e2c52e237ea71f4a5b6426b3471af9f66de8a7",
+        "author": "xylplm",
+        "date": "2026-07-17 21:44:12",
+        "message": "refactor 🔁: 统一页头间距与媒体库同步数据视觉规范"
+      },
+      {
+        "commit": "66f2423afb68e4dd5a6ed37725c7d84f83442a8b",
+        "author": "xylplm",
+        "date": "2026-07-17 21:13:56",
+        "message": "feat ✨: 优化我的媒体库页交互与响应式工作台"
+      },
+      {
+        "commit": "d4952d73b9e6cd881439ea482450af63b7bc746b",
+        "author": "xylplm",
+        "date": "2026-07-17 21:06:01",
+        "message": "feat ✨: 新增同步数据工作台并承接媒体库同步能力"
+      },
+      {
+        "commit": "05881e1bcd4194e834602a57d8561c6c62210ece",
+        "author": "xylplm",
+        "date": "2026-07-17 18:43:16",
+        "message": "fix 🐛: 同步历史改用 cmInfiniteScroll 触底分页"
+      },
+      {
+        "commit": "a9309362d0f5923b6c9647a71163daaa39221407",
+        "author": "xylplm",
+        "date": "2026-07-17 17:49:58",
+        "message": "fix 🐛: 同步历史媒体数与触底分页并补返回刷新"
+      },
+      {
+        "commit": "cd805f4ffbde511627d475db7ef3dd69e216d09b",
+        "author": "xylplm",
+        "date": "2026-07-17 17:30:42",
+        "message": "feat ✨: 同步历史卡片信息精简与详情字段补全"
+      },
+      {
+        "commit": "328671304ee7a2507e9b11e5f9ab6d3c4af48191",
+        "author": "xylplm",
+        "date": "2026-07-17 16:59:45",
+        "message": "feat ✨: 同步历史卡片精简并将路径详情改为弹窗"
+      },
+      {
+        "commit": "3f8fa526026b8af8bccf67c4f1aea5068dd259fa",
+        "author": "xylplm",
+        "date": "2026-07-17 16:38:43",
+        "message": "feat ✨: 媒体同步历史改为响应式卡片工作台"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607171522",
     "items": [
       {
@@ -275,17 +340,6 @@
         "author": "xylplm",
         "date": "2026-07-15 21:52:11",
         "message": "fix 🐛: 补充媒体库同步原始路径字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607151959",
-    "items": [
-      {
-        "commit": "4ae5b35709a524cd729105364491fcce4bfcf9ad",
-        "author": "liurongjie",
-        "date": "2026-07-15 19:56:16",
-        "message": "refactor(media-server): 重构播放统计页面配置引导逻辑"
       }
     ]
   }
