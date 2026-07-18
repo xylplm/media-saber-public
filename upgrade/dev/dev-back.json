@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607181238",
+    "items": [
+      {
+        "commit": "ce2cd5ad3b06d4c96757a6ab04ebfb7531879292",
+        "author": "GateCross",
+        "date": "2026-07-18 12:37:44",
+        "message": "fix 🐛: 媒体代理优先明确客户端标识并收紧 Live TV 透传"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607180008",
     "items": [
       {
@@ -221,29 +232,6 @@
         "author": "xylplm",
         "date": "2026-07-16 01:09:20",
         "message": "fix 🐛: 修复字幕来源测试错误透传与批次估算 JSON 查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607160105",
-    "items": [
-      {
-        "commit": "fd7caf9b249423be53f7a20a0b74ba990a092c27",
-        "author": "xylplm",
-        "date": "2026-07-16 00:44:33",
-        "message": "fix 🐛: 修复站点最近活动时间被解析为未来的问题"
-      },
-      {
-        "commit": "33cb15280c2e0392bff7627c757b652bffaa139e",
-        "author": "liurongjie",
-        "date": "2026-07-15 22:35:35",
-        "message": "style(plugin): 注释掉类型显示相关代码"
-      },
-      {
-        "commit": "ac5863d9ed5b71570ff72c98e83c0649b52eadc9",
-        "author": "liurongjie",
-        "date": "2026-07-15 22:34:41",
-        "message": "feat(playStats): 加固无 Webhook 补采并补充 Plex 媒体库通知"
       }
     ]
   }
