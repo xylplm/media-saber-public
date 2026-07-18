@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607181911",
+    "items": [
+      {
+        "commit": "95bc47f19dc0179dce89cf0f900823b02e15b0c5",
+        "author": "GateCross",
+        "date": "2026-07-18 19:11:35",
+        "message": "fix 🐛: 修复 invites 签到"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607181826",
     "items": [
       {
@@ -197,23 +208,6 @@
         "author": "xylplm",
         "date": "2026-07-16 16:23:33",
         "message": "feat ✨: 字幕任务与巡检批次支持历史清理删除"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607161323",
-    "items": [
-      {
-        "commit": "c781625ca2faa7e0703034b20413d9eec61716ad",
-        "author": "xylplm",
-        "date": "2026-07-16 13:22:09",
-        "message": "fix 🐛: 字幕来源编辑回显 API Key 与 Cookie"
-      },
-      {
-        "commit": "532e3a750baeda94b3635e3dc245706eaae8ddf9",
-        "author": "xylplm",
-        "date": "2026-07-16 13:19:25",
-        "message": "fix 🐛: 修复 OpenSubtitles 登录 UA 并回显账号密码"
       }
     ]
   }
