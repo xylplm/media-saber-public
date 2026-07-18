@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607181826",
+    "items": [
+      {
+        "commit": "e4f0c4ad42c1a36719302bd80659ee0609771991",
+        "author": "xylplm",
+        "date": "2026-07-18 18:22:35",
+        "message": "fix 🐛: Emby 多路径库同步去重，修复 upsert 重复冲突"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607181352",
     "items": [
       {
@@ -203,23 +214,6 @@
         "author": "xylplm",
         "date": "2026-07-16 13:19:25",
         "message": "fix 🐛: 修复 OpenSubtitles 登录 UA 并回显账号密码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607161205",
-    "items": [
-      {
-        "commit": "a4c5fece28fd5477e2cade6e66afae324b07cc9e",
-        "author": "GateCross",
-        "date": "2026-07-16 12:00:05",
-        "message": "fix: 放开mnt"
-      },
-      {
-        "commit": "072df0985dfc28327f8c531d7e19e5a28a78b33e",
-        "author": "xylplm",
-        "date": "2026-07-16 11:47:20",
-        "message": "fix 🐛: OpenSubtitles 对齐 Bazarr 内置 API Key 与 UA"
       }
     ]
   }
