@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607181352",
+    "items": [
+      {
+        "commit": "35a3db1d426d80b764a70e9ae7c23a36e64e2e7e",
+        "author": "GateCross",
+        "date": "2026-07-18 13:48:28",
+        "message": "chore 🔧: 将  Go 版本升级至 1.26.5"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607181238",
     "items": [
       {
@@ -209,29 +220,6 @@
         "author": "xylplm",
         "date": "2026-07-16 11:47:20",
         "message": "fix 🐛: OpenSubtitles 对齐 Bazarr 内置 API Key 与 UA"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607161054",
-    "items": [
-      {
-        "commit": "22b20cd5dcdd4b5634dc57b3ef44dfd6e1842522",
-        "author": "xylplm",
-        "date": "2026-07-16 10:52:32",
-        "message": "fix 🐛: 加固字幕来源检索评分与并行搜索链路"
-      },
-      {
-        "commit": "456d0c01daa25f41975dfd3d508d951aae6509b1",
-        "author": "xylplm",
-        "date": "2026-07-16 01:12:26",
-        "message": "fix 🐛: 切换迅雷字幕来源到官方 oracle 接口"
-      },
-      {
-        "commit": "04e5e5ac4c8920626617da90c88f2b63cb05797c",
-        "author": "xylplm",
-        "date": "2026-07-16 01:09:20",
-        "message": "fix 🐛: 修复字幕来源测试错误透传与批次估算 JSON 查询"
       }
     ]
   }
