@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607201316",
+    "items": [
+      {
+        "commit": "d71b46458a910c5d912215001eba0b6095201837",
+        "author": "liurongjie",
+        "date": "2026-07-20 13:13:49",
+        "message": "feat: add music filter to play stats"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607180008",
     "items": [
       {
@@ -299,17 +310,6 @@
         "author": "xylplm",
         "date": "2026-07-16 01:09:19",
         "message": "fix 🐛: 修复字幕中心业务失败误报成功与来源配置布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607152319",
-    "items": [
-      {
-        "commit": "c36a0d616aacf55218577478989a746f57fa5f3b",
-        "author": "liurongjie",
-        "date": "2026-07-15 23:14:41",
-        "message": "refactor(media-server): 优化播放统计页面的设备应用显示逻辑"
       }
     ]
   }
