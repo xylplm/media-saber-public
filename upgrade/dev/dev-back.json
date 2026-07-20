@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607210022",
+    "items": [
+      {
+        "commit": "2ea73dff736ddb928c4a34095209d26f7af735a8",
+        "author": "Jolc",
+        "date": "2026-07-21 00:18:59",
+        "message": "feat(mlist): 同步 OpenList 核心兼容修复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607202251",
     "items": [
       {
@@ -365,17 +376,6 @@
         "author": "xylplm",
         "date": "2026-07-18 00:06:49",
         "message": "fix 🐛: 搜索任务先落库并对齐失败收口与心跳"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607172203",
-    "items": [
-      {
-        "commit": "ef936362a4916088281ccd2211e40888e8df3ae3",
-        "author": "xylplm",
-        "date": "2026-07-17 16:38:37",
-        "message": "fix 🐛: 媒体同步项分页边界保护与 ILIKE 转义"
       }
     ]
   }
