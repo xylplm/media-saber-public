@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607202239",
+    "items": [
+      {
+        "commit": "6fc9dd4540be00e48b5cd70cfad44e97ba783f68",
+        "author": "liurongjie",
+        "date": "2026-07-20 22:37:33",
+        "message": "style(assets): 更新插件图标以改进视觉设计"
+      },
+      {
+        "commit": "b078bdfa223496a96987c8b4ae4b7dfaa63f2c5b",
+        "author": "liurongjie",
+        "date": "2026-07-20 22:04:35",
+        "message": "style: refresh Plex plugin icons"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607201316",
     "items": [
       {
@@ -293,23 +310,6 @@
         "author": "xylplm",
         "date": "2026-07-16 11:47:25",
         "message": "fix 🐛: OpenSubtitles 配置仅保留账号密码并禁用自动填充"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607161054",
-    "items": [
-      {
-        "commit": "c4fcf28d80cd32180a72eaabd0ba3f3bb2a84bc2",
-        "author": "xylplm",
-        "date": "2026-07-16 10:48:57",
-        "message": "fix 🐛: 修复字幕中心教程按钮图标错位"
-      },
-      {
-        "commit": "01bda0b1eb60c5142548b7f663bea8b2d2ce1ef3",
-        "author": "xylplm",
-        "date": "2026-07-16 01:09:19",
-        "message": "fix 🐛: 修复字幕中心业务失败误报成功与来源配置布局"
       }
     ]
   }

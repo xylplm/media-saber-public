@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607202239",
+    "items": [
+      {
+        "commit": "ad9af55f6c86549627b1c4e654b7d3696fb89293",
+        "author": "liurongjie",
+        "date": "2026-07-20 22:32:35",
+        "message": "feat(play): 完善音乐播放记录的标题格式化和数据处理"
+      },
+      {
+        "commit": "01f64114c0604b8163307dc81f956a4db147eb82",
+        "author": "liurongjie",
+        "date": "2026-07-20 22:03:55",
+        "message": "feat: add Plex auto languages plugin"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607201316",
     "items": [
       {
@@ -359,23 +376,6 @@
         "author": "xylplm",
         "date": "2026-07-17 10:35:43",
         "message": "fix 🐛: 总览 pathUnwritable 排除默认策略路径巡检快照"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607171011",
-    "items": [
-      {
-        "commit": "0a66b9419dbfed975c41ff6915250be668a04fdd",
-        "author": "xylplm",
-        "date": "2026-07-17 09:47:56",
-        "message": "feat ✨: 字幕自动补齐抑制与任务路径诊断"
-      },
-      {
-        "commit": "eab4d5cab109f7a74d1af227e0e8ae43386b90ca",
-        "author": "xylplm",
-        "date": "2026-07-17 00:46:41",
-        "message": "test ✅: 字幕 convert 写前链路补 service 级单测与空依赖防护"
       }
     ]
   }
