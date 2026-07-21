@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607212316",
+    "items": [
+      {
+        "commit": "68c4945997cd92960780524619d1bbfefbe5ad19",
+        "author": "xylplm",
+        "date": "2026-07-21 23:13:31",
+        "message": "feat ✨: 媒体服路径映射同步入库并修复字幕巡检路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607211430",
     "items": [
       {
@@ -371,17 +382,6 @@
         "author": "xylplm",
         "date": "2026-07-18 18:22:35",
         "message": "fix 🐛: Emby 多路径库同步去重，修复 upsert 重复冲突"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607181352",
-    "items": [
-      {
-        "commit": "35a3db1d426d80b764a70e9ae7c23a36e64e2e7e",
-        "author": "GateCross",
-        "date": "2026-07-18 13:48:28",
-        "message": "chore 🔧: 将  Go 版本升级至 1.26.5"
       }
     ]
   }
