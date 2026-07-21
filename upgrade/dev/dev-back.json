@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607211354",
+    "items": [
+      {
+        "commit": "957f406da5773e87743a77332b95805199fc30f3",
+        "author": "xylplm",
+        "date": "2026-07-21 12:38:57",
+        "message": "feat ✨: 界面偏好同步与全站必应壁纸出图"
+      },
+      {
+        "commit": "46918fad562c4f864bd0f199dbacf5af32ed9cd9",
+        "author": "Jolc",
+        "date": "2026-07-21 09:11:58",
+        "message": "docs(skill): 支持临时获取上游源码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607210022",
     "items": [
       {
@@ -365,17 +382,6 @@
         "author": "GateCross",
         "date": "2026-07-18 12:37:44",
         "message": "fix 🐛: 媒体代理优先明确客户端标识并收紧 Live TV 透传"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607180008",
-    "items": [
-      {
-        "commit": "704774d980848716381bcc77d3ddc513a14e44c2",
-        "author": "xylplm",
-        "date": "2026-07-18 00:06:49",
-        "message": "fix 🐛: 搜索任务先落库并对齐失败收口与心跳"
       }
     ]
   }

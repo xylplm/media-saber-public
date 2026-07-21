@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202607211354",
+    "items": [
+      {
+        "commit": "478218b7d44afb559fc27467f5cb6c90166bab3c",
+        "author": "liurongjie",
+        "date": "2026-07-21 13:50:50",
+        "message": "style(assets): 更新插件图标SVG文件样式"
+      },
+      {
+        "commit": "6f37a3d17797e82155759b94d6b45d6cde82781d",
+        "author": "liurongjie",
+        "date": "2026-07-21 12:40:43",
+        "message": "feat(media-server): 为音乐播放统计添加曲目标题格式化功能"
+      },
+      {
+        "commit": "58a8e56f3de32fce951718b0a4b0716df7ba79b4",
+        "author": "xylplm",
+        "date": "2026-07-21 12:38:57",
+        "message": "feat ✨: 界面风格玻璃与背景壁纸自定义"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607202251",
     "items": [
       {
@@ -317,23 +340,6 @@
         "author": "xylplm",
         "date": "2026-07-16 14:32:12",
         "message": "feat ✨: 前端统一接入动态空状态与业务场景插画"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607161323",
-    "items": [
-      {
-        "commit": "374fd1089db56a7c5a2f39c3f61f283399e390bc",
-        "author": "xylplm",
-        "date": "2026-07-16 13:22:21",
-        "message": "fix 🐛: 字幕来源编辑时正确回填密钥与 Cookie"
-      },
-      {
-        "commit": "38330a559991f9c1bc4da057b3a2ce3b3803bf00",
-        "author": "xylplm",
-        "date": "2026-07-16 13:19:30",
-        "message": "fix 🐛: 优化 OpenSubtitles 配置弹窗与来源卡片布局"
       }
     ]
   }
