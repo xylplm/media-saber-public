@@ -9,6 +9,7 @@ mkdir -p /app/config/data/site_config/commons
 mkdir -p /app/config/data/site_config/sites
 mkdir -p /app/config/data/static/site_favicon
 mkdir -p /app/config/data/static/level_icon
+mkdir -p /app/config/data/static/wallpaper
 
 envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
