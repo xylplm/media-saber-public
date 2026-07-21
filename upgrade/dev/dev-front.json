@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607211430",
+    "items": [
+      {
+        "commit": "549a93098f4d462a1940f61956ef6e3c5b2baa00",
+        "author": "xylplm",
+        "date": "2026-07-21 14:13:51",
+        "message": "feat ✨: 玻璃浓度虚化与壁纸压暗阶梯预设"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607211354",
     "items": [
       {
@@ -323,23 +334,6 @@
         "author": "xylplm",
         "date": "2026-07-16 20:16:05",
         "message": "fix 🐛: 字幕任务支持手动替换侧车并修正 STRM 文案"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607161629",
-    "items": [
-      {
-        "commit": "48d8a08e5f71b078b2d4c60a5539561b049f4b93",
-        "author": "xylplm",
-        "date": "2026-07-16 16:23:53",
-        "message": "feat ✨: 字幕中心支持任务与批次历史清理交互"
-      },
-      {
-        "commit": "5e14786d9fdc746c77ea6334a07d404d7858b946",
-        "author": "xylplm",
-        "date": "2026-07-16 14:32:12",
-        "message": "feat ✨: 前端统一接入动态空状态与业务场景插画"
       }
     ]
   }

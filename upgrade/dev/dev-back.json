@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607211430",
+    "items": [
+      {
+        "commit": "999b76f025dcb46da0bf23a3ef28277af86e5ab3",
+        "author": "xylplm",
+        "date": "2026-07-21 14:13:52",
+        "message": "feat ✨: 界面偏好支持玻璃浓度与壁纸压暗档位"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607211354",
     "items": [
       {
@@ -371,17 +382,6 @@
         "author": "GateCross",
         "date": "2026-07-18 13:48:28",
         "message": "chore 🔧: 将  Go 版本升级至 1.26.5"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607181238",
-    "items": [
-      {
-        "commit": "ce2cd5ad3b06d4c96757a6ab04ebfb7531879292",
-        "author": "GateCross",
-        "date": "2026-07-18 12:37:44",
-        "message": "fix 🐛: 媒体代理优先明确客户端标识并收紧 Live TV 透传"
       }
     ]
   }
