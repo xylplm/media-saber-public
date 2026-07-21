@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607212359",
+    "items": [
+      {
+        "commit": "6b857b18ad28dedd59e464d98fc278498f24c79f",
+        "author": "xylplm",
+        "date": "2026-07-21 23:57:55",
+        "message": "feat ✨: 文件管理支持本地文件与文件夹重命名"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607212316",
     "items": [
       {
@@ -209,23 +220,6 @@
         "author": "xylplm",
         "date": "2026-07-17 11:24:27",
         "message": "feat ✨: 巡检扫描清单路径不可读时展示媒体路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607171011",
-    "items": [
-      {
-        "commit": "d622385821a39f59bc912d441c3c79560a70a9fd",
-        "author": "xylplm",
-        "date": "2026-07-17 09:48:18",
-        "message": "feat ✨: 字幕任务详情支持关闭自动补齐与路径诊断"
-      },
-      {
-        "commit": "0b2abd0ce5e68a9c5b6f5ec7f33599efc101b364",
-        "author": "xylplm",
-        "date": "2026-07-17 00:46:42",
-        "message": "fix 🐛: 秘术宝阁组件改 standalone 并修复 unit-test 模板编译"
       }
     ]
   }

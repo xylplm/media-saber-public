@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607212359",
+    "items": [
+      {
+        "commit": "b5508dba07c9bb9f7e3e8ac091d36e8b1464fe7b",
+        "author": "xylplm",
+        "date": "2026-07-21 23:57:49",
+        "message": "feat ✨: 本地路径支持文件与文件夹重命名"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607212316",
     "items": [
       {
@@ -371,17 +382,6 @@
         "author": "GateCross",
         "date": "2026-07-18 19:11:35",
         "message": "fix 🐛: 修复 invites 签到"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607181826",
-    "items": [
-      {
-        "commit": "e4f0c4ad42c1a36719302bd80659ee0609771991",
-        "author": "xylplm",
-        "date": "2026-07-18 18:22:35",
-        "message": "fix 🐛: Emby 多路径库同步去重，修复 upsert 重复冲突"
       }
     ]
   }
