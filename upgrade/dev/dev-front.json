@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202607222127",
+    "items": [
+      {
+        "commit": "9360f9b9156be68037db98a3acbd086983263074",
+        "author": "xylplm",
+        "date": "2026-07-22 21:23:35",
+        "message": "fix 🐛: 修复前端 lint 定时器与表单标签问题"
+      },
+      {
+        "commit": "30ab84bb353c9b4915709e455e5fd28a7611fa07",
+        "author": "xylplm",
+        "date": "2026-07-22 21:23:35",
+        "message": "deps 📦: 升级前端 Angular 22 与常用依赖到最新兼容版本"
+      },
+      {
+        "commit": "16bbfc4b364465d3346acab587bcd5380fcc49a3",
+        "author": "xylplm",
+        "date": "2026-07-22 21:02:44",
+        "message": "refactor 🔁: 统一前端全局卡片圆角 token 体系"
+      },
+      {
+        "commit": "44009d1d54c32b4b88f9557f16fb842b35f7fbbd",
+        "author": "xylplm",
+        "date": "2026-07-22 18:37:12",
+        "message": "refactor 🔁: 将状态插画默认尺寸从 250 调整为 200"
+      },
+      {
+        "commit": "2e561f957c44b0f4753e3c860ae4089f1b720ac4",
+        "author": "xylplm",
+        "date": "2026-07-22 17:46:21",
+        "message": "feat ✨: 统一状态插画与全局加载动效"
+      },
+      {
+        "commit": "7c11b6d7a54a8341d6b78cf11d883c65d454d964",
+        "author": "GateCross",
+        "date": "2026-07-22 14:17:08",
+        "message": "✨ feat: 调整仪表板自定义网格行高"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607222009",
     "items": [
       {
@@ -113,41 +154,6 @@
         "author": "xylplm",
         "date": "2026-07-21 12:38:57",
         "message": "feat ✨: 界面风格玻璃与背景壁纸自定义"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202251",
-    "items": [
-      {
-        "commit": "b0b9d47700329a7b81bbf93febf32646277d1fac",
-        "author": "xylplm",
-        "date": "2026-07-20 22:39:21",
-        "message": "refactor 🔁: 工作台按卡片拆分并移除已迁入废弃小部件"
-      },
-      {
-        "commit": "ba1ef3b27b2bf963d887994c08ea025a42faf013",
-        "author": "xylplm",
-        "date": "2026-07-20 20:03:32",
-        "message": "feat ✨: 首页工作台布局与定制预览重构"
-      },
-      {
-        "commit": "213a93c789e8c1cf6b63c29a2743687460e02458",
-        "author": "xylplm",
-        "date": "2026-07-20 18:28:12",
-        "message": "fix 🐛: 首页小部件加载与失败态统一为 cm-no-data"
-      },
-      {
-        "commit": "8a93465b249cf4fd209d2431eb84a7ca89310359",
-        "author": "xylplm",
-        "date": "2026-07-20 18:26:17",
-        "message": "feat ✨: 精简首页交互并优化工作台可读性"
-      },
-      {
-        "commit": "2c1d2b65fa94b586de78edcd4dba59d07176ac97",
-        "author": "xylplm",
-        "date": "2026-07-20 17:47:22",
-        "message": "feat ✨: 首页天序工作台重构与部件配置化"
       }
     ]
   }
