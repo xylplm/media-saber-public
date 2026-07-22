@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607221822",
+    "items": [
+      {
+        "commit": "2e561f957c44b0f4753e3c860ae4089f1b720ac4",
+        "author": "xylplm",
+        "date": "2026-07-22 17:46:21",
+        "message": "feat ✨: 统一状态插画与全局加载动效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607221521",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-07-20 13:13:49",
         "message": "feat: add music filter to play stats"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607180008",
-    "items": [
-      {
-        "commit": "e79019f8a583e16aa8965d363bff6ee316737ee0",
-        "author": "xylplm",
-        "date": "2026-07-18 00:06:49",
-        "message": "feat ✨: 搜索任务失败态展示与空态文案对齐"
       }
     ]
   }
