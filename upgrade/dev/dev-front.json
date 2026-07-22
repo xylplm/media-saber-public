@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607222009",
+    "items": [
+      {
+        "commit": "7eaf62e7571e04a97ec8c7b8bd21f7b6528f58e8",
+        "author": "liurongjie",
+        "date": "2026-07-22 19:53:17",
+        "message": "fix: 优化首页布局与加载骨架"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607221837",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "xylplm",
         "date": "2026-07-20 17:47:22",
         "message": "feat ✨: 首页天序工作台重构与部件配置化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202239",
-    "items": [
-      {
-        "commit": "6fc9dd4540be00e48b5cd70cfad44e97ba783f68",
-        "author": "liurongjie",
-        "date": "2026-07-20 22:37:33",
-        "message": "style(assets): 更新插件图标以改进视觉设计"
-      },
-      {
-        "commit": "b078bdfa223496a96987c8b4ae4b7dfaa63f2c5b",
-        "author": "liurongjie",
-        "date": "2026-07-20 22:04:35",
-        "message": "style: refresh Plex plugin icons"
       }
     ]
   }
