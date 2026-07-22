@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607221409",
+    "items": [
+      {
+        "commit": "663e9c0f45685c481bebc54765784b67118ea169",
+        "author": "liurongjie",
+        "date": "2026-07-22 13:13:14",
+        "message": "fix ✨: 优化首页移动端布局与本地依赖安装"
+      },
+      {
+        "commit": "919ef14a1ffb9e7daca2db949e218b97d7f14ee6",
+        "author": "xylplm",
+        "date": "2026-07-22 10:00:04",
+        "message": "feat ✨: 文件管理操作收纳并支持刷新媒体库"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607212359",
     "items": [
       {
@@ -191,35 +208,6 @@
         "author": "xylplm",
         "date": "2026-07-17 16:38:43",
         "message": "feat ✨: 媒体同步历史改为响应式卡片工作台"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607171522",
-    "items": [
-      {
-        "commit": "d31b537d3695e2b16b850e41a5e33586f4f669f3",
-        "author": "xylplm",
-        "date": "2026-07-17 15:14:36",
-        "message": "feat ✨: 手动应用字幕时对语言不匹配做强化确认"
-      },
-      {
-        "commit": "d115d7a3fa7efcf59fe003b0520e027b8c431178",
-        "author": "xylplm",
-        "date": "2026-07-17 14:51:28",
-        "message": "提交push"
-      },
-      {
-        "commit": "57562749dce6aa52a1b177e11f136dfc264d4b33",
-        "author": "xylplm",
-        "date": "2026-07-17 11:33:37",
-        "message": "feat ✨: 总览路径异常下钻与巡检清单路径焦点"
-      },
-      {
-        "commit": "cd01b07802e69b51624c98d7663b6f4acd328c96",
-        "author": "xylplm",
-        "date": "2026-07-17 11:24:27",
-        "message": "feat ✨: 巡检扫描清单路径不可读时展示媒体路径"
       }
     ]
   }

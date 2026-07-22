@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607221409",
+    "items": [
+      {
+        "commit": "c79a49bea01a11bc6f2afef030881df5153196bb",
+        "author": "xylplm",
+        "date": "2026-07-22 09:59:59",
+        "message": "feat ✨: 本地路径支持按路径刷新媒体库"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607212359",
     "items": [
       {
@@ -371,17 +382,6 @@
         "author": "xylplm",
         "date": "2026-07-19 00:21:42",
         "message": "feat ✨: Telegram 支持交互消息与列表按钮，并加固发送与长轮询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607181911",
-    "items": [
-      {
-        "commit": "95bc47f19dc0179dce89cf0f900823b02e15b0c5",
-        "author": "GateCross",
-        "date": "2026-07-18 19:11:35",
-        "message": "fix 🐛: 修复 invites 签到"
       }
     ]
   }
