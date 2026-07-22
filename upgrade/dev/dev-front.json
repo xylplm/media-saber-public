@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607221837",
+    "items": [
+      {
+        "commit": "44009d1d54c32b4b88f9557f16fb842b35f7fbbd",
+        "author": "xylplm",
+        "date": "2026-07-22 18:37:12",
+        "message": "refactor 🔁: 将状态插画默认尺寸从 250 调整为 200"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607221822",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-07-20 22:04:35",
         "message": "style: refresh Plex plugin icons"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607201316",
-    "items": [
-      {
-        "commit": "d71b46458a910c5d912215001eba0b6095201837",
-        "author": "liurongjie",
-        "date": "2026-07-20 13:13:49",
-        "message": "feat: add music filter to play stats"
       }
     ]
   }
