@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607231332",
+    "items": [
+      {
+        "commit": "e3dad3d2d0fecf0aedb292af01916af3567b8e96",
+        "author": "xylplm",
+        "date": "2026-07-23 13:11:30",
+        "message": "fix 🐛: 优化版本升级成功提示文案避免误解为已更新完成"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607231142",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-07-21 23:13:50",
         "message": "feat ✨: 字幕路径异常引导配置媒体路径映射"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607211430",
-    "items": [
-      {
-        "commit": "549a93098f4d462a1940f61956ef6e3c5b2baa00",
-        "author": "xylplm",
-        "date": "2026-07-21 14:13:51",
-        "message": "feat ✨: 玻璃浓度虚化与壁纸压暗阶梯预设"
       }
     ]
   }

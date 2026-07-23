@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607231332",
+    "items": [
+      {
+        "commit": "8a875dacc871e6221ec244b9b18faaaf81c9664a",
+        "author": "liurongjie",
+        "date": "2026-07-23 13:31:59",
+        "message": "refactor(mediaserver): 优化 Plex 服务器机器 ID 获取逻辑"
+      },
+      {
+        "commit": "c6e2c6776652dc83d5a94279ba18b6a1fed35311",
+        "author": "liurongjie",
+        "date": "2026-07-23 13:28:02",
+        "message": "Revert \"refactor(message): 优化消息发送机制和webhook处理流程\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202607231238",
     "items": [
       {
@@ -137,23 +154,6 @@
         "author": "xylplm",
         "date": "2026-07-20 17:47:22",
         "message": "feat ✨: 首页天序工作台聚合接口与 dashboard 部件规范化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202239",
-    "items": [
-      {
-        "commit": "ad9af55f6c86549627b1c4e654b7d3696fb89293",
-        "author": "liurongjie",
-        "date": "2026-07-20 22:32:35",
-        "message": "feat(play): 完善音乐播放记录的标题格式化和数据处理"
-      },
-      {
-        "commit": "01f64114c0604b8163307dc81f956a4db147eb82",
-        "author": "liurongjie",
-        "date": "2026-07-20 22:03:55",
-        "message": "feat: add Plex auto languages plugin"
       }
     ]
   }
