@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202607231844",
+    "items": [
+      {
+        "commit": "ae9aae661368c7dd5866716694a4c5f4ce056966",
+        "author": "liurongjie",
+        "date": "2026-07-23 18:42:12",
+        "message": "feat(library): 添加音乐计数字段支持"
+      },
+      {
+        "commit": "70a05d1fca314b2984dde84eb7456d5c92f9414f",
+        "author": "xylplm",
+        "date": "2026-07-23 17:04:33",
+        "message": "fix 🐛: 转移历史落库失败显式告警且不清失败记录"
+      },
+      {
+        "commit": "fc1258e6802c6dc734e0e5cd3130979025f38415",
+        "author": "xylplm",
+        "date": "2026-07-23 16:50:10",
+        "message": "fix 🐛: 补齐磁力链接下载 /magnets 接口"
+      },
+      {
+        "commit": "28a104cd86173df3ff07b062e59663d0bbbbae98",
+        "author": "liurongjie",
+        "date": "2026-07-23 16:47:20",
+        "message": "feat(workbench): 添加音乐统计功能到媒体服务器概览面板"
+      },
+      {
+        "commit": "cdc7823eaf124d9d05e19016279bf4de7dc5ae2f",
+        "author": "xylplm",
+        "date": "2026-07-23 15:47:15",
+        "message": "fix 🐛: 转移服务路径忽略误用 return 改为 continue"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607231332",
     "items": [
       {
@@ -125,35 +160,6 @@
         "author": "Jolc",
         "date": "2026-07-21 00:18:59",
         "message": "feat(mlist): 同步 OpenList 核心兼容修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202251",
-    "items": [
-      {
-        "commit": "957a6bc9b4769a223596c0f65093cc2692d1508b",
-        "author": "xylplm",
-        "date": "2026-07-20 22:39:30",
-        "message": "fix 🐛: NAS 百分比归一与 Netdata 失败快返回，优化工作台文案"
-      },
-      {
-        "commit": "06325191ed5ca4c885f27705f541f5e8840eefd0",
-        "author": "xylplm",
-        "date": "2026-07-20 20:03:32",
-        "message": "refactor 🔁: 首页部件列表取消必选注入"
-      },
-      {
-        "commit": "18bc66999b4fbd80b95831f18d5327e0cfac6629",
-        "author": "xylplm",
-        "date": "2026-07-20 18:26:15",
-        "message": "refactor 🔁: 工作台文案改为口语化，媒体库指标更易读"
-      },
-      {
-        "commit": "0abd09db8e522adf9bf1f7988bff5970351abb66",
-        "author": "xylplm",
-        "date": "2026-07-20 17:47:22",
-        "message": "feat ✨: 首页天序工作台聚合接口与 dashboard 部件规范化"
       }
     ]
   }
