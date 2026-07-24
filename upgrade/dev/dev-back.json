@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607241544",
+    "items": [
+      {
+        "commit": "70a05d1fca314b2984dde84eb7456d5c92f9414f",
+        "author": "xylplm",
+        "date": "2026-07-23 17:04:33",
+        "message": "fix 🐛: 转移历史落库失败显式告警且不清失败记录"
+      },
+      {
+        "commit": "fc1258e6802c6dc734e0e5cd3130979025f38415",
+        "author": "xylplm",
+        "date": "2026-07-23 16:50:10",
+        "message": "fix 🐛: 补齐磁力链接下载 /magnets 接口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607231844",
     "items": [
       {
@@ -149,17 +166,6 @@
         "author": "Jolc",
         "date": "2026-07-21 09:11:58",
         "message": "docs(skill): 支持临时获取上游源码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607210022",
-    "items": [
-      {
-        "commit": "2ea73dff736ddb928c4a34095209d26f7af735a8",
-        "author": "Jolc",
-        "date": "2026-07-21 00:18:59",
-        "message": "feat(mlist): 同步 OpenList 核心兼容修复"
       }
     ]
   }

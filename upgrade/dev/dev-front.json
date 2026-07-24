@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202607241544",
+    "items": [
+      {
+        "commit": "4fcb21324ace8b7abe34212a799cf2dda3a32699",
+        "author": "xylplm",
+        "date": "2026-07-24 15:43:28",
+        "message": "feat ✨: 修复按周枚举值错误，重构输入 cron 组件支持快速生成(按分钟/小时/天/周/月/年维度)"
+      },
+      {
+        "commit": "102839f8f16b3fa93bcb9886699b8ec77f917329",
+        "author": "xylplm",
+        "date": "2026-07-24 12:47:09",
+        "message": "fix: 完成屏幕尺寸服务重构与响应式布局更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607231844",
     "items": [
       {
@@ -185,17 +202,6 @@
         "author": "xylplm",
         "date": "2026-07-22 10:00:04",
         "message": "feat ✨: 文件管理操作收纳并支持刷新媒体库"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607212359",
-    "items": [
-      {
-        "commit": "6b857b18ad28dedd59e464d98fc278498f24c79f",
-        "author": "xylplm",
-        "date": "2026-07-21 23:57:55",
-        "message": "feat ✨: 文件管理支持本地文件与文件夹重命名"
       }
     ]
   }
