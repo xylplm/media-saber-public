@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607291750",
+    "items": [
+      {
+        "commit": "0a8f0fabdf97432991926a2e0862e0d7830f20b3",
+        "author": "liurongjie",
+        "date": "2026-07-29 17:49:46",
+        "message": "fix(tasks): 修复 Plex Webhook 处理中的媒体服务器 ID 匹配问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607291632",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "xylplm",
         "date": "2026-07-21 23:13:31",
         "message": "feat ✨: 媒体服路径映射同步入库并修复字幕巡检路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607211430",
-    "items": [
-      {
-        "commit": "999b76f025dcb46da0bf23a3ef28277af86e5ab3",
-        "author": "xylplm",
-        "date": "2026-07-21 14:13:52",
-        "message": "feat ✨: 界面偏好支持玻璃浓度与壁纸压暗档位"
       }
     ]
   }

@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202607291750",
+    "items": [
+      {
+        "commit": "672795ac4554b35e0ce701c9de9075bdb9a833b7",
+        "author": "xylplm",
+        "date": "2026-07-29 17:49:15",
+        "message": "feat: add MediaDetailService for unified lazy dialog opening"
+      },
+      {
+        "commit": "eddf3a9e55ae0a584930e6c3699e2004aff7c68e",
+        "author": "xylplm",
+        "date": "2026-07-29 17:48:55",
+        "message": "refactor: merge video players into shared CmVideoPlayerDialogComponent"
+      },
+      {
+        "commit": "0dc9c99b3077c0ebf4b0ed9031441074c5f27022",
+        "author": "xylplm",
+        "date": "2026-07-29 17:48:38",
+        "message": "perf: lazy-load heavy dialog modules to reduce initial bundle"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607291632",
     "items": [
       {
@@ -227,17 +250,6 @@
         "author": "xylplm",
         "date": "2026-07-22 17:46:21",
         "message": "feat ✨: 统一状态插画与全局加载动效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607221521",
-    "items": [
-      {
-        "commit": "7c11b6d7a54a8341d6b78cf11d883c65d454d964",
-        "author": "GateCross",
-        "date": "2026-07-22 14:17:08",
-        "message": "✨ feat: 调整仪表板自定义网格行高"
       }
     ]
   }
