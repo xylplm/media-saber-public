@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607301258",
+    "items": [
+      {
+        "commit": "a06a2bcfa7df4f0ad2fb2d821f4452a12ccebb43",
+        "author": "xylplm",
+        "date": "2026-07-30 12:08:42",
+        "message": "feat ✨: 安全中心（秘境守阁）新增登录防护、事件审计、凭据治理与安全通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607291750",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "xylplm",
         "date": "2026-07-21 23:57:49",
         "message": "feat ✨: 本地路径支持文件与文件夹重命名"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607212316",
-    "items": [
-      {
-        "commit": "68c4945997cd92960780524619d1bbfefbe5ad19",
-        "author": "xylplm",
-        "date": "2026-07-21 23:13:31",
-        "message": "feat ✨: 媒体服路径映射同步入库并修复字幕巡检路径"
       }
     ]
   }

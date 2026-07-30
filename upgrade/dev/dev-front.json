@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607301258",
+    "items": [
+      {
+        "commit": "dec68755778d3af9826b732ba464573c20a33c91",
+        "author": "xylplm",
+        "date": "2026-07-30 12:10:43",
+        "message": "feat ✨: 安全中心（秘境守阁）前端页面与首页联动"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607291750",
     "items": [
       {
@@ -239,17 +250,6 @@
         "author": "xylplm",
         "date": "2026-07-22 18:37:12",
         "message": "refactor 🔁: 将状态插画默认尺寸从 250 调整为 200"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607221822",
-    "items": [
-      {
-        "commit": "2e561f957c44b0f4753e3c860ae4089f1b720ac4",
-        "author": "xylplm",
-        "date": "2026-07-22 17:46:21",
-        "message": "feat ✨: 统一状态插画与全局加载动效"
       }
     ]
   }
