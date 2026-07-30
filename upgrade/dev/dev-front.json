@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202607302145",
+    "items": [
+      {
+        "commit": "97f39d8bcd29c31307de093202b364768eda1710",
+        "author": "GateCross",
+        "date": "2026-07-30 21:44:52",
+        "message": "fix: 修正分组来源展开态误用灰蓝地面色"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607302131",
     "items": [
       {
@@ -227,47 +238,6 @@
         "author": "liurongjie",
         "date": "2026-07-22 21:27:13",
         "message": "fix: 修复移动端媒体服务页面溢出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607222127",
-    "items": [
-      {
-        "commit": "9360f9b9156be68037db98a3acbd086983263074",
-        "author": "xylplm",
-        "date": "2026-07-22 21:23:35",
-        "message": "fix 🐛: 修复前端 lint 定时器与表单标签问题"
-      },
-      {
-        "commit": "30ab84bb353c9b4915709e455e5fd28a7611fa07",
-        "author": "xylplm",
-        "date": "2026-07-22 21:23:35",
-        "message": "deps 📦: 升级前端 Angular 22 与常用依赖到最新兼容版本"
-      },
-      {
-        "commit": "16bbfc4b364465d3346acab587bcd5380fcc49a3",
-        "author": "xylplm",
-        "date": "2026-07-22 21:02:44",
-        "message": "refactor 🔁: 统一前端全局卡片圆角 token 体系"
-      },
-      {
-        "commit": "44009d1d54c32b4b88f9557f16fb842b35f7fbbd",
-        "author": "xylplm",
-        "date": "2026-07-22 18:37:12",
-        "message": "refactor 🔁: 将状态插画默认尺寸从 250 调整为 200"
-      },
-      {
-        "commit": "2e561f957c44b0f4753e3c860ae4089f1b720ac4",
-        "author": "xylplm",
-        "date": "2026-07-22 17:46:21",
-        "message": "feat ✨: 统一状态插画与全局加载动效"
-      },
-      {
-        "commit": "7c11b6d7a54a8341d6b78cf11d883c65d454d964",
-        "author": "GateCross",
-        "date": "2026-07-22 14:17:08",
-        "message": "✨ feat: 调整仪表板自定义网格行高"
       }
     ]
   }
