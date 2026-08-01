@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608012351",
+    "items": [
+      {
+        "commit": "7f7b02fa8fdcc2b97e204df89ccb0dbb08504b10",
+        "author": "liurongjie",
+        "date": "2026-08-01 23:38:41",
+        "message": "feat(site): 添加清空功能并优化弹窗高度计算"
+      }
+    ]
+  },
+  {
     "version": "DEV_202607302145",
     "items": [
       {
@@ -209,35 +220,6 @@
         "author": "xylplm",
         "date": "2026-07-23 13:11:30",
         "message": "fix 🐛: 优化版本升级成功提示文案避免误解为已更新完成"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607231142",
-    "items": [
-      {
-        "commit": "13586e45181f0963c254f028bde4d370f5106a51",
-        "author": "xylplm",
-        "date": "2026-07-23 11:33:46",
-        "message": "chore 🔧: 删除 PushDeer 占位图标 pushdeer.png"
-      },
-      {
-        "commit": "c947c1c7e9cd994d832f8c98294d657f58fa9ee5",
-        "author": "xylplm",
-        "date": "2026-07-23 11:27:45",
-        "message": "chore 🔧: 新增 PushDeer 渠道图标 1100.png"
-      },
-      {
-        "commit": "a544f1e7b7c8b87e2ff74629bbf6d8f23623c64a",
-        "author": "xylplm",
-        "date": "2026-07-23 10:59:26",
-        "message": "chore 🔧: Gotify 渠道图标重命名为类型码 1000"
-      },
-      {
-        "commit": "99a35a27fa380080eae48c2d9418674aeca946ff",
-        "author": "liurongjie",
-        "date": "2026-07-22 21:27:13",
-        "message": "fix: 修复移动端媒体服务页面溢出"
       }
     ]
   }
