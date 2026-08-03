@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608032153",
+    "items": [
+      {
+        "commit": "f77b55ed9d1c4f22064890e8f16eb347a737e58f",
+        "author": "GateCross",
+        "date": "2026-08-03 21:51:48",
+        "message": "fix: 优化手动整理预览弹窗移动端布局"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608032128",
     "items": [
       {
@@ -179,53 +190,6 @@
         "author": "xylplm",
         "date": "2026-07-24 12:47:09",
         "message": "fix: 完成屏幕尺寸服务重构与响应式布局更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607231844",
-    "items": [
-      {
-        "commit": "fa22bbb2d11f82fe0149de4abfc1fedf7529272f",
-        "author": "xylplm",
-        "date": "2026-07-23 18:26:58",
-        "message": "fix 🐛: 清理不可用的演员/ED2K resourceLinks 入口"
-      },
-      {
-        "commit": "30684226fd8a120d9608ae45da856adc1d137631",
-        "author": "xylplm",
-        "date": "2026-07-23 18:05:36",
-        "message": "fix 🐛: 对齐手动重命名 renameManual 契约"
-      },
-      {
-        "commit": "11d4cc99817a2389c22b8bcc0db011bdb9eb0e45",
-        "author": "xylplm",
-        "date": "2026-07-23 18:01:20",
-        "message": "fix 🐛: 消除影视搜索 URL 订阅与手动 reload 双请求"
-      },
-      {
-        "commit": "041f5994120f90781b02e4e734083a71ed74fe58",
-        "author": "xylplm",
-        "date": "2026-07-23 17:50:53",
-        "message": "fix 🐛: 站点管理开关改为 signal 不可变更新"
-      },
-      {
-        "commit": "19218e9deed2eb8fc830b0ac5b63451e9e6d21a9",
-        "author": "xylplm",
-        "date": "2026-07-23 16:50:16",
-        "message": "fix 🐛: 完善磁力下载弹窗校验与标题文案"
-      },
-      {
-        "commit": "16f8803ea2d653d377bdea476fa092bcbf676799",
-        "author": "liurongjie",
-        "date": "2026-07-23 16:47:28",
-        "message": "feat(dashboard): 添加音乐统计功能并优化网格布局"
-      },
-      {
-        "commit": "8e7392c3ba48b306de8b58780e073f4b39ce834b",
-        "author": "xylplm",
-        "date": "2026-07-23 15:56:32",
-        "message": "docs 📚: 完善仅媒体文件开关说明"
       }
     ]
   }
