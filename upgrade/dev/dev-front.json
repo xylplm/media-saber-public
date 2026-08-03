@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608032128",
+    "items": [
+      {
+        "commit": "541abc57a867331b7ff64158d0ebdf9a4d9cd1d7",
+        "author": "GateCross",
+        "date": "2026-08-03 21:23:38",
+        "message": "feat: 增加手动整理预览组件"
+      },
+      {
+        "commit": "a650e3672e28411b1675c9309152c51b3de39ac0",
+        "author": "xylplm",
+        "date": "2026-08-03 14:25:17",
+        "message": "fix(perf): fix TimerManager memory growth and RoutePriorityService stale state"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608012351",
     "items": [
       {
@@ -209,17 +226,6 @@
         "author": "xylplm",
         "date": "2026-07-23 15:56:32",
         "message": "docs 📚: 完善仅媒体文件开关说明"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607231332",
-    "items": [
-      {
-        "commit": "e3dad3d2d0fecf0aedb292af01916af3567b8e96",
-        "author": "xylplm",
-        "date": "2026-07-23 13:11:30",
-        "message": "fix 🐛: 优化版本升级成功提示文案避免误解为已更新完成"
       }
     ]
   }

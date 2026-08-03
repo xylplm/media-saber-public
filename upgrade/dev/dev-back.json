@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608032128",
+    "items": [
+      {
+        "commit": "d1166572514414072b76136f365c8c83481a14ff",
+        "author": "GateCross",
+        "date": "2026-08-03 21:20:46",
+        "message": "feat: 添加手动整理预览功能，支持云存储和本地路径预览"
+      },
+      {
+        "commit": "3c873166619109497c97208b6e9ddd4d2d4a6503",
+        "author": "xylplm",
+        "date": "2026-08-03 14:25:06",
+        "message": "fix(perf): fix Cron.Stop race/deadlock and remove per-request map+panic in middleware"
+      },
+      {
+        "commit": "9bc95845ff303101bb5d2074259ad7832944873d",
+        "author": "xylplm",
+        "date": "2026-08-03 14:18:30",
+        "message": "fix(pathwatcher): fix three goroutine lifecycle bugs in PathWatcher"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608012351",
     "items": [
       {
@@ -347,17 +370,6 @@
         "author": "liurongjie",
         "date": "2026-07-23 13:28:02",
         "message": "Revert \"refactor(message): 优化消息发送机制和webhook处理流程\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607231238",
-    "items": [
-      {
-        "commit": "f653b744fb8142d83aa9bfad0e362e28ef94da52",
-        "author": "liurongjie",
-        "date": "2026-07-23 12:36:19",
-        "message": "refactor(message): 优化消息发送机制和webhook处理流程"
       }
     ]
   }
