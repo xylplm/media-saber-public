@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608052357",
+    "items": [
+      {
+        "commit": "ee837bccc41c18d5b1e19e46018e4106a65fc4fa",
+        "author": "liurongjie",
+        "date": "2026-08-05 23:56:49",
+        "message": "fix: 修复 Plex 自动音轨字幕主人识别与 playing 调试日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608052335",
     "items": [
       {
@@ -329,53 +340,6 @@
         "author": "liurongjie",
         "date": "2026-07-29 17:49:46",
         "message": "fix(tasks): 修复 Plex Webhook 处理中的媒体服务器 ID 匹配问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607291632",
-    "items": [
-      {
-        "commit": "c87c6a4d8fa2edbd308238f8455139e3c30734d9",
-        "author": "liurongjie",
-        "date": "2026-07-29 16:03:30",
-        "message": "fix(plugin): 优化 Plex 自动音轨字幕插件日志记录和错误处理"
-      },
-      {
-        "commit": "2269539326cef7cb4fc453751dc7f98c430b07f7",
-        "author": "xylplm",
-        "date": "2026-07-28 17:00:44",
-        "message": "perf(sync): 媒体库同步链路全面优化 — 差异化写入+索引校正+事件解耦"
-      },
-      {
-        "commit": "f1314c9e0d33f51538de5aa71d3f6d0895fce7c1",
-        "author": "xylplm",
-        "date": "2026-07-28 11:31:52",
-        "message": "perf(db): 回收 PG 连接与冗余索引降低数据库内存占用"
-      },
-      {
-        "commit": "0e66c26a3b475a94c53b30efbb1040eb8c5c170e",
-        "author": "xylplm",
-        "date": "2026-07-26 21:29:21",
-        "message": "fix 🐛: Plex 多机 webhook 探测改短超时缓存并发避免阻塞 worker"
-      },
-      {
-        "commit": "c3576c94710f854e4be7c8ba4f42243e5a6540ab",
-        "author": "xylplm",
-        "date": "2026-07-26 21:23:00",
-        "message": "fix 🐛: MediaFormatService 命名模板改为只读避免批次内英文片名丢失"
-      },
-      {
-        "commit": "a908e1d620e0b33619b45627b3c61c058585dbf7",
-        "author": "xylplm",
-        "date": "2026-07-26 20:28:13",
-        "message": "fix 🐛: 空目录判定改用真实条目避免误删海报/NFO"
-      },
-      {
-        "commit": "ae9aae661368c7dd5866716694a4c5f4ce056966",
-        "author": "liurongjie",
-        "date": "2026-07-23 18:42:12",
-        "message": "feat(library): 添加音乐计数字段支持"
       }
     ]
   }
