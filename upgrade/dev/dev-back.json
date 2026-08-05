@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202608051053",
+    "items": [
+      {
+        "commit": "341a60e2936e429bfa5df0951ca11a8c8011690b",
+        "author": "liurongjie",
+        "date": "2026-08-05 10:48:01",
+        "message": "feat: 优化 Plex 歌单导入、音乐元数据刷新与拼音本地化"
+      },
+      {
+        "commit": "204f0c027c50688cebbaf8a7da2d4d8e6a45e68a",
+        "author": "liurongjie",
+        "date": "2026-08-05 00:14:21",
+        "message": "fix: Plex 自动音轨字幕改为 WebSocket playing 监听选轨变化"
+      },
+      {
+        "commit": "f4ddbef8e337639c841b28641116a513b7df47ef",
+        "author": "liurongjie",
+        "date": "2026-08-04 23:19:26",
+        "message": "feat: add sign-in history clear endpoint"
+      },
+      {
+        "commit": "a2a02e5a819b81a5b598039d8cddf2eeaabfcbff",
+        "author": "liurongjie",
+        "date": "2026-08-04 23:13:48",
+        "message": "fix: 修复灯塔榜单小数解析"
+      },
+      {
+        "commit": "16f97d1f74a1094dceb858ca47f8aeda163d0937",
+        "author": "liurongjie",
+        "date": "2026-08-04 19:19:10",
+        "message": "fix: expand plex resume items"
+      },
+      {
+        "commit": "d1166572514414072b76136f365c8c83481a14ff",
+        "author": "GateCross",
+        "date": "2026-08-03 21:20:46",
+        "message": "feat: 添加手动整理预览功能，支持云存储和本地路径预览"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608040958",
     "items": [
       {
@@ -341,41 +382,6 @@
         "author": "xylplm",
         "date": "2026-07-23 16:50:10",
         "message": "fix 🐛: 补齐磁力链接下载 /magnets 接口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607231844",
-    "items": [
-      {
-        "commit": "ae9aae661368c7dd5866716694a4c5f4ce056966",
-        "author": "liurongjie",
-        "date": "2026-07-23 18:42:12",
-        "message": "feat(library): 添加音乐计数字段支持"
-      },
-      {
-        "commit": "70a05d1fca314b2984dde84eb7456d5c92f9414f",
-        "author": "xylplm",
-        "date": "2026-07-23 17:04:33",
-        "message": "fix 🐛: 转移历史落库失败显式告警且不清失败记录"
-      },
-      {
-        "commit": "fc1258e6802c6dc734e0e5cd3130979025f38415",
-        "author": "xylplm",
-        "date": "2026-07-23 16:50:10",
-        "message": "fix 🐛: 补齐磁力链接下载 /magnets 接口"
-      },
-      {
-        "commit": "28a104cd86173df3ff07b062e59663d0bbbbae98",
-        "author": "liurongjie",
-        "date": "2026-07-23 16:47:20",
-        "message": "feat(workbench): 添加音乐统计功能到媒体服务器概览面板"
-      },
-      {
-        "commit": "cdc7823eaf124d9d05e19016279bf4de7dc5ae2f",
-        "author": "xylplm",
-        "date": "2026-07-23 15:47:15",
-        "message": "fix 🐛: 转移服务路径忽略误用 return 改为 continue"
       }
     ]
   }

@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608051053",
+    "items": [
+      {
+        "commit": "7b3639629867f8474f839fe07742936ac9dee59c",
+        "author": "liurongjie",
+        "date": "2026-08-04 23:20:54",
+        "message": "feat: add clear sign-in history action"
+      },
+      {
+        "commit": "2af3a64677a4ba104bbf818069af5b7698c2e760",
+        "author": "liurongjie",
+        "date": "2026-08-04 23:12:42",
+        "message": "fix: enable mobile playback history scrolling"
+      },
+      {
+        "commit": "fd052260b33398767aaafed4c2a6bb0141d078cd",
+        "author": "liurongjie",
+        "date": "2026-08-04 19:40:32",
+        "message": "fix: improve music sync history icon"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608032153",
     "items": [
       {
@@ -173,23 +196,6 @@
         "author": "xylplm",
         "date": "2026-07-26 21:41:08",
         "message": "fix 🐛: clear 统一断开 EventSource 避免强制登出残留长连接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607241544",
-    "items": [
-      {
-        "commit": "4fcb21324ace8b7abe34212a799cf2dda3a32699",
-        "author": "xylplm",
-        "date": "2026-07-24 15:43:28",
-        "message": "feat ✨: 修复按周枚举值错误，重构输入 cron 组件支持快速生成(按分钟/小时/天/周/月/年维度)"
-      },
-      {
-        "commit": "102839f8f16b3fa93bcb9886699b8ec77f917329",
-        "author": "xylplm",
-        "date": "2026-07-24 12:47:09",
-        "message": "fix: 完成屏幕尺寸服务重构与响应式布局更新"
       }
     ]
   }
