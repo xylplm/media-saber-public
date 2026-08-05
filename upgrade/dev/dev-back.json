@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608052335",
+    "items": [
+      {
+        "commit": "f1b2fe498db6fbde48d4d06ef9fd580a92b9fb17",
+        "author": "liurongjie",
+        "date": "2026-08-05 23:30:31",
+        "message": "fix: 修复 Plex 自动音轨字幕 WebSocket 解包与可观测性"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608051053",
     "items": [
       {
@@ -365,23 +376,6 @@
         "author": "liurongjie",
         "date": "2026-07-23 18:42:12",
         "message": "feat(library): 添加音乐计数字段支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607241544",
-    "items": [
-      {
-        "commit": "70a05d1fca314b2984dde84eb7456d5c92f9414f",
-        "author": "xylplm",
-        "date": "2026-07-23 17:04:33",
-        "message": "fix 🐛: 转移历史落库失败显式告警且不清失败记录"
-      },
-      {
-        "commit": "fc1258e6802c6dc734e0e5cd3130979025f38415",
-        "author": "xylplm",
-        "date": "2026-07-23 16:50:10",
-        "message": "fix 🐛: 补齐磁力链接下载 /magnets 接口"
       }
     ]
   }
