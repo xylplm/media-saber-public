@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608061840",
+    "items": [
+      {
+        "commit": "14a5e97d9bf732e84bb34e5e47f537ca1280073f",
+        "author": "liurongjie",
+        "date": "2026-08-06 17:59:39",
+        "message": "fix: 已下载页筛选后列表未替换导致内容不更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608051053",
     "items": [
       {
@@ -143,59 +154,6 @@
         "author": "xylplm",
         "date": "2026-07-29 17:48:38",
         "message": "perf: lazy-load heavy dialog modules to reduce initial bundle"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607291632",
-    "items": [
-      {
-        "commit": "0331ae6592ab7de80da0bf0dc70abae424809ce9",
-        "author": "xylplm",
-        "date": "2026-07-29 16:20:37",
-        "message": "build: relax production initial bundle budgets to 3mb/5mb"
-      },
-      {
-        "commit": "4683c01be541fca736e0fa897a8f4f3971c4da49",
-        "author": "xylplm",
-        "date": "2026-07-26 22:27:06",
-        "message": "fix 🐛: head 内同步预应用主题 class 消除暗色首屏 FOUC"
-      },
-      {
-        "commit": "7669def5991f45f421feb43dad8942d1a033e39c",
-        "author": "xylplm",
-        "date": "2026-07-26 22:24:10",
-        "message": "build 🏗️: 收紧 production initial 构建预算至 2mb/3mb"
-      },
-      {
-        "commit": "5b4d341db0c6fb90e44a1de580c26ba390170138",
-        "author": "xylplm",
-        "date": "2026-07-26 22:22:04",
-        "message": "feat ✨: 接入 PWA SwUpdate 确认刷新避免新旧 chunk 混用"
-      },
-      {
-        "commit": "e0501658c7a35500fc1fff7d979675f2a31272d9",
-        "author": "xylplm",
-        "date": "2026-07-26 22:18:01",
-        "message": "fix 🐛: 删除 resourceShare 死代码避免虚假契约"
-      },
-      {
-        "commit": "ae7f1209d697a21ecb34b501dcaa23db884f5b07",
-        "author": "xylplm",
-        "date": "2026-07-26 21:58:44",
-        "message": "fix 🐛: 容器表格开关改不可变 signal 更新以刷新 OnPush UI"
-      },
-      {
-        "commit": "143dd3ce991069a2208805acf3b4d05e6c29cb32",
-        "author": "xylplm",
-        "date": "2026-07-26 21:55:04",
-        "message": "fix 🐛: 搜索空结果重置不再把 pageSize 清零"
-      },
-      {
-        "commit": "de0c265275912db1ee6d8537cb3b46f767da7134",
-        "author": "xylplm",
-        "date": "2026-07-26 21:41:08",
-        "message": "fix 🐛: clear 统一断开 EventSource 避免强制登出残留长连接"
       }
     ]
   }

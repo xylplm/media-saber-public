@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608061840",
+    "items": [
+      {
+        "commit": "f0a23aa1ea1c23dc5aed9cb196061d5ad44595be",
+        "author": "liurongjie",
+        "date": "2026-08-06 18:39:53",
+        "message": "perf: 下载历史跳过 PublishedSites 富集以降低查询延迟"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608061720",
     "items": [
       {
@@ -317,35 +328,6 @@
         "author": "xylplm",
         "date": "2026-07-30 16:50:18",
         "message": "perf ⚡: 优化列表处理减少重复扩容"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607301625",
-    "items": [
-      {
-        "commit": "b8585f22872799f02c7941c03c476a06502190f6",
-        "author": "xylplm",
-        "date": "2026-07-30 15:17:52",
-        "message": "perf ⚡: 正则热路径预编译并接入编译缓存"
-      },
-      {
-        "commit": "32c5f37637ebe73a5572baec419cfb5e7e8f3f33",
-        "author": "xylplm",
-        "date": "2026-07-30 13:49:38",
-        "message": "fix 🐛: 字幕与快照等模块将 gorm 记录未找到判断改用 errors.Is"
-      },
-      {
-        "commit": "b9f7f606a2557eee96eaadd6fe2b603b890cb8c3",
-        "author": "xylplm",
-        "date": "2026-07-30 13:18:54",
-        "message": "fix 🐛: 修复 cpa_monitor select break 无法跳出循环及同类生产者缺 ctx 保护"
-      },
-      {
-        "commit": "b058823674cc38dfb0073305051668ba4af41fbd",
-        "author": "xylplm",
-        "date": "2026-07-30 13:12:02",
-        "message": "perf ⚡: 修复长循环内 time.After 堆积,改用复用 time.NewTimer 模式"
       }
     ]
   }
