@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608061059",
+    "items": [
+      {
+        "commit": "3f32b1284ecf1dd908d7f7b74538ff56dad92181",
+        "author": "liurongjie",
+        "date": "2026-08-06 00:46:13",
+        "message": "fix: 收紧 Plex 自动音轨字幕会话选轨与关字幕传播"
+      },
+      {
+        "commit": "d1e4d05e40b7e8979e8b4c3344f1ebe17f72dd00",
+        "author": "liurongjie",
+        "date": "2026-08-06 00:41:57",
+        "message": "fix: 修复 Plex 自动音轨字幕切轨后不同步后续集"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608052357",
     "items": [
       {
@@ -329,17 +346,6 @@
         "author": "xylplm",
         "date": "2026-07-30 12:08:42",
         "message": "feat ✨: 安全中心（秘境守阁）新增登录防护、事件审计、凭据治理与安全通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607291750",
-    "items": [
-      {
-        "commit": "0a8f0fabdf97432991926a2e0862e0d7830f20b3",
-        "author": "liurongjie",
-        "date": "2026-07-29 17:49:46",
-        "message": "fix(tasks): 修复 Plex Webhook 处理中的媒体服务器 ID 匹配问题"
       }
     ]
   }
