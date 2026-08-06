@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608062236",
+    "items": [
+      {
+        "commit": "9165e92a6b2451396a571411c958da802309d076",
+        "author": "GateCross",
+        "date": "2026-08-06 22:35:38",
+        "message": "feat: 云整理添加保留原文件名选项以支持文件名保留功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608061840",
     "items": [
       {
@@ -131,29 +142,6 @@
         "author": "xylplm",
         "date": "2026-07-30 12:10:43",
         "message": "feat ✨: 安全中心（秘境守阁）前端页面与首页联动"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607291750",
-    "items": [
-      {
-        "commit": "672795ac4554b35e0ce701c9de9075bdb9a833b7",
-        "author": "xylplm",
-        "date": "2026-07-29 17:49:15",
-        "message": "feat: add MediaDetailService for unified lazy dialog opening"
-      },
-      {
-        "commit": "eddf3a9e55ae0a584930e6c3699e2004aff7c68e",
-        "author": "xylplm",
-        "date": "2026-07-29 17:48:55",
-        "message": "refactor: merge video players into shared CmVideoPlayerDialogComponent"
-      },
-      {
-        "commit": "0dc9c99b3077c0ebf4b0ed9031441074c5f27022",
-        "author": "xylplm",
-        "date": "2026-07-29 17:48:38",
-        "message": "perf: lazy-load heavy dialog modules to reduce initial bundle"
       }
     ]
   }

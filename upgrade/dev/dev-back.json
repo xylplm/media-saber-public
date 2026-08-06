@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608062236",
+    "items": [
+      {
+        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
+        "author": "GateCross",
+        "date": "2026-08-06 22:35:58",
+        "message": "feat: 云整理增加保留原文件名功能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608062027",
     "items": [
       {
@@ -155,83 +166,6 @@
         "author": "xylplm",
         "date": "2026-08-03 14:18:30",
         "message": "fix(pathwatcher): fix three goroutine lifecycle bugs in PathWatcher"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608012351",
-    "items": [
-      {
-        "commit": "4c223d5d45c1b488379db64a5c7f87619887253f",
-        "author": "liurongjie",
-        "date": "2026-08-01 23:50:43",
-        "message": "feat(site): 添加站点消息公告请求记录清空功能"
-      },
-      {
-        "commit": "3c3c36340dd7f9f1ee5a8f2a7ec7913fd06bf396",
-        "author": "liurongjie",
-        "date": "2026-08-01 23:39:37",
-        "message": "feat(routes): 添加清除接口路由配置"
-      },
-      {
-        "commit": "d4b5530b528225acb248f74df2ff502f7c194e05",
-        "author": "xylplm",
-        "date": "2026-07-31 18:31:36",
-        "message": "deps 📦: 升级 SpectatorNan/gorm-zero 到 v1.9.1"
-      },
-      {
-        "commit": "ef7db0b743c24a1c062bfd62742931559344dd18",
-        "author": "xylplm",
-        "date": "2026-07-31 18:24:42",
-        "message": "deps 📦: 升级 gorm.io/gorm 到 v1.31.2，driver/postgres 到 v1.6.2"
-      },
-      {
-        "commit": "47ab2e961314691e008d44c1441bf81f4e97eb72",
-        "author": "xylplm",
-        "date": "2026-07-31 18:12:48",
-        "message": "deps 📦: 升级 golang.org/x/image 到 v0.44.0，修复 6 个解码器安全漏洞"
-      },
-      {
-        "commit": "d632b7afafdd87fe1d8ae56b9963de4c83fa308f",
-        "author": "xylplm",
-        "date": "2026-07-31 18:09:04",
-        "message": "deps 📦: 升级 golang.org/x/text 到 v0.39.0，修复无穷循环 DoS 漏洞"
-      },
-      {
-        "commit": "d2a61c14101d3da225c1227fb9e20e5e12c5a5c6",
-        "author": "xylplm",
-        "date": "2026-07-31 18:03:48",
-        "message": "deps 📦: 升级 modelcontextprotocol/go-sdk 到 v1.4.1，修复两个已知 CVE"
-      },
-      {
-        "commit": "ba96c8b5ce8aee6110e7d8a5e9255a6ae3dd61b5",
-        "author": "xylplm",
-        "date": "2026-07-31 17:21:38",
-        "message": "deps 📦: 升级 PostgreSQL 数据库驱动 pgx 到 v5.9.2，修复潜在的数据库注入安全隐患"
-      },
-      {
-        "commit": "60309e8950b765bbf9698ad28130e0f81636a91b",
-        "author": "xylplm",
-        "date": "2026-07-31 16:50:09",
-        "message": "build 🏗️: 升级 go-zero 到 v1.10.2，goctl 配套升级到 v1.10.1"
-      },
-      {
-        "commit": "1c39e16badb11a2701fac25849addbb5a5b04684",
-        "author": "xylplm",
-        "date": "2026-07-31 15:03:04",
-        "message": "refactor 🔁: 统一 lumberjack 依赖 import path，删除重复的旧版直连依赖"
-      },
-      {
-        "commit": "8685a70dbb41d7065a6d4a06576922b1a597c025",
-        "author": "xylplm",
-        "date": "2026-07-31 14:58:41",
-        "message": "refactor 🔁: 移除已 archived 的 govaluate 依赖，改用内置四则运算解析器"
-      },
-      {
-        "commit": "b33bd4454dfa6b44ab36f82ba09be4f74045d1a6",
-        "author": "xylplm",
-        "date": "2026-07-31 13:54:20",
-        "message": "fix 🐛: 修复 ugreen 媒体服务器的 id 解析错误用 panic"
       }
     ]
   }
