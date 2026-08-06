@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608061720",
+    "items": [
+      {
+        "commit": "7295c1b0970d7ff743790a2d5085942640bd5136",
+        "author": "liurongjie",
+        "date": "2026-08-06 17:16:17",
+        "message": "perf: 优化 FindSiteIdsByTmdbIds 使用覆盖索引加速列表 PublishedSites"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608061059",
     "items": [
       {
@@ -335,17 +346,6 @@
         "author": "xylplm",
         "date": "2026-07-30 13:12:02",
         "message": "perf ⚡: 修复长循环内 time.After 堆积,改用复用 time.NewTimer 模式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607301258",
-    "items": [
-      {
-        "commit": "a06a2bcfa7df4f0ad2fb2d821f4452a12ccebb43",
-        "author": "xylplm",
-        "date": "2026-07-30 12:08:42",
-        "message": "feat ✨: 安全中心（秘境守阁）新增登录防护、事件审计、凭据治理与安全通知"
       }
     ]
   }
