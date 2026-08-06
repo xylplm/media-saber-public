@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608062027",
+    "items": [
+      {
+        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
+        "author": "GateCross",
+        "date": "2026-08-06 20:26:22",
+        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608061840",
     "items": [
       {
@@ -221,113 +232,6 @@
         "author": "xylplm",
         "date": "2026-07-31 13:54:20",
         "message": "fix 🐛: 修复 ugreen 媒体服务器的 id 解析错误用 panic"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607302131",
-    "items": [
-      {
-        "commit": "f00e2528206b24b14e471216d695c55a0737ebd6",
-        "author": "GateCross",
-        "date": "2026-07-30 21:29:30",
-        "message": "fix: 云端资源分组保留 S00 特别篇季号"
-      },
-      {
-        "commit": "c248249a322119483e6615644c96061c0fbd6412",
-        "author": "xylplm",
-        "date": "2026-07-30 21:08:32",
-        "message": "perf ⚡: 优化排序和循环写法"
-      },
-      {
-        "commit": "ec13bed75b4ad8392e58d58a5b2160a14c0533b9",
-        "author": "xylplm",
-        "date": "2026-07-30 20:17:34",
-        "message": "perf ⚡: 迁移旧版随机数用法"
-      },
-      {
-        "commit": "a0e2b5ee6aae334a29fd5723fd617115ed81adb4",
-        "author": "xylplm",
-        "date": "2026-07-30 18:35:47",
-        "message": "perf ⚡: 优化插件数字文本转换"
-      },
-      {
-        "commit": "7e7cfdcdd8115f8065581addfcdd933f390145ff",
-        "author": "xylplm",
-        "date": "2026-07-30 18:26:08",
-        "message": "perf ⚡: 简化站点与下载数字提示"
-      },
-      {
-        "commit": "7eb0842f42a1778c531bf470f4d4ee8b23ffb9ab",
-        "author": "xylplm",
-        "date": "2026-07-30 18:22:53",
-        "message": "perf ⚡: 优化键值和状态数字转换"
-      },
-      {
-        "commit": "8874e26041bb9de70e0b1d1aaaf08d4ff21ff2d6",
-        "author": "xylplm",
-        "date": "2026-07-30 18:18:49",
-        "message": "perf ⚡: 优化消息与工具数字转换"
-      },
-      {
-        "commit": "835d9a3671ea9e3d966d01134bf69e4b23d56c3f",
-        "author": "xylplm",
-        "date": "2026-07-30 18:12:04",
-        "message": "perf ⚡: 优化接口数字参数转换"
-      },
-      {
-        "commit": "a1c1d24bc0a0d52f3bc0b164bb05b630dba9f138",
-        "author": "xylplm",
-        "date": "2026-07-30 18:07:09",
-        "message": "perf ⚡: 简化常用数字文本转换"
-      },
-      {
-        "commit": "293237adfa53b99dac0ba6f80fb44c1e8020f6df",
-        "author": "xylplm",
-        "date": "2026-07-30 18:02:49",
-        "message": "fix 🐛: 修正工作台时长转换"
-      },
-      {
-        "commit": "a7aa4dcbf16e8a23237945ed06c1e75e2b4bfc9d",
-        "author": "xylplm",
-        "date": "2026-07-30 18:02:15",
-        "message": "perf ⚡: 简化工作台数字文本"
-      },
-      {
-        "commit": "e542fca798b30cd7239905fbf2f20638db0ebc3a",
-        "author": "xylplm",
-        "date": "2026-07-30 17:57:25",
-        "message": "perf ⚡: 简化数字内容解析"
-      },
-      {
-        "commit": "ad0bad43f20585f74688bdebe4210f6f571e29e9",
-        "author": "xylplm",
-        "date": "2026-07-30 17:50:46",
-        "message": "chore 🔧: 保留后端文件原有换行格式"
-      },
-      {
-        "commit": "b2f2ac4d2a184ff823a38abd473d476177a4cb0d",
-        "author": "xylplm",
-        "date": "2026-07-30 17:49:57",
-        "message": "perf ⚡: 优化数字和文本处理方式"
-      },
-      {
-        "commit": "1c6a214fa2a40b3eafc6f24e7472fe299e6fe673",
-        "author": "xylplm",
-        "date": "2026-07-30 17:12:56",
-        "message": "perf ⚡: 减少网页内容重复转换"
-      },
-      {
-        "commit": "78a398a865c92ac30168fabb25fb3a4798738251",
-        "author": "xylplm",
-        "date": "2026-07-30 17:05:19",
-        "message": "perf ⚡: 简化首段内容处理"
-      },
-      {
-        "commit": "e5387420c6406a0982a4170e7f7c25184406c96c",
-        "author": "xylplm",
-        "date": "2026-07-30 16:50:18",
-        "message": "perf ⚡: 优化列表处理减少重复扩容"
       }
     ]
   }
