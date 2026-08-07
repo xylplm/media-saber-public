@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608071038",
+    "items": [
+      {
+        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
+        "author": "GateCross",
+        "date": "2026-08-07 10:35:03",
+        "message": "fix: 修正刷流插件限速问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608062236",
     "items": [
       {
@@ -143,29 +154,6 @@
         "author": "xylplm",
         "date": "2026-08-03 22:11:35",
         "message": "perf ⚡: 数据库连接上限提升，媒体库扫描整理时接口不再卡顿转圈"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608032128",
-    "items": [
-      {
-        "commit": "d1166572514414072b76136f365c8c83481a14ff",
-        "author": "GateCross",
-        "date": "2026-08-03 21:20:46",
-        "message": "feat: 添加手动整理预览功能，支持云存储和本地路径预览"
-      },
-      {
-        "commit": "3c873166619109497c97208b6e9ddd4d2d4a6503",
-        "author": "xylplm",
-        "date": "2026-08-03 14:25:06",
-        "message": "fix(perf): fix Cron.Stop race/deadlock and remove per-request map+panic in middleware"
-      },
-      {
-        "commit": "9bc95845ff303101bb5d2074259ad7832944873d",
-        "author": "xylplm",
-        "date": "2026-08-03 14:18:30",
-        "message": "fix(pathwatcher): fix three goroutine lifecycle bugs in PathWatcher"
       }
     ]
   }
