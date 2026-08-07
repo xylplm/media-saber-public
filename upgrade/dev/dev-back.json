@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608071305",
+    "items": [
+      {
+        "commit": "94e6dc2ff9d672f2521d5dcc5b988d6e1d55b003",
+        "author": "liurongjie",
+        "date": "2026-08-07 13:03:15",
+        "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608071038",
     "items": [
       {
@@ -131,29 +142,6 @@
         "author": "GateCross",
         "date": "2026-08-03 21:20:46",
         "message": "feat: 添加手动整理预览功能，支持云存储和本地路径预览"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608040958",
-    "items": [
-      {
-        "commit": "3dfefeb125cfde72cb92fc30ba1c296ead5563d4",
-        "author": "xylplm",
-        "date": "2026-08-03 22:34:47",
-        "message": "fix 🐛: 媒体库同步-修复服务重启后数据库 CPU 被长时间占满"
-      },
-      {
-        "commit": "fdddc9d2db63b4900878f1cb999417901a0bd595",
-        "author": "xylplm",
-        "date": "2026-08-03 22:11:45",
-        "message": "fix 🐛: 修复网络不稳时全部功能提示认证失败、必须重启才能恢复的问题"
-      },
-      {
-        "commit": "c613e53394e6d74ecf48553011bd417d1a2f474a",
-        "author": "xylplm",
-        "date": "2026-08-03 22:11:35",
-        "message": "perf ⚡: 数据库连接上限提升，媒体库扫描整理时接口不再卡顿转圈"
       }
     ]
   }
