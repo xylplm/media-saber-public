@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608080040",
+    "items": [
+      {
+        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
+        "author": "GateCross",
+        "date": "2026-08-07 10:35:03",
+        "message": "fix: 修正刷流插件限速问题"
+      },
+      {
+        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
+        "author": "GateCross",
+        "date": "2026-08-06 22:35:58",
+        "message": "feat: 云整理增加保留原文件名功能"
+      },
+      {
+        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
+        "author": "GateCross",
+        "date": "2026-08-06 20:26:22",
+        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608071305",
     "items": [
       {
@@ -101,47 +124,6 @@
         "author": "liurongjie",
         "date": "2026-08-05 23:30:31",
         "message": "fix: 修复 Plex 自动音轨字幕 WebSocket 解包与可观测性"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608051053",
-    "items": [
-      {
-        "commit": "341a60e2936e429bfa5df0951ca11a8c8011690b",
-        "author": "liurongjie",
-        "date": "2026-08-05 10:48:01",
-        "message": "feat: 优化 Plex 歌单导入、音乐元数据刷新与拼音本地化"
-      },
-      {
-        "commit": "204f0c027c50688cebbaf8a7da2d4d8e6a45e68a",
-        "author": "liurongjie",
-        "date": "2026-08-05 00:14:21",
-        "message": "fix: Plex 自动音轨字幕改为 WebSocket playing 监听选轨变化"
-      },
-      {
-        "commit": "f4ddbef8e337639c841b28641116a513b7df47ef",
-        "author": "liurongjie",
-        "date": "2026-08-04 23:19:26",
-        "message": "feat: add sign-in history clear endpoint"
-      },
-      {
-        "commit": "a2a02e5a819b81a5b598039d8cddf2eeaabfcbff",
-        "author": "liurongjie",
-        "date": "2026-08-04 23:13:48",
-        "message": "fix: 修复灯塔榜单小数解析"
-      },
-      {
-        "commit": "16f97d1f74a1094dceb858ca47f8aeda163d0937",
-        "author": "liurongjie",
-        "date": "2026-08-04 19:19:10",
-        "message": "fix: expand plex resume items"
-      },
-      {
-        "commit": "d1166572514414072b76136f365c8c83481a14ff",
-        "author": "GateCross",
-        "date": "2026-08-03 21:20:46",
-        "message": "feat: 添加手动整理预览功能，支持云存储和本地路径预览"
       }
     ]
   }

@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202608080040",
+    "items": [
+      {
+        "commit": "44ab7140748a9ae1fd694665079bd0f21d80e644",
+        "author": "liurongjie",
+        "date": "2026-08-08 00:33:37",
+        "message": "style(workbench): 优化工作台库卡片样式和布局"
+      },
+      {
+        "commit": "0bedf9f162e19306ff2b07aa816b27eb2416c73f",
+        "author": "liurongjie",
+        "date": "2026-08-08 00:20:50",
+        "message": "feat: 工作台展示最近入库，并修正云端文件列表高度"
+      },
+      {
+        "commit": "c431d94c98d23fb3fe43e1fc9b196f94b83a6809",
+        "author": "liurongjie",
+        "date": "2026-08-08 00:06:40",
+        "message": "style: 美化工作台与同步数据卡片，优化日志移动端筛选布局"
+      },
+      {
+        "commit": "353c46ca75983672ab58ca7d05ad666f6eb1ca49",
+        "author": "liurongjie",
+        "date": "2026-08-07 14:14:39",
+        "message": "fix: 调整系统日志分页行数选项"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608062236",
     "items": [
       {
@@ -131,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-07-30 14:03:58",
         "message": "fix 🐛: 修复设置网格大屏布局并收敛安全通知文案"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607301258",
-    "items": [
-      {
-        "commit": "dec68755778d3af9826b732ba464573c20a33c91",
-        "author": "xylplm",
-        "date": "2026-07-30 12:10:43",
-        "message": "feat ✨: 安全中心（秘境守阁）前端页面与首页联动"
       }
     ]
   }
