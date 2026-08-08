@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608082356",
+    "items": [
+      {
+        "commit": "84c53e6ba75b1e33d9851b22cf80cbcc5b24bca0",
+        "author": "liurongjie",
+        "date": "2026-08-08 23:54:01",
+        "message": "fix(plex): 清理未用 section recentlyAdded 并跳过已删除项"
+      },
+      {
+        "commit": "dd87406b91c1e5bf34e6a59def24383e81561f7e",
+        "author": "liurongjie",
+        "date": "2026-08-08 23:50:42",
+        "message": "fix(plex): 工作台最近入库改回 hub type=1/2 合并"
+      },
+      {
+        "commit": "835dc796d93eb9d9c2305516e62c2fae798d4e2e",
+        "author": "liurongjie",
+        "date": "2026-08-08 23:46:47",
+        "message": "fix(plex): 工作台最近入库按电影/剧集库合并取最近条目"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608081542",
     "items": [
       {
@@ -125,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-06 18:39:53",
         "message": "perf: 下载历史跳过 PublishedSites 富集以降低查询延迟"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608061720",
-    "items": [
-      {
-        "commit": "7295c1b0970d7ff743790a2d5085942640bd5136",
-        "author": "liurongjie",
-        "date": "2026-08-06 17:16:17",
-        "message": "perf: 优化 FindSiteIdsByTmdbIds 使用覆盖索引加速列表 PublishedSites"
       }
     ]
   }
