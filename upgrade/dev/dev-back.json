@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608090037",
+    "items": [
+      {
+        "commit": "1859839c8b46a789d9183cf63acd1134ee10dd08",
+        "author": "liurongjie",
+        "date": "2026-08-09 00:23:36",
+        "message": "chore(plugin): 去掉 Plex 自动音轨字幕 playing 完整消息日志"
+      },
+      {
+        "commit": "1d4b5513b8549c6549e5c72f726791bd317cb78a",
+        "author": "liurongjie",
+        "date": "2026-08-09 00:20:56",
+        "message": "fix(plex): 忽略 recentlyAdded 的 Rating 字段类型冲突"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608082356",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-08-06 20:26:22",
         "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608061840",
-    "items": [
-      {
-        "commit": "f0a23aa1ea1c23dc5aed9cb196061d5ad44595be",
-        "author": "liurongjie",
-        "date": "2026-08-06 18:39:53",
-        "message": "perf: 下载历史跳过 PublishedSites 富集以降低查询延迟"
       }
     ]
   }
