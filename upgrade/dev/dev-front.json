@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608081238",
+    "items": [
+      {
+        "commit": "ec98f4d8bfa0278849a389255eef316b8d9b047e",
+        "author": "liurongjie",
+        "date": "2026-08-08 01:50:07",
+        "message": "feat(workbench): 最近入库展示季集与封面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608080040",
     "items": [
       {
@@ -131,35 +142,6 @@
         "author": "GateCross",
         "date": "2026-07-30 21:30:42",
         "message": "fix: 修复云端资源分组模式选中/hover 文字对比度"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607301625",
-    "items": [
-      {
-        "commit": "ea9cefc3f73f7a4b7a3dcc1dc31963bca909eb8b",
-        "author": "xylplm",
-        "date": "2026-07-30 14:16:21",
-        "message": "fix 🐛: 补充安全通知字段帮助说明"
-      },
-      {
-        "commit": "14bb9b4db4350d4e88ddf3710c952ea894d3a2e6",
-        "author": "xylplm",
-        "date": "2026-07-30 14:14:28",
-        "message": "fix 🐛: 精简安全通知开关标题"
-      },
-      {
-        "commit": "6cf88f9939e124b3152413684e6345c6edcec5b4",
-        "author": "xylplm",
-        "date": "2026-07-30 14:12:29",
-        "message": "fix 🐛: 将安全通知开关说明合并到字段标题"
-      },
-      {
-        "commit": "74bd253e2fac36f3808bfe98dadaef7b471c3545",
-        "author": "xylplm",
-        "date": "2026-07-30 14:03:58",
-        "message": "fix 🐛: 修复设置网格大屏布局并收敛安全通知文案"
       }
     ]
   }

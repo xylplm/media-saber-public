@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608081238",
+    "items": [
+      {
+        "commit": "94e6dc2ff9d672f2521d5dcc5b988d6e1d55b003",
+        "author": "liurongjie",
+        "date": "2026-08-07 13:03:15",
+        "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608080040",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-08-05 23:56:49",
         "message": "fix: 修复 Plex 自动音轨字幕主人识别与 playing 调试日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608052335",
-    "items": [
-      {
-        "commit": "f1b2fe498db6fbde48d4d06ef9fd580a92b9fb17",
-        "author": "liurongjie",
-        "date": "2026-08-05 23:30:31",
-        "message": "fix: 修复 Plex 自动音轨字幕 WebSocket 解包与可观测性"
       }
     ]
   }
