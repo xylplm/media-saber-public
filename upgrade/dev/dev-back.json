@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608081542",
+    "items": [
+      {
+        "commit": "49773d369e650fccf076c5460e3c7d8d3eb4d08a",
+        "author": "liurongjie",
+        "date": "2026-08-08 15:38:00",
+        "message": "feat(plex): 工作台最近入库改用 hubs 合并电影与剧集"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608081458",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-08-06 17:16:17",
         "message": "perf: 优化 FindSiteIdsByTmdbIds 使用覆盖索引加速列表 PublishedSites"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608061059",
-    "items": [
-      {
-        "commit": "3f32b1284ecf1dd908d7f7b74538ff56dad92181",
-        "author": "liurongjie",
-        "date": "2026-08-06 00:46:13",
-        "message": "fix: 收紧 Plex 自动音轨字幕会话选轨与关字幕传播"
-      },
-      {
-        "commit": "d1e4d05e40b7e8979e8b4c3344f1ebe17f72dd00",
-        "author": "liurongjie",
-        "date": "2026-08-06 00:41:57",
-        "message": "fix: 修复 Plex 自动音轨字幕切轨后不同步后续集"
       }
     ]
   }
