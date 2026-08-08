@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608081458",
+    "items": [
+      {
+        "commit": "fca338ab81590a9255a4e064ec4513c65d7d104d",
+        "author": "liurongjie",
+        "date": "2026-08-08 14:57:36",
+        "message": "feat(workbench): 最近入库改为消费 overview 内联数据"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608081238",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-07-30 21:44:52",
         "message": "fix: 修正分组来源展开态误用灰蓝地面色"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607302131",
-    "items": [
-      {
-        "commit": "f888846bbc00268b9f44677ec672fdc633d51a1c",
-        "author": "GateCross",
-        "date": "2026-07-30 21:30:42",
-        "message": "fix: 修复云端资源分组模式选中/hover 文字对比度"
       }
     ]
   }

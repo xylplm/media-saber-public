@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202608081458",
+    "items": [
+      {
+        "commit": "e717570eb925f39642cc6b96a7ccf1741f5e0b7f",
+        "author": "liurongjie",
+        "date": "2026-08-08 14:57:37",
+        "message": "feat(workbench): 最近入库并入 overview 并透出服务器入库时间"
+      },
+      {
+        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
+        "author": "GateCross",
+        "date": "2026-08-07 10:35:03",
+        "message": "fix: 修正刷流插件限速问题"
+      },
+      {
+        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
+        "author": "GateCross",
+        "date": "2026-08-06 22:35:58",
+        "message": "feat: 云整理增加保留原文件名功能"
+      },
+      {
+        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
+        "author": "GateCross",
+        "date": "2026-08-06 20:26:22",
+        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608081238",
     "items": [
       {
@@ -113,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-08-06 00:41:57",
         "message": "fix: 修复 Plex 自动音轨字幕切轨后不同步后续集"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608052357",
-    "items": [
-      {
-        "commit": "ee837bccc41c18d5b1e19e46018e4106a65fc4fa",
-        "author": "liurongjie",
-        "date": "2026-08-05 23:56:49",
-        "message": "fix: 修复 Plex 自动音轨字幕主人识别与 playing 调试日志"
       }
     ]
   }
