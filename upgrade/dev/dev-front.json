@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608091810",
+    "items": [
+      {
+        "commit": "bd33bd7b161da5019d05a39bf00657b4ec0a8cb4",
+        "author": "liurongjie",
+        "date": "2026-08-09 18:06:57",
+        "message": "fix(ui): 修复 iOS 图标不显示并优化服务配置按钮样式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608081458",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-08-01 23:38:41",
         "message": "feat(site): 添加清空功能并优化弹窗高度计算"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607302145",
-    "items": [
-      {
-        "commit": "97f39d8bcd29c31307de093202b364768eda1710",
-        "author": "GateCross",
-        "date": "2026-07-30 21:44:52",
-        "message": "fix: 修正分组来源展开态误用灰蓝地面色"
       }
     ]
   }
