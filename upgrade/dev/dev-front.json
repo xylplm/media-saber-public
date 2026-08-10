@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608101435",
+    "items": [
+      {
+        "commit": "58e4a9dec9ca9361448dc5050d03e78bcb9ef214",
+        "author": "liurongjie",
+        "date": "2026-08-10 14:31:55",
+        "message": "chore(plugin): 移除订阅 MP 共享识别词图标残留"
+      },
+      {
+        "commit": "edc81aedc425a241638bf57d178e52e5f167d29e",
+        "author": "liurongjie",
+        "date": "2026-08-10 14:31:39",
+        "message": "feat(site): 签到任务页增加成功/失败筛选"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608091810",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-08-03 14:25:17",
         "message": "fix(perf): fix TimerManager memory growth and RoutePriorityService stale state"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608012351",
-    "items": [
-      {
-        "commit": "7f7b02fa8fdcc2b97e204df89ccb0dbb08504b10",
-        "author": "liurongjie",
-        "date": "2026-08-01 23:38:41",
-        "message": "feat(site): 添加清空功能并优化弹窗高度计算"
       }
     ]
   }

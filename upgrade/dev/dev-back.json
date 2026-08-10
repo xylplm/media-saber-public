@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608101435",
+    "items": [
+      {
+        "commit": "5d87e26641a9a014f719886b26b7a276cff5ecfd",
+        "author": "liurongjie",
+        "date": "2026-08-10 14:31:57",
+        "message": "chore(plugin): 移除已下线的订阅 MP 共享识别词表单残留"
+      },
+      {
+        "commit": "78cae7bd52827d25cafa435d104dd20999bea5a3",
+        "author": "liurongjie",
+        "date": "2026-08-10 14:31:38",
+        "message": "feat(site): 签到记录支持按成功/失败筛选"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608101145",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "GateCross",
         "date": "2026-08-07 10:35:03",
         "message": "fix: 修正刷流插件限速问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608062236",
-    "items": [
-      {
-        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
-        "author": "GateCross",
-        "date": "2026-08-06 22:35:58",
-        "message": "feat: 云整理增加保留原文件名功能"
       }
     ]
   }
