@@ -1,345 +1,153 @@
 [
   {
-    "version": "DEV_202607211354",
+    "version": "DEV_202608101435",
     "items": [
       {
-        "commit": "478218b7d44afb559fc27467f5cb6c90166bab3c",
+        "commit": "58e4a9dec9ca9361448dc5050d03e78bcb9ef214",
         "author": "liurongjie",
-        "date": "2026-07-21 13:50:50",
-        "message": "style(assets): 更新插件图标SVG文件样式"
+        "date": "2026-08-10 14:31:55",
+        "message": "chore(plugin): 移除订阅 MP 共享识别词图标残留"
       },
       {
-        "commit": "6f37a3d17797e82155759b94d6b45d6cde82781d",
+        "commit": "edc81aedc425a241638bf57d178e52e5f167d29e",
         "author": "liurongjie",
-        "date": "2026-07-21 12:40:43",
-        "message": "feat(media-server): 为音乐播放统计添加曲目标题格式化功能"
-      },
-      {
-        "commit": "58a8e56f3de32fce951718b0a4b0716df7ba79b4",
-        "author": "xylplm",
-        "date": "2026-07-21 12:38:57",
-        "message": "feat ✨: 界面风格玻璃与背景壁纸自定义"
+        "date": "2026-08-10 14:31:39",
+        "message": "feat(site): 签到任务页增加成功/失败筛选"
       }
     ]
   },
   {
-    "version": "DEV_202607202251",
+    "version": "DEV_202608091810",
     "items": [
       {
-        "commit": "b0b9d47700329a7b81bbf93febf32646277d1fac",
-        "author": "xylplm",
-        "date": "2026-07-20 22:39:21",
-        "message": "refactor 🔁: 工作台按卡片拆分并移除已迁入废弃小部件"
-      },
-      {
-        "commit": "ba1ef3b27b2bf963d887994c08ea025a42faf013",
-        "author": "xylplm",
-        "date": "2026-07-20 20:03:32",
-        "message": "feat ✨: 首页工作台布局与定制预览重构"
-      },
-      {
-        "commit": "213a93c789e8c1cf6b63c29a2743687460e02458",
-        "author": "xylplm",
-        "date": "2026-07-20 18:28:12",
-        "message": "fix 🐛: 首页小部件加载与失败态统一为 cm-no-data"
-      },
-      {
-        "commit": "8a93465b249cf4fd209d2431eb84a7ca89310359",
-        "author": "xylplm",
-        "date": "2026-07-20 18:26:17",
-        "message": "feat ✨: 精简首页交互并优化工作台可读性"
-      },
-      {
-        "commit": "2c1d2b65fa94b586de78edcd4dba59d07176ac97",
-        "author": "xylplm",
-        "date": "2026-07-20 17:47:22",
-        "message": "feat ✨: 首页天序工作台重构与部件配置化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202239",
-    "items": [
-      {
-        "commit": "6fc9dd4540be00e48b5cd70cfad44e97ba783f68",
+        "commit": "bd33bd7b161da5019d05a39bf00657b4ec0a8cb4",
         "author": "liurongjie",
-        "date": "2026-07-20 22:37:33",
-        "message": "style(assets): 更新插件图标以改进视觉设计"
-      },
+        "date": "2026-08-09 18:06:57",
+        "message": "fix(ui): 修复 iOS 图标不显示并优化服务配置按钮样式"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202608081458",
+    "items": [
       {
-        "commit": "b078bdfa223496a96987c8b4ae4b7dfaa63f2c5b",
+        "commit": "fca338ab81590a9255a4e064ec4513c65d7d104d",
         "author": "liurongjie",
-        "date": "2026-07-20 22:04:35",
-        "message": "style: refresh Plex plugin icons"
+        "date": "2026-08-08 14:57:36",
+        "message": "feat(workbench): 最近入库改为消费 overview 内联数据"
       }
     ]
   },
   {
-    "version": "DEV_202607201316",
+    "version": "DEV_202608081238",
     "items": [
       {
-        "commit": "d71b46458a910c5d912215001eba0b6095201837",
+        "commit": "ec98f4d8bfa0278849a389255eef316b8d9b047e",
         "author": "liurongjie",
-        "date": "2026-07-20 13:13:49",
-        "message": "feat: add music filter to play stats"
+        "date": "2026-08-08 01:50:07",
+        "message": "feat(workbench): 最近入库展示季集与封面"
       }
     ]
   },
   {
-    "version": "DEV_202607180008",
+    "version": "DEV_202608080040",
     "items": [
       {
-        "commit": "e79019f8a583e16aa8965d363bff6ee316737ee0",
-        "author": "xylplm",
-        "date": "2026-07-18 00:06:49",
-        "message": "feat ✨: 搜索任务失败态展示与空态文案对齐"
+        "commit": "44ab7140748a9ae1fd694665079bd0f21d80e644",
+        "author": "liurongjie",
+        "date": "2026-08-08 00:33:37",
+        "message": "style(workbench): 优化工作台库卡片样式和布局"
+      },
+      {
+        "commit": "0bedf9f162e19306ff2b07aa816b27eb2416c73f",
+        "author": "liurongjie",
+        "date": "2026-08-08 00:20:50",
+        "message": "feat: 工作台展示最近入库，并修正云端文件列表高度"
+      },
+      {
+        "commit": "c431d94c98d23fb3fe43e1fc9b196f94b83a6809",
+        "author": "liurongjie",
+        "date": "2026-08-08 00:06:40",
+        "message": "style: 美化工作台与同步数据卡片，优化日志移动端筛选布局"
+      },
+      {
+        "commit": "353c46ca75983672ab58ca7d05ad666f6eb1ca49",
+        "author": "liurongjie",
+        "date": "2026-08-07 14:14:39",
+        "message": "fix: 调整系统日志分页行数选项"
       }
     ]
   },
   {
-    "version": "DEV_202607172203",
+    "version": "DEV_202608062236",
     "items": [
       {
-        "commit": "940f0995134c5966cf52597e3aa5f60fd272f76e",
-        "author": "xylplm",
-        "date": "2026-07-17 22:01:47",
-        "message": "refactor 🔁: 修仙秘籍去掉独立拨序手柄改整卡拖拽"
-      },
-      {
-        "commit": "fca35ffa238d778de7b3cc00a475edebfbaa1607",
-        "author": "xylplm",
-        "date": "2026-07-17 21:59:00",
-        "message": "feat ✨: 优化修仙秘籍与秘术宝阁卡片交互与视觉"
-      },
-      {
-        "commit": "10e2c52e237ea71f4a5b6426b3471af9f66de8a7",
-        "author": "xylplm",
-        "date": "2026-07-17 21:44:12",
-        "message": "refactor 🔁: 统一页头间距与媒体库同步数据视觉规范"
-      },
-      {
-        "commit": "66f2423afb68e4dd5a6ed37725c7d84f83442a8b",
-        "author": "xylplm",
-        "date": "2026-07-17 21:13:56",
-        "message": "feat ✨: 优化我的媒体库页交互与响应式工作台"
-      },
-      {
-        "commit": "d4952d73b9e6cd881439ea482450af63b7bc746b",
-        "author": "xylplm",
-        "date": "2026-07-17 21:06:01",
-        "message": "feat ✨: 新增同步数据工作台并承接媒体库同步能力"
-      },
-      {
-        "commit": "05881e1bcd4194e834602a57d8561c6c62210ece",
-        "author": "xylplm",
-        "date": "2026-07-17 18:43:16",
-        "message": "fix 🐛: 同步历史改用 cmInfiniteScroll 触底分页"
-      },
-      {
-        "commit": "a9309362d0f5923b6c9647a71163daaa39221407",
-        "author": "xylplm",
-        "date": "2026-07-17 17:49:58",
-        "message": "fix 🐛: 同步历史媒体数与触底分页并补返回刷新"
-      },
-      {
-        "commit": "cd805f4ffbde511627d475db7ef3dd69e216d09b",
-        "author": "xylplm",
-        "date": "2026-07-17 17:30:42",
-        "message": "feat ✨: 同步历史卡片信息精简与详情字段补全"
-      },
-      {
-        "commit": "328671304ee7a2507e9b11e5f9ab6d3c4af48191",
-        "author": "xylplm",
-        "date": "2026-07-17 16:59:45",
-        "message": "feat ✨: 同步历史卡片精简并将路径详情改为弹窗"
-      },
-      {
-        "commit": "3f8fa526026b8af8bccf67c4f1aea5068dd259fa",
-        "author": "xylplm",
-        "date": "2026-07-17 16:38:43",
-        "message": "feat ✨: 媒体同步历史改为响应式卡片工作台"
+        "commit": "9165e92a6b2451396a571411c958da802309d076",
+        "author": "GateCross",
+        "date": "2026-08-06 22:35:38",
+        "message": "feat: 云整理添加保留原文件名选项以支持文件名保留功能"
       }
     ]
   },
   {
-    "version": "DEV_202607171522",
+    "version": "DEV_202608061840",
     "items": [
       {
-        "commit": "d31b537d3695e2b16b850e41a5e33586f4f669f3",
-        "author": "xylplm",
-        "date": "2026-07-17 15:14:36",
-        "message": "feat ✨: 手动应用字幕时对语言不匹配做强化确认"
-      },
-      {
-        "commit": "d115d7a3fa7efcf59fe003b0520e027b8c431178",
-        "author": "xylplm",
-        "date": "2026-07-17 14:51:28",
-        "message": "提交push"
-      },
-      {
-        "commit": "57562749dce6aa52a1b177e11f136dfc264d4b33",
-        "author": "xylplm",
-        "date": "2026-07-17 11:33:37",
-        "message": "feat ✨: 总览路径异常下钻与巡检清单路径焦点"
-      },
-      {
-        "commit": "cd01b07802e69b51624c98d7663b6f4acd328c96",
-        "author": "xylplm",
-        "date": "2026-07-17 11:24:27",
-        "message": "feat ✨: 巡检扫描清单路径不可读时展示媒体路径"
+        "commit": "14a5e97d9bf732e84bb34e5e47f537ca1280073f",
+        "author": "liurongjie",
+        "date": "2026-08-06 17:59:39",
+        "message": "fix: 已下载页筛选后列表未替换导致内容不更新"
       }
     ]
   },
   {
-    "version": "DEV_202607171011",
+    "version": "DEV_202608051053",
     "items": [
       {
-        "commit": "d622385821a39f59bc912d441c3c79560a70a9fd",
-        "author": "xylplm",
-        "date": "2026-07-17 09:48:18",
-        "message": "feat ✨: 字幕任务详情支持关闭自动补齐与路径诊断"
+        "commit": "7b3639629867f8474f839fe07742936ac9dee59c",
+        "author": "liurongjie",
+        "date": "2026-08-04 23:20:54",
+        "message": "feat: add clear sign-in history action"
       },
       {
-        "commit": "0b2abd0ce5e68a9c5b6f5ec7f33599efc101b364",
-        "author": "xylplm",
-        "date": "2026-07-17 00:46:42",
-        "message": "fix 🐛: 秘术宝阁组件改 standalone 并修复 unit-test 模板编译"
+        "commit": "2af3a64677a4ba104bbf818069af5b7698c2e760",
+        "author": "liurongjie",
+        "date": "2026-08-04 23:12:42",
+        "message": "fix: enable mobile playback history scrolling"
+      },
+      {
+        "commit": "fd052260b33398767aaafed4c2a6bb0141d078cd",
+        "author": "liurongjie",
+        "date": "2026-08-04 19:40:32",
+        "message": "fix: improve music sync history icon"
       }
     ]
   },
   {
-    "version": "DEV_202607170007",
+    "version": "DEV_202608032153",
     "items": [
       {
-        "commit": "6b73e2f59ff6fa852c7fab60f36ee07e084fbe70",
-        "author": "xylplm",
-        "date": "2026-07-17 00:00:13",
-        "message": "chore 🔧: 前端统一代码格式化"
-      },
-      {
-        "commit": "c573aba9175e2f26422a4be6ff408c02e63e44c6",
-        "author": "xylplm",
-        "date": "2026-07-16 23:58:24",
-        "message": "fix 🐛: 修复前端 lint 报错与字幕中心定时器/finally 安全问题"
-      },
-      {
-        "commit": "d575c71ac2d217fb9b0bb34ddce274358c975558",
-        "author": "xylplm",
-        "date": "2026-07-16 23:53:39",
-        "message": "feat ✨: 字幕中心繁转简策略与批量条视口悬浮修复"
-      },
-      {
-        "commit": "e513b55abefecfdbb5e3e52f8f0c318649f97a21",
-        "author": "xylplm",
-        "date": "2026-07-16 22:52:06",
-        "message": "feat ✨: 字幕任务 skipped 状态按原因展示可读文案"
-      },
-      {
-        "commit": "4cbf8eea0defc1d9a987883a2753e5380531d6c0",
-        "author": "xylplm",
-        "date": "2026-07-16 22:47:36",
-        "message": "feat ✨: 字幕任务详情强化进行中态避免空候选误导"
-      },
-      {
-        "commit": "b748f42d4335f3b60a100715ab422fbff8d4faad",
-        "author": "xylplm",
-        "date": "2026-07-16 22:41:15",
-        "message": "fix 🐛: 字幕任务详情弹窗进行中状态自动刷新"
-      },
-      {
-        "commit": "b68a574253b0cd6f09336dcead51ec35e703c5ca",
-        "author": "xylplm",
-        "date": "2026-07-16 22:32:25",
-        "message": "chore 🔧: 移除文件列表未使用的字幕弹窗 imports"
-      },
-      {
-        "commit": "ff4ead77520c55dd83685298f3e859e5207af263",
-        "author": "xylplm",
-        "date": "2026-07-16 22:30:07",
-        "message": "fix 🐛: 字幕中心深链批次在列表外也能打开清单"
-      },
-      {
-        "commit": "b336f17c03e7fed6b5c43a70372769d3aa585818",
-        "author": "xylplm",
-        "date": "2026-07-16 22:23:57",
-        "message": "fix 🐛: 优化目录巡检跳转时序与批次展示"
-      },
-      {
-        "commit": "0e5f8754b3824613389d93174ff71cae5796c8e7",
-        "author": "xylplm",
-        "date": "2026-07-16 22:17:20",
-        "message": "feat ✨: 文件管理支持目录字幕巡检并可选跳转字幕中心"
-      },
-      {
-        "commit": "36305d5f9e0d1276ac758a2b0e93bad65a9084bc",
-        "author": "xylplm",
-        "date": "2026-07-16 22:05:06",
-        "message": "fix 🐛: 默认策略去掉启停开关并固定始终生效"
-      },
-      {
-        "commit": "46e6323079078a674b04f68eea37e8279903ed67",
-        "author": "xylplm",
-        "date": "2026-07-16 21:58:04",
-        "message": "fix 🐛: 优化文件字幕检查弹窗体验与失败态"
-      },
-      {
-        "commit": "eb1230cb29d860cdaa1806d914e0f5b6ece60957",
-        "author": "xylplm",
-        "date": "2026-07-16 21:43:24",
-        "message": "feat ✨: 文件管理增加字幕检查入口并复用任务详情"
-      },
-      {
-        "commit": "18693f19093c820e09008905f56a832a18968bb3",
-        "author": "xylplm",
-        "date": "2026-07-16 21:19:30",
-        "message": "feat ✨: 设置页置顶默认策略卡片并支持覆盖策略"
-      },
-      {
-        "commit": "25125b90afb8bac8505e93051968262917f1a68d",
-        "author": "xylplm",
-        "date": "2026-07-16 20:43:37",
-        "message": "feat ✨: 任务列表与批次清单展示本地字幕识别"
-      },
-      {
-        "commit": "20f1c3733ebca4d9f60a3c28d330deed7cc13482",
-        "author": "xylplm",
-        "date": "2026-07-16 20:39:04",
-        "message": "feat ✨: 内封已满足时澄清手动可选外挂意图"
-      },
-      {
-        "commit": "877bd9f78c3522c279b6cb41a1506f051f2c9ce0",
-        "author": "xylplm",
-        "date": "2026-07-16 20:30:53",
-        "message": "feat ✨: 字幕应用成功后即时刷新本地识别面板"
-      },
-      {
-        "commit": "828cea20c161dbc180c83c864baed3554396e2d7",
-        "author": "xylplm",
-        "date": "2026-07-16 20:23:34",
-        "message": "feat ✨: 字幕任务详情展示本地侧车识别面板"
-      },
-      {
-        "commit": "7c061158d64b3e163df58755501430f16bfb04a0",
-        "author": "xylplm",
-        "date": "2026-07-16 20:16:05",
-        "message": "fix 🐛: 字幕任务支持手动替换侧车并修正 STRM 文案"
+        "commit": "f77b55ed9d1c4f22064890e8f16eb347a737e58f",
+        "author": "GateCross",
+        "date": "2026-08-03 21:51:48",
+        "message": "fix: 优化手动整理预览弹窗移动端布局"
       }
     ]
   },
   {
-    "version": "DEV_202607161629",
+    "version": "DEV_202608032128",
     "items": [
       {
-        "commit": "48d8a08e5f71b078b2d4c60a5539561b049f4b93",
-        "author": "xylplm",
-        "date": "2026-07-16 16:23:53",
-        "message": "feat ✨: 字幕中心支持任务与批次历史清理交互"
+        "commit": "541abc57a867331b7ff64158d0ebdf9a4d9cd1d7",
+        "author": "GateCross",
+        "date": "2026-08-03 21:23:38",
+        "message": "feat: 增加手动整理预览组件"
       },
       {
-        "commit": "5e14786d9fdc746c77ea6334a07d404d7858b946",
+        "commit": "a650e3672e28411b1675c9309152c51b3de39ac0",
         "author": "xylplm",
-        "date": "2026-07-16 14:32:12",
-        "message": "feat ✨: 前端统一接入动态空状态与业务场景插画"
+        "date": "2026-08-03 14:25:17",
+        "message": "fix(perf): fix TimerManager memory growth and RoutePriorityService stale state"
       }
     ]
   }

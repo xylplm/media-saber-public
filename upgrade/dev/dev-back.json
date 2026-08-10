@@ -1,387 +1,165 @@
 [
   {
-    "version": "DEV_202607211354",
+    "version": "DEV_202608101435",
     "items": [
       {
-        "commit": "957f406da5773e87743a77332b95805199fc30f3",
-        "author": "xylplm",
-        "date": "2026-07-21 12:38:57",
-        "message": "feat ✨: 界面偏好同步与全站必应壁纸出图"
-      },
-      {
-        "commit": "46918fad562c4f864bd0f199dbacf5af32ed9cd9",
-        "author": "Jolc",
-        "date": "2026-07-21 09:11:58",
-        "message": "docs(skill): 支持临时获取上游源码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607210022",
-    "items": [
-      {
-        "commit": "2ea73dff736ddb928c4a34095209d26f7af735a8",
-        "author": "Jolc",
-        "date": "2026-07-21 00:18:59",
-        "message": "feat(mlist): 同步 OpenList 核心兼容修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202251",
-    "items": [
-      {
-        "commit": "957a6bc9b4769a223596c0f65093cc2692d1508b",
-        "author": "xylplm",
-        "date": "2026-07-20 22:39:30",
-        "message": "fix 🐛: NAS 百分比归一与 Netdata 失败快返回，优化工作台文案"
-      },
-      {
-        "commit": "06325191ed5ca4c885f27705f541f5e8840eefd0",
-        "author": "xylplm",
-        "date": "2026-07-20 20:03:32",
-        "message": "refactor 🔁: 首页部件列表取消必选注入"
-      },
-      {
-        "commit": "18bc66999b4fbd80b95831f18d5327e0cfac6629",
-        "author": "xylplm",
-        "date": "2026-07-20 18:26:15",
-        "message": "refactor 🔁: 工作台文案改为口语化，媒体库指标更易读"
-      },
-      {
-        "commit": "0abd09db8e522adf9bf1f7988bff5970351abb66",
-        "author": "xylplm",
-        "date": "2026-07-20 17:47:22",
-        "message": "feat ✨: 首页天序工作台聚合接口与 dashboard 部件规范化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607202239",
-    "items": [
-      {
-        "commit": "ad9af55f6c86549627b1c4e654b7d3696fb89293",
+        "commit": "5d87e26641a9a014f719886b26b7a276cff5ecfd",
         "author": "liurongjie",
-        "date": "2026-07-20 22:32:35",
-        "message": "feat(play): 完善音乐播放记录的标题格式化和数据处理"
+        "date": "2026-08-10 14:31:57",
+        "message": "chore(plugin): 移除已下线的订阅 MP 共享识别词表单残留"
       },
       {
-        "commit": "01f64114c0604b8163307dc81f956a4db147eb82",
+        "commit": "78cae7bd52827d25cafa435d104dd20999bea5a3",
         "author": "liurongjie",
-        "date": "2026-07-20 22:03:55",
-        "message": "feat: add Plex auto languages plugin"
+        "date": "2026-08-10 14:31:38",
+        "message": "feat(site): 签到记录支持按成功/失败筛选"
       }
     ]
   },
   {
-    "version": "DEV_202607201316",
+    "version": "DEV_202608101145",
     "items": [
       {
-        "commit": "be7940be191bad457a6859b85b51573de2906fd7",
+        "commit": "a5c467140f7011a63415432c0f39b2b5e5662a28",
         "author": "liurongjie",
-        "date": "2026-07-20 13:12:32",
-        "message": "docs: clarify music play stats filter"
-      },
-      {
-        "commit": "940fd80ad649188ba4d6f068aa65b5e07e22455c",
-        "author": "xylplm",
-        "date": "2026-07-19 00:37:22",
-        "message": "fix 🐛: 加固 Telegram 与飞书消息链路边界与稳定性"
-      },
-      {
-        "commit": "bf594a98a366dd0f1b75b83a21a2c288607f3c72",
-        "author": "xylplm",
-        "date": "2026-07-19 00:24:34",
-        "message": "fix 🐛: 飞书图文消息改为卡片发送，避免只见图丢失文字"
-      },
-      {
-        "commit": "717a21cb3ee9d84f81edfcf8f5921102049f351d",
-        "author": "xylplm",
-        "date": "2026-07-19 00:21:42",
-        "message": "feat ✨: Telegram 支持交互消息与列表按钮，并加固发送与长轮询"
-      },
-      {
-        "commit": "95bc47f19dc0179dce89cf0f900823b02e15b0c5",
-        "author": "GateCross",
-        "date": "2026-07-18 19:11:35",
-        "message": "fix 🐛: 修复 invites 签到"
-      },
-      {
-        "commit": "e4f0c4ad42c1a36719302bd80659ee0609771991",
-        "author": "xylplm",
-        "date": "2026-07-18 18:22:35",
-        "message": "fix 🐛: Emby 多路径库同步去重，修复 upsert 重复冲突"
-      },
-      {
-        "commit": "35a3db1d426d80b764a70e9ae7c23a36e64e2e7e",
-        "author": "GateCross",
-        "date": "2026-07-18 13:48:28",
-        "message": "chore 🔧: 将  Go 版本升级至 1.26.5"
-      },
-      {
-        "commit": "ce2cd5ad3b06d4c96757a6ab04ebfb7531879292",
-        "author": "GateCross",
-        "date": "2026-07-18 12:37:44",
-        "message": "fix 🐛: 媒体代理优先明确客户端标识并收紧 Live TV 透传"
-      },
-      {
-        "commit": "704774d980848716381bcc77d3ddc513a14e44c2",
-        "author": "xylplm",
-        "date": "2026-07-18 00:06:49",
-        "message": "fix 🐛: 搜索任务先落库并对齐失败收口与心跳"
-      },
-      {
-        "commit": "ef936362a4916088281ccd2211e40888e8df3ae3",
-        "author": "xylplm",
-        "date": "2026-07-17 16:38:37",
-        "message": "fix 🐛: 媒体同步项分页边界保护与 ILIKE 转义"
-      },
-      {
-        "commit": "ba87af1fd82c8677d9ba51f5ad534f26e83fce1d",
-        "author": "xylplm",
-        "date": "2026-07-17 14:59:54",
-        "message": "fix 🐛: 手动应用字幕不再按策略语言拦截"
-      },
-      {
-        "commit": "ab4c10fd3c7c7a1f18b861eb9c86878af10d4fbd",
-        "author": "xylplm",
-        "date": "2026-07-17 11:33:31",
-        "message": "feat ✨: 路径异常总览下钻与巡检清单 focus 筛选"
-      },
-      {
-        "commit": "fb6607eb3511f4dd4cb5f2b2ac73409e40d66113",
-        "author": "xylplm",
-        "date": "2026-07-17 11:24:22",
-        "message": "feat ✨: 巡检清单透出媒体路径与路径不可读说明"
-      },
-      {
-        "commit": "a655f2e424dcd9627a77bc247d0884101c6a2db6",
-        "author": "xylplm",
-        "date": "2026-07-17 10:35:43",
-        "message": "fix 🐛: 总览 pathUnwritable 排除默认策略路径巡检快照"
-      },
-      {
-        "commit": "0a66b9419dbfed975c41ff6915250be668a04fdd",
-        "author": "xylplm",
-        "date": "2026-07-17 09:47:56",
-        "message": "feat ✨: 字幕自动补齐抑制与任务路径诊断"
-      },
-      {
-        "commit": "eab4d5cab109f7a74d1af227e0e8ae43386b90ca",
-        "author": "xylplm",
-        "date": "2026-07-17 00:46:41",
-        "message": "test ✅: 字幕 convert 写前链路补 service 级单测与空依赖防护"
-      },
-      {
-        "commit": "03f832e26b43c8453191e4d13658ff80830f38f6",
-        "author": "xylplm",
-        "date": "2026-07-16 23:53:32",
-        "message": "feat ✨: 字幕策略支持繁体转简体写盘与评分准入"
-      },
-      {
-        "commit": "cf8df556a57a8a8bd7343ec057e829cea80c35f3",
-        "author": "xylplm",
-        "date": "2026-07-16 22:34:18",
-        "message": "fix 🐛: 默认策略启用修正写入 is_enabled 列"
-      },
-      {
-        "commit": "55b166eb5790853f7f58b09d0ac447f885f38e93",
-        "author": "xylplm",
-        "date": "2026-07-16 22:23:56",
-        "message": "fix 🐛: 修正目录字幕批次分页偏移并补边界单测"
-      },
-      {
-        "commit": "225cc38246bc24b52f72dbe83e9aee5e3a3e2fbe",
-        "author": "xylplm",
-        "date": "2026-07-16 22:17:22",
-        "message": "feat ✨: 字幕中心支持本地目录批量巡检批次"
-      },
-      {
-        "commit": "67f8c0ec08229a21bf35d55dea2bd59bcb7c85ea",
-        "author": "xylplm",
-        "date": "2026-07-16 22:05:05",
-        "message": "fix 🐛: 默认字幕策略始终启用并作为全局兜底"
-      },
-      {
-        "commit": "3842fdc7aa7f5b15fb52372e8f01527f3d2e3a9d",
-        "author": "xylplm",
-        "date": "2026-07-16 21:58:03",
-        "message": "fix 🐛: 加固本地路径字幕任务边界与幂等键"
-      },
-      {
-        "commit": "1a610a60a055f7f4d0131041c926f30fdb2d11dd",
-        "author": "xylplm",
-        "date": "2026-07-16 21:43:23",
-        "message": "feat ✨: 字幕中心支持本地文件路径检查与搜索任务"
-      },
-      {
-        "commit": "71d01db0e65cf626380abe70b2c2a55b6df4ee22",
-        "author": "xylplm",
-        "date": "2026-07-16 21:19:29",
-        "message": "feat ✨: 字幕中心支持全局默认策略并优先库覆盖"
-      },
-      {
-        "commit": "5413d137d0bcc7a90d79691f26352aba0b977329",
-        "author": "xylplm",
-        "date": "2026-07-16 20:43:36",
-        "message": "feat ✨: 字幕任务列表与批次清单透出本地识别"
-      },
-      {
-        "commit": "aba4d8c395e2ff367da7b46eebf0bf468bf37a46",
-        "author": "xylplm",
-        "date": "2026-07-16 20:39:05",
-        "message": "fix 🐛: 已有首选时手动搜索文案区分内封与外挂"
-      },
-      {
-        "commit": "cf4bd103e43a530e33482a817cbde7de71c24cc0",
-        "author": "xylplm",
-        "date": "2026-07-16 20:30:52",
-        "message": "fix 🐛: 字幕写入后立即固化最新侧车识别结果"
-      },
-      {
-        "commit": "2b2426c3b7ac5d861f15667eb0bb30b7b4b52a76",
-        "author": "xylplm",
-        "date": "2026-07-16 20:23:33",
-        "message": "feat ✨: 字幕任务详情返回本地侧车识别摘要"
-      },
-      {
-        "commit": "f301a202e26ea3587276a677107878bba6532e1c",
-        "author": "xylplm",
-        "date": "2026-07-16 20:16:04",
-        "message": "fix 🐛: 字幕中心支持 STRM 同目录侧车与手动替换"
-      },
-      {
-        "commit": "4bd9af4231731d1334aef563e1917e461fea9736",
-        "author": "xylplm",
-        "date": "2026-07-16 17:08:05",
-        "message": "feat ✨: 极空间同步阶段限流填充 MediaStreams"
-      },
-      {
-        "commit": "13d200af9093e7839d759d6e000234883a03fe45",
-        "author": "xylplm",
-        "date": "2026-07-16 16:23:33",
-        "message": "feat ✨: 字幕任务与巡检批次支持历史清理删除"
-      },
-      {
-        "commit": "c781625ca2faa7e0703034b20413d9eec61716ad",
-        "author": "xylplm",
-        "date": "2026-07-16 13:22:09",
-        "message": "fix 🐛: 字幕来源编辑回显 API Key 与 Cookie"
-      },
-      {
-        "commit": "532e3a750baeda94b3635e3dc245706eaae8ddf9",
-        "author": "xylplm",
-        "date": "2026-07-16 13:19:25",
-        "message": "fix 🐛: 修复 OpenSubtitles 登录 UA 并回显账号密码"
-      },
-      {
-        "commit": "a4c5fece28fd5477e2cade6e66afae324b07cc9e",
-        "author": "GateCross",
-        "date": "2026-07-16 12:00:05",
-        "message": "fix: 放开mnt"
-      },
-      {
-        "commit": "072df0985dfc28327f8c531d7e19e5a28a78b33e",
-        "author": "xylplm",
-        "date": "2026-07-16 11:47:20",
-        "message": "fix 🐛: OpenSubtitles 对齐 Bazarr 内置 API Key 与 UA"
-      },
-      {
-        "commit": "22b20cd5dcdd4b5634dc57b3ef44dfd6e1842522",
-        "author": "xylplm",
-        "date": "2026-07-16 10:52:32",
-        "message": "fix 🐛: 加固字幕来源检索评分与并行搜索链路"
-      },
-      {
-        "commit": "456d0c01daa25f41975dfd3d508d951aae6509b1",
-        "author": "xylplm",
-        "date": "2026-07-16 01:12:26",
-        "message": "fix 🐛: 切换迅雷字幕来源到官方 oracle 接口"
-      },
-      {
-        "commit": "04e5e5ac4c8920626617da90c88f2b63cb05797c",
-        "author": "xylplm",
-        "date": "2026-07-16 01:09:20",
-        "message": "fix 🐛: 修复字幕来源测试错误透传与批次估算 JSON 查询"
-      },
-      {
-        "commit": "fd7caf9b249423be53f7a20a0b74ba990a092c27",
-        "author": "xylplm",
-        "date": "2026-07-16 00:44:33",
-        "message": "fix 🐛: 修复站点最近活动时间被解析为未来的问题"
+        "date": "2026-08-10 11:40:59",
+        "message": "feat(btsite): 支持 NexusPHP attendance 验证码签到"
       }
     ]
   },
   {
-    "version": "DEV_202607201247",
+    "version": "DEV_202608090037",
     "items": [
       {
-        "commit": "66fe42d84d229a74c5fe20d9b4351ffae4a55dfa",
+        "commit": "1859839c8b46a789d9183cf63acd1134ee10dd08",
         "author": "liurongjie",
-        "date": "2026-07-20 11:57:38",
-        "message": "feat: support music in media library report"
+        "date": "2026-08-09 00:23:36",
+        "message": "chore(plugin): 去掉 Plex 自动音轨字幕 playing 完整消息日志"
       },
       {
-        "commit": "940fd80ad649188ba4d6f068aa65b5e07e22455c",
-        "author": "xylplm",
-        "date": "2026-07-19 00:37:22",
-        "message": "fix 🐛: 加固 Telegram 与飞书消息链路边界与稳定性"
+        "commit": "1d4b5513b8549c6549e5c72f726791bd317cb78a",
+        "author": "liurongjie",
+        "date": "2026-08-09 00:20:56",
+        "message": "fix(plex): 忽略 recentlyAdded 的 Rating 字段类型冲突"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202608082356",
+    "items": [
+      {
+        "commit": "84c53e6ba75b1e33d9851b22cf80cbcc5b24bca0",
+        "author": "liurongjie",
+        "date": "2026-08-08 23:54:01",
+        "message": "fix(plex): 清理未用 section recentlyAdded 并跳过已删除项"
       },
       {
-        "commit": "bf594a98a366dd0f1b75b83a21a2c288607f3c72",
-        "author": "xylplm",
-        "date": "2026-07-19 00:24:34",
-        "message": "fix 🐛: 飞书图文消息改为卡片发送，避免只见图丢失文字"
+        "commit": "dd87406b91c1e5bf34e6a59def24383e81561f7e",
+        "author": "liurongjie",
+        "date": "2026-08-08 23:50:42",
+        "message": "fix(plex): 工作台最近入库改回 hub type=1/2 合并"
       },
       {
-        "commit": "717a21cb3ee9d84f81edfcf8f5921102049f351d",
-        "author": "xylplm",
-        "date": "2026-07-19 00:21:42",
-        "message": "feat ✨: Telegram 支持交互消息与列表按钮，并加固发送与长轮询"
+        "commit": "835dc796d93eb9d9c2305516e62c2fae798d4e2e",
+        "author": "liurongjie",
+        "date": "2026-08-08 23:46:47",
+        "message": "fix(plex): 工作台最近入库按电影/剧集库合并取最近条目"
       }
     ]
   },
   {
-    "version": "DEV_202607181911",
+    "version": "DEV_202608081542",
     "items": [
       {
-        "commit": "95bc47f19dc0179dce89cf0f900823b02e15b0c5",
+        "commit": "49773d369e650fccf076c5460e3c7d8d3eb4d08a",
+        "author": "liurongjie",
+        "date": "2026-08-08 15:38:00",
+        "message": "feat(plex): 工作台最近入库改用 hubs 合并电影与剧集"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202608081458",
+    "items": [
+      {
+        "commit": "e717570eb925f39642cc6b96a7ccf1741f5e0b7f",
+        "author": "liurongjie",
+        "date": "2026-08-08 14:57:37",
+        "message": "feat(workbench): 最近入库并入 overview 并透出服务器入库时间"
+      },
+      {
+        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
         "author": "GateCross",
-        "date": "2026-07-18 19:11:35",
-        "message": "fix 🐛: 修复 invites 签到"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607181826",
-    "items": [
+        "date": "2026-08-07 10:35:03",
+        "message": "fix: 修正刷流插件限速问题"
+      },
       {
-        "commit": "e4f0c4ad42c1a36719302bd80659ee0609771991",
-        "author": "xylplm",
-        "date": "2026-07-18 18:22:35",
-        "message": "fix 🐛: Emby 多路径库同步去重，修复 upsert 重复冲突"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202607181352",
-    "items": [
-      {
-        "commit": "35a3db1d426d80b764a70e9ae7c23a36e64e2e7e",
+        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
         "author": "GateCross",
-        "date": "2026-07-18 13:48:28",
-        "message": "chore 🔧: 将  Go 版本升级至 1.26.5"
+        "date": "2026-08-06 22:35:58",
+        "message": "feat: 云整理增加保留原文件名功能"
+      },
+      {
+        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
+        "author": "GateCross",
+        "date": "2026-08-06 20:26:22",
+        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
       }
     ]
   },
   {
-    "version": "DEV_202607181238",
+    "version": "DEV_202608081238",
     "items": [
       {
-        "commit": "ce2cd5ad3b06d4c96757a6ab04ebfb7531879292",
+        "commit": "94e6dc2ff9d672f2521d5dcc5b988d6e1d55b003",
+        "author": "liurongjie",
+        "date": "2026-08-07 13:03:15",
+        "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202608080040",
+    "items": [
+      {
+        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
         "author": "GateCross",
-        "date": "2026-07-18 12:37:44",
-        "message": "fix 🐛: 媒体代理优先明确客户端标识并收紧 Live TV 透传"
+        "date": "2026-08-07 10:35:03",
+        "message": "fix: 修正刷流插件限速问题"
+      },
+      {
+        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
+        "author": "GateCross",
+        "date": "2026-08-06 22:35:58",
+        "message": "feat: 云整理增加保留原文件名功能"
+      },
+      {
+        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
+        "author": "GateCross",
+        "date": "2026-08-06 20:26:22",
+        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202608071305",
+    "items": [
+      {
+        "commit": "94e6dc2ff9d672f2521d5dcc5b988d6e1d55b003",
+        "author": "liurongjie",
+        "date": "2026-08-07 13:03:15",
+        "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202608071038",
+    "items": [
+      {
+        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
+        "author": "GateCross",
+        "date": "2026-08-07 10:35:03",
+        "message": "fix: 修正刷流插件限速问题"
       }
     ]
   }
