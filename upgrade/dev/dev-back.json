@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608101145",
+    "items": [
+      {
+        "commit": "a5c467140f7011a63415432c0f39b2b5e5662a28",
+        "author": "liurongjie",
+        "date": "2026-08-10 11:40:59",
+        "message": "feat(btsite): 支持 NexusPHP attendance 验证码签到"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608090037",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-08-06 22:35:58",
         "message": "feat: 云整理增加保留原文件名功能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608062027",
-    "items": [
-      {
-        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
-        "author": "GateCross",
-        "date": "2026-08-06 20:26:22",
-        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
       }
     ]
   }
