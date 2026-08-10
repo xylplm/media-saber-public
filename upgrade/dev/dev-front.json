@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608101805",
+    "items": [
+      {
+        "commit": "5776a6fa254f6ad02157081415bd13e05ede7d7c",
+        "author": "liurongjie",
+        "date": "2026-08-10 17:56:04",
+        "message": "fix(ui): 本地文件管理转移文案改为整理并补目录入口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608101626",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-04 19:40:32",
         "message": "fix: improve music sync history icon"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608032153",
-    "items": [
-      {
-        "commit": "f77b55ed9d1c4f22064890e8f16eb347a737e58f",
-        "author": "GateCross",
-        "date": "2026-08-03 21:51:48",
-        "message": "fix: 优化手动整理预览弹窗移动端布局"
       }
     ]
   }
