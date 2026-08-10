@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608101626",
+    "items": [
+      {
+        "commit": "b6aa169905c0dc602470d8047b7f3bd3e490094b",
+        "author": "liurongjie",
+        "date": "2026-08-10 16:24:04",
+        "message": "feat(mlist): 同步 OpenList 并新增光鸭云盘驱动"
+      },
+      {
+        "commit": "e3661c7e4a33fd9c82f9ee326c68ae2f876cb616",
+        "author": "liurongjie",
+        "date": "2026-08-10 16:15:00",
+        "message": "fix(site): 签到筛选兼容 result=all 并统一 code IN 写法"
+      },
+      {
+        "commit": "aaf795ef3f7195c74aa1ceb802a20edce1d1e0a9",
+        "author": "liurongjie",
+        "date": "2026-08-10 15:36:29",
+        "message": "fix(recogword): 修复共享识别词合并后启用与类型丢失导致识别失效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608101435",
     "items": [
       {
@@ -149,17 +172,6 @@
         "author": "liurongjie",
         "date": "2026-08-07 13:03:15",
         "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608071038",
-    "items": [
-      {
-        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
-        "author": "GateCross",
-        "date": "2026-08-07 10:35:03",
-        "message": "fix: 修正刷流插件限速问题"
       }
     ]
   }

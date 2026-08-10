@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608101626",
+    "items": [
+      {
+        "commit": "07ea0b0c0057fb997f243fe1a987518bc28b04a5",
+        "author": "liurongjie",
+        "date": "2026-08-10 16:24:04",
+        "message": "feat(cloud-storage): 补充光鸭云盘驱动文案与图标"
+      },
+      {
+        "commit": "229c15f5f47d71da597ec56d9662b66889d76de5",
+        "author": "liurongjie",
+        "date": "2026-08-10 16:15:00",
+        "message": "fix(site): 签到结果筛选改用 all 避免空串 toggle 错位"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608101435",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "GateCross",
         "date": "2026-08-03 21:51:48",
         "message": "fix: 优化手动整理预览弹窗移动端布局"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608032128",
-    "items": [
-      {
-        "commit": "541abc57a867331b7ff64158d0ebdf9a4d9cd1d7",
-        "author": "GateCross",
-        "date": "2026-08-03 21:23:38",
-        "message": "feat: 增加手动整理预览组件"
-      },
-      {
-        "commit": "a650e3672e28411b1675c9309152c51b3de39ac0",
-        "author": "xylplm",
-        "date": "2026-08-03 14:25:17",
-        "message": "fix(perf): fix TimerManager memory growth and RoutePriorityService stale state"
       }
     ]
   }
