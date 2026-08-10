@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608101733",
+    "items": [
+      {
+        "commit": "da10c8a4d707827297f41dfe322fd50e2432e492",
+        "author": "liurongjie",
+        "date": "2026-08-10 17:32:44",
+        "message": "fix(torrent): 修复相同种子其他来源只保留最后一个"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608101626",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-08-06 20:26:22",
         "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608071305",
-    "items": [
-      {
-        "commit": "94e6dc2ff9d672f2521d5dcc5b988d6e1d55b003",
-        "author": "liurongjie",
-        "date": "2026-08-07 13:03:15",
-        "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
       }
     ]
   }
