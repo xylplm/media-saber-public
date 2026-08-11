@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608111241",
+    "items": [
+      {
+        "commit": "2c01a801f8e9845015c290fbe19b68662f7264a3",
+        "author": "liurongjie",
+        "date": "2026-08-11 09:43:21",
+        "message": "fix(site): 签到筛选切换取消进行中的列表请求"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608101805",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "liurongjie",
         "date": "2026-08-06 17:59:39",
         "message": "fix: 已下载页筛选后列表未替换导致内容不更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608051053",
-    "items": [
-      {
-        "commit": "7b3639629867f8474f839fe07742936ac9dee59c",
-        "author": "liurongjie",
-        "date": "2026-08-04 23:20:54",
-        "message": "feat: add clear sign-in history action"
-      },
-      {
-        "commit": "2af3a64677a4ba104bbf818069af5b7698c2e760",
-        "author": "liurongjie",
-        "date": "2026-08-04 23:12:42",
-        "message": "fix: enable mobile playback history scrolling"
-      },
-      {
-        "commit": "fd052260b33398767aaafed4c2a6bb0141d078cd",
-        "author": "liurongjie",
-        "date": "2026-08-04 19:40:32",
-        "message": "fix: improve music sync history icon"
       }
     ]
   }
