@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202608112333",
+    "items": [
+      {
+        "commit": "c5a9e9da9b2cc2cb780ff330d8a49aacd83d9d5a",
+        "author": "xylplm",
+        "date": "2026-08-11 22:24:35",
+        "message": "feat ✨: 目录同步、手动批量整理配置增加媒体文件最小大小过滤项"
+      },
+      {
+        "commit": "cd3538268f7eaf828107450b21685bc3e595deff",
+        "author": "xylplm",
+        "date": "2026-08-11 21:48:28",
+        "message": "feat ✨: 云存储-媒体整理配置增加媒体文件大小过滤项，补充目标目录标签和未识别目录帮助提示"
+      },
+      {
+        "commit": "593328af20921b438bed534d830b66e25db9850b",
+        "author": "xylplm",
+        "date": "2026-08-11 21:29:43",
+        "message": "feat ✨: 云存储-Strm生成配置增加媒体文件大小过滤，目标目录标签/路径按识别重命名联动显隐并自动校验必填"
+      },
+      {
+        "commit": "3bdf848c5558f34c4da94d4eb1b3a0523ffbac86",
+        "author": "xylplm",
+        "date": "2026-08-11 20:45:07",
+        "message": "fix 🐛: 优化配置页与定时任务提示文案"
+      },
+      {
+        "commit": "31c68f1fe4a119c8fbb1d93cf471de1c0a1b992d",
+        "author": "xylplm",
+        "date": "2026-08-11 20:36:20",
+        "message": "feat ✨: TMDB识别词生成支持剧集定时追更"
+      },
+      {
+        "commit": "5d834f97109024a28fcb6ab45c17e05133f44726",
+        "author": "xylplm",
+        "date": "2026-08-11 17:29:55",
+        "message": "fix 🐛: 本地空词组禁用云端推送"
+      },
+      {
+        "commit": "a980f485f732a805be14f334ced6a4bbfc9bc3f4",
+        "author": "xylplm",
+        "date": "2026-08-11 17:25:07",
+        "message": "feat ✨: 自定义识别词支持批量移动和合并词组"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608111627",
     "items": [
       {
@@ -455,17 +502,6 @@
         "author": "liurongjie",
         "date": "2026-08-07 14:14:39",
         "message": "fix: 调整系统日志分页行数选项"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608062236",
-    "items": [
-      {
-        "commit": "9165e92a6b2451396a571411c958da802309d076",
-        "author": "GateCross",
-        "date": "2026-08-06 22:35:38",
-        "message": "feat: 云整理添加保留原文件名选项以支持文件名保留功能"
       }
     ]
   }

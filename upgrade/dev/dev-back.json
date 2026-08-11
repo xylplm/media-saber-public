@@ -1,5 +1,64 @@
 [
   {
+    "version": "DEV_202608112333",
+    "items": [
+      {
+        "commit": "d6af664b8aba043db308ec3ee37aa82cbab3bd3a",
+        "author": "liurongjie",
+        "date": "2026-08-11 23:32:14",
+        "message": "fix 🐛: 拦截 Plex strm 的 transcode decision，避免手机无法创建回放会话"
+      },
+      {
+        "commit": "eee083cd1c693af70d2ec1ce0d3cbb913cd3dff9",
+        "author": "xylplm",
+        "date": "2026-08-11 22:24:35",
+        "message": "feat ✨: 目录同步、手动批量整理新增媒体文件最小大小过滤，小体积媒体文件自动跳过"
+      },
+      {
+        "commit": "da6fdfff74fbb30089ca5a1128ee0a9e3a050baf",
+        "author": "xylplm",
+        "date": "2026-08-11 21:48:17",
+        "message": "feat ✨: 云存储-媒体整理新增媒体文件大小过滤，小体积媒体文件自动跳过"
+      },
+      {
+        "commit": "5a741ebde2faba38b3dca5a8a7fcfa87f3b0ed54",
+        "author": "xylplm",
+        "date": "2026-08-11 21:29:43",
+        "message": "feat ✨: 云存储-Strm生成新增媒体文件大小过滤，小体积媒体文件自动跳过不生成strm"
+      },
+      {
+        "commit": "af63dda73e13b9d7d585cd3ced6acdef0aa87ba6",
+        "author": "xylplm",
+        "date": "2026-08-11 20:45:07",
+        "message": "fix 🐛: 优化定时任务输入提示文案"
+      },
+      {
+        "commit": "8471f6425c281d732fbc27247dc16b96ae898915",
+        "author": "xylplm",
+        "date": "2026-08-11 20:36:20",
+        "message": "feat ✨: TMDB识别词生成支持剧集定时追更"
+      },
+      {
+        "commit": "7b32d0d4fd71e8812ed36b48d34220d9d9ddd089",
+        "author": "xylplm",
+        "date": "2026-08-11 18:00:20",
+        "message": "fix 🐛: 优化 TMDB 识别词词组元数据写入"
+      },
+      {
+        "commit": "4c81b1377631d1fa2f7ad4490dba92d946beb387",
+        "author": "xylplm",
+        "date": "2026-08-11 17:32:23",
+        "message": "fix 🐛: 调整秘术插件分类"
+      },
+      {
+        "commit": "c22729019e3ef8a170b0eef01a5ae28ff772b706",
+        "author": "xylplm",
+        "date": "2026-08-11 17:25:07",
+        "message": "feat ✨: 本地识别词支持移动和合并词组"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608111627",
     "items": [
       {
@@ -353,17 +412,6 @@
         "author": "GateCross",
         "date": "2026-08-06 20:26:22",
         "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608081238",
-    "items": [
-      {
-        "commit": "94e6dc2ff9d672f2521d5dcc5b988d6e1d55b003",
-        "author": "liurongjie",
-        "date": "2026-08-07 13:03:15",
-        "message": "debug(plugin): 添加 Plex 自动音轨字幕调试日志"
       }
     ]
   }
