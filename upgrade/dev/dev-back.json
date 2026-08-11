@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608120014",
+    "items": [
+      {
+        "commit": "4ec4a9d4c34f9a65aa3d4894a7691520c1e35100",
+        "author": "liurongjie",
+        "date": "2026-08-12 00:13:45",
+        "message": "fix 🐛: 优化 Plex Web strm 播放，避免清单 302 导致 s1002"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608112333",
     "items": [
       {
@@ -383,35 +394,6 @@
         "author": "liurongjie",
         "date": "2026-08-08 15:38:00",
         "message": "feat(plex): 工作台最近入库改用 hubs 合并电影与剧集"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608081458",
-    "items": [
-      {
-        "commit": "e717570eb925f39642cc6b96a7ccf1741f5e0b7f",
-        "author": "liurongjie",
-        "date": "2026-08-08 14:57:37",
-        "message": "feat(workbench): 最近入库并入 overview 并透出服务器入库时间"
-      },
-      {
-        "commit": "a2ddc4a54b75a7cdbf955e25e29d4dacc49d2c2a",
-        "author": "GateCross",
-        "date": "2026-08-07 10:35:03",
-        "message": "fix: 修正刷流插件限速问题"
-      },
-      {
-        "commit": "f831294d1967fcffba2d9448c020b6ebff749d1b",
-        "author": "GateCross",
-        "date": "2026-08-06 22:35:58",
-        "message": "feat: 云整理增加保留原文件名功能"
-      },
-      {
-        "commit": "ccee55a811165abd2147d37d6a670c442e61cc42",
-        "author": "GateCross",
-        "date": "2026-08-06 20:26:22",
-        "message": "feat: 规范化 ed2k 链接中的文件名，替换空格为点"
       }
     ]
   }
