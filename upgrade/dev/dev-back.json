@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608122252",
+    "items": [
+      {
+        "commit": "a397859620cfae363562178ffae1d057b287c52d",
+        "author": "liurongjie",
+        "date": "2026-08-12 22:49:00",
+        "message": "chore: tidy go.sum after reverting pure Go remux deps"
+      },
+      {
+        "commit": "0552d4961878dd93edcb40de8a40c2acbda97e41",
+        "author": "liurongjie",
+        "date": "2026-08-12 22:44:20",
+        "message": "Revert \"fix 🐛: 安卓非 strm parts 透传 PMS，strm 改用纯 Go remux\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121837",
     "items": [
       {
@@ -371,17 +388,6 @@
         "author": "xylplm",
         "date": "2026-08-05 18:28:13",
         "message": "feat 🤖: 完善智能体交互与多协议模型支持"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608101733",
-    "items": [
-      {
-        "commit": "da10c8a4d707827297f41dfe322fd50e2432e492",
-        "author": "liurongjie",
-        "date": "2026-08-10 17:32:44",
-        "message": "fix(torrent): 修复相同种子其他来源只保留最后一个"
       }
     ]
   }
