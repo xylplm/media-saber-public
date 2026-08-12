@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608121327",
+    "items": [
+      {
+        "commit": "9634aee8b2548c286feb7a13a6362ffc06a5e2da",
+        "author": "liurongjie",
+        "date": "2026-08-12 13:26:17",
+        "message": "fix 🐛: 修复安卓 strm 假 HLS 续播异常，start.m3u8 走 Direct Play 反代"
+      },
+      {
+        "commit": "2203f87239b75099eab3d6dd5bbd9ce21a464a01",
+        "author": "liurongjie",
+        "date": "2026-08-12 12:50:12",
+        "message": "fix 🐛: 优化 iOS Plex strm 播放，伪造 Direct Play 并对齐非 strm 302"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121005",
     "items": [
       {
@@ -383,29 +400,6 @@
         "author": "liurongjie",
         "date": "2026-08-09 00:20:56",
         "message": "fix(plex): 忽略 recentlyAdded 的 Rating 字段类型冲突"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608082356",
-    "items": [
-      {
-        "commit": "84c53e6ba75b1e33d9851b22cf80cbcc5b24bca0",
-        "author": "liurongjie",
-        "date": "2026-08-08 23:54:01",
-        "message": "fix(plex): 清理未用 section recentlyAdded 并跳过已删除项"
-      },
-      {
-        "commit": "dd87406b91c1e5bf34e6a59def24383e81561f7e",
-        "author": "liurongjie",
-        "date": "2026-08-08 23:50:42",
-        "message": "fix(plex): 工作台最近入库改回 hub type=1/2 合并"
-      },
-      {
-        "commit": "835dc796d93eb9d9c2305516e62c2fae798d4e2e",
-        "author": "liurongjie",
-        "date": "2026-08-08 23:46:47",
-        "message": "fix(plex): 工作台最近入库按电影/剧集库合并取最近条目"
       }
     ]
   }
