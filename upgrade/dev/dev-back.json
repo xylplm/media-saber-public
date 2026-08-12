@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608121607",
+    "items": [
+      {
+        "commit": "7b97e695d242b8a27a14b21d9c4105c2cc76eee7",
+        "author": "liurongjie",
+        "date": "2026-08-12 15:18:00",
+        "message": "fix 🐛: 修复 Web 白名单 mkv 与安卓 HLS 分片播放"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121410",
     "items": [
       {
@@ -383,17 +394,6 @@
         "author": "liurongjie",
         "date": "2026-08-10 14:31:38",
         "message": "feat(site): 签到记录支持按成功/失败筛选"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608101145",
-    "items": [
-      {
-        "commit": "a5c467140f7011a63415432c0f39b2b5e5662a28",
-        "author": "liurongjie",
-        "date": "2026-08-10 11:40:59",
-        "message": "feat(btsite): 支持 NexusPHP attendance 验证码签到"
       }
     ]
   }
