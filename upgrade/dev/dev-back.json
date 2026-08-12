@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608121806",
+    "items": [
+      {
+        "commit": "c48d8ed7e7252e50688398188c699ce184073f87",
+        "author": "liurongjie",
+        "date": "2026-08-12 18:05:30",
+        "message": "fix 🐛: 安卓非 strm parts 透传 PMS，strm 改用纯 Go remux"
+      },
+      {
+        "commit": "3b58fc63b79c5ead89422c6d8d0e4b90fb2f94b0",
+        "author": "xylplm",
+        "date": "2026-08-12 16:31:04",
+        "message": "fix 🐛: 日志配置默认抑制高频诊断输出"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121607",
     "items": [
       {
@@ -377,23 +394,6 @@
         "author": "liurongjie",
         "date": "2026-08-10 15:36:29",
         "message": "fix(recogword): 修复共享识别词合并后启用与类型丢失导致识别失效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608101435",
-    "items": [
-      {
-        "commit": "5d87e26641a9a014f719886b26b7a276cff5ecfd",
-        "author": "liurongjie",
-        "date": "2026-08-10 14:31:57",
-        "message": "chore(plugin): 移除已下线的订阅 MP 共享识别词表单残留"
-      },
-      {
-        "commit": "78cae7bd52827d25cafa435d104dd20999bea5a3",
-        "author": "liurongjie",
-        "date": "2026-08-10 14:31:38",
-        "message": "feat(site): 签到记录支持按成功/失败筛选"
       }
     ]
   }

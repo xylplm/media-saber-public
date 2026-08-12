@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608121806",
+    "items": [
+      {
+        "commit": "88b4fb57a2123666a190b5aeddc1c6d67023b809",
+        "author": "xylplm",
+        "date": "2026-08-12 16:50:24",
+        "message": "fix 🐛: 识别词日志开启前增加风险确认"
+      },
+      {
+        "commit": "279fb671eec82b150a1ab5c3586ba5ba9265b943",
+        "author": "xylplm",
+        "date": "2026-08-12 16:31:04",
+        "message": "feat ✨: 基础配置集中管理高频日志开关"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121005",
     "items": [
       {
@@ -473,17 +490,6 @@
         "author": "liurongjie",
         "date": "2026-08-08 14:57:36",
         "message": "feat(workbench): 最近入库改为消费 overview 内联数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608081238",
-    "items": [
-      {
-        "commit": "ec98f4d8bfa0278849a389255eef316b8d9b047e",
-        "author": "liurongjie",
-        "date": "2026-08-08 01:50:07",
-        "message": "feat(workbench): 最近入库展示季集与封面"
       }
     ]
   }
