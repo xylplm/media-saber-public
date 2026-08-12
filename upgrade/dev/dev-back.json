@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608121837",
+    "items": [
+      {
+        "commit": "9c8e905ea944ae98048e75f534c15e1a9e07ded7",
+        "author": "liurongjie",
+        "date": "2026-08-12 18:36:58",
+        "message": "fix 🐛: 修复 Plex 元数据补查 gzip 正文导致 JSON 解析失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121806",
     "items": [
       {
@@ -371,29 +382,6 @@
         "author": "liurongjie",
         "date": "2026-08-10 17:32:44",
         "message": "fix(torrent): 修复相同种子其他来源只保留最后一个"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608101626",
-    "items": [
-      {
-        "commit": "b6aa169905c0dc602470d8047b7f3bd3e490094b",
-        "author": "liurongjie",
-        "date": "2026-08-10 16:24:04",
-        "message": "feat(mlist): 同步 OpenList 并新增光鸭云盘驱动"
-      },
-      {
-        "commit": "e3661c7e4a33fd9c82f9ee326c68ae2f876cb616",
-        "author": "liurongjie",
-        "date": "2026-08-10 16:15:00",
-        "message": "fix(site): 签到筛选兼容 result=all 并统一 code IN 写法"
-      },
-      {
-        "commit": "aaf795ef3f7195c74aa1ceb802a20edce1d1e0a9",
-        "author": "liurongjie",
-        "date": "2026-08-10 15:36:29",
-        "message": "fix(recogword): 修复共享识别词合并后启用与类型丢失导致识别失效"
       }
     ]
   }
