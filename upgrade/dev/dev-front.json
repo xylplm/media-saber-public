@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608131524",
+    "items": [
+      {
+        "commit": "58bdd8c3d9b8f6a543dcebf17fc9e04f1ff8118c",
+        "author": "xylplm",
+        "date": "2026-08-13 14:25:11",
+        "message": "fix 🐛: 首页站点概况卡片移除最近签到列表，避免拉长同行卡片高度"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608121806",
     "items": [
       {
@@ -479,17 +490,6 @@
         "author": "liurongjie",
         "date": "2026-08-09 18:06:57",
         "message": "fix(ui): 修复 iOS 图标不显示并优化服务配置按钮样式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608081458",
-    "items": [
-      {
-        "commit": "fca338ab81590a9255a4e064ec4513c65d7d104d",
-        "author": "liurongjie",
-        "date": "2026-08-08 14:57:36",
-        "message": "feat(workbench): 最近入库改为消费 overview 内联数据"
       }
     ]
   }
