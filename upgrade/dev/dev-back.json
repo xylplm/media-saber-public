@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608131844",
+    "items": [
+      {
+        "commit": "2155d5a34c9d8de087cb772831cb9cd70c7f2df9",
+        "author": "xylplm",
+        "date": "2026-08-13 18:43:14",
+        "message": "fix 🐛: 修复消息通知合并推送卡死导致入库完成等通知长期收不到的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608131631",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-08-12 01:08:58",
         "message": "feat ✨: 识别词按层级生效排序，词条支持拖拽排序"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608120014",
-    "items": [
-      {
-        "commit": "4ec4a9d4c34f9a65aa3d4894a7691520c1e35100",
-        "author": "liurongjie",
-        "date": "2026-08-12 00:13:45",
-        "message": "fix 🐛: 优化 Plex Web strm 播放，避免清单 302 导致 s1002"
       }
     ]
   }
