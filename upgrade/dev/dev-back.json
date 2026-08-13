@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608130958",
+    "items": [
+      {
+        "commit": "6b81f4d6ff924516aaab8fb415f4f283ddc2697b",
+        "author": "liurongjie",
+        "date": "2026-08-12 23:59:46",
+        "message": "revert ⏪: 回退安卓 MediaProxy 同源反代与 ffmpeg remux"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608122252",
     "items": [
       {
@@ -173,221 +184,6 @@
         "author": "xylplm",
         "date": "2026-08-11 17:25:07",
         "message": "feat ✨: 本地识别词支持移动和合并词组"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608111627",
-    "items": [
-      {
-        "commit": "702b95aef2daaea8958be2431ff9cf879c6b308e",
-        "author": "xylplm",
-        "date": "2026-08-11 16:16:28",
-        "message": "fix 🐛: 识别词同步修复批量写入崩溃并保留启用状态"
-      },
-      {
-        "commit": "5ea377e7de6dde6fc1c5e0ef64e2bd2bed6b8f00",
-        "author": "xylplm",
-        "date": "2026-08-11 13:09:35",
-        "message": "fix 🐛: 智能体资源操作展示前置失败原因"
-      },
-      {
-        "commit": "cc5c3e307645b1b3ee3b702a74a70479f610db5c",
-        "author": "xylplm",
-        "date": "2026-08-11 13:06:42",
-        "message": "feat ✨: 智能体资源卡确认后直接执行"
-      },
-      {
-        "commit": "80c5c4e2ca94bd4818d7664a5b512de51c8f892c",
-        "author": "xylplm",
-        "date": "2026-08-10 21:29:15",
-        "message": "fix 🐛: 统一智能体云资源保存能力描述"
-      },
-      {
-        "commit": "99707e4302f61e35922440456c811a3a648865e9",
-        "author": "xylplm",
-        "date": "2026-08-10 21:25:23",
-        "message": "fix 🐛: 智能体云资源按真实方式保存到网盘"
-      },
-      {
-        "commit": "37ecabdec9d976f711b125abcb2879c95628cc25",
-        "author": "xylplm",
-        "date": "2026-08-10 20:30:18",
-        "message": "fix 🐛: 延长欢迎建议生成并收敛超时日志"
-      },
-      {
-        "commit": "0de397d74a3864888ae3bc44fe35906e3271dde8",
-        "author": "xylplm",
-        "date": "2026-08-10 18:49:36",
-        "message": "perf ⚡: 压缩智能体欢迎建议生成请求"
-      },
-      {
-        "commit": "0f7621dc2f501c9bd14fc35070e7c74917a0b508",
-        "author": "xylplm",
-        "date": "2026-08-10 18:18:34",
-        "message": "fix 🐛: 移除欢迎页无上下文转存提问"
-      },
-      {
-        "commit": "8bdf74dda8be2c96fdcbfe77b14b62e6554dbdb7",
-        "author": "xylplm",
-        "date": "2026-08-10 17:44:31",
-        "message": "feat ✨: 智能体欢迎页生成个性化提问"
-      },
-      {
-        "commit": "0dfd5b7f63e09f597655c8a3e85d655eae53fc21",
-        "author": "xylplm",
-        "date": "2026-08-10 17:17:41",
-        "message": "fix 🐛: 优化智能体欢迎建议场景文案"
-      },
-      {
-        "commit": "90a6f5915302d9be7afae46af533576354332cfb",
-        "author": "xylplm",
-        "date": "2026-08-10 16:37:29",
-        "message": "fix 🐛: 延长智能体欢迎建议生成时限"
-      },
-      {
-        "commit": "9641372de0ff28570194bd21e8ca8e64b64a0cb8",
-        "author": "xylplm",
-        "date": "2026-08-10 16:04:58",
-        "message": "fix 🐛: 智能体流式收束与安全诊断日志"
-      },
-      {
-        "commit": "6c09ff947f32852e256550df0d3e3713fea0a810",
-        "author": "xylplm",
-        "date": "2026-08-10 14:35:58",
-        "message": "feat ✨: 智能体欢迎页支持安全动态建议"
-      },
-      {
-        "commit": "546c3e4288d4dca7c436353159f041f0dd41fe08",
-        "author": "xylplm",
-        "date": "2026-08-10 12:54:11",
-        "message": "feat ✨: Agent 种子结果补齐安全详情字段"
-      },
-      {
-        "commit": "f728797343c15e34e4b14217b5e186492a80158f",
-        "author": "xylplm",
-        "date": "2026-08-10 12:02:56",
-        "message": "feat ✨: Agent 种子下载支持 PT 与磁力资源"
-      },
-      {
-        "commit": "683ad8bab65ece0b0a3370558f79e337132af8a2",
-        "author": "xylplm",
-        "date": "2026-08-10 10:00:02",
-        "message": "fix 🐛: Agent 为新建空会话补齐首轮自动标题"
-      },
-      {
-        "commit": "2231e1537a07cc8dcdd58d63d5366c632af50774",
-        "author": "xylplm",
-        "date": "2026-08-10 09:05:34",
-        "message": "fix 🐛: Agent 补齐取消与运行受理竞态保护"
-      },
-      {
-        "commit": "54b769d1a607d435fb5e6b78649305c03b5fd3ff",
-        "author": "xylplm",
-        "date": "2026-08-10 08:52:28",
-        "message": "fix 🐛: Agent 稳定受理会话运行与流式收束"
-      },
-      {
-        "commit": "2af096bcf73c4168179dd91ba0ebfee6cd15d6ab",
-        "author": "xylplm",
-        "date": "2026-08-09 20:36:52",
-        "message": "fix 🐛: 加固智能体会话运行与副作用安全"
-      },
-      {
-        "commit": "bbc029506d2719c3993edcfc1b0a2986e1bb6461",
-        "author": "xylplm",
-        "date": "2026-08-09 01:07:16",
-        "message": "fix 🐛: 加固智能体运行与副作用安全链路"
-      },
-      {
-        "commit": "2f9e47e7b96e30c09bb3a500b796f9261c389340",
-        "author": "xylplm",
-        "date": "2026-08-08 10:27:14",
-        "message": "fix 🐛: 完善智能体会话与副作用安全链路"
-      },
-      {
-        "commit": "5529fa81ddf435de56ca286d8437d64ffcf1ff24",
-        "author": "xylplm",
-        "date": "2026-08-07 21:51:31",
-        "message": "feat 🎉 Agent 支持分支式重新生成对话"
-      },
-      {
-        "commit": "c6be9cb87ab826b8b2174d056df109cfd1f04692",
-        "author": "xylplm",
-        "date": "2026-08-07 18:12:14",
-        "message": "feat ✨: Agent 支持最终答案混排与资源精选操作"
-      },
-      {
-        "commit": "aa742e1d32acba6cbc019298272c4723d7fe46e8",
-        "author": "xylplm",
-        "date": "2026-08-07 15:32:49",
-        "message": "fix 🐛: Agent 严格按资源来源检索"
-      },
-      {
-        "commit": "575490203d7d3c72733f4ca0b695cbe22d66110b",
-        "author": "xylplm",
-        "date": "2026-08-07 14:19:43",
-        "message": "feat ✨: Agent 最终推荐保留完整媒体身份"
-      },
-      {
-        "commit": "8bc6c8bc81cc3d846a636dbee30d9291c475acec",
-        "author": "xylplm",
-        "date": "2026-08-07 13:22:36",
-        "message": "fix 🐛: 修复 Agent 最终推荐图文顺序"
-      },
-      {
-        "commit": "e1e31c3a068a0e531d127248a37fa642d1890e00",
-        "author": "xylplm",
-        "date": "2026-08-07 13:16:06",
-        "message": "chore 🔧: 收敛图片代理常规调试日志"
-      },
-      {
-        "commit": "8c526174c183e14789f6902043395967c7c021a5",
-        "author": "xylplm",
-        "date": "2026-08-07 12:23:18",
-        "message": "fix 🐛: 修复 Agent 详情卡媒体来源"
-      },
-      {
-        "commit": "62a5f74a24c09240513069702cd33fd7e7dff97b",
-        "author": "xylplm",
-        "date": "2026-08-07 11:28:09",
-        "message": "fix 🐛: 修复 Agent 会话分页与流终态"
-      },
-      {
-        "commit": "f99374aef051c6dac2d93b9236e7f6608151b201",
-        "author": "xylplm",
-        "date": "2026-08-07 10:23:50",
-        "message": "feat ✅: 增加 Agent 会话批量清空"
-      },
-      {
-        "commit": "b665438e0f9c38a9bfc9b3111f3237f3cdda25ab",
-        "author": "xylplm",
-        "date": "2026-08-06 15:14:24",
-        "message": "feat ✨: 模型显式确认最终推荐清单，替代前端启发式合并"
-      },
-      {
-        "commit": "bbbd5b3976db179263a80566684529fa30652e34",
-        "author": "xylplm",
-        "date": "2026-08-06 13:32:43",
-        "message": "feat ✨: 会话标题异步生成并通过 SSE 推送更新"
-      },
-      {
-        "commit": "66409e1d9266597232d01ef1502f539c332324bc",
-        "author": "xylplm",
-        "date": "2026-08-06 12:00:04",
-        "message": "fix 🐛: 检索工具零结果时不下发空结果卡"
-      },
-      {
-        "commit": "4ba822d36b9d9ca10c4d39d113586e0a91ea669c",
-        "author": "xylplm",
-        "date": "2026-08-06 00:21:44",
-        "message": "feat ✨: 智能体运行时优化与 AI 模型探测能力"
-      },
-      {
-        "commit": "42d7971bd53973740a79ff73043ef6b001179f36",
-        "author": "xylplm",
-        "date": "2026-08-05 18:28:13",
-        "message": "feat 🤖: 完善智能体交互与多协议模型支持"
       }
     ]
   }
