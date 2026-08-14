@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608141817",
+    "items": [
+      {
+        "commit": "dd4d301eee21c98cc43a80695d4e60afab883056",
+        "author": "xylplm",
+        "date": "2026-08-14 15:59:55",
+        "message": "feat ✨: 整理历史删除后自动清理本地保种任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608141449",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-08-12 14:06:06",
         "message": "fix 🐛: 回退安卓 start.m3u8 直反代，改为 transcode+hls 假清单"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608121327",
-    "items": [
-      {
-        "commit": "9634aee8b2548c286feb7a13a6362ffc06a5e2da",
-        "author": "liurongjie",
-        "date": "2026-08-12 13:26:17",
-        "message": "fix 🐛: 修复安卓 strm 假 HLS 续播异常，start.m3u8 走 Direct Play 反代"
-      },
-      {
-        "commit": "2203f87239b75099eab3d6dd5bbd9ce21a464a01",
-        "author": "liurongjie",
-        "date": "2026-08-12 12:50:12",
-        "message": "fix 🐛: 优化 iOS Plex strm 播放，伪造 Direct Play 并对齐非 strm 302"
       }
     ]
   }

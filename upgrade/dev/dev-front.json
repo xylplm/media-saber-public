@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608141817",
+    "items": [
+      {
+        "commit": "189323bab81d68f73cbc6a8c1ef33f1650fbeed4",
+        "author": "xylplm",
+        "date": "2026-08-14 15:59:56",
+        "message": "feat ✨: 整理历史删除时告知保种清理说明"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608131524",
     "items": [
       {
@@ -479,17 +490,6 @@
         "author": "liurongjie",
         "date": "2026-08-10 14:31:39",
         "message": "feat(site): 签到任务页增加成功/失败筛选"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608091810",
-    "items": [
-      {
-        "commit": "bd33bd7b161da5019d05a39bf00657b4ec0a8cb4",
-        "author": "liurongjie",
-        "date": "2026-08-09 18:06:57",
-        "message": "fix(ui): 修复 iOS 图标不显示并优化服务配置按钮样式"
       }
     ]
   }
