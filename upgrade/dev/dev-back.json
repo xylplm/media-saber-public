@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608141449",
+    "items": [
+      {
+        "commit": "33d8634910cf655b48dfc687e07bdba741c2bcaa",
+        "author": "liurongjie",
+        "date": "2026-08-14 14:44:19",
+        "message": "fix 🐛: TMDB 缺英文名时定向刷新详情缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608131844",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "liurongjie",
         "date": "2026-08-12 12:50:12",
         "message": "fix 🐛: 优化 iOS Plex strm 播放，伪造 Direct Play 并对齐非 strm 302"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608121005",
-    "items": [
-      {
-        "commit": "2dbdbb6e17f2e9da954f4218016a3a107a3740ee",
-        "author": "liurongjie",
-        "date": "2026-08-12 09:58:43",
-        "message": "fix 🐛: 优化安卓 Plex strm 播放，改为 Direct Play 并同源反代"
-      },
-      {
-        "commit": "9a130dc75569085c8eae90fff0d644d921f15838",
-        "author": "xylplm",
-        "date": "2026-08-12 08:37:55",
-        "message": "fix 🔒: reorder 接口增加本地词组类型校验"
-      },
-      {
-        "commit": "bfc23f854ac2f41c389799cdc6d4ac964673ef4f",
-        "author": "xylplm",
-        "date": "2026-08-12 01:08:58",
-        "message": "feat ✨: 识别词按层级生效排序，词条支持拖拽排序"
       }
     ]
   }
