@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608161930",
+    "items": [
+      {
+        "commit": "95f5c01fe3423410e2827cb9ba9077be13de6e82",
+        "author": "GateCross",
+        "date": "2026-08-16 19:28:33",
+        "message": "fix: 兼容非安全上下文，修复灵犀伴影无法发送的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608152114",
     "items": [
       {
@@ -491,23 +502,6 @@
         "author": "liurongjie",
         "date": "2026-08-10 17:56:04",
         "message": "fix(ui): 本地文件管理转移文案改为整理并补目录入口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608101626",
-    "items": [
-      {
-        "commit": "07ea0b0c0057fb997f243fe1a987518bc28b04a5",
-        "author": "liurongjie",
-        "date": "2026-08-10 16:24:04",
-        "message": "feat(cloud-storage): 补充光鸭云盘驱动文案与图标"
-      },
-      {
-        "commit": "229c15f5f47d71da597ec56d9662b66889d76de5",
-        "author": "liurongjie",
-        "date": "2026-08-10 16:15:00",
-        "message": "fix(site): 签到结果筛选改用 all 避免空串 toggle 错位"
       }
     ]
   }
