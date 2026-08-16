@@ -55,12 +55,16 @@ if [[ -f "release/mediaSaber-arm64.tar.gz" ]]; then
   arm64_sha256=$(sha256sum "release/mediaSaber-arm64.tar.gz" | awk '{print $1}')
 fi
 
-payload=$(python3 - "$CHANNEL" "$VERSION" "$released_at" "$amd64_url" "$arm64_url" "$amd64_sha256" "$arm64_sha256" "$FRONT_JSON" "$BACK_JSON" <<'PY'
+# changelog 合并后远超 Linux MAX_ARG_STRLEN(128KiB)，不能再把 JSON 塞进 curl argv。
+payload_file="$(mktemp)"
+trap 'rm -f "$payload_file"' EXIT
+
+python3 - "$CHANNEL" "$VERSION" "$released_at" "$amd64_url" "$arm64_url" "$amd64_sha256" "$arm64_sha256" "$FRONT_JSON" "$BACK_JSON" "$payload_file" <<'PY'
 import json
 import os
 import sys
 
-channel, version, released_at, amd64_url, arm64_url, amd64_sha256, arm64_sha256, front_json, back_json = sys.argv[1:]
+channel, version, released_at, amd64_url, arm64_url, amd64_sha256, arm64_sha256, front_json, back_json, payload_file = sys.argv[1:]
 
 def read_version_items(path: str, target_version: str, source_type: str):
     if not os.path.exists(path):
@@ -105,9 +109,10 @@ payload = {
     'items': items,
 }
 
-print(json.dumps(payload, ensure_ascii=False))
+with open(payload_file, 'w', encoding='utf-8') as f:
+    json.dump(payload, f, ensure_ascii=False)
 PY
-)
+
 
 max_attempts=3
 attempt=1
@@ -126,7 +131,7 @@ while [[ $attempt -le $max_attempts ]]; do
     -H "Content-Type: application/json" \
     -H "Authorization: ${MS_SYSTEM_VERSION_REPORT_AUTH_TOKEN}" \
     -H "traceparent: ${trace_parent}" \
-    -d "$payload" 2>&1); then
+    --data-binary @"$payload_file" 2>&1); then
     echo "$response"
     if echo "$response" | grep -Eq '"code"\s*:\s*20000'; then
       success=1
