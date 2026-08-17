@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608172045",
+    "items": [
+      {
+        "commit": "fb869ab796a9e70709f621a6207581e7c1a23326",
+        "author": "GateCross",
+        "date": "2026-08-17 20:44:59",
+        "message": "fix: 刷流插件忽略 qb 已存在种子的误报通知"
+      },
+      {
+        "commit": "13d9186151ea106bbd3f4980334711bcaab8fe32",
+        "author": "xylplm",
+        "date": "2026-08-16 22:02:47",
+        "message": "fix 🐛: 修复站点数据导出图片在 Docker 中缺失文字"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608162029",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-08-12 16:31:04",
         "message": "fix 🐛: 日志配置默认抑制高频诊断输出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608121607",
-    "items": [
-      {
-        "commit": "7b97e695d242b8a27a14b21d9c4105c2cc76eee7",
-        "author": "liurongjie",
-        "date": "2026-08-12 15:18:00",
-        "message": "fix 🐛: 修复 Web 白名单 mkv 与安卓 HLS 分片播放"
       }
     ]
   }
