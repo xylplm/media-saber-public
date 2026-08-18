@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608181425",
+    "items": [
+      {
+        "commit": "bb66ad7eb3af20d54cbbfb788a0e30783277d453",
+        "author": "liurongjie",
+        "date": "2026-08-18 14:23:53",
+        "message": "Revert \"feat ✨: Plex 详情预热直链并收窄元数据匹配\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202608181335",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-08-12 23:59:46",
         "message": "revert ⏪: 回退安卓 MediaProxy 同源反代与 ffmpeg remux"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608122252",
-    "items": [
-      {
-        "commit": "a397859620cfae363562178ffae1d057b287c52d",
-        "author": "liurongjie",
-        "date": "2026-08-12 22:49:00",
-        "message": "chore: tidy go.sum after reverting pure Go remux deps"
-      },
-      {
-        "commit": "0552d4961878dd93edcb40de8a40c2acbda97e41",
-        "author": "liurongjie",
-        "date": "2026-08-12 22:44:20",
-        "message": "Revert \"fix 🐛: 安卓非 strm parts 透传 PMS，strm 改用纯 Go remux\""
       }
     ]
   }
