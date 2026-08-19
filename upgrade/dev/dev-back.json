@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608191723",
+    "items": [
+      {
+        "commit": "b41acacf2596b6601e35052f666e1dafd5060f97",
+        "author": "xylplm",
+        "date": "2026-08-19 16:40:57",
+        "message": "fix 🐛: 修复启动清理废弃索引在 PostgreSQL 上的语法错误"
+      },
+      {
+        "commit": "9fe8a93df48f3fcb120e28674164d3670dd0a293",
+        "author": "xylplm",
+        "date": "2026-08-19 16:30:18",
+        "message": "fix 🐛: 修复校验队列空时误报 redis nil 错误"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608191439",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-08-13 18:43:14",
         "message": "fix 🐛: 修复消息通知合并推送卡死导致入库完成等通知长期收不到的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608131631",
-    "items": [
-      {
-        "commit": "d26ec1cc59540cb074103fc6cfc1b6f6d1ccb76e",
-        "author": "liurongjie",
-        "date": "2026-08-13 16:18:42",
-        "message": "refactor ♻️: 收敛 Plex MediaProxy 日志噪音并收窄元数据匹配"
       }
     ]
   }
