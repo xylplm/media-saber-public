@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608191439",
+    "items": [
+      {
+        "commit": "49703c604ca4908614a02031950ccb206d470ba0",
+        "author": "xylplm",
+        "date": "2026-08-19 12:25:44",
+        "message": "feat ✨: 媒体服务器管理页新增媒体库启用范围配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608161930",
     "items": [
       {
@@ -491,17 +502,6 @@
         "author": "liurongjie",
         "date": "2026-08-11 09:43:21",
         "message": "fix(site): 签到筛选切换取消进行中的列表请求"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608101805",
-    "items": [
-      {
-        "commit": "5776a6fa254f6ad02157081415bd13e05ede7d7c",
-        "author": "liurongjie",
-        "date": "2026-08-10 17:56:04",
-        "message": "fix(ui): 本地文件管理转移文案改为整理并补目录入口"
       }
     ]
   }

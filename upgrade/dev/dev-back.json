@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608191439",
+    "items": [
+      {
+        "commit": "009864941df2347aa01ee33c9c3f1ea63bd5959f",
+        "author": "xylplm",
+        "date": "2026-08-19 12:25:25",
+        "message": "feat ✨: 媒体服务器新增媒体库启用范围隐私屏蔽"
+      },
+      {
+        "commit": "8daec8eaf382c1e2c5ec79b5288e4c280f7d642b",
+        "author": "xylplm",
+        "date": "2026-08-18 16:30:14",
+        "message": "fix 🐛: 修复自动转移做种校验等待与启动恢复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608181425",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-08-13 16:18:42",
         "message": "refactor ♻️: 收敛 Plex MediaProxy 日志噪音并收窄元数据匹配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608130958",
-    "items": [
-      {
-        "commit": "6b81f4d6ff924516aaab8fb415f4f283ddc2697b",
-        "author": "liurongjie",
-        "date": "2026-08-12 23:59:46",
-        "message": "revert ⏪: 回退安卓 MediaProxy 同源反代与 ffmpeg remux"
       }
     ]
   }
