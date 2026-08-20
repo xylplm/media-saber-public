@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608201255",
+    "items": [
+      {
+        "commit": "3581a7e077e063f3a6d82d388722b375a003eee4",
+        "author": "liurongjie",
+        "date": "2026-08-20 12:52:31",
+        "message": "perf ⚡: Plex strm 解析缓存加速起播并收敛 MediaProxy 噪音日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608191723",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-08-14 14:44:19",
         "message": "fix 🐛: TMDB 缺英文名时定向刷新详情缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608131844",
-    "items": [
-      {
-        "commit": "2155d5a34c9d8de087cb772831cb9cd70c7f2df9",
-        "author": "xylplm",
-        "date": "2026-08-13 18:43:14",
-        "message": "fix 🐛: 修复消息通知合并推送卡死导致入库完成等通知长期收不到的问题"
       }
     ]
   }
