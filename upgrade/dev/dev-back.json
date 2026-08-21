@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608211809",
+    "items": [
+      {
+        "commit": "1141bba7d764e43496d8e42173182287d2f1f805",
+        "author": "liurongjie",
+        "date": "2026-08-21 18:08:29",
+        "message": "fix 🐛: 安卓/TV 播放收回 m3u8 裸视频并让 strm parts 走 302"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608211625",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "liurongjie",
         "date": "2026-08-18 14:23:53",
         "message": "Revert \"feat ✨: Plex 详情预热直链并收窄元数据匹配\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608181335",
-    "items": [
-      {
-        "commit": "7df872773a2de797740c7e342bf3e1a9bb7c6406",
-        "author": "liurongjie",
-        "date": "2026-08-18 13:28:11",
-        "message": "feat ✨: Plex 详情预热直链并收窄元数据匹配"
-      },
-      {
-        "commit": "53f7978d82932aa48910e8ebf887a07a83837fe8",
-        "author": "xylplm",
-        "date": "2026-08-18 13:15:59",
-        "message": "fix 🐛: 极影视跳过目录轨道查询"
       }
     ]
   }
