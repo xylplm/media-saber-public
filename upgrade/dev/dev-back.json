@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608212036",
+    "items": [
+      {
+        "commit": "e86f0885ca4e36b250457b8901f13802504d1f16",
+        "author": "liurongjie",
+        "date": "2026-08-21 20:35:12",
+        "message": "chore 🔧: 临时关闭 hubs Redis，并补充 timeline/缓存诊断日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608211929",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-20 12:52:31",
         "message": "perf ⚡: Plex strm 解析缓存加速起播并收敛 MediaProxy 噪音日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608191723",
-    "items": [
-      {
-        "commit": "b41acacf2596b6601e35052f666e1dafd5060f97",
-        "author": "xylplm",
-        "date": "2026-08-19 16:40:57",
-        "message": "fix 🐛: 修复启动清理废弃索引在 PostgreSQL 上的语法错误"
-      },
-      {
-        "commit": "9fe8a93df48f3fcb120e28674164d3670dd0a293",
-        "author": "xylplm",
-        "date": "2026-08-19 16:30:18",
-        "message": "fix 🐛: 修复校验队列空时误报 redis nil 错误"
       }
     ]
   }
