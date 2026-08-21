@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608220224",
+    "items": [
+      {
+        "commit": "1b921e0cf1ede4db1a71bc55abfd43e1a87eed01",
+        "author": "liurongjie",
+        "date": "2026-08-22 02:23:48",
+        "message": "fix 🐛: 加固 Plex 缓存，修复 gzip/错页/空体覆盖等问题"
+      },
+      {
+        "commit": "88c5a281ff96cbc410e58f2cfa8e4261db459629",
+        "author": "liurongjie",
+        "date": "2026-08-22 02:11:47",
+        "message": "perf ⚡: 详情 SWR 与 origin 分桶，减轻详情/货架等待"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608220105",
     "items": [
       {
@@ -215,17 +232,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 18:32:40",
         "message": "fix 🐛: Plex 剧集父行回填路径，避免同步后显示暂无路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608211809",
-    "items": [
-      {
-        "commit": "1141bba7d764e43496d8e42173182287d2f1f805",
-        "author": "liurongjie",
-        "date": "2026-08-21 18:08:29",
-        "message": "fix 🐛: 安卓/TV 播放收回 m3u8 裸视频并让 strm parts 走 302"
       }
     ]
   }
