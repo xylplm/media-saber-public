@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608211146",
+    "items": [
+      {
+        "commit": "3715776bd2467df55cefdddbd35c5d2454a67750",
+        "author": "liurongjie",
+        "date": "2026-08-21 11:39:05",
+        "message": "feat ✨: 优化 Plex 起播体验，修复 Android/TV strm 假 HLS 难续播"
+      },
+      {
+        "commit": "5d2eebadbdef3f29f4a99d4954136cbb4b1b03ee",
+        "author": "xylplm",
+        "date": "2026-08-20 20:48:47",
+        "message": "perf ⚡: 生成 Strm 只开通知时不再做媒体识别，改为推送文字通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608201752",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-08-16 20:28:41",
         "message": "fix(agent): 开启智能体模型流式调用，恢复逐字输出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608141817",
-    "items": [
-      {
-        "commit": "dd4d301eee21c98cc43a80695d4e60afab883056",
-        "author": "xylplm",
-        "date": "2026-08-14 15:59:55",
-        "message": "feat ✨: 整理历史删除后自动清理本地保种任务"
       }
     ]
   }
