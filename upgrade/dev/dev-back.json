@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608211321",
+    "items": [
+      {
+        "commit": "5efa6134c9da3bd6cfddb650966fb463c28f06e7",
+        "author": "liurongjie",
+        "date": "2026-08-21 13:20:46",
+        "message": "perf ⚡: 收窄 Plex metadata 拦截并补浏览慢请求日志"
+      },
+      {
+        "commit": "632082a691c389e4c72a261bcb177b4cade24bce",
+        "author": "liurongjie",
+        "date": "2026-08-21 13:06:37",
+        "message": "fix 🐛: 修复 Plex similar/related 元数据被误判为解析失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608211240",
     "items": [
       {
@@ -137,23 +154,6 @@
         "author": "liurongjie",
         "date": "2026-08-18 12:33:16",
         "message": "Revert \"refactor ♻️: 收敛 Plex MediaProxy 日志噪音并收窄元数据匹配\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608172045",
-    "items": [
-      {
-        "commit": "fb869ab796a9e70709f621a6207581e7c1a23326",
-        "author": "GateCross",
-        "date": "2026-08-17 20:44:59",
-        "message": "fix: 刷流插件忽略 qb 已存在种子的误报通知"
-      },
-      {
-        "commit": "13d9186151ea106bbd3f4980334711bcaab8fe32",
-        "author": "xylplm",
-        "date": "2026-08-16 22:02:47",
-        "message": "fix 🐛: 修复站点数据导出图片在 Docker 中缺失文字"
       }
     ]
   }
