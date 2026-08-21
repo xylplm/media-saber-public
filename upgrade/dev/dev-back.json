@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608211240",
+    "items": [
+      {
+        "commit": "7fa8af28c0ee2b3381fa1b4c1293893b1bfe25c0",
+        "author": "liurongjie",
+        "date": "2026-08-21 12:38:40",
+        "message": "fix 🐛: 补齐 MediaProxy 日志 [MediaProxy] 前缀，便于过滤检索"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608211146",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "xylplm",
         "date": "2026-08-16 22:02:47",
         "message": "fix 🐛: 修复站点数据导出图片在 Docker 中缺失文字"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608162029",
-    "items": [
-      {
-        "commit": "c3ee41b0d373a431687fd8c495d084b0f0f38ecf",
-        "author": "GateCross",
-        "date": "2026-08-16 20:28:41",
-        "message": "fix(agent): 开启智能体模型流式调用，恢复逐字输出"
       }
     ]
   }
