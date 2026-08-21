@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608211625",
+    "items": [
+      {
+        "commit": "aa58f2250a7d2145cc4ed53ea885e7d72334707a",
+        "author": "liurongjie",
+        "date": "2026-08-21 16:07:43",
+        "message": "fix 🐛: 官方安卓/TV 非 strm 恢复 302，白名单 Direct Play 禁止假 HLS"
+      },
+      {
+        "commit": "db8418868fd0b2e96cc00a1dd56490eef60cc1db",
+        "author": "liurongjie",
+        "date": "2026-08-21 15:51:07",
+        "message": "perf ⚡: hubs 缓存取消 hard 同步等待，有条目即 SWR"
+      },
+      {
+        "commit": "506b6c10e4fe59d1544036264b6e54ee993aa71c",
+        "author": "liurongjie",
+        "date": "2026-08-21 15:38:37",
+        "message": "perf ⚡: Plex 热点 hubs 短 TTL SWR 缓存加速主页/推荐"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608211321",
     "items": [
       {
@@ -143,17 +166,6 @@
         "author": "xylplm",
         "date": "2026-08-18 13:15:59",
         "message": "fix 🐛: 极影视跳过目录轨道查询"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608181235",
-    "items": [
-      {
-        "commit": "b29fb0b1637cab58c8f57f4b87171f85694f4a27",
-        "author": "liurongjie",
-        "date": "2026-08-18 12:33:16",
-        "message": "Revert \"refactor ♻️: 收敛 Plex MediaProxy 日志噪音并收窄元数据匹配\""
       }
     ]
   }
