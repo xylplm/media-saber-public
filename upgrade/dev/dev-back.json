@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608212352",
+    "items": [
+      {
+        "commit": "ee53acfd9528d7227733d4da17626cf2c5f1528e",
+        "author": "liurongjie",
+        "date": "2026-08-21 23:51:29",
+        "message": "perf ⚡: browse SWR 缓存与 query 归一化，origin 并发降至 2"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608212317",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 13:06:37",
         "message": "fix 🐛: 修复 Plex similar/related 元数据被误判为解析失败"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608211240",
-    "items": [
-      {
-        "commit": "7fa8af28c0ee2b3381fa1b4c1293893b1bfe25c0",
-        "author": "liurongjie",
-        "date": "2026-08-21 12:38:40",
-        "message": "fix 🐛: 补齐 MediaProxy 日志 [MediaProxy] 前缀，便于过滤检索"
       }
     ]
   }
