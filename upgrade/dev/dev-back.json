@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608220038",
+    "items": [
+      {
+        "commit": "ed5746326f1963c74f170a49bc9f92b100bfc744",
+        "author": "liurongjie",
+        "date": "2026-08-22 00:37:53",
+        "message": "perf ⚡: 详情飞行时列表让路并拉长空货架负缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608212352",
     "items": [
       {
@@ -227,23 +238,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 15:38:37",
         "message": "perf ⚡: Plex 热点 hubs 短 TTL SWR 缓存加速主页/推荐"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608211321",
-    "items": [
-      {
-        "commit": "5efa6134c9da3bd6cfddb650966fb463c28f06e7",
-        "author": "liurongjie",
-        "date": "2026-08-21 13:20:46",
-        "message": "perf ⚡: 收窄 Plex metadata 拦截并补浏览慢请求日志"
-      },
-      {
-        "commit": "632082a691c389e4c72a261bcb177b4cade24bce",
-        "author": "liurongjie",
-        "date": "2026-08-21 13:06:37",
-        "message": "fix 🐛: 修复 Plex similar/related 元数据被误判为解析失败"
       }
     ]
   }
