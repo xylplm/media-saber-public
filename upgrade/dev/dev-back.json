@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608211833",
+    "items": [
+      {
+        "commit": "92a1f9d349d0d32eca801623199be9671bbbd8c8",
+        "author": "liurongjie",
+        "date": "2026-08-21 18:32:40",
+        "message": "fix 🐛: Plex 剧集父行回填路径，避免同步后显示暂无路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608211809",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-08-18 16:30:14",
         "message": "fix 🐛: 修复自动转移做种校验等待与启动恢复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608181425",
-    "items": [
-      {
-        "commit": "bb66ad7eb3af20d54cbbfb788a0e30783277d453",
-        "author": "liurongjie",
-        "date": "2026-08-18 14:23:53",
-        "message": "Revert \"feat ✨: Plex 详情预热直链并收窄元数据匹配\""
       }
     ]
   }
