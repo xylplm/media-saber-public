@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608220105",
+    "items": [
+      {
+        "commit": "77e4312e65727c6337938ee6ca05cb454047d57e",
+        "author": "liurongjie",
+        "date": "2026-08-22 01:03:13",
+        "message": "perf ⚡: 缓存 related/similar 旁路，减轻起播前 PMS 风暴"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608220038",
     "items": [
       {
@@ -215,29 +226,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 18:08:29",
         "message": "fix 🐛: 安卓/TV 播放收回 m3u8 裸视频并让 strm parts 走 302"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608211625",
-    "items": [
-      {
-        "commit": "aa58f2250a7d2145cc4ed53ea885e7d72334707a",
-        "author": "liurongjie",
-        "date": "2026-08-21 16:07:43",
-        "message": "fix 🐛: 官方安卓/TV 非 strm 恢复 302，白名单 Direct Play 禁止假 HLS"
-      },
-      {
-        "commit": "db8418868fd0b2e96cc00a1dd56490eef60cc1db",
-        "author": "liurongjie",
-        "date": "2026-08-21 15:51:07",
-        "message": "perf ⚡: hubs 缓存取消 hard 同步等待，有条目即 SWR"
-      },
-      {
-        "commit": "506b6c10e4fe59d1544036264b6e54ee993aa71c",
-        "author": "liurongjie",
-        "date": "2026-08-21 15:38:37",
-        "message": "perf ⚡: Plex 热点 hubs 短 TTL SWR 缓存加速主页/推荐"
       }
     ]
   }
