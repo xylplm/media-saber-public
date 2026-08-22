@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608221752",
+    "items": [
+      {
+        "commit": "c382d8883692a283acb576eeb4b72b2e97039692",
+        "author": "liurongjie",
+        "date": "2026-08-22 17:51:18",
+        "message": "fix 🐛: 完善 Plex 缓存日志，对照 keyFp 与 cacheURL"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608220224",
     "items": [
       {
@@ -221,17 +232,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 19:26:49",
         "message": "perf ⚡: hubs 增加 Redis 二级缓存，重启后可穿透回填"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608211833",
-    "items": [
-      {
-        "commit": "92a1f9d349d0d32eca801623199be9671bbbd8c8",
-        "author": "liurongjie",
-        "date": "2026-08-21 18:32:40",
-        "message": "fix 🐛: Plex 剧集父行回填路径，避免同步后显示暂无路径"
       }
     ]
   }
