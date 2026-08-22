@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608221825",
+    "items": [
+      {
+        "commit": "6a39ed16e3d10886de42a6a6d8c3c089eb08bd49",
+        "author": "liurongjie",
+        "date": "2026-08-22 18:21:50",
+        "message": "fix 🐛: 客户端取消后不再透传，脱离 ctx 回源写缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608221752",
     "items": [
       {
@@ -221,17 +232,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 20:35:12",
         "message": "chore 🔧: 临时关闭 hubs Redis，并补充 timeline/缓存诊断日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608211929",
-    "items": [
-      {
-        "commit": "628fdcd6a8d9825e0b9440b23bb073f2f7e80fa1",
-        "author": "liurongjie",
-        "date": "2026-08-21 19:26:49",
-        "message": "perf ⚡: hubs 增加 Redis 二级缓存，重启后可穿透回填"
       }
     ]
   }
