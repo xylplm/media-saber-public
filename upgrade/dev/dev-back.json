@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608241143",
+    "items": [
+      {
+        "commit": "1eba923e208efc63339af3c6745ec9b6e474b405",
+        "author": "xylplm",
+        "date": "2026-08-24 11:20:04",
+        "message": "fix: 手动绑定的 TMDB 索引跳过缓存一致性校验"
+      },
+      {
+        "commit": "c6e9aac98b95a047034d90f19cd644a78f867b5d",
+        "author": "xylplm",
+        "date": "2026-08-23 23:04:06",
+        "message": "fix: 中文名后紧跟罗马数字时不再误拼入 CnName"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608240945",
     "items": [
       {
@@ -257,17 +274,6 @@
         "author": "xylplm",
         "date": "2026-08-21 18:12:35",
         "message": "fix 🐛: 大幅提升英文片名的 TMDB 识别成功率，修正剧集被当成电影缓存导致的张冠李戴"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608212215",
-    "items": [
-      {
-        "commit": "93a644cd1a1fe35762e9aaa88bf57bc19e772b9b",
-        "author": "liurongjie",
-        "date": "2026-08-21 22:15:02",
-        "message": "perf ⚡: hubs soft 5m + 拒小 body + 刷新限流并重开 Redis"
       }
     ]
   }
