@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608241243",
+    "items": [
+      {
+        "commit": "3e688141384b6b266065f1d06fc0eec8157c35ad",
+        "author": "liurongjie",
+        "date": "2026-08-24 12:41:44",
+        "message": "fix: 官方 Plex 详情回源保留 checkFiles，避免 exists=0 毒缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241143",
     "items": [
       {
@@ -215,65 +226,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 11:39:05",
         "message": "feat ✨: 优化 Plex 起播体验，修复 Android/TV strm 假 HLS 难续播"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608212304",
-    "items": [
-      {
-        "commit": "dd58319dc6b08cd3186d686608f5306c8ef4ffce",
-        "author": "xylplm",
-        "date": "2026-08-21 22:47:06",
-        "message": "fix 🐛: 修复多季合集种子在订阅拆包时一集都匹配不上"
-      },
-      {
-        "commit": "53a35a2f636e2333fe44d787ac06a1d6850bb72e",
-        "author": "xylplm",
-        "date": "2026-08-21 22:32:50",
-        "message": "fix 🐛: 修复补零数字命名的剧集被当成电影，以及目录名的集数区间落到单个文件上"
-      },
-      {
-        "commit": "26c21ecc3f99dbf4c0283c4be5bb7861bd3ac363",
-        "author": "xylplm",
-        "date": "2026-08-21 21:53:35",
-        "message": "fix 🐛: 修复整理后的剧集几乎必然识别失败，并补全文件名与目录名上的 TMDB 标记识别"
-      },
-      {
-        "commit": "6d72a931803dc05a2575ea266ca5968a376ed4b8",
-        "author": "xylplm",
-        "date": "2026-08-21 20:09:55",
-        "message": "fix 🐛: 修复片名结尾带数字时集数识别错误，还会连片名一起丢掉"
-      },
-      {
-        "commit": "32650173f891fa5f8d40e650fecfd0924d41d0bf",
-        "author": "xylplm",
-        "date": "2026-08-21 19:44:48",
-        "message": "fix 🐛: 修正识别缓存的唯一约束，同一名称不再可能存在多条互相矛盾的记录"
-      },
-      {
-        "commit": "bccfe9c155e9fc6d986fdecea85849a14299bd56",
-        "author": "xylplm",
-        "date": "2026-08-21 19:24:25",
-        "message": "chore 🔧: 清理已失效的代码，去掉全局日志的重复防护判断"
-      },
-      {
-        "commit": "27a1779c2f826548ecfdac8cf3bac2e6385a4482",
-        "author": "xylplm",
-        "date": "2026-08-21 19:12:45",
-        "message": "fix 🐛: 订阅过滤支持带音标的片名，识别与订阅的判定规则统一"
-      },
-      {
-        "commit": "f50d7a98d3bf73502ef40ccba5838287b54744c3",
-        "author": "xylplm",
-        "date": "2026-08-21 18:29:34",
-        "message": "fix 🐛: 自动修复历史错误的识别缓存，避免把剧集刮成毫不相关的电影"
-      },
-      {
-        "commit": "b640f794dd78b5929c18945375b78ac2b86f44ea",
-        "author": "xylplm",
-        "date": "2026-08-21 18:12:35",
-        "message": "fix 🐛: 大幅提升英文片名的 TMDB 识别成功率，修正剧集被当成电影缓存导致的张冠李戴"
       }
     ]
   }
