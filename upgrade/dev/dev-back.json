@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608241546",
+    "items": [
+      {
+        "commit": "c5ee510267b624f4783e0a9d1f1ce9535796d7f9",
+        "author": "Jolc",
+        "date": "2026-08-24 15:44:53",
+        "message": "feat(mediaserver): Emby data 目录改用路径选择器"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241527",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-08-22 00:37:53",
         "message": "perf ⚡: 详情飞行时列表让路并拉长空货架负缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608212352",
-    "items": [
-      {
-        "commit": "ee53acfd9528d7227733d4da17626cf2c5f1528e",
-        "author": "liurongjie",
-        "date": "2026-08-21 23:51:29",
-        "message": "perf ⚡: browse SWR 缓存与 query 归一化，origin 并发降至 2"
       }
     ]
   }
