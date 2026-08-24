@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608241838",
+    "items": [
+      {
+        "commit": "2a75837a5a53380bf09062ac3dad42fc41d28273",
+        "author": "xylplm",
+        "date": "2026-08-24 18:37:39",
+        "message": "feat ✨: 同步数据支持卡片列表切换"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241537",
     "items": [
       {
@@ -293,41 +304,6 @@
         "author": "GateCross",
         "date": "2026-08-16 19:28:33",
         "message": "fix: 兼容非安全上下文，修复灵犀伴影无法发送的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608152114",
-    "items": [
-      {
-        "commit": "e14c51311c5ccf796d77a6af9e37924477b85c15",
-        "author": "xylplm",
-        "date": "2026-08-15 21:12:40",
-        "message": "feat ✨: 文件整理升级全端规则卡片体验"
-      },
-      {
-        "commit": "cdea8375e69d12665eef95dfb6aeb6bae445b203",
-        "author": "xylplm",
-        "date": "2026-08-15 21:12:31",
-        "message": "feat ✨: Strm生成升级全端规则卡片体验"
-      },
-      {
-        "commit": "5f8342ffeb81b34f711a2b7086a57b1c7580eb27",
-        "author": "xylplm",
-        "date": "2026-08-15 21:12:23",
-        "message": "feat ✨: 通用空态支持卡片化展示"
-      },
-      {
-        "commit": "60879f2db9dc95b28409a52a489ce187216198ee",
-        "author": "xylplm",
-        "date": "2026-08-15 20:15:21",
-        "message": "feat ✨: 云端文件管理优化全端浏览与操作体验"
-      },
-      {
-        "commit": "036d9332a688efc7784fe471c44a7a5904f197a3",
-        "author": "xylplm",
-        "date": "2026-08-15 20:15:12",
-        "message": "feat ✨: 本地文件管理适配全端文件浏览体验"
       }
     ]
   }
