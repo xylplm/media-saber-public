@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608241537",
+    "items": [
+      {
+        "commit": "1e9dd5f3c4ae96a6c61a19a0b356fd3e9c9c45ce",
+        "author": "xylplm",
+        "date": "2026-08-24 15:37:03",
+        "message": "feat ✨: 失败列表增加名称识别测试"
+      },
+      {
+        "commit": "29ed77288c48a6dd3649ceead76edd3178801546",
+        "author": "liurongjie",
+        "date": "2026-08-23 21:57:32",
+        "message": "fix 🐛: 系统日志空状态增加底部内边距并垂直居中"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241527",
     "items": [
       {
@@ -311,17 +328,6 @@
         "author": "xylplm",
         "date": "2026-08-15 20:15:12",
         "message": "feat ✨: 本地文件管理适配全端文件浏览体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608141817",
-    "items": [
-      {
-        "commit": "189323bab81d68f73cbc6a8c1ef33f1650fbeed4",
-        "author": "xylplm",
-        "date": "2026-08-14 15:59:56",
-        "message": "feat ✨: 整理历史删除时告知保种清理说明"
       }
     ]
   }
