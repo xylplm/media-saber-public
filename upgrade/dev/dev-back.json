@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608241527",
+    "items": [
+      {
+        "commit": "e35ecfcb7508d39992aeeefb1b51fad7d5e11a2f",
+        "author": "Jolc",
+        "date": "2026-08-24 15:24:22",
+        "message": "feat(mediaserver): Emby 同步全走 SQLite 直连提速"
+      },
+      {
+        "commit": "1eba923e208efc63339af3c6745ec9b6e474b405",
+        "author": "xylplm",
+        "date": "2026-08-24 11:20:04",
+        "message": "fix: 手动绑定的 TMDB 索引跳过缓存一致性校验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241243",
     "items": [
       {
@@ -143,89 +160,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 23:51:29",
         "message": "perf ⚡: browse SWR 缓存与 query 归一化，origin 并发降至 2"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608212317",
-    "items": [
-      {
-        "commit": "2edf18e0daed1967089da1bb3209205ef00a5d86",
-        "author": "liurongjie",
-        "date": "2026-08-21 23:16:00",
-        "message": "perf ⚡: hubs 空货架短内存缓存并限制同步回源并发"
-      },
-      {
-        "commit": "93a644cd1a1fe35762e9aaa88bf57bc19e772b9b",
-        "author": "liurongjie",
-        "date": "2026-08-21 22:15:02",
-        "message": "perf ⚡: hubs soft 5m + 拒小 body + 刷新限流并重开 Redis"
-      },
-      {
-        "commit": "e86f0885ca4e36b250457b8901f13802504d1f16",
-        "author": "liurongjie",
-        "date": "2026-08-21 20:35:12",
-        "message": "chore 🔧: 临时关闭 hubs Redis，并补充 timeline/缓存诊断日志"
-      },
-      {
-        "commit": "628fdcd6a8d9825e0b9440b23bb073f2f7e80fa1",
-        "author": "liurongjie",
-        "date": "2026-08-21 19:26:49",
-        "message": "perf ⚡: hubs 增加 Redis 二级缓存，重启后可穿透回填"
-      },
-      {
-        "commit": "92a1f9d349d0d32eca801623199be9671bbbd8c8",
-        "author": "liurongjie",
-        "date": "2026-08-21 18:32:40",
-        "message": "fix 🐛: Plex 剧集父行回填路径，避免同步后显示暂无路径"
-      },
-      {
-        "commit": "1141bba7d764e43496d8e42173182287d2f1f805",
-        "author": "liurongjie",
-        "date": "2026-08-21 18:08:29",
-        "message": "fix 🐛: 安卓/TV 播放收回 m3u8 裸视频并让 strm parts 走 302"
-      },
-      {
-        "commit": "aa58f2250a7d2145cc4ed53ea885e7d72334707a",
-        "author": "liurongjie",
-        "date": "2026-08-21 16:07:43",
-        "message": "fix 🐛: 官方安卓/TV 非 strm 恢复 302，白名单 Direct Play 禁止假 HLS"
-      },
-      {
-        "commit": "db8418868fd0b2e96cc00a1dd56490eef60cc1db",
-        "author": "liurongjie",
-        "date": "2026-08-21 15:51:07",
-        "message": "perf ⚡: hubs 缓存取消 hard 同步等待，有条目即 SWR"
-      },
-      {
-        "commit": "506b6c10e4fe59d1544036264b6e54ee993aa71c",
-        "author": "liurongjie",
-        "date": "2026-08-21 15:38:37",
-        "message": "perf ⚡: Plex 热点 hubs 短 TTL SWR 缓存加速主页/推荐"
-      },
-      {
-        "commit": "5efa6134c9da3bd6cfddb650966fb463c28f06e7",
-        "author": "liurongjie",
-        "date": "2026-08-21 13:20:46",
-        "message": "perf ⚡: 收窄 Plex metadata 拦截并补浏览慢请求日志"
-      },
-      {
-        "commit": "632082a691c389e4c72a261bcb177b4cade24bce",
-        "author": "liurongjie",
-        "date": "2026-08-21 13:06:37",
-        "message": "fix 🐛: 修复 Plex similar/related 元数据被误判为解析失败"
-      },
-      {
-        "commit": "7fa8af28c0ee2b3381fa1b4c1293893b1bfe25c0",
-        "author": "liurongjie",
-        "date": "2026-08-21 12:38:40",
-        "message": "fix 🐛: 补齐 MediaProxy 日志 [MediaProxy] 前缀，便于过滤检索"
-      },
-      {
-        "commit": "3715776bd2467df55cefdddbd35c5d2454a67750",
-        "author": "liurongjie",
-        "date": "2026-08-21 11:39:05",
-        "message": "feat ✨: 优化 Plex 起播体验，修复 Android/TV strm 假 HLS 难续播"
       }
     ]
   }
