@@ -1,5 +1,52 @@
 [
   {
+    "version": "DEV_202608240945",
+    "items": [
+      {
+        "commit": "a5ae49481cc3cf48b6b5975d4e3a416e25316a74",
+        "author": "liurongjie",
+        "date": "2026-08-24 09:39:26",
+        "message": "chore: 增加 Plex 缓存跨端复用探测日志"
+      },
+      {
+        "commit": "c6e9aac98b95a047034d90f19cd644a78f867b5d",
+        "author": "xylplm",
+        "date": "2026-08-23 23:04:06",
+        "message": "fix: 中文名后紧跟罗马数字时不再误拼入 CnName"
+      },
+      {
+        "commit": "dcd7c9fb86fdacc7661822a8dbaaf1ec930410ff",
+        "author": "liurongjie",
+        "date": "2026-08-23 22:41:23",
+        "message": "perf ⚡: 忽略播放一次性参数并缩短 related 回源"
+      },
+      {
+        "commit": "8be66459570443e0db907f1f519d756d37fd6357",
+        "author": "liurongjie",
+        "date": "2026-08-23 22:37:09",
+        "message": "fix 🐛: 禁用媒体服务器后不再解析库范围并连上游"
+      },
+      {
+        "commit": "aa7d577cc504bdac8edde044efa1d573d9427840",
+        "author": "xylplm",
+        "date": "2026-08-23 22:30:04",
+        "message": "refactor: modernize codebase for Go 1.27 idioms"
+      },
+      {
+        "commit": "a24051c4321a1d02fe552c1617c980c2b8a7c138",
+        "author": "xylplm",
+        "date": "2026-08-23 18:31:03",
+        "message": "chore: upgrade Go 1.26.5 -> 1.27 and modernize code"
+      },
+      {
+        "commit": "441ca084ba152568cd45e79a027f408cfe7b67d1",
+        "author": "GateCross",
+        "date": "2026-08-22 22:27:33",
+        "message": "fix: 兼容115生活事件空数据时反序列化失败问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608221825",
     "items": [
       {
@@ -221,17 +268,6 @@
         "author": "liurongjie",
         "date": "2026-08-21 22:15:02",
         "message": "perf ⚡: hubs soft 5m + 拒小 body + 刷新限流并重开 Redis"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608212036",
-    "items": [
-      {
-        "commit": "e86f0885ca4e36b250457b8901f13802504d1f16",
-        "author": "liurongjie",
-        "date": "2026-08-21 20:35:12",
-        "message": "chore 🔧: 临时关闭 hubs Redis，并补充 timeline/缓存诊断日志"
       }
     ]
   }
