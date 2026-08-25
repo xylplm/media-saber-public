@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608252355",
+    "items": [
+      {
+        "commit": "29e668f6feb996cd2c67b1b08d21976fbeb4032f",
+        "author": "liurongjie",
+        "date": "2026-08-25 23:54:04",
+        "message": "perf: metadata 共享回源与 item 别名缓存，削减详情重复 miss"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251956",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "Jolc",
         "date": "2026-08-24 15:44:53",
         "message": "feat(mediaserver): Emby data 目录改用路径选择器"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241527",
-    "items": [
-      {
-        "commit": "e35ecfcb7508d39992aeeefb1b51fad7d5e11a2f",
-        "author": "Jolc",
-        "date": "2026-08-24 15:24:22",
-        "message": "feat(mediaserver): Emby 同步全走 SQLite 直连提速"
-      },
-      {
-        "commit": "1eba923e208efc63339af3c6745ec9b6e474b405",
-        "author": "xylplm",
-        "date": "2026-08-24 11:20:04",
-        "message": "fix: 手动绑定的 TMDB 索引跳过缓存一致性校验"
       }
     ]
   }
