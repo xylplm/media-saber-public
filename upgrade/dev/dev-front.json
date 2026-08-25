@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608251408",
+    "items": [
+      {
+        "commit": "2ca14a7ce5154d51df688fa6ae0c9d24f36ebb2c",
+        "author": "xylplm",
+        "date": "2026-08-25 13:40:43",
+        "message": "fix 🐛: 统一移动端悬浮操作尺寸与配置保存栏避让"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251112",
     "items": [
       {
@@ -293,17 +304,6 @@
         "author": "xylplm",
         "date": "2026-08-20 13:19:23",
         "message": "fix 🐛: 智能体对话在服务端仍在处理时给出恢复入口，不再一直转圈也点不动"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608191439",
-    "items": [
-      {
-        "commit": "49703c604ca4908614a02031950ccb206d470ba0",
-        "author": "xylplm",
-        "date": "2026-08-19 12:25:44",
-        "message": "feat ✨: 媒体服务器管理页新增媒体库启用范围配置"
       }
     ]
   }

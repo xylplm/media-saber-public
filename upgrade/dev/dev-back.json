@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608251408",
+    "items": [
+      {
+        "commit": "b87d99c4646478deb5de67c6e0f937be08cfccda",
+        "author": "liurongjie",
+        "date": "2026-08-25 14:09:55",
+        "message": "perf: Plex 同步剥 checkFiles 并补丁 exists，异步探活回填"
+      },
+      {
+        "commit": "bf59209a3f59b5a212801c6067479347966d9abf",
+        "author": "Jolc",
+        "date": "2026-08-25 13:59:53",
+        "message": "feat(cloud_storage): 云资源使用采集与存量回填"
+      },
+      {
+        "commit": "3a2ab8c9daa680a38a39d9f5f7c364cd82874258",
+        "author": "GateCross",
+        "date": "2026-08-25 12:41:48",
+        "message": "fix: 兼容115生活事件接口无数据时data返回空数组的反序列化失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251257",
     "items": [
       {
@@ -161,17 +184,6 @@
         "author": "liurongjie",
         "date": "2026-08-22 18:21:50",
         "message": "fix 🐛: 客户端取消后不再透传，脱离 ctx 回源写缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608221752",
-    "items": [
-      {
-        "commit": "c382d8883692a283acb576eeb4b72b2e97039692",
-        "author": "liurongjie",
-        "date": "2026-08-22 17:51:18",
-        "message": "fix 🐛: 完善 Plex 缓存日志，对照 keyFp 与 cacheURL"
       }
     ]
   }
