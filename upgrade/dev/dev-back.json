@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608251657",
+    "items": [
+      {
+        "commit": "186a6d76fa482ff17ca9a2d6a714a5f6f623246e",
+        "author": "liurongjie",
+        "date": "2026-08-25 16:53:08",
+        "message": "fix: STRM 按真实后缀伪装，Web/iOS 非直玩容器改假 HLS"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251451",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-08-24 12:41:44",
         "message": "fix: 官方 Plex 详情回源保留 checkFiles，避免 exists=0 毒缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241143",
-    "items": [
-      {
-        "commit": "1eba923e208efc63339af3c6745ec9b6e474b405",
-        "author": "xylplm",
-        "date": "2026-08-24 11:20:04",
-        "message": "fix: 手动绑定的 TMDB 索引跳过缓存一致性校验"
-      },
-      {
-        "commit": "c6e9aac98b95a047034d90f19cd644a78f867b5d",
-        "author": "xylplm",
-        "date": "2026-08-23 23:04:06",
-        "message": "fix: 中文名后紧跟罗马数字时不再误拼入 CnName"
       }
     ]
   }
