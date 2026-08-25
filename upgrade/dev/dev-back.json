@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608251956",
+    "items": [
+      {
+        "commit": "40fdf5c06792368fb7b38a01f91e0ddc881bb9dd",
+        "author": "GateCross",
+        "date": "2026-08-25 17:26:08",
+        "message": "feat: 支持剧集云资源批量下载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251657",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-08-24 11:20:04",
         "message": "fix: 手动绑定的 TMDB 索引跳过缓存一致性校验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241243",
-    "items": [
-      {
-        "commit": "3e688141384b6b266065f1d06fc0eec8157c35ad",
-        "author": "liurongjie",
-        "date": "2026-08-24 12:41:44",
-        "message": "fix: 官方 Plex 详情回源保留 checkFiles，避免 exists=0 毒缓存"
       }
     ]
   }
