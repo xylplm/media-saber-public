@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608251242",
+    "items": [
+      {
+        "commit": "3a2ab8c9daa680a38a39d9f5f7c364cd82874258",
+        "author": "GateCross",
+        "date": "2026-08-25 12:41:48",
+        "message": "fix: 兼容115生活事件接口无数据时data返回空数组的反序列化失败"
+      },
+      {
+        "commit": "24d690d0ec8f6d18cbb23c5b261fe9ff8d6ece0f",
+        "author": "liurongjie",
+        "date": "2026-08-25 12:35:02",
+        "message": "perf: Plex 详情同步剥 checkFiles，异步回填探活缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251112",
     "items": [
       {
@@ -161,17 +178,6 @@
         "author": "liurongjie",
         "date": "2026-08-22 02:11:47",
         "message": "perf ⚡: 详情 SWR 与 origin 分桶，减轻详情/货架等待"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608220105",
-    "items": [
-      {
-        "commit": "77e4312e65727c6337938ee6ca05cb454047d57e",
-        "author": "liurongjie",
-        "date": "2026-08-22 01:03:13",
-        "message": "perf ⚡: 缓存 related/similar 旁路，减轻起播前 PMS 风暴"
       }
     ]
   }
