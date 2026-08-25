@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608251415",
+    "items": [
+      {
+        "commit": "8e27863cae358992e3fa031d0e417815eca7aa05",
+        "author": "liurongjie",
+        "date": "2026-08-25 14:14:05",
+        "message": "perf: hubs related 详情 inflight 时空壳 200，并等待详情到达"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251408",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "GateCross",
         "date": "2026-08-22 22:27:33",
         "message": "fix: 兼容115生活事件空数据时反序列化失败问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608221825",
-    "items": [
-      {
-        "commit": "6a39ed16e3d10886de42a6a6d8c3c089eb08bd49",
-        "author": "liurongjie",
-        "date": "2026-08-22 18:21:50",
-        "message": "fix 🐛: 客户端取消后不再透传，脱离 ctx 回源写缓存"
       }
     ]
   }
