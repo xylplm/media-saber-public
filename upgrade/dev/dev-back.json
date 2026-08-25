@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608251257",
+    "items": [
+      {
+        "commit": "d9785e4e33825818bdc1ac978f9107c223cebe23",
+        "author": "liurongjie",
+        "date": "2026-08-25 12:53:40",
+        "message": "Revert \"perf: Plex 详情同步剥 checkFiles，异步回填探活缓存\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202608251242",
     "items": [
       {
@@ -161,23 +172,6 @@
         "author": "liurongjie",
         "date": "2026-08-22 17:51:18",
         "message": "fix 🐛: 完善 Plex 缓存日志，对照 keyFp 与 cacheURL"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608220224",
-    "items": [
-      {
-        "commit": "1b921e0cf1ede4db1a71bc55abfd43e1a87eed01",
-        "author": "liurongjie",
-        "date": "2026-08-22 02:23:48",
-        "message": "fix 🐛: 加固 Plex 缓存，修复 gzip/错页/空体覆盖等问题"
-      },
-      {
-        "commit": "88c5a281ff96cbc410e58f2cfa8e4261db459629",
-        "author": "liurongjie",
-        "date": "2026-08-22 02:11:47",
-        "message": "perf ⚡: 详情 SWR 与 origin 分桶，减轻详情/货架等待"
       }
     ]
   }
