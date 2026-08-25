@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608251112",
+    "items": [
+      {
+        "commit": "d533ee8a7fe65257c86110cdddd25c5c2b389108",
+        "author": "Jolc",
+        "date": "2026-08-24 23:40:58",
+        "message": "feat ✨: 心头好快捷区过滤未启动的秘籍实例"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241838",
     "items": [
       {
@@ -293,17 +304,6 @@
         "author": "xylplm",
         "date": "2026-08-19 12:25:44",
         "message": "feat ✨: 媒体服务器管理页新增媒体库启用范围配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608161930",
-    "items": [
-      {
-        "commit": "95f5c01fe3423410e2827cb9ba9077be13de6e82",
-        "author": "GateCross",
-        "date": "2026-08-16 19:28:33",
-        "message": "fix: 兼容非安全上下文，修复灵犀伴影无法发送的问题"
       }
     ]
   }

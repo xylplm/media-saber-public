@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608251112",
+    "items": [
+      {
+        "commit": "56d727db6597feca6bbe0948f67dad0b1404fbfc",
+        "author": "liurongjie",
+        "date": "2026-08-25 11:09:40",
+        "message": "perf: Plex 代理 origin 槽读智能限流，并合并详情回源与合集 children 缓存"
+      },
+      {
+        "commit": "652ff97463ee2026031c58462f3666c91cedb036",
+        "author": "liurongjie",
+        "date": "2026-08-25 09:57:20",
+        "message": "fix: IYUU 辅种 404 与 0% 删除失败缓存按多种 ID 保留 60 天"
+      },
+      {
+        "commit": "a1b9d6f6ad24bccf3c0c0cbabb3a8cb96d6657d5",
+        "author": "Jolc",
+        "date": "2026-08-24 21:27:04",
+        "message": "fix(cloud_backup): 修复云备份插件状态机与数据安全缺陷，优化扫描性能"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608241546",
     "items": [
       {
@@ -149,17 +172,6 @@
         "author": "liurongjie",
         "date": "2026-08-22 01:03:13",
         "message": "perf ⚡: 缓存 related/similar 旁路，减轻起播前 PMS 风暴"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608220038",
-    "items": [
-      {
-        "commit": "ed5746326f1963c74f170a49bc9f92b100bfc744",
-        "author": "liurongjie",
-        "date": "2026-08-22 00:37:53",
-        "message": "perf ⚡: 详情飞行时列表让路并拉长空货架负缓存"
       }
     ]
   }
