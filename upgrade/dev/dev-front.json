@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202608262311",
+    "items": [
+      {
+        "commit": "6d7d44b4fb9c1692dfc148ac4e27cbe3f869d791",
+        "author": "GateCross",
+        "date": "2026-08-26 22:46:48",
+        "message": "style: 表单占位符改用主题变量以适配明暗主题"
+      },
+      {
+        "commit": "c6fd2ec3a41ec0c22fb53461444f577ed081d408",
+        "author": "GateCross",
+        "date": "2026-08-26 22:31:23",
+        "message": "refactor: 同步数据对话框改为 standalone 组件"
+      },
+      {
+        "commit": "4d81ae5b4cd6363fd25c062a0c6c9d9acdf8e16e",
+        "author": "xylplm",
+        "date": "2026-08-26 19:12:45",
+        "message": "fix(user): 编辑用户提交 userId 并修复密码校验自激循环"
+      },
+      {
+        "commit": "ea68de5fefa4c161c2cba9920e142ed991fdea0d",
+        "author": "xylplm",
+        "date": "2026-08-26 17:58:37",
+        "message": "chore: upgrade Angular and dependencies to latest versions"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608261425",
     "items": [
       {
@@ -197,107 +226,6 @@
         "author": "liurongjie",
         "date": "2026-08-23 21:57:32",
         "message": "fix 🐛: 系统日志空状态增加底部内边距并垂直居中"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241143",
-    "items": [
-      {
-        "commit": "c975a2a2023b7056f2ce8d43088da4f6068cf52e",
-        "author": "xylplm",
-        "date": "2026-08-20 20:49:04",
-        "message": "docs 📚: 生成 Strm 的通知开关补充说明，讲清何时不再识别媒体信息"
-      },
-      {
-        "commit": "6af4f98a5be9834956374686a7a5593bd9a88446",
-        "author": "xylplm",
-        "date": "2026-08-20 15:56:46",
-        "message": "feat ✨: 名称识别测试新增历史回溯，可随时切回前几次的测试结果"
-      },
-      {
-        "commit": "3c47ad5428303e67f78eef4d18b1452429b68aee",
-        "author": "xylplm",
-        "date": "2026-08-20 14:16:15",
-        "message": "feat ✨: 名称识别测试的识别词应用详情支持一键定位到词库条目"
-      },
-      {
-        "commit": "7d18c155bdafafc3cf6cedb2be48f97c28bc2d19",
-        "author": "xylplm",
-        "date": "2026-08-20 13:19:23",
-        "message": "fix 🐛: 智能体对话在服务端仍在处理时给出恢复入口，不再一直转圈也点不动"
-      },
-      {
-        "commit": "49703c604ca4908614a02031950ccb206d470ba0",
-        "author": "xylplm",
-        "date": "2026-08-19 12:25:44",
-        "message": "feat ✨: 媒体服务器管理页新增媒体库启用范围配置"
-      },
-      {
-        "commit": "95f5c01fe3423410e2827cb9ba9077be13de6e82",
-        "author": "GateCross",
-        "date": "2026-08-16 19:28:33",
-        "message": "fix: 兼容非安全上下文，修复灵犀伴影无法发送的问题"
-      },
-      {
-        "commit": "e14c51311c5ccf796d77a6af9e37924477b85c15",
-        "author": "xylplm",
-        "date": "2026-08-15 21:12:40",
-        "message": "feat ✨: 文件整理升级全端规则卡片体验"
-      },
-      {
-        "commit": "cdea8375e69d12665eef95dfb6aeb6bae445b203",
-        "author": "xylplm",
-        "date": "2026-08-15 21:12:31",
-        "message": "feat ✨: Strm生成升级全端规则卡片体验"
-      },
-      {
-        "commit": "5f8342ffeb81b34f711a2b7086a57b1c7580eb27",
-        "author": "xylplm",
-        "date": "2026-08-15 21:12:23",
-        "message": "feat ✨: 通用空态支持卡片化展示"
-      },
-      {
-        "commit": "60879f2db9dc95b28409a52a489ce187216198ee",
-        "author": "xylplm",
-        "date": "2026-08-15 20:15:21",
-        "message": "feat ✨: 云端文件管理优化全端浏览与操作体验"
-      },
-      {
-        "commit": "036d9332a688efc7784fe471c44a7a5904f197a3",
-        "author": "xylplm",
-        "date": "2026-08-15 20:15:12",
-        "message": "feat ✨: 本地文件管理适配全端文件浏览体验"
-      },
-      {
-        "commit": "189323bab81d68f73cbc6a8c1ef33f1650fbeed4",
-        "author": "xylplm",
-        "date": "2026-08-14 15:59:56",
-        "message": "feat ✨: 整理历史删除时告知保种清理说明"
-      },
-      {
-        "commit": "58bdd8c3d9b8f6a543dcebf17fc9e04f1ff8118c",
-        "author": "xylplm",
-        "date": "2026-08-13 14:25:11",
-        "message": "fix 🐛: 首页站点概况卡片移除最近签到列表，避免拉长同行卡片高度"
-      },
-      {
-        "commit": "88b4fb57a2123666a190b5aeddc1c6d67023b809",
-        "author": "xylplm",
-        "date": "2026-08-12 16:50:24",
-        "message": "fix 🐛: 识别词日志开启前增加风险确认"
-      },
-      {
-        "commit": "279fb671eec82b150a1ab5c3586ba5ba9265b943",
-        "author": "xylplm",
-        "date": "2026-08-12 16:31:04",
-        "message": "feat ✨: 基础配置集中管理高频日志开关"
-      },
-      {
-        "commit": "2290523fb32293b02d0ee55b0f3f32f4ff687150",
-        "author": "xylplm",
-        "date": "2026-08-12 01:08:58",
-        "message": "feat ✨: 识别词词条支持拖拽排序"
       }
     ]
   }

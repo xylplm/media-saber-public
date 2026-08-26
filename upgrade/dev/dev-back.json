@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608262311",
+    "items": [
+      {
+        "commit": "c53a657115cce109ec7dff2f2729f8fdf29af203",
+        "author": "GateCross",
+        "date": "2026-08-26 23:05:19",
+        "message": "fix: 修复emby媒体启用范围问题"
+      },
+      {
+        "commit": "5cd14f63c4ba10331408bf9afff14bba96a30819",
+        "author": "liurongjie",
+        "date": "2026-08-26 21:55:23",
+        "message": "fix(mediaproxy): STRM 元数据增强仅作用于 Plex 官方客户端与网页版"
+      },
+      {
+        "commit": "633784cdbe1d8e724830bfde3bbbe40147cf7e41",
+        "author": "xylplm",
+        "date": "2026-08-26 19:12:38",
+        "message": "fix(user): 修复编辑用户误报已存在并加固用户维护 CRUD"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608261611",
     "items": [
       {
@@ -137,17 +160,6 @@
         "author": "GateCross",
         "date": "2026-08-25 12:41:48",
         "message": "fix: 兼容115生活事件接口无数据时data返回空数组的反序列化失败"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251257",
-    "items": [
-      {
-        "commit": "d9785e4e33825818bdc1ac978f9107c223cebe23",
-        "author": "liurongjie",
-        "date": "2026-08-25 12:53:40",
-        "message": "Revert \"perf: Plex 详情同步剥 checkFiles，异步回填探活缓存\""
       }
     ]
   }
