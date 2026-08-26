@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608270046",
+    "items": [
+      {
+        "commit": "3c242ad5d8a5e2aa4cffd6919a46de5b57abd93e",
+        "author": "liurongjie",
+        "date": "2026-08-27 00:44:52",
+        "message": "feat(mediaproxy): Plex 冷路径预热对齐真播并提前填 linkCache"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608262311",
     "items": [
       {
@@ -137,29 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-25 14:14:05",
         "message": "perf: hubs related 详情 inflight 时空壳 200，并等待详情到达"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251408",
-    "items": [
-      {
-        "commit": "b87d99c4646478deb5de67c6e0f937be08cfccda",
-        "author": "liurongjie",
-        "date": "2026-08-25 14:09:55",
-        "message": "perf: Plex 同步剥 checkFiles 并补丁 exists，异步探活回填"
-      },
-      {
-        "commit": "bf59209a3f59b5a212801c6067479347966d9abf",
-        "author": "Jolc",
-        "date": "2026-08-25 13:59:53",
-        "message": "feat(cloud_storage): 云资源使用采集与存量回填"
-      },
-      {
-        "commit": "3a2ab8c9daa680a38a39d9f5f7c364cd82874258",
-        "author": "GateCross",
-        "date": "2026-08-25 12:41:48",
-        "message": "fix: 兼容115生活事件接口无数据时data返回空数组的反序列化失败"
       }
     ]
   }
