@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608261119",
+    "items": [
+      {
+        "commit": "a7d86dec88c96db8a6b747db82ee3ea5b5b2c8da",
+        "author": "Jolc",
+        "date": "2026-08-26 10:48:44",
+        "message": "feat(cloud_storage): Hash 使用榜与引用榜统计转发"
+      },
+      {
+        "commit": "06cb7328fc2029c407656aa2780132735d9c8aee",
+        "author": "liurongjie",
+        "date": "2026-08-26 00:45:50",
+        "message": "fix: playQueue 切集 decision 解耦 metadata 冷 miss 阻塞"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608252355",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "Jolc",
         "date": "2026-08-24 21:27:04",
         "message": "fix(cloud_backup): 修复云备份插件状态机与数据安全缺陷，优化扫描性能"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241546",
-    "items": [
-      {
-        "commit": "c5ee510267b624f4783e0a9d1f1ce9535796d7f9",
-        "author": "Jolc",
-        "date": "2026-08-24 15:44:53",
-        "message": "feat(mediaserver): Emby data 目录改用路径选择器"
       }
     ]
   }
