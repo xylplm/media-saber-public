@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608261611",
+    "items": [
+      {
+        "commit": "66c84ebfd645d911d0ffeef70432bdaa6070d27e",
+        "author": "xylplm",
+        "date": "2026-08-26 16:10:39",
+        "message": "fix(torrent_search_task): 热词统计排除订阅任务错误"
+      },
+      {
+        "commit": "23811cd448f6a55cc6ab40e6f5cdb1c9391c7d1d",
+        "author": "liurongjie",
+        "date": "2026-08-26 15:47:43",
+        "message": "fix(mediaproxy): 空货架改为语义判定，避免短 body 有片被误判"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608261425",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-25 12:53:40",
         "message": "Revert \"perf: Plex 详情同步剥 checkFiles，异步回填探活缓存\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251242",
-    "items": [
-      {
-        "commit": "3a2ab8c9daa680a38a39d9f5f7c364cd82874258",
-        "author": "GateCross",
-        "date": "2026-08-25 12:41:48",
-        "message": "fix: 兼容115生活事件接口无数据时data返回空数组的反序列化失败"
-      },
-      {
-        "commit": "24d690d0ec8f6d18cbb23c5b261fe9ff8d6ece0f",
-        "author": "liurongjie",
-        "date": "2026-08-25 12:35:02",
-        "message": "perf: Plex 详情同步剥 checkFiles，异步回填探活缓存"
       }
     ]
   }
