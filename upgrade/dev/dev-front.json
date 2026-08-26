@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608261425",
+    "items": [
+      {
+        "commit": "9ae43e9b40a6c626d85cba7d54e53b1e303c7de0",
+        "author": "xylplm",
+        "date": "2026-08-26 11:48:24",
+        "message": "feat ✨: 界面自定义支持竖屏网络壁纸"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608261119",
     "items": [
       {
@@ -287,17 +298,6 @@
         "author": "xylplm",
         "date": "2026-08-12 01:08:58",
         "message": "feat ✨: 识别词词条支持拖拽排序"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608240945",
-    "items": [
-      {
-        "commit": "29ed77288c48a6dd3649ceead76edd3178801546",
-        "author": "liurongjie",
-        "date": "2026-08-23 21:57:32",
-        "message": "fix 🐛: 系统日志空状态增加底部内边距并垂直居中"
       }
     ]
   }

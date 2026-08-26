@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202608261425",
+    "items": [
+      {
+        "commit": "ebdbbb7f9e9b74c9f4e515bca5c283ada0d9135a",
+        "author": "liurongjie",
+        "date": "2026-08-26 14:15:28",
+        "message": "feat(mediaproxy): 身份映射 tokenFp→ptv:uuid 写入 Redis 共享"
+      },
+      {
+        "commit": "3b3e2a2151979a4d71d4331919dd86dc8e37a901",
+        "author": "liurongjie",
+        "date": "2026-08-26 14:04:26",
+        "message": "feat(mediaproxy): Plex 缓存按 plex.tv 用户双键分桶"
+      },
+      {
+        "commit": "f219b03ca14139b5d567b4662a6ca3ffeb117707",
+        "author": "liurongjie",
+        "date": "2026-08-26 13:10:58",
+        "message": "fix: STRM enhance 后 pathCache 污染导致 iOS decision 透传"
+      },
+      {
+        "commit": "30d76db06c2b9bdc8e373a01da51bf707e9197a2",
+        "author": "xylplm",
+        "date": "2026-08-26 11:48:24",
+        "message": "feat ✨: 用户偏好支持竖屏网络壁纸"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608261119",
     "items": [
       {
@@ -119,29 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-25 12:35:02",
         "message": "perf: Plex 详情同步剥 checkFiles，异步回填探活缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251112",
-    "items": [
-      {
-        "commit": "56d727db6597feca6bbe0948f67dad0b1404fbfc",
-        "author": "liurongjie",
-        "date": "2026-08-25 11:09:40",
-        "message": "perf: Plex 代理 origin 槽读智能限流，并合并详情回源与合集 children 缓存"
-      },
-      {
-        "commit": "652ff97463ee2026031c58462f3666c91cedb036",
-        "author": "liurongjie",
-        "date": "2026-08-25 09:57:20",
-        "message": "fix: IYUU 辅种 404 与 0% 删除失败缓存按多种 ID 保留 60 天"
-      },
-      {
-        "commit": "a1b9d6f6ad24bccf3c0c0cbabb3a8cb96d6657d5",
-        "author": "Jolc",
-        "date": "2026-08-24 21:27:04",
-        "message": "fix(cloud_backup): 修复云备份插件状态机与数据安全缺陷，优化扫描性能"
       }
     ]
   }
