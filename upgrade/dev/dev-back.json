@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608271406",
+    "items": [
+      {
+        "commit": "4ba6ea38413bfa161c28263950ebe4d628365fe3",
+        "author": "GateCross",
+        "date": "2026-08-27 13:46:57",
+        "message": "fix: 支持云下载失败时自动回退订阅状态及集数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608271303",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "GateCross",
         "date": "2026-08-25 17:26:08",
         "message": "feat: 支持剧集云资源批量下载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251657",
-    "items": [
-      {
-        "commit": "186a6d76fa482ff17ca9a2d6a714a5f6f623246e",
-        "author": "liurongjie",
-        "date": "2026-08-25 16:53:08",
-        "message": "fix: STRM 按真实后缀伪装，Web/iOS 非直玩容器改假 HLS"
       }
     ]
   }
