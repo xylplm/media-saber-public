@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608272020",
+    "items": [
+      {
+        "commit": "a0ef077f892f56e993154e07d117f005df496727",
+        "author": "xylplm",
+        "date": "2026-08-27 18:50:04",
+        "message": "fix 🐛: 修复云下载与转存失败后订阅丢集、坏资源反复重试的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608271825",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-08-26 00:45:50",
         "message": "fix: playQueue 切集 decision 解耦 metadata 冷 miss 阻塞"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608252355",
-    "items": [
-      {
-        "commit": "29e668f6feb996cd2c67b1b08d21976fbeb4032f",
-        "author": "liurongjie",
-        "date": "2026-08-25 23:54:04",
-        "message": "perf: metadata 共享回源与 item 别名缓存，削减详情重复 miss"
       }
     ]
   }
