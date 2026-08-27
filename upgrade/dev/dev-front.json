@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202608272228",
+    "items": [
+      {
+        "commit": "d028edb66c6c88a34b4109c76756d0a179f241fc",
+        "author": "xylplm",
+        "date": "2026-08-27 22:27:06",
+        "message": "style 💄: 补全种子过滤说明弹窗缺失的深色模式配对"
+      },
+      {
+        "commit": "5748dc97ace4cdfa8748fa0da1d593ea3f10209b",
+        "author": "xylplm",
+        "date": "2026-08-27 22:26:26",
+        "message": "style 💄: 修复识别词各组件深色模式硬编码配色"
+      },
+      {
+        "commit": "deff4ef8d09bf2e0a0b393759db934e4f784fdbc",
+        "author": "xylplm",
+        "date": "2026-08-27 22:25:22",
+        "message": "style 💄: 修复 NAS 详情弹窗深色模式下整体未适配问题"
+      },
+      {
+        "commit": "2cbe26547c66904a24deccadfe0a8c05bb45daf6",
+        "author": "xylplm",
+        "date": "2026-08-27 22:24:43",
+        "message": "style 💄: 修复媒体详情与媒体资源组件深色模式硬编码配色"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608272217",
     "items": [
       {
@@ -131,17 +160,6 @@
         "author": "Jolc",
         "date": "2026-08-24 23:40:58",
         "message": "feat ✨: 心头好快捷区过滤未启动的秘籍实例"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241838",
-    "items": [
-      {
-        "commit": "2a75837a5a53380bf09062ac3dad42fc41d28273",
-        "author": "xylplm",
-        "date": "2026-08-24 18:37:39",
-        "message": "feat ✨: 同步数据支持卡片列表切换"
       }
     ]
   }
