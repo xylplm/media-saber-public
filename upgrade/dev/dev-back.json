@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608271303",
+    "items": [
+      {
+        "commit": "6c9b881a82ab3fe554de95f8856b16bec58c0c51",
+        "author": "liurongjie",
+        "date": "2026-08-27 12:52:48",
+        "message": "fix(mediaproxy): 收紧 Plex 直链预热去重与 metadata plain 响应"
+      },
+      {
+        "commit": "7e788acbaebb7fefffe1733c2f19e6053df57ebb",
+        "author": "liurongjie",
+        "date": "2026-08-27 11:52:23",
+        "message": "feat(mediaproxy): Plex 日志驱动冷路径优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608271044",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-08-25 16:53:08",
         "message": "fix: STRM 按真实后缀伪装，Web/iOS 非直玩容器改假 HLS"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251451",
-    "items": [
-      {
-        "commit": "d3c3f0e44defc288ab8531dd5f63da138a913b38",
-        "author": "liurongjie",
-        "date": "2026-08-25 14:48:28",
-        "message": "perf: playQueues 并发合并回源，metadata path parse 异步化"
       }
     ]
   }
