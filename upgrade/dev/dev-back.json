@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608271825",
+    "items": [
+      {
+        "commit": "0e09cba2ec8a738198ec9d0c91db427196f8f84c",
+        "author": "liurongjie",
+        "date": "2026-08-27 18:24:35",
+        "message": "docs: 媒体路径映射说明改为最短前缀写法与举例"
+      },
+      {
+        "commit": "82de25eb0d6e4f61ff790bd033aa136e912a359e",
+        "author": "liurongjie",
+        "date": "2026-08-27 18:24:34",
+        "message": "fix(mediaproxy): Plex 身份同步读 Redis，并补写 user 缓存桶"
+      },
+      {
+        "commit": "109edb478d1d5aaa30e2031e3cbc045eef4976c0",
+        "author": "liurongjie",
+        "date": "2026-08-27 16:42:10",
+        "message": "fix(mediaproxy): 预热槽位真超时释放并降低日志噪音"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608271406",
     "items": [
       {
@@ -143,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-08-25 23:54:04",
         "message": "perf: metadata 共享回源与 item 别名缓存，削减详情重复 miss"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251956",
-    "items": [
-      {
-        "commit": "40fdf5c06792368fb7b38a01f91e0ddc881bb9dd",
-        "author": "GateCross",
-        "date": "2026-08-25 17:26:08",
-        "message": "feat: 支持剧集云资源批量下载"
       }
     ]
   }

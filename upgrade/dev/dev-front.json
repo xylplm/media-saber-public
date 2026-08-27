@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608271825",
+    "items": [
+      {
+        "commit": "73a7c893b2548c0ff69c08045650f60db2216808",
+        "author": "liurongjie",
+        "date": "2026-08-27 18:24:34",
+        "message": "fix 🐛: 表单问号提示支持换行显示长说明"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608262311",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "xylplm",
         "date": "2026-08-12 01:08:58",
         "message": "feat ✨: 识别词词条支持拖拽排序"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241243",
-    "items": [
-      {
-        "commit": "29ed77288c48a6dd3649ceead76edd3178801546",
-        "author": "liurongjie",
-        "date": "2026-08-23 21:57:32",
-        "message": "fix 🐛: 系统日志空状态增加底部内边距并垂直居中"
       }
     ]
   }
