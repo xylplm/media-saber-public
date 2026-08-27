@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608280014",
+    "items": [
+      {
+        "commit": "80ffda17655e491c3d888c549b52aa1d8d94c35c",
+        "author": "liurongjie",
+        "date": "2026-08-28 00:07:53",
+        "message": "fix(mediaproxy): seek 成功即续写 redirectCache 并延长 TTL"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608272338",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "xylplm",
         "date": "2026-08-26 19:12:38",
         "message": "fix(user): 修复编辑用户误报已存在并加固用户维护 CRUD"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608261611",
-    "items": [
-      {
-        "commit": "66c84ebfd645d911d0ffeef70432bdaa6070d27e",
-        "author": "xylplm",
-        "date": "2026-08-26 16:10:39",
-        "message": "fix(torrent_search_task): 热词统计排除订阅任务错误"
-      },
-      {
-        "commit": "23811cd448f6a55cc6ab40e6f5cdb1c9391c7d1d",
-        "author": "liurongjie",
-        "date": "2026-08-26 15:47:43",
-        "message": "fix(mediaproxy): 空货架改为语义判定，避免短 body 有片被误判"
       }
     ]
   }
