@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608272217",
+    "items": [
+      {
+        "commit": "7840fa019f85bdf0314db64df46f84db77cb2686",
+        "author": "xylplm",
+        "date": "2026-08-27 21:06:56",
+        "message": "fix 🐛: 修复云下载与种子下载确认弹窗在深色模式下文字看不见的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608272020",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "xylplm",
         "date": "2026-08-24 18:37:39",
         "message": "feat ✨: 同步数据支持卡片列表切换"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608241537",
-    "items": [
-      {
-        "commit": "1e9dd5f3c4ae96a6c61a19a0b356fd3e9c9c45ce",
-        "author": "xylplm",
-        "date": "2026-08-24 15:37:03",
-        "message": "feat ✨: 失败列表增加名称识别测试"
-      },
-      {
-        "commit": "29ed77288c48a6dd3649ceead76edd3178801546",
-        "author": "liurongjie",
-        "date": "2026-08-23 21:57:32",
-        "message": "fix 🐛: 系统日志空状态增加底部内边距并垂直居中"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608272217",
+    "items": [
+      {
+        "commit": "d4adc468bcca8b7191d1a04618cb9293358891f5",
+        "author": "liurongjie",
+        "date": "2026-08-27 22:14:19",
+        "message": "feat(mediaproxy): 无 PC 云路径提前软刷目录缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608272020",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "xylplm",
         "date": "2026-08-26 11:48:24",
         "message": "feat ✨: 用户偏好支持竖屏网络壁纸"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608261119",
-    "items": [
-      {
-        "commit": "a7d86dec88c96db8a6b747db82ee3ea5b5b2c8da",
-        "author": "Jolc",
-        "date": "2026-08-26 10:48:44",
-        "message": "feat(cloud_storage): Hash 使用榜与引用榜统计转发"
-      },
-      {
-        "commit": "06cb7328fc2029c407656aa2780132735d9c8aee",
-        "author": "liurongjie",
-        "date": "2026-08-26 00:45:50",
-        "message": "fix: playQueue 切集 decision 解耦 metadata 冷 miss 阻塞"
       }
     ]
   }
