@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608271044",
+    "items": [
+      {
+        "commit": "614f82fd786faace3bd8de75b44c268455d409f8",
+        "author": "Jolc",
+        "date": "2026-08-27 10:42:58",
+        "message": "fix(cs_hash): 使用上报按接口单次条数上限自动分批"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608270046",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-25 14:48:28",
         "message": "perf: playQueues 并发合并回源，metadata path parse 异步化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251415",
-    "items": [
-      {
-        "commit": "8e27863cae358992e3fa031d0e417815eca7aa05",
-        "author": "liurongjie",
-        "date": "2026-08-25 14:14:05",
-        "message": "perf: hubs related 详情 inflight 时空壳 200，并等待详情到达"
       }
     ]
   }
