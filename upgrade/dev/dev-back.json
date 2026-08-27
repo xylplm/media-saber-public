@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608272338",
+    "items": [
+      {
+        "commit": "aaeb56b3a37fbcfbae7468b51c5c8c5ac53da39a",
+        "author": "liurongjie",
+        "date": "2026-08-27 23:36:59",
+        "message": "fix(mediaproxy): 恢复 seek redirectCache 并收紧 dirWarm 防踩踏"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608272217",
     "items": [
       {
@@ -131,35 +142,6 @@
         "author": "liurongjie",
         "date": "2026-08-26 15:47:43",
         "message": "fix(mediaproxy): 空货架改为语义判定，避免短 body 有片被误判"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608261425",
-    "items": [
-      {
-        "commit": "ebdbbb7f9e9b74c9f4e515bca5c283ada0d9135a",
-        "author": "liurongjie",
-        "date": "2026-08-26 14:15:28",
-        "message": "feat(mediaproxy): 身份映射 tokenFp→ptv:uuid 写入 Redis 共享"
-      },
-      {
-        "commit": "3b3e2a2151979a4d71d4331919dd86dc8e37a901",
-        "author": "liurongjie",
-        "date": "2026-08-26 14:04:26",
-        "message": "feat(mediaproxy): Plex 缓存按 plex.tv 用户双键分桶"
-      },
-      {
-        "commit": "f219b03ca14139b5d567b4662a6ca3ffeb117707",
-        "author": "liurongjie",
-        "date": "2026-08-26 13:10:58",
-        "message": "fix: STRM enhance 后 pathCache 污染导致 iOS decision 透传"
-      },
-      {
-        "commit": "30d76db06c2b9bdc8e373a01da51bf707e9197a2",
-        "author": "xylplm",
-        "date": "2026-08-26 11:48:24",
-        "message": "feat ✨: 用户偏好支持竖屏网络壁纸"
       }
     ]
   }
