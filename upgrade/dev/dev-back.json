@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608290112",
+    "items": [
+      {
+        "commit": "96df747b6d838d0e8dac70fd846f538bdb385381",
+        "author": "liurongjie",
+        "date": "2026-08-29 01:11:12",
+        "message": "fix(mediaproxy): Plex 进库韧性——browse 导航分档与 origin 主路径保底"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608290103",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-08-27 22:14:19",
         "message": "feat(mediaproxy): 无 PC 云路径提前软刷目录缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608272020",
-    "items": [
-      {
-        "commit": "a0ef077f892f56e993154e07d117f005df496727",
-        "author": "xylplm",
-        "date": "2026-08-27 18:50:04",
-        "message": "fix 🐛: 修复云下载与转存失败后订阅丢集、坏资源反复重试的问题"
       }
     ]
   }
