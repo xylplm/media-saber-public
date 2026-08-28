@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608281539",
+    "items": [
+      {
+        "commit": "328f87238e8409d32e680eec36eb88ecc8a03c82",
+        "author": "liurongjie",
+        "date": "2026-08-28 15:36:22",
+        "message": "fix(mediaproxy): 禁止 Plex Director 代填服务器 Token"
+      },
+      {
+        "commit": "e8379d33f1a6b983c9165296989e5c6ec3fe682c",
+        "author": "liurongjie",
+        "date": "2026-08-28 15:20:04",
+        "message": "fix(mediaproxy): promoted 空响应优化与 scrobble 后 metadata 失效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608281227",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "Jolc",
         "date": "2026-08-27 10:42:58",
         "message": "fix(cs_hash): 使用上报按接口单次条数上限自动分批"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608270046",
-    "items": [
-      {
-        "commit": "3c242ad5d8a5e2aa4cffd6919a46de5b57abd93e",
-        "author": "liurongjie",
-        "date": "2026-08-27 00:44:52",
-        "message": "feat(mediaproxy): Plex 冷路径预热对齐真播并提前填 linkCache"
       }
     ]
   }
