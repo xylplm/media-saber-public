@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608281742",
+    "items": [
+      {
+        "commit": "3abcb887c172cd54188fa77e14fd4e75921528df",
+        "author": "liurongjie",
+        "date": "2026-08-28 17:36:37",
+        "message": "fix(mediaproxy): metadata 双键对齐 user 桶 backfill"
+      },
+      {
+        "commit": "c4dd1a49eab57e4191a78144ce8c48e9e887fba5",
+        "author": "liurongjie",
+        "date": "2026-08-28 16:49:47",
+        "message": "fix(mediaproxy): seek 不再命中/续写 redirectCache"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608281539",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-08-27 11:52:23",
         "message": "feat(mediaproxy): Plex 日志驱动冷路径优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608271044",
-    "items": [
-      {
-        "commit": "614f82fd786faace3bd8de75b44c268455d409f8",
-        "author": "Jolc",
-        "date": "2026-08-27 10:42:58",
-        "message": "fix(cs_hash): 使用上报按接口单次条数上限自动分批"
       }
     ]
   }
