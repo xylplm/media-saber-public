@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608290103",
+    "items": [
+      {
+        "commit": "6cd230825277f7a55ba267ea16f7f44d0e50098b",
+        "author": "GateCross",
+        "date": "2026-08-29 00:51:04",
+        "message": "feat: 系统设置新增数据库清理（VACUUM）入口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608272228",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "xylplm",
         "date": "2026-08-25 13:40:43",
         "message": "fix 🐛: 统一移动端悬浮操作尺寸与配置保存栏避让"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251112",
-    "items": [
-      {
-        "commit": "d533ee8a7fe65257c86110cdddd25c5c2b389108",
-        "author": "Jolc",
-        "date": "2026-08-24 23:40:58",
-        "message": "feat ✨: 心头好快捷区过滤未启动的秘籍实例"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608290103",
+    "items": [
+      {
+        "commit": "91b70c866737c8e00df652b4ac70f740bc390fa8",
+        "author": "GateCross",
+        "date": "2026-08-29 00:50:38",
+        "message": "feat: 新增数据库 VACUUM 维护接口并优化工作台最近入库加载"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608282351",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-08-27 18:50:04",
         "message": "fix 🐛: 修复云下载与转存失败后订阅丢集、坏资源反复重试的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608271825",
-    "items": [
-      {
-        "commit": "0e09cba2ec8a738198ec9d0c91db427196f8f84c",
-        "author": "liurongjie",
-        "date": "2026-08-27 18:24:35",
-        "message": "docs: 媒体路径映射说明改为最短前缀写法与举例"
-      },
-      {
-        "commit": "82de25eb0d6e4f61ff790bd033aa136e912a359e",
-        "author": "liurongjie",
-        "date": "2026-08-27 18:24:34",
-        "message": "fix(mediaproxy): Plex 身份同步读 Redis，并补写 user 缓存桶"
-      },
-      {
-        "commit": "109edb478d1d5aaa30e2031e3cbc045eef4976c0",
-        "author": "liurongjie",
-        "date": "2026-08-27 16:42:10",
-        "message": "fix(mediaproxy): 预热槽位真超时释放并降低日志噪音"
       }
     ]
   }
