@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608282351",
+    "items": [
+      {
+        "commit": "8c239169de2fae607d3d3ccdc84918b977c32983",
+        "author": "liurongjie",
+        "date": "2026-08-28 23:42:28",
+        "message": "fix: strm path 含 & 截断与 Plex Alert WS 代理 401"
+      },
+      {
+        "commit": "63bae781b5e54ec8a092e0c5ae016d9d0479072c",
+        "author": "GateCross",
+        "date": "2026-08-28 23:29:26",
+        "message": "fix: 云下载提交报错后复核云端任务，避免误报失败与误回退订阅"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608282228",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-27 16:42:10",
         "message": "fix(mediaproxy): 预热槽位真超时释放并降低日志噪音"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608271406",
-    "items": [
-      {
-        "commit": "4ba6ea38413bfa161c28263950ebe4d628365fe3",
-        "author": "GateCross",
-        "date": "2026-08-27 13:46:57",
-        "message": "fix: 支持云下载失败时自动回退订阅状态及集数"
       }
     ]
   }
