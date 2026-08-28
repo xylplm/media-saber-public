@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608281227",
+    "items": [
+      {
+        "commit": "781e55e63d3fb5e72432fb413bcd91b7ff33db8b",
+        "author": "Jolc",
+        "date": "2026-08-28 12:24:56",
+        "message": "fix: strm 路径含 & 时被 query 解析截断导致 object not found"
+      },
+      {
+        "commit": "8062a674b91819e0eb03ddb8a47a8bb355e0b34c",
+        "author": "liurongjie",
+        "date": "2026-08-28 12:00:12",
+        "message": "fix(mediaproxy): Plex 双键缓存有 user 映射时优先读 user 桶"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608280014",
     "items": [
       {
@@ -113,29 +130,6 @@
         "author": "liurongjie",
         "date": "2026-08-27 00:44:52",
         "message": "feat(mediaproxy): Plex 冷路径预热对齐真播并提前填 linkCache"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608262311",
-    "items": [
-      {
-        "commit": "c53a657115cce109ec7dff2f2729f8fdf29af203",
-        "author": "GateCross",
-        "date": "2026-08-26 23:05:19",
-        "message": "fix: 修复emby媒体启用范围问题"
-      },
-      {
-        "commit": "5cd14f63c4ba10331408bf9afff14bba96a30819",
-        "author": "liurongjie",
-        "date": "2026-08-26 21:55:23",
-        "message": "fix(mediaproxy): STRM 元数据增强仅作用于 Plex 官方客户端与网页版"
-      },
-      {
-        "commit": "633784cdbe1d8e724830bfde3bbbe40147cf7e41",
-        "author": "xylplm",
-        "date": "2026-08-26 19:12:38",
-        "message": "fix(user): 修复编辑用户误报已存在并加固用户维护 CRUD"
       }
     ]
   }
