@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608291923",
+    "items": [
+      {
+        "commit": "38e8a4140103427888d81a48d1fd9645080af30d",
+        "author": "GateCross",
+        "date": "2026-08-29 19:01:44",
+        "message": "fix: 修复任务列表分页不生效"
+      },
+      {
+        "commit": "790e60311437ff69e63c030a344bfaf3b96248be",
+        "author": "xylplm",
+        "date": "2026-08-29 14:56:04",
+        "message": "fix 🐛: 优化观影报告补采周期设置"
+      },
+      {
+        "commit": "518f2f301ca5f3bc98be5b09b981e8f9002760d1",
+        "author": "xylplm",
+        "date": "2026-08-29 12:18:01",
+        "message": "fix 🐛: 修正媒体库播放进度展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608291825",
     "items": [
       {
@@ -143,23 +166,6 @@
         "author": "xylplm",
         "date": "2026-08-26 11:48:24",
         "message": "feat ✨: 界面自定义支持竖屏网络壁纸"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608261119",
-    "items": [
-      {
-        "commit": "ad2220b6b972ad86949db8f789f5d831caf250dc",
-        "author": "Jolc",
-        "date": "2026-08-26 11:14:04",
-        "message": "feat ✨: Hash 榜新增我的战绩分享海报"
-      },
-      {
-        "commit": "01d656bcff7cfe02d023716ecfc8ef9088f40f9a",
-        "author": "Jolc",
-        "date": "2026-08-26 10:48:46",
-        "message": "feat ✨: 首页 Hash 榜支持使用榜/引用榜切换"
       }
     ]
   }

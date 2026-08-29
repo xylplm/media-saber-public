@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202608291923",
+    "items": [
+      {
+        "commit": "e0751608063e70e24d34d2b1b19d36b3e40b73ba",
+        "author": "GateCross",
+        "date": "2026-08-29 19:18:10",
+        "message": "fix: 修复默认媒体服务器未同步时工作台统计空值"
+      },
+      {
+        "commit": "6fdb2668569876c2e7069dc9212f5e5a90c8d234",
+        "author": "GateCross",
+        "date": "2026-08-29 19:18:09",
+        "message": "fix: 深度清理解除语句超时限制，孤儿明细改分批清理并增加启动触发"
+      },
+      {
+        "commit": "0847689c4ff4c0b116f49a6e1d8545e48e7cca40",
+        "author": "xylplm",
+        "date": "2026-08-29 15:37:04",
+        "message": "fix 🐛: 优化观影补采与媒体同步稳定性"
+      },
+      {
+        "commit": "ae1785a4ec41b344c3c78ddc8a2c82de134f43a7",
+        "author": "xylplm",
+        "date": "2026-08-29 12:16:42",
+        "message": "fix 🐛: 修复观影采补进度与时长统计"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608291825",
     "items": [
       {
@@ -149,17 +178,6 @@
         "author": "liurongjie",
         "date": "2026-08-28 12:00:12",
         "message": "fix(mediaproxy): Plex 双键缓存有 user 映射时优先读 user 桶"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608280014",
-    "items": [
-      {
-        "commit": "80ffda17655e491c3d888c549b52aa1d8d94c35c",
-        "author": "liurongjie",
-        "date": "2026-08-28 00:07:53",
-        "message": "fix(mediaproxy): seek 成功即续写 redirectCache 并延长 TTL"
       }
     ]
   }
