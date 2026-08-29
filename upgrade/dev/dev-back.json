@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608292303",
+    "items": [
+      {
+        "commit": "b5963ae34dfe26ab85c9a374a16d09fae8c746da",
+        "author": "liurongjie",
+        "date": "2026-08-29 23:02:18",
+        "message": "chore(plugin): Plex 自动音轨 Alert WS 探活日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608291940",
     "items": [
       {
@@ -155,23 +166,6 @@
         "author": "liurongjie",
         "date": "2026-08-28 16:49:47",
         "message": "fix(mediaproxy): seek 不再命中/续写 redirectCache"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608281539",
-    "items": [
-      {
-        "commit": "328f87238e8409d32e680eec36eb88ecc8a03c82",
-        "author": "liurongjie",
-        "date": "2026-08-28 15:36:22",
-        "message": "fix(mediaproxy): 禁止 Plex Director 代填服务器 Token"
-      },
-      {
-        "commit": "e8379d33f1a6b983c9165296989e5c6ec3fe682c",
-        "author": "liurongjie",
-        "date": "2026-08-28 15:20:04",
-        "message": "fix(mediaproxy): promoted 空响应优化与 scrobble 后 metadata 失效"
       }
     ]
   }
