@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608291639",
+    "items": [
+      {
+        "commit": "29e3e497a0ecf3fd5917f96e47bed67182dc388a",
+        "author": "GateCross",
+        "date": "2026-08-29 16:38:17",
+        "message": "feat: 数据库清理改为后台异步触发，完成后在消息中心通知"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608290103",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "GateCross",
         "date": "2026-08-25 17:26:08",
         "message": "feat: 支持剧集云资源批量下载"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251408",
-    "items": [
-      {
-        "commit": "2ca14a7ce5154d51df688fa6ae0c9d24f36ebb2c",
-        "author": "xylplm",
-        "date": "2026-08-25 13:40:43",
-        "message": "fix 🐛: 统一移动端悬浮操作尺寸与配置保存栏避让"
       }
     ]
   }

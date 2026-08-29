@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608291639",
+    "items": [
+      {
+        "commit": "1a1df81876877695664de6f01a8175bdaf129c55",
+        "author": "GateCross",
+        "date": "2026-08-29 16:38:11",
+        "message": "feat: 数据库清理改为后台异步执行，结果推送消息中心"
+      },
+      {
+        "commit": "151be07a8c4eac2e1da1c6a02e172142bf699ac8",
+        "author": "GateCross",
+        "date": "2026-08-29 16:38:06",
+        "message": "perf: 站点数据/签到表新增 (site_id, id) 复合索引，工作台聚合不再全表扫"
+      },
+      {
+        "commit": "6fcffd1a4721925c7fddcbb8cefc60af110322be",
+        "author": "GateCross",
+        "date": "2026-08-29 16:37:53",
+        "message": "fix(mediaserver): 图片 URL 固定使用内网 Host，由服务端抓图避免走公网"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608290112",
     "items": [
       {
@@ -125,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-27 23:36:59",
         "message": "fix(mediaproxy): 恢复 seek redirectCache 并收紧 dirWarm 防踩踏"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608272217",
-    "items": [
-      {
-        "commit": "d4adc468bcca8b7191d1a04618cb9293358891f5",
-        "author": "liurongjie",
-        "date": "2026-08-27 22:14:19",
-        "message": "feat(mediaproxy): 无 PC 云路径提前软刷目录缓存"
       }
     ]
   }
