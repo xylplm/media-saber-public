@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202608291825",
+    "items": [
+      {
+        "commit": "2222e59f09b7fba56707127f6a75dbd2f543b46d",
+        "author": "GateCross",
+        "date": "2026-08-29 18:24:16",
+        "message": "feat: 工作台概览增加分项耗时统计日志"
+      },
+      {
+        "commit": "1c00ec17bc3143478cf6bdc0c7c73adc2a3f6674",
+        "author": "GateCross",
+        "date": "2026-08-29 18:21:57",
+        "message": "perf: 清理无主种子明细并移除废弃索引"
+      },
+      {
+        "commit": "2a259c00c8da13ea1879368d56b26bb36bdd6f32",
+        "author": "GateCross",
+        "date": "2026-08-29 16:55:14",
+        "message": "fix: 数据库清理释放空间为负时按 0 展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608291639",
     "items": [
       {
@@ -137,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-08-28 00:07:53",
         "message": "fix(mediaproxy): seek 成功即续写 redirectCache 并延长 TTL"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608272338",
-    "items": [
-      {
-        "commit": "aaeb56b3a37fbcfbae7468b51c5c8c5ac53da39a",
-        "author": "liurongjie",
-        "date": "2026-08-27 23:36:59",
-        "message": "fix(mediaproxy): 恢复 seek redirectCache 并收紧 dirWarm 防踩踏"
       }
     ]
   }

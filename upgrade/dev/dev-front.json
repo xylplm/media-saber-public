@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608291825",
+    "items": [
+      {
+        "commit": "f1f8ca626a948ce356852d492e64d0e38bfa2f4e",
+        "author": "GateCross",
+        "date": "2026-08-29 17:49:00",
+        "message": "fix: 修复数据库维护卡片图标显示并将说明改为问号提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608291639",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "Jolc",
         "date": "2026-08-26 10:48:46",
         "message": "feat ✨: 首页 Hash 榜支持使用榜/引用榜切换"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608251956",
-    "items": [
-      {
-        "commit": "cd588f4df64ca97cd2ca60eb696e560153ef1646",
-        "author": "GateCross",
-        "date": "2026-08-25 17:26:08",
-        "message": "feat: 支持剧集云资源批量下载"
       }
     ]
   }
