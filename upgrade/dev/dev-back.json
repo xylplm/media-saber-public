@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608291940",
+    "items": [
+      {
+        "commit": "22672f3133a0cdd1332290ee8eba0a76e30323f5",
+        "author": "GateCross",
+        "date": "2026-08-29 19:39:07",
+        "message": "chore: 数据库清理日志大小改用自适应单位显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608291923",
     "items": [
       {
@@ -161,23 +172,6 @@
         "author": "liurongjie",
         "date": "2026-08-28 15:20:04",
         "message": "fix(mediaproxy): promoted 空响应优化与 scrobble 后 metadata 失效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608281227",
-    "items": [
-      {
-        "commit": "781e55e63d3fb5e72432fb413bcd91b7ff33db8b",
-        "author": "Jolc",
-        "date": "2026-08-28 12:24:56",
-        "message": "fix: strm 路径含 & 时被 query 解析截断导致 object not found"
-      },
-      {
-        "commit": "8062a674b91819e0eb03ddb8a47a8bb355e0b34c",
-        "author": "liurongjie",
-        "date": "2026-08-28 12:00:12",
-        "message": "fix(mediaproxy): Plex 双键缓存有 user 映射时优先读 user 桶"
       }
     ]
   }
