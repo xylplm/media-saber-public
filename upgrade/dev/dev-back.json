@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608300029",
+    "items": [
+      {
+        "commit": "b6e3dfa9ce2b3bae37d7fd2f1125dbfabd84e804",
+        "author": "liurongjie",
+        "date": "2026-08-30 00:28:43",
+        "message": "chore(plugin): 移除 Plex 自动音轨 Alert WS 探活日志"
+      },
+      {
+        "commit": "4114253a495f55639054c99a8f9ff6e9b530d616",
+        "author": "liurongjie",
+        "date": "2026-08-30 00:14:15",
+        "message": "fix(mediaproxy): strm path 含 + 被 QueryUnescape 改成空格导致 object not found"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608292303",
     "items": [
       {
@@ -149,23 +166,6 @@
         "author": "liurongjie",
         "date": "2026-08-28 22:03:44",
         "message": "fix(mediaproxy): 预热对齐 parts UA 分桶并加强播放观测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608281742",
-    "items": [
-      {
-        "commit": "3abcb887c172cd54188fa77e14fd4e75921528df",
-        "author": "liurongjie",
-        "date": "2026-08-28 17:36:37",
-        "message": "fix(mediaproxy): metadata 双键对齐 user 桶 backfill"
-      },
-      {
-        "commit": "c4dd1a49eab57e4191a78144ce8c48e9e887fba5",
-        "author": "liurongjie",
-        "date": "2026-08-28 16:49:47",
-        "message": "fix(mediaproxy): seek 不再命中/续写 redirectCache"
       }
     ]
   }
