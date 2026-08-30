@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608301842",
+    "items": [
+      {
+        "commit": "ec5d58447e29db890601d08f76500f0a580f24bf",
+        "author": "liurongjie",
+        "date": "2026-08-30 18:41:50",
+        "message": "revert: 恢复启动时清空 asynq 队列"
+      },
+      {
+        "commit": "28a0a08ae092e67f70f2c8c295820109868bce1e",
+        "author": "liurongjie",
+        "date": "2026-08-30 18:18:18",
+        "message": "fix(mediaserver): 健康中心按启用库过滤并保留 asynq 队列"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608301805",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "GateCross",
         "date": "2026-08-29 16:37:53",
         "message": "fix(mediaserver): 图片 URL 固定使用内网 Host，由服务端抓图避免走公网"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608290112",
-    "items": [
-      {
-        "commit": "96df747b6d838d0e8dac70fd846f538bdb385381",
-        "author": "liurongjie",
-        "date": "2026-08-29 01:11:12",
-        "message": "fix(mediaproxy): Plex 进库韧性——browse 导航分档与 origin 主路径保底"
       }
     ]
   }
