@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608301805",
+    "items": [
+      {
+        "commit": "713df0ea1645a6ca1876ba924af67bc8d3dcf014",
+        "author": "liurongjie",
+        "date": "2026-08-30 18:04:24",
+        "message": "feat(mediaserver): webhook library.new 按媒体 ID 定点同步"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608301633",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-08-29 01:11:12",
         "message": "fix(mediaproxy): Plex 进库韧性——browse 导航分档与 origin 主路径保底"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608290103",
-    "items": [
-      {
-        "commit": "91b70c866737c8e00df652b4ac70f740bc390fa8",
-        "author": "GateCross",
-        "date": "2026-08-29 00:50:38",
-        "message": "feat: 新增数据库 VACUUM 维护接口并优化工作台最近入库加载"
       }
     ]
   }
