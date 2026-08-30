@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608302227",
+    "items": [
+      {
+        "commit": "7c6c87633a4e4ecd6fc3313bb776f432b79cc4b7",
+        "author": "liurongjie",
+        "date": "2026-08-30 20:02:02",
+        "message": "fix(strm): 运行按钮不再误开编辑弹窗"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608301633",
     "items": [
       {
@@ -137,35 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-27 18:24:34",
         "message": "fix 🐛: 表单问号提示支持换行显示长说明"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608262311",
-    "items": [
-      {
-        "commit": "6d7d44b4fb9c1692dfc148ac4e27cbe3f869d791",
-        "author": "GateCross",
-        "date": "2026-08-26 22:46:48",
-        "message": "style: 表单占位符改用主题变量以适配明暗主题"
-      },
-      {
-        "commit": "c6fd2ec3a41ec0c22fb53461444f577ed081d408",
-        "author": "GateCross",
-        "date": "2026-08-26 22:31:23",
-        "message": "refactor: 同步数据对话框改为 standalone 组件"
-      },
-      {
-        "commit": "4d81ae5b4cd6363fd25c062a0c6c9d9acdf8e16e",
-        "author": "xylplm",
-        "date": "2026-08-26 19:12:45",
-        "message": "fix(user): 编辑用户提交 userId 并修复密码校验自激循环"
-      },
-      {
-        "commit": "ea68de5fefa4c161c2cba9920e142ed991fdea0d",
-        "author": "xylplm",
-        "date": "2026-08-26 17:58:37",
-        "message": "chore: upgrade Angular and dependencies to latest versions"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608302227",
+    "items": [
+      {
+        "commit": "f89facb1c1bad6969b582600d88338ebce0a1766",
+        "author": "GateCross",
+        "date": "2026-08-30 22:25:05",
+        "message": "fix: Emby library.db 只读连接 busy_timeout 提升至 5s，缓解扫描期间瞬时锁冲突"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608301842",
     "items": [
       {
@@ -137,29 +148,6 @@
         "author": "GateCross",
         "date": "2026-08-29 16:55:14",
         "message": "fix: 数据库清理释放空间为负时按 0 展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608291639",
-    "items": [
-      {
-        "commit": "1a1df81876877695664de6f01a8175bdaf129c55",
-        "author": "GateCross",
-        "date": "2026-08-29 16:38:11",
-        "message": "feat: 数据库清理改为后台异步执行，结果推送消息中心"
-      },
-      {
-        "commit": "151be07a8c4eac2e1da1c6a02e172142bf699ac8",
-        "author": "GateCross",
-        "date": "2026-08-29 16:38:06",
-        "message": "perf: 站点数据/签到表新增 (site_id, id) 复合索引，工作台聚合不再全表扫"
-      },
-      {
-        "commit": "6fcffd1a4721925c7fddcbb8cefc60af110322be",
-        "author": "GateCross",
-        "date": "2026-08-29 16:37:53",
-        "message": "fix(mediaserver): 图片 URL 固定使用内网 Host，由服务端抓图避免走公网"
       }
     ]
   }
