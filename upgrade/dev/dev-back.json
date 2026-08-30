@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608301449",
+    "items": [
+      {
+        "commit": "aeeae1477d240db616fa9739c7cfc3887627ac0a",
+        "author": "GateCross",
+        "date": "2026-08-30 14:12:17",
+        "message": "fix: Emby library.db 只读连接增加 busy_timeout(1s)，避免瞬时锁冲突直接报 SQLITE_BUSY"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608300029",
     "items": [
       {
@@ -149,23 +160,6 @@
         "author": "GateCross",
         "date": "2026-08-28 23:29:26",
         "message": "fix: 云下载提交报错后复核云端任务，避免误报失败与误回退订阅"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608282228",
-    "items": [
-      {
-        "commit": "4d05b757a80a969b7f294a2617feb956ce170899",
-        "author": "liurongjie",
-        "date": "2026-08-28 22:27:30",
-        "message": "fix(mediaproxy): 统一 strm 无 PC 浏览期 dirWarm 并去重调度"
-      },
-      {
-        "commit": "60665b929dabf10eb6b05ddb2227a90dfcea815f",
-        "author": "liurongjie",
-        "date": "2026-08-28 22:03:44",
-        "message": "fix(mediaproxy): 预热对齐 parts UA 分桶并加强播放观测"
       }
     ]
   }
