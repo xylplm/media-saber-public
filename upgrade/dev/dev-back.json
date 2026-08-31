@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608311404",
+    "items": [
+      {
+        "commit": "8c8386fa254340c5a660dc1ce348750ec39279a2",
+        "author": "liurongjie",
+        "date": "2026-08-31 14:02:19",
+        "message": "fix(plugin): 降低 Plex 自动音轨 Alert 非剧集日志噪音"
+      },
+      {
+        "commit": "5d80c28130fc5953098ba1bbb8ea3ce111434fb3",
+        "author": "xylplm",
+        "date": "2026-08-31 10:16:51",
+        "message": "fix 🐛: 同步 CPA 监控中文汇总文案断言"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311038",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-08-29 23:02:18",
         "message": "chore(plugin): Plex 自动音轨 Alert WS 探活日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608291940",
-    "items": [
-      {
-        "commit": "22672f3133a0cdd1332290ee8eba0a76e30323f5",
-        "author": "GateCross",
-        "date": "2026-08-29 19:39:07",
-        "message": "chore: 数据库清理日志大小改用自适应单位显示"
       }
     ]
   }
