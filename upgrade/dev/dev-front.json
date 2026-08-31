@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608311004",
+    "items": [
+      {
+        "commit": "af7d2acc68b632f3b4dc5745e2bf3c121f521f03",
+        "author": "GateCross",
+        "date": "2026-08-31 10:02:57",
+        "message": "style: 调整整季一致性后缀输入框与开关同排显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608310936",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-08-27 21:06:56",
         "message": "fix 🐛: 修复云下载与种子下载确认弹窗在深色模式下文字看不见的问题"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608272020",
-    "items": [
-      {
-        "commit": "ff59bf271c617617964ac8ae94fcd10776d6a2f8",
-        "author": "xylplm",
-        "date": "2026-08-27 20:23:09",
-        "message": "fix 🐛: 修复文件管理与云端文件里超长文件夹名把路径导航压成一团的问题"
-      },
-      {
-        "commit": "504fa2b167293e8857ff9da8c386494e7d6ff894",
-        "author": "xylplm",
-        "date": "2026-08-27 20:06:58",
-        "message": "perf ⚡: 站点资源、站点公告、站点请求列表查询不再遮挡整页"
-      },
-      {
-        "commit": "9499d5a794366764bd6e1117f530e283952d8865",
-        "author": "xylplm",
-        "date": "2026-08-27 19:26:52",
-        "message": "fix 🐛: 识别词协作编辑的修改说明改为提交后的二次确认弹窗"
       }
     ]
   }
