@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608311950",
+    "items": [
+      {
+        "commit": "e9bf51794def5ad9a69b23aae181b5eabdd44913",
+        "author": "xylplm",
+        "date": "2026-08-31 18:49:44",
+        "message": "fix 🐛: 修复站点数据图全选与媒体服务默认切换"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311804",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-08-29 12:18:01",
         "message": "fix 🐛: 修正媒体库播放进度展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608291825",
-    "items": [
-      {
-        "commit": "f1f8ca626a948ce356852d492e64d0e38bfa2f4e",
-        "author": "GateCross",
-        "date": "2026-08-29 17:49:00",
-        "message": "fix: 修复数据库维护卡片图标显示并将说明改为问号提示"
       }
     ]
   }

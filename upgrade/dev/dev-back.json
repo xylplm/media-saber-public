@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608311950",
+    "items": [
+      {
+        "commit": "a4cc264aa7377d96d80b5baaff1371fd2eb471df",
+        "author": "GateCross",
+        "date": "2026-08-31 19:27:09",
+        "message": "fix: 限制lixian复核查询页数"
+      },
+      {
+        "commit": "74bf11dbb1e81e7bc63c8860f4a141cddf3c69c0",
+        "author": "xylplm",
+        "date": "2026-08-31 18:50:01",
+        "message": "fix 🐛: 修复媒体服务器默认项与媒体库态势"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311804",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-08-30 16:32:12",
         "message": "feat: 下载目录支持按 TMDB 媒体信息自动创建媒体子目录，命名模板可自定义"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608301449",
-    "items": [
-      {
-        "commit": "aeeae1477d240db616fa9739c7cfc3887627ac0a",
-        "author": "GateCross",
-        "date": "2026-08-30 14:12:17",
-        "message": "fix: Emby library.db 只读连接增加 busy_timeout(1s)，避免瞬时锁冲突直接报 SQLITE_BUSY"
       }
     ]
   }
