@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608311735",
+    "items": [
+      {
+        "commit": "f11381b6fbf4b7100a710594fa5ee9774b2c1041",
+        "author": "liurongjie",
+        "date": "2026-08-31 17:25:34",
+        "message": "fix(transfer): 文件整理运行/编辑不再误开编辑弹窗"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311502",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "GateCross",
         "date": "2026-08-29 16:38:17",
         "message": "feat: 数据库清理改为后台异步触发，完成后在消息中心通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608290103",
-    "items": [
-      {
-        "commit": "6cd230825277f7a55ba267ea16f7f44d0e50098b",
-        "author": "GateCross",
-        "date": "2026-08-29 00:51:04",
-        "message": "feat: 系统设置新增数据库清理（VACUUM）入口"
       }
     ]
   }
