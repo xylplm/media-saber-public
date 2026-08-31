@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608311605",
+    "items": [
+      {
+        "commit": "584156f1cc2cfb3c4b326d6b460bef73c33e8960",
+        "author": "GateCross",
+        "date": "2026-08-31 16:02:43",
+        "message": "fix: 使用lixian复核云下载失败任务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311404",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-08-30 00:14:15",
         "message": "fix(mediaproxy): strm path 含 + 被 QueryUnescape 改成空格导致 object not found"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608292303",
-    "items": [
-      {
-        "commit": "b5963ae34dfe26ab85c9a374a16d09fae8c746da",
-        "author": "liurongjie",
-        "date": "2026-08-29 23:02:18",
-        "message": "chore(plugin): Plex 自动音轨 Alert WS 探活日志"
       }
     ]
   }
