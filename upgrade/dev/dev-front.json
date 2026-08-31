@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608310936",
+    "items": [
+      {
+        "commit": "2a261120f59fd560bbc4f0d7ce8a8a6f9916ad63",
+        "author": "GateCross",
+        "date": "2026-08-31 00:25:27",
+        "message": "feat: 订阅弹窗新增整季一致性开关及首发种子后缀编辑"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608302227",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-08-27 19:26:52",
         "message": "fix 🐛: 识别词协作编辑的修改说明改为提交后的二次确认弹窗"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608271825",
-    "items": [
-      {
-        "commit": "73a7c893b2548c0ff69c08045650f60db2216808",
-        "author": "liurongjie",
-        "date": "2026-08-27 18:24:34",
-        "message": "fix 🐛: 表单问号提示支持换行显示长说明"
       }
     ]
   }

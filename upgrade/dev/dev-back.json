@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608310936",
+    "items": [
+      {
+        "commit": "89b379781c51355320a02f4370830ef097d237a3",
+        "author": "GateCross",
+        "date": "2026-08-31 00:25:26",
+        "message": "feat: 订阅新增整季一致性开关，锁定首个下载种子标题后缀"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608302227",
     "items": [
       {
@@ -125,29 +136,6 @@
         "author": "xylplm",
         "date": "2026-08-29 12:16:42",
         "message": "fix 🐛: 修复观影采补进度与时长统计"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608291825",
-    "items": [
-      {
-        "commit": "2222e59f09b7fba56707127f6a75dbd2f543b46d",
-        "author": "GateCross",
-        "date": "2026-08-29 18:24:16",
-        "message": "feat: 工作台概览增加分项耗时统计日志"
-      },
-      {
-        "commit": "1c00ec17bc3143478cf6bdc0c7c73adc2a3f6674",
-        "author": "GateCross",
-        "date": "2026-08-29 18:21:57",
-        "message": "perf: 清理无主种子明细并移除废弃索引"
-      },
-      {
-        "commit": "2a259c00c8da13ea1879368d56b26bb36bdd6f32",
-        "author": "GateCross",
-        "date": "2026-08-29 16:55:14",
-        "message": "fix: 数据库清理释放空间为负时按 0 展示"
       }
     ]
   }
