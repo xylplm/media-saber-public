@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202608311804",
+    "items": [
+      {
+        "commit": "f1139b1303596502f729f71139eccd05ef2c49dc",
+        "author": "liurongjie",
+        "date": "2026-08-31 18:03:59",
+        "message": "feat(cloud-storage): 已完成任务支持按成功/失败结果过滤"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311605",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "GateCross",
         "date": "2026-08-30 14:12:17",
         "message": "fix: Emby library.db 只读连接增加 busy_timeout(1s)，避免瞬时锁冲突直接报 SQLITE_BUSY"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608300029",
-    "items": [
-      {
-        "commit": "b6e3dfa9ce2b3bae37d7fd2f1125dbfabd84e804",
-        "author": "liurongjie",
-        "date": "2026-08-30 00:28:43",
-        "message": "chore(plugin): 移除 Plex 自动音轨 Alert WS 探活日志"
-      },
-      {
-        "commit": "4114253a495f55639054c99a8f9ff6e9b530d616",
-        "author": "liurongjie",
-        "date": "2026-08-30 00:14:15",
-        "message": "fix(mediaproxy): strm path 含 + 被 QueryUnescape 改成空格导致 object not found"
       }
     ]
   }

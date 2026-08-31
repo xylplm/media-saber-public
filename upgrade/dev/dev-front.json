@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202608311804",
+    "items": [
+      {
+        "commit": "95397d9395bf83400b09e810dc30d9ff382b2e86",
+        "author": "xylplm",
+        "date": "2026-08-31 18:04:16",
+        "message": "fix 🐛: 修复站点数据图全选状态"
+      },
+      {
+        "commit": "332a6ff63168a1ae51f038fe70dc3c155e82cf0e",
+        "author": "liurongjie",
+        "date": "2026-08-31 18:03:59",
+        "message": "feat(cloud-storage): 已完成任务页增加成功/失败筛选（各 tab 共用）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311735",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "GateCross",
         "date": "2026-08-29 17:49:00",
         "message": "fix: 修复数据库维护卡片图标显示并将说明改为问号提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608291639",
-    "items": [
-      {
-        "commit": "29e3e497a0ecf3fd5917f96e47bed67182dc388a",
-        "author": "GateCross",
-        "date": "2026-08-29 16:38:17",
-        "message": "feat: 数据库清理改为后台异步触发，完成后在消息中心通知"
       }
     ]
   }
