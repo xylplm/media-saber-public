@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609011555",
+    "items": [
+      {
+        "commit": "5c6a28132492917450dc3fe2f011551486f2fcc1",
+        "author": "liurongjie",
+        "date": "2026-09-01 15:22:14",
+        "message": "fix(plugin): Plex 拼音排序保留标题中的数字"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609011145",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-08-30 18:18:18",
         "message": "fix(mediaserver): 健康中心按启用库过滤并保留 asynq 队列"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608301805",
-    "items": [
-      {
-        "commit": "713df0ea1645a6ca1876ba924af67bc8d3dcf014",
-        "author": "liurongjie",
-        "date": "2026-08-30 18:04:24",
-        "message": "feat(mediaserver): webhook library.new 按媒体 ID 定点同步"
       }
     ]
   }
