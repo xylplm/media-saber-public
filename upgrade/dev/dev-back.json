@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609012036",
+    "items": [
+      {
+        "commit": "5d84401278d91c3e2db93aff0dba49b46093c5f8",
+        "author": "liurongjie",
+        "date": "2026-09-01 20:32:26",
+        "message": "fix(mediaproxy): periodQuota 为空或 0 时不限制 origin 并发"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609011555",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "GateCross",
         "date": "2026-08-30 22:25:05",
         "message": "fix: Emby library.db 只读连接 busy_timeout 提升至 5s，缓解扫描期间瞬时锁冲突"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608301842",
-    "items": [
-      {
-        "commit": "ec5d58447e29db890601d08f76500f0a580f24bf",
-        "author": "liurongjie",
-        "date": "2026-08-30 18:41:50",
-        "message": "revert: 恢复启动时清空 asynq 队列"
-      },
-      {
-        "commit": "28a0a08ae092e67f70f2c8c295820109868bce1e",
-        "author": "liurongjie",
-        "date": "2026-08-30 18:18:18",
-        "message": "fix(mediaserver): 健康中心按启用库过滤并保留 asynq 队列"
       }
     ]
   }
