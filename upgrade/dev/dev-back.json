@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609011145",
+    "items": [
+      {
+        "commit": "071791a7da3b3763752fbf825a3f79580462a856",
+        "author": "xylplm",
+        "date": "2026-09-01 11:44:43",
+        "message": "feat ✨: 媒体扫描支持 RM 文件格式"
+      },
+      {
+        "commit": "ddc7e87c5ab9f8bec673d855da56e00320503048",
+        "author": "liurongjie",
+        "date": "2026-08-31 23:26:14",
+        "message": "chore: ignore local Go build and module caches"
+      },
+      {
+        "commit": "a19abb7bc85b30d3f554269b678858e0f47ebef8",
+        "author": "GateCross",
+        "date": "2026-08-31 20:17:40",
+        "message": "fix: 增强离线任务复核日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202608311950",
     "items": [
       {
@@ -113,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-08-30 18:04:24",
         "message": "feat(mediaserver): webhook library.new 按媒体 ID 定点同步"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608301633",
-    "items": [
-      {
-        "commit": "99699cd77a6292bc3b4d1d16f4856b787b59196a",
-        "author": "GateCross",
-        "date": "2026-08-30 16:32:12",
-        "message": "feat: 下载目录支持按 TMDB 媒体信息自动创建媒体子目录，命名模板可自定义"
       }
     ]
   }
