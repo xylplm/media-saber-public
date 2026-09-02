@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609021657",
+    "items": [
+      {
+        "commit": "3e580eb0df8b1058ef58dc62760be7f027e09013",
+        "author": "liurongjie",
+        "date": "2026-09-02 16:54:59",
+        "message": "feat(mediaproxy): 工作台与媒体库共用 Plex hubs SWR 缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021554",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-08-31 10:16:51",
         "message": "fix 🐛: 同步 CPA 监控中文汇总文案断言"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311038",
-    "items": [
-      {
-        "commit": "a4927920a94e20dd6b17c09246f6400bf9299f8c",
-        "author": "xylplm",
-        "date": "2026-08-31 10:11:39",
-        "message": "fix 🐛: 修复媒体服务刷新关闭通知后仍推送消息"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609021657",
+    "items": [
+      {
+        "commit": "fe2d7d4ddbc4a300bbeff3a2a077277771f63744",
+        "author": "liurongjie",
+        "date": "2026-09-02 16:54:59",
+        "message": "feat: 同步数据页有音乐时支持音乐筛选"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021554",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-08-31 10:02:57",
         "message": "style: 调整整季一致性后缀输入框与开关同排显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608310936",
-    "items": [
-      {
-        "commit": "2a261120f59fd560bbc4f0d7ce8a8a6f9916ad63",
-        "author": "GateCross",
-        "date": "2026-08-31 00:25:27",
-        "message": "feat: 订阅弹窗新增整季一致性开关及首发种子后缀编辑"
       }
     ]
   }
