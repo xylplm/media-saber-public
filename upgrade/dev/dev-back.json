@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609021732",
+    "items": [
+      {
+        "commit": "9c524fe37113c4a5ed0202dac739f41e393029bb",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:27:42",
+        "message": "fix(mediaserver): 修复 Plex 近期观看解析与库过滤误杀"
+      },
+      {
+        "commit": "e9c8fece3665cf7079584aae5972b4b7ddfd061f",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:23:01",
+        "message": "fix(mediaserver): 媒体库最新入库按 type=1/2 拉取 hubs"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021657",
     "items": [
       {
@@ -113,23 +130,6 @@
         "author": "GateCross",
         "date": "2026-08-31 16:02:43",
         "message": "fix: 使用lixian复核云下载失败任务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311404",
-    "items": [
-      {
-        "commit": "8c8386fa254340c5a660dc1ce348750ec39279a2",
-        "author": "liurongjie",
-        "date": "2026-08-31 14:02:19",
-        "message": "fix(plugin): 降低 Plex 自动音轨 Alert 非剧集日志噪音"
-      },
-      {
-        "commit": "5d80c28130fc5953098ba1bbb8ea3ce111434fb3",
-        "author": "xylplm",
-        "date": "2026-08-31 10:16:51",
-        "message": "fix 🐛: 同步 CPA 监控中文汇总文案断言"
       }
     ]
   }
