@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609021845",
+    "items": [
+      {
+        "commit": "a18c96964e697d0b410f2b3caa6dad4924f3de07",
+        "author": "liurongjie",
+        "date": "2026-09-02 18:44:40",
+        "message": "fix(mediaserver): Resume 过滤改为单服加载 libraryScope"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021821",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-08-31 18:50:01",
         "message": "fix 🐛: 修复媒体服务器默认项与媒体库态势"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311804",
-    "items": [
-      {
-        "commit": "f1139b1303596502f729f71139eccd05ef2c49dc",
-        "author": "liurongjie",
-        "date": "2026-08-31 18:03:59",
-        "message": "feat(cloud-storage): 已完成任务支持按成功/失败结果过滤"
       }
     ]
   }
