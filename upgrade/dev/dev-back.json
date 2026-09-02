@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202609021821",
+    "items": [
+      {
+        "commit": "ae0104960e089a0d33727a65d832ce6b9c3300d9",
+        "author": "liurongjie",
+        "date": "2026-09-02 18:04:09",
+        "message": "refactor(mediaproxy): 抽取 hubs/browse 异步 refresh 与 fillThrough"
+      },
+      {
+        "commit": "680712714dfb8d0e620644bc37d112b5501410e8",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:59:43",
+        "message": "refactor(plex): 抽取三套 body SWR 骨架并合并 library-latest"
+      },
+      {
+        "commit": "120bf66bf7dbe68ca36fdb0ad2049b2bc9360afc",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:53:18",
+        "message": "refactor(mediaproxy): Plex 缓存键改 Host 并回填空货架"
+      },
+      {
+        "commit": "af8485b3fa44ed83ba43156ce49fa1a028851749",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:37:50",
+        "message": "fix(mediaserver): 最新入库改回 library/recentlyAdded 并加 SWR"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021732",
     "items": [
       {
@@ -119,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-08-31 18:03:59",
         "message": "feat(cloud-storage): 已完成任务支持按成功/失败结果过滤"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311605",
-    "items": [
-      {
-        "commit": "584156f1cc2cfb3c4b326d6b460bef73c33e8960",
-        "author": "GateCross",
-        "date": "2026-08-31 16:02:43",
-        "message": "fix: 使用lixian复核云下载失败任务"
       }
     ]
   }
