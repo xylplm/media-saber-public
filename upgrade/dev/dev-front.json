@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609021052",
+    "items": [
+      {
+        "commit": "37c642fbbf163545ec4af8b2b8fccf7d81fa7d1c",
+        "author": "liurongjie",
+        "date": "2026-09-01 00:12:54",
+        "message": "fix(system-logs): 限制日志列表每页为 200/500/1000，避免大页渲染卡顿"
+      },
+      {
+        "commit": "1883f69b7c1f2decb140ee081067f37339858272",
+        "author": "liurongjie",
+        "date": "2026-08-31 23:26:14",
+        "message": "chore: ignore local .pnpm-store cache"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609011145",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-08-30 20:02:02",
         "message": "fix(strm): 运行按钮不再误开编辑弹窗"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608301633",
-    "items": [
-      {
-        "commit": "c0b6b558bcde2a12b105a3d87a0e137e76cd5685",
-        "author": "GateCross",
-        "date": "2026-08-30 16:32:20",
-        "message": "feat: 目录管理新增媒体目录开关与自定义命名模板配置"
       }
     ]
   }
