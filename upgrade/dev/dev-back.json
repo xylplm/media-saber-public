@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609031519",
+    "items": [
+      {
+        "commit": "d65dbf9171d2c9ab762ec61576db06fe78df67c3",
+        "author": "liurongjie",
+        "date": "2026-09-03 15:17:28",
+        "message": "perf(workbench): 压住播放概览与最近入库冷路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609031414",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-09-02 15:47:52",
         "message": "fix 🐛: 识别词支持按范围批量启用停用"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609021052",
-    "items": [
-      {
-        "commit": "f39bf9bf844182acd1bcc2cbe0679e8903000293",
-        "author": "xylplm",
-        "date": "2026-09-02 10:49:47",
-        "message": "feat ✨: 云存储 STRM 增加文件内容标识，换了网盘账号也能认出同一个文件"
       }
     ]
   }
