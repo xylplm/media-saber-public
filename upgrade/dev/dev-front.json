@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609031107",
+    "items": [
+      {
+        "commit": "74b0d12d40c314e1c432ecd5f090f1eb87af940a",
+        "author": "xylplm",
+        "date": "2026-09-03 10:27:26",
+        "message": "fix 🐛: 站点维护支持新窗口打开网址"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021657",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-08-31 10:35:27",
         "message": "style: 优化整季一致性后缀输入框响应式布局（大屏占满整行，小屏独占一行）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311004",
-    "items": [
-      {
-        "commit": "af7d2acc68b632f3b4dc5745e2bf3c121f521f03",
-        "author": "GateCross",
-        "date": "2026-08-31 10:02:57",
-        "message": "style: 调整整季一致性后缀输入框与开关同排显示"
       }
     ]
   }

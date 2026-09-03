@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609031107",
+    "items": [
+      {
+        "commit": "1bc1b4a0da3a6e739f72882da67c0dbd4da3933a",
+        "author": "liurongjie",
+        "date": "2026-09-03 10:48:22",
+        "message": "fix(mediaproxy): 播放优先加固 PickCode 与空 PC dirWarm"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609021845",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "GateCross",
         "date": "2026-08-31 20:17:40",
         "message": "fix: 增强离线任务复核日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311950",
-    "items": [
-      {
-        "commit": "a4cc264aa7377d96d80b5baaff1371fd2eb471df",
-        "author": "GateCross",
-        "date": "2026-08-31 19:27:09",
-        "message": "fix: 限制lixian复核查询页数"
-      },
-      {
-        "commit": "74bf11dbb1e81e7bc63c8860f4a141cddf3c69c0",
-        "author": "xylplm",
-        "date": "2026-08-31 18:50:01",
-        "message": "fix 🐛: 修复媒体服务器默认项与媒体库态势"
       }
     ]
   }
