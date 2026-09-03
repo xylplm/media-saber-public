@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609031414",
+    "items": [
+      {
+        "commit": "388d282a846d908b55526af128f99ac96f089720",
+        "author": "liurongjie",
+        "date": "2026-09-03 14:12:07",
+        "message": "perf(workbench): 播放概览改为精简脉冲并复用 LibraryScopes"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609031231",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-09-02 10:49:47",
         "message": "feat ✨: 云存储 STRM 增加文件内容标识，换了网盘账号也能认出同一个文件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609012036",
-    "items": [
-      {
-        "commit": "5d84401278d91c3e2db93aff0dba49b46093c5f8",
-        "author": "liurongjie",
-        "date": "2026-09-01 20:32:26",
-        "message": "fix(mediaproxy): periodQuota 为空或 0 时不限制 origin 并发"
       }
     ]
   }
