@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609031546",
+    "items": [
+      {
+        "commit": "24335e35f70c4fe35c7c5d81efcf31f43e3700a2",
+        "author": "liurongjie",
+        "date": "2026-09-03 15:44:48",
+        "message": "fix(workbench): 避免播放脉冲超时把 0 写入缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609031519",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-02 16:54:59",
         "message": "feat(mediaproxy): 工作台与媒体库共用 Plex hubs SWR 缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609021554",
-    "items": [
-      {
-        "commit": "da2be8b290d7668d3c22b976317ff1e4f3a23138",
-        "author": "xylplm",
-        "date": "2026-09-02 15:47:52",
-        "message": "fix 🐛: 识别词支持按范围批量启用停用"
       }
     ]
   }
