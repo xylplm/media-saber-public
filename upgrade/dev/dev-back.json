@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609041938",
+    "items": [
+      {
+        "commit": "cf98658ecf9e1e03eeea4dc82230d537c5743fed",
+        "author": "xylplm",
+        "date": "2026-09-04 19:37:47",
+        "message": "fix 🐛: 修复媒体服务器默认切换报错"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609041546",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "xylplm",
         "date": "2026-09-03 11:38:45",
         "message": "fix 🐛: 修复馒头站点资源翻页缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031107",
-    "items": [
-      {
-        "commit": "1bc1b4a0da3a6e739f72882da67c0dbd4da3933a",
-        "author": "liurongjie",
-        "date": "2026-09-03 10:48:22",
-        "message": "fix(mediaproxy): 播放优先加固 PickCode 与空 PC dirWarm"
       }
     ]
   }
