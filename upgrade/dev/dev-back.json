@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609041325",
+    "items": [
+      {
+        "commit": "99800887c30ee3e6b12705c7611a6085c662ea86",
+        "author": "Jolc",
+        "date": "2026-09-04 13:23:09",
+        "message": "fix: Emby library.db 直连改为进程级共享连接池，增加 BUSY 退避重试"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609031622",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-09-02 17:37:50",
         "message": "fix(mediaserver): 最新入库改回 library/recentlyAdded 并加 SWR"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609021732",
-    "items": [
-      {
-        "commit": "9c524fe37113c4a5ed0202dac739f41e393029bb",
-        "author": "liurongjie",
-        "date": "2026-09-02 17:27:42",
-        "message": "fix(mediaserver): 修复 Plex 近期观看解析与库过滤误杀"
-      },
-      {
-        "commit": "e9c8fece3665cf7079584aae5972b4b7ddfd061f",
-        "author": "liurongjie",
-        "date": "2026-09-02 17:23:01",
-        "message": "fix(mediaserver): 媒体库最新入库按 type=1/2 拉取 hubs"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609041325",
+    "items": [
+      {
+        "commit": "e7e1dd9ddfeb45ed3fffb9530b58b9ec7624895b",
+        "author": "liurongjie",
+        "date": "2026-09-03 17:52:01",
+        "message": "fix(sync-data): 定时同步配置加载失败时保留已有展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609031546",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "liurongjie",
         "date": "2026-08-31 17:25:34",
         "message": "fix(transfer): 文件整理运行/编辑不再误开编辑弹窗"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311502",
-    "items": [
-      {
-        "commit": "c870be14d2292145d04389fb882af56e2b765bb0",
-        "author": "liurongjie",
-        "date": "2026-08-31 15:01:57",
-        "message": "feat(media-server): 同步统计有音乐时展示音乐数量"
       }
     ]
   }
