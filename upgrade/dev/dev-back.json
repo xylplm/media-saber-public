@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609050057",
+    "items": [
+      {
+        "commit": "17d0656cfc3ef32fde28fb901a68f21ac1a39890",
+        "author": "Jolc",
+        "date": "2026-09-05 00:49:35",
+        "message": "chore: 快照降级回退 HTTP 的日志从 error 降为 info"
+      },
+      {
+        "commit": "2ee29b5d2aa34c13d7678660dc4177611bbb34ab",
+        "author": "liurongjie",
+        "date": "2026-09-05 00:36:15",
+        "message": "fix(deps): 升级漏洞依赖至修复版本，可达漏洞 7→1"
+      },
+      {
+        "commit": "52d6e2c1ae81a85113af074bffa6a3cdcac7df7f",
+        "author": "Jolc",
+        "date": "2026-09-05 00:32:10",
+        "message": "fix: 快照拷贝改用耐心退避表，抢锁窗口从 96s 拉长到约 9 分钟"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609050014",
     "items": [
       {
@@ -137,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-09-03 14:12:07",
         "message": "perf(workbench): 播放概览改为精简脉冲并复用 LibraryScopes"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031231",
-    "items": [
-      {
-        "commit": "a0df8f369dc8faa74d90d749a575ba7d29bbcd57",
-        "author": "liurongjie",
-        "date": "2026-09-03 11:56:10",
-        "message": "fix(mediaproxy): 加强空 PC dirWarm 并补全 timeline 进度日志"
       }
     ]
   }
