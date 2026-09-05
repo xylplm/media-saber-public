@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609051424",
+    "items": [
+      {
+        "commit": "9c6fca401404c4c3b2d92941f4716bd266e5b9d5",
+        "author": "liurongjie",
+        "date": "2026-09-05 14:07:34",
+        "message": "fix(strm): Plex 同步改为批量清单+逐条详情，修复产出恒为 0"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609051339",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "liurongjie",
         "date": "2026-09-03 16:21:38",
         "message": "perf(workbench): 最近入库跳过 Libraries 冷路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031546",
-    "items": [
-      {
-        "commit": "24335e35f70c4fe35c7c5d81efcf31f43e3700a2",
-        "author": "liurongjie",
-        "date": "2026-09-03 15:44:48",
-        "message": "fix(workbench): 避免播放脉冲超时把 0 写入缓存"
       }
     ]
   }
