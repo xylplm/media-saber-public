@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609051339",
+    "items": [
+      {
+        "commit": "9438beb1decdba733514eca082dc37b4ecf207fa",
+        "author": "liurongjie",
+        "date": "2026-09-05 13:12:14",
+        "message": "fix(strm): 探测插件修复 periodQuota 字符串解析、扫描目录允许为空"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609051238",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "liurongjie",
         "date": "2026-09-03 15:44:48",
         "message": "fix(workbench): 避免播放脉冲超时把 0 写入缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031519",
-    "items": [
-      {
-        "commit": "d65dbf9171d2c9ab762ec61576db06fe78df67c3",
-        "author": "liurongjie",
-        "date": "2026-09-03 15:17:28",
-        "message": "perf(workbench): 压住播放概览与最近入库冷路径"
       }
     ]
   }
