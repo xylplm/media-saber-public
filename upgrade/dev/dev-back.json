@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202609052332",
+    "items": [
+      {
+        "commit": "fe326c11f88803f9fe6f3a888fd1ef0e8395ed63",
+        "author": "GateCross",
+        "date": "2026-09-05 23:30:52",
+        "message": "feat: 新增网盘上传后删除源文件并优化关联种子清理"
+      },
+      {
+        "commit": "c256bfa7a9c4aa30f7127d8ed5e5219c79267b55",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:26:08",
+        "message": "feat(strm): 分享 strm 支持按路径解析内容身份（fs.Get 取对象 sha1）"
+      },
+      {
+        "commit": "9ab5df061582a61b00073919a1f3fd202f8a615c",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:02:21",
+        "message": "fix(mediaproxy): Plex for Mac 桌面端 strm 决策改为 directplay，修复打开功能菜单回放错误"
+      },
+      {
+        "commit": "cbff2de5639ea61b2c4338006fc926e764a1d517",
+        "author": "liurongjie",
+        "date": "2026-09-05 22:49:33",
+        "message": "fix(strm): synthesize XML 属性零值防御；ffprobe bit_rate 字符串容错"
+      },
+      {
+        "commit": "9b56b1b31a2e9c6635363e0e145206a9766346aa",
+        "author": "liurongjie",
+        "date": "2026-09-05 22:45:08",
+        "message": "feat(strm): 轨道选择 ACK、视频属性注入、ffprobe 错误细节与字幕标题修正"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609052200",
     "items": [
       {
@@ -251,17 +286,6 @@
         "author": "xylplm",
         "date": "2026-09-04 19:37:47",
         "message": "fix 🐛: 修复媒体服务器默认切换报错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609041546",
-    "items": [
-      {
-        "commit": "126b53486c69734f1e15349de13372b373c25a94",
-        "author": "liurongjie",
-        "date": "2026-09-04 15:38:41",
-        "message": "fix(mediaproxy): 优化详情缓存与播放预热"
       }
     ]
   }

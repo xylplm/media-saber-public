@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609052332",
+    "items": [
+      {
+        "commit": "827cc500165351cb40e1948294c14717f305a67f",
+        "author": "GateCross",
+        "date": "2026-09-05 23:30:52",
+        "message": "feat: 网盘设置新增上传后删除源文件开关"
+      },
+      {
+        "commit": "34ff52e8c1a4b99338f2f1bad3f6d1acc2a8cbdc",
+        "author": "liurongjie",
+        "date": "2026-09-05 22:55:09",
+        "message": "style: 探测插件同步目标分组行对齐——flex 居中 + 紧凑 outline 控件（照 pair-list 模式）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609052200",
     "items": [
       {
@@ -155,35 +172,6 @@
         "author": "liurongjie",
         "date": "2026-08-31 23:26:14",
         "message": "chore: ignore local .pnpm-store cache"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609011145",
-    "items": [
-      {
-        "commit": "d6812eae40eb6105a1fb96e6a0fb3d1c79ade77c",
-        "author": "xylplm",
-        "date": "2026-09-01 11:44:27",
-        "message": "feat ✨: 文件管理支持识别 RM 媒体格式"
-      },
-      {
-        "commit": "50afb555f723fc204eb6a506d2c7ea2db38111e7",
-        "author": "xylplm",
-        "date": "2026-09-01 11:27:43",
-        "message": "refactor 🔁: 优化智能体配置引导文案"
-      },
-      {
-        "commit": "e25eca6119953543c43a902ed220a5f972e4ada4",
-        "author": "xylplm",
-        "date": "2026-09-01 11:25:29",
-        "message": "fix 🐛: 修复模型选择弹窗滚动与操作区"
-      },
-      {
-        "commit": "3aeac0d5fa0cf73140b6075745f70cf540935a61",
-        "author": "xylplm",
-        "date": "2026-09-01 11:07:32",
-        "message": "feat ✨: 优化同步数据缺集展示与媒体详情"
       }
     ]
   }
