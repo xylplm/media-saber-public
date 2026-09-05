@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609060136",
+    "items": [
+      {
+        "commit": "b3955cba628e26537bfef8719c4d8e77aa39f10f",
+        "author": "liurongjie",
+        "date": "2026-09-06 01:16:34",
+        "message": "fix(mediaproxy): 切断详情解析级联 FastLink 预取并新增 115 WAF 风控熔断"
+      },
+      {
+        "commit": "abe1e1535f21e735a7f7f212df55a502f4b5cd66",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:56:48",
+        "message": "feat(strm): 探测 DNS 解析失败时输出明确的环境修复指引"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609052342",
     "items": [
       {
@@ -239,53 +256,6 @@
         "author": "Jolc",
         "date": "2026-09-05 00:32:10",
         "message": "fix: 快照拷贝改用耐心退避表，抢锁窗口从 96s 拉长到约 9 分钟"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609050014",
-    "items": [
-      {
-        "commit": "6430745371ed9c45a75d39db3e2c833565e0b5d0",
-        "author": "liurongjie",
-        "date": "2026-09-05 00:13:50",
-        "message": "feat(types): 制作组规则新增 MediaSaberAnime"
-      },
-      {
-        "commit": "5e1a4832304f5a07afd810a05b078211538613e3",
-        "author": "Jolc",
-        "date": "2026-09-05 00:10:21",
-        "message": "refactor: 快照文件改放 Emby data 目录，避免依赖容器 /tmp 存储形态"
-      },
-      {
-        "commit": "8cdef3e11e2bf9eb7034b09d268a787a08b53b20",
-        "author": "Jolc",
-        "date": "2026-09-05 00:02:18",
-        "message": "fix: 全量同步改用 VACUUM INTO 快照直连，除拷贝瞬间外不触碰 Emby 原库"
-      },
-      {
-        "commit": "4be8d8b63dbf88d0c7c740914a4d9f8d2dd7f4ac",
-        "author": "liurongjie",
-        "date": "2026-09-05 00:06:20",
-        "message": "fix(mediaproxy): 续播探测按 timeline 确认，消除同源 HLS 客户端误报"
-      },
-      {
-        "commit": "1858f7b9d9c97700c1c33fb5d8cfefa50ea7b2a9",
-        "author": "liurongjie",
-        "date": "2026-09-05 00:06:19",
-        "message": "perf(mediaproxy): browse 详情预取扩容并继承语言参数"
-      },
-      {
-        "commit": "d584e4cfac4cc91661df6dcd799bb444444e5f74",
-        "author": "liurongjie",
-        "date": "2026-09-04 23:35:07",
-        "message": "fix(transferHistory): 删除云盘源文件后清理仅剩空文件夹的遗留目录"
-      },
-      {
-        "commit": "c97e357629309fc3107eebc0e27930d3802a7f1c",
-        "author": "liurongjie",
-        "date": "2026-09-04 23:29:51",
-        "message": "fix(plugin): Plex 拼音排序保留标题中的英文"
       }
     ]
   }
