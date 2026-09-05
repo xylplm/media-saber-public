@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609052200",
+    "items": [
+      {
+        "commit": "aee8f8751b601a47c64a84aa8e89f2dc7b751e57",
+        "author": "liurongjie",
+        "date": "2026-09-05 21:51:46",
+        "message": "fix: 探测插件同步目标变化标记表单 dirty，修复选库后保存按钮不可用"
+      },
+      {
+        "commit": "a53973ab77e763295f63473dd87379ce056b8180",
+        "author": "liurongjie",
+        "date": "2026-09-05 21:46:58",
+        "message": "style: 探测插件同步目标样式与位置优化"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609052109",
     "items": [
       {
@@ -167,17 +184,6 @@
         "author": "xylplm",
         "date": "2026-09-01 11:07:32",
         "message": "feat ✨: 优化同步数据缺集展示与媒体详情"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311950",
-    "items": [
-      {
-        "commit": "e9bf51794def5ad9a69b23aae181b5eabdd44913",
-        "author": "xylplm",
-        "date": "2026-08-31 18:49:44",
-        "message": "fix 🐛: 修复站点数据图全选与媒体服务默认切换"
       }
     ]
   }

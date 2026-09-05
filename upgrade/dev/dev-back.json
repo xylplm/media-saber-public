@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609052200",
+    "items": [
+      {
+        "commit": "8b70bb6ef1143792c35815a486a9c0a8fbe17fb8",
+        "author": "liurongjie",
+        "date": "2026-09-05 21:53:39",
+        "message": "fix(strm): 探测扫描目录改为字符串存储，修复 textarea 保存报错"
+      },
+      {
+        "commit": "ae953d6ad81139ea13450eb7df6e05f91e134d11",
+        "author": "liurongjie",
+        "date": "2026-09-05 21:49:20",
+        "message": "chore(strm): 探测表单功能说明移由专属组件渲染"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609052109",
     "items": [
       {
@@ -245,23 +262,6 @@
         "author": "liurongjie",
         "date": "2026-09-04 15:38:41",
         "message": "fix(mediaproxy): 优化详情缓存与播放预热"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609041448",
-    "items": [
-      {
-        "commit": "b0bf37e9f65d89e99ff40dc316e08379c23ad53f",
-        "author": "Jolc",
-        "date": "2026-09-04 14:29:04",
-        "message": "refactor: SQLite 直连收窄至全量同步一处，单条补同步/定点同步回纯 HTTP"
-      },
-      {
-        "commit": "97ae7daa8fc1e853ae3aefbc26d60613c87ed3e6",
-        "author": "Jolc",
-        "date": "2026-09-04 14:19:21",
-        "message": "fix: Exists/ExistingEpisodes 存在性检查回退纯 HTTP，消除整理链路 SQLITE_BUSY"
       }
     ]
   }
