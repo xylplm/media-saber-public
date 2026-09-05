@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609051935",
+    "items": [
+      {
+        "commit": "e1f732d5f79dab329898aa938184fdd63293724e",
+        "author": "liurongjie",
+        "date": "2026-09-05 15:14:09",
+        "message": "feat(strm): 探测插件同步支持选择服务器与媒体库，新增 Jellyfin 适配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609051424",
     "items": [
       {
@@ -233,17 +244,6 @@
         "author": "Jolc",
         "date": "2026-09-04 13:23:09",
         "message": "fix: Emby library.db 直连改为进程级共享连接池，增加 BUSY 退避重试"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031622",
-    "items": [
-      {
-        "commit": "e4976de9457f111e77db46de013d3896c55ad239",
-        "author": "liurongjie",
-        "date": "2026-09-03 16:21:38",
-        "message": "perf(workbench): 最近入库跳过 Libraries 冷路径"
       }
     ]
   }
