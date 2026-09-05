@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609052109",
+    "items": [
+      {
+        "commit": "611525fbfbbe3b4dd9cfc4994f64b68d9e25af53",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:12:14",
+        "message": "fix: 探测组件兼容旧手填 syncLibraries 数据回显"
+      },
+      {
+        "commit": "4fd4e2be3399bfaecc822420d1c5ab326a3aabaf",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:10:54",
+        "message": "feat: strm 媒体信息探测专属配置组件（同步目标成组交互）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609051238",
     "items": [
       {
@@ -161,23 +178,6 @@
         "author": "xylplm",
         "date": "2026-08-31 18:49:44",
         "message": "fix 🐛: 修复站点数据图全选与媒体服务默认切换"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202608311804",
-    "items": [
-      {
-        "commit": "95397d9395bf83400b09e810dc30d9ff382b2e86",
-        "author": "xylplm",
-        "date": "2026-08-31 18:04:16",
-        "message": "fix 🐛: 修复站点数据图全选状态"
-      },
-      {
-        "commit": "332a6ff63168a1ae51f038fe70dc3c155e82cf0e",
-        "author": "liurongjie",
-        "date": "2026-08-31 18:03:59",
-        "message": "feat(cloud-storage): 已完成任务页增加成功/失败筛选（各 tab 共用）"
       }
     ]
   }

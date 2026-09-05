@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202609052109",
+    "items": [
+      {
+        "commit": "ae52774ca0970aeffffe5cc295f1e0989cb5febd",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:55:01",
+        "message": "refactor(strm): 移除开关合并后的死参数 forgePlaceholders（恒 true）"
+      },
+      {
+        "commit": "e7f41171d987437c2c155c6be15c1e2684eebff3",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:42:16",
+        "message": "refactor(strm): 合并两开关——STRM元数据增强同时具备伪流增强与真实流注入"
+      },
+      {
+        "commit": "a6e90f5a41c87ee5a43d554ac76c8d8e036dfc15",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:10:58",
+        "message": "fix(strm): 修正同步服务器下拉选项码；插件表单移交同步目标给专属组件；媒体服务器表单补 plexStrmMediaProbe"
+      },
+      {
+        "commit": "8e2db33116861dba5961542c58f5fb4b78bbeb55",
+        "author": "liurongjie",
+        "date": "2026-09-05 19:38:57",
+        "message": "fix(strm): 媒体服务器表单补漏 plexStrmMediaProbe 注入开关"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609051935",
     "items": [
       {
@@ -233,17 +262,6 @@
         "author": "Jolc",
         "date": "2026-09-04 14:19:21",
         "message": "fix: Exists/ExistingEpisodes 存在性检查回退纯 HTTP，消除整理链路 SQLITE_BUSY"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609041325",
-    "items": [
-      {
-        "commit": "99800887c30ee3e6b12705c7611a6085c662ea86",
-        "author": "Jolc",
-        "date": "2026-09-04 13:23:09",
-        "message": "fix: Emby library.db 直连改为进程级共享连接池，增加 BUSY 退避重试"
       }
     ]
   }
