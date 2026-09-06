@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609061141",
+    "items": [
+      {
+        "commit": "788e252d4a3cf067a25a3beb591cb4de5eaeb2e3",
+        "author": "GateCross",
+        "date": "2026-09-06 11:35:31",
+        "message": "feat: 刷流种子精确删种，上传删源按内容路径反查直删"
+      },
+      {
+        "commit": "703ec9f4b37afbbb24c803856627315bcd5101d1",
+        "author": "GateCross",
+        "date": "2026-09-06 11:35:13",
+        "message": "feat: 手动整理识别重命名支持指定季集"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609060136",
     "items": [
       {
@@ -233,29 +250,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 01:03:00",
         "message": "test(mediaproxy): 适配 plexContinueProbeKey 两参签名修复测试编译"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609050057",
-    "items": [
-      {
-        "commit": "17d0656cfc3ef32fde28fb901a68f21ac1a39890",
-        "author": "Jolc",
-        "date": "2026-09-05 00:49:35",
-        "message": "chore: 快照降级回退 HTTP 的日志从 error 降为 info"
-      },
-      {
-        "commit": "2ee29b5d2aa34c13d7678660dc4177611bbb34ab",
-        "author": "liurongjie",
-        "date": "2026-09-05 00:36:15",
-        "message": "fix(deps): 升级漏洞依赖至修复版本，可达漏洞 7→1"
-      },
-      {
-        "commit": "52d6e2c1ae81a85113af074bffa6a3cdcac7df7f",
-        "author": "Jolc",
-        "date": "2026-09-05 00:32:10",
-        "message": "fix: 快照拷贝改用耐心退避表，抢锁窗口从 96s 拉长到约 9 分钟"
       }
     ]
   }

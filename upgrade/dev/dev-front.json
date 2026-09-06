@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609061141",
+    "items": [
+      {
+        "commit": "962b700de8083137f8ffadec6717883bd439702c",
+        "author": "GateCross",
+        "date": "2026-09-06 11:39:01",
+        "message": "feat: 手动整理弹窗支持指定季集"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609052332",
     "items": [
       {
@@ -155,23 +166,6 @@
         "author": "xylplm",
         "date": "2026-08-31 18:04:16",
         "message": "fix 🐛: 修复站点数据图全选状态"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609021052",
-    "items": [
-      {
-        "commit": "37c642fbbf163545ec4af8b2b8fccf7d81fa7d1c",
-        "author": "liurongjie",
-        "date": "2026-09-01 00:12:54",
-        "message": "fix(system-logs): 限制日志列表每页为 200/500/1000，避免大页渲染卡顿"
-      },
-      {
-        "commit": "1883f69b7c1f2decb140ee081067f37339858272",
-        "author": "liurongjie",
-        "date": "2026-08-31 23:26:14",
-        "message": "chore: ignore local .pnpm-store cache"
       }
     ]
   }
