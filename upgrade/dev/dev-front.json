@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609072218",
+    "items": [
+      {
+        "commit": "da521036c9c003a33835b508769bff2d8033eedf",
+        "author": "liurongjie",
+        "date": "2026-09-07 22:12:02",
+        "message": "fix(strm-probe): 导入还原「按服务器路径」文案改为读内置备份目录"
+      },
+      {
+        "commit": "56d9d9c9038f7a49f4559e149f8036f359b096c2",
+        "author": "liurongjie",
+        "date": "2026-09-07 22:02:46",
+        "message": "fix(strm-probe): 导入还原弹方式选择（本机文件/服务器路径），上传失败补错误提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609072153",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-09-03 15:44:52",
         "message": "feat(workbench): 媒体库管道有音乐时展示数量"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031107",
-    "items": [
-      {
-        "commit": "74b0d12d40c314e1c432ecd5f090f1eb87af940a",
-        "author": "xylplm",
-        "date": "2026-09-03 10:27:26",
-        "message": "fix 🐛: 站点维护支持新窗口打开网址"
       }
     ]
   }
