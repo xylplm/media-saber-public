@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609072153",
+    "items": [
+      {
+        "commit": "4f8c60dad5dbde6dc13e416af32e721e72c72d8a",
+        "author": "liurongjie",
+        "date": "2026-09-07 21:36:12",
+        "message": "feat(strm-probe): 分享下载（base64 浏览器保存）+ 导入还原支持本机文件上传"
+      },
+      {
+        "commit": "ee37ae9efdbda4416e9b01666aca0780361c5384",
+        "author": "liurongjie",
+        "date": "2026-09-07 20:39:07",
+        "message": "feat(strm-probe): 清理动作加确认弹窗（清失败轻确认、清空全部二次确认）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609061239",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-09-03 10:27:26",
         "message": "fix 🐛: 站点维护支持新窗口打开网址"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609021657",
-    "items": [
-      {
-        "commit": "fe2d7d4ddbc4a300bbeff3a2a077277771f63744",
-        "author": "liurongjie",
-        "date": "2026-09-02 16:54:59",
-        "message": "feat: 同步数据页有音乐时支持音乐筛选"
       }
     ]
   }
