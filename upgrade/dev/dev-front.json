@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609080003",
+    "items": [
+      {
+        "commit": "33b7ce7679d8547f2405d3e2706a8e564bab056b",
+        "author": "liurongjie",
+        "date": "2026-09-07 23:34:01",
+        "message": "fix(strm-probe): 异步 action 的 toast 改为带指引的提示语"
+      },
+      {
+        "commit": "b3747815012d09f9f53a6c5ed77715f728994daf",
+        "author": "liurongjie",
+        "date": "2026-09-07 23:12:49",
+        "message": "fix(shared-dialog): 支持透传 disableClose；导入还原弹窗允许遮罩/ESC 关闭"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609072218",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-09-03 17:52:01",
         "message": "fix(sync-data): 定时同步配置加载失败时保留已有展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609031546",
-    "items": [
-      {
-        "commit": "cc1c2f93d190f5647f2d85a3c5bf4fb633cf7441",
-        "author": "liurongjie",
-        "date": "2026-09-03 15:44:52",
-        "message": "feat(workbench): 媒体库管道有音乐时展示数量"
       }
     ]
   }
