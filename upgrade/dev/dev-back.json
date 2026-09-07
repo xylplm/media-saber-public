@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202609071903",
+    "items": [
+      {
+        "commit": "c4880d332827cd4e9542cc71e19d3c15af5d69f4",
+        "author": "liurongjie",
+        "date": "2026-09-07 19:01:02",
+        "message": "docs: 新增 AGENTS.md 工作规范（语言风格/求真原则/goctl 生成 types 规则）"
+      },
+      {
+        "commit": "5b93897fa29d0dcbb3789caff73803a82959e62d",
+        "author": "liurongjie",
+        "date": "2026-09-07 18:58:02",
+        "message": "fix(strm): 修复切轨链路 selected 标记与旧 schema 数据升级"
+      },
+      {
+        "commit": "987f28ff31497e1984a5d8818dcf97e52586bbe8",
+        "author": "liurongjie",
+        "date": "2026-09-07 18:18:01",
+        "message": "feat(strm): 服务器同步流字段与 ffprobe 对齐（Plex/Jellyfin 补全采集）"
+      },
+      {
+        "commit": "d60fda7b4b32cde7f81ba4c52fd18a40059b3bab",
+        "author": "liurongjie",
+        "date": "2026-09-07 17:58:26",
+        "message": "feat(strm): 流信息全字段对齐 PMS 原生（model.api 单一事实源 + goctl 生成）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609062152",
     "items": [
       {
@@ -179,17 +208,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 15:14:09",
         "message": "feat(strm): 探测插件同步支持选择服务器与媒体库，新增 Jellyfin 适配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609051424",
-    "items": [
-      {
-        "commit": "9c6fca401404c4c3b2d92941f4716bd266e5b9d5",
-        "author": "liurongjie",
-        "date": "2026-09-05 14:07:34",
-        "message": "fix(strm): Plex 同步改为批量清单+逐条详情，修复产出恒为 0"
       }
     ]
   }
