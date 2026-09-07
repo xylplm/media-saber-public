@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609071959",
+    "items": [
+      {
+        "commit": "071b6b947d699ca4896a82c5cfa93f02d0e78e15",
+        "author": "liurongjie",
+        "date": "2026-09-07 19:56:15",
+        "message": "fix(strm): Plex 详情 frameRate 数字兼容 + 探测直链域名 DNS 预检分类"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609071903",
     "items": [
       {
@@ -197,17 +208,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 19:38:57",
         "message": "fix(strm): 媒体服务器表单补漏 plexStrmMediaProbe 注入开关"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609051935",
-    "items": [
-      {
-        "commit": "e1f732d5f79dab329898aa938184fdd63293724e",
-        "author": "liurongjie",
-        "date": "2026-09-05 15:14:09",
-        "message": "feat(strm): 探测插件同步支持选择服务器与媒体库，新增 Jellyfin 适配"
       }
     ]
   }
