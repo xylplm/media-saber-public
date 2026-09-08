@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609082237",
+    "items": [
+      {
+        "commit": "17e633789cdfa3e74d9baf37e86e2e21eba6b024",
+        "author": "liurongjie",
+        "date": "2026-09-08 22:30:57",
+        "message": "feat(media-tidy-history): 历史记录查询条件新增转移方式下拉筛选"
+      },
+      {
+        "commit": "98d71ca9453c4cdd2738fdf2766d4e7e851158f2",
+        "author": "liurongjie",
+        "date": "2026-09-08 18:39:11",
+        "message": "fix(tools): 插件实例弹窗移动端接入全屏抽屉，底部保存/取消按钮不再被挤出屏幕"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609080923",
     "items": [
       {
@@ -137,23 +154,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 20:10:54",
         "message": "feat: strm 媒体信息探测专属配置组件（同步目标成组交互）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609051238",
-    "items": [
-      {
-        "commit": "7efa3c535e38cd56c909af37a8b259e8c50e4511",
-        "author": "liurongjie",
-        "date": "2026-09-05 12:37:24",
-        "message": "feat(rss): 电视剧默认设置支持整季一致性"
-      },
-      {
-        "commit": "836fb77127db96d5922d3910a1b49708e7b8f572",
-        "author": "liurongjie",
-        "date": "2026-09-05 12:15:44",
-        "message": "feat: strm 媒体信息探测插件图标"
       }
     ]
   }
