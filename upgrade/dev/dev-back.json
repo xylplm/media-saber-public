@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609082343",
+    "items": [
+      {
+        "commit": "5354f07702d78e4e98172804e3f83a84d22ab9ca",
+        "author": "liurongjie",
+        "date": "2026-09-08 23:20:55",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 探测 ACK 200，客户端不再弹「选择该流有一个问题发生」"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609082237",
     "items": [
       {
@@ -197,17 +208,6 @@
         "author": "liurongjie",
         "date": "2026-09-07 20:38:41",
         "message": "feat(strm): 探测插件新增数据清理动作（清失败记录/清空全部）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609071959",
-    "items": [
-      {
-        "commit": "071b6b947d699ca4896a82c5cfa93f02d0e78e15",
-        "author": "liurongjie",
-        "date": "2026-09-07 19:56:15",
-        "message": "fix(strm): Plex 详情 frameRate 数字兼容 + 探测直链域名 DNS 预检分类"
       }
     ]
   }
