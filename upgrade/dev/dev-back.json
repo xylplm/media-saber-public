@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609081702",
+    "items": [
+      {
+        "commit": "58ad24b3c8af0ae10d08365b8a74b57cb73f2e5e",
+        "author": "liurongjie",
+        "date": "2026-09-08 16:31:54",
+        "message": "fix(strm_media_probe): review 修复——无身份日志不泄 URL 敏感参数、PATH ffprobe 校验失败补日志、注释顺序对齐实现"
+      },
+      {
+        "commit": "852fffee5bc87af13b8c4c7625f19ef7057ffd36",
+        "author": "liurongjie",
+        "date": "2026-09-08 16:20:17",
+        "message": "fix(strm_media_probe): ffprobe 失败缓存提升为进程级，review 自查修复"
+      },
+      {
+        "commit": "dea7b017b4b8e993cb65788a5d7ad33d88d574b9",
+        "author": "liurongjie",
+        "date": "2026-09-08 16:08:20",
+        "message": "fix(strm_media_probe): ffprobe 静态构建兼容 musl 容器 + 同步支持 strm302 URL 条目身份提取"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609081456",
     "items": [
       {
@@ -203,29 +226,6 @@
         "author": "liurongjie",
         "date": "2026-09-07 17:58:26",
         "message": "feat(strm): 流信息全字段对齐 PMS 原生（model.api 单一事实源 + goctl 生成）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609062152",
-    "items": [
-      {
-        "commit": "63f221f70029e4a31a3dfeb54453b07690489011",
-        "author": "GateCross",
-        "date": "2026-09-06 21:35:12",
-        "message": "feat: 优化上传后删源流程并联动删种与空目录清理"
-      },
-      {
-        "commit": "92b2a949d6e3e338e9ef6ad548727a2976c9e179",
-        "author": "liurongjie",
-        "date": "2026-09-06 19:12:40",
-        "message": "fix(strm): 非 strm part 的轨道选择 selected 标记（补提交）"
-      },
-      {
-        "commit": "480cf456ee64ed8d90f27a4cd6ad57b7436df8f6",
-        "author": "liurongjie",
-        "date": "2026-09-06 19:09:23",
-        "message": "fix(strm): PUT 轨道选择拦截改用独立正则（上轮替换因 gofmt 缩进未命中从未生效）"
       }
     ]
   }
