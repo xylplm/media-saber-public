@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609080923",
+    "items": [
+      {
+        "commit": "60c883f686c24b9a62aa75aa0d19d932c0422d60",
+        "author": "liurongjie",
+        "date": "2026-09-08 01:21:27",
+        "message": "fix(strm-media-probe): review 修复——按服务器路径导入同样携带冲突策略勾选"
+      },
+      {
+        "commit": "dd0df9e433e7c476c591180bf930df829bd3970b",
+        "author": "liurongjie",
+        "date": "2026-09-08 00:59:33",
+        "message": "feat(strm-media-probe): 导入还原增加冲突策略勾选（新者胜=按探测时间覆盖本地）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609080003",
     "items": [
       {
@@ -137,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 12:15:44",
         "message": "feat: strm 媒体信息探测插件图标"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609041325",
-    "items": [
-      {
-        "commit": "e7e1dd9ddfeb45ed3fffb9530b58b9ec7624895b",
-        "author": "liurongjie",
-        "date": "2026-09-03 17:52:01",
-        "message": "fix(sync-data): 定时同步配置加载失败时保留已有展示"
       }
     ]
   }
