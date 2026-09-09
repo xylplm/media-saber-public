@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609091337",
+    "items": [
+      {
+        "commit": "a507109344ce4938e6784a04914c6832ac7f1ab9",
+        "author": "liurongjie",
+        "date": "2026-09-09 13:06:31",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 逐字节复刻 PMS 原生 404 形态"
+      },
+      {
+        "commit": "db441bfd1f9441467f3f68384e8979da8b4ff393",
+        "author": "liurongjie",
+        "date": "2026-09-09 12:57:04",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 回 size=1 Part 容器，并加探测超时保护"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609091117",
     "items": [
       {
@@ -185,23 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-07 22:58:04",
         "message": "refactor(strm): 表单精简——移除 ffprobe 路径输入项，超时/重试间隔补默认值"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609072218",
-    "items": [
-      {
-        "commit": "3abcbad0a1d4b79239ebafdf338d8ae447ad7018",
-        "author": "liurongjie",
-        "date": "2026-09-07 22:11:36",
-        "message": "refactor(strm): 备份固定内置目录，移除导出目录配置项"
-      },
-      {
-        "commit": "9232b247234a90c0148638b234bcea7e7065b9d5",
-        "author": "liurongjie",
-        "date": "2026-09-07 22:02:30",
-        "message": "fix(strm): 导入为异步 action，结果统计补插件通知（含失败原因）"
       }
     ]
   }
