@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609092345",
+    "items": [
+      {
+        "commit": "2a382cc49aad1bd91d6672c4d8843a34f185a4d4",
+        "author": "liurongjie",
+        "date": "2026-09-09 23:41:50",
+        "message": "fix(mediaproxy): OPTIONS 404 对齐 PMS 原生抓包（去 Cache-Control），真实响应 fixture 回归"
+      },
+      {
+        "commit": "c5440808b7cba5c5f21248dd5555eefadb9ab279",
+        "author": "liurongjie",
+        "date": "2026-09-09 23:23:50",
+        "message": "fix(mediaproxy): strm 切轨探测改回 200 选轨树，直链会话弹错根除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609092246",
     "items": [
       {
@@ -161,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-09-08 14:24:45",
         "message": "fix 🐛: 修复 qB 转种校验后自动做种"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609081324",
-    "items": [
-      {
-        "commit": "d270258992577e37700b47beb51f3f6ecfe40eed",
-        "author": "liurongjie",
-        "date": "2026-09-08 13:13:42",
-        "message": "fix(mediaproxy): strm 切轨 OPTIONS 对齐 PMS 原生 404，根除切字幕/音频弹错"
       }
     ]
   }
