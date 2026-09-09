@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609100053",
+    "items": [
+      {
+        "commit": "e225a095fda932eb10ede88ef38bfbfb6961fca7",
+        "author": "liurongjie",
+        "date": "2026-09-10 00:17:08",
+        "message": "fix(search): 修复回车搜索误报「请先选择搜索类型」"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609082237",
     "items": [
       {
@@ -137,23 +148,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 21:46:58",
         "message": "style: 探测插件同步目标样式与位置优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609052109",
-    "items": [
-      {
-        "commit": "611525fbfbbe3b4dd9cfc4994f64b68d9e25af53",
-        "author": "liurongjie",
-        "date": "2026-09-05 20:12:14",
-        "message": "fix: 探测组件兼容旧手填 syncLibraries 数据回显"
-      },
-      {
-        "commit": "4fd4e2be3399bfaecc822420d1c5ab326a3aabaf",
-        "author": "liurongjie",
-        "date": "2026-09-05 20:10:54",
-        "message": "feat: strm 媒体信息探测专属配置组件（同步目标成组交互）"
       }
     ]
   }

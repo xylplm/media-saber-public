@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609100053",
+    "items": [
+      {
+        "commit": "849cf49a3ce033c70a93804810a9b4f597a868f4",
+        "author": "liurongjie",
+        "date": "2026-09-10 00:51:38",
+        "message": "fix(mediaproxy): hubs 预热 query 学习剥离缓存击穿类调试参数"
+      },
+      {
+        "commit": "d0d907c6886f207fe448bbd0be1d259fa63503ee",
+        "author": "liurongjie",
+        "date": "2026-09-10 00:32:56",
+        "message": "fix(mediaproxy): strm 切轨选轨树补齐 Part 必备属性（duration/size/exists/accessible）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609092345",
     "items": [
       {
@@ -161,23 +178,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 16:08:20",
         "message": "fix(strm_media_probe): ffprobe 静态构建兼容 musl 容器 + 同步支持 strm302 URL 条目身份提取"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609081456",
-    "items": [
-      {
-        "commit": "4c5404eb7cf134061e9432ba4d8843b4b641c4bc",
-        "author": "xylplm",
-        "date": "2026-09-08 14:55:22",
-        "message": "feat: 更新认证证书"
-      },
-      {
-        "commit": "54517d7196c80121cc7656f0d9955ec6cf89599a",
-        "author": "xylplm",
-        "date": "2026-09-08 14:24:45",
-        "message": "fix 🐛: 修复 qB 转种校验后自动做种"
       }
     ]
   }
