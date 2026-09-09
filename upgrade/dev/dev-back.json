@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609091748",
+    "items": [
+      {
+        "commit": "4ada5a78bbb3781fd05187f6cb59747b49b48d98",
+        "author": "liurongjie",
+        "date": "2026-09-09 17:47:11",
+        "message": "feat(mediaproxy): 新增「路径映射调试日志」开关，默认关闭降噪"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609091704",
     "items": [
       {
@@ -149,41 +160,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 10:57:47",
         "message": "fix(mediaproxy): XML 路径伪音频兜底收尾 + 详情/播放加载性能优化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609080923",
-    "items": [
-      {
-        "commit": "bb921f6e5f77287033c510b3a351951009ec52cd",
-        "author": "GateCross",
-        "date": "2026-09-08 09:17:49",
-        "message": "fix: strm302 兼容 path 内未编码的 &"
-      },
-      {
-        "commit": "1f70f53a5cd42beb88d0b2c3ca0a56863a5e4cb5",
-        "author": "liurongjie",
-        "date": "2026-09-08 02:18:33",
-        "message": "fix(strm,mediaproxy): 两天改动深度 review 修复"
-      },
-      {
-        "commit": "52d338aea0046a54b2bf00801549e51c52bc289c",
-        "author": "liurongjie",
-        "date": "2026-09-08 01:21:10",
-        "message": "refactor(strm_media_probe): review 修复——探测锁状态收敛与导入常量归一"
-      },
-      {
-        "commit": "c04b2240f25d8ad97b6b746dda88ebf103409d9d",
-        "author": "liurongjie",
-        "date": "2026-09-08 00:59:14",
-        "message": "fix(strm_media_probe): 消除重复探测与唯一键冲突，导入支持冲突策略"
-      },
-      {
-        "commit": "c133a48b0b1a1c864959ea0ee40592c27eb1d65b",
-        "author": "liurongjie",
-        "date": "2026-09-08 00:59:03",
-        "message": "fix(mediaproxy): strm 无音频流时注入伪流兜底，避免 Plex 音轨工具栏退出播放"
       }
     ]
   }
