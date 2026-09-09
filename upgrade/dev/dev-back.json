@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202609092246",
+    "items": [
+      {
+        "commit": "0c94ee857532d0eabcb365baf81128bd60addb45",
+        "author": "liurongjie",
+        "date": "2026-09-09 22:41:31",
+        "message": "fix(mediaproxy): hubs 预热改为学习式 query 重放，垫得住真实请求"
+      },
+      {
+        "commit": "5c4be1af116aad08803b9a41252b3f0b6ed26bd5",
+        "author": "liurongjie",
+        "date": "2026-09-09 22:22:19",
+        "message": "feat(mediaproxy): hubs 高频路径后台定时预热，消除主页/推荐 5min 空窗冷查询"
+      },
+      {
+        "commit": "18d125ecee375848cb8fb3f2d6fda4316f112561",
+        "author": "liurongjie",
+        "date": "2026-09-09 21:03:20",
+        "message": "fix(mediaproxy): strm 注入流长 title 回退档位组装，language 缺 tag 时反推"
+      },
+      {
+        "commit": "c5c91a1a33595a90b40afc43aaf62e2a05b64dc6",
+        "author": "liurongjie",
+        "date": "2026-09-09 20:44:22",
+        "message": "fix(mediaproxy): strm 注入流分辨率档位按宽高联合判定，补齐无语言轨「未知」形态"
+      },
+      {
+        "commit": "bfd838a212e56aea89b39fc346ed368d35340cdf",
+        "author": "liurongjie",
+        "date": "2026-09-09 20:12:45",
+        "message": "fix(mediaproxy): strm 注入流字段对齐 PMS 原生形态，消除切轨异常与流列表不稳定"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609091748",
     "items": [
       {
@@ -137,29 +172,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 13:13:42",
         "message": "fix(mediaproxy): strm 切轨 OPTIONS 对齐 PMS 原生 404，根除切字幕/音频弹错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609081146",
-    "items": [
-      {
-        "commit": "89fa37c6dc1c8ccbb7c450822448f9be257604b7",
-        "author": "liurongjie",
-        "date": "2026-09-08 11:30:41",
-        "message": "fix(strm,mediaproxy): 全面 review 修复——手动通知穿透开关与伪流 selected 一致性"
-      },
-      {
-        "commit": "a47e20e715ae780546eda616a2abaa719c722df4",
-        "author": "liurongjie",
-        "date": "2026-09-08 11:19:10",
-        "message": "fix(mediaproxy): 增强解析超时补伪流兜底落地——哨兵 entry 进 lookup"
-      },
-      {
-        "commit": "2efe31539174ccfc2b6cd1966697b7e2f7beb3d1",
-        "author": "liurongjie",
-        "date": "2026-09-08 10:57:47",
-        "message": "fix(mediaproxy): XML 路径伪音频兜底收尾 + 详情/播放加载性能优化"
       }
     ]
   }
