@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609091704",
+    "items": [
+      {
+        "commit": "32cfb146469f01a88269cba979c91905109802c3",
+        "author": "liurongjie",
+        "date": "2026-09-09 16:55:08",
+        "message": "fix(mediaproxy): strm 决策统一 directplay + strm 解析身份 fs.Get 兜底"
+      },
+      {
+        "commit": "ce4c5b8ee1ee5980d4f27358fce3a18a6923d46f",
+        "author": "liurongjie",
+        "date": "2026-09-09 16:46:36",
+        "message": "feat(strm_media_probe): 插件新增「备份保留份数」配置，备份后自动清理最旧备份"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609091337",
     "items": [
       {
@@ -167,41 +184,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 00:59:03",
         "message": "fix(mediaproxy): strm 无音频流时注入伪流兜底，避免 Plex 音轨工具栏退出播放"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609080003",
-    "items": [
-      {
-        "commit": "b441dd63e6da0ac52124af45abc006c834109862",
-        "author": "liurongjie",
-        "date": "2026-09-07 23:46:02",
-        "message": "style(strm_media_probe): 扫描目录表单项调整为整行占满"
-      },
-      {
-        "commit": "b9b2d904dfa478351e827b2605788fe0682c7216",
-        "author": "liurongjie",
-        "date": "2026-09-07 23:43:46",
-        "message": "refactor(strm_media_probe): 移除下载代理配置，ffprobe 下载改用系统基础配置代理"
-      },
-      {
-        "commit": "c4546b107ce736b852e702f024525669cd25016f",
-        "author": "liurongjie",
-        "date": "2026-09-07 23:22:09",
-        "message": "fix(strm): 切轨分治——strm ACK 200 消除弹错，非 strm 转发后失效 metadata 缓存"
-      },
-      {
-        "commit": "ee24e480bd8b892a2b0a87365d2d4700d3e64ecb",
-        "author": "liurongjie",
-        "date": "2026-09-07 23:09:02",
-        "message": "fix(strm): ffprobe 数值字段兼容字符串形态"
-      },
-      {
-        "commit": "1bd3e56425731b3b0b7cf305441674ab4ff19649",
-        "author": "liurongjie",
-        "date": "2026-09-07 22:58:04",
-        "message": "refactor(strm): 表单精简——移除 ffprobe 路径输入项，超时/重试间隔补默认值"
       }
     ]
   }
