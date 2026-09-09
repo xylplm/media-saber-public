@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609091117",
+    "items": [
+      {
+        "commit": "75093981a1dd0a16edfd617d83607e6d598f9d1f",
+        "author": "liurongjie",
+        "date": "2026-09-09 10:31:32",
+        "message": "fix(strm_media_probe): strm302 URL 无 fileHash 时按内部路径 fs.Get 兜底取身份"
+      },
+      {
+        "commit": "bc00cc71dad2989fd7e1d0f71d436fb70827b489",
+        "author": "liurongjie",
+        "date": "2026-09-09 00:28:47",
+        "message": "fix(strm_media_probe): 同步统计「无身份」更名「未关联115」"
+      },
+      {
+        "commit": "493edbefad7a3e8bd6156aeb7bc270ef8f8dc23e",
+        "author": "liurongjie",
+        "date": "2026-09-09 00:13:49",
+        "message": "fix(strm_media_probe): 同步统计「无流」更名「未分析」"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609082343",
     "items": [
       {
@@ -179,35 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-07 22:02:30",
         "message": "fix(strm): 导入为异步 action，结果统计补插件通知（含失败原因）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609072153",
-    "items": [
-      {
-        "commit": "ea94825f57304ab93a60d14e06f4750d3cdb9d1b",
-        "author": "liurongjie",
-        "date": "2026-09-07 21:35:51",
-        "message": "feat(strm): 探测数据备份/分享双通道——服务器目录备份 + base64 分享下载"
-      },
-      {
-        "commit": "a7d4afbe738c09872f341bcdb589d7a8d02b90df",
-        "author": "liurongjie",
-        "date": "2026-09-07 21:09:57",
-        "message": "feat(strm): ffprobe 子进程解析失败时用预检 IP 直连重试"
-      },
-      {
-        "commit": "6c42fe084b8a7b492458ba96e057bcd337a4a99d",
-        "author": "liurongjie",
-        "date": "2026-09-07 21:01:48",
-        "message": "fix(strm): 切轨不再 ACK 业务树——选轨请求仅记忆后转发，无记忆回落默认轨 selected"
-      },
-      {
-        "commit": "728cc36129085b0165b2e42b0dc1d33c1e0b5c1a",
-        "author": "liurongjie",
-        "date": "2026-09-07 20:38:41",
-        "message": "feat(strm): 探测插件新增数据清理动作（清失败记录/清空全部）"
       }
     ]
   }
