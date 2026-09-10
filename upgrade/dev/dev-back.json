@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609101939",
+    "items": [
+      {
+        "commit": "fd0af66eb32013ba3d66bcb85c39ef46f74c956a",
+        "author": "liurongjie",
+        "date": "2026-09-10 19:06:51",
+        "message": "fix(mediaproxy): decision 补齐流级媒体描述字段并加固 helper"
+      },
+      {
+        "commit": "26bc5733dfece8125c176b44df5dfacbee0293cb",
+        "author": "liurongjie",
+        "date": "2026-09-10 19:00:14",
+        "message": "fix(mediaproxy): strm 伪造 decision 补齐 PMS 原生 direct play 字段集，修切轨弹错+客户端闪退"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609101605",
     "items": [
       {
@@ -185,17 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 23:20:55",
         "message": "fix(mediaproxy): strm 切轨 OPTIONS 探测 ACK 200，客户端不再弹「选择该流有一个问题发生」"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609082237",
-    "items": [
-      {
-        "commit": "d55918bc4b42f2937cdb131f0ed6b63769b07fb7",
-        "author": "liurongjie",
-        "date": "2026-09-08 22:28:10",
-        "message": "fix: safego 后台任务与体检探测断开父 ctx 取消传播，消除 context canceled 误报"
       }
     ]
   }
