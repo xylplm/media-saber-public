@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609110029",
+    "items": [
+      {
+        "commit": "d0dfcebc5d86f26667e13f84120cf57c44d3086a",
+        "author": "liurongjie",
+        "date": "2026-09-10 23:51:03",
+        "message": "test(mediaproxy): 补增强开关关闭降级守卫"
+      },
+      {
+        "commit": "e2bcfc73e13c1a8942cc14c0a15722fddb88cceb",
+        "author": "liurongjie",
+        "date": "2026-09-10 23:43:49",
+        "message": "fix(mediaproxy): 安卓/TV strm 决策统一直玩，修复全量测试并补决策形态守卫"
+      },
+      {
+        "commit": "dbcfc11274a6c4e204726df45af8bbd44d14743d",
+        "author": "liurongjie",
+        "date": "2026-09-10 22:37:08",
+        "message": "fix(mediaproxy): 安卓详情报错与 iOS 切轨失效修复，decision 对齐原生按客户端形态返回"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609101939",
     "items": [
       {
@@ -191,17 +214,6 @@
         "author": "liurongjie",
         "date": "2026-09-09 00:13:49",
         "message": "fix(strm_media_probe): 同步统计「无流」更名「未分析」"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609082343",
-    "items": [
-      {
-        "commit": "5354f07702d78e4e98172804e3f83a84d22ab9ca",
-        "author": "liurongjie",
-        "date": "2026-09-08 23:20:55",
-        "message": "fix(mediaproxy): strm 切轨 OPTIONS 探测 ACK 200，客户端不再弹「选择该流有一个问题发生」"
       }
     ]
   }
