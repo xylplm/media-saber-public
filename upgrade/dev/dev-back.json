@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202609101605",
+    "items": [
+      {
+        "commit": "fcabfd126fbbd66e9300151c4e29387c092b7d0f",
+        "author": "liurongjie",
+        "date": "2026-09-10 15:26:22",
+        "message": "test(mediaproxy): 补 strm 切轨分支 ServeHTTP 级回归守卫"
+      },
+      {
+        "commit": "593c152735a62f1095852c32dd0b965082e6eb05",
+        "author": "liurongjie",
+        "date": "2026-09-10 15:15:00",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 恢复 PMS 原生 404 形态（决定性对照实验）"
+      },
+      {
+        "commit": "b1c3601cbdc7ddc4ebfb19be036456fb063592f2",
+        "author": "liurongjie",
+        "date": "2026-09-10 14:37:25",
+        "message": "fix(strm_media_probe): ffprobe 入库过滤封面附件流，语言码补 B 码变体"
+      },
+      {
+        "commit": "25d1707aabf1ba6ed530aee1ca788b4890111e09",
+        "author": "liurongjie",
+        "date": "2026-09-10 14:30:33",
+        "message": "fix(mediaproxy): strm 探测数据跨源复用归一（bitRate 单位/PGSSUB/语言码变体）"
+      },
+      {
+        "commit": "19327b6e180f5e87bff3a4d101e0ef92dea6e7a2",
+        "author": "liurongjie",
+        "date": "2026-09-10 14:05:55",
+        "message": "feat(strm_media_probe): 探测数据入库携带资源名并随导出/导入流转"
+      },
+      {
+        "commit": "5978eba9032e705329e328b61f1efee350f64d86",
+        "author": "liurongjie",
+        "date": "2026-09-10 13:40:49",
+        "message": "feat(strm_media_probe): 同步统计未关联115 按路径形态细分本地文件与URL/strm解析失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609100053",
     "items": [
       {
@@ -155,29 +196,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 22:28:10",
         "message": "fix: safego 后台任务与体检探测断开父 ctx 取消传播，消除 context canceled 误报"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609081702",
-    "items": [
-      {
-        "commit": "58ad24b3c8af0ae10d08365b8a74b57cb73f2e5e",
-        "author": "liurongjie",
-        "date": "2026-09-08 16:31:54",
-        "message": "fix(strm_media_probe): review 修复——无身份日志不泄 URL 敏感参数、PATH ffprobe 校验失败补日志、注释顺序对齐实现"
-      },
-      {
-        "commit": "852fffee5bc87af13b8c4c7625f19ef7057ffd36",
-        "author": "liurongjie",
-        "date": "2026-09-08 16:20:17",
-        "message": "fix(strm_media_probe): ffprobe 失败缓存提升为进程级，review 自查修复"
-      },
-      {
-        "commit": "dea7b017b4b8e993cb65788a5d7ad33d88d574b9",
-        "author": "liurongjie",
-        "date": "2026-09-08 16:08:20",
-        "message": "fix(strm_media_probe): ffprobe 静态构建兼容 musl 容器 + 同步支持 strm302 URL 条目身份提取"
       }
     ]
   }
