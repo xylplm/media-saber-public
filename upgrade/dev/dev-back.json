@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609111239",
+    "items": [
+      {
+        "commit": "ff8ef8d9c6889971e3eea9ba5a538a494357ea02",
+        "author": "liurongjie",
+        "date": "2026-09-11 12:02:42",
+        "message": "fix(mediaproxy): 选轨 PUT 后元数据缓存立即失效，修非 strm 第一次切轨无效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609111123",
     "items": [
       {
@@ -197,23 +208,6 @@
         "author": "liurongjie",
         "date": "2026-09-09 16:46:36",
         "message": "feat(strm_media_probe): 插件新增「备份保留份数」配置，备份后自动清理最旧备份"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609091337",
-    "items": [
-      {
-        "commit": "a507109344ce4938e6784a04914c6832ac7f1ab9",
-        "author": "liurongjie",
-        "date": "2026-09-09 13:06:31",
-        "message": "fix(mediaproxy): strm 切轨 OPTIONS 逐字节复刻 PMS 原生 404 形态"
-      },
-      {
-        "commit": "db441bfd1f9441467f3f68384e8979da8b4ff393",
-        "author": "liurongjie",
-        "date": "2026-09-09 12:57:04",
-        "message": "fix(mediaproxy): strm 切轨 OPTIONS 回 size=1 Part 容器，并加探测超时保护"
       }
     ]
   }
