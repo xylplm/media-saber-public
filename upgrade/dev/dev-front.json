@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609111123",
+    "items": [
+      {
+        "commit": "743a07fb810299592c50054b3e1c624c840acccf",
+        "author": "liurongjie",
+        "date": "2026-09-11 10:37:11",
+        "message": "fix(tools): 插件实例弹窗撤出全屏抽屉恢复居中尺寸，移动端内容区限高保 actions 可见"
+      },
+      {
+        "commit": "988557195726929c5e7270d7ba8df31c31f9ad38",
+        "author": "liurongjie",
+        "date": "2026-09-11 02:12:38",
+        "message": "fix(tools): 移动端插件弹窗内容区可滚动 + 底部主操作常驻，修复全屏抽屉不可滚倒退"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609100053",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "liurongjie",
         "date": "2026-09-05 22:55:09",
         "message": "style: 探测插件同步目标分组行对齐——flex 居中 + 紧凑 outline 控件（照 pair-list 模式）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609052200",
-    "items": [
-      {
-        "commit": "aee8f8751b601a47c64a84aa8e89f2dc7b751e57",
-        "author": "liurongjie",
-        "date": "2026-09-05 21:51:46",
-        "message": "fix: 探测插件同步目标变化标记表单 dirty，修复选库后保存按钮不可用"
-      },
-      {
-        "commit": "a53973ab77e763295f63473dd87379ce056b8180",
-        "author": "liurongjie",
-        "date": "2026-09-05 21:46:58",
-        "message": "style: 探测插件同步目标样式与位置优化"
       }
     ]
   }
