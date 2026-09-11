@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609111513",
+    "items": [
+      {
+        "commit": "e8011dda8016ad328136c164a86ca282c4eb6479",
+        "author": "liurongjie",
+        "date": "2026-09-11 14:55:52",
+        "message": "feat(mediaproxy): strm 增强字幕默认选中中文字幕（简/繁/粤语）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609111429",
     "items": [
       {
@@ -191,41 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-09 23:23:50",
         "message": "fix(mediaproxy): strm 切轨探测改回 200 选轨树，直链会话弹错根除"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609092246",
-    "items": [
-      {
-        "commit": "0c94ee857532d0eabcb365baf81128bd60addb45",
-        "author": "liurongjie",
-        "date": "2026-09-09 22:41:31",
-        "message": "fix(mediaproxy): hubs 预热改为学习式 query 重放，垫得住真实请求"
-      },
-      {
-        "commit": "5c4be1af116aad08803b9a41252b3f0b6ed26bd5",
-        "author": "liurongjie",
-        "date": "2026-09-09 22:22:19",
-        "message": "feat(mediaproxy): hubs 高频路径后台定时预热，消除主页/推荐 5min 空窗冷查询"
-      },
-      {
-        "commit": "18d125ecee375848cb8fb3f2d6fda4316f112561",
-        "author": "liurongjie",
-        "date": "2026-09-09 21:03:20",
-        "message": "fix(mediaproxy): strm 注入流长 title 回退档位组装，language 缺 tag 时反推"
-      },
-      {
-        "commit": "c5c91a1a33595a90b40afc43aaf62e2a05b64dc6",
-        "author": "liurongjie",
-        "date": "2026-09-09 20:44:22",
-        "message": "fix(mediaproxy): strm 注入流分辨率档位按宽高联合判定，补齐无语言轨「未知」形态"
-      },
-      {
-        "commit": "bfd838a212e56aea89b39fc346ed368d35340cdf",
-        "author": "liurongjie",
-        "date": "2026-09-09 20:12:45",
-        "message": "fix(mediaproxy): strm 注入流字段对齐 PMS 原生形态，消除切轨异常与流列表不稳定"
       }
     ]
   }
