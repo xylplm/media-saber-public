@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609120154",
+    "items": [
+      {
+        "commit": "782af0fd2da1d654d78382f320b636627efb666f",
+        "author": "liurongjie",
+        "date": "2026-09-12 01:45:52",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 恢复 200 选轨树，修伪会话下仅首次可切"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609120054",
     "items": [
       {
@@ -203,17 +214,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 13:00:58",
         "message": "fix(mediaproxy): 注入流 id 避开 mpv track-id 空间，修 Mac/iOS 直玩切轨映射错位"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111239",
-    "items": [
-      {
-        "commit": "ff8ef8d9c6889971e3eea9ba5a538a494357ea02",
-        "author": "liurongjie",
-        "date": "2026-09-11 12:02:42",
-        "message": "fix(mediaproxy): 选轨 PUT 后元数据缓存立即失效，修非 strm 第一次切轨无效"
       }
     ]
   }
