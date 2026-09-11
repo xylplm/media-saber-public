@@ -2,6 +2,11 @@ name: build-dev-release
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/trigger-dev'  # 临时触发文件：push 此文件等价手动 Run workflow，构建完成后还原
 
 jobs:
   generate-version:
