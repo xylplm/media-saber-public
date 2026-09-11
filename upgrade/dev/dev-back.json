@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202609111707",
+    "items": [
+      {
+        "commit": "24de1bce67225fea8003fb80737cf7fc4da932a2",
+        "author": "liurongjie",
+        "date": "2026-09-11 17:05:54",
+        "message": "fix: 补 net/http 导入"
+      },
+      {
+        "commit": "b57eb901c22bd2fb47d7c244aa4ec58306424d95",
+        "author": "liurongjie",
+        "date": "2026-09-11 17:04:09",
+        "message": "feat(mediaproxy): HLS 生效判定函数——库维度+strm 路径双重过滤，非 strm 不受影响"
+      },
+      {
+        "commit": "c562ca89b68e63ceb739c33579e8862e99541cf3",
+        "author": "liurongjie",
+        "date": "2026-09-11 16:57:55",
+        "message": "style: gofmt 对齐"
+      },
+      {
+        "commit": "f89bb9fb52a7539f82fd29df329a736b8f23636a",
+        "author": "liurongjie",
+        "date": "2026-09-11 16:48:16",
+        "message": "fix(mediaproxy): HLS 骨架 review 六项修复"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609111641",
     "items": [
       {
@@ -155,47 +184,6 @@
         "author": "liurongjie",
         "date": "2026-09-10 19:00:14",
         "message": "fix(mediaproxy): strm 伪造 decision 补齐 PMS 原生 direct play 字段集，修切轨弹错+客户端闪退"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609101605",
-    "items": [
-      {
-        "commit": "fcabfd126fbbd66e9300151c4e29387c092b7d0f",
-        "author": "liurongjie",
-        "date": "2026-09-10 15:26:22",
-        "message": "test(mediaproxy): 补 strm 切轨分支 ServeHTTP 级回归守卫"
-      },
-      {
-        "commit": "593c152735a62f1095852c32dd0b965082e6eb05",
-        "author": "liurongjie",
-        "date": "2026-09-10 15:15:00",
-        "message": "fix(mediaproxy): strm 切轨 OPTIONS 恢复 PMS 原生 404 形态（决定性对照实验）"
-      },
-      {
-        "commit": "b1c3601cbdc7ddc4ebfb19be036456fb063592f2",
-        "author": "liurongjie",
-        "date": "2026-09-10 14:37:25",
-        "message": "fix(strm_media_probe): ffprobe 入库过滤封面附件流，语言码补 B 码变体"
-      },
-      {
-        "commit": "25d1707aabf1ba6ed530aee1ca788b4890111e09",
-        "author": "liurongjie",
-        "date": "2026-09-10 14:30:33",
-        "message": "fix(mediaproxy): strm 探测数据跨源复用归一（bitRate 单位/PGSSUB/语言码变体）"
-      },
-      {
-        "commit": "19327b6e180f5e87bff3a4d101e0ef92dea6e7a2",
-        "author": "liurongjie",
-        "date": "2026-09-10 14:05:55",
-        "message": "feat(strm_media_probe): 探测数据入库携带资源名并随导出/导入流转"
-      },
-      {
-        "commit": "5978eba9032e705329e328b61f1efee350f64d86",
-        "author": "liurongjie",
-        "date": "2026-09-10 13:40:49",
-        "message": "feat(strm_media_probe): 同步统计未关联115 按路径形态细分本地文件与URL/strm解析失败"
       }
     ]
   }
