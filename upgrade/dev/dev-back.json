@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609120218",
+    "items": [
+      {
+        "commit": "914ee26759e15b1dd3f4d0f47ac1418bb9aafc6a",
+        "author": "liurongjie",
+        "date": "2026-09-12 02:14:22",
+        "message": "perf(mediaproxy): promoted 纳入预热 + onDeck 接入 hubs 缓存 + 预热变体分键"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609120154",
     "items": [
       {
@@ -185,35 +196,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 14:27:17",
         "message": "fix(mediaproxy): 注入流 id 对齐 mkv TrackNumber（Index+1），修直玩切轨错位"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111340",
-    "items": [
-      {
-        "commit": "3971dfccbe0c3924b6b8da94d8ef27e780c910c4",
-        "author": "liurongjie",
-        "date": "2026-09-11 13:42:53",
-        "message": "chore(mediaproxy): 清理 analyze 剥离键表中误加的猜测键名"
-      },
-      {
-        "commit": "a140513a5d2edfbb2efa03f4ce4e363f3632cc9c",
-        "author": "liurongjie",
-        "date": "2026-09-11 13:26:42",
-        "message": "fix(mediaproxy): 回源剥离 asyncRefreshAnalysis/LocalMediaAgent，止住 PMS analyze 任务堆积"
-      },
-      {
-        "commit": "59269d9620e3690d778358b3ef73e05307feb998",
-        "author": "liurongjie",
-        "date": "2026-09-11 13:03:26",
-        "message": "Revert \"fix(mediaproxy): 注入流 id 避开 mpv track-id 空间，修 Mac/iOS 直玩切轨映射错位\""
-      },
-      {
-        "commit": "99b79570cd54a162c9254a66ee14a760f84c0038",
-        "author": "liurongjie",
-        "date": "2026-09-11 13:00:58",
-        "message": "fix(mediaproxy): 注入流 id 避开 mpv track-id 空间，修 Mac/iOS 直玩切轨映射错位"
       }
     ]
   }
