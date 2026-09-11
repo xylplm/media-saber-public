@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609111429",
+    "items": [
+      {
+        "commit": "e1b15b1790be0badc83ba7d77d2faddfa2e8ff48",
+        "author": "liurongjie",
+        "date": "2026-09-11 14:28:03",
+        "message": "chore: 移除误提交的临时压测日志文件"
+      },
+      {
+        "commit": "369d2858fc75931b30b9a6cc0841d34ad4f8deff",
+        "author": "liurongjie",
+        "date": "2026-09-11 14:27:17",
+        "message": "fix(mediaproxy): 注入流 id 对齐 mkv TrackNumber（Index+1），修直玩切轨错位"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609111340",
     "items": [
       {
@@ -209,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-09-09 20:12:45",
         "message": "fix(mediaproxy): strm 注入流字段对齐 PMS 原生形态，消除切轨异常与流列表不稳定"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609091748",
-    "items": [
-      {
-        "commit": "4ada5a78bbb3781fd05187f6cb59747b49b48d98",
-        "author": "liurongjie",
-        "date": "2026-09-09 17:47:11",
-        "message": "feat(mediaproxy): 新增「路径映射调试日志」开关，默认关闭降噪"
       }
     ]
   }
