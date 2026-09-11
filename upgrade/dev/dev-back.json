@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609120054",
+    "items": [
+      {
+        "commit": "5d7513854c9c06f9f9ab7a9de82355bd351e33bb",
+        "author": "liurongjie",
+        "date": "2026-09-12 00:43:18",
+        "message": "fix(mediaproxy): 摘除 HLS remux 全部代码并回滚注入流 id 为 0 基（Index）"
+      },
+      {
+        "commit": "ced394b5ffd0ff966d432928b98ffe76a8c5ad4a",
+        "author": "liurongjie",
+        "date": "2026-09-12 00:33:03",
+        "message": "feat(downloader): 下载器表单新增公网地址配置，选填仅 app 使用"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609120007",
     "items": [
       {
@@ -197,29 +214,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 12:02:42",
         "message": "fix(mediaproxy): 选轨 PUT 后元数据缓存立即失效，修非 strm 第一次切轨无效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111123",
-    "items": [
-      {
-        "commit": "6932a3caff7fe5b6cb152eda19b04c1463a64ade",
-        "author": "liurongjie",
-        "date": "2026-09-11 09:43:06",
-        "message": "fix(mediaproxy): 详情预取支持 XML 响应，修 XML 会话浏览列表不暖详情缓存"
-      },
-      {
-        "commit": "20a6b8d66140f2c0a5dfed743265256aed7c0902",
-        "author": "liurongjie",
-        "date": "2026-09-11 09:33:51",
-        "message": "fix(mediaproxy): 伪流占位格式对齐最新增强流形态"
-      },
-      {
-        "commit": "f48e551b1ceb7ece9a24444fa9c48a30e4098f1f",
-        "author": "liurongjie",
-        "date": "2026-09-11 09:10:47",
-        "message": "fix(mediaproxy): 单轨选择后音频 selected 缺省回落默认轨，修 iPhone 切轨不应用"
       }
     ]
   }
