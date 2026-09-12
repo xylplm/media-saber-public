@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609121140",
+    "items": [
+      {
+        "commit": "609df88221e5fb11304fedf58e0774694564ce64",
+        "author": "liurongjie",
+        "date": "2026-09-12 11:39:37",
+        "message": "feat(mediaproxy): strm 选轨记忆持久化 Redis，跨重启保持用户字幕/音轨选择"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609121121",
     "items": [
       {
@@ -173,23 +184,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 16:48:16",
         "message": "fix(mediaproxy): HLS 骨架 review 六项修复"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111641",
-    "items": [
-      {
-        "commit": "37f0b9f4259a183273b7f3785c672c9c0bd71cbe",
-        "author": "liurongjie",
-        "date": "2026-09-11 16:35:44",
-        "message": "fix(mediaproxy): 增强结果缓存 TTL 60s→2min，对齐元数据 softTTL"
-      },
-      {
-        "commit": "d62c368e96d517df0372a873b80545f2a257d72b",
-        "author": "liurongjie",
-        "date": "2026-09-11 16:27:09",
-        "message": "feat(mediaproxy): HLS remux 会话骨架 Phase 1（S1 配置+会话/管线/端点模块）"
       }
     ]
   }
