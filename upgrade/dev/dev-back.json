@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609130033",
+    "items": [
+      {
+        "commit": "1dac2ffa435a2089af9cf9e689d1216467dfe89c",
+        "author": "liurongjie",
+        "date": "2026-09-13 00:14:47",
+        "message": "fix(mediaproxy): hubs 预热首轮延迟 15s 立即执行，修部署后 4min 冷启动残留窗口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609122355",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 11:21:11",
         "message": "fix(mediaproxy): 选轨请求 CORS 实证修复+回退无实证改动；真实请求回放测试固化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121051",
-    "items": [
-      {
-        "commit": "5a5a59edb61ace2f1399247cf1b5697800fd8c64",
-        "author": "liurongjie",
-        "date": "2026-09-12 10:50:39",
-        "message": "fix(mediaproxy): 元数据命中路径补建 pathCache 空窗，选轨 PUT 不再转发 PMS 吃 400"
       }
     ]
   }
