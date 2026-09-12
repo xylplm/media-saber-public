@@ -2,11 +2,6 @@ name: build-dev-release
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - '.github/trigger-dev'
 
 jobs:
   generate-version:
