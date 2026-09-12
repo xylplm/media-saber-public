@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609121558",
+    "items": [
+      {
+        "commit": "6d29c76fa0dbfdf74beb43884eeafe06912ff752",
+        "author": "liurongjie",
+        "date": "2026-09-12 15:58:31",
+        "message": "fix(mediaproxy): probe 断供的伪流增强产物不进长缓存，恢复后立即自愈"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609121246",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 00:33:03",
         "message": "feat(downloader): 下载器表单新增公网地址配置，选填仅 app 使用"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609120007",
-    "items": [
-      {
-        "commit": "98bdc9c489f5b11fddb189aca5c945f77d3da211",
-        "author": "liurongjie",
-        "date": "2026-09-12 00:09:48",
-        "message": "test(dynamicform): 表单开关回归守卫——Plex 表单必须暴露代理关键开关"
-      },
-      {
-        "commit": "457f86fa4f2dcb72835722f0b402233a05f579bb",
-        "author": "liurongjie",
-        "date": "2026-09-11 23:56:59",
-        "message": "fix(mediaserver): Plex 动态表单补 STRM HLS 换轨开关，修编辑弹窗无此开关"
       }
     ]
   }
