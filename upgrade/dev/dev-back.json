@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609130150",
+    "items": [
+      {
+        "commit": "bfdc9b3f89993e26875aa014d66ef6c4299a96a4",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:47:32",
+        "message": "fix(mediaproxy): alias 能力标签补 exclude* 维度，修 excludeElements 变体借体缺字段"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609130125",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 12:12:28",
         "message": "fix(mediaproxy): hubs 预热器全链路可观测 + 选轨记忆负缓存防 Redis 频扰"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121140",
-    "items": [
-      {
-        "commit": "609df88221e5fb11304fedf58e0774694564ce64",
-        "author": "liurongjie",
-        "date": "2026-09-12 11:39:37",
-        "message": "feat(mediaproxy): strm 选轨记忆持久化 Redis，跨重启保持用户字幕/音轨选择"
       }
     ]
   }
