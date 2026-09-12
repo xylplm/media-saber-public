@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609130125",
+    "items": [
+      {
+        "commit": "8348c1e0895a80f6831ccd52395be22abbcd350c",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:23:51",
+        "message": "fix(mediaproxy): hubs 预热观测持久化移出热路径并加 60s 写节流"
+      },
+      {
+        "commit": "7d70db68cc2aceb29cbbe3051d2ee84337291248",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:18:40",
+        "message": "perf(mediaproxy): hubs 预热观测存 canonical 并持久化，首轮放宽超时+并发"
+      },
+      {
+        "commit": "0ac2d6a502b17ca3cbe91b388f3f3632fa626375",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:09:45",
+        "message": "fix(mediaproxy): 详情 alias 借体按变体能力覆盖放行，修 Mac 首开缺字段报错"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609130033",
     "items": [
       {
@@ -95,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 11:39:37",
         "message": "feat(mediaproxy): strm 选轨记忆持久化 Redis，跨重启保持用户字幕/音轨选择"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121121",
-    "items": [
-      {
-        "commit": "cc3bf33dda915bb682a208bcd5a72b244a6318d7",
-        "author": "liurongjie",
-        "date": "2026-09-12 11:21:11",
-        "message": "fix(mediaproxy): 选轨请求 CORS 实证修复+回退无实证改动；真实请求回放测试固化"
       }
     ]
   }
