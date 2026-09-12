@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609121832",
+    "items": [
+      {
+        "commit": "91046ed18efe55091a39d0bf08985e1efbc6db5e",
+        "author": "liurongjie",
+        "date": "2026-09-12 18:32:02",
+        "message": "perf(mediaproxy): hubs 预热新鲜阈值对齐 softTTL，回源量减半"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609121759",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 09:57:52",
         "message": "fix(mediaproxy): strm 选轨树/元数据 selected 同源补齐，单参数探测缺维度回落"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609120218",
-    "items": [
-      {
-        "commit": "914ee26759e15b1dd3f4d0f47ac1418bb9aafc6a",
-        "author": "liurongjie",
-        "date": "2026-09-12 02:14:22",
-        "message": "perf(mediaproxy): promoted 纳入预热 + onDeck 接入 hubs 缓存 + 预热变体分键"
       }
     ]
   }
