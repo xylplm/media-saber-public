@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609122355",
+    "items": [
+      {
+        "commit": "446fc39c51016237c6626e15abf24b054eec11da",
+        "author": "GateCross",
+        "date": "2026-09-12 23:53:34",
+        "message": "feat: 新增页面权限按用户分配，普通用户默认仅开放搜索、寻影探剧与云存储资源搜索"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609111123",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "GateCross",
         "date": "2026-09-06 11:39:01",
         "message": "feat: 手动整理弹窗支持指定季集"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609052332",
-    "items": [
-      {
-        "commit": "827cc500165351cb40e1948294c14717f305a67f",
-        "author": "GateCross",
-        "date": "2026-09-05 23:30:52",
-        "message": "feat: 网盘设置新增上传后删除源文件开关"
-      },
-      {
-        "commit": "34ff52e8c1a4b99338f2f1bad3f6d1acc2a8cbdc",
-        "author": "liurongjie",
-        "date": "2026-09-05 22:55:09",
-        "message": "style: 探测插件同步目标分组行对齐——flex 居中 + 紧凑 outline 控件（照 pair-list 模式）"
       }
     ]
   }

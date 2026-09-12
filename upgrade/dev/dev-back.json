@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609122355",
+    "items": [
+      {
+        "commit": "8b96d02f693df679e87ccbd9580dc603821e997b",
+        "author": "liurongjie",
+        "date": "2026-09-12 23:28:18",
+        "message": "fix(mediaproxy): 预热器主动发现全部库并预埋库页标准变体，修重启后库页首击 Uh Oh"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609121832",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 10:50:39",
         "message": "fix(mediaproxy): 元数据命中路径补建 pathCache 空窗，选轨 PUT 不再转发 PMS 吃 400"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609120958",
-    "items": [
-      {
-        "commit": "07ce41c3d1310e68ecca3bdaccf90826bddba123",
-        "author": "liurongjie",
-        "date": "2026-09-12 09:57:52",
-        "message": "fix(mediaproxy): strm 选轨树/元数据 selected 同源补齐，单参数探测缺维度回落"
       }
     ]
   }
