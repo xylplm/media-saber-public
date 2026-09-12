@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609121748",
+    "items": [
+      {
+        "commit": "39760e1995a4e05b2b687b5d733ec50bee059f35",
+        "author": "liurongjie",
+        "date": "2026-09-12 17:48:11",
+        "message": "feat(mediaproxy): 元数据增强对全部客户端生效，仅后缀伪装保留 Plex 官方专属"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609121558",
     "items": [
       {
@@ -95,23 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 01:45:52",
         "message": "fix(mediaproxy): strm 切轨 OPTIONS 恢复 200 选轨树，修伪会话下仅首次可切"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609120054",
-    "items": [
-      {
-        "commit": "5d7513854c9c06f9f9ab7a9de82355bd351e33bb",
-        "author": "liurongjie",
-        "date": "2026-09-12 00:43:18",
-        "message": "fix(mediaproxy): 摘除 HLS remux 全部代码并回滚注入流 id 为 0 基（Index）"
-      },
-      {
-        "commit": "ced394b5ffd0ff966d432928b98ffe76a8c5ad4a",
-        "author": "liurongjie",
-        "date": "2026-09-12 00:33:03",
-        "message": "feat(downloader): 下载器表单新增公网地址配置，选填仅 app 使用"
       }
     ]
   }
