@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609121051",
+    "items": [
+      {
+        "commit": "5a5a59edb61ace2f1399247cf1b5697800fd8c64",
+        "author": "liurongjie",
+        "date": "2026-09-12 10:50:39",
+        "message": "fix(mediaproxy): 元数据命中路径补建 pathCache 空窗，选轨 PUT 不再转发 PMS 吃 400"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609120958",
     "items": [
       {
@@ -179,17 +190,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 15:58:00",
         "message": "perf(mediaproxy): 增强结果半成品缓存，详情命中响应 102ms→<1ms"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111513",
-    "items": [
-      {
-        "commit": "e8011dda8016ad328136c164a86ca282c4eb6479",
-        "author": "liurongjie",
-        "date": "2026-09-11 14:55:52",
-        "message": "feat(mediaproxy): strm 增强字幕默认选中中文字幕（简/繁/粤语）"
       }
     ]
   }
