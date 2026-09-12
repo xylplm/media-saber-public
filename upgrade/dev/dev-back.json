@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609121213",
+    "items": [
+      {
+        "commit": "bb03ef795ede5638a6d998ece71c9b05b4d829a3",
+        "author": "liurongjie",
+        "date": "2026-09-12 12:12:28",
+        "message": "fix(mediaproxy): hubs 预热器全链路可观测 + 选轨记忆负缓存防 Redis 频扰"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609121140",
     "items": [
       {
@@ -155,35 +166,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 17:51:41",
         "message": "feat(mediaserver): 配置流 API 层透出 PlexHLSRemuxSections 库维度字段"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111707",
-    "items": [
-      {
-        "commit": "24de1bce67225fea8003fb80737cf7fc4da932a2",
-        "author": "liurongjie",
-        "date": "2026-09-11 17:05:54",
-        "message": "fix: 补 net/http 导入"
-      },
-      {
-        "commit": "b57eb901c22bd2fb47d7c244aa4ec58306424d95",
-        "author": "liurongjie",
-        "date": "2026-09-11 17:04:09",
-        "message": "feat(mediaproxy): HLS 生效判定函数——库维度+strm 路径双重过滤，非 strm 不受影响"
-      },
-      {
-        "commit": "c562ca89b68e63ceb739c33579e8862e99541cf3",
-        "author": "liurongjie",
-        "date": "2026-09-11 16:57:55",
-        "message": "style: gofmt 对齐"
-      },
-      {
-        "commit": "f89bb9fb52a7539f82fd29df329a736b8f23636a",
-        "author": "liurongjie",
-        "date": "2026-09-11 16:48:16",
-        "message": "fix(mediaproxy): HLS 骨架 review 六项修复"
       }
     ]
   }
