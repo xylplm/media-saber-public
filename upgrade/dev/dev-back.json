@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609132241",
+    "items": [
+      {
+        "commit": "04058d2ae5f1051c3b4907c63cf2763f649c0550",
+        "author": "liurongjie",
+        "date": "2026-09-13 22:32:10",
+        "message": "fix(mediaproxy): promoted 回源规避 PMS pinned+excCW 致空 bug，修首页推荐全空"
+      },
+      {
+        "commit": "ad50f16c76e85f81b58b8a4274247cafd5053327",
+        "author": "liurongjie",
+        "date": "2026-09-13 13:21:41",
+        "message": "perf(mediaproxy): hubs 预热空体变体连续两轮剔除，不再每轮白打 PMS"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609130240",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 15:58:31",
         "message": "fix(mediaproxy): probe 断供的伪流增强产物不进长缓存，恢复后立即自愈"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121246",
-    "items": [
-      {
-        "commit": "53f09f6111f067fe6e39f2244af10edac1a96c23",
-        "author": "liurongjie",
-        "date": "2026-09-12 12:46:29",
-        "message": "fix(mediaproxy): hubs 预热观测改为 handler 自持 warmTarget，修复静默丢空"
       }
     ]
   }
