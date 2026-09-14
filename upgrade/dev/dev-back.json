@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609141922",
+    "items": [
+      {
+        "commit": "a62332829616a9f6b3faf879eac59bee1a7ec25e",
+        "author": "liurongjie",
+        "date": "2026-09-14 18:35:28",
+        "message": "fix(mediaproxy): 无标签别名条目读时顺手删除，止住借体拒绝刷屏"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609141543",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 23:28:18",
         "message": "fix(mediaproxy): 预热器主动发现全部库并预埋库页标准变体，修重启后库页首击 Uh Oh"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121832",
-    "items": [
-      {
-        "commit": "91046ed18efe55091a39d0bf08985e1efbc6db5e",
-        "author": "liurongjie",
-        "date": "2026-09-12 18:32:02",
-        "message": "perf(mediaproxy): hubs 预热新鲜阈值对齐 softTTL，回源量减半"
       }
     ]
   }
