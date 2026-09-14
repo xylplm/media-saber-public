@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609141357",
+    "items": [
+      {
+        "commit": "85ca9039ff6ca534391caddc81b090779bbe5547",
+        "author": "liurongjie",
+        "date": "2026-09-14 13:40:27",
+        "message": "Revert \"fix(mediaproxy): promoted 回源规避 PMS pinned+excCW 致空 bug，修首页推荐全空\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202609132305",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 17:59:19",
         "message": "fix(mediaproxy): 增强结果缓存 key 补客户端维度，修官方/第三方产物串味"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121748",
-    "items": [
-      {
-        "commit": "39760e1995a4e05b2b687b5d733ec50bee059f35",
-        "author": "liurongjie",
-        "date": "2026-09-12 17:48:11",
-        "message": "feat(mediaproxy): 元数据增强对全部客户端生效，仅后缀伪装保留 Plex 官方专属"
       }
     ]
   }
