@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609141543",
+    "items": [
+      {
+        "commit": "85ef6bfa77c871c1de41e52662dbdcc87732065c",
+        "author": "liurongjie",
+        "date": "2026-09-14 15:40:07",
+        "message": "fix(mediaproxy): promoted 空 origin 不再 stale 兜底，阻断污染条目反复垫出"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609141357",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-12 18:32:02",
         "message": "perf(mediaproxy): hubs 预热新鲜阈值对齐 softTTL，回源量减半"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609121759",
-    "items": [
-      {
-        "commit": "ed9143744df4fd7b2d8be648ee9b72b6c2b3d35a",
-        "author": "liurongjie",
-        "date": "2026-09-12 17:59:19",
-        "message": "fix(mediaproxy): 增强结果缓存 key 补客户端维度，修官方/第三方产物串味"
       }
     ]
   }
