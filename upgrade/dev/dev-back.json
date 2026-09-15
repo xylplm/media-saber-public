@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609151635",
+    "items": [
+      {
+        "commit": "409172f413d118aecc2d151cd147e3b27649e366",
+        "author": "liurongjie",
+        "date": "2026-09-15 16:34:39",
+        "message": "fix：修复下载器保存校验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609151245",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-09-13 01:09:45",
         "message": "fix(mediaproxy): 详情 alias 借体按变体能力覆盖放行，修 Mac 首开缺字段报错"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609130033",
-    "items": [
-      {
-        "commit": "1dac2ffa435a2089af9cf9e689d1216467dfe89c",
-        "author": "liurongjie",
-        "date": "2026-09-13 00:14:47",
-        "message": "fix(mediaproxy): hubs 预热首轮延迟 15s 立即执行，修部署后 4min 冷启动残留窗口"
       }
     ]
   }
