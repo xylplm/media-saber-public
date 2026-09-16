@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609161723",
+    "items": [
+      {
+        "commit": "a6c0f7bc746b06a1bf1374ad262bf281848ee0fd",
+        "author": "liurongjie",
+        "date": "2026-09-16 16:36:59",
+        "message": "fix(logger): 日志落库加 5s 写超时 + PG DSN connect_timeout，杜绝 PG 失联拖冻结全进程"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609160016",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-13 13:21:41",
         "message": "perf(mediaproxy): hubs 预热空体变体连续两轮剔除，不再每轮白打 PMS"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609130240",
-    "items": [
-      {
-        "commit": "e26ea2af39cdb716d04dac81816cc795189bcbbe",
-        "author": "liurongjie",
-        "date": "2026-09-13 02:15:32",
-        "message": "fix(mediaproxy): 预热新鲜判定回退全局阈值，修 90s 档致全量回源轰炸 PMS"
-      },
-      {
-        "commit": "80340bd59d5a139eeed09d468df47b0d5c252271",
-        "author": "liurongjie",
-        "date": "2026-09-13 02:11:18",
-        "message": "fix(mediaproxy): 随机分类 hub 响应收紧 softTTL 至 90s，不再被缓存钉死"
       }
     ]
   }
