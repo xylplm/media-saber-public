@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609190137",
+    "items": [
+      {
+        "commit": "f302df2e0a7a1d2d16a82b366b66bcb48faf0f59",
+        "author": "liurongjie",
+        "date": "2026-09-19 01:36:56",
+        "message": "fix(mediaproxy): 缓存响应补 CORS 回显 + 探活冷却期刷新退 plain 路径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609190019",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-14 15:40:07",
         "message": "fix(mediaproxy): promoted 空 origin 不再 stale 兜底，阻断污染条目反复垫出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609141357",
-    "items": [
-      {
-        "commit": "85ca9039ff6ca534391caddc81b090779bbe5547",
-        "author": "liurongjie",
-        "date": "2026-09-14 13:40:27",
-        "message": "Revert \"fix(mediaproxy): promoted 回源规避 PMS pinned+excCW 致空 bug，修首页推荐全空\""
       }
     ]
   }
