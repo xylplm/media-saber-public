@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609190211",
+    "items": [
+      {
+        "commit": "b2b129b046f68494be3eb1ad72e1203cb77f4377",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:10:35",
+        "message": "fix(mediaproxy): 详情预取参数升级 iOS 组合超集 + 预取后预热增强产物"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609190137",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-14 18:35:28",
         "message": "fix(mediaproxy): 无标签别名条目读时顺手删除，止住借体拒绝刷屏"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609141543",
-    "items": [
-      {
-        "commit": "85ef6bfa77c871c1de41e52662dbdcc87732065c",
-        "author": "liurongjie",
-        "date": "2026-09-14 15:40:07",
-        "message": "fix(mediaproxy): promoted 空 origin 不再 stale 兜底，阻断污染条目反复垫出"
       }
     ]
   }
