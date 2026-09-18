@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609190019",
+    "items": [
+      {
+        "commit": "96f061c091a12c5c264c11b2b1b4b50088993df1",
+        "author": "xylplm",
+        "date": "2026-09-18 22:40:11",
+        "message": "feat ✨: 云端资源下载转存复制改走按需使用接口，新增缓存维护"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609122355",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "GateCross",
         "date": "2026-09-06 12:22:11",
         "message": "fix: 批量手动识别入口未传 isDir 导致单选时指定集不显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609061141",
-    "items": [
-      {
-        "commit": "962b700de8083137f8ffadec6717883bd439702c",
-        "author": "GateCross",
-        "date": "2026-09-06 11:39:01",
-        "message": "feat: 手动整理弹窗支持指定季集"
       }
     ]
   }
