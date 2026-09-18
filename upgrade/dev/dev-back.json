@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609190217",
+    "items": [
+      {
+        "commit": "12743772c633b12923ac4524ae242f0c06994d09",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:20:28",
+        "message": "fix(mediaproxy): metadata 后台刷新回填后同样预热增强产物"
+      },
+      {
+        "commit": "f975aef7341f421e7e6affa95492b2f4f78dda63",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:17:02",
+        "message": "fix(logger): 恢复日志落库 5s 写超时并加连续失败熔断，DSN 补 connect_timeout=5"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609190211",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-09-15 02:49:43",
         "message": "fix(mediaproxy): refresh expired 115 playback links"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609141922",
-    "items": [
-      {
-        "commit": "a62332829616a9f6b3faf879eac59bee1a7ec25e",
-        "author": "liurongjie",
-        "date": "2026-09-14 18:35:28",
-        "message": "fix(mediaproxy): 无标签别名条目读时顺手删除，止住借体拒绝刷屏"
       }
     ]
   }
