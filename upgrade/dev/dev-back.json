@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609200010",
+    "items": [
+      {
+        "commit": "43351eb7e1b4eaa0214674397cbb20e9810e7c7f",
+        "author": "liurongjie",
+        "date": "2026-09-20 00:10:38",
+        "message": "fix(mediaproxy): 探活回填与 ID-flight 对齐 exclude 投影语义（review 自查修复）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609200004",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 10:26:11",
         "message": "revert(mediaproxy): 撤销步骤型 debug 日志 5s 窗口采样降噪"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609190912",
-    "items": [
-      {
-        "commit": "b83371779928519f4c95a8e21d50c02821c0e2f2",
-        "author": "liurongjie",
-        "date": "2026-09-19 09:12:12",
-        "message": "fix(logger): 日志落库改异步批量通道，杜绝 BufferedWriteSyncer 一次失败永久断流"
       }
     ]
   }
