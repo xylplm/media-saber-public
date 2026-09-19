@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609192200",
+    "items": [
+      {
+        "commit": "ecb795f4be89013ce0a97c88e9dd8e8f76d82706",
+        "author": "liurongjie",
+        "date": "2026-09-19 21:59:32",
+        "message": "fix(mediaproxy): 探活冷却表加周期清扫——sync.Map 按 ID 只增不减，兜底长期运行内存上限"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609191548",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-09-18 22:39:25",
         "message": "feat ✨: 云端资源改为按需取料，列表不再暴露哈希与下载链接"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609172300",
-    "items": [
-      {
-        "commit": "e992141eef3f73e3f75a77164c58ef842642ab54",
-        "author": "liurongjie",
-        "date": "2026-09-17 22:59:01",
-        "message": "Revert \"fix(logger): 日志落库加 5s 写超时 + PG DSN connect_timeout，杜绝 PG 失联拖冻结全进程\""
       }
     ]
   }
