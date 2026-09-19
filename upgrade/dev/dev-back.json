@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609192237",
+    "items": [
+      {
+        "commit": "59520c293dbde0202805d722673f954c2eb63ba5",
+        "author": "liurongjie",
+        "date": "2026-09-19 22:36:59",
+        "message": "fix(mediaproxy): strm 增强解析链根治——fs.Get 硬超时不拖客户端 + 无 hash 自指修复 + 降级负缓存"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609192200",
     "items": [
       {
@@ -107,35 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 01:36:56",
         "message": "fix(mediaproxy): 缓存响应补 CORS 回显 + 探活冷却期刷新退 plain 路径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609190019",
-    "items": [
-      {
-        "commit": "fbc6892ae9fbdacfbca8bd4b973fcbd4afa1c3b9",
-        "author": "liurongjie",
-        "date": "2026-09-19 00:18:09",
-        "message": "perf(mediaproxy): 步骤型 debug 日志按 5s 窗口采样降噪"
-      },
-      {
-        "commit": "92a03d61d3b73f191cab984f0e2f6f4c4544561e",
-        "author": "liurongjie",
-        "date": "2026-09-19 00:08:47",
-        "message": "docs(clouddrive2): 路径映射说明明确 ms 侧→CD2 方向与填写规则"
-      },
-      {
-        "commit": "18e0ee10617c34ec4da1ec1adde586766f3594ae",
-        "author": "liurongjie",
-        "date": "2026-09-19 00:08:36",
-        "message": "fix(mediaproxy): metadata 探活回源加 10min 冷却，防超时重试风暴打满 PMS"
-      },
-      {
-        "commit": "ee242ac628cac397da6bf9d421bae09d8a303f4e",
-        "author": "xylplm",
-        "date": "2026-09-18 22:39:25",
-        "message": "feat ✨: 云端资源改为按需取料，列表不再暴露哈希与下载链接"
       }
     ]
   }
