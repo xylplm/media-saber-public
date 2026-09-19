@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609200040",
+    "items": [
+      {
+        "commit": "12b20a1ac9887ae47cfa50b7c5c0b6cd444a6a7f",
+        "author": "xylplm",
+        "date": "2026-09-20 00:31:38",
+        "message": "feat ✨: 主后端运维管理代理层——用户/等级/版本/配置四组 ops 代理与平台管理员 flag"
+      },
+      {
+        "commit": "e28077cca8d19d2b72689d98db3edd042ea59773",
+        "author": "xylplm",
+        "date": "2026-09-19 14:17:24",
+        "message": "feat ✨: 主后端等级体系代理与缓存层"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609200010",
     "items": [
       {
@@ -101,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 15:40:56",
         "message": "perf(mediaproxy): 探活回填覆盖 asyncCheckFiles 客户端 + 冷却后延迟重试，补齐 cf=1 超集桶供给"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609191256",
-    "items": [
-      {
-        "commit": "bdc59a746310f04763ef01f815600fe31d6c445b",
-        "author": "liurongjie",
-        "date": "2026-09-19 12:26:50",
-        "message": "perf(mediaproxy): 详情缓存桶全量超集化 + 同 ID 并发变体等首飞，修首点秒级全价回源"
-      },
-      {
-        "commit": "93a54860e658d6c6d28a2e095c50f43a3c7bb6fd",
-        "author": "liurongjie",
-        "date": "2026-09-19 10:26:11",
-        "message": "revert(mediaproxy): 撤销步骤型 debug 日志 5s 窗口采样降噪"
       }
     ]
   }
