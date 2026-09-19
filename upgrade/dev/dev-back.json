@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609191256",
+    "items": [
+      {
+        "commit": "bdc59a746310f04763ef01f815600fe31d6c445b",
+        "author": "liurongjie",
+        "date": "2026-09-19 12:26:50",
+        "message": "perf(mediaproxy): 详情缓存桶全量超集化 + 同 ID 并发变体等首飞，修首点秒级全价回源"
+      },
+      {
+        "commit": "93a54860e658d6c6d28a2e095c50f43a3c7bb6fd",
+        "author": "liurongjie",
+        "date": "2026-09-19 10:26:11",
+        "message": "revert(mediaproxy): 撤销步骤型 debug 日志 5s 窗口采样降噪"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609190912",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-09-15 23:38:33",
         "message": "fix(mediaproxy): promoted 回源出站剥离 pinned，规避 PMS 致空 bug"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609151758",
-    "items": [
-      {
-        "commit": "fbbba41f2ba067fd5e7ae892305e08c7c83c8397",
-        "author": "liurongjie",
-        "date": "2026-09-15 17:58:05",
-        "message": "fix："
       }
     ]
   }
