@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609190912",
+    "items": [
+      {
+        "commit": "b83371779928519f4c95a8e21d50c02821c0e2f2",
+        "author": "liurongjie",
+        "date": "2026-09-19 09:12:12",
+        "message": "fix(logger): 日志落库改异步批量通道，杜绝 BufferedWriteSyncer 一次失败永久断流"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609190240",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-15 17:58:05",
         "message": "fix："
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609151635",
-    "items": [
-      {
-        "commit": "409172f413d118aecc2d151cd147e3b27649e366",
-        "author": "liurongjie",
-        "date": "2026-09-15 16:34:39",
-        "message": "fix：修复下载器保存校验"
       }
     ]
   }
