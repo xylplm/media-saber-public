@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609201028",
+    "items": [
+      {
+        "commit": "bc299d4e8e2e25a51e442b0ff3e43c4f642778e4",
+        "author": "GateCross",
+        "date": "2026-09-20 10:26:07",
+        "message": "fix(cs_hash): 修复云存储资源搜索按能力展开导致成对重复2条的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609200040",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 15:47:56",
         "message": "fix(mediaproxy): 探活回填占位竞态让位——冷却占位失败时返回而非继续排队"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609191541",
-    "items": [
-      {
-        "commit": "7d943b9d489042a72770fd03ff4b62d27d8dcb10",
-        "author": "liurongjie",
-        "date": "2026-09-19 15:40:56",
-        "message": "perf(mediaproxy): 探活回填覆盖 asyncCheckFiles 客户端 + 冷却后延迟重试，补齐 cf=1 超集桶供给"
       }
     ]
   }
