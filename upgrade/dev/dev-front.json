@@ -1,5 +1,70 @@
 [
   {
+    "version": "DEV_202609202252",
+    "items": [
+      {
+        "commit": "68189704ab863fc7a3981d124fcc97cd49efe9bd",
+        "author": "xylplm",
+        "date": "2026-09-20 20:55:59",
+        "message": "荣誉殿堂恢复 25% 身份色细边框（原 50% 过重，无边框则完全拍平）"
+      },
+      {
+        "commit": "b2129c50a3ea244baa00370c30568be97b048f47",
+        "author": "xylplm",
+        "date": "2026-09-20 20:45:34",
+        "message": "fix 🐛: 工作台境界条恢复轻壳——身份色 30% 细边 + 微弱底光，与卡内其他模块协调（之前去壳过度显得裸）"
+      },
+      {
+        "commit": "23f9195c9e8a7b29fa0bd82a397713ba9c9fb547",
+        "author": "xylplm",
+        "date": "2026-09-20 20:41:14",
+        "message": "fix 🐛: 弹窗境界总览区去卡片壳——对话框内不再嵌套边框卡，仅留极淡渐变底；内边距同步收紧"
+      },
+      {
+        "commit": "a757f72af11921d29a14e2b46bc08f7e04cb3cd9",
+        "author": "xylplm",
+        "date": "2026-09-20 20:33:55",
+        "message": "fix 🐛: 敕封横幅去卡片边框——境界总览卡内不再嵌套横幅壳，仅保留极淡渐变与呼吸辉光"
+      },
+      {
+        "commit": "fc1fafff7e7373c7b9403b98df99c533a655c157",
+        "author": "xylplm",
+        "date": "2026-09-20 20:14:38",
+        "message": "fix 🐛: 身份色渐变与光晕整体减淡——境界条 8%→4%，弹窗总览卡/敕封横幅/荣誉殿堂渐变与呼吸光晕减半，徽章特权光晕减半"
+      },
+      {
+        "commit": "50a3593d3ac6efe5350f59b6b63b56d215ec05c7",
+        "author": "xylplm",
+        "date": "2026-09-20 20:12:49",
+        "message": "fix 🐛: 等级徽章新增扁平变体（flat）——境界条内去胶囊壳（边框/底色/特权光晕），消除卡中卡嵌套感"
+      },
+      {
+        "commit": "dd9c6df79cadf531079484d9fb4cd4c2035c7bd4",
+        "author": "xylplm",
+        "date": "2026-09-20 20:09:54",
+        "message": "fix 🐛: 境界条去嵌套卡片感——删整圈边框与灰底（含残留的重复 border 声明），身份色渐变减淡（18%→8%）融入父卡"
+      },
+      {
+        "commit": "0b038b62fb396695c1877dc1bd324604afa4f649",
+        "author": "xylplm",
+        "date": "2026-09-20 19:53:03",
+        "message": "refactor 🔁: 风云卡布局定稿——境界条移至底部并融合我的排名，删除独立排名条与底部按钮"
+      },
+      {
+        "commit": "26070815aac624e492d7402408533c8838d638f8",
+        "author": "xylplm",
+        "date": "2026-09-20 19:49:46",
+        "message": "refactor 🔁: 工作台风云卡布局重构——消除结构冗余与硬编码色，对齐 wb 设计体系"
+      },
+      {
+        "commit": "6bc269c9582be61c8c5fdf280d223cde4174da20",
+        "author": "xylplm",
+        "date": "2026-09-20 19:21:28",
+        "message": "feat ✨: 特权态彻底去掉升级概念——工作台等级条与弹窗均不再显示进度/还差/凡阶修为"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609201409",
     "items": [
       {
@@ -137,23 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 00:59:33",
         "message": "feat(strm-media-probe): 导入还原增加冲突策略勾选（新者胜=按探测时间覆盖本地）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609080003",
-    "items": [
-      {
-        "commit": "33b7ce7679d8547f2405d3e2706a8e564bab056b",
-        "author": "liurongjie",
-        "date": "2026-09-07 23:34:01",
-        "message": "fix(strm-probe): 异步 action 的 toast 改为带指引的提示语"
-      },
-      {
-        "commit": "b3747815012d09f9f53a6c5ed77715f728994daf",
-        "author": "liurongjie",
-        "date": "2026-09-07 23:12:49",
-        "message": "fix(shared-dialog): 支持透传 disableClose；导入还原弹窗允许遮罩/ESC 关闭"
       }
     ]
   }
