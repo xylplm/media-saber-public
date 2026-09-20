@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609201409",
+    "items": [
+      {
+        "commit": "a13966ba09e866e2c74ff71c32703f1fe1f55347",
+        "author": "xylplm",
+        "date": "2026-09-20 13:50:16",
+        "message": "feat ✨: 等级体系货币更名——用户通知与注释中的\"灵石\"统一改为\"仙石\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202609201028",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 21:59:32",
         "message": "fix(mediaproxy): 探活冷却表加周期清扫——sync.Map 按 ID 只增不减，兜底长期运行内存上限"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609191548",
-    "items": [
-      {
-        "commit": "cfcebedcee27e435bc615107327aa88d762da599",
-        "author": "liurongjie",
-        "date": "2026-09-19 15:47:56",
-        "message": "fix(mediaproxy): 探活回填占位竞态让位——冷却占位失败时返回而非继续排队"
       }
     ]
   }

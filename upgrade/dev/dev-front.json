@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202609201409",
+    "items": [
+      {
+        "commit": "5cc87a53d2605ad163ee744f2d4e99daad25d81f",
+        "author": "xylplm",
+        "date": "2026-09-20 14:06:37",
+        "message": "feat ✨: 等级弹窗特权态改为敕封礼赞——去掉进度与还差概念，荣誉感拉满"
+      },
+      {
+        "commit": "8de15ffc03aaae1f2fa9b7edf23f914802421ec3",
+        "author": "xylplm",
+        "date": "2026-09-20 14:01:42",
+        "message": "fix 🐛: 补注册共享组件漏网 Tabler 图标（trending-up/book-off/calendar-check/shopping-cart）并把自动扫描守护扩大到 common/components"
+      },
+      {
+        "commit": "90991fd42c7f52a9756680fd4003513d097f4c2f",
+        "author": "xylplm",
+        "date": "2026-09-20 13:52:43",
+        "message": "feat ✨: 等级详情弹窗术语更名——积分账本→仙石账本、等级特权→修为境界、升级之路→进阶之路"
+      },
+      {
+        "commit": "49ac7f3d821ada891c9fabbb0e2fb5da82df62b9",
+        "author": "xylplm",
+        "date": "2026-09-20 13:50:27",
+        "message": "feat ✨: 等级体系货币更名——界面\"灵石\"全面改为\"仙石\""
+      }
+    ]
+  },
+  {
     "version": "DEV_202609201201",
     "items": [
       {
@@ -125,23 +154,6 @@
         "author": "liurongjie",
         "date": "2026-09-07 23:12:49",
         "message": "fix(shared-dialog): 支持透传 disableClose；导入还原弹窗允许遮罩/ESC 关闭"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609072218",
-    "items": [
-      {
-        "commit": "da521036c9c003a33835b508769bff2d8033eedf",
-        "author": "liurongjie",
-        "date": "2026-09-07 22:12:02",
-        "message": "fix(strm-probe): 导入还原「按服务器路径」文案改为读内置备份目录"
-      },
-      {
-        "commit": "56d9d9c9038f7a49f4559e149f8036f359b096c2",
-        "author": "liurongjie",
-        "date": "2026-09-07 22:02:46",
-        "message": "fix(strm-probe): 导入还原弹方式选择（本机文件/服务器路径），上传失败补错误提示"
       }
     ]
   }
