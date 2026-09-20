@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609201201",
+    "items": [
+      {
+        "commit": "7f512d80dafb41a08afe9e8bcfe72ecb9df246a1",
+        "author": "GateCross",
+        "date": "2026-09-20 12:00:38",
+        "message": "fix: 个人信息下拉菜单等级徽章接入 UserLevelService 实时境界展示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609200040",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-09-07 22:02:46",
         "message": "fix(strm-probe): 导入还原弹方式选择（本机文件/服务器路径），上传失败补错误提示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609072153",
-    "items": [
-      {
-        "commit": "4f8c60dad5dbde6dc13e416af32e721e72c72d8a",
-        "author": "liurongjie",
-        "date": "2026-09-07 21:36:12",
-        "message": "feat(strm-probe): 分享下载（base64 浏览器保存）+ 导入还原支持本机文件上传"
-      },
-      {
-        "commit": "ee37ae9efdbda4416e9b01666aca0780361c5384",
-        "author": "liurongjie",
-        "date": "2026-09-07 20:39:07",
-        "message": "feat(strm-probe): 清理动作加确认弹窗（清失败轻确认、清空全部二次确认）"
       }
     ]
   }
