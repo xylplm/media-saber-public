@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609201734",
+    "items": [
+      {
+        "commit": "afc62cdbc3b0f7f3f956cffbb6086f2af41c4047",
+        "author": "liurongjie",
+        "date": "2026-09-20 17:31:47",
+        "message": "fix(mediaproxy): 修复 X-Plex-Text-Format 串格式桶导致 iOS 详情页崩溃（2026-09-20 事故）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609201409",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 22:36:59",
         "message": "fix(mediaproxy): strm 增强解析链根治——fs.Get 硬超时不拖客户端 + 无 hash 自指修复 + 降级负缓存"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609192200",
-    "items": [
-      {
-        "commit": "ecb795f4be89013ce0a97c88e9dd8e8f76d82706",
-        "author": "liurongjie",
-        "date": "2026-09-19 21:59:32",
-        "message": "fix(mediaproxy): 探活冷却表加周期清扫——sync.Map 按 ID 只增不减，兜底长期运行内存上限"
       }
     ]
   }
