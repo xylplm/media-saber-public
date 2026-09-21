@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609211405",
+    "items": [
+      {
+        "commit": "b0ceb3eeba7e7b61c698f8159076bf50e341b551",
+        "author": "GateCross",
+        "date": "2026-09-21 14:03:16",
+        "message": "fix: 分组查询限制必须提供tmdbId或关键词避免超时"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609201734",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 22:52:23",
         "message": "feat(mediaproxy): strm 内容身份（sha1）进 redis——pickCode 同款模式，跨重启免网盘取身份"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609192237",
-    "items": [
-      {
-        "commit": "59520c293dbde0202805d722673f954c2eb63ba5",
-        "author": "liurongjie",
-        "date": "2026-09-19 22:36:59",
-        "message": "fix(mediaproxy): strm 增强解析链根治——fs.Get 硬超时不拖客户端 + 无 hash 自指修复 + 降级负缓存"
       }
     ]
   }

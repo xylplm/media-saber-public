@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609211405",
+    "items": [
+      {
+        "commit": "6026bdd19944f17e23b0f47d6a9a9f45042e0502",
+        "author": "GateCross",
+        "date": "2026-09-21 14:03:32",
+        "message": "fix: 分组视图搜索及切换时限制必须提供关键词或TMDB条目"
+      },
+      {
+        "commit": "86d90f426f079f7f5f83df8255efe97223a1a5ac",
+        "author": "xylplm",
+        "date": "2026-09-21 13:43:01",
+        "message": "fix 🐛: 修为境界页每日活跃收入与下载分成改读后端动态值——之前写死 +1/天、0.1仙石/次，与基础配置脱节"
+      },
+      {
+        "commit": "314fdf674d831cbef7b94911514199d63334241f",
+        "author": "xylplm",
+        "date": "2026-09-21 13:26:59",
+        "message": "feat ✨: 仙石账本维度格加 hover 解释——云端贡献/圣言录维护/下载分成/累计消费等按方案语义说明来源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211307",
     "items": [
       {
@@ -191,17 +214,6 @@
         "author": "liurongjie",
         "date": "2026-09-11 02:12:38",
         "message": "fix(tools): 移动端插件弹窗内容区可滚动 + 底部主操作常驻，修复全屏抽屉不可滚倒退"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609100053",
-    "items": [
-      {
-        "commit": "e225a095fda932eb10ede88ef38bfbfb6961fca7",
-        "author": "liurongjie",
-        "date": "2026-09-10 00:17:08",
-        "message": "fix(search): 修复回车搜索误报「请先选择搜索类型」"
       }
     ]
   }
