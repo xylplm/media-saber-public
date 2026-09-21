@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609212359",
+    "items": [
+      {
+        "commit": "fc7b3602c88cab604a286e3d5e3b70a6d3d5ad2e",
+        "author": "liurongjie",
+        "date": "2026-09-21 23:58:09",
+        "message": "fix(mediaproxy): 修复 query 假 Accept 定桶标导致 hubs 拒用死循环与空货架负缓存过短（2026-09-21 排查）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211405",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-19 22:57:20",
         "message": "fix(mediaproxy): 身份解析链 review 补缺——冷解析优先 redis 取身份 + fs.Get 统一并发槽防配额互拖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609192252",
-    "items": [
-      {
-        "commit": "ec745088f82709c7bb55dacb0b4b2f5d2ee64098",
-        "author": "liurongjie",
-        "date": "2026-09-19 22:52:23",
-        "message": "feat(mediaproxy): strm 内容身份（sha1）进 redis——pickCode 同款模式，跨重启免网盘取身份"
       }
     ]
   }
