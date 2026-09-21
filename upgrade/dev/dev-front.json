@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609211721",
+    "items": [
+      {
+        "commit": "9b887418e9b80f638a221f5a80374c2bbe2f0c96",
+        "author": "GateCross",
+        "date": "2026-09-21 17:19:31",
+        "message": "fix(cloud-resource): 优化分组视图分流查询展示及重置状态流转"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211546",
     "items": [
       {
@@ -305,23 +316,6 @@
         "author": "GateCross",
         "date": "2026-09-20 12:00:38",
         "message": "fix: 个人信息下拉菜单等级徽章接入 UserLevelService 实时境界展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609200040",
-    "items": [
-      {
-        "commit": "6e5128f56f15d5c316cf4494fc83735bfd5bb5de",
-        "author": "xylplm",
-        "date": "2026-09-20 00:31:50",
-        "message": "feat ✨: 运维管理前端——顶级菜单五子页面（总览/用户/等级/配置/版本）与 standalone 组件父类链"
-      },
-      {
-        "commit": "cdf08d8fac4a191f21a1ad30384846b73074d4b9",
-        "author": "xylplm",
-        "date": "2026-09-19 14:17:33",
-        "message": "feat ✨: 前端等级展示与交互（徽章/模态框/融合卡/流水）"
       }
     ]
   }
