@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609211424",
+    "items": [
+      {
+        "commit": "95f6c03a0e7c8d82e205e3bf781528ab14ea5e42",
+        "author": "GateCross",
+        "date": "2026-09-21 14:24:01",
+        "message": "fix: 修复分组视图下点击搜索或回车未能触发分组查询的问题"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211405",
     "items": [
       {
@@ -197,23 +208,6 @@
         "author": "GateCross",
         "date": "2026-09-12 23:53:34",
         "message": "feat: 新增页面权限按用户分配，普通用户默认仅开放搜索、寻影探剧与云存储资源搜索"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609111123",
-    "items": [
-      {
-        "commit": "743a07fb810299592c50054b3e1c624c840acccf",
-        "author": "liurongjie",
-        "date": "2026-09-11 10:37:11",
-        "message": "fix(tools): 插件实例弹窗撤出全屏抽屉恢复居中尺寸，移动端内容区限高保 actions 可见"
-      },
-      {
-        "commit": "988557195726929c5e7270d7ba8df31c31f9ad38",
-        "author": "liurongjie",
-        "date": "2026-09-11 02:12:38",
-        "message": "fix(tools): 移动端插件弹窗内容区可滚动 + 底部主操作常驻，修复全屏抽屉不可滚倒退"
       }
     ]
   }
