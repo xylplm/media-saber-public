@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609212234",
+    "items": [
+      {
+        "commit": "756f59dc251819d7b77515a38331bd75061e9a36",
+        "author": "liurongjie",
+        "date": "2026-09-21 22:34:02",
+        "message": "style(dashboard): 1×1 迷你部件错误态恢复插画并收紧排版——插画 60px、标题 13px、重试按钮 26px，容器 overflow hidden 防止内容越过边框"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211721",
     "items": [
       {
@@ -305,17 +316,6 @@
         "author": "xylplm",
         "date": "2026-09-20 13:50:27",
         "message": "feat ✨: 等级体系货币更名——界面\"灵石\"全面改为\"仙石\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609201201",
-    "items": [
-      {
-        "commit": "7f512d80dafb41a08afe9e8bcfe72ecb9df246a1",
-        "author": "GateCross",
-        "date": "2026-09-20 12:00:38",
-        "message": "fix: 个人信息下拉菜单等级徽章接入 UserLevelService 实时境界展示"
       }
     ]
   }
