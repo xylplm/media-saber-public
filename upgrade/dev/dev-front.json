@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609211307",
+    "items": [
+      {
+        "commit": "4258e14a9435c898a680a790ae43918eee4a3590",
+        "author": "liurongjie",
+        "date": "2026-09-21 13:06:37",
+        "message": "feat(cloud-storage): 云端资源表格多选后新增「一键删除」——仅有删除云资源权限可见，确认弹窗后串行调用单删接口并汇总成功/失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211112",
     "items": [
       {
@@ -191,23 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-10 00:17:08",
         "message": "fix(search): 修复回车搜索误报「请先选择搜索类型」"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609082237",
-    "items": [
-      {
-        "commit": "17e633789cdfa3e74d9baf37e86e2e21eba6b024",
-        "author": "liurongjie",
-        "date": "2026-09-08 22:30:57",
-        "message": "feat(media-tidy-history): 历史记录查询条件新增转移方式下拉筛选"
-      },
-      {
-        "commit": "98d71ca9453c4cdd2738fdf2766d4e7e851158f2",
-        "author": "liurongjie",
-        "date": "2026-09-08 18:39:11",
-        "message": "fix(tools): 插件实例弹窗移动端接入全屏抽屉，底部保存/取消按钮不再被挤出屏幕"
       }
     ]
   }
