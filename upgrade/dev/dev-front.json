@@ -1,5 +1,130 @@
 [
   {
+    "version": "DEV_202609211546",
+    "items": [
+      {
+        "commit": "9d9b432982bfb971502eec284b4653b508596b3f",
+        "author": "liurongjie",
+        "date": "2026-09-21 15:44:46",
+        "message": "style(dashboard): 1×1 迷你指标部件错误态改用轻量小图标+单行文案+文字重试，替代大插画撑高卡片；顺带修正重试按钮图标 24px 与文字不匹配"
+      },
+      {
+        "commit": "6026bdd19944f17e23b0f47d6a9a9f45042e0502",
+        "author": "GateCross",
+        "date": "2026-09-21 14:03:32",
+        "message": "fix: 分组视图搜索及切换时限制必须提供关键词或TMDB条目"
+      },
+      {
+        "commit": "86d90f426f079f7f5f83df8255efe97223a1a5ac",
+        "author": "xylplm",
+        "date": "2026-09-21 13:43:01",
+        "message": "fix 🐛: 修为境界页每日活跃收入与下载分成改读后端动态值——之前写死 +1/天、0.1仙石/次，与基础配置脱节"
+      },
+      {
+        "commit": "314fdf674d831cbef7b94911514199d63334241f",
+        "author": "xylplm",
+        "date": "2026-09-21 13:26:59",
+        "message": "feat ✨: 仙石账本维度格加 hover 解释——云端贡献/圣言录维护/下载分成/累计消费等按方案语义说明来源"
+      },
+      {
+        "commit": "4258e14a9435c898a680a790ae43918eee4a3590",
+        "author": "liurongjie",
+        "date": "2026-09-21 13:06:37",
+        "message": "feat(cloud-storage): 云端资源表格多选后新增「一键删除」——仅有删除云资源权限可见，确认弹窗后串行调用单删接口并汇总成功/失败"
+      },
+      {
+        "commit": "e7d80b3a5fd4ed609a7dd1cdc53945758a980c40",
+        "author": "liurongjie",
+        "date": "2026-09-21 11:05:15",
+        "message": "feat(settings): 搜索与过滤分区「搜索种子缓存时间(分)」与「相同种子分组」调换位置"
+      },
+      {
+        "commit": "258f837fd6a975671cecb50e966e510764230eb1",
+        "author": "liurongjie",
+        "date": "2026-09-21 11:05:12",
+        "message": "fix(settings): 服务测试/获取Cookie 按钮图标与文字换行变形——Material 投影进 mdc-button__label 的非 flex 容器，改 flex 居中同行"
+      },
+      {
+        "commit": "08e57efc1db84ef7c9616b5b446c9552c7ca422a",
+        "author": "liurongjie",
+        "date": "2026-09-21 11:05:09",
+        "message": "fix(user-level-dialog): 移动端境界弹窗保持固定头部，tab 内容区 flex 撑满剩余高度滚动，修复底部内容被裁切够不着"
+      },
+      {
+        "commit": "68189704ab863fc7a3981d124fcc97cd49efe9bd",
+        "author": "xylplm",
+        "date": "2026-09-20 20:55:59",
+        "message": "荣誉殿堂恢复 25% 身份色细边框（原 50% 过重，无边框则完全拍平）"
+      },
+      {
+        "commit": "b2129c50a3ea244baa00370c30568be97b048f47",
+        "author": "xylplm",
+        "date": "2026-09-20 20:45:34",
+        "message": "fix 🐛: 工作台境界条恢复轻壳——身份色 30% 细边 + 微弱底光，与卡内其他模块协调（之前去壳过度显得裸）"
+      },
+      {
+        "commit": "23f9195c9e8a7b29fa0bd82a397713ba9c9fb547",
+        "author": "xylplm",
+        "date": "2026-09-20 20:41:14",
+        "message": "fix 🐛: 弹窗境界总览区去卡片壳——对话框内不再嵌套边框卡，仅留极淡渐变底；内边距同步收紧"
+      },
+      {
+        "commit": "a757f72af11921d29a14e2b46bc08f7e04cb3cd9",
+        "author": "xylplm",
+        "date": "2026-09-20 20:33:55",
+        "message": "fix 🐛: 敕封横幅去卡片边框——境界总览卡内不再嵌套横幅壳，仅保留极淡渐变与呼吸辉光"
+      },
+      {
+        "commit": "fc1fafff7e7373c7b9403b98df99c533a655c157",
+        "author": "xylplm",
+        "date": "2026-09-20 20:14:38",
+        "message": "fix 🐛: 身份色渐变与光晕整体减淡——境界条 8%→4%，弹窗总览卡/敕封横幅/荣誉殿堂渐变与呼吸光晕减半，徽章特权光晕减半"
+      },
+      {
+        "commit": "50a3593d3ac6efe5350f59b6b63b56d215ec05c7",
+        "author": "xylplm",
+        "date": "2026-09-20 20:12:49",
+        "message": "fix 🐛: 等级徽章新增扁平变体（flat）——境界条内去胶囊壳（边框/底色/特权光晕），消除卡中卡嵌套感"
+      },
+      {
+        "commit": "dd9c6df79cadf531079484d9fb4cd4c2035c7bd4",
+        "author": "xylplm",
+        "date": "2026-09-20 20:09:54",
+        "message": "fix 🐛: 境界条去嵌套卡片感——删整圈边框与灰底（含残留的重复 border 声明），身份色渐变减淡（18%→8%）融入父卡"
+      },
+      {
+        "commit": "0b038b62fb396695c1877dc1bd324604afa4f649",
+        "author": "xylplm",
+        "date": "2026-09-20 19:53:03",
+        "message": "refactor 🔁: 风云卡布局定稿——境界条移至底部并融合我的排名，删除独立排名条与底部按钮"
+      },
+      {
+        "commit": "26070815aac624e492d7402408533c8838d638f8",
+        "author": "xylplm",
+        "date": "2026-09-20 19:49:46",
+        "message": "refactor 🔁: 工作台风云卡布局重构——消除结构冗余与硬编码色，对齐 wb 设计体系"
+      },
+      {
+        "commit": "6bc269c9582be61c8c5fdf280d223cde4174da20",
+        "author": "xylplm",
+        "date": "2026-09-20 19:21:28",
+        "message": "feat ✨: 特权态彻底去掉升级概念——工作台等级条与弹窗均不再显示进度/还差/凡阶修为"
+      },
+      {
+        "commit": "5cc87a53d2605ad163ee744f2d4e99daad25d81f",
+        "author": "xylplm",
+        "date": "2026-09-20 14:06:37",
+        "message": "feat ✨: 等级弹窗特权态改为敕封礼赞——去掉进度与还差概念，荣誉感拉满"
+      },
+      {
+        "commit": "8de15ffc03aaae1f2fa9b7edf23f914802421ec3",
+        "author": "xylplm",
+        "date": "2026-09-20 14:01:42",
+        "message": "fix 🐛: 补注册共享组件漏网 Tabler 图标（trending-up/book-off/calendar-check/shopping-cart）并把自动扫描守护扩大到 common/components"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609211450",
     "items": [
       {
@@ -197,17 +322,6 @@
         "author": "xylplm",
         "date": "2026-09-19 14:17:33",
         "message": "feat ✨: 前端等级展示与交互（徽章/模态框/融合卡/流水）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609190019",
-    "items": [
-      {
-        "commit": "96f061c091a12c5c264c11b2b1b4b50088993df1",
-        "author": "xylplm",
-        "date": "2026-09-18 22:40:11",
-        "message": "feat ✨: 云端资源下载转存复制改走按需使用接口，新增缓存维护"
       }
     ]
   }
