@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202609211112",
+    "items": [
+      {
+        "commit": "e7d80b3a5fd4ed609a7dd1cdc53945758a980c40",
+        "author": "liurongjie",
+        "date": "2026-09-21 11:05:15",
+        "message": "feat(settings): 搜索与过滤分区「搜索种子缓存时间(分)」与「相同种子分组」调换位置"
+      },
+      {
+        "commit": "258f837fd6a975671cecb50e966e510764230eb1",
+        "author": "liurongjie",
+        "date": "2026-09-21 11:05:12",
+        "message": "fix(settings): 服务测试/获取Cookie 按钮图标与文字换行变形——Material 投影进 mdc-button__label 的非 flex 容器，改 flex 居中同行"
+      },
+      {
+        "commit": "08e57efc1db84ef7c9616b5b446c9552c7ca422a",
+        "author": "liurongjie",
+        "date": "2026-09-21 11:05:09",
+        "message": "fix(user-level-dialog): 移动端境界弹窗保持固定头部，tab 内容区 flex 撑满剩余高度滚动，修复底部内容被裁切够不着"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609202252",
     "items": [
       {
@@ -185,23 +208,6 @@
         "author": "liurongjie",
         "date": "2026-09-08 18:39:11",
         "message": "fix(tools): 插件实例弹窗移动端接入全屏抽屉，底部保存/取消按钮不再被挤出屏幕"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609080923",
-    "items": [
-      {
-        "commit": "60c883f686c24b9a62aa75aa0d19d932c0422d60",
-        "author": "liurongjie",
-        "date": "2026-09-08 01:21:27",
-        "message": "fix(strm-media-probe): review 修复——按服务器路径导入同样携带冲突策略勾选"
-      },
-      {
-        "commit": "dd0df9e433e7c476c591180bf930df829bd3970b",
-        "author": "liurongjie",
-        "date": "2026-09-08 00:59:33",
-        "message": "feat(strm-media-probe): 导入还原增加冲突策略勾选（新者胜=按探测时间覆盖本地）"
       }
     ]
   }
