@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609221051",
+    "items": [
+      {
+        "commit": "94b168ec5d1917d08d8ed30141814a948a5e0eb4",
+        "author": "xylplm",
+        "date": "2026-09-22 10:47:02",
+        "message": "fix 🐛: 仙石账本解释与识词维护配置说明移除订阅收益描述"
+      },
+      {
+        "commit": "c2e06c6b2db065bb0fdd31f62a138b5c257124d1",
+        "author": "xylplm",
+        "date": "2026-09-22 10:13:11",
+        "message": "fix 🐛: 术语统一——识别词页面与等级文案更名为「云识别词」，插件描述区块更名为「描述」"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609212234",
     "items": [
       {
@@ -287,35 +304,6 @@
         "author": "xylplm",
         "date": "2026-09-20 19:21:28",
         "message": "feat ✨: 特权态彻底去掉升级概念——工作台等级条与弹窗均不再显示进度/还差/凡阶修为"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609201409",
-    "items": [
-      {
-        "commit": "5cc87a53d2605ad163ee744f2d4e99daad25d81f",
-        "author": "xylplm",
-        "date": "2026-09-20 14:06:37",
-        "message": "feat ✨: 等级弹窗特权态改为敕封礼赞——去掉进度与还差概念，荣誉感拉满"
-      },
-      {
-        "commit": "8de15ffc03aaae1f2fa9b7edf23f914802421ec3",
-        "author": "xylplm",
-        "date": "2026-09-20 14:01:42",
-        "message": "fix 🐛: 补注册共享组件漏网 Tabler 图标（trending-up/book-off/calendar-check/shopping-cart）并把自动扫描守护扩大到 common/components"
-      },
-      {
-        "commit": "90991fd42c7f52a9756680fd4003513d097f4c2f",
-        "author": "xylplm",
-        "date": "2026-09-20 13:52:43",
-        "message": "feat ✨: 等级详情弹窗术语更名——积分账本→仙石账本、等级特权→修为境界、升级之路→进阶之路"
-      },
-      {
-        "commit": "49ac7f3d821ada891c9fabbb0e2fb5da82df62b9",
-        "author": "xylplm",
-        "date": "2026-09-20 13:50:27",
-        "message": "feat ✨: 等级体系货币更名——界面\"灵石\"全面改为\"仙石\""
       }
     ]
   }
