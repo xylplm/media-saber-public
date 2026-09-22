@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609221605",
+    "items": [
+      {
+        "commit": "053126668dcca6724531994efd716b1510abe048",
+        "author": "liurongjie",
+        "date": "2026-09-22 16:04:21",
+        "message": "fix(mediaproxy): metadata 回源恢复分页参数透传——修复电视剧详情季/集区块整块不渲染（2026-09-22 事故）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609221154",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-09-20 00:10:38",
         "message": "fix(mediaproxy): 探活回填与 ID-flight 对齐 exclude 投影语义（review 自查修复）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609200004",
-    "items": [
-      {
-        "commit": "c372e48a4c270380bf8d9f891bcda1b79e2b23c2",
-        "author": "liurongjie",
-        "date": "2026-09-20 00:03:47",
-        "message": "fix(subscribe): 云资源提交期失败接通 3 击拉黑计数"
-      },
-      {
-        "commit": "acac5bfbea8e092010de3a3da794a967e09596cc",
-        "author": "liurongjie",
-        "date": "2026-09-20 00:03:33",
-        "message": "fix(mediaproxy): 超集回源保留 exclude 投影 + 剥容器分页参数 + flight 键加参数签名修 sharedFetched"
       }
     ]
   }
