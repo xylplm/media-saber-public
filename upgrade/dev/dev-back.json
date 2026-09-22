@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609221154",
+    "items": [
+      {
+        "commit": "1a2ee37d759d381fb44b68ca9733d1cc687ef2e2",
+        "author": "liurongjie",
+        "date": "2026-09-22 11:50:42",
+        "message": "fix(mediaproxy): cf=1 客户端借体补丁直出 + 别名桶禁降级——修复详情首开恒全价回源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609221051",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-09-20 00:03:33",
         "message": "fix(mediaproxy): 超集回源保留 exclude 投影 + 剥容器分页参数 + flight 键加参数签名修 sharedFetched"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609192319",
-    "items": [
-      {
-        "commit": "eecbb835d3412ca8a67199de95f397436eb66bba",
-        "author": "liurongjie",
-        "date": "2026-09-19 23:18:50",
-        "message": "fix(logger): 熔断冷却过期半开清零失败计数防死循环 + flush loop panic 防护壳自重启"
       }
     ]
   }
