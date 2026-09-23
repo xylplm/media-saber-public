@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609240014",
+    "items": [
+      {
+        "commit": "cb43a71b010fd166e2e9ff6d1f481e3944caf5ad",
+        "author": "liurongjie",
+        "date": "2026-09-24 00:08:40",
+        "message": "feat(mediaproxy): 后台刷新闸门可观测性 + STRM 身份兜底否定缓存与迟到回写"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609232357",
     "items": [
       {
@@ -101,23 +112,6 @@
         "author": "liurongjie",
         "date": "2026-09-22 11:50:42",
         "message": "fix(mediaproxy): cf=1 客户端借体补丁直出 + 别名桶禁降级——修复详情首开恒全价回源"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609221051",
-    "items": [
-      {
-        "commit": "9d49aea77bdd814ffac443e5b7920e8d4c473780",
-        "author": "xylplm",
-        "date": "2026-09-22 10:12:47",
-        "message": "fix 🐛: 术语统一——识别词相关文案与错误提示更名为「云识别词」"
-      },
-      {
-        "commit": "cb2d8d8381e89b5a1ed6cd6573364e1651c05b3e",
-        "author": "xylplm",
-        "date": "2026-09-22 09:30:52",
-        "message": "fix 🐛: 等级变动推送改显示境界名称而非编号，境界跌落不再误报为晋升"
       }
     ]
   }
