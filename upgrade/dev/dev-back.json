@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609240958",
+    "items": [
+      {
+        "commit": "8d7e0dd893d9b78720fe981b241418bb40caf0e5",
+        "author": "liurongjie",
+        "date": "2026-09-24 09:54:13",
+        "message": "perf(mediaproxy): 后台刷新闸门满改为有界排队（去重+判废+详情让路）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609240014",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-09-22 16:04:21",
         "message": "fix(mediaproxy): metadata 回源恢复分页参数透传——修复电视剧详情季/集区块整块不渲染（2026-09-22 事故）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609221154",
-    "items": [
-      {
-        "commit": "1a2ee37d759d381fb44b68ca9733d1cc687ef2e2",
-        "author": "liurongjie",
-        "date": "2026-09-22 11:50:42",
-        "message": "fix(mediaproxy): cf=1 客户端借体补丁直出 + 别名桶禁降级——修复详情首开恒全价回源"
       }
     ]
   }
