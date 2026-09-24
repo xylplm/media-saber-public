@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609241233",
+    "items": [
+      {
+        "commit": "9722b8dfd8fb6d8148fb698dc5f53482bd67d529",
+        "author": "liurongjie",
+        "date": "2026-09-24 12:06:20",
+        "message": "perf(mediaproxy): STRM 探测查询加总预算 + 降级归因按成因拆分"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609240958",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "liurongjie",
         "date": "2026-09-22 22:31:51",
         "message": "fix(mediaproxy): 别名借体加年龄上限 + STRM 降级伪流治理 + 缓存出口 gzip"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609221605",
-    "items": [
-      {
-        "commit": "053126668dcca6724531994efd716b1510abe048",
-        "author": "liurongjie",
-        "date": "2026-09-22 16:04:21",
-        "message": "fix(mediaproxy): metadata 回源恢复分页参数透传——修复电视剧详情季/集区块整块不渲染（2026-09-22 事故）"
       }
     ]
   }
