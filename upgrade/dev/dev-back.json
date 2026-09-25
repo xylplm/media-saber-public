@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609260005",
+    "items": [
+      {
+        "commit": "4f32b772d80f6e0deec39697c29447c099d44ac5",
+        "author": "liurongjie",
+        "date": "2026-09-26 00:05:35",
+        "message": "feat(mediaproxy): hubs 预热种子扩三客户端家族模板 + 跨变体非空垫底兜空壳"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609252206",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-24 16:27:36",
         "message": "perf(mediaproxy): hubs 预热与详情预取去突发 + 整进程停摆取证打点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609241233",
-    "items": [
-      {
-        "commit": "9722b8dfd8fb6d8148fb698dc5f53482bd67d529",
-        "author": "liurongjie",
-        "date": "2026-09-24 12:06:20",
-        "message": "perf(mediaproxy): STRM 探测查询加总预算 + 降级归因按成因拆分"
       }
     ]
   }
