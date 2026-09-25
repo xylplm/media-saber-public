@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609252109",
+    "items": [
+      {
+        "commit": "dcf956f09c165efc21b1676001820fb9abe75f9e",
+        "author": "liurongjie",
+        "date": "2026-09-25 21:09:06",
+        "message": "fix(mediaproxy): 身份兜底 worker 兜底 panic 转错误——消除迟到回写 goroutine 悬等泄漏"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609252036",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-24 09:54:13",
         "message": "perf(mediaproxy): 后台刷新闸门满改为有界排队（去重+判废+详情让路）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609240014",
-    "items": [
-      {
-        "commit": "cb43a71b010fd166e2e9ff6d1f481e3944caf5ad",
-        "author": "liurongjie",
-        "date": "2026-09-24 00:08:40",
-        "message": "feat(mediaproxy): 后台刷新闸门可观测性 + STRM 身份兜底否定缓存与迟到回写"
       }
     ]
   }
