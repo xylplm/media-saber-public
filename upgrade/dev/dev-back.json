@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609251924",
+    "items": [
+      {
+        "commit": "0f1b5755b345dda85c1bd8e9e45c7016676aea4e",
+        "author": "liurongjie",
+        "date": "2026-09-25 19:23:39",
+        "message": "perf(mediaproxy): Redis 膨胀治理——TTL 30d→3d + token 桶仅内存 + 1MB 写入准入 + 水位观测"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609251541",
     "items": [
       {
@@ -101,17 +112,6 @@
         "author": "GateCross",
         "date": "2026-09-23 22:27:49",
         "message": "fix: 支持Strm播放通知在免打扰时段按策略汇总"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609231748",
-    "items": [
-      {
-        "commit": "f7f09bf5a10fd99c6c828b290450058db73095ac",
-        "author": "liurongjie",
-        "date": "2026-09-23 17:45:46",
-        "message": "fix(mediaproxy): 惰性 include 维度双向剔除 + related 预热形态纠正为实抓同构"
       }
     ]
   }
