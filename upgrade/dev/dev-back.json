@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609260030",
+    "items": [
+      {
+        "commit": "ded263383250c58ae832812c3cdb1b8f2491757c",
+        "author": "liurongjie",
+        "date": "2026-09-26 00:30:06",
+        "message": "fix(logger): 日志落库 INSERT 加 ON CONFLICT DO NOTHING，修复超时重试必撞主键"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609260005",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-25 01:25:27",
         "message": "perf(mediaproxy): 后台回源超时熔断+跨路径去重 + 日志腿异步化与停摆归因加强"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609241642",
-    "items": [
-      {
-        "commit": "332b7177a351d279d89299dea06ead0af49c99b9",
-        "author": "liurongjie",
-        "date": "2026-09-24 16:27:36",
-        "message": "perf(mediaproxy): hubs 预热与详情预取去突发 + 整进程停摆取证打点"
       }
     ]
   }
