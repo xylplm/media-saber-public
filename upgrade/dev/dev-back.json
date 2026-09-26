@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609261024",
+    "items": [
+      {
+        "commit": "af8ced0b0ddf34f6cb633ceacf01a31a97c4ab37",
+        "author": "liurongjie",
+        "date": "2026-09-26 10:24:17",
+        "message": "perf(mediaproxy): 列表缓存命中也调度详情预取——堵住重启后新条目详情冷开缺口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609260030",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-25 09:57:08",
         "message": "perf(mediaproxy): 预取去 checkFiles 掐掉后台 Scanner 触发源 + 后台回源预算收敛 10s"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609250129",
-    "items": [
-      {
-        "commit": "538e8582509494dff3c3039cc576acbf7cbb9e79",
-        "author": "liurongjie",
-        "date": "2026-09-25 01:25:27",
-        "message": "perf(mediaproxy): 后台回源超时熔断+跨路径去重 + 日志腿异步化与停摆归因加强"
       }
     ]
   }
