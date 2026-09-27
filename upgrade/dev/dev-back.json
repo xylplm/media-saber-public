@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609271043",
+    "items": [
+      {
+        "commit": "a2d04e14e6c7f4b42a1d50b58e72e7a025454c8e",
+        "author": "liurongjie",
+        "date": "2026-09-27 10:42:50",
+        "message": "fix(mediaproxy): strm 解析失败日志补充脱敏 URL，便于定位 401 等状态码来源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609261024",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-25 15:40:34",
         "message": "perf(mediaproxy): photo 转码缓存 + hubs 首页聚合 serve 预算与熔断降窗 + 落库静默自愈观测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609251001",
-    "items": [
-      {
-        "commit": "7c70352fe0ead14f97dffe90ba2f5fc8b99de7d2",
-        "author": "liurongjie",
-        "date": "2026-09-25 09:57:08",
-        "message": "perf(mediaproxy): 预取去 checkFiles 掐掉后台 Scanner 触发源 + 后台回源预算收敛 10s"
       }
     ]
   }
