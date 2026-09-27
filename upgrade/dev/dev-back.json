@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609272340",
+    "items": [
+      {
+        "commit": "fec97482dabf6f5de8b4d9df7599023984bf856b",
+        "author": "GateCross",
+        "date": "2026-09-27 22:14:45",
+        "message": "feat: 云资源分组视图支持创作者查询与组级分页"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609271043",
     "items": [
       {
@@ -95,17 +106,6 @@
         "author": "liurongjie",
         "date": "2026-09-25 19:23:39",
         "message": "perf(mediaproxy): Redis 膨胀治理——TTL 30d→3d + token 桶仅内存 + 1MB 写入准入 + 水位观测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609251541",
-    "items": [
-      {
-        "commit": "169e34546afcf52e045c5416d07e361943f2d51a",
-        "author": "liurongjie",
-        "date": "2026-09-25 15:40:34",
-        "message": "perf(mediaproxy): photo 转码缓存 + hubs 首页聚合 serve 预算与熔断降窗 + 落库静默自愈观测"
       }
     ]
   }

@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202609272340",
+    "items": [
+      {
+        "commit": "4afe38fc307e5f09da2a3dac2319a605d792ab00",
+        "author": "liurongjie",
+        "date": "2026-09-27 23:39:41",
+        "message": "style(search-torrent): 搜索横幅收弧与窄视口铺满——海报/信息面板 rounded-pill 改 rounded-xl，md~lg 区间横幅占满 12 列"
+      },
+      {
+        "commit": "557f676eaf683708bc6bda4557293d1a927fd839",
+        "author": "GateCross",
+        "date": "2026-09-27 22:14:53",
+        "message": "feat: 云资源分组视图新增分页器"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609271308",
     "items": [
       {
@@ -227,17 +244,6 @@
         "author": "xylplm",
         "date": "2026-09-21 13:26:59",
         "message": "feat ✨: 仙石账本维度格加 hover 解释——云端贡献/圣言录维护/下载分成/累计消费等按方案语义说明来源"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609211307",
-    "items": [
-      {
-        "commit": "4258e14a9435c898a680a790ae43918eee4a3590",
-        "author": "liurongjie",
-        "date": "2026-09-21 13:06:37",
-        "message": "feat(cloud-storage): 云端资源表格多选后新增「一键删除」——仅有删除云资源权限可见，确认弹窗后串行调用单删接口并汇总成功/失败"
       }
     ]
   }
