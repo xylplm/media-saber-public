@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609290137",
+    "items": [
+      {
+        "commit": "d1f19df60009f3b222cb5d2cb4bfe5963b405e4f",
+        "author": "liurongjie",
+        "date": "2026-09-29 01:35:23",
+        "message": "feat(mediaproxy): 原始图片端点纳管缓存，键按身份分桶 + 失败键黑名单"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609282224",
     "items": [
       {
@@ -191,17 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-25 22:05:56",
         "message": "perf(mediaproxy): 重启后首轮预热预算 10→40——冷启动窗从半小时级压到单轮"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609252109",
-    "items": [
-      {
-        "commit": "dcf956f09c165efc21b1676001820fb9abe75f9e",
-        "author": "liurongjie",
-        "date": "2026-09-25 21:09:06",
-        "message": "fix(mediaproxy): 身份兜底 worker 兜底 panic 转错误——消除迟到回写 goroutine 悬等泄漏"
       }
     ]
   }
