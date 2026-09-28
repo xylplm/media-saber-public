@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609282224",
+    "items": [
+      {
+        "commit": "f831d3d629eb6f3135a64536a3726b7b88875879",
+        "author": "xylplm",
+        "date": "2026-09-28 19:51:33",
+        "message": "feat ✨: 主后端透传历练打劫接口与打劫配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609281515",
     "items": [
       {
@@ -191,17 +202,6 @@
         "author": "liurongjie",
         "date": "2026-09-25 21:09:06",
         "message": "fix(mediaproxy): 身份兜底 worker 兜底 panic 转错误——消除迟到回写 goroutine 悬等泄漏"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609252036",
-    "items": [
-      {
-        "commit": "c85b9c7f36a01f37ed0e9d89157a140a8c40c34a",
-        "author": "liurongjie",
-        "date": "2026-09-25 20:35:55",
-        "message": "fix(logger): 池驱逐恢复值按部署配置回填 + 驱逐判据改连续熔断周期"
       }
     ]
   }

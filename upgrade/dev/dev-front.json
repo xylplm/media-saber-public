@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609282224",
+    "items": [
+      {
+        "commit": "e99f8b7c69566737753bd2cd73d3fd8ddf2da4c0",
+        "author": "xylplm",
+        "date": "2026-09-28 19:51:34",
+        "message": "feat ✨: 前端历练新增劫匪模式——开关卡、对决剧场与打劫配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609281515",
     "items": [
       {
@@ -329,17 +340,6 @@
         "author": "GateCross",
         "date": "2026-09-21 14:49:42",
         "message": "fix: 优化分组搜索媒体类型判断及联想输入同步"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609211424",
-    "items": [
-      {
-        "commit": "95f6c03a0e7c8d82e205e3bf781528ab14ea5e42",
-        "author": "GateCross",
-        "date": "2026-09-21 14:24:01",
-        "message": "fix: 修复分组视图下点击搜索或回车未能触发分组查询的问题"
       }
     ]
   }
