@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202609292304",
+    "items": [
+      {
+        "commit": "89522ba13d441ee66e0a68e6e1925b912b02e6dd",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "fix 🐛: 等级回源失败的空占位不再覆盖可用旧值——原逻辑把 stale-serve 的旧值一并覆盖成 60s 空占位,远程抖动一次等级摘要就无端消失;现只补键里无可用数据的空缺,防打爆语义与 Levels 口径对齐"
+      },
+      {
+        "commit": "991000f39d8cdd37eef361d3400cc072055b11cf",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: 别名借体双桶流程收口 tryMetadataAliasBuckets/tryMetadataAliasBucket——any-include 与 exact 桶的能力覆盖检查/死数据清理/Accept 串格式清理原为两份同构闭包,借体规则调整漏同步一处即产生桶间行为分叉"
+      },
+      {
+        "commit": "22e3ef61a6b49412bc306c17a2bc6d50fe341327",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: photo/原始图片两层缓存 serve 流程收口 plexImageTier——黑名单/内存命中/singleflight/磁盘/透传兜底与并发闸+失败登记完全同构,原 150 行逐行镜像曾让 photo 层内存准入线晚 image 层两天才补齐;计数器并入 tier.stats"
+      },
+      {
+        "commit": "d370b09586d4ae1d5076b4b071f7c5c5e00ba3ad",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: STRM 身份否定缓存瞬时错误判据收口 isStrmIdentityTransientErr——取消/超时/槽忙不记账的三连判断原在两调用点逐字复制,判据演进漏改一处即重新引入 ea81051d6 误记事故;补判据与记账口径单测"
+      },
+      {
+        "commit": "7aaef707bc4608d0b3a875fe3258832b1b3ab378",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: 日志文件腿整链退役——日志已入 DB 只走 stdout,createFileCores 全链(含轮转配置 Path/Size/Backups/Age/Compress)本就无调用方,删除避免\"配置了却静默无效\"的误导"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609291317",
     "items": [
       {
@@ -335,17 +370,6 @@
         "author": "liurongjie",
         "date": "2026-09-26 10:24:17",
         "message": "perf(mediaproxy): 列表缓存命中也调度详情预取——堵住重启后新条目详情冷开缺口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609260030",
-    "items": [
-      {
-        "commit": "ded263383250c58ae832812c3cdb1b8f2491757c",
-        "author": "liurongjie",
-        "date": "2026-09-26 00:30:06",
-        "message": "fix(logger): 日志落库 INSERT 加 ON CONFLICT DO NOTHING，修复超时重试必撞主键"
       }
     ]
   }
