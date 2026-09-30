@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610010002",
+    "items": [
+      {
+        "commit": "cb1f342b8450c8cec2a8cffdabd03a14a077ed99",
+        "author": "liurongjie",
+        "date": "2026-10-01 00:02:34",
+        "message": "fix 🐛: 取消运行中任务卡片滞留「取消中」——Cancel 改为除 Failing/BeforeRetry(worker 收尾钩子进行中)外一律立即终态化 Canceled,从未完成列表即时消失;ctx 已取消持有 worker 仍会感知并后台完成 115 远端任务清理,终态幂等重写无害,needRetry 对 Canceled 不重试已核对"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609302342",
     "items": [
       {
@@ -287,113 +298,6 @@
         "author": "xylplm",
         "date": "2026-09-28 19:51:33",
         "message": "feat ✨: 主后端透传历练打劫接口与打劫配置"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609281515",
-    "items": [
-      {
-        "commit": "6dd554b7e3b7c811df52b3155a0424e986a70a95",
-        "author": "xylplm",
-        "date": "2026-09-28 14:52:45",
-        "message": "feat ✨: 代理转发法宝履历查询接口——历史法宝分页数据按需拉取，我的法宝列表只传进行中的法宝"
-      },
-      {
-        "commit": "f79cb6d49fbc3c7908bcce677173e11cead7402d",
-        "author": "xylplm",
-        "date": "2026-09-28 13:31:18",
-        "message": "fix 🐛: 嘉奖批次号长度上限与认证服务对齐为 40——超长编号在代理层就该拦下，统一两边口径"
-      },
-      {
-        "commit": "7cc2c14abfd68f56b773942a76c7cba04d1f2622",
-        "author": "xylplm",
-        "date": "2026-09-28 13:31:18",
-        "message": "fix 🐛: 通知转发完成后红点计数立即归零——此前推送已发但角标上的未读数最长滞后 12 小时才消失"
-      },
-      {
-        "commit": "1530be130fd94df9bf04309e935b605963ad63e0",
-        "author": "xylplm",
-        "date": "2026-09-28 13:31:17",
-        "message": "fix 🐛: 历练出发后目录立即更新今日剩余次数——此前出发一次后页面最长 12 小时还显示旧的剩余额度，再点被服务端按真实额度拦下报错"
-      },
-      {
-        "commit": "3cd135669358424682b5fcac9c0c8a2f7b2a08b2",
-        "author": "xylplm",
-        "date": "2026-09-28 12:26:26",
-        "message": "fix 🐛: 对接凭证过期时的正常流程不再刷错误日志——脚本查不到凭证返回空在技术上是“未命中”而非故障，与队列查询同款处理"
-      },
-      {
-        "commit": "ccff4085f0416ba894a64be71111588dc9e33873",
-        "author": "xylplm",
-        "date": "2026-09-28 12:06:51",
-        "message": "feat ✨: 万宝阁目录支持强制刷新——购买或售罄后页面与手机端下拉刷新立即拿到最新库存，不再受 12 小时缓存影响"
-      },
-      {
-        "commit": "6cb3f93dd876fdfa3471575d237cae105b12f5c2",
-        "author": "xylplm",
-        "date": "2026-09-28 11:52:46",
-        "message": "fix 🐛: 法宝配置保存未填价格时不再清掉原估值——与库存、上架开关同样的保留规则，防止转赠税费误按 0 估值收取"
-      },
-      {
-        "commit": "be2b19c62923c56ca2d75c29b44e4d036a81ca2c",
-        "author": "xylplm",
-        "date": "2026-09-28 11:48:06",
-        "message": "fix 🐛: 法宝售罄后目录立即刷新——此前售罄报错后页面刷新仍显示旧库存，可以反复点击直到缓存自然过期（最长 12 小时）"
-      },
-      {
-        "commit": "689d19677ceaa231ca21c1734e2fcf7bbc7ca6c7",
-        "author": "xylplm",
-        "date": "2026-09-28 11:46:36",
-        "message": "fix 🐛: 网页与扩展的对接凭证改为严格一次一用——极端并发下同一凭证可能被重复核验通过，现在核验与作废一步完成"
-      },
-      {
-        "commit": "f8521482d988325549b51f3f7e87ecb57588ded2",
-        "author": "xylplm",
-        "date": "2026-09-28 11:45:29",
-        "message": "fix 🐛: 系统开关里的远程用户标识补进接口定义文件——此前只在代码里手写，重新生成代码时会丢失导致编译失败"
-      },
-      {
-        "commit": "1cd9ec1e5095352deda89337532b3635117d5d80",
-        "author": "xylplm",
-        "date": "2026-09-28 11:04:29",
-        "message": "feat ✨: 法宝上架开关代理透传——目录配置携带 isOnSale 可选指针，缺省保留远程现值"
-      },
-      {
-        "commit": "a8d390ed5f58e80a201b2011d3e7e8d809217bac",
-        "author": "xylplm",
-        "date": "2026-09-28 10:42:22",
-        "message": "feat ✨: 万宝阁库存代理适配——购买成功即失效目录缓存（库存即时可见），法宝配置透传库存字段（缺省保留远程现值）"
-      },
-      {
-        "commit": "03d1ba08c75b2eb90237d72138daea4aa7ded684",
-        "author": "xylplm",
-        "date": "2026-09-28 09:45:07",
-        "message": "fix 🐛: 主后端镜像修复——生效法宝摘要补齐稀有度与效果参数字段，首页法宝加成标签恢复正常显示"
-      },
-      {
-        "commit": "b20071ac67d62a80501aa168f30caeabdbe2a3e9",
-        "author": "xylplm",
-        "date": "2026-09-27 18:21:06",
-        "message": "feat ✨: 扩展桥接新增通用的一次性交互凭证签发/核验接口"
-      },
-      {
-        "commit": "70d19e4bae6cc8746d31782c21292e33dca0bd73",
-        "author": "xylplm",
-        "date": "2026-09-27 15:39:40",
-        "message": "feat(flags): 系统开关透出 remoteUserId——云资源本人上传判定（免费角标/编辑入口）"
-      },
-      {
-        "commit": "d7133a8d5bbb8a14af6a6211cbda08a11f101ec9",
-        "author": "xylplm",
-        "date": "2026-09-27 14:06:06",
-        "message": "feat(realm): 境界互动体系主后端代理层 v1.10~v1.13——透传/通知器/管理端"
-      },
-      {
-        "commit": "fec97482dabf6f5de8b4d9df7599023984bf856b",
-        "author": "GateCross",
-        "date": "2026-09-27 22:14:45",
-        "message": "feat: 云资源分组视图支持创作者查询与组级分页"
       }
     ]
   }
