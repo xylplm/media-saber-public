@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609301141",
+    "items": [
+      {
+        "commit": "b60ee1a3456e0ee3791c78e5712545b1ff605f53",
+        "author": "xylplm",
+        "date": "2026-09-30 11:39:46",
+        "message": "feat ✨: 媒体库新增浏览接口——按媒体服务器直接浏览库内影片列表与剧集分季集数，App 海报墙浏览页使用"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609300039",
     "items": [
       {
@@ -383,17 +394,6 @@
         "author": "GateCross",
         "date": "2026-09-27 22:14:45",
         "message": "feat: 云资源分组视图支持创作者查询与组级分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609271043",
-    "items": [
-      {
-        "commit": "a2d04e14e6c7f4b42a1d50b58e72e7a025454c8e",
-        "author": "liurongjie",
-        "date": "2026-09-27 10:42:50",
-        "message": "fix(mediaproxy): strm 解析失败日志补充脱敏 URL，便于定位 401 等状态码来源"
       }
     ]
   }
