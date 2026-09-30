@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202609302342",
+    "items": [
+      {
+        "commit": "981c43878ea27fdd85dd517dec37c2ca64d5c5c1",
+        "author": "liurongjie",
+        "date": "2026-09-30 23:41:15",
+        "message": "fix 🐛: 取消排队中任务滞留「取消中」——Cancel 对未被 worker 持有的任务(Pending/Errored/WaitingRetry)直接终态化 Canceled,原先要等 worker 从队列弹出才落地,worker 被占满时批量取消的任务无限滞留未完成列表;运行中任务保持 Canceling 由 worker 感知 ctx 落 Canceled(含云端远端任务清理)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202609301726",
     "items": [
       {
@@ -383,17 +394,6 @@
         "author": "GateCross",
         "date": "2026-09-27 22:14:45",
         "message": "feat: 云资源分组视图支持创作者查询与组级分页"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609281421",
-    "items": [
-      {
-        "commit": "d1073f6871bca9b9ee55f6fb0155766837c06fd3",
-        "author": "liurongjie",
-        "date": "2026-09-28 14:11:02",
-        "message": "perf(mediaproxy): 详情页不再预热 115 直链 + 预取入口 12/min 限速——downurl 回到播放驱动"
       }
     ]
   }
