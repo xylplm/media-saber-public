@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610010106",
+    "items": [
+      {
+        "commit": "a9b879e7483c5c89e94575baa5b27e309e5abc58",
+        "author": "liurongjie",
+        "date": "2026-10-01 01:05:43",
+        "message": "feat ✨: 云存储目录同步插件(cloud_dir_sync)——一个实例一条「源目录→目标目录」增量同步规则,定时/手动递归扫描源目录,新增与内容变化文件经 fs.CopyFile 入 CopyTaskManager 复制(进度/重试/持久化复用,115 秒传免流量);cloud_dir_sync_record 台账判重 done 不重传,queued 12h 超时重入队,failed 下轮重试,复制成功/失败全局钩子(sync.Once 注册)回写台账;增量判定 115 SHA1 优先无 hash 退化 size+mtime,done 台账 DstPath 与配置映射不一致自愈失效(防改目录后错误跳过致目标缺文件),变更覆盖先删旧目标防重名副本;源/目标互嵌套保存(BeforeCreate/BeforeUpdate)与运行双重校验防循环复制;防重入锁 sentinel 静默跳过防 cron 通知轰炸;动态表单 cloud_dir_sync.json/详情摘要 DisplayContent/卸载清台账齐备;goctl 重生成对齐 types/routes(含此前 browse 接口遗漏的生成同步)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610010002",
     "items": [
       {
@@ -287,17 +298,6 @@
         "author": "liurongjie",
         "date": "2026-09-29 01:35:23",
         "message": "feat(mediaproxy): 原始图片端点纳管缓存，键按身份分桶 + 失败键黑名单"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609282224",
-    "items": [
-      {
-        "commit": "f831d3d629eb6f3135a64536a3726b7b88875879",
-        "author": "xylplm",
-        "date": "2026-09-28 19:51:33",
-        "message": "feat ✨: 主后端透传历练打劫接口与打劫配置"
       }
     ]
   }

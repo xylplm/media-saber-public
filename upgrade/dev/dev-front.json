@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610010106",
+    "items": [
+      {
+        "commit": "24c7f40ac21cfebbb54776ef3ad58ee6041d413b",
+        "author": "liurongjie",
+        "date": "2026-10-01 01:05:47",
+        "message": "feat ✨: 云存储目录同步插件图标——cloud_dir_sync 白色线性双云+向下同步箭头+增量加号,128 viewBox 透明底纯白,与云类插件同风格,卡片尺寸及浅色背景可读性渲染验证通过"
+      },
+      {
+        "commit": "849d10bc4a15a0ee99e011e9383add892f98d110",
+        "author": "liurongjie",
+        "date": "2026-10-01 01:04:12",
+        "message": "fix 🐛: unknown 驱动的云存储行内「更多操作」按钮隐藏——移动/复制/重命名/删除与分享复制对 unknown provider 均不可用,桌面端菜单为空点了像没反应;新增 hasRowFileMenu 计算属性,菜单无内容不渲染按钮(移动端菜单有整理兜底保留)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610010002",
     "items": [
       {
@@ -221,17 +238,6 @@
         "author": "liurongjie",
         "date": "2026-09-27 13:08:00",
         "message": "style(media-detail): 详情海报与信息面板收弧——海报 rounded-pill 改 rounded-xl，面板锁定 16px 圆角防胶囊化"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609232357",
-    "items": [
-      {
-        "commit": "9e3a5c07fab4d08c4f8edc91f9329995e78bb896",
-        "author": "GateCross",
-        "date": "2026-09-23 23:56:33",
-        "message": "fix: 优化用户等级请求并发去重与在途共享"
       }
     ]
   }
