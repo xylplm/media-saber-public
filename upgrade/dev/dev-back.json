@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610010252",
+    "items": [
+      {
+        "commit": "dd47d0729b5a412cf4d5841091f56e33f067a8eb",
+        "author": "liurongjie",
+        "date": "2026-10-01 02:52:06",
+        "message": "fix 🐛: 目录同步插件启灵失败「源目录不能为空或根目录」——创建实例时前端只传名称 config 为空,BeforeCreate 校验把未配置当错误拦截;改为源/目标均为空(未配置态)放行交运行时跳过兜底,填了任一路径才做完整校验(改名保存未配置实例同理)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610010106",
     "items": [
       {
@@ -287,17 +298,6 @@
         "author": "xylplm",
         "date": "2026-09-27 14:06:06",
         "message": "feat(realm): 境界互动体系主后端代理层 v1.10~v1.13——透传/通知器/管理端"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609290137",
-    "items": [
-      {
-        "commit": "d1f19df60009f3b222cb5d2cb4bfe5963b405e4f",
-        "author": "liurongjie",
-        "date": "2026-09-29 01:35:23",
-        "message": "feat(mediaproxy): 原始图片端点纳管缓存，键按身份分桶 + 失败键黑名单"
       }
     ]
   }
