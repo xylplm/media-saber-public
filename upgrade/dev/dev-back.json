@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610011033",
+    "items": [
+      {
+        "commit": "fe03dea68e807009bf5e8564081f2e16d18081aa",
+        "author": "liurongjie",
+        "date": "2026-10-01 10:32:35",
+        "message": "feat ✨: 云存储目录同步支持查看与删除同步记录——插件详情新增「同步记录」表格（records action 自描述列+分页），行级删除（deleteRecord 限定实例内）后该文件下轮按新文件重新复制，复制前统一清理目标同名残留（op.Remove 对 not found 幂等静默）；修复同存储场景（如 115 同账号两目录）transfer 走驱动原生 Copy 同步完成、不产生复制任务、成功钩子不回调，导致台账永久滞留 queued 且「进行中任务」无任务的问题——CopyFile 返回 (nil,nil) 时直接落 done 并刷新目标目录缓存，摘要新增「同步完成」口径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610010342",
     "items": [
       {
@@ -143,41 +154,6 @@
         "author": "liurongjie",
         "date": "2026-09-29 22:54:12",
         "message": "refactor ♻: 日志文件腿整链退役——日志已入 DB 只走 stdout,createFileCores 全链(含轮转配置 Path/Size/Backups/Age/Compress)本就无调用方,删除避免\"配置了却静默无效\"的误导"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609291317",
-    "items": [
-      {
-        "commit": "3c30c7a6039576700b54dd368bfadccc826aa569",
-        "author": "liurongjie",
-        "date": "2026-09-29 13:17:14",
-        "message": "fix 🐛: photo 内存缓存加 512KB 单条准入——条数上限挡不住 MB 级转码产物(最坏 512×2MB≈1GB 常驻),超线只落盘,与原始图片层同口径"
-      },
-      {
-        "commit": "e8342ca4fe4a79035e34d147e1b34e643d0d5612",
-        "author": "liurongjie",
-        "date": "2026-09-29 13:17:14",
-        "message": "fix 🐛: hubs 变体索引超限先淘汰 24h 未活跃段——原逻辑封顶后永久拒收新键且死键不清理,新用户/新路径的跨变体垫底长期运行后失效"
-      },
-      {
-        "commit": "ea81051d638ede3e415948ea57583ff1d2c88fa9",
-        "author": "liurongjie",
-        "date": "2026-09-29 13:17:14",
-        "message": "fix 🐛: STRM 身份兜底否定缓存不再误记预算切断——取消/超时/槽忙是「我们没等到」而非「路径坏」,误记会让该条目 10min 免 fs.Get 兜底、增强降级伪流"
-      },
-      {
-        "commit": "3907326933f43911ca67d3ffbfc700cb7742ca59",
-        "author": "liurongjie",
-        "date": "2026-09-29 13:17:14",
-        "message": "fix 🐛: 豆瓣 subject collection badge.chart 兼容 object 形态——上游将 string 改为 object 导致整个 items 响应解析失败,字段无消费方改用 RawMessage"
-      },
-      {
-        "commit": "e438585b3658fe3e794835b254ff680a53d34baf",
-        "author": "liurongjie",
-        "date": "2026-09-29 10:19:03",
-        "message": "fix(mediaproxy): 图片回源超尺寸先判 ContentLength，不再读满准入上限再丢弃"
       }
     ]
   }

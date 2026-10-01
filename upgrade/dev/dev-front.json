@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610011033",
+    "items": [
+      {
+        "commit": "70d68e7b5f7712897681ed0755814fc23f2e6864",
+        "author": "liurongjie",
+        "date": "2026-10-01 10:32:45",
+        "message": "feat ✨: 通用秘籍弹窗支持插件表格类数据展示与行级操作——call 返回含 columns/rows 的自描述表格时在弹窗内渲染（分页、长文本省略+tooltip、加载态），rowAction 定义渲染行操作列（删除二次确认、成功后刷新、删空当前页自动回退一页）；displayContent 支持多行换行（whitespace-pre-line）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610010106",
     "items": [
       {
@@ -227,17 +238,6 @@
         "author": "GateCross",
         "date": "2026-09-27 22:14:53",
         "message": "feat: 云资源分组视图新增分页器"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609271308",
-    "items": [
-      {
-        "commit": "f93747098dcc79bfc07de4d9e31dd612604c73f1",
-        "author": "liurongjie",
-        "date": "2026-09-27 13:08:00",
-        "message": "style(media-detail): 详情海报与信息面板收弧——海报 rounded-pill 改 rounded-xl，面板锁定 16px 圆角防胶囊化"
       }
     ]
   }
