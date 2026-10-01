@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610011726",
+    "items": [
+      {
+        "commit": "86ca27bf27a0f2f9b0c388d9d5007d4389e34239",
+        "author": "GateCross",
+        "date": "2026-10-01 17:24:57",
+        "message": "fix: 搜索跳转云端资源带入类型与媒体"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610011033",
     "items": [
       {
@@ -221,23 +232,6 @@
         "author": "xylplm",
         "date": "2026-09-27 14:07:18",
         "message": "feat(realm): 境界互动体系 Web 端 v1.10~v1.13——路由页/五页签/弹窗化/图鉴与历练志炫酷化/OPS 法宝与系统通知"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609272340",
-    "items": [
-      {
-        "commit": "4afe38fc307e5f09da2a3dac2319a605d792ab00",
-        "author": "liurongjie",
-        "date": "2026-09-27 23:39:41",
-        "message": "style(search-torrent): 搜索横幅收弧与窄视口铺满——海报/信息面板 rounded-pill 改 rounded-xl，md~lg 区间横幅占满 12 列"
-      },
-      {
-        "commit": "557f676eaf683708bc6bda4557293d1a927fd839",
-        "author": "GateCross",
-        "date": "2026-09-27 22:14:53",
-        "message": "feat: 云资源分组视图新增分页器"
       }
     ]
   }
