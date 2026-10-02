@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610021340",
+    "items": [
+      {
+        "commit": "71e1e257f48d2dd6b0a48ed566e79d221a3253fe",
+        "author": "liurongjie",
+        "date": "2026-10-02 11:55:46",
+        "message": "fix 🐛: 云端任务状态徽章滚动穿透吸顶导航+任务列表分页默认50——page-topbar z-index 9 提到 30 压过内容层 z-10/20 定位元素且低于 CDK 浮层;undone-card 默认每页 50(记忆值优先),取消/批量后刷新沿用当前每页行数不再被 BasicQueryParams 打回 25"
+      },
+      {
+        "commit": "0e4be6fc0e498137746e5c4febed17f81d31f467",
+        "author": "liurongjie",
+        "date": "2026-10-02 00:15:30",
+        "message": "feat ✨: 通用插件表格弹窗支持筛选与批量操作——filters 自描述渲染状态下拉与关键字搜索（防抖 400ms、变更重置到第一页），batchAction 渲染首列多选（全选当前页/半选态、选中跨页保留）与批量按钮（confirm 中 {n} 替换选中数、成功后清空选中并刷新）；同步记录接入：状态筛选 + 文件名模糊搜索 + 多选批量删除"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610012147",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-09-29 22:50:25",
         "message": "fix(cloud-resource): 详情跳转云端资源带 mediaTitle 回显片名——媒体框显示\"片名 年份\"替代 TMDB: id 兜底，剧集集跳转经季列表下传剧名"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609282224",
-    "items": [
-      {
-        "commit": "e99f8b7c69566737753bd2cd73d3fd8ddf2da4c0",
-        "author": "xylplm",
-        "date": "2026-09-28 19:51:34",
-        "message": "feat ✨: 前端历练新增劫匪模式——开关卡、对决剧场与打劫配置"
       }
     ]
   }

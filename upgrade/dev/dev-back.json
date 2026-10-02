@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610021340",
+    "items": [
+      {
+        "commit": "11021484ab94464f203b46c5642e6d12e2ab903e",
+        "author": "liurongjie",
+        "date": "2026-10-02 13:24:40",
+        "message": "fix 🐛: 目录同步大同步场景三处修复——①queued 台账超 12h 未必僵死：跨存储大同步（3 万文件级）一轮远超 12h 属正常，僵死判定改为同时校验复制任务是否仍在 CopyTaskManager 存活（按目标路径 Join(挂载点,目录,源文件名) 匹配），存活则跳过重新入队，防次日 cron 把数万在途全部判僵死删目标重传的灾难性重复投递；②插件发起的复制任务静默化：ctx 带 QuietTaskKey 创建的任务带 Silent 标志（随任务持久化、子任务继承），全局成功/失败钩子跳过逐条通知防轰炸（3 万条级），strm 生成/上传联动与插件台账回写不受影响，轮次摘要通知保留；③插件详情展示改实时统计台账进度（已同步/失败/在途），不再只显示入队快照导致长时间无变化"
+      },
+      {
+        "commit": "8d36d4d20e2b6c8ad7eef72826ae6f8a4a392a70",
+        "author": "liurongjie",
+        "date": "2026-10-02 00:15:42",
+        "message": "feat ✨: 云存储目录同步记录支持状态筛选、文件名搜索与批量删除——records 增加 status 白名单与 keyword 参数（rel_path ILIKE 大小写不敏感，%/_/\\ 通配符转义为字面量防误命中），返回 filters/batchAction 自描述供通用表格弹窗渲染筛选工具栏与多选列；新增 deleteRecordBatch 批量删除（body.ids，单次上限 200，SQL 限定 instance_id，按实际影响行数如实回执）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610012147",
     "items": [
       {
@@ -95,41 +112,6 @@
         "author": "xylplm",
         "date": "2026-09-30 11:39:46",
         "message": "feat ✨: 媒体库新增浏览接口——按媒体服务器直接浏览库内影片列表与剧集分季集数，App 海报墙浏览页使用"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609300039",
-    "items": [
-      {
-        "commit": "e71f42d52d3075ab30af1384684a33792c5053c7",
-        "author": "liurongjie",
-        "date": "2026-09-30 00:38:19",
-        "message": "fix 🐛: 图片缓存二次 review 修正——Emby 图片 Cache-Control 档位逻辑错误:pathMaxWidth 只是缩放尺寸不是内容版本段,单独存在不该给一年 immutable(封面就地替换后旧图被钉死客户端),收窄为仅 tag(Etag cache-buster)触发;容量清理单测数字与实现不符(30B/上限20B 会连删两个文件),调整上限为 33B 使「删 1 个最旧」成立;legacy 清理注释改为与幂等实现一致;补 serverTag 同名实例边界与键前缀注释"
-      },
-      {
-        "commit": "490daae77c14dfe472057002342a3813531558b3",
-        "author": "liurongjie",
-        "date": "2026-09-30 00:31:43",
-        "message": "fix 🐛: 图片缓存 review 修正——Emby/Jellyfin 键身份隔离空转(plexRequestToken 只认 X-Plex-Token,api_key/X-Emby-Token 请求恒 anon,实例关匿名图片访问时无凭证请求可命中已授权用户缓存,新增 embyRequestTokenFingerprint 兜住);删接口化遗留死代码 fetchAndStorePlexImageTier 与 imageLogger、writeMediaImageEntry 冗余 host 参数;修过时注释(磁盘 TTL 已由实例配置接管、统计行全部实例累计)并补 pull 回源不注入凭证的语义说明"
-      },
-      {
-        "commit": "227c2f36275d67459fc0f9eaf775db8191b5cf20",
-        "author": "liurongjie",
-        "date": "2026-09-30 00:16:01",
-        "message": "feat ✨: Emby/Jellyfin 图片端点接管(/Items/{id}/Images/{type})——复用统一 tier 流程,Jellyfin 与 Emby 共用 handler 自动生效;键=serverName+身份+itemId/类型+规范化缩放参数与tag(服务器停机无法实测,保守全参数进键最坏同图多份缓存绝不错图,待实测收窄白名单);serve 公共层接口化 mediaImageHost,新增媒体服务器类型只需一个 tier 实例+实现 pull;顺手修复容量清理未按 mtime 最旧优先的原缺陷"
-      },
-      {
-        "commit": "9a95ae0b7daf3bf47d3d794526ff20a4b98b02f8",
-        "author": "liurongjie",
-        "date": "2026-09-30 00:07:43",
-        "message": "feat ✨: 媒体服务器图片缓存统一化——编辑弹窗新增 imageCacheDays(-1 关闭[默认]/0 永久/N 天,tooltip 说明语义),photo 转码层与原图层磁盘 TTL 合并由实例配置接管;磁盘布局统一 media_image_cache/{serverTag}/ 按实例分目录,清理三态(关闭删目录/永久按容量/N 天按 mtime+容量);img_proxy_cache 拆独立清理入口;配置经 ProxyServerOptions 单向传递与 PeriodQuota 同构,前端零改动(动态表单下发)"
-      },
-      {
-        "commit": "310356783c37852b8c38dc6f093bc2b80a437e6f",
-        "author": "liurongjie",
-        "date": "2026-09-29 23:23:24",
-        "message": "perf ⚡: 原始图片磁盘缓存 TTL 3 天放宽到 10 天——PMS 不校验 ts 时封面失效本就只能靠 TTL 兜底,按用户要求延长驻留换更少重复回源;封面就地替换场景旧图最长多留 10 天"
       }
     ]
   }
