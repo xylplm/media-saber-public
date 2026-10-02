@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202610022244",
+    "items": [
+      {
+        "commit": "a8f304bd376eb15f43f292c36c5dd935351568d1",
+        "author": "liurongjie",
+        "date": "2026-10-02 22:32:49",
+        "message": "feat ✨: 表格弹窗批量操作支持单次上限前置校验——batchAction 自描述新增 limit 字段，选中超限点击时直接警告提示减少选中，不再等后端拒绝"
+      },
+      {
+        "commit": "44cfb028d137bb6a6fc031d87ea14de0caaddaad",
+        "author": "liurongjie",
+        "date": "2026-10-02 22:23:33",
+        "message": "fix 🐛: 表格弹窗单条删除成功后从批量选中集移除该行，避免后续批量操作带上已删记录导致回执 0 条"
+      },
+      {
+        "commit": "080dc8a19fc0c285977485a78e15346e4209d3c6",
+        "author": "liurongjie",
+        "date": "2026-10-02 21:48:23",
+        "message": "feat ✨: 插件表格弹窗支持工具栏操作与移动端适配——toolbarAction 自描述渲染（count>0 显隐、确认文案 {n} 替换，接入同步记录的「重试失败项」）；移动端弹窗宽度 min(860px,94vw)、滚动容器显式 width:100%+touch-action 双向滑动；修复 ellipsis 失效：td 的 max-width 在 auto 表格布局下被忽略导致文件名/错误列全宽撑开，截断移到内层 div（375px 视口实测：表格 847px 在 321px 容器内横向滚动可达、截断与吸顶表头正常）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610021340",
     "items": [
       {
@@ -119,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-09-30 16:47:09",
         "message": "fix 🐛: 移动端境界横幅三按钮「万宝阁」文字折成竖排——flex:1 平分一行后 Material 按钮 padding+图标挤占文字区恰好卡临界宽,按钮文案 white-space:nowrap + min-width:0 防折行防撑破,移动端 flex:1 1 0 + 收窄水平内边距给文案让位"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609292304",
-    "items": [
-      {
-        "commit": "12186073615df3e9dfd8cbd5de5396492821da5c",
-        "author": "liurongjie",
-        "date": "2026-09-29 22:50:25",
-        "message": "fix(cloud-resource): 详情跳转云端资源带 mediaTitle 回显片名——媒体框显示\"片名 年份\"替代 TMDB: id 兜底，剧集集跳转经季列表下传剧名"
       }
     ]
   }
