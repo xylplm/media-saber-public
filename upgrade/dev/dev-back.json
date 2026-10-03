@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610032042",
+    "items": [
+      {
+        "commit": "449c9d0321cf7dcd66f7be379362e0d9a51576be",
+        "author": "GateCross",
+        "date": "2026-10-03 19:45:25",
+        "message": "feat ✨: 通知两项优化——①贡献者展示用户名+ID：云端资源使用结果新增 creator 字段（缓存缺失时经 CsHashDetail 回填），formatCsCreator 统一拼「名字 (ID)」；②单集剧集通知简介取该集概述：新增 metadata.NoticeOverview，电影/多集/拉取失败回退剧简介，strm302、媒体代理、入库三处通知接入"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610022244",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-09-30 23:41:15",
         "message": "fix 🐛: 取消排队中任务滞留「取消中」——Cancel 对未被 worker 持有的任务(Pending/Errored/WaitingRetry)直接终态化 Canceled,原先要等 worker 从队列弹出才落地,worker 被占满时批量取消的任务无限滞留未完成列表;运行中任务保持 Canceling 由 worker 感知 ctx 落 Canceled(含云端远端任务清理)"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609301726",
-    "items": [
-      {
-        "commit": "c231a347b56f0c1831685d368293d51f47c801e8",
-        "author": "xylplm",
-        "date": "2026-09-30 13:48:05",
-        "message": "fix 🐛: 远程服务请求超时统一放宽到 5 分钟——此前各接口本地超时各自为政且偏紧（云资源转发 25 秒、等级查询 5 秒、运营管理 60 秒等），远程处理慢或上调超时上限时会被本地先掐断，用户只能看到笼统的「远程响应未能确认」；现在本地兜底永远不会比远程先断，远程的超时原因能原样透传给用户"
       }
     ]
   }
