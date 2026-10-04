@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610042017",
+    "items": [
+      {
+        "commit": "34b3d0614d300820c23f790a3e858177073dcabb",
+        "author": "liurongjie",
+        "date": "2026-10-04 20:11:04",
+        "message": "fix 🐛: 同步摘要「同步完成」为 0 时不再展示——该计数只统计同存储直转（驱动原生 Copy 当场完成），跨存储场景恒为 0 且容易误解为漏统计；跨存储摘要变为「入队/已同步跳过/在途跳过/入队失败」纯异步口径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610041315",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-10-01 01:05:43",
         "message": "feat ✨: 云存储目录同步插件(cloud_dir_sync)——一个实例一条「源目录→目标目录」增量同步规则,定时/手动递归扫描源目录,新增与内容变化文件经 fs.CopyFile 入 CopyTaskManager 复制(进度/重试/持久化复用,115 秒传免流量);cloud_dir_sync_record 台账判重 done 不重传,queued 12h 超时重入队,failed 下轮重试,复制成功/失败全局钩子(sync.Once 注册)回写台账;增量判定 115 SHA1 优先无 hash 退化 size+mtime,done 台账 DstPath 与配置映射不一致自愈失效(防改目录后错误跳过致目标缺文件),变更覆盖先删旧目标防重名副本;源/目标互嵌套保存(BeforeCreate/BeforeUpdate)与运行双重校验防循环复制;防重入锁 sentinel 静默跳过防 cron 通知轰炸;动态表单 cloud_dir_sync.json/详情摘要 DisplayContent/卸载清台账齐备;goctl 重生成对齐 types/routes(含此前 browse 接口遗漏的生成同步)"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610010002",
-    "items": [
-      {
-        "commit": "cb1f342b8450c8cec2a8cffdabd03a14a077ed99",
-        "author": "liurongjie",
-        "date": "2026-10-01 00:02:34",
-        "message": "fix 🐛: 取消运行中任务卡片滞留「取消中」——Cancel 改为除 Failing/BeforeRetry(worker 收尾钩子进行中)外一律立即终态化 Canceled,从未完成列表即时消失;ctx 已取消持有 worker 仍会感知并后台完成 115 远端任务清理,终态幂等重写无害,needRetry 对 Canceled 不重试已核对"
       }
     ]
   }
