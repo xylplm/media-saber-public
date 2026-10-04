@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610041315",
+    "items": [
+      {
+        "commit": "c29e8557653b96c0d1c744617d34b8076353bd9a",
+        "author": "liurongjie",
+        "date": "2026-10-04 13:14:35",
+        "message": "fix 🐛: 日志治理三处——①任务失败日志双重格式化（先 Sprintf 再 Errorf，URL 转义串里 %E7 等被二次解析成 %!E(MISSING)），tache worker 主修，asynq 入队失败与企微图文发送失败同模式一并修；②tmdbpro GetEpisodeDetail 对集 404（未入库/未播出属预期）静默返回 nil，调用方 scrape/tv.go 已有 Debug 兜底，修整季未入库的刮削批次逐集刷 error（10-02 一轮 382 条）；③iyuu 辅种取链接失败原来内外各打一条 error（外层泛化+内层具体），合并为外层一条带 原因:%v，删内层 5 处重复 p.Error，错误返回值原样保留供失败缓存 404/403 永久分类"
+      },
+      {
+        "commit": "2401cb84426f3ab099b6ba95e11d37aeabefc4fa",
+        "author": "liurongjie",
+        "date": "2026-10-03 22:38:55",
+        "message": "fix 🐛: Plex 插件批处理与元数据写入治理——①PutMetadata 限流此前完全不生效（netx 在 Key 为空时按完整请求 URL 分桶，而 PUT 每条 ratingKey 都不同＝逐条独立计数，批量本地化的数千次写一点没被拦），改为按 BaseUrl 隔开的共享桶；隔开而非全局共用是因为 Quota 各取自自己的 Config，混桶会让多台 PMS 互相消费对方额度。LibraryMetadataFresh 的桶如实标注只去重同条目：它有 mediaserver 前台详情调用方，换共享桶会让后台任务把用户请求卡住最长 300s，故不共享；②音乐刷新 state 随曲库变动无限膨胀，保存前按当前库条目剪 attempts/冷却/别名，且空集合不剪对应维度（库正在扫描/sectionKey 指错时接口会成功返回 0 条，按空集清理等于把重试计数全抹掉、已达上限条目下轮重新整轮刷），冷却期通知改为只发一次并单独持久化标记避开覆盖上一轮统计；③达重试上限/冷却中的条目先统一摘出批次，不再占槽位导致冷却期每轮空转 sleep；④状态表建表失败不再 panic（本函数在 HTTP 请求路径上，panic 会打崩请求 goroutine）改为仅日志并按 1 分钟退避重试，无退避时每次请求都跑 AutoMigrate 会拖慢路径；⑤gorilla 握手失败补 resp.Body.Close() 修重连循环持续泄漏，resolveUserAPI 收 server 参数、resolveAlertUser 回传已拉取的 sessions，每条 playing 的热路径不再重复查 DB 和 /status/sessions；⑥歌单匹配修三处误伤：去掉 with/x 标题剥离（\"With or Without You\" 会被截空）、子串包含判等加最短长度与长度比双约束、外部歌曲缺歌手改为留空（硬填\"未知歌手\"会让这类歌必然匹配不上）并在匹配层用比通用 0.94 更严的 0.98 兜底，无歌手佐证时不把同名不同歌手猜进歌单；⑦Playlists/PlaylistItems 统一走容器分页防大歌单被截断，QQ 歌单分页改硬失败 + 页数上限并去掉 SongBatchFailed/Total 影子统计；⑧本地化标签从逐标签一次 PUT 改为整字段一次 PUT 且去重（一个专辑 5 个英文 genre 原来打 5 次 PUT），threads 上限 8，pinyin 去全局互斥（Args 全是值字段，逐次拷贝即并发安全），取元数据失败保持 Errorf 不降级以免错误面板看不见；⑨三份同构分页器收口到泛型 fetchPagedMetadata（净减 87 行）、PlexMetadataType* 常量归位 types.go、删只写字段 QueueKey/Start 与死类型 musicTracksResult、共用的标题归一化工具抽到 plex_common_match.go 打破歌单导入与音乐刷新互相引用"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610032042",
     "items": [
       {
@@ -131,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-10-01 00:02:34",
         "message": "fix 🐛: 取消运行中任务卡片滞留「取消中」——Cancel 改为除 Failing/BeforeRetry(worker 收尾钩子进行中)外一律立即终态化 Canceled,从未完成列表即时消失;ctx 已取消持有 worker 仍会感知并后台完成 115 远端任务清理,终态幂等重写无害,needRetry 对 Canceled 不重试已核对"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609302342",
-    "items": [
-      {
-        "commit": "981c43878ea27fdd85dd517dec37c2ca64d5c5c1",
-        "author": "liurongjie",
-        "date": "2026-09-30 23:41:15",
-        "message": "fix 🐛: 取消排队中任务滞留「取消中」——Cancel 对未被 worker 持有的任务(Pending/Errored/WaitingRetry)直接终态化 Canceled,原先要等 worker 从队列弹出才落地,worker 被占满时批量取消的任务无限滞留未完成列表;运行中任务保持 Canceling 由 worker 感知 ctx 落 Canceled(含云端远端任务清理)"
       }
     ]
   }
