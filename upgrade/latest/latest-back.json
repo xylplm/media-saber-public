@@ -1,5 +1,2722 @@
 [
   {
+    "version": "3.0_202610051928",
+    "items": [
+      {
+        "commit": "dc35e3e472e91e90320035ee10306d6ee5c6e314",
+        "author": "liurongjie",
+        "date": "2026-10-05 13:40:55",
+        "message": "feat ✨: 目录同步插件新增「复制逐条通知」开关——全局复制成功/失败钩子的通知发送改由实例配置 noticeCopy 控制，通知时判定而非入队时：改开关对在途任务立即生效，并覆盖静默机制上线前入队、TaskData 无 silent 字段的存量在途任务（关掉开关即止住存量逐条轰炸）；开关只控制通知发送，目录刷新/取大小/入库/strm/CD2 刷新联动保持原有静默行为不变；判定按源挂载点+源目录子树匹配启用实例（与台账回写钩子同口径），范围外任务沿用任务自身静默标记，实例查询失败降级沿用不阻塞回调"
+      },
+      {
+        "commit": "8538e338ed535e961d13e80cd42ca55ac2c18112",
+        "author": "xylplm",
+        "date": "2026-10-05 12:20:33",
+        "message": "feat ✨: 媒体模块新增演员详情接口，支持按演员查询生日、出生地、简介等完整资料"
+      },
+      {
+        "commit": "34b3d0614d300820c23f790a3e858177073dcabb",
+        "author": "liurongjie",
+        "date": "2026-10-04 20:11:04",
+        "message": "fix 🐛: 同步摘要「同步完成」为 0 时不再展示——该计数只统计同存储直转（驱动原生 Copy 当场完成），跨存储场景恒为 0 且容易误解为漏统计；跨存储摘要变为「入队/已同步跳过/在途跳过/入队失败」纯异步口径"
+      },
+      {
+        "commit": "c29e8557653b96c0d1c744617d34b8076353bd9a",
+        "author": "liurongjie",
+        "date": "2026-10-04 13:14:35",
+        "message": "fix 🐛: 日志治理三处——①任务失败日志双重格式化（先 Sprintf 再 Errorf，URL 转义串里 %E7 等被二次解析成 %!E(MISSING)），tache worker 主修，asynq 入队失败与企微图文发送失败同模式一并修；②tmdbpro GetEpisodeDetail 对集 404（未入库/未播出属预期）静默返回 nil，调用方 scrape/tv.go 已有 Debug 兜底，修整季未入库的刮削批次逐集刷 error（10-02 一轮 382 条）；③iyuu 辅种取链接失败原来内外各打一条 error（外层泛化+内层具体），合并为外层一条带 原因:%v，删内层 5 处重复 p.Error，错误返回值原样保留供失败缓存 404/403 永久分类"
+      },
+      {
+        "commit": "2401cb84426f3ab099b6ba95e11d37aeabefc4fa",
+        "author": "liurongjie",
+        "date": "2026-10-03 22:38:55",
+        "message": "fix 🐛: Plex 插件批处理与元数据写入治理——①PutMetadata 限流此前完全不生效（netx 在 Key 为空时按完整请求 URL 分桶，而 PUT 每条 ratingKey 都不同＝逐条独立计数，批量本地化的数千次写一点没被拦），改为按 BaseUrl 隔开的共享桶；隔开而非全局共用是因为 Quota 各取自自己的 Config，混桶会让多台 PMS 互相消费对方额度。LibraryMetadataFresh 的桶如实标注只去重同条目：它有 mediaserver 前台详情调用方，换共享桶会让后台任务把用户请求卡住最长 300s，故不共享；②音乐刷新 state 随曲库变动无限膨胀，保存前按当前库条目剪 attempts/冷却/别名，且空集合不剪对应维度（库正在扫描/sectionKey 指错时接口会成功返回 0 条，按空集清理等于把重试计数全抹掉、已达上限条目下轮重新整轮刷），冷却期通知改为只发一次并单独持久化标记避开覆盖上一轮统计；③达重试上限/冷却中的条目先统一摘出批次，不再占槽位导致冷却期每轮空转 sleep；④状态表建表失败不再 panic（本函数在 HTTP 请求路径上，panic 会打崩请求 goroutine）改为仅日志并按 1 分钟退避重试，无退避时每次请求都跑 AutoMigrate 会拖慢路径；⑤gorilla 握手失败补 resp.Body.Close() 修重连循环持续泄漏，resolveUserAPI 收 server 参数、resolveAlertUser 回传已拉取的 sessions，每条 playing 的热路径不再重复查 DB 和 /status/sessions；⑥歌单匹配修三处误伤：去掉 with/x 标题剥离（\"With or Without You\" 会被截空）、子串包含判等加最短长度与长度比双约束、外部歌曲缺歌手改为留空（硬填\"未知歌手\"会让这类歌必然匹配不上）并在匹配层用比通用 0.94 更严的 0.98 兜底，无歌手佐证时不把同名不同歌手猜进歌单；⑦Playlists/PlaylistItems 统一走容器分页防大歌单被截断，QQ 歌单分页改硬失败 + 页数上限并去掉 SongBatchFailed/Total 影子统计；⑧本地化标签从逐标签一次 PUT 改为整字段一次 PUT 且去重（一个专辑 5 个英文 genre 原来打 5 次 PUT），threads 上限 8，pinyin 去全局互斥（Args 全是值字段，逐次拷贝即并发安全），取元数据失败保持 Errorf 不降级以免错误面板看不见；⑨三份同构分页器收口到泛型 fetchPagedMetadata（净减 87 行）、PlexMetadataType* 常量归位 types.go、删只写字段 QueueKey/Start 与死类型 musicTracksResult、共用的标题归一化工具抽到 plex_common_match.go 打破歌单导入与音乐刷新互相引用"
+      },
+      {
+        "commit": "449c9d0321cf7dcd66f7be379362e0d9a51576be",
+        "author": "GateCross",
+        "date": "2026-10-03 19:45:25",
+        "message": "feat ✨: 通知两项优化——①贡献者展示用户名+ID：云端资源使用结果新增 creator 字段（缓存缺失时经 CsHashDetail 回填），formatCsCreator 统一拼「名字 (ID)」；②单集剧集通知简介取该集概述：新增 metadata.NoticeOverview，电影/多集/拉取失败回退剧简介，strm302、媒体代理、入库三处通知接入"
+      },
+      {
+        "commit": "9b02bd14f0a330404db4dea51beb19bc0cb8a027",
+        "author": "liurongjie",
+        "date": "2026-10-02 22:42:10",
+        "message": "fix 🐛: 二轮 review 三处修正——①refreshDirThrottled 刷新失败也记录节流时间：目标存储禁用等持续失败场景若失败不缓存，每条任务完成回调都会重试一次真刷（3 万次失败 List）；②停用/卸载取消在途任务加 Silent 过滤：仅取消插件静默入队的任务，用户手动从同源目录发起的复制不被连坐；③改目录配置时在 BeforeUpdate（此刻 p.config 仍是旧配置）提前取消旧源在途任务并将记录转待重试——save 流程的 Stop 用新配置构造实例按新源匹配不到旧任务，原实现旧任务会继续传到旧目标位置仅靠下轮自愈"
+      },
+      {
+        "commit": "910736a0352ff9fa19c53f07d8a3f36d77af2bae",
+        "author": "liurongjie",
+        "date": "2026-10-02 22:35:01",
+        "message": "fix 🐛: 目录列举并发从 8 降到 3——公有云驱动（115/123/夸克）对高频 List API 有风控，8 并发容易触发限流甚至封禁；3 仍比串行快 3 倍（3 万文件扫描约 5 分钟），自建 WebDAV 等无风控压力场景可按需调大"
+      },
+      {
+        "commit": "5da434e5889d974852d7c75a0b77b2e8c983092f",
+        "author": "liurongjie",
+        "date": "2026-10-02 22:32:23",
+        "message": "feat ✨: 目录同步三项优化——①停用/卸载实例取消在途复制任务：按源目录前缀匹配逐个 Cancel（带持久化，重启不复活；CancelByCondition 不落库故不用），停用后台账在途记录批量转 failed（重新启用或下轮立即重试，替代原 12h 在途等待），卸载先取消再清台账避免几万任务白传；②源目录列举并发化：子目录 8 并发递归（顶层串行保底、wg.Add 固定在父 goroutine、refresh 逐层透传保持手动强制刷新语义、本轮新增子目录锁内收局部切片防并发错位），3 万文件一轮扫描从十几分钟降到分钟级；③批量删除上限前置提示：batchAction 自描述带 limit，前端选中超限先警告不再等后端拒绝"
+      },
+      {
+        "commit": "d190138f6b12ab62d9ab1872348b694bb8fc17fc",
+        "author": "liurongjie",
+        "date": "2026-10-02 22:23:13",
+        "message": "fix 🐛: 目录同步大同步场景 review 三处修复——①钩子回写补目标路径校验：目录配置变更后旧配置的在途任务完成回调时，任务实际写入路径（挂载点+目录+文件名）与当前记录映射不一致则不回写，修掉旧任务把新映射记录标成脏 done 而新目标实际缺失的逻辑错误；②目录刷新按目录节流（5 分钟）：大同步完成回调集中在少数目录，RefreshDir/每文件一次都是真实网盘 List API，同目录会被重复刷新上万次打爆 API 并拖慢任务吞吐，新增 TTL 去重保留最终一致；③通用成功钩子的 Get（仅通知取大小用）与 RefreshDir 挪进非静默分支，静默批量任务不再每文件白打两次网盘 API；retryFailed 补实例锁防与同步轮并发对同一文件重复入队"
+      },
+      {
+        "commit": "01eb7c4929f9db8ad6310b546e5c7b5aa46e48fb",
+        "author": "liurongjie",
+        "date": "2026-10-02 21:56:10",
+        "message": "fix 🐛: 目录同步进度展示口径优化——去掉「台账累计」（那是入队结束时刻的快照，与实时进度两套数字并存造成困惑），运行摘要只描述本轮动作（入队/同步完成/各类跳过）并精简通知文案，「在途」更名「在途跳过」明确是跳过动作；详情页实时进度行标注「（实时）」并带文件总数，与历史摘要一眼可分"
+      },
+      {
+        "commit": "dca460b22b96b93707904241170d93669739d3bb",
+        "author": "liurongjie",
+        "date": "2026-10-02 21:48:09",
+        "message": "feat ✨: 目录同步新增「重试失败项」入口——records 返回 failedCount 与 toolbarAction 自描述，前端表格弹窗工具栏在失败数>0 时渲染重试按钮（确认文案 {n} 替换）；retryFailed 按当前目录配置对失败记录重新映射路径（relPath 不变，目录配置变更后仍能对上）静默逐条入队，单次上限 500 防 call 同步超长阻塞，入队失败的单条落回 failed 并记录原因不中断整批，回执按实际入队/失败数如实返回"
+      },
+      {
+        "commit": "11021484ab94464f203b46c5642e6d12e2ab903e",
+        "author": "liurongjie",
+        "date": "2026-10-02 13:24:40",
+        "message": "fix 🐛: 目录同步大同步场景三处修复——①queued 台账超 12h 未必僵死：跨存储大同步（3 万文件级）一轮远超 12h 属正常，僵死判定改为同时校验复制任务是否仍在 CopyTaskManager 存活（按目标路径 Join(挂载点,目录,源文件名) 匹配），存活则跳过重新入队，防次日 cron 把数万在途全部判僵死删目标重传的灾难性重复投递；②插件发起的复制任务静默化：ctx 带 QuietTaskKey 创建的任务带 Silent 标志（随任务持久化、子任务继承），全局成功/失败钩子跳过逐条通知防轰炸（3 万条级），strm 生成/上传联动与插件台账回写不受影响，轮次摘要通知保留；③插件详情展示改实时统计台账进度（已同步/失败/在途），不再只显示入队快照导致长时间无变化"
+      },
+      {
+        "commit": "8d36d4d20e2b6c8ad7eef72826ae6f8a4a392a70",
+        "author": "liurongjie",
+        "date": "2026-10-02 00:15:42",
+        "message": "feat ✨: 云存储目录同步记录支持状态筛选、文件名搜索与批量删除——records 增加 status 白名单与 keyword 参数（rel_path ILIKE 大小写不敏感，%/_/\\ 通配符转义为字面量防误命中），返回 filters/batchAction 自描述供通用表格弹窗渲染筛选工具栏与多选列；新增 deleteRecordBatch 批量删除（body.ids，单次上限 200，SQL 限定 instance_id，按实际影响行数如实回执）"
+      },
+      {
+        "commit": "995bcc0443fbf2b51b153178603de4668d84d687",
+        "author": "liurongjie",
+        "date": "2026-10-01 21:46:36",
+        "message": "fix 🐛: 目录同步分页参数失效——go-zero 解析请求体强制 UseNumber（jsonx.Unmarshal），JSON 数字进 map[string]any 后是 json.Number 而非 float64，records 的 pageNum/pageSize 类型断言静默失败恒取默认值（点下一页永远返回第 1 页、台账超过一页无法翻页）；新增 cloudDirSyncBodyInt 兼容 float64/json.Number/字符串三种形态，deleteRecord 的 id 解析一并收口"
+      },
+      {
+        "commit": "fe03dea68e807009bf5e8564081f2e16d18081aa",
+        "author": "liurongjie",
+        "date": "2026-10-01 10:32:35",
+        "message": "feat ✨: 云存储目录同步支持查看与删除同步记录——插件详情新增「同步记录」表格（records action 自描述列+分页），行级删除（deleteRecord 限定实例内）后该文件下轮按新文件重新复制，复制前统一清理目标同名残留（op.Remove 对 not found 幂等静默）；修复同存储场景（如 115 同账号两目录）transfer 走驱动原生 Copy 同步完成、不产生复制任务、成功钩子不回调，导致台账永久滞留 queued 且「进行中任务」无任务的问题——CopyFile 返回 (nil,nil) 时直接落 done 并刷新目标目录缓存，摘要新增「同步完成」口径"
+      },
+      {
+        "commit": "e46a20d51f2e52145b4bf759dd297792823abc5b",
+        "author": "liurongjie",
+        "date": "2026-10-01 03:42:36",
+        "message": "fix 🐛: 目录同步插件未配置放行判定失效——stdpath.Clean(\"\")返回 \".\" 而非空串,双空判定写在 Clean 之后永远为 false,BeforeCreate 对空配置依旧落到 \".\" 分支报「源目录不能为空或根目录」;改为 Clean 前用 TrimSpace 原值判双空放行(本地 go run 实证 nil/空 map 放行、单边缺失仍拦截)"
+      },
+      {
+        "commit": "dd47d0729b5a412cf4d5841091f56e33f067a8eb",
+        "author": "liurongjie",
+        "date": "2026-10-01 02:52:06",
+        "message": "fix 🐛: 目录同步插件启灵失败「源目录不能为空或根目录」——创建实例时前端只传名称 config 为空,BeforeCreate 校验把未配置当错误拦截;改为源/目标均为空(未配置态)放行交运行时跳过兜底,填了任一路径才做完整校验(改名保存未配置实例同理)"
+      },
+      {
+        "commit": "a9b879e7483c5c89e94575baa5b27e309e5abc58",
+        "author": "liurongjie",
+        "date": "2026-10-01 01:05:43",
+        "message": "feat ✨: 云存储目录同步插件(cloud_dir_sync)——一个实例一条「源目录→目标目录」增量同步规则,定时/手动递归扫描源目录,新增与内容变化文件经 fs.CopyFile 入 CopyTaskManager 复制(进度/重试/持久化复用,115 秒传免流量);cloud_dir_sync_record 台账判重 done 不重传,queued 12h 超时重入队,failed 下轮重试,复制成功/失败全局钩子(sync.Once 注册)回写台账;增量判定 115 SHA1 优先无 hash 退化 size+mtime,done 台账 DstPath 与配置映射不一致自愈失效(防改目录后错误跳过致目标缺文件),变更覆盖先删旧目标防重名副本;源/目标互嵌套保存(BeforeCreate/BeforeUpdate)与运行双重校验防循环复制;防重入锁 sentinel 静默跳过防 cron 通知轰炸;动态表单 cloud_dir_sync.json/详情摘要 DisplayContent/卸载清台账齐备;goctl 重生成对齐 types/routes(含此前 browse 接口遗漏的生成同步)"
+      },
+      {
+        "commit": "cb1f342b8450c8cec2a8cffdabd03a14a077ed99",
+        "author": "liurongjie",
+        "date": "2026-10-01 00:02:34",
+        "message": "fix 🐛: 取消运行中任务卡片滞留「取消中」——Cancel 改为除 Failing/BeforeRetry(worker 收尾钩子进行中)外一律立即终态化 Canceled,从未完成列表即时消失;ctx 已取消持有 worker 仍会感知并后台完成 115 远端任务清理,终态幂等重写无害,needRetry 对 Canceled 不重试已核对"
+      },
+      {
+        "commit": "981c43878ea27fdd85dd517dec37c2ca64d5c5c1",
+        "author": "liurongjie",
+        "date": "2026-09-30 23:41:15",
+        "message": "fix 🐛: 取消排队中任务滞留「取消中」——Cancel 对未被 worker 持有的任务(Pending/Errored/WaitingRetry)直接终态化 Canceled,原先要等 worker 从队列弹出才落地,worker 被占满时批量取消的任务无限滞留未完成列表;运行中任务保持 Canceling 由 worker 感知 ctx 落 Canceled(含云端远端任务清理)"
+      },
+      {
+        "commit": "c231a347b56f0c1831685d368293d51f47c801e8",
+        "author": "xylplm",
+        "date": "2026-09-30 13:48:05",
+        "message": "fix 🐛: 远程服务请求超时统一放宽到 5 分钟——此前各接口本地超时各自为政且偏紧（云资源转发 25 秒、等级查询 5 秒、运营管理 60 秒等），远程处理慢或上调超时上限时会被本地先掐断，用户只能看到笼统的「远程响应未能确认」；现在本地兜底永远不会比远程先断，远程的超时原因能原样透传给用户"
+      },
+      {
+        "commit": "b60ee1a3456e0ee3791c78e5712545b1ff605f53",
+        "author": "xylplm",
+        "date": "2026-09-30 11:39:46",
+        "message": "feat ✨: 媒体库新增浏览接口——按媒体服务器直接浏览库内影片列表与剧集分季集数，App 海报墙浏览页使用"
+      },
+      {
+        "commit": "e71f42d52d3075ab30af1384684a33792c5053c7",
+        "author": "liurongjie",
+        "date": "2026-09-30 00:38:19",
+        "message": "fix 🐛: 图片缓存二次 review 修正——Emby 图片 Cache-Control 档位逻辑错误:pathMaxWidth 只是缩放尺寸不是内容版本段,单独存在不该给一年 immutable(封面就地替换后旧图被钉死客户端),收窄为仅 tag(Etag cache-buster)触发;容量清理单测数字与实现不符(30B/上限20B 会连删两个文件),调整上限为 33B 使「删 1 个最旧」成立;legacy 清理注释改为与幂等实现一致;补 serverTag 同名实例边界与键前缀注释"
+      },
+      {
+        "commit": "490daae77c14dfe472057002342a3813531558b3",
+        "author": "liurongjie",
+        "date": "2026-09-30 00:31:43",
+        "message": "fix 🐛: 图片缓存 review 修正——Emby/Jellyfin 键身份隔离空转(plexRequestToken 只认 X-Plex-Token,api_key/X-Emby-Token 请求恒 anon,实例关匿名图片访问时无凭证请求可命中已授权用户缓存,新增 embyRequestTokenFingerprint 兜住);删接口化遗留死代码 fetchAndStorePlexImageTier 与 imageLogger、writeMediaImageEntry 冗余 host 参数;修过时注释(磁盘 TTL 已由实例配置接管、统计行全部实例累计)并补 pull 回源不注入凭证的语义说明"
+      },
+      {
+        "commit": "227c2f36275d67459fc0f9eaf775db8191b5cf20",
+        "author": "liurongjie",
+        "date": "2026-09-30 00:16:01",
+        "message": "feat ✨: Emby/Jellyfin 图片端点接管(/Items/{id}/Images/{type})——复用统一 tier 流程,Jellyfin 与 Emby 共用 handler 自动生效;键=serverName+身份+itemId/类型+规范化缩放参数与tag(服务器停机无法实测,保守全参数进键最坏同图多份缓存绝不错图,待实测收窄白名单);serve 公共层接口化 mediaImageHost,新增媒体服务器类型只需一个 tier 实例+实现 pull;顺手修复容量清理未按 mtime 最旧优先的原缺陷"
+      },
+      {
+        "commit": "9a95ae0b7daf3bf47d3d794526ff20a4b98b02f8",
+        "author": "liurongjie",
+        "date": "2026-09-30 00:07:43",
+        "message": "feat ✨: 媒体服务器图片缓存统一化——编辑弹窗新增 imageCacheDays(-1 关闭[默认]/0 永久/N 天,tooltip 说明语义),photo 转码层与原图层磁盘 TTL 合并由实例配置接管;磁盘布局统一 media_image_cache/{serverTag}/ 按实例分目录,清理三态(关闭删目录/永久按容量/N 天按 mtime+容量);img_proxy_cache 拆独立清理入口;配置经 ProxyServerOptions 单向传递与 PeriodQuota 同构,前端零改动(动态表单下发)"
+      },
+      {
+        "commit": "310356783c37852b8c38dc6f093bc2b80a437e6f",
+        "author": "liurongjie",
+        "date": "2026-09-29 23:23:24",
+        "message": "perf ⚡: 原始图片磁盘缓存 TTL 3 天放宽到 10 天——PMS 不校验 ts 时封面失效本就只能靠 TTL 兜底,按用户要求延长驻留换更少重复回源;封面就地替换场景旧图最长多留 10 天"
+      },
+      {
+        "commit": "89522ba13d441ee66e0a68e6e1925b912b02e6dd",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "fix 🐛: 等级回源失败的空占位不再覆盖可用旧值——原逻辑把 stale-serve 的旧值一并覆盖成 60s 空占位,远程抖动一次等级摘要就无端消失;现只补键里无可用数据的空缺,防打爆语义与 Levels 口径对齐"
+      },
+      {
+        "commit": "991000f39d8cdd37eef361d3400cc072055b11cf",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: 别名借体双桶流程收口 tryMetadataAliasBuckets/tryMetadataAliasBucket——any-include 与 exact 桶的能力覆盖检查/死数据清理/Accept 串格式清理原为两份同构闭包,借体规则调整漏同步一处即产生桶间行为分叉"
+      },
+      {
+        "commit": "22e3ef61a6b49412bc306c17a2bc6d50fe341327",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: photo/原始图片两层缓存 serve 流程收口 plexImageTier——黑名单/内存命中/singleflight/磁盘/透传兜底与并发闸+失败登记完全同构,原 150 行逐行镜像曾让 photo 层内存准入线晚 image 层两天才补齐;计数器并入 tier.stats"
+      },
+      {
+        "commit": "d370b09586d4ae1d5076b4b071f7c5c5e00ba3ad",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: STRM 身份否定缓存瞬时错误判据收口 isStrmIdentityTransientErr——取消/超时/槽忙不记账的三连判断原在两调用点逐字复制,判据演进漏改一处即重新引入 ea81051d6 误记事故;补判据与记账口径单测"
+      },
+      {
+        "commit": "7aaef707bc4608d0b3a875fe3258832b1b3ab378",
+        "author": "liurongjie",
+        "date": "2026-09-29 22:54:12",
+        "message": "refactor ♻: 日志文件腿整链退役——日志已入 DB 只走 stdout,createFileCores 全链(含轮转配置 Path/Size/Backups/Age/Compress)本就无调用方,删除避免\"配置了却静默无效\"的误导"
+      },
+      {
+        "commit": "3c30c7a6039576700b54dd368bfadccc826aa569",
+        "author": "liurongjie",
+        "date": "2026-09-29 13:17:14",
+        "message": "fix 🐛: photo 内存缓存加 512KB 单条准入——条数上限挡不住 MB 级转码产物(最坏 512×2MB≈1GB 常驻),超线只落盘,与原始图片层同口径"
+      },
+      {
+        "commit": "e8342ca4fe4a79035e34d147e1b34e643d0d5612",
+        "author": "liurongjie",
+        "date": "2026-09-29 13:17:14",
+        "message": "fix 🐛: hubs 变体索引超限先淘汰 24h 未活跃段——原逻辑封顶后永久拒收新键且死键不清理,新用户/新路径的跨变体垫底长期运行后失效"
+      },
+      {
+        "commit": "ea81051d638ede3e415948ea57583ff1d2c88fa9",
+        "author": "liurongjie",
+        "date": "2026-09-29 13:17:14",
+        "message": "fix 🐛: STRM 身份兜底否定缓存不再误记预算切断——取消/超时/槽忙是「我们没等到」而非「路径坏」,误记会让该条目 10min 免 fs.Get 兜底、增强降级伪流"
+      },
+      {
+        "commit": "3907326933f43911ca67d3ffbfc700cb7742ca59",
+        "author": "liurongjie",
+        "date": "2026-09-29 13:17:14",
+        "message": "fix 🐛: 豆瓣 subject collection badge.chart 兼容 object 形态——上游将 string 改为 object 导致整个 items 响应解析失败,字段无消费方改用 RawMessage"
+      },
+      {
+        "commit": "abc198ba139ff7fcaa6374c9b6323e4e03bcf7c5",
+        "author": "xylplm",
+        "date": "2026-09-29 11:14:15",
+        "message": "fix 🐛: 修正模板框架超时单位——go-zero rest 的 Timeout 是毫秒，30 秒应为 30000 而非按纳秒误写的 30000000000"
+      },
+      {
+        "commit": "2c8023e33c1b7758933673c0f47f937377d03f95",
+        "author": "xylplm",
+        "date": "2026-09-29 11:08:44",
+        "message": "perf ⚡: 模板同步框架层超时到 30 秒——go-zero 默认 3 秒会掐断转发远程的长查询，运行环境配置需按模板同步"
+      },
+      {
+        "commit": "f6e8b279c49e0886d5c467ab3b78ecce3cec7382",
+        "author": "xylplm",
+        "date": "2026-09-29 11:05:51",
+        "message": "perf ⚡: 云端资源转发远程的超时从 7 秒放宽到 25 秒——远程查询超时已放宽到 20 秒，转发层留足余量透传远程超时错误，修复站点资源分页与查询 503"
+      },
+      {
+        "commit": "e438585b3658fe3e794835b254ff680a53d34baf",
+        "author": "liurongjie",
+        "date": "2026-09-29 10:19:03",
+        "message": "fix(mediaproxy): 图片回源超尺寸先判 ContentLength，不再读满准入上限再丢弃"
+      },
+      {
+        "commit": "d1f19df60009f3b222cb5d2cb4bfe5963b405e4f",
+        "author": "liurongjie",
+        "date": "2026-09-29 01:35:23",
+        "message": "feat(mediaproxy): 原始图片端点纳管缓存，键按身份分桶 + 失败键黑名单"
+      },
+      {
+        "commit": "f831d3d629eb6f3135a64536a3726b7b88875879",
+        "author": "xylplm",
+        "date": "2026-09-28 19:51:33",
+        "message": "feat ✨: 主后端透传历练打劫接口与打劫配置"
+      },
+      {
+        "commit": "6dd554b7e3b7c811df52b3155a0424e986a70a95",
+        "author": "xylplm",
+        "date": "2026-09-28 14:52:45",
+        "message": "feat ✨: 代理转发法宝履历查询接口——历史法宝分页数据按需拉取，我的法宝列表只传进行中的法宝"
+      },
+      {
+        "commit": "f79cb6d49fbc3c7908bcce677173e11cead7402d",
+        "author": "xylplm",
+        "date": "2026-09-28 13:31:18",
+        "message": "fix 🐛: 嘉奖批次号长度上限与认证服务对齐为 40——超长编号在代理层就该拦下，统一两边口径"
+      },
+      {
+        "commit": "7cc2c14abfd68f56b773942a76c7cba04d1f2622",
+        "author": "xylplm",
+        "date": "2026-09-28 13:31:18",
+        "message": "fix 🐛: 通知转发完成后红点计数立即归零——此前推送已发但角标上的未读数最长滞后 12 小时才消失"
+      },
+      {
+        "commit": "1530be130fd94df9bf04309e935b605963ad63e0",
+        "author": "xylplm",
+        "date": "2026-09-28 13:31:17",
+        "message": "fix 🐛: 历练出发后目录立即更新今日剩余次数——此前出发一次后页面最长 12 小时还显示旧的剩余额度，再点被服务端按真实额度拦下报错"
+      },
+      {
+        "commit": "3cd135669358424682b5fcac9c0c8a2f7b2a08b2",
+        "author": "xylplm",
+        "date": "2026-09-28 12:26:26",
+        "message": "fix 🐛: 对接凭证过期时的正常流程不再刷错误日志——脚本查不到凭证返回空在技术上是“未命中”而非故障，与队列查询同款处理"
+      },
+      {
+        "commit": "ccff4085f0416ba894a64be71111588dc9e33873",
+        "author": "xylplm",
+        "date": "2026-09-28 12:06:51",
+        "message": "feat ✨: 万宝阁目录支持强制刷新——购买或售罄后页面与手机端下拉刷新立即拿到最新库存，不再受 12 小时缓存影响"
+      },
+      {
+        "commit": "6cb3f93dd876fdfa3471575d237cae105b12f5c2",
+        "author": "xylplm",
+        "date": "2026-09-28 11:52:46",
+        "message": "fix 🐛: 法宝配置保存未填价格时不再清掉原估值——与库存、上架开关同样的保留规则，防止转赠税费误按 0 估值收取"
+      },
+      {
+        "commit": "be2b19c62923c56ca2d75c29b44e4d036a81ca2c",
+        "author": "xylplm",
+        "date": "2026-09-28 11:48:06",
+        "message": "fix 🐛: 法宝售罄后目录立即刷新——此前售罄报错后页面刷新仍显示旧库存，可以反复点击直到缓存自然过期（最长 12 小时）"
+      },
+      {
+        "commit": "689d19677ceaa231ca21c1734e2fcf7bbc7ca6c7",
+        "author": "xylplm",
+        "date": "2026-09-28 11:46:36",
+        "message": "fix 🐛: 网页与扩展的对接凭证改为严格一次一用——极端并发下同一凭证可能被重复核验通过，现在核验与作废一步完成"
+      },
+      {
+        "commit": "f8521482d988325549b51f3f7e87ecb57588ded2",
+        "author": "xylplm",
+        "date": "2026-09-28 11:45:29",
+        "message": "fix 🐛: 系统开关里的远程用户标识补进接口定义文件——此前只在代码里手写，重新生成代码时会丢失导致编译失败"
+      },
+      {
+        "commit": "1cd9ec1e5095352deda89337532b3635117d5d80",
+        "author": "xylplm",
+        "date": "2026-09-28 11:04:29",
+        "message": "feat ✨: 法宝上架开关代理透传——目录配置携带 isOnSale 可选指针，缺省保留远程现值"
+      },
+      {
+        "commit": "a8d390ed5f58e80a201b2011d3e7e8d809217bac",
+        "author": "xylplm",
+        "date": "2026-09-28 10:42:22",
+        "message": "feat ✨: 万宝阁库存代理适配——购买成功即失效目录缓存（库存即时可见），法宝配置透传库存字段（缺省保留远程现值）"
+      },
+      {
+        "commit": "03d1ba08c75b2eb90237d72138daea4aa7ded684",
+        "author": "xylplm",
+        "date": "2026-09-28 09:45:07",
+        "message": "fix 🐛: 主后端镜像修复——生效法宝摘要补齐稀有度与效果参数字段，首页法宝加成标签恢复正常显示"
+      },
+      {
+        "commit": "b20071ac67d62a80501aa168f30caeabdbe2a3e9",
+        "author": "xylplm",
+        "date": "2026-09-27 18:21:06",
+        "message": "feat ✨: 扩展桥接新增通用的一次性交互凭证签发/核验接口"
+      },
+      {
+        "commit": "70d19e4bae6cc8746d31782c21292e33dca0bd73",
+        "author": "xylplm",
+        "date": "2026-09-27 15:39:40",
+        "message": "feat(flags): 系统开关透出 remoteUserId——云资源本人上传判定（免费角标/编辑入口）"
+      },
+      {
+        "commit": "d7133a8d5bbb8a14af6a6211cbda08a11f101ec9",
+        "author": "xylplm",
+        "date": "2026-09-27 14:06:06",
+        "message": "feat(realm): 境界互动体系主后端代理层 v1.10~v1.13——透传/通知器/管理端"
+      },
+      {
+        "commit": "d1073f6871bca9b9ee55f6fb0155766837c06fd3",
+        "author": "liurongjie",
+        "date": "2026-09-28 14:11:02",
+        "message": "perf(mediaproxy): 详情页不再预热 115 直链 + 预取入口 12/min 限速——downurl 回到播放驱动"
+      },
+      {
+        "commit": "fec97482dabf6f5de8b4d9df7599023984bf856b",
+        "author": "GateCross",
+        "date": "2026-09-27 22:14:45",
+        "message": "feat: 云资源分组视图支持创作者查询与组级分页"
+      },
+      {
+        "commit": "a2d04e14e6c7f4b42a1d50b58e72e7a025454c8e",
+        "author": "liurongjie",
+        "date": "2026-09-27 10:42:50",
+        "message": "fix(mediaproxy): strm 解析失败日志补充脱敏 URL，便于定位 401 等状态码来源"
+      },
+      {
+        "commit": "af8ced0b0ddf34f6cb633ceacf01a31a97c4ab37",
+        "author": "liurongjie",
+        "date": "2026-09-26 10:24:17",
+        "message": "perf(mediaproxy): 列表缓存命中也调度详情预取——堵住重启后新条目详情冷开缺口"
+      },
+      {
+        "commit": "ded263383250c58ae832812c3cdb1b8f2491757c",
+        "author": "liurongjie",
+        "date": "2026-09-26 00:30:06",
+        "message": "fix(logger): 日志落库 INSERT 加 ON CONFLICT DO NOTHING，修复超时重试必撞主键"
+      },
+      {
+        "commit": "4f32b772d80f6e0deec39697c29447c099d44ac5",
+        "author": "liurongjie",
+        "date": "2026-09-26 00:05:35",
+        "message": "feat(mediaproxy): hubs 预热种子扩三客户端家族模板 + 跨变体非空垫底兜空壳"
+      },
+      {
+        "commit": "4b057debd5623c0244b7bf7d4627e277bfe87d0c",
+        "author": "liurongjie",
+        "date": "2026-09-25 22:05:56",
+        "message": "perf(mediaproxy): 重启后首轮预热预算 10→40——冷启动窗从半小时级压到单轮"
+      },
+      {
+        "commit": "dcf956f09c165efc21b1676001820fb9abe75f9e",
+        "author": "liurongjie",
+        "date": "2026-09-25 21:09:06",
+        "message": "fix(mediaproxy): 身份兜底 worker 兜底 panic 转错误——消除迟到回写 goroutine 悬等泄漏"
+      },
+      {
+        "commit": "c85b9c7f36a01f37ed0e9d89157a140a8c40c34a",
+        "author": "liurongjie",
+        "date": "2026-09-25 20:35:55",
+        "message": "fix(logger): 池驱逐恢复值按部署配置回填 + 驱逐判据改连续熔断周期"
+      },
+      {
+        "commit": "2a0519531c344dfff1df1fe3a44de5c59b4585e0",
+        "author": "liurongjie",
+        "date": "2026-09-25 19:36:52",
+        "message": "perf(mediaproxy): Redis TTL 收敛 10d——活跃键 stale 刷新入库即续期 + 存量 30d 键启动后统一压帽"
+      },
+      {
+        "commit": "0f1b5755b345dda85c1bd8e9e45c7016676aea4e",
+        "author": "liurongjie",
+        "date": "2026-09-25 19:23:39",
+        "message": "perf(mediaproxy): Redis 膨胀治理——TTL 30d→3d + token 桶仅内存 + 1MB 写入准入 + 水位观测"
+      },
+      {
+        "commit": "169e34546afcf52e045c5416d07e361943f2d51a",
+        "author": "liurongjie",
+        "date": "2026-09-25 15:40:34",
+        "message": "perf(mediaproxy): photo 转码缓存 + hubs 首页聚合 serve 预算与熔断降窗 + 落库静默自愈观测"
+      },
+      {
+        "commit": "7c70352fe0ead14f97dffe90ba2f5fc8b99de7d2",
+        "author": "liurongjie",
+        "date": "2026-09-25 09:57:08",
+        "message": "perf(mediaproxy): 预取去 checkFiles 掐掉后台 Scanner 触发源 + 后台回源预算收敛 10s"
+      },
+      {
+        "commit": "538e8582509494dff3c3039cc576acbf7cbb9e79",
+        "author": "liurongjie",
+        "date": "2026-09-25 01:25:27",
+        "message": "perf(mediaproxy): 后台回源超时熔断+跨路径去重 + 日志腿异步化与停摆归因加强"
+      },
+      {
+        "commit": "332b7177a351d279d89299dea06ead0af49c99b9",
+        "author": "liurongjie",
+        "date": "2026-09-24 16:27:36",
+        "message": "perf(mediaproxy): hubs 预热与详情预取去突发 + 整进程停摆取证打点"
+      },
+      {
+        "commit": "9722b8dfd8fb6d8148fb698dc5f53482bd67d529",
+        "author": "liurongjie",
+        "date": "2026-09-24 12:06:20",
+        "message": "perf(mediaproxy): STRM 探测查询加总预算 + 降级归因按成因拆分"
+      },
+      {
+        "commit": "8d7e0dd893d9b78720fe981b241418bb40caf0e5",
+        "author": "liurongjie",
+        "date": "2026-09-24 09:54:13",
+        "message": "perf(mediaproxy): 后台刷新闸门满改为有界排队（去重+判废+详情让路）"
+      },
+      {
+        "commit": "cb43a71b010fd166e2e9ff6d1f481e3944caf5ad",
+        "author": "liurongjie",
+        "date": "2026-09-24 00:08:40",
+        "message": "feat(mediaproxy): 后台刷新闸门可观测性 + STRM 身份兜底否定缓存与迟到回写"
+      },
+      {
+        "commit": "a7eb3afa6bbeb3e11dddfe89238541bf98adee3f",
+        "author": "GateCross",
+        "date": "2026-09-23 23:56:24",
+        "message": "fix: 优化用户等级异步刷新上下文传递并增加回源错误日志"
+      },
+      {
+        "commit": "407528fdcfe91c8feac1716ac76a647c8d92d2b0",
+        "author": "liurongjie",
+        "date": "2026-09-23 22:28:02",
+        "message": "fix(mediaproxy): 别名借体改 SWR 直出 + dirWarm 成功类日志降噪"
+      },
+      {
+        "commit": "6d20b08df79d145605c015c5590bca6d943c7693",
+        "author": "GateCross",
+        "date": "2026-09-23 22:27:49",
+        "message": "fix: 支持Strm播放通知在免打扰时段按策略汇总"
+      },
+      {
+        "commit": "f7f09bf5a10fd99c6c828b290450058db73095ac",
+        "author": "liurongjie",
+        "date": "2026-09-23 17:45:46",
+        "message": "fix(mediaproxy): 惰性 include 维度双向剔除 + related 预热形态纠正为实抓同构"
+      },
+      {
+        "commit": "a1c6d390b7b3bd529acf58d33018f9c7d99322f1",
+        "author": "liurongjie",
+        "date": "2026-09-23 16:25:45",
+        "message": "fix(mediaproxy): 别名桶禁降级与借体同源——iOS 等宽体不再挤掉新超集体"
+      },
+      {
+        "commit": "036bb64db0e890319f4d7cc5a3889a585d1776a0",
+        "author": "liurongjie",
+        "date": "2026-09-23 16:13:55",
+        "message": "fix(mediaproxy): 超集名单对齐 Web 客户端 + 旁路预热按实抓形态补参数"
+      },
+      {
+        "commit": "ccf3914a042cf66dac647a1813d8e591945014ef",
+        "author": "liurongjie",
+        "date": "2026-09-23 00:33:14",
+        "message": "fix(mediaproxy): 借体年龄门槛同源 2h + 后台刷新并发闸门与 10s 快失败"
+      },
+      {
+        "commit": "074a06be6924a014a02e4f040f7f2a2062134b1d",
+        "author": "liurongjie",
+        "date": "2026-09-22 22:31:51",
+        "message": "fix(mediaproxy): 别名借体加年龄上限 + STRM 降级伪流治理 + 缓存出口 gzip"
+      },
+      {
+        "commit": "053126668dcca6724531994efd716b1510abe048",
+        "author": "liurongjie",
+        "date": "2026-09-22 16:04:21",
+        "message": "fix(mediaproxy): metadata 回源恢复分页参数透传——修复电视剧详情季/集区块整块不渲染（2026-09-22 事故）"
+      },
+      {
+        "commit": "1a2ee37d759d381fb44b68ca9733d1cc687ef2e2",
+        "author": "liurongjie",
+        "date": "2026-09-22 11:50:42",
+        "message": "fix(mediaproxy): cf=1 客户端借体补丁直出 + 别名桶禁降级——修复详情首开恒全价回源"
+      },
+      {
+        "commit": "9d49aea77bdd814ffac443e5b7920e8d4c473780",
+        "author": "xylplm",
+        "date": "2026-09-22 10:12:47",
+        "message": "fix 🐛: 术语统一——识别词相关文案与错误提示更名为「云识别词」"
+      },
+      {
+        "commit": "cb2d8d8381e89b5a1ed6cd6573364e1651c05b3e",
+        "author": "xylplm",
+        "date": "2026-09-22 09:30:52",
+        "message": "fix 🐛: 等级变动推送改显示境界名称而非编号，境界跌落不再误报为晋升"
+      },
+      {
+        "commit": "fc7b3602c88cab604a286e3d5e3b70a6d3d5ad2e",
+        "author": "liurongjie",
+        "date": "2026-09-21 23:58:09",
+        "message": "fix(mediaproxy): 修复 query 假 Accept 定桶标导致 hubs 拒用死循环与空货架负缓存过短（2026-09-21 排查）"
+      },
+      {
+        "commit": "b0ceb3eeba7e7b61c698f8159076bf50e341b551",
+        "author": "GateCross",
+        "date": "2026-09-21 14:03:16",
+        "message": "fix: 分组查询限制必须提供tmdbId或关键词避免超时"
+      },
+      {
+        "commit": "afc62cdbc3b0f7f3f956cffbb6086f2af41c4047",
+        "author": "liurongjie",
+        "date": "2026-09-20 17:31:47",
+        "message": "fix(mediaproxy): 修复 X-Plex-Text-Format 串格式桶导致 iOS 详情页崩溃（2026-09-20 事故）"
+      },
+      {
+        "commit": "a13966ba09e866e2c74ff71c32703f1fe1f55347",
+        "author": "xylplm",
+        "date": "2026-09-20 13:50:16",
+        "message": "feat ✨: 等级体系货币更名——用户通知与注释中的\"灵石\"统一改为\"仙石\""
+      },
+      {
+        "commit": "bc299d4e8e2e25a51e442b0ff3e43c4f642778e4",
+        "author": "GateCross",
+        "date": "2026-09-20 10:26:07",
+        "message": "fix(cs_hash): 修复云存储资源搜索按能力展开导致成对重复2条的问题"
+      },
+      {
+        "commit": "12b20a1ac9887ae47cfa50b7c5c0b6cd444a6a7f",
+        "author": "xylplm",
+        "date": "2026-09-20 00:31:38",
+        "message": "feat ✨: 主后端运维管理代理层——用户/等级/版本/配置四组 ops 代理与平台管理员 flag"
+      },
+      {
+        "commit": "e28077cca8d19d2b72689d98db3edd042ea59773",
+        "author": "xylplm",
+        "date": "2026-09-19 14:17:24",
+        "message": "feat ✨: 主后端等级体系代理与缓存层"
+      },
+      {
+        "commit": "43351eb7e1b4eaa0214674397cbb20e9810e7c7f",
+        "author": "liurongjie",
+        "date": "2026-09-20 00:10:38",
+        "message": "fix(mediaproxy): 探活回填与 ID-flight 对齐 exclude 投影语义（review 自查修复）"
+      },
+      {
+        "commit": "c372e48a4c270380bf8d9f891bcda1b79e2b23c2",
+        "author": "liurongjie",
+        "date": "2026-09-20 00:03:47",
+        "message": "fix(subscribe): 云资源提交期失败接通 3 击拉黑计数"
+      },
+      {
+        "commit": "acac5bfbea8e092010de3a3da794a967e09596cc",
+        "author": "liurongjie",
+        "date": "2026-09-20 00:03:33",
+        "message": "fix(mediaproxy): 超集回源保留 exclude 投影 + 剥容器分页参数 + flight 键加参数签名修 sharedFetched"
+      },
+      {
+        "commit": "eecbb835d3412ca8a67199de95f397436eb66bba",
+        "author": "liurongjie",
+        "date": "2026-09-19 23:18:50",
+        "message": "fix(logger): 熔断冷却过期半开清零失败计数防死循环 + flush loop panic 防护壳自重启"
+      },
+      {
+        "commit": "844b39438499f8d33875559ea01b4f549056ccec",
+        "author": "liurongjie",
+        "date": "2026-09-19 22:57:20",
+        "message": "fix(mediaproxy): 身份解析链 review 补缺——冷解析优先 redis 取身份 + fs.Get 统一并发槽防配额互拖"
+      },
+      {
+        "commit": "ec745088f82709c7bb55dacb0b4b2f5d2ee64098",
+        "author": "liurongjie",
+        "date": "2026-09-19 22:52:23",
+        "message": "feat(mediaproxy): strm 内容身份（sha1）进 redis——pickCode 同款模式，跨重启免网盘取身份"
+      },
+      {
+        "commit": "59520c293dbde0202805d722673f954c2eb63ba5",
+        "author": "liurongjie",
+        "date": "2026-09-19 22:36:59",
+        "message": "fix(mediaproxy): strm 增强解析链根治——fs.Get 硬超时不拖客户端 + 无 hash 自指修复 + 降级负缓存"
+      },
+      {
+        "commit": "ecb795f4be89013ce0a97c88e9dd8e8f76d82706",
+        "author": "liurongjie",
+        "date": "2026-09-19 21:59:32",
+        "message": "fix(mediaproxy): 探活冷却表加周期清扫——sync.Map 按 ID 只增不减，兜底长期运行内存上限"
+      },
+      {
+        "commit": "cfcebedcee27e435bc615107327aa88d762da599",
+        "author": "liurongjie",
+        "date": "2026-09-19 15:47:56",
+        "message": "fix(mediaproxy): 探活回填占位竞态让位——冷却占位失败时返回而非继续排队"
+      },
+      {
+        "commit": "7d943b9d489042a72770fd03ff4b62d27d8dcb10",
+        "author": "liurongjie",
+        "date": "2026-09-19 15:40:56",
+        "message": "perf(mediaproxy): 探活回填覆盖 asyncCheckFiles 客户端 + 冷却后延迟重试，补齐 cf=1 超集桶供给"
+      },
+      {
+        "commit": "bdc59a746310f04763ef01f815600fe31d6c445b",
+        "author": "liurongjie",
+        "date": "2026-09-19 12:26:50",
+        "message": "perf(mediaproxy): 详情缓存桶全量超集化 + 同 ID 并发变体等首飞，修首点秒级全价回源"
+      },
+      {
+        "commit": "93a54860e658d6c6d28a2e095c50f43a3c7bb6fd",
+        "author": "liurongjie",
+        "date": "2026-09-19 10:26:11",
+        "message": "revert(mediaproxy): 撤销步骤型 debug 日志 5s 窗口采样降噪"
+      },
+      {
+        "commit": "b83371779928519f4c95a8e21d50c02821c0e2f2",
+        "author": "liurongjie",
+        "date": "2026-09-19 09:12:12",
+        "message": "fix(logger): 日志落库改异步批量通道，杜绝 BufferedWriteSyncer 一次失败永久断流"
+      },
+      {
+        "commit": "fa5213078349e3b204cbf6e97b31bd7153b5db56",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:40:13",
+        "message": "fix(mediaproxy): hubs/browse 刷新与详情预取的 detail 门从放弃改为后台避让"
+      },
+      {
+        "commit": "12743772c633b12923ac4524ae242f0c06994d09",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:20:28",
+        "message": "fix(mediaproxy): metadata 后台刷新回填后同样预热增强产物"
+      },
+      {
+        "commit": "f975aef7341f421e7e6affa95492b2f4f78dda63",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:17:02",
+        "message": "fix(logger): 恢复日志落库 5s 写超时并加连续失败熔断，DSN 补 connect_timeout=5"
+      },
+      {
+        "commit": "b2b129b046f68494be3eb1ad72e1203cb77f4377",
+        "author": "liurongjie",
+        "date": "2026-09-19 02:10:35",
+        "message": "fix(mediaproxy): 详情预取参数升级 iOS 组合超集 + 预取后预热增强产物"
+      },
+      {
+        "commit": "f302df2e0a7a1d2d16a82b366b66bcb48faf0f59",
+        "author": "liurongjie",
+        "date": "2026-09-19 01:36:56",
+        "message": "fix(mediaproxy): 缓存响应补 CORS 回显 + 探活冷却期刷新退 plain 路径"
+      },
+      {
+        "commit": "fbc6892ae9fbdacfbca8bd4b973fcbd4afa1c3b9",
+        "author": "liurongjie",
+        "date": "2026-09-19 00:18:09",
+        "message": "perf(mediaproxy): 步骤型 debug 日志按 5s 窗口采样降噪"
+      },
+      {
+        "commit": "92a03d61d3b73f191cab984f0e2f6f4c4544561e",
+        "author": "liurongjie",
+        "date": "2026-09-19 00:08:47",
+        "message": "docs(clouddrive2): 路径映射说明明确 ms 侧→CD2 方向与填写规则"
+      },
+      {
+        "commit": "18e0ee10617c34ec4da1ec1adde586766f3594ae",
+        "author": "liurongjie",
+        "date": "2026-09-19 00:08:36",
+        "message": "fix(mediaproxy): metadata 探活回源加 10min 冷却，防超时重试风暴打满 PMS"
+      },
+      {
+        "commit": "ee242ac628cac397da6bf9d421bae09d8a303f4e",
+        "author": "xylplm",
+        "date": "2026-09-18 22:39:25",
+        "message": "feat ✨: 云端资源改为按需取料，列表不再暴露哈希与下载链接"
+      },
+      {
+        "commit": "e992141eef3f73e3f75a77164c58ef842642ab54",
+        "author": "liurongjie",
+        "date": "2026-09-17 22:59:01",
+        "message": "Revert \"fix(logger): 日志落库加 5s 写超时 + PG DSN connect_timeout，杜绝 PG 失联拖冻结全进程\""
+      },
+      {
+        "commit": "a6c0f7bc746b06a1bf1374ad262bf281848ee0fd",
+        "author": "liurongjie",
+        "date": "2026-09-16 16:36:59",
+        "message": "fix(logger): 日志落库加 5s 写超时 + PG DSN connect_timeout，杜绝 PG 失联拖冻结全进程"
+      },
+      {
+        "commit": "c779ac60beb03d1cfc164c62457cceb8fb721205",
+        "author": "liurongjie",
+        "date": "2026-09-15 23:38:33",
+        "message": "fix(mediaproxy): promoted 回源出站剥离 pinned，规避 PMS 致空 bug"
+      },
+      {
+        "commit": "fbbba41f2ba067fd5e7ae892305e08c7c83c8397",
+        "author": "liurongjie",
+        "date": "2026-09-15 17:58:05",
+        "message": "fix："
+      },
+      {
+        "commit": "409172f413d118aecc2d151cd147e3b27649e366",
+        "author": "liurongjie",
+        "date": "2026-09-15 16:34:39",
+        "message": "fix：修复下载器保存校验"
+      },
+      {
+        "commit": "129885884e15ad78e43ca7286319aa627357ba5b",
+        "author": "liurongjie",
+        "date": "2026-09-15 09:59:50",
+        "message": "fix(mlist): narrow playback link cache changes"
+      },
+      {
+        "commit": "6bc265313ed2f267d033e92eb1a5a37da8bb6e09",
+        "author": "liurongjie",
+        "date": "2026-09-15 02:49:43",
+        "message": "fix(mediaproxy): refresh expired 115 playback links"
+      },
+      {
+        "commit": "a62332829616a9f6b3faf879eac59bee1a7ec25e",
+        "author": "liurongjie",
+        "date": "2026-09-14 18:35:28",
+        "message": "fix(mediaproxy): 无标签别名条目读时顺手删除，止住借体拒绝刷屏"
+      },
+      {
+        "commit": "85ef6bfa77c871c1de41e52662dbdcc87732065c",
+        "author": "liurongjie",
+        "date": "2026-09-14 15:40:07",
+        "message": "fix(mediaproxy): promoted 空 origin 不再 stale 兜底，阻断污染条目反复垫出"
+      },
+      {
+        "commit": "85ca9039ff6ca534391caddc81b090779bbe5547",
+        "author": "liurongjie",
+        "date": "2026-09-14 13:40:27",
+        "message": "Revert \"fix(mediaproxy): promoted 回源规避 PMS pinned+excCW 致空 bug，修首页推荐全空\""
+      },
+      {
+        "commit": "6246c76529381359ac656e6046b93ddb7f0c4b4b",
+        "author": "liurongjie",
+        "date": "2026-09-13 23:03:49",
+        "message": "fix(mediaproxy): related/similar 回源超时回空壳 200，不再让客户端弹错误"
+      },
+      {
+        "commit": "04058d2ae5f1051c3b4907c63cf2763f649c0550",
+        "author": "liurongjie",
+        "date": "2026-09-13 22:32:10",
+        "message": "fix(mediaproxy): promoted 回源规避 PMS pinned+excCW 致空 bug，修首页推荐全空"
+      },
+      {
+        "commit": "ad50f16c76e85f81b58b8a4274247cafd5053327",
+        "author": "liurongjie",
+        "date": "2026-09-13 13:21:41",
+        "message": "perf(mediaproxy): hubs 预热空体变体连续两轮剔除，不再每轮白打 PMS"
+      },
+      {
+        "commit": "e26ea2af39cdb716d04dac81816cc795189bcbbe",
+        "author": "liurongjie",
+        "date": "2026-09-13 02:15:32",
+        "message": "fix(mediaproxy): 预热新鲜判定回退全局阈值，修 90s 档致全量回源轰炸 PMS"
+      },
+      {
+        "commit": "80340bd59d5a139eeed09d468df47b0d5c252271",
+        "author": "liurongjie",
+        "date": "2026-09-13 02:11:18",
+        "message": "fix(mediaproxy): 随机分类 hub 响应收紧 softTTL 至 90s，不再被缓存钉死"
+      },
+      {
+        "commit": "bfdc9b3f89993e26875aa014d66ef6c4299a96a4",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:47:32",
+        "message": "fix(mediaproxy): alias 能力标签补 exclude* 维度，修 excludeElements 变体借体缺字段"
+      },
+      {
+        "commit": "8348c1e0895a80f6831ccd52395be22abbcd350c",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:23:51",
+        "message": "fix(mediaproxy): hubs 预热观测持久化移出热路径并加 60s 写节流"
+      },
+      {
+        "commit": "7d70db68cc2aceb29cbbe3051d2ee84337291248",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:18:40",
+        "message": "perf(mediaproxy): hubs 预热观测存 canonical 并持久化，首轮放宽超时+并发"
+      },
+      {
+        "commit": "0ac2d6a502b17ca3cbe91b388f3f3632fa626375",
+        "author": "liurongjie",
+        "date": "2026-09-13 01:09:45",
+        "message": "fix(mediaproxy): 详情 alias 借体按变体能力覆盖放行，修 Mac 首开缺字段报错"
+      },
+      {
+        "commit": "1dac2ffa435a2089af9cf9e689d1216467dfe89c",
+        "author": "liurongjie",
+        "date": "2026-09-13 00:14:47",
+        "message": "fix(mediaproxy): hubs 预热首轮延迟 15s 立即执行，修部署后 4min 冷启动残留窗口"
+      },
+      {
+        "commit": "8b96d02f693df679e87ccbd9580dc603821e997b",
+        "author": "liurongjie",
+        "date": "2026-09-12 23:28:18",
+        "message": "fix(mediaproxy): 预热器主动发现全部库并预埋库页标准变体，修重启后库页首击 Uh Oh"
+      },
+      {
+        "commit": "91046ed18efe55091a39d0bf08985e1efbc6db5e",
+        "author": "liurongjie",
+        "date": "2026-09-12 18:32:02",
+        "message": "perf(mediaproxy): hubs 预热新鲜阈值对齐 softTTL，回源量减半"
+      },
+      {
+        "commit": "ed9143744df4fd7b2d8be648ee9b72b6c2b3d35a",
+        "author": "liurongjie",
+        "date": "2026-09-12 17:59:19",
+        "message": "fix(mediaproxy): 增强结果缓存 key 补客户端维度，修官方/第三方产物串味"
+      },
+      {
+        "commit": "39760e1995a4e05b2b687b5d733ec50bee059f35",
+        "author": "liurongjie",
+        "date": "2026-09-12 17:48:11",
+        "message": "feat(mediaproxy): 元数据增强对全部客户端生效，仅后缀伪装保留 Plex 官方专属"
+      },
+      {
+        "commit": "6d29c76fa0dbfdf74beb43884eeafe06912ff752",
+        "author": "liurongjie",
+        "date": "2026-09-12 15:58:31",
+        "message": "fix(mediaproxy): probe 断供的伪流增强产物不进长缓存，恢复后立即自愈"
+      },
+      {
+        "commit": "53f09f6111f067fe6e39f2244af10edac1a96c23",
+        "author": "liurongjie",
+        "date": "2026-09-12 12:46:29",
+        "message": "fix(mediaproxy): hubs 预热观测改为 handler 自持 warmTarget，修复静默丢空"
+      },
+      {
+        "commit": "bb03ef795ede5638a6d998ece71c9b05b4d829a3",
+        "author": "liurongjie",
+        "date": "2026-09-12 12:12:28",
+        "message": "fix(mediaproxy): hubs 预热器全链路可观测 + 选轨记忆负缓存防 Redis 频扰"
+      },
+      {
+        "commit": "609df88221e5fb11304fedf58e0774694564ce64",
+        "author": "liurongjie",
+        "date": "2026-09-12 11:39:37",
+        "message": "feat(mediaproxy): strm 选轨记忆持久化 Redis，跨重启保持用户字幕/音轨选择"
+      },
+      {
+        "commit": "cc3bf33dda915bb682a208bcd5a72b244a6318d7",
+        "author": "liurongjie",
+        "date": "2026-09-12 11:21:11",
+        "message": "fix(mediaproxy): 选轨请求 CORS 实证修复+回退无实证改动；真实请求回放测试固化"
+      },
+      {
+        "commit": "5a5a59edb61ace2f1399247cf1b5697800fd8c64",
+        "author": "liurongjie",
+        "date": "2026-09-12 10:50:39",
+        "message": "fix(mediaproxy): 元数据命中路径补建 pathCache 空窗，选轨 PUT 不再转发 PMS 吃 400"
+      },
+      {
+        "commit": "07ce41c3d1310e68ecca3bdaccf90826bddba123",
+        "author": "liurongjie",
+        "date": "2026-09-12 09:57:52",
+        "message": "fix(mediaproxy): strm 选轨树/元数据 selected 同源补齐，单参数探测缺维度回落"
+      },
+      {
+        "commit": "914ee26759e15b1dd3f4d0f47ac1418bb9aafc6a",
+        "author": "liurongjie",
+        "date": "2026-09-12 02:14:22",
+        "message": "perf(mediaproxy): promoted 纳入预热 + onDeck 接入 hubs 缓存 + 预热变体分键"
+      },
+      {
+        "commit": "782af0fd2da1d654d78382f320b636627efb666f",
+        "author": "liurongjie",
+        "date": "2026-09-12 01:45:52",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 恢复 200 选轨树，修伪会话下仅首次可切"
+      },
+      {
+        "commit": "5d7513854c9c06f9f9ab7a9de82355bd351e33bb",
+        "author": "liurongjie",
+        "date": "2026-09-12 00:43:18",
+        "message": "fix(mediaproxy): 摘除 HLS remux 全部代码并回滚注入流 id 为 0 基（Index）"
+      },
+      {
+        "commit": "ced394b5ffd0ff966d432928b98ffe76a8c5ad4a",
+        "author": "liurongjie",
+        "date": "2026-09-12 00:33:03",
+        "message": "feat(downloader): 下载器表单新增公网地址配置，选填仅 app 使用"
+      },
+      {
+        "commit": "98bdc9c489f5b11fddb189aca5c945f77d3da211",
+        "author": "liurongjie",
+        "date": "2026-09-12 00:09:48",
+        "message": "test(dynamicform): 表单开关回归守卫——Plex 表单必须暴露代理关键开关"
+      },
+      {
+        "commit": "457f86fa4f2dcb72835722f0b402233a05f579bb",
+        "author": "liurongjie",
+        "date": "2026-09-11 23:56:59",
+        "message": "fix(mediaserver): Plex 动态表单补 STRM HLS 换轨开关，修编辑弹窗无此开关"
+      },
+      {
+        "commit": "00dbcca82bbe480bbd3beb338880376d3af911ae",
+        "author": "liurongjie",
+        "date": "2026-09-11 23:15:56",
+        "message": "fix(mediaproxy): ffmpeg 后台安装失败允许下次会话重试"
+      },
+      {
+        "commit": "ba616e87d3384942136f1f21ff81490d3e97037c",
+        "author": "liurongjie",
+        "date": "2026-09-11 23:15:56",
+        "message": "fix(mediaproxy): fillStrmSelectionDefaults 在克隆上补齐音频回落"
+      },
+      {
+        "commit": "d5aa7ddba8da3533c35ea0c0ce3920bf349c2a7c",
+        "author": "liurongjie",
+        "date": "2026-09-11 23:15:47",
+        "message": "fix(mediaproxy): HLS 子清单不做会话前缀重写，修分片二次前缀恒 404"
+      },
+      {
+        "commit": "a2e98bac6fdac453cd2568df1e8a7cee81057224",
+        "author": "liurongjie",
+        "date": "2026-09-11 23:15:37",
+        "message": "fix(mediaproxy): acquireHLSSession 无 ffmpeg 分支误二次解锁并残留空壳会话"
+      },
+      {
+        "commit": "3d760fb3b78ffe83b449ee823ed83fbfab92a1df",
+        "author": "liurongjie",
+        "date": "2026-09-11 23:14:31",
+        "message": "fix(mediaserver): 代理配置 HLS 开关改布尔 PlexHLSRemux，修 HEAD 构建失败"
+      },
+      {
+        "commit": "5812503b2442e1b7c26e22577d8189bacd52d2fb",
+        "author": "liurongjie",
+        "date": "2026-09-11 19:31:40",
+        "message": "fix(mediaproxy): start.m3u8 按 ratingKey 兜底匹配会话"
+      },
+      {
+        "commit": "955f83b60ee8ed458af6815a67bf1c600a627c64",
+        "author": "liurongjie",
+        "date": "2026-09-11 18:39:02",
+        "message": "feat(mediaproxy): ffmpeg 缺失自动后台安装 + 启动查找链扩展"
+      },
+      {
+        "commit": "4b98ed883f6d4dfe523da6874f22b3a1079afeb0",
+        "author": "liurongjie",
+        "date": "2026-09-11 18:14:53",
+        "message": "feat(mediaproxy): HLS 端点接线完成——开关打开即启用播放中切轨"
+      },
+      {
+        "commit": "0b4caef30e5c295c64575fc496864e091a604fb3",
+        "author": "liurongjie",
+        "date": "2026-09-11 17:51:41",
+        "message": "feat(mediaserver): 配置流 API 层透出 PlexHLSRemuxSections 库维度字段"
+      },
+      {
+        "commit": "24de1bce67225fea8003fb80737cf7fc4da932a2",
+        "author": "liurongjie",
+        "date": "2026-09-11 17:05:54",
+        "message": "fix: 补 net/http 导入"
+      },
+      {
+        "commit": "b57eb901c22bd2fb47d7c244aa4ec58306424d95",
+        "author": "liurongjie",
+        "date": "2026-09-11 17:04:09",
+        "message": "feat(mediaproxy): HLS 生效判定函数——库维度+strm 路径双重过滤，非 strm 不受影响"
+      },
+      {
+        "commit": "c562ca89b68e63ceb739c33579e8862e99541cf3",
+        "author": "liurongjie",
+        "date": "2026-09-11 16:57:55",
+        "message": "style: gofmt 对齐"
+      },
+      {
+        "commit": "f89bb9fb52a7539f82fd29df329a736b8f23636a",
+        "author": "liurongjie",
+        "date": "2026-09-11 16:48:16",
+        "message": "fix(mediaproxy): HLS 骨架 review 六项修复"
+      },
+      {
+        "commit": "37f0b9f4259a183273b7f3785c672c9c0bd71cbe",
+        "author": "liurongjie",
+        "date": "2026-09-11 16:35:44",
+        "message": "fix(mediaproxy): 增强结果缓存 TTL 60s→2min，对齐元数据 softTTL"
+      },
+      {
+        "commit": "d62c368e96d517df0372a873b80545f2a257d72b",
+        "author": "liurongjie",
+        "date": "2026-09-11 16:27:09",
+        "message": "feat(mediaproxy): HLS remux 会话骨架 Phase 1（S1 配置+会话/管线/端点模块）"
+      },
+      {
+        "commit": "7c446d4ae32bb08ede680791b5e47764ed9fc8d9",
+        "author": "liurongjie",
+        "date": "2026-09-11 15:58:00",
+        "message": "perf(mediaproxy): 增强结果半成品缓存，详情命中响应 102ms→<1ms"
+      },
+      {
+        "commit": "e8011dda8016ad328136c164a86ca282c4eb6479",
+        "author": "liurongjie",
+        "date": "2026-09-11 14:55:52",
+        "message": "feat(mediaproxy): strm 增强字幕默认选中中文字幕（简/繁/粤语）"
+      },
+      {
+        "commit": "e1b15b1790be0badc83ba7d77d2faddfa2e8ff48",
+        "author": "liurongjie",
+        "date": "2026-09-11 14:28:03",
+        "message": "chore: 移除误提交的临时压测日志文件"
+      },
+      {
+        "commit": "369d2858fc75931b30b9a6cc0841d34ad4f8deff",
+        "author": "liurongjie",
+        "date": "2026-09-11 14:27:17",
+        "message": "fix(mediaproxy): 注入流 id 对齐 mkv TrackNumber（Index+1），修直玩切轨错位"
+      },
+      {
+        "commit": "3971dfccbe0c3924b6b8da94d8ef27e780c910c4",
+        "author": "liurongjie",
+        "date": "2026-09-11 13:42:53",
+        "message": "chore(mediaproxy): 清理 analyze 剥离键表中误加的猜测键名"
+      },
+      {
+        "commit": "a140513a5d2edfbb2efa03f4ce4e363f3632cc9c",
+        "author": "liurongjie",
+        "date": "2026-09-11 13:26:42",
+        "message": "fix(mediaproxy): 回源剥离 asyncRefreshAnalysis/LocalMediaAgent，止住 PMS analyze 任务堆积"
+      },
+      {
+        "commit": "59269d9620e3690d778358b3ef73e05307feb998",
+        "author": "liurongjie",
+        "date": "2026-09-11 13:03:26",
+        "message": "Revert \"fix(mediaproxy): 注入流 id 避开 mpv track-id 空间，修 Mac/iOS 直玩切轨映射错位\""
+      },
+      {
+        "commit": "99b79570cd54a162c9254a66ee14a760f84c0038",
+        "author": "liurongjie",
+        "date": "2026-09-11 13:00:58",
+        "message": "fix(mediaproxy): 注入流 id 避开 mpv track-id 空间，修 Mac/iOS 直玩切轨映射错位"
+      },
+      {
+        "commit": "ff8ef8d9c6889971e3eea9ba5a538a494357ea02",
+        "author": "liurongjie",
+        "date": "2026-09-11 12:02:42",
+        "message": "fix(mediaproxy): 选轨 PUT 后元数据缓存立即失效，修非 strm 第一次切轨无效"
+      },
+      {
+        "commit": "6932a3caff7fe5b6cb152eda19b04c1463a64ade",
+        "author": "liurongjie",
+        "date": "2026-09-11 09:43:06",
+        "message": "fix(mediaproxy): 详情预取支持 XML 响应，修 XML 会话浏览列表不暖详情缓存"
+      },
+      {
+        "commit": "20a6b8d66140f2c0a5dfed743265256aed7c0902",
+        "author": "liurongjie",
+        "date": "2026-09-11 09:33:51",
+        "message": "fix(mediaproxy): 伪流占位格式对齐最新增强流形态"
+      },
+      {
+        "commit": "f48e551b1ceb7ece9a24444fa9c48a30e4098f1f",
+        "author": "liurongjie",
+        "date": "2026-09-11 09:10:47",
+        "message": "fix(mediaproxy): 单轨选择后音频 selected 缺省回落默认轨，修 iPhone 切轨不应用"
+      },
+      {
+        "commit": "d0dfcebc5d86f26667e13f84120cf57c44d3086a",
+        "author": "liurongjie",
+        "date": "2026-09-10 23:51:03",
+        "message": "test(mediaproxy): 补增强开关关闭降级守卫"
+      },
+      {
+        "commit": "e2bcfc73e13c1a8942cc14c0a15722fddb88cceb",
+        "author": "liurongjie",
+        "date": "2026-09-10 23:43:49",
+        "message": "fix(mediaproxy): 安卓/TV strm 决策统一直玩，修复全量测试并补决策形态守卫"
+      },
+      {
+        "commit": "dbcfc11274a6c4e204726df45af8bbd44d14743d",
+        "author": "liurongjie",
+        "date": "2026-09-10 22:37:08",
+        "message": "fix(mediaproxy): 安卓详情报错与 iOS 切轨失效修复，decision 对齐原生按客户端形态返回"
+      },
+      {
+        "commit": "fd0af66eb32013ba3d66bcb85c39ef46f74c956a",
+        "author": "liurongjie",
+        "date": "2026-09-10 19:06:51",
+        "message": "fix(mediaproxy): decision 补齐流级媒体描述字段并加固 helper"
+      },
+      {
+        "commit": "26bc5733dfece8125c176b44df5dfacbee0293cb",
+        "author": "liurongjie",
+        "date": "2026-09-10 19:00:14",
+        "message": "fix(mediaproxy): strm 伪造 decision 补齐 PMS 原生 direct play 字段集，修切轨弹错+客户端闪退"
+      },
+      {
+        "commit": "fcabfd126fbbd66e9300151c4e29387c092b7d0f",
+        "author": "liurongjie",
+        "date": "2026-09-10 15:26:22",
+        "message": "test(mediaproxy): 补 strm 切轨分支 ServeHTTP 级回归守卫"
+      },
+      {
+        "commit": "593c152735a62f1095852c32dd0b965082e6eb05",
+        "author": "liurongjie",
+        "date": "2026-09-10 15:15:00",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 恢复 PMS 原生 404 形态（决定性对照实验）"
+      },
+      {
+        "commit": "b1c3601cbdc7ddc4ebfb19be036456fb063592f2",
+        "author": "liurongjie",
+        "date": "2026-09-10 14:37:25",
+        "message": "fix(strm_media_probe): ffprobe 入库过滤封面附件流，语言码补 B 码变体"
+      },
+      {
+        "commit": "25d1707aabf1ba6ed530aee1ca788b4890111e09",
+        "author": "liurongjie",
+        "date": "2026-09-10 14:30:33",
+        "message": "fix(mediaproxy): strm 探测数据跨源复用归一（bitRate 单位/PGSSUB/语言码变体）"
+      },
+      {
+        "commit": "19327b6e180f5e87bff3a4d101e0ef92dea6e7a2",
+        "author": "liurongjie",
+        "date": "2026-09-10 14:05:55",
+        "message": "feat(strm_media_probe): 探测数据入库携带资源名并随导出/导入流转"
+      },
+      {
+        "commit": "5978eba9032e705329e328b61f1efee350f64d86",
+        "author": "liurongjie",
+        "date": "2026-09-10 13:40:49",
+        "message": "feat(strm_media_probe): 同步统计未关联115 按路径形态细分本地文件与URL/strm解析失败"
+      },
+      {
+        "commit": "849cf49a3ce033c70a93804810a9b4f597a868f4",
+        "author": "liurongjie",
+        "date": "2026-09-10 00:51:38",
+        "message": "fix(mediaproxy): hubs 预热 query 学习剥离缓存击穿类调试参数"
+      },
+      {
+        "commit": "d0d907c6886f207fe448bbd0be1d259fa63503ee",
+        "author": "liurongjie",
+        "date": "2026-09-10 00:32:56",
+        "message": "fix(mediaproxy): strm 切轨选轨树补齐 Part 必备属性（duration/size/exists/accessible）"
+      },
+      {
+        "commit": "2a382cc49aad1bd91d6672c4d8843a34f185a4d4",
+        "author": "liurongjie",
+        "date": "2026-09-09 23:41:50",
+        "message": "fix(mediaproxy): OPTIONS 404 对齐 PMS 原生抓包（去 Cache-Control），真实响应 fixture 回归"
+      },
+      {
+        "commit": "c5440808b7cba5c5f21248dd5555eefadb9ab279",
+        "author": "liurongjie",
+        "date": "2026-09-09 23:23:50",
+        "message": "fix(mediaproxy): strm 切轨探测改回 200 选轨树，直链会话弹错根除"
+      },
+      {
+        "commit": "0c94ee857532d0eabcb365baf81128bd60addb45",
+        "author": "liurongjie",
+        "date": "2026-09-09 22:41:31",
+        "message": "fix(mediaproxy): hubs 预热改为学习式 query 重放，垫得住真实请求"
+      },
+      {
+        "commit": "5c4be1af116aad08803b9a41252b3f0b6ed26bd5",
+        "author": "liurongjie",
+        "date": "2026-09-09 22:22:19",
+        "message": "feat(mediaproxy): hubs 高频路径后台定时预热，消除主页/推荐 5min 空窗冷查询"
+      },
+      {
+        "commit": "18d125ecee375848cb8fb3f2d6fda4316f112561",
+        "author": "liurongjie",
+        "date": "2026-09-09 21:03:20",
+        "message": "fix(mediaproxy): strm 注入流长 title 回退档位组装，language 缺 tag 时反推"
+      },
+      {
+        "commit": "c5c91a1a33595a90b40afc43aaf62e2a05b64dc6",
+        "author": "liurongjie",
+        "date": "2026-09-09 20:44:22",
+        "message": "fix(mediaproxy): strm 注入流分辨率档位按宽高联合判定，补齐无语言轨「未知」形态"
+      },
+      {
+        "commit": "bfd838a212e56aea89b39fc346ed368d35340cdf",
+        "author": "liurongjie",
+        "date": "2026-09-09 20:12:45",
+        "message": "fix(mediaproxy): strm 注入流字段对齐 PMS 原生形态，消除切轨异常与流列表不稳定"
+      },
+      {
+        "commit": "4ada5a78bbb3781fd05187f6cb59747b49b48d98",
+        "author": "liurongjie",
+        "date": "2026-09-09 17:47:11",
+        "message": "feat(mediaproxy): 新增「路径映射调试日志」开关，默认关闭降噪"
+      },
+      {
+        "commit": "32cfb146469f01a88269cba979c91905109802c3",
+        "author": "liurongjie",
+        "date": "2026-09-09 16:55:08",
+        "message": "fix(mediaproxy): strm 决策统一 directplay + strm 解析身份 fs.Get 兜底"
+      },
+      {
+        "commit": "ce4c5b8ee1ee5980d4f27358fce3a18a6923d46f",
+        "author": "liurongjie",
+        "date": "2026-09-09 16:46:36",
+        "message": "feat(strm_media_probe): 插件新增「备份保留份数」配置，备份后自动清理最旧备份"
+      },
+      {
+        "commit": "a507109344ce4938e6784a04914c6832ac7f1ab9",
+        "author": "liurongjie",
+        "date": "2026-09-09 13:06:31",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 逐字节复刻 PMS 原生 404 形态"
+      },
+      {
+        "commit": "db441bfd1f9441467f3f68384e8979da8b4ff393",
+        "author": "liurongjie",
+        "date": "2026-09-09 12:57:04",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 回 size=1 Part 容器，并加探测超时保护"
+      },
+      {
+        "commit": "75093981a1dd0a16edfd617d83607e6d598f9d1f",
+        "author": "liurongjie",
+        "date": "2026-09-09 10:31:32",
+        "message": "fix(strm_media_probe): strm302 URL 无 fileHash 时按内部路径 fs.Get 兜底取身份"
+      },
+      {
+        "commit": "bc00cc71dad2989fd7e1d0f71d436fb70827b489",
+        "author": "liurongjie",
+        "date": "2026-09-09 00:28:47",
+        "message": "fix(strm_media_probe): 同步统计「无身份」更名「未关联115」"
+      },
+      {
+        "commit": "493edbefad7a3e8bd6156aeb7bc270ef8f8dc23e",
+        "author": "liurongjie",
+        "date": "2026-09-09 00:13:49",
+        "message": "fix(strm_media_probe): 同步统计「无流」更名「未分析」"
+      },
+      {
+        "commit": "5354f07702d78e4e98172804e3f83a84d22ab9ca",
+        "author": "liurongjie",
+        "date": "2026-09-08 23:20:55",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 探测 ACK 200，客户端不再弹「选择该流有一个问题发生」"
+      },
+      {
+        "commit": "d55918bc4b42f2937cdb131f0ed6b63769b07fb7",
+        "author": "liurongjie",
+        "date": "2026-09-08 22:28:10",
+        "message": "fix: safego 后台任务与体检探测断开父 ctx 取消传播，消除 context canceled 误报"
+      },
+      {
+        "commit": "58ad24b3c8af0ae10d08365b8a74b57cb73f2e5e",
+        "author": "liurongjie",
+        "date": "2026-09-08 16:31:54",
+        "message": "fix(strm_media_probe): review 修复——无身份日志不泄 URL 敏感参数、PATH ffprobe 校验失败补日志、注释顺序对齐实现"
+      },
+      {
+        "commit": "852fffee5bc87af13b8c4c7625f19ef7057ffd36",
+        "author": "liurongjie",
+        "date": "2026-09-08 16:20:17",
+        "message": "fix(strm_media_probe): ffprobe 失败缓存提升为进程级，review 自查修复"
+      },
+      {
+        "commit": "dea7b017b4b8e993cb65788a5d7ad33d88d574b9",
+        "author": "liurongjie",
+        "date": "2026-09-08 16:08:20",
+        "message": "fix(strm_media_probe): ffprobe 静态构建兼容 musl 容器 + 同步支持 strm302 URL 条目身份提取"
+      },
+      {
+        "commit": "4c5404eb7cf134061e9432ba4d8843b4b641c4bc",
+        "author": "xylplm",
+        "date": "2026-09-08 14:55:22",
+        "message": "feat: 更新认证证书"
+      },
+      {
+        "commit": "54517d7196c80121cc7656f0d9955ec6cf89599a",
+        "author": "xylplm",
+        "date": "2026-09-08 14:24:45",
+        "message": "fix 🐛: 修复 qB 转种校验后自动做种"
+      },
+      {
+        "commit": "d270258992577e37700b47beb51f3f6ecfe40eed",
+        "author": "liurongjie",
+        "date": "2026-09-08 13:13:42",
+        "message": "fix(mediaproxy): strm 切轨 OPTIONS 对齐 PMS 原生 404，根除切字幕/音频弹错"
+      },
+      {
+        "commit": "89fa37c6dc1c8ccbb7c450822448f9be257604b7",
+        "author": "liurongjie",
+        "date": "2026-09-08 11:30:41",
+        "message": "fix(strm,mediaproxy): 全面 review 修复——手动通知穿透开关与伪流 selected 一致性"
+      },
+      {
+        "commit": "a47e20e715ae780546eda616a2abaa719c722df4",
+        "author": "liurongjie",
+        "date": "2026-09-08 11:19:10",
+        "message": "fix(mediaproxy): 增强解析超时补伪流兜底落地——哨兵 entry 进 lookup"
+      },
+      {
+        "commit": "2efe31539174ccfc2b6cd1966697b7e2f7beb3d1",
+        "author": "liurongjie",
+        "date": "2026-09-08 10:57:47",
+        "message": "fix(mediaproxy): XML 路径伪音频兜底收尾 + 详情/播放加载性能优化"
+      },
+      {
+        "commit": "bb921f6e5f77287033c510b3a351951009ec52cd",
+        "author": "GateCross",
+        "date": "2026-09-08 09:17:49",
+        "message": "fix: strm302 兼容 path 内未编码的 &"
+      },
+      {
+        "commit": "1f70f53a5cd42beb88d0b2c3ca0a56863a5e4cb5",
+        "author": "liurongjie",
+        "date": "2026-09-08 02:18:33",
+        "message": "fix(strm,mediaproxy): 两天改动深度 review 修复"
+      },
+      {
+        "commit": "52d338aea0046a54b2bf00801549e51c52bc289c",
+        "author": "liurongjie",
+        "date": "2026-09-08 01:21:10",
+        "message": "refactor(strm_media_probe): review 修复——探测锁状态收敛与导入常量归一"
+      },
+      {
+        "commit": "c04b2240f25d8ad97b6b746dda88ebf103409d9d",
+        "author": "liurongjie",
+        "date": "2026-09-08 00:59:14",
+        "message": "fix(strm_media_probe): 消除重复探测与唯一键冲突，导入支持冲突策略"
+      },
+      {
+        "commit": "c133a48b0b1a1c864959ea0ee40592c27eb1d65b",
+        "author": "liurongjie",
+        "date": "2026-09-08 00:59:03",
+        "message": "fix(mediaproxy): strm 无音频流时注入伪流兜底，避免 Plex 音轨工具栏退出播放"
+      },
+      {
+        "commit": "b441dd63e6da0ac52124af45abc006c834109862",
+        "author": "liurongjie",
+        "date": "2026-09-07 23:46:02",
+        "message": "style(strm_media_probe): 扫描目录表单项调整为整行占满"
+      },
+      {
+        "commit": "b9b2d904dfa478351e827b2605788fe0682c7216",
+        "author": "liurongjie",
+        "date": "2026-09-07 23:43:46",
+        "message": "refactor(strm_media_probe): 移除下载代理配置，ffprobe 下载改用系统基础配置代理"
+      },
+      {
+        "commit": "c4546b107ce736b852e702f024525669cd25016f",
+        "author": "liurongjie",
+        "date": "2026-09-07 23:22:09",
+        "message": "fix(strm): 切轨分治——strm ACK 200 消除弹错，非 strm 转发后失效 metadata 缓存"
+      },
+      {
+        "commit": "ee24e480bd8b892a2b0a87365d2d4700d3e64ecb",
+        "author": "liurongjie",
+        "date": "2026-09-07 23:09:02",
+        "message": "fix(strm): ffprobe 数值字段兼容字符串形态"
+      },
+      {
+        "commit": "1bd3e56425731b3b0b7cf305441674ab4ff19649",
+        "author": "liurongjie",
+        "date": "2026-09-07 22:58:04",
+        "message": "refactor(strm): 表单精简——移除 ffprobe 路径输入项，超时/重试间隔补默认值"
+      },
+      {
+        "commit": "3abcbad0a1d4b79239ebafdf338d8ae447ad7018",
+        "author": "liurongjie",
+        "date": "2026-09-07 22:11:36",
+        "message": "refactor(strm): 备份固定内置目录，移除导出目录配置项"
+      },
+      {
+        "commit": "9232b247234a90c0148638b234bcea7e7065b9d5",
+        "author": "liurongjie",
+        "date": "2026-09-07 22:02:30",
+        "message": "fix(strm): 导入为异步 action，结果统计补插件通知（含失败原因）"
+      },
+      {
+        "commit": "ea94825f57304ab93a60d14e06f4750d3cdb9d1b",
+        "author": "liurongjie",
+        "date": "2026-09-07 21:35:51",
+        "message": "feat(strm): 探测数据备份/分享双通道——服务器目录备份 + base64 分享下载"
+      },
+      {
+        "commit": "a7d4afbe738c09872f341bcdb589d7a8d02b90df",
+        "author": "liurongjie",
+        "date": "2026-09-07 21:09:57",
+        "message": "feat(strm): ffprobe 子进程解析失败时用预检 IP 直连重试"
+      },
+      {
+        "commit": "6c42fe084b8a7b492458ba96e057bcd337a4a99d",
+        "author": "liurongjie",
+        "date": "2026-09-07 21:01:48",
+        "message": "fix(strm): 切轨不再 ACK 业务树——选轨请求仅记忆后转发，无记忆回落默认轨 selected"
+      },
+      {
+        "commit": "728cc36129085b0165b2e42b0dc1d33c1e0b5c1a",
+        "author": "liurongjie",
+        "date": "2026-09-07 20:38:41",
+        "message": "feat(strm): 探测插件新增数据清理动作（清失败记录/清空全部）"
+      },
+      {
+        "commit": "071b6b947d699ca4896a82c5cfa93f02d0e78e15",
+        "author": "liurongjie",
+        "date": "2026-09-07 19:56:15",
+        "message": "fix(strm): Plex 详情 frameRate 数字兼容 + 探测直链域名 DNS 预检分类"
+      },
+      {
+        "commit": "c4880d332827cd4e9542cc71e19d3c15af5d69f4",
+        "author": "liurongjie",
+        "date": "2026-09-07 19:01:02",
+        "message": "docs: 新增 AGENTS.md 工作规范（语言风格/求真原则/goctl 生成 types 规则）"
+      },
+      {
+        "commit": "5b93897fa29d0dcbb3789caff73803a82959e62d",
+        "author": "liurongjie",
+        "date": "2026-09-07 18:58:02",
+        "message": "fix(strm): 修复切轨链路 selected 标记与旧 schema 数据升级"
+      },
+      {
+        "commit": "987f28ff31497e1984a5d8818dcf97e52586bbe8",
+        "author": "liurongjie",
+        "date": "2026-09-07 18:18:01",
+        "message": "feat(strm): 服务器同步流字段与 ffprobe 对齐（Plex/Jellyfin 补全采集）"
+      },
+      {
+        "commit": "d60fda7b4b32cde7f81ba4c52fd18a40059b3bab",
+        "author": "liurongjie",
+        "date": "2026-09-07 17:58:26",
+        "message": "feat(strm): 流信息全字段对齐 PMS 原生（model.api 单一事实源 + goctl 生成）"
+      },
+      {
+        "commit": "63f221f70029e4a31a3dfeb54453b07690489011",
+        "author": "GateCross",
+        "date": "2026-09-06 21:35:12",
+        "message": "feat: 优化上传后删源流程并联动删种与空目录清理"
+      },
+      {
+        "commit": "92b2a949d6e3e338e9ef6ad548727a2976c9e179",
+        "author": "liurongjie",
+        "date": "2026-09-06 19:12:40",
+        "message": "fix(strm): 非 strm part 的轨道选择 selected 标记（补提交）"
+      },
+      {
+        "commit": "480cf456ee64ed8d90f27a4cd6ad57b7436df8f6",
+        "author": "liurongjie",
+        "date": "2026-09-06 19:09:23",
+        "message": "fix(strm): PUT 轨道选择拦截改用独立正则（上轮替换因 gofmt 缩进未命中从未生效）"
+      },
+      {
+        "commit": "85420834559360e54b1a8f46a5a99bb8b5fcb887",
+        "author": "liurongjie",
+        "date": "2026-09-06 17:53:19",
+        "message": "fix(strm): 回填日志方法修正为 Infof"
+      },
+      {
+        "commit": "7b5b10872bed7fe5fd4a77bf37a24ff2e22758fe",
+        "author": "liurongjie",
+        "date": "2026-09-06 17:51:47",
+        "message": "feat(strm): 导出提示带条数与完整文件位置，实际目录回填实例配置"
+      },
+      {
+        "commit": "8b6edb3f585085d91f91709a79e6d3c42d53c24a",
+        "author": "liurongjie",
+        "date": "2026-09-06 17:42:58",
+        "message": "fix(strm): 轨道选择 PUT 拦截修正与选择记忆，详情页选中字幕播放时生效"
+      },
+      {
+        "commit": "788e252d4a3cf067a25a3beb591cb4de5eaeb2e3",
+        "author": "GateCross",
+        "date": "2026-09-06 11:35:31",
+        "message": "feat: 刷流种子精确删种，上传删源按内容路径反查直删"
+      },
+      {
+        "commit": "703ec9f4b37afbbb24c803856627315bcd5101d1",
+        "author": "GateCross",
+        "date": "2026-09-06 11:35:13",
+        "message": "feat: 手动整理识别重命名支持指定季集"
+      },
+      {
+        "commit": "b3955cba628e26537bfef8719c4d8e77aa39f10f",
+        "author": "liurongjie",
+        "date": "2026-09-06 01:16:34",
+        "message": "fix(mediaproxy): 切断详情解析级联 FastLink 预取并新增 115 WAF 风控熔断"
+      },
+      {
+        "commit": "abe1e1535f21e735a7f7f212df55a502f4b5cd66",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:56:48",
+        "message": "feat(strm): 探测 DNS 解析失败时输出明确的环境修复指引"
+      },
+      {
+        "commit": "25e37a97c11580291119cb14998be7f8ecfc5474",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:38:05",
+        "message": "fix(strm): 探测失败记录补 Source 标记"
+      },
+      {
+        "commit": "fe326c11f88803f9fe6f3a888fd1ef0e8395ed63",
+        "author": "GateCross",
+        "date": "2026-09-05 23:30:52",
+        "message": "feat: 新增网盘上传后删除源文件并优化关联种子清理"
+      },
+      {
+        "commit": "c256bfa7a9c4aa30f7127d8ed5e5219c79267b55",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:26:08",
+        "message": "feat(strm): 分享 strm 支持按路径解析内容身份（fs.Get 取对象 sha1）"
+      },
+      {
+        "commit": "9ab5df061582a61b00073919a1f3fd202f8a615c",
+        "author": "liurongjie",
+        "date": "2026-09-05 23:02:21",
+        "message": "fix(mediaproxy): Plex for Mac 桌面端 strm 决策改为 directplay，修复打开功能菜单回放错误"
+      },
+      {
+        "commit": "cbff2de5639ea61b2c4338006fc926e764a1d517",
+        "author": "liurongjie",
+        "date": "2026-09-05 22:49:33",
+        "message": "fix(strm): synthesize XML 属性零值防御；ffprobe bit_rate 字符串容错"
+      },
+      {
+        "commit": "9b56b1b31a2e9c6635363e0e145206a9766346aa",
+        "author": "liurongjie",
+        "date": "2026-09-05 22:45:08",
+        "message": "feat(strm): 轨道选择 ACK、视频属性注入、ffprobe 错误细节与字幕标题修正"
+      },
+      {
+        "commit": "8b70bb6ef1143792c35815a486a9c0a8fbe17fb8",
+        "author": "liurongjie",
+        "date": "2026-09-05 21:53:39",
+        "message": "fix(strm): 探测扫描目录改为字符串存储，修复 textarea 保存报错"
+      },
+      {
+        "commit": "ae953d6ad81139ea13450eb7df6e05f91e134d11",
+        "author": "liurongjie",
+        "date": "2026-09-05 21:49:20",
+        "message": "chore(strm): 探测表单功能说明移由专属组件渲染"
+      },
+      {
+        "commit": "ae52774ca0970aeffffe5cc295f1e0989cb5febd",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:55:01",
+        "message": "refactor(strm): 移除开关合并后的死参数 forgePlaceholders（恒 true）"
+      },
+      {
+        "commit": "e7f41171d987437c2c155c6be15c1e2684eebff3",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:42:16",
+        "message": "refactor(strm): 合并两开关——STRM元数据增强同时具备伪流增强与真实流注入"
+      },
+      {
+        "commit": "a6e90f5a41c87ee5a43d554ac76c8d8e036dfc15",
+        "author": "liurongjie",
+        "date": "2026-09-05 20:10:58",
+        "message": "fix(strm): 修正同步服务器下拉选项码；插件表单移交同步目标给专属组件；媒体服务器表单补 plexStrmMediaProbe"
+      },
+      {
+        "commit": "8e2db33116861dba5961542c58f5fb4b78bbeb55",
+        "author": "liurongjie",
+        "date": "2026-09-05 19:38:57",
+        "message": "fix(strm): 媒体服务器表单补漏 plexStrmMediaProbe 注入开关"
+      },
+      {
+        "commit": "e1f732d5f79dab329898aa938184fdd63293724e",
+        "author": "liurongjie",
+        "date": "2026-09-05 15:14:09",
+        "message": "feat(strm): 探测插件同步支持选择服务器与媒体库，新增 Jellyfin 适配"
+      },
+      {
+        "commit": "9c6fca401404c4c3b2d92941f4716bd266e5b9d5",
+        "author": "liurongjie",
+        "date": "2026-09-05 14:07:34",
+        "message": "fix(strm): Plex 同步改为批量清单+逐条详情，修复产出恒为 0"
+      },
+      {
+        "commit": "9438beb1decdba733514eca082dc37b4ecf207fa",
+        "author": "liurongjie",
+        "date": "2026-09-05 13:12:14",
+        "message": "fix(strm): 探测插件修复 periodQuota 字符串解析、扫描目录允许为空"
+      },
+      {
+        "commit": "758b39a01fe609a5e177c7df0ac4a9e2669a8e01",
+        "author": "liurongjie",
+        "date": "2026-09-05 12:15:30",
+        "message": "feat(strm): strm 媒体信息探测插件与 Plex 真实流注入"
+      },
+      {
+        "commit": "517154924d7715dc479f45f16e25eb4eefe52f34",
+        "author": "liurongjie",
+        "date": "2026-09-05 09:31:45",
+        "message": "test(mediaproxy): origin 限流字段改用 originLimiter 后适配测试"
+      },
+      {
+        "commit": "e133a6609a26d1460673bef812e8908e428b06bf",
+        "author": "liurongjie",
+        "date": "2026-09-05 09:30:20",
+        "message": "fix(mediaproxy): origin 限流状态指针化共享并消除 Link/Handler 锁值拷贝 vet 警告"
+      },
+      {
+        "commit": "619003a82f1c7ee3b0e5fdbf36842fd76f072604",
+        "author": "liurongjie",
+        "date": "2026-09-05 09:07:12",
+        "message": "fix(mediaproxy): serve 路径 owner 落盘去重；scope 构建失败不再冒充新鲜"
+      },
+      {
+        "commit": "364a0c2cc3bac2343f24c2585b6e45563f3912c2",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:59:47",
+        "message": "refactor(mediaproxy): plex_metadata_cache 按职责拆分为 serve/keys/store/fetch 四个文件"
+      },
+      {
+        "commit": "fa50c3ad5679ac73fc9f21db76bc363bf2c2d26d",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:54:42",
+        "message": "test(mediaproxy): resolver_strm 测试适配 identity 四返回值签名"
+      },
+      {
+        "commit": "891cb74dba2124e89880b9d7d549cef841941402",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:53:19",
+        "message": "refactor(mediaproxy): 删除三套缓存别名墙，统一使用 plexProxyBody 基础类型"
+      },
+      {
+        "commit": "e5f36b463624a48b694912236d35d148aed451a0",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:51:20",
+        "message": "refactor(mediaproxy): 三套缓存 Redis 编解码与 browse/hubs roundTrip 参数化收敛"
+      },
+      {
+        "commit": "a9232180bfeac410406e316d6fd8cffce4b8d89a",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:41:54",
+        "message": "fix(mediaproxy): dirWarm 状态表与续播探测表补无界增长治理"
+      },
+      {
+        "commit": "cf18af60c3267fa926773aaaf44cb10ac2508f81",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:41:05",
+        "message": "refactor(mediaproxy): scope 冷 miss 单飞与 FreshAt 语义统一，清理死代码并治理无界 map"
+      },
+      {
+        "commit": "957dd987d582a0d13f31b2aad2e5eaec7d767043",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:35:15",
+        "message": "perf(mediaproxy): 写放大治理——flight 内 Redis 写异步化、等待者去重、fillThrough 门控与回填刷新"
+      },
+      {
+        "commit": "8066b07f7f40c482b54c9c284048ea4f8bcfdfd4",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:16:40",
+        "message": "fix: IYUU 辅种 corrupt torrent 归入永久失败缓存，下载链接错误透传分类"
+      },
+      {
+        "commit": "e2aa59b820caf553238f3fbe4b90db30cffddd9e",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:09:52",
+        "message": "fix(mediaproxy): dirWarm finish 改 defer 防 panic 泄漏 inflight 并加后台预热超时"
+      },
+      {
+        "commit": "4976de12190eb1c9aad55139f6fedcc0a2e13f84",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:09:52",
+        "message": "fix(mediaproxy): 统一 probed flightKey 分区键并收敛 any-hit 写响应路径"
+      },
+      {
+        "commit": "bf15615a5d103047762831bbe63477b9923b4ae9",
+        "author": "liurongjie",
+        "date": "2026-09-05 01:03:00",
+        "message": "test(mediaproxy): 适配 plexContinueProbeKey 两参签名修复测试编译"
+      },
+      {
+        "commit": "17d0656cfc3ef32fde28fb901a68f21ac1a39890",
+        "author": "Jolc",
+        "date": "2026-09-05 00:49:35",
+        "message": "chore: 快照降级回退 HTTP 的日志从 error 降为 info"
+      },
+      {
+        "commit": "2ee29b5d2aa34c13d7678660dc4177611bbb34ab",
+        "author": "liurongjie",
+        "date": "2026-09-05 00:36:15",
+        "message": "fix(deps): 升级漏洞依赖至修复版本，可达漏洞 7→1"
+      },
+      {
+        "commit": "52d6e2c1ae81a85113af074bffa6a3cdcac7df7f",
+        "author": "Jolc",
+        "date": "2026-09-05 00:32:10",
+        "message": "fix: 快照拷贝改用耐心退避表，抢锁窗口从 96s 拉长到约 9 分钟"
+      },
+      {
+        "commit": "6430745371ed9c45a75d39db3e2c833565e0b5d0",
+        "author": "liurongjie",
+        "date": "2026-09-05 00:13:50",
+        "message": "feat(types): 制作组规则新增 MediaSaberAnime"
+      },
+      {
+        "commit": "5e1a4832304f5a07afd810a05b078211538613e3",
+        "author": "Jolc",
+        "date": "2026-09-05 00:10:21",
+        "message": "refactor: 快照文件改放 Emby data 目录，避免依赖容器 /tmp 存储形态"
+      },
+      {
+        "commit": "8cdef3e11e2bf9eb7034b09d268a787a08b53b20",
+        "author": "Jolc",
+        "date": "2026-09-05 00:02:18",
+        "message": "fix: 全量同步改用 VACUUM INTO 快照直连，除拷贝瞬间外不触碰 Emby 原库"
+      },
+      {
+        "commit": "4be8d8b63dbf88d0c7c740914a4d9f8d2dd7f4ac",
+        "author": "liurongjie",
+        "date": "2026-09-05 00:06:20",
+        "message": "fix(mediaproxy): 续播探测按 timeline 确认，消除同源 HLS 客户端误报"
+      },
+      {
+        "commit": "1858f7b9d9c97700c1c33fb5d8cfefa50ea7b2a9",
+        "author": "liurongjie",
+        "date": "2026-09-05 00:06:19",
+        "message": "perf(mediaproxy): browse 详情预取扩容并继承语言参数"
+      },
+      {
+        "commit": "d584e4cfac4cc91661df6dcd799bb444444e5f74",
+        "author": "liurongjie",
+        "date": "2026-09-04 23:35:07",
+        "message": "fix(transferHistory): 删除云盘源文件后清理仅剩空文件夹的遗留目录"
+      },
+      {
+        "commit": "c97e357629309fc3107eebc0e27930d3802a7f1c",
+        "author": "liurongjie",
+        "date": "2026-09-04 23:29:51",
+        "message": "fix(plugin): Plex 拼音排序保留标题中的英文"
+      },
+      {
+        "commit": "cf98658ecf9e1e03eeea4dc82230d537c5743fed",
+        "author": "xylplm",
+        "date": "2026-09-04 19:37:47",
+        "message": "fix 🐛: 修复媒体服务器默认切换报错"
+      },
+      {
+        "commit": "126b53486c69734f1e15349de13372b373c25a94",
+        "author": "liurongjie",
+        "date": "2026-09-04 15:38:41",
+        "message": "fix(mediaproxy): 优化详情缓存与播放预热"
+      },
+      {
+        "commit": "b0bf37e9f65d89e99ff40dc316e08379c23ad53f",
+        "author": "Jolc",
+        "date": "2026-09-04 14:29:04",
+        "message": "refactor: SQLite 直连收窄至全量同步一处，单条补同步/定点同步回纯 HTTP"
+      },
+      {
+        "commit": "97ae7daa8fc1e853ae3aefbc26d60613c87ed3e6",
+        "author": "Jolc",
+        "date": "2026-09-04 14:19:21",
+        "message": "fix: Exists/ExistingEpisodes 存在性检查回退纯 HTTP，消除整理链路 SQLITE_BUSY"
+      },
+      {
+        "commit": "99800887c30ee3e6b12705c7611a6085c662ea86",
+        "author": "Jolc",
+        "date": "2026-09-04 13:23:09",
+        "message": "fix: Emby library.db 直连改为进程级共享连接池，增加 BUSY 退避重试"
+      },
+      {
+        "commit": "e4976de9457f111e77db46de013d3896c55ad239",
+        "author": "liurongjie",
+        "date": "2026-09-03 16:21:38",
+        "message": "perf(workbench): 最近入库跳过 Libraries 冷路径"
+      },
+      {
+        "commit": "24335e35f70c4fe35c7c5d81efcf31f43e3700a2",
+        "author": "liurongjie",
+        "date": "2026-09-03 15:44:48",
+        "message": "fix(workbench): 避免播放脉冲超时把 0 写入缓存"
+      },
+      {
+        "commit": "d65dbf9171d2c9ab762ec61576db06fe78df67c3",
+        "author": "liurongjie",
+        "date": "2026-09-03 15:17:28",
+        "message": "perf(workbench): 压住播放概览与最近入库冷路径"
+      },
+      {
+        "commit": "388d282a846d908b55526af128f99ac96f089720",
+        "author": "liurongjie",
+        "date": "2026-09-03 14:12:07",
+        "message": "perf(workbench): 播放概览改为精简脉冲并复用 LibraryScopes"
+      },
+      {
+        "commit": "a0df8f369dc8faa74d90d749a575ba7d29bbcd57",
+        "author": "liurongjie",
+        "date": "2026-09-03 11:56:10",
+        "message": "fix(mediaproxy): 加强空 PC dirWarm 并补全 timeline 进度日志"
+      },
+      {
+        "commit": "05d352a19d7fb8a67dde0fe4ab3af2887e0b348d",
+        "author": "xylplm",
+        "date": "2026-09-03 11:38:45",
+        "message": "fix 🐛: 修复馒头站点资源翻页缓存"
+      },
+      {
+        "commit": "1bc1b4a0da3a6e739f72882da67c0dbd4da3933a",
+        "author": "liurongjie",
+        "date": "2026-09-03 10:48:22",
+        "message": "fix(mediaproxy): 播放优先加固 PickCode 与空 PC dirWarm"
+      },
+      {
+        "commit": "a18c96964e697d0b410f2b3caa6dad4924f3de07",
+        "author": "liurongjie",
+        "date": "2026-09-02 18:44:40",
+        "message": "fix(mediaserver): Resume 过滤改为单服加载 libraryScope"
+      },
+      {
+        "commit": "ae0104960e089a0d33727a65d832ce6b9c3300d9",
+        "author": "liurongjie",
+        "date": "2026-09-02 18:04:09",
+        "message": "refactor(mediaproxy): 抽取 hubs/browse 异步 refresh 与 fillThrough"
+      },
+      {
+        "commit": "680712714dfb8d0e620644bc37d112b5501410e8",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:59:43",
+        "message": "refactor(plex): 抽取三套 body SWR 骨架并合并 library-latest"
+      },
+      {
+        "commit": "120bf66bf7dbe68ca36fdb0ad2049b2bc9360afc",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:53:18",
+        "message": "refactor(mediaproxy): Plex 缓存键改 Host 并回填空货架"
+      },
+      {
+        "commit": "af8485b3fa44ed83ba43156ce49fa1a028851749",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:37:50",
+        "message": "fix(mediaserver): 最新入库改回 library/recentlyAdded 并加 SWR"
+      },
+      {
+        "commit": "9c524fe37113c4a5ed0202dac739f41e393029bb",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:27:42",
+        "message": "fix(mediaserver): 修复 Plex 近期观看解析与库过滤误杀"
+      },
+      {
+        "commit": "e9c8fece3665cf7079584aae5972b4b7ddfd061f",
+        "author": "liurongjie",
+        "date": "2026-09-02 17:23:01",
+        "message": "fix(mediaserver): 媒体库最新入库按 type=1/2 拉取 hubs"
+      },
+      {
+        "commit": "3e580eb0df8b1058ef58dc62760be7f027e09013",
+        "author": "liurongjie",
+        "date": "2026-09-02 16:54:59",
+        "message": "feat(mediaproxy): 工作台与媒体库共用 Plex hubs SWR 缓存"
+      },
+      {
+        "commit": "da2be8b290d7668d3c22b976317ff1e4f3a23138",
+        "author": "xylplm",
+        "date": "2026-09-02 15:47:52",
+        "message": "fix 🐛: 识别词支持按范围批量启用停用"
+      },
+      {
+        "commit": "f39bf9bf844182acd1bcc2cbe0679e8903000293",
+        "author": "xylplm",
+        "date": "2026-09-02 10:49:47",
+        "message": "feat ✨: 云存储 STRM 增加文件内容标识，换了网盘账号也能认出同一个文件"
+      },
+      {
+        "commit": "5d84401278d91c3e2db93aff0dba49b46093c5f8",
+        "author": "liurongjie",
+        "date": "2026-09-01 20:32:26",
+        "message": "fix(mediaproxy): periodQuota 为空或 0 时不限制 origin 并发"
+      },
+      {
+        "commit": "5c6a28132492917450dc3fe2f011551486f2fcc1",
+        "author": "liurongjie",
+        "date": "2026-09-01 15:22:14",
+        "message": "fix(plugin): Plex 拼音排序保留标题中的数字"
+      },
+      {
+        "commit": "071791a7da3b3763752fbf825a3f79580462a856",
+        "author": "xylplm",
+        "date": "2026-09-01 11:44:43",
+        "message": "feat ✨: 媒体扫描支持 RM 文件格式"
+      },
+      {
+        "commit": "ddc7e87c5ab9f8bec673d855da56e00320503048",
+        "author": "liurongjie",
+        "date": "2026-08-31 23:26:14",
+        "message": "chore: ignore local Go build and module caches"
+      },
+      {
+        "commit": "a19abb7bc85b30d3f554269b678858e0f47ebef8",
+        "author": "GateCross",
+        "date": "2026-08-31 20:17:40",
+        "message": "fix: 增强离线任务复核日志"
+      },
+      {
+        "commit": "a4cc264aa7377d96d80b5baaff1371fd2eb471df",
+        "author": "GateCross",
+        "date": "2026-08-31 19:27:09",
+        "message": "fix: 限制lixian复核查询页数"
+      },
+      {
+        "commit": "74bf11dbb1e81e7bc63c8860f4a141cddf3c69c0",
+        "author": "xylplm",
+        "date": "2026-08-31 18:50:01",
+        "message": "fix 🐛: 修复媒体服务器默认项与媒体库态势"
+      },
+      {
+        "commit": "f1139b1303596502f729f71139eccd05ef2c49dc",
+        "author": "liurongjie",
+        "date": "2026-08-31 18:03:59",
+        "message": "feat(cloud-storage): 已完成任务支持按成功/失败结果过滤"
+      },
+      {
+        "commit": "584156f1cc2cfb3c4b326d6b460bef73c33e8960",
+        "author": "GateCross",
+        "date": "2026-08-31 16:02:43",
+        "message": "fix: 使用lixian复核云下载失败任务"
+      },
+      {
+        "commit": "8c8386fa254340c5a660dc1ce348750ec39279a2",
+        "author": "liurongjie",
+        "date": "2026-08-31 14:02:19",
+        "message": "fix(plugin): 降低 Plex 自动音轨 Alert 非剧集日志噪音"
+      },
+      {
+        "commit": "5d80c28130fc5953098ba1bbb8ea3ce111434fb3",
+        "author": "xylplm",
+        "date": "2026-08-31 10:16:51",
+        "message": "fix 🐛: 同步 CPA 监控中文汇总文案断言"
+      },
+      {
+        "commit": "a4927920a94e20dd6b17c09246f6400bf9299f8c",
+        "author": "xylplm",
+        "date": "2026-08-31 10:11:39",
+        "message": "fix 🐛: 修复媒体服务刷新关闭通知后仍推送消息"
+      },
+      {
+        "commit": "89b379781c51355320a02f4370830ef097d237a3",
+        "author": "GateCross",
+        "date": "2026-08-31 00:25:26",
+        "message": "feat: 订阅新增整季一致性开关，锁定首个下载种子标题后缀"
+      },
+      {
+        "commit": "f89facb1c1bad6969b582600d88338ebce0a1766",
+        "author": "GateCross",
+        "date": "2026-08-30 22:25:05",
+        "message": "fix: Emby library.db 只读连接 busy_timeout 提升至 5s，缓解扫描期间瞬时锁冲突"
+      },
+      {
+        "commit": "ec5d58447e29db890601d08f76500f0a580f24bf",
+        "author": "liurongjie",
+        "date": "2026-08-30 18:41:50",
+        "message": "revert: 恢复启动时清空 asynq 队列"
+      },
+      {
+        "commit": "28a0a08ae092e67f70f2c8c295820109868bce1e",
+        "author": "liurongjie",
+        "date": "2026-08-30 18:18:18",
+        "message": "fix(mediaserver): 健康中心按启用库过滤并保留 asynq 队列"
+      },
+      {
+        "commit": "713df0ea1645a6ca1876ba924af67bc8d3dcf014",
+        "author": "liurongjie",
+        "date": "2026-08-30 18:04:24",
+        "message": "feat(mediaserver): webhook library.new 按媒体 ID 定点同步"
+      },
+      {
+        "commit": "99699cd77a6292bc3b4d1d16f4856b787b59196a",
+        "author": "GateCross",
+        "date": "2026-08-30 16:32:12",
+        "message": "feat: 下载目录支持按 TMDB 媒体信息自动创建媒体子目录，命名模板可自定义"
+      },
+      {
+        "commit": "aeeae1477d240db616fa9739c7cfc3887627ac0a",
+        "author": "GateCross",
+        "date": "2026-08-30 14:12:17",
+        "message": "fix: Emby library.db 只读连接增加 busy_timeout(1s)，避免瞬时锁冲突直接报 SQLITE_BUSY"
+      },
+      {
+        "commit": "b6e3dfa9ce2b3bae37d7fd2f1125dbfabd84e804",
+        "author": "liurongjie",
+        "date": "2026-08-30 00:28:43",
+        "message": "chore(plugin): 移除 Plex 自动音轨 Alert WS 探活日志"
+      },
+      {
+        "commit": "4114253a495f55639054c99a8f9ff6e9b530d616",
+        "author": "liurongjie",
+        "date": "2026-08-30 00:14:15",
+        "message": "fix(mediaproxy): strm path 含 + 被 QueryUnescape 改成空格导致 object not found"
+      },
+      {
+        "commit": "b5963ae34dfe26ab85c9a374a16d09fae8c746da",
+        "author": "liurongjie",
+        "date": "2026-08-29 23:02:18",
+        "message": "chore(plugin): Plex 自动音轨 Alert WS 探活日志"
+      },
+      {
+        "commit": "22672f3133a0cdd1332290ee8eba0a76e30323f5",
+        "author": "GateCross",
+        "date": "2026-08-29 19:39:07",
+        "message": "chore: 数据库清理日志大小改用自适应单位显示"
+      },
+      {
+        "commit": "e0751608063e70e24d34d2b1b19d36b3e40b73ba",
+        "author": "GateCross",
+        "date": "2026-08-29 19:18:10",
+        "message": "fix: 修复默认媒体服务器未同步时工作台统计空值"
+      },
+      {
+        "commit": "6fdb2668569876c2e7069dc9212f5e5a90c8d234",
+        "author": "GateCross",
+        "date": "2026-08-29 19:18:09",
+        "message": "fix: 深度清理解除语句超时限制，孤儿明细改分批清理并增加启动触发"
+      },
+      {
+        "commit": "2222e59f09b7fba56707127f6a75dbd2f543b46d",
+        "author": "GateCross",
+        "date": "2026-08-29 18:24:16",
+        "message": "feat: 工作台概览增加分项耗时统计日志"
+      },
+      {
+        "commit": "1c00ec17bc3143478cf6bdc0c7c73adc2a3f6674",
+        "author": "GateCross",
+        "date": "2026-08-29 18:21:57",
+        "message": "perf: 清理无主种子明细并移除废弃索引"
+      },
+      {
+        "commit": "2a259c00c8da13ea1879368d56b26bb36bdd6f32",
+        "author": "GateCross",
+        "date": "2026-08-29 16:55:14",
+        "message": "fix: 数据库清理释放空间为负时按 0 展示"
+      },
+      {
+        "commit": "1a1df81876877695664de6f01a8175bdaf129c55",
+        "author": "GateCross",
+        "date": "2026-08-29 16:38:11",
+        "message": "feat: 数据库清理改为后台异步执行，结果推送消息中心"
+      },
+      {
+        "commit": "151be07a8c4eac2e1da1c6a02e172142bf699ac8",
+        "author": "GateCross",
+        "date": "2026-08-29 16:38:06",
+        "message": "perf: 站点数据/签到表新增 (site_id, id) 复合索引，工作台聚合不再全表扫"
+      },
+      {
+        "commit": "6fcffd1a4721925c7fddcbb8cefc60af110322be",
+        "author": "GateCross",
+        "date": "2026-08-29 16:37:53",
+        "message": "fix(mediaserver): 图片 URL 固定使用内网 Host，由服务端抓图避免走公网"
+      },
+      {
+        "commit": "0847689c4ff4c0b116f49a6e1d8545e48e7cca40",
+        "author": "xylplm",
+        "date": "2026-08-29 15:37:04",
+        "message": "fix 🐛: 优化观影补采与媒体同步稳定性"
+      },
+      {
+        "commit": "ae1785a4ec41b344c3c78ddc8a2c82de134f43a7",
+        "author": "xylplm",
+        "date": "2026-08-29 12:16:42",
+        "message": "fix 🐛: 修复观影采补进度与时长统计"
+      },
+      {
+        "commit": "96df747b6d838d0e8dac70fd846f538bdb385381",
+        "author": "liurongjie",
+        "date": "2026-08-29 01:11:12",
+        "message": "fix(mediaproxy): Plex 进库韧性——browse 导航分档与 origin 主路径保底"
+      },
+      {
+        "commit": "91b70c866737c8e00df652b4ac70f740bc390fa8",
+        "author": "GateCross",
+        "date": "2026-08-29 00:50:38",
+        "message": "feat: 新增数据库 VACUUM 维护接口并优化工作台最近入库加载"
+      },
+      {
+        "commit": "8c239169de2fae607d3d3ccdc84918b977c32983",
+        "author": "liurongjie",
+        "date": "2026-08-28 23:42:28",
+        "message": "fix: strm path 含 & 截断与 Plex Alert WS 代理 401"
+      },
+      {
+        "commit": "63bae781b5e54ec8a092e0c5ae016d9d0479072c",
+        "author": "GateCross",
+        "date": "2026-08-28 23:29:26",
+        "message": "fix: 云下载提交报错后复核云端任务，避免误报失败与误回退订阅"
+      },
+      {
+        "commit": "4d05b757a80a969b7f294a2617feb956ce170899",
+        "author": "liurongjie",
+        "date": "2026-08-28 22:27:30",
+        "message": "fix(mediaproxy): 统一 strm 无 PC 浏览期 dirWarm 并去重调度"
+      },
+      {
+        "commit": "60665b929dabf10eb6b05ddb2227a90dfcea815f",
+        "author": "liurongjie",
+        "date": "2026-08-28 22:03:44",
+        "message": "fix(mediaproxy): 预热对齐 parts UA 分桶并加强播放观测"
+      },
+      {
+        "commit": "3abcb887c172cd54188fa77e14fd4e75921528df",
+        "author": "liurongjie",
+        "date": "2026-08-28 17:36:37",
+        "message": "fix(mediaproxy): metadata 双键对齐 user 桶 backfill"
+      },
+      {
+        "commit": "c4dd1a49eab57e4191a78144ce8c48e9e887fba5",
+        "author": "liurongjie",
+        "date": "2026-08-28 16:49:47",
+        "message": "fix(mediaproxy): seek 不再命中/续写 redirectCache"
+      },
+      {
+        "commit": "328f87238e8409d32e680eec36eb88ecc8a03c82",
+        "author": "liurongjie",
+        "date": "2026-08-28 15:36:22",
+        "message": "fix(mediaproxy): 禁止 Plex Director 代填服务器 Token"
+      },
+      {
+        "commit": "e8379d33f1a6b983c9165296989e5c6ec3fe682c",
+        "author": "liurongjie",
+        "date": "2026-08-28 15:20:04",
+        "message": "fix(mediaproxy): promoted 空响应优化与 scrobble 后 metadata 失效"
+      },
+      {
+        "commit": "781e55e63d3fb5e72432fb413bcd91b7ff33db8b",
+        "author": "Jolc",
+        "date": "2026-08-28 12:24:56",
+        "message": "fix: strm 路径含 & 时被 query 解析截断导致 object not found"
+      },
+      {
+        "commit": "8062a674b91819e0eb03ddb8a47a8bb355e0b34c",
+        "author": "liurongjie",
+        "date": "2026-08-28 12:00:12",
+        "message": "fix(mediaproxy): Plex 双键缓存有 user 映射时优先读 user 桶"
+      },
+      {
+        "commit": "80ffda17655e491c3d888c549b52aa1d8d94c35c",
+        "author": "liurongjie",
+        "date": "2026-08-28 00:07:53",
+        "message": "fix(mediaproxy): seek 成功即续写 redirectCache 并延长 TTL"
+      },
+      {
+        "commit": "aaeb56b3a37fbcfbae7468b51c5c8c5ac53da39a",
+        "author": "liurongjie",
+        "date": "2026-08-27 23:36:59",
+        "message": "fix(mediaproxy): 恢复 seek redirectCache 并收紧 dirWarm 防踩踏"
+      },
+      {
+        "commit": "d4adc468bcca8b7191d1a04618cb9293358891f5",
+        "author": "liurongjie",
+        "date": "2026-08-27 22:14:19",
+        "message": "feat(mediaproxy): 无 PC 云路径提前软刷目录缓存"
+      },
+      {
+        "commit": "a0ef077f892f56e993154e07d117f005df496727",
+        "author": "xylplm",
+        "date": "2026-08-27 18:50:04",
+        "message": "fix 🐛: 修复云下载与转存失败后订阅丢集、坏资源反复重试的问题"
+      },
+      {
+        "commit": "0e09cba2ec8a738198ec9d0c91db427196f8f84c",
+        "author": "liurongjie",
+        "date": "2026-08-27 18:24:35",
+        "message": "docs: 媒体路径映射说明改为最短前缀写法与举例"
+      },
+      {
+        "commit": "82de25eb0d6e4f61ff790bd033aa136e912a359e",
+        "author": "liurongjie",
+        "date": "2026-08-27 18:24:34",
+        "message": "fix(mediaproxy): Plex 身份同步读 Redis，并补写 user 缓存桶"
+      },
+      {
+        "commit": "109edb478d1d5aaa30e2031e3cbc045eef4976c0",
+        "author": "liurongjie",
+        "date": "2026-08-27 16:42:10",
+        "message": "fix(mediaproxy): 预热槽位真超时释放并降低日志噪音"
+      },
+      {
+        "commit": "4ba6ea38413bfa161c28263950ebe4d628365fe3",
+        "author": "GateCross",
+        "date": "2026-08-27 13:46:57",
+        "message": "fix: 支持云下载失败时自动回退订阅状态及集数"
+      },
+      {
+        "commit": "6c9b881a82ab3fe554de95f8856b16bec58c0c51",
+        "author": "liurongjie",
+        "date": "2026-08-27 12:52:48",
+        "message": "fix(mediaproxy): 收紧 Plex 直链预热去重与 metadata plain 响应"
+      },
+      {
+        "commit": "7e788acbaebb7fefffe1733c2f19e6053df57ebb",
+        "author": "liurongjie",
+        "date": "2026-08-27 11:52:23",
+        "message": "feat(mediaproxy): Plex 日志驱动冷路径优化"
+      },
+      {
+        "commit": "614f82fd786faace3bd8de75b44c268455d409f8",
+        "author": "Jolc",
+        "date": "2026-08-27 10:42:58",
+        "message": "fix(cs_hash): 使用上报按接口单次条数上限自动分批"
+      },
+      {
+        "commit": "3c242ad5d8a5e2aa4cffd6919a46de5b57abd93e",
+        "author": "liurongjie",
+        "date": "2026-08-27 00:44:52",
+        "message": "feat(mediaproxy): Plex 冷路径预热对齐真播并提前填 linkCache"
+      },
+      {
+        "commit": "c53a657115cce109ec7dff2f2729f8fdf29af203",
+        "author": "GateCross",
+        "date": "2026-08-26 23:05:19",
+        "message": "fix: 修复emby媒体启用范围问题"
+      },
+      {
+        "commit": "5cd14f63c4ba10331408bf9afff14bba96a30819",
+        "author": "liurongjie",
+        "date": "2026-08-26 21:55:23",
+        "message": "fix(mediaproxy): STRM 元数据增强仅作用于 Plex 官方客户端与网页版"
+      },
+      {
+        "commit": "633784cdbe1d8e724830bfde3bbbe40147cf7e41",
+        "author": "xylplm",
+        "date": "2026-08-26 19:12:38",
+        "message": "fix(user): 修复编辑用户误报已存在并加固用户维护 CRUD"
+      },
+      {
+        "commit": "66c84ebfd645d911d0ffeef70432bdaa6070d27e",
+        "author": "xylplm",
+        "date": "2026-08-26 16:10:39",
+        "message": "fix(torrent_search_task): 热词统计排除订阅任务错误"
+      },
+      {
+        "commit": "23811cd448f6a55cc6ab40e6f5cdb1c9391c7d1d",
+        "author": "liurongjie",
+        "date": "2026-08-26 15:47:43",
+        "message": "fix(mediaproxy): 空货架改为语义判定，避免短 body 有片被误判"
+      },
+      {
+        "commit": "ebdbbb7f9e9b74c9f4e515bca5c283ada0d9135a",
+        "author": "liurongjie",
+        "date": "2026-08-26 14:15:28",
+        "message": "feat(mediaproxy): 身份映射 tokenFp→ptv:uuid 写入 Redis 共享"
+      },
+      {
+        "commit": "3b3e2a2151979a4d71d4331919dd86dc8e37a901",
+        "author": "liurongjie",
+        "date": "2026-08-26 14:04:26",
+        "message": "feat(mediaproxy): Plex 缓存按 plex.tv 用户双键分桶"
+      },
+      {
+        "commit": "f219b03ca14139b5d567b4662a6ca3ffeb117707",
+        "author": "liurongjie",
+        "date": "2026-08-26 13:10:58",
+        "message": "fix: STRM enhance 后 pathCache 污染导致 iOS decision 透传"
+      },
+      {
+        "commit": "30d76db06c2b9bdc8e373a01da51bf707e9197a2",
+        "author": "xylplm",
+        "date": "2026-08-26 11:48:24",
+        "message": "feat ✨: 用户偏好支持竖屏网络壁纸"
+      },
+      {
+        "commit": "a7d86dec88c96db8a6b747db82ee3ea5b5b2c8da",
+        "author": "Jolc",
+        "date": "2026-08-26 10:48:44",
+        "message": "feat(cloud_storage): Hash 使用榜与引用榜统计转发"
+      },
+      {
+        "commit": "06cb7328fc2029c407656aa2780132735d9c8aee",
+        "author": "liurongjie",
+        "date": "2026-08-26 00:45:50",
+        "message": "fix: playQueue 切集 decision 解耦 metadata 冷 miss 阻塞"
+      },
+      {
+        "commit": "29e668f6feb996cd2c67b1b08d21976fbeb4032f",
+        "author": "liurongjie",
+        "date": "2026-08-25 23:54:04",
+        "message": "perf: metadata 共享回源与 item 别名缓存，削减详情重复 miss"
+      },
+      {
+        "commit": "40fdf5c06792368fb7b38a01f91e0ddc881bb9dd",
+        "author": "GateCross",
+        "date": "2026-08-25 17:26:08",
+        "message": "feat: 支持剧集云资源批量下载"
+      },
+      {
+        "commit": "186a6d76fa482ff17ca9a2d6a714a5f6f623246e",
+        "author": "liurongjie",
+        "date": "2026-08-25 16:53:08",
+        "message": "fix: STRM 按真实后缀伪装，Web/iOS 非直玩容器改假 HLS"
+      },
+      {
+        "commit": "d3c3f0e44defc288ab8531dd5f63da138a913b38",
+        "author": "liurongjie",
+        "date": "2026-08-25 14:48:28",
+        "message": "perf: playQueues 并发合并回源，metadata path parse 异步化"
+      },
+      {
+        "commit": "8e27863cae358992e3fa031d0e417815eca7aa05",
+        "author": "liurongjie",
+        "date": "2026-08-25 14:14:05",
+        "message": "perf: hubs related 详情 inflight 时空壳 200，并等待详情到达"
+      },
+      {
+        "commit": "b87d99c4646478deb5de67c6e0f937be08cfccda",
+        "author": "liurongjie",
+        "date": "2026-08-25 14:09:55",
+        "message": "perf: Plex 同步剥 checkFiles 并补丁 exists，异步探活回填"
+      },
+      {
+        "commit": "bf59209a3f59b5a212801c6067479347966d9abf",
+        "author": "Jolc",
+        "date": "2026-08-25 13:59:53",
+        "message": "feat(cloud_storage): 云资源使用采集与存量回填"
+      },
+      {
+        "commit": "d9785e4e33825818bdc1ac978f9107c223cebe23",
+        "author": "liurongjie",
+        "date": "2026-08-25 12:53:40",
+        "message": "Revert \"perf: Plex 详情同步剥 checkFiles，异步回填探活缓存\""
+      },
+      {
+        "commit": "3a2ab8c9daa680a38a39d9f5f7c364cd82874258",
+        "author": "GateCross",
+        "date": "2026-08-25 12:41:48",
+        "message": "fix: 兼容115生活事件接口无数据时data返回空数组的反序列化失败"
+      },
+      {
+        "commit": "24d690d0ec8f6d18cbb23c5b261fe9ff8d6ece0f",
+        "author": "liurongjie",
+        "date": "2026-08-25 12:35:02",
+        "message": "perf: Plex 详情同步剥 checkFiles，异步回填探活缓存"
+      },
+      {
+        "commit": "56d727db6597feca6bbe0948f67dad0b1404fbfc",
+        "author": "liurongjie",
+        "date": "2026-08-25 11:09:40",
+        "message": "perf: Plex 代理 origin 槽读智能限流，并合并详情回源与合集 children 缓存"
+      },
+      {
+        "commit": "652ff97463ee2026031c58462f3666c91cedb036",
+        "author": "liurongjie",
+        "date": "2026-08-25 09:57:20",
+        "message": "fix: IYUU 辅种 404 与 0% 删除失败缓存按多种 ID 保留 60 天"
+      },
+      {
+        "commit": "a1b9d6f6ad24bccf3c0c0cbabb3a8cb96d6657d5",
+        "author": "Jolc",
+        "date": "2026-08-24 21:27:04",
+        "message": "fix(cloud_backup): 修复云备份插件状态机与数据安全缺陷，优化扫描性能"
+      },
+      {
+        "commit": "c5ee510267b624f4783e0a9d1f1ce9535796d7f9",
+        "author": "Jolc",
+        "date": "2026-08-24 15:44:53",
+        "message": "feat(mediaserver): Emby data 目录改用路径选择器"
+      },
+      {
+        "commit": "e35ecfcb7508d39992aeeefb1b51fad7d5e11a2f",
+        "author": "Jolc",
+        "date": "2026-08-24 15:24:22",
+        "message": "feat(mediaserver): Emby 同步全走 SQLite 直连提速"
+      },
+      {
+        "commit": "3e688141384b6b266065f1d06fc0eec8157c35ad",
+        "author": "liurongjie",
+        "date": "2026-08-24 12:41:44",
+        "message": "fix: 官方 Plex 详情回源保留 checkFiles，避免 exists=0 毒缓存"
+      },
+      {
+        "commit": "1eba923e208efc63339af3c6745ec9b6e474b405",
+        "author": "xylplm",
+        "date": "2026-08-24 11:20:04",
+        "message": "fix: 手动绑定的 TMDB 索引跳过缓存一致性校验"
+      },
+      {
+        "commit": "a5ae49481cc3cf48b6b5975d4e3a416e25316a74",
+        "author": "liurongjie",
+        "date": "2026-08-24 09:39:26",
+        "message": "chore: 增加 Plex 缓存跨端复用探测日志"
+      },
+      {
+        "commit": "c6e9aac98b95a047034d90f19cd644a78f867b5d",
+        "author": "xylplm",
+        "date": "2026-08-23 23:04:06",
+        "message": "fix: 中文名后紧跟罗马数字时不再误拼入 CnName"
+      },
+      {
+        "commit": "dcd7c9fb86fdacc7661822a8dbaaf1ec930410ff",
+        "author": "liurongjie",
+        "date": "2026-08-23 22:41:23",
+        "message": "perf ⚡: 忽略播放一次性参数并缩短 related 回源"
+      },
+      {
+        "commit": "8be66459570443e0db907f1f519d756d37fd6357",
+        "author": "liurongjie",
+        "date": "2026-08-23 22:37:09",
+        "message": "fix 🐛: 禁用媒体服务器后不再解析库范围并连上游"
+      },
+      {
+        "commit": "aa7d577cc504bdac8edde044efa1d573d9427840",
+        "author": "xylplm",
+        "date": "2026-08-23 22:30:04",
+        "message": "refactor: modernize codebase for Go 1.27 idioms"
+      },
+      {
+        "commit": "a24051c4321a1d02fe552c1617c980c2b8a7c138",
+        "author": "xylplm",
+        "date": "2026-08-23 18:31:03",
+        "message": "chore: upgrade Go 1.26.5 -> 1.27 and modernize code"
+      },
+      {
+        "commit": "441ca084ba152568cd45e79a027f408cfe7b67d1",
+        "author": "GateCross",
+        "date": "2026-08-22 22:27:33",
+        "message": "fix: 兼容115生活事件空数据时反序列化失败问题"
+      },
+      {
+        "commit": "6a39ed16e3d10886de42a6a6d8c3c089eb08bd49",
+        "author": "liurongjie",
+        "date": "2026-08-22 18:21:50",
+        "message": "fix 🐛: 客户端取消后不再透传，脱离 ctx 回源写缓存"
+      },
+      {
+        "commit": "c382d8883692a283acb576eeb4b72b2e97039692",
+        "author": "liurongjie",
+        "date": "2026-08-22 17:51:18",
+        "message": "fix 🐛: 完善 Plex 缓存日志，对照 keyFp 与 cacheURL"
+      },
+      {
+        "commit": "1b921e0cf1ede4db1a71bc55abfd43e1a87eed01",
+        "author": "liurongjie",
+        "date": "2026-08-22 02:23:48",
+        "message": "fix 🐛: 加固 Plex 缓存，修复 gzip/错页/空体覆盖等问题"
+      },
+      {
+        "commit": "88c5a281ff96cbc410e58f2cfa8e4261db459629",
+        "author": "liurongjie",
+        "date": "2026-08-22 02:11:47",
+        "message": "perf ⚡: 详情 SWR 与 origin 分桶，减轻详情/货架等待"
+      },
+      {
+        "commit": "77e4312e65727c6337938ee6ca05cb454047d57e",
+        "author": "liurongjie",
+        "date": "2026-08-22 01:03:13",
+        "message": "perf ⚡: 缓存 related/similar 旁路，减轻起播前 PMS 风暴"
+      },
+      {
+        "commit": "ed5746326f1963c74f170a49bc9f92b100bfc744",
+        "author": "liurongjie",
+        "date": "2026-08-22 00:37:53",
+        "message": "perf ⚡: 详情飞行时列表让路并拉长空货架负缓存"
+      },
+      {
+        "commit": "ee53acfd9528d7227733d4da17626cf2c5f1528e",
+        "author": "liurongjie",
+        "date": "2026-08-21 23:51:29",
+        "message": "perf ⚡: browse SWR 缓存与 query 归一化，origin 并发降至 2"
+      },
+      {
+        "commit": "2edf18e0daed1967089da1bb3209205ef00a5d86",
+        "author": "liurongjie",
+        "date": "2026-08-21 23:16:00",
+        "message": "perf ⚡: hubs 空货架短内存缓存并限制同步回源并发"
+      },
+      {
+        "commit": "dd58319dc6b08cd3186d686608f5306c8ef4ffce",
+        "author": "xylplm",
+        "date": "2026-08-21 22:47:06",
+        "message": "fix 🐛: 修复多季合集种子在订阅拆包时一集都匹配不上"
+      },
+      {
+        "commit": "53a35a2f636e2333fe44d787ac06a1d6850bb72e",
+        "author": "xylplm",
+        "date": "2026-08-21 22:32:50",
+        "message": "fix 🐛: 修复补零数字命名的剧集被当成电影，以及目录名的集数区间落到单个文件上"
+      },
+      {
+        "commit": "93a644cd1a1fe35762e9aaa88bf57bc19e772b9b",
+        "author": "liurongjie",
+        "date": "2026-08-21 22:15:02",
+        "message": "perf ⚡: hubs soft 5m + 拒小 body + 刷新限流并重开 Redis"
+      },
+      {
+        "commit": "26c21ecc3f99dbf4c0283c4be5bb7861bd3ac363",
+        "author": "xylplm",
+        "date": "2026-08-21 21:53:35",
+        "message": "fix 🐛: 修复整理后的剧集几乎必然识别失败，并补全文件名与目录名上的 TMDB 标记识别"
+      },
+      {
+        "commit": "e86f0885ca4e36b250457b8901f13802504d1f16",
+        "author": "liurongjie",
+        "date": "2026-08-21 20:35:12",
+        "message": "chore 🔧: 临时关闭 hubs Redis，并补充 timeline/缓存诊断日志"
+      },
+      {
+        "commit": "6d72a931803dc05a2575ea266ca5968a376ed4b8",
+        "author": "xylplm",
+        "date": "2026-08-21 20:09:55",
+        "message": "fix 🐛: 修复片名结尾带数字时集数识别错误，还会连片名一起丢掉"
+      },
+      {
+        "commit": "32650173f891fa5f8d40e650fecfd0924d41d0bf",
+        "author": "xylplm",
+        "date": "2026-08-21 19:44:48",
+        "message": "fix 🐛: 修正识别缓存的唯一约束，同一名称不再可能存在多条互相矛盾的记录"
+      },
+      {
+        "commit": "628fdcd6a8d9825e0b9440b23bb073f2f7e80fa1",
+        "author": "liurongjie",
+        "date": "2026-08-21 19:26:49",
+        "message": "perf ⚡: hubs 增加 Redis 二级缓存，重启后可穿透回填"
+      },
+      {
+        "commit": "bccfe9c155e9fc6d986fdecea85849a14299bd56",
+        "author": "xylplm",
+        "date": "2026-08-21 19:24:25",
+        "message": "chore 🔧: 清理已失效的代码，去掉全局日志的重复防护判断"
+      },
+      {
+        "commit": "27a1779c2f826548ecfdac8cf3bac2e6385a4482",
+        "author": "xylplm",
+        "date": "2026-08-21 19:12:45",
+        "message": "fix 🐛: 订阅过滤支持带音标的片名，识别与订阅的判定规则统一"
+      },
+      {
+        "commit": "92a1f9d349d0d32eca801623199be9671bbbd8c8",
+        "author": "liurongjie",
+        "date": "2026-08-21 18:32:40",
+        "message": "fix 🐛: Plex 剧集父行回填路径，避免同步后显示暂无路径"
+      },
+      {
+        "commit": "f50d7a98d3bf73502ef40ccba5838287b54744c3",
+        "author": "xylplm",
+        "date": "2026-08-21 18:29:34",
+        "message": "fix 🐛: 自动修复历史错误的识别缓存，避免把剧集刮成毫不相关的电影"
+      },
+      {
+        "commit": "b640f794dd78b5929c18945375b78ac2b86f44ea",
+        "author": "xylplm",
+        "date": "2026-08-21 18:12:35",
+        "message": "fix 🐛: 大幅提升英文片名的 TMDB 识别成功率，修正剧集被当成电影缓存导致的张冠李戴"
+      },
+      {
+        "commit": "1141bba7d764e43496d8e42173182287d2f1f805",
+        "author": "liurongjie",
+        "date": "2026-08-21 18:08:29",
+        "message": "fix 🐛: 安卓/TV 播放收回 m3u8 裸视频并让 strm parts 走 302"
+      },
+      {
+        "commit": "aa58f2250a7d2145cc4ed53ea885e7d72334707a",
+        "author": "liurongjie",
+        "date": "2026-08-21 16:07:43",
+        "message": "fix 🐛: 官方安卓/TV 非 strm 恢复 302，白名单 Direct Play 禁止假 HLS"
+      },
+      {
+        "commit": "db8418868fd0b2e96cc00a1dd56490eef60cc1db",
+        "author": "liurongjie",
+        "date": "2026-08-21 15:51:07",
+        "message": "perf ⚡: hubs 缓存取消 hard 同步等待，有条目即 SWR"
+      },
+      {
+        "commit": "506b6c10e4fe59d1544036264b6e54ee993aa71c",
+        "author": "liurongjie",
+        "date": "2026-08-21 15:38:37",
+        "message": "perf ⚡: Plex 热点 hubs 短 TTL SWR 缓存加速主页/推荐"
+      },
+      {
+        "commit": "5efa6134c9da3bd6cfddb650966fb463c28f06e7",
+        "author": "liurongjie",
+        "date": "2026-08-21 13:20:46",
+        "message": "perf ⚡: 收窄 Plex metadata 拦截并补浏览慢请求日志"
+      },
+      {
+        "commit": "632082a691c389e4c72a261bcb177b4cade24bce",
+        "author": "liurongjie",
+        "date": "2026-08-21 13:06:37",
+        "message": "fix 🐛: 修复 Plex similar/related 元数据被误判为解析失败"
+      },
+      {
+        "commit": "7fa8af28c0ee2b3381fa1b4c1293893b1bfe25c0",
+        "author": "liurongjie",
+        "date": "2026-08-21 12:38:40",
+        "message": "fix 🐛: 补齐 MediaProxy 日志 [MediaProxy] 前缀，便于过滤检索"
+      },
+      {
+        "commit": "3715776bd2467df55cefdddbd35c5d2454a67750",
+        "author": "liurongjie",
+        "date": "2026-08-21 11:39:05",
+        "message": "feat ✨: 优化 Plex 起播体验，修复 Android/TV strm 假 HLS 难续播"
+      },
+      {
+        "commit": "5d2eebadbdef3f29f4a99d4954136cbb4b1b03ee",
+        "author": "xylplm",
+        "date": "2026-08-20 20:48:47",
+        "message": "perf ⚡: 生成 Strm 只开通知时不再做媒体识别，改为推送文字通知"
+      },
+      {
+        "commit": "25bdaf3aac64664ff867081c08a38a7cde9655d8",
+        "author": "liurongjie",
+        "date": "2026-08-20 17:39:50",
+        "message": "fix 🐛: 修复 IYUU 辅种 rsskey 拼装与失败名单重复拉取"
+      },
+      {
+        "commit": "5a759e45fb2e556cb41f0819ad15c63c45c728ed",
+        "author": "xylplm",
+        "date": "2026-08-20 14:39:27",
+        "message": "fix 🐛: 修复识别词缓存的并发读写隐患，改词条后可能不立即生效"
+      },
+      {
+        "commit": "f2733b06a11e3229c8e74a5d27a11a5bc9a038c4",
+        "author": "xylplm",
+        "date": "2026-08-20 14:13:43",
+        "message": "feat ✨: 名称识别测试的识别词命中结果带上来源，可精确定位到词库条目"
+      },
+      {
+        "commit": "c76f81ae5ce84d9e2372dc4ed7d5df059ef280fc",
+        "author": "xylplm",
+        "date": "2026-08-20 13:18:20",
+        "message": "fix 🐛: 修复智能体对话卡在「思考中」无法继续、搜索结果卡偶发丢失、归档后内存不释放的问题"
+      },
+      {
+        "commit": "3581a7e077e063f3a6d82d388722b375a003eee4",
+        "author": "liurongjie",
+        "date": "2026-08-20 12:52:31",
+        "message": "perf ⚡: Plex strm 解析缓存加速起播并收敛 MediaProxy 噪音日志"
+      },
+      {
+        "commit": "b41acacf2596b6601e35052f666e1dafd5060f97",
+        "author": "xylplm",
+        "date": "2026-08-19 16:40:57",
+        "message": "fix 🐛: 修复启动清理废弃索引在 PostgreSQL 上的语法错误"
+      },
+      {
+        "commit": "9fe8a93df48f3fcb120e28674164d3670dd0a293",
+        "author": "xylplm",
+        "date": "2026-08-19 16:30:18",
+        "message": "fix 🐛: 修复校验队列空时误报 redis nil 错误"
+      },
+      {
+        "commit": "009864941df2347aa01ee33c9c3f1ea63bd5959f",
+        "author": "xylplm",
+        "date": "2026-08-19 12:25:25",
+        "message": "feat ✨: 媒体服务器新增媒体库启用范围隐私屏蔽"
+      },
+      {
+        "commit": "8daec8eaf382c1e2c5ec79b5288e4c280f7d642b",
+        "author": "xylplm",
+        "date": "2026-08-18 16:30:14",
+        "message": "fix 🐛: 修复自动转移做种校验等待与启动恢复"
+      },
+      {
+        "commit": "bb66ad7eb3af20d54cbbfb788a0e30783277d453",
+        "author": "liurongjie",
+        "date": "2026-08-18 14:23:53",
+        "message": "Revert \"feat ✨: Plex 详情预热直链并收窄元数据匹配\""
+      },
+      {
+        "commit": "7df872773a2de797740c7e342bf3e1a9bb7c6406",
+        "author": "liurongjie",
+        "date": "2026-08-18 13:28:11",
+        "message": "feat ✨: Plex 详情预热直链并收窄元数据匹配"
+      },
+      {
+        "commit": "53f7978d82932aa48910e8ebf887a07a83837fe8",
+        "author": "xylplm",
+        "date": "2026-08-18 13:15:59",
+        "message": "fix 🐛: 极影视跳过目录轨道查询"
+      },
+      {
+        "commit": "b29fb0b1637cab58c8f57f4b87171f85694f4a27",
+        "author": "liurongjie",
+        "date": "2026-08-18 12:33:16",
+        "message": "Revert \"refactor ♻️: 收敛 Plex MediaProxy 日志噪音并收窄元数据匹配\""
+      },
+      {
+        "commit": "fb869ab796a9e70709f621a6207581e7c1a23326",
+        "author": "GateCross",
+        "date": "2026-08-17 20:44:59",
+        "message": "fix: 刷流插件忽略 qb 已存在种子的误报通知"
+      },
+      {
+        "commit": "13d9186151ea106bbd3f4980334711bcaab8fe32",
+        "author": "xylplm",
+        "date": "2026-08-16 22:02:47",
+        "message": "fix 🐛: 修复站点数据导出图片在 Docker 中缺失文字"
+      },
+      {
+        "commit": "c3ee41b0d373a431687fd8c495d084b0f0f38ecf",
+        "author": "GateCross",
+        "date": "2026-08-16 20:28:41",
+        "message": "fix(agent): 开启智能体模型流式调用，恢复逐字输出"
+      }
+    ]
+  },
+  {
     "version": "3.0_202608161938",
     "items": [
       {
