@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610051223",
+    "items": [
+      {
+        "commit": "8538e338ed535e961d13e80cd42ca55ac2c18112",
+        "author": "xylplm",
+        "date": "2026-10-05 12:20:33",
+        "message": "feat ✨: 媒体模块新增演员详情接口，支持按演员查询生日、出生地、简介等完整资料"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610042017",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-10-01 02:52:06",
         "message": "fix 🐛: 目录同步插件启灵失败「源目录不能为空或根目录」——创建实例时前端只传名称 config 为空,BeforeCreate 校验把未配置当错误拦截;改为源/目标均为空(未配置态)放行交运行时跳过兜底,填了任一路径才做完整校验(改名保存未配置实例同理)"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610010106",
-    "items": [
-      {
-        "commit": "a9b879e7483c5c89e94575baa5b27e309e5abc58",
-        "author": "liurongjie",
-        "date": "2026-10-01 01:05:43",
-        "message": "feat ✨: 云存储目录同步插件(cloud_dir_sync)——一个实例一条「源目录→目标目录」增量同步规则,定时/手动递归扫描源目录,新增与内容变化文件经 fs.CopyFile 入 CopyTaskManager 复制(进度/重试/持久化复用,115 秒传免流量);cloud_dir_sync_record 台账判重 done 不重传,queued 12h 超时重入队,failed 下轮重试,复制成功/失败全局钩子(sync.Once 注册)回写台账;增量判定 115 SHA1 优先无 hash 退化 size+mtime,done 台账 DstPath 与配置映射不一致自愈失效(防改目录后错误跳过致目标缺文件),变更覆盖先删旧目标防重名副本;源/目标互嵌套保存(BeforeCreate/BeforeUpdate)与运行双重校验防循环复制;防重入锁 sentinel 静默跳过防 cron 通知轰炸;动态表单 cloud_dir_sync.json/详情摘要 DisplayContent/卸载清台账齐备;goctl 重生成对齐 types/routes(含此前 browse 接口遗漏的生成同步)"
       }
     ]
   }
