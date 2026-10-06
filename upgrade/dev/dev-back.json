@@ -3,10 +3,10 @@
     "version": "DEV_202610062336",
     "items": [
       {
-        "commit": "8dfc105ecfdd1bf5feea7555c9f8bf0ffcbb30e2",
+        "commit": "bd8204f0237fd7816d208f6efda068bf027d89db",
         "author": "liurongjie",
         "date": "2026-10-06 23:32:26",
-        "message": "fix 🐛: 云下载失败通知补齐「哪个资源、哪个订阅、为什么挂」——①cloudDownloadFailureNotify 一直收着 t.Url 却从没拼进正文，通知只有目标目录（如 /115/未整理）没有资源身份，多条订阅并行时完全认不出挂的是哪条；新增 cloudDownloadResourceLine：ed2k 取 |file| 后文件名、磁力链取 dn、都取不出退回整条链接（与提交通知同一个 🔗 链接 label，长链接进通知是既有行为不是新风险）；磁力链 dn 就地解析而不塞进 parseFileNameFromLink——后者在提交路径上以 fileName 非空为闸门触发 TMDB 刮削（metadata.TmdbDetails → tmdbpro.Match 远程调用），通知侧不该替提交路径引入远程调用，且磁链是站点种子云下载的常规输入（Enclosure 按\"合法 http 或 magnet\"收）；也不用 metadata.GetMagnetTitle，它按 dn=([^&]+) 正则取值、不解百分号也不校验 scheme，通知里会露出 %20 这类转义串 ②补 ❌ 错误：任务终态错误 t.GetErr()，与同步转存失败通知同 label；此前状态为\"下载中\"却判失败（复核未命中、状态查询连续 6 次失败）只有日志能解释，通知看不出原因；只进通知不重复记日志，tache worker 在 OnFailed 前已按 task id 打过同一条 ③状态行改为空值不打：DownloadTask.Status 仅在 Update() 轮询里赋值且 json:\"-\" 不持久化，提交阶段 AddURL 就失败的任务根本没进轮询，原来会输出「❌ 状态：」空白行 ④订阅名补进 rollbackSubscribeAsync（云下载失败与转存失败两条钩子共用，一处改两处生效）：纯主键查询不抢 RollbackSubscribe 那把订阅锁所以留在当前线程，查不到按 Debug 记不阻断（订阅被删后仍有在途任务是正常场景，真 DB 故障由紧随的 RollbackSubscribe Errorf 兜底暴露），格式沿用订阅完成通知的 名称(年份)+S季，与 rollbackSubscribeLocked 的 Tv-positive 判据在 Movie/Tv 二值域内等价 ⑤复核提示「云下载本地监测异常」同样只报目录不报资源，一并补资源行；label 语义的历史不一致（📁/📂、路径/目录 混用，成功通知的 📁 路径是文件全路径而失败通知是目标目录）刻意不动——messagePolicyExtractContentValue 按行内\"路径：\"子串抽聚合摘要、message_notify_policy_test.go 即以此断言，改 label 会连带影响聚合语义；本条通知带 ForceDirect 永不进聚合桶，新增行不参与摘要抽取"
+        "message": "fix 🐛: 云下载失败通知补齐资源名、订阅名、失败原因"
       }
     ]
   },
