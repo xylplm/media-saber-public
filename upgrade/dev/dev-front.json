@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610071945",
+    "items": [
+      {
+        "commit": "c45bb83da5fbd07df512d72139a1ba103a55f96e",
+        "author": "xylplm",
+        "date": "2026-10-07 17:08:45",
+        "message": "fix 🐛: 详情弹窗剥离双层包裹，极影视资料正常显示"
+      },
+      {
+        "commit": "632835e49c02a321e9023aaf29f80e1a92c1d59c",
+        "author": "xylplm",
+        "date": "2026-10-07 00:36:51",
+        "message": "feat ✨: 媒体库支持网页内直接播放"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610051223",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-09-30 23:41:00",
         "message": "feat ✨: 正在下载新增批量操作——批量栏全选/计数/批量暂停/恢复/删除,卡片左上角常显勾选框压悬浮遮罩;批量动作沿用单任务接口串行调用+乐观更新+失败逐个回滚汇总,轮询自动清理已消失任务的选中态"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202609301753",
-    "items": [
-      {
-        "commit": "a27c7349c212cccaa7373bdff6ce8b3747fd07ed",
-        "author": "liurongjie",
-        "date": "2026-09-30 17:53:24",
-        "message": "fix 🐛: 待用法宝卡「激活」按钮文字折成竖排——窄卡里 Material 按钮 padding+图标挤占文字区正好卡临界宽,按钮文案 white-space:nowrap + min-width:0 + 收窄水平内边距防折行防撑破(同境界横幅三按钮修法)"
       }
     ]
   }
