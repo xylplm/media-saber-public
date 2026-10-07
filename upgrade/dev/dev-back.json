@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610072317",
+    "items": [
+      {
+        "commit": "832377a264cd66de7c3b0c9ceb9a9ffee830c89b",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:12:22",
+        "message": "fix 🐛: Plex 转码客户端标识改为按 UA 派生稳定值——PMS 对转码条目按客户端独占，逐次新标识导致降级/重试连环 400（年轻的嫂子3 播放失败根因）"
+      },
+      {
+        "commit": "28108319e686e837510b80f6d2e8d6c141deeb40",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:03:13",
+        "message": "fix 🐛: 回归实测揪出 hub 条目 id 形态问题——最近入库/正在播放把 /library/metadata/{id} 路径形态的 Key 当 ratingKey 下发，传进播放协商/详情/时间线会拼出双重路径 404（最近入库卡片点播放必挂）：recentlyAdded 映射改用 ratingKey（Key 兜底归一）、Playing 的 Id 改 ratingKey（Link 仍用 Key，web 页两种形态都收）；PlaybackInfo/PlayStreamUrl/ReportProgress/ItemDetail 入口统一 plexNormalizeRatingKey 容错归一，防其它来源的 Key 形态 id；Seasons 对单集 id 的 children 404 按空季返回（续播集卡片打开详情被前端按剧集误拉季集，对齐 Emby 宽松行为，不再刷 error 日志）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610072234",
     "items": [
       {
@@ -167,23 +184,6 @@
         "author": "liurongjie",
         "date": "2026-10-02 21:48:09",
         "message": "feat ✨: 目录同步新增「重试失败项」入口——records 返回 failedCount 与 toolbarAction 自描述，前端表格弹窗工具栏在失败数>0 时渲染重试按钮（确认文案 {n} 替换）；retryFailed 按当前目录配置对失败记录重新映射路径（relPath 不变，目录配置变更后仍能对上）静默逐条入队，单次上限 500 防 call 同步超长阻塞，入队失败的单条落回 failed 并记录原因不中断整批，回执按实际入队/失败数如实返回"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610021340",
-    "items": [
-      {
-        "commit": "11021484ab94464f203b46c5642e6d12e2ab903e",
-        "author": "liurongjie",
-        "date": "2026-10-02 13:24:40",
-        "message": "fix 🐛: 目录同步大同步场景三处修复——①queued 台账超 12h 未必僵死：跨存储大同步（3 万文件级）一轮远超 12h 属正常，僵死判定改为同时校验复制任务是否仍在 CopyTaskManager 存活（按目标路径 Join(挂载点,目录,源文件名) 匹配），存活则跳过重新入队，防次日 cron 把数万在途全部判僵死删目标重传的灾难性重复投递；②插件发起的复制任务静默化：ctx 带 QuietTaskKey 创建的任务带 Silent 标志（随任务持久化、子任务继承），全局成功/失败钩子跳过逐条通知防轰炸（3 万条级），strm 生成/上传联动与插件台账回写不受影响，轮次摘要通知保留；③插件详情展示改实时统计台账进度（已同步/失败/在途），不再只显示入队快照导致长时间无变化"
-      },
-      {
-        "commit": "8d36d4d20e2b6c8ad7eef72826ae6f8a4a392a70",
-        "author": "liurongjie",
-        "date": "2026-10-02 00:15:42",
-        "message": "feat ✨: 云存储目录同步记录支持状态筛选、文件名搜索与批量删除——records 增加 status 白名单与 keyword 参数（rel_path ILIKE 大小写不敏感，%/_/\\ 通配符转义为字面量防误命中），返回 filters/batchAction 自描述供通用表格弹窗渲染筛选工具栏与多选列；新增 deleteRecordBatch 批量删除（body.ids，单次上限 200，SQL 限定 instance_id，按实际影响行数如实回执）"
       }
     ]
   }
