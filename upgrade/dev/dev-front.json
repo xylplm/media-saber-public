@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610080021",
+    "items": [
+      {
+        "commit": "0aafbaf28d52a3ab8b026e29f363a23ad798d8ba",
+        "author": "liurongjie",
+        "date": "2026-10-08 00:20:27",
+        "message": "fix 🐛: 播放弹窗转码降级传断点并结束旧会话，播完发 stop 落 scrobble"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610072352",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-01 10:32:45",
         "message": "feat ✨: 通用秘籍弹窗支持插件表格类数据展示与行级操作——call 返回含 columns/rows 的自描述表格时在弹窗内渲染（分页、长文本省略+tooltip、加载态），rowAction 定义渲染行操作列（删除二次确认、成功后刷新、删空当前页自动回退一页）；displayContent 支持多行换行（whitespace-pre-line）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610010106",
-    "items": [
-      {
-        "commit": "24c7f40ac21cfebbb54776ef3ad58ee6041d413b",
-        "author": "liurongjie",
-        "date": "2026-10-01 01:05:47",
-        "message": "feat ✨: 云存储目录同步插件图标——cloud_dir_sync 白色线性双云+向下同步箭头+增量加号,128 viewBox 透明底纯白,与云类插件同风格,卡片尺寸及浅色背景可读性渲染验证通过"
-      },
-      {
-        "commit": "849d10bc4a15a0ee99e011e9383add892f98d110",
-        "author": "liurongjie",
-        "date": "2026-10-01 01:04:12",
-        "message": "fix 🐛: unknown 驱动的云存储行内「更多操作」按钮隐藏——移动/复制/重命名/删除与分享复制对 unknown provider 均不可用,桌面端菜单为空点了像没反应;新增 hasRowFileMenu 计算属性,菜单无内容不渲染按钮(移动端菜单有整理兜底保留)"
       }
     ]
   }
