@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610072352",
+    "items": [
+      {
+        "commit": "b8cf6e12a94aab9b6ccbe6cbbdfacd4cf608953f",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:52:21",
+        "message": "fix 🐛: 详情弹窗分集区加载为空时整节隐藏（单集条目不再显示空的分集占位）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610072234",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-10-01 01:04:12",
         "message": "fix 🐛: unknown 驱动的云存储行内「更多操作」按钮隐藏——移动/复制/重命名/删除与分享复制对 unknown provider 均不可用,桌面端菜单为空点了像没反应;新增 hasRowFileMenu 计算属性,菜单无内容不渲染按钮(移动端菜单有整理兜底保留)"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610010002",
-    "items": [
-      {
-        "commit": "1901ae1a8c296402fa88171ee41bf1ae4c530f9c",
-        "author": "liurongjie",
-        "date": "2026-10-01 00:02:18",
-        "message": "fix 🐛: 115分享等分享型存储「更多操作」菜单空白——移动/复制/重命名/删除整块被 provider 含 Share 排除后桌面端菜单一项不剩,分享只读特性下放开「复制」(转存到其他存储,fs.Copy 通用跨存储链路已核对),移动/重命名/删除仍隐藏"
       }
     ]
   }

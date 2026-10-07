@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610072352",
+    "items": [
+      {
+        "commit": "72c4c43047c8ed6fd183011f8df9da7a569a5b63",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:55:29",
+        "message": "feat ✨: Plex 剧集/季卡片直接播放自动解析到待播单集——从头播放取第一集、续播取首个未看完的集，进度上报按会话记录的单集 id 落到正确条目，不再弹「从季集列表选单集」引导"
+      },
+      {
+        "commit": "e485de0d78552e785cc84830621edb82497433e3",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:52:16",
+        "message": "fix 🐛: Plex 季集接口对叶子条目 children 400 按空季处理——单集详情弹窗误拉季集时 PMS 返回 400 而非 404，原容忍没兜住仍弹错误提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610072345",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-10-03 22:38:55",
         "message": "fix 🐛: Plex 插件批处理与元数据写入治理——①PutMetadata 限流此前完全不生效（netx 在 Key 为空时按完整请求 URL 分桶，而 PUT 每条 ratingKey 都不同＝逐条独立计数，批量本地化的数千次写一点没被拦），改为按 BaseUrl 隔开的共享桶；隔开而非全局共用是因为 Quota 各取自自己的 Config，混桶会让多台 PMS 互相消费对方额度。LibraryMetadataFresh 的桶如实标注只去重同条目：它有 mediaserver 前台详情调用方，换共享桶会让后台任务把用户请求卡住最长 300s，故不共享；②音乐刷新 state 随曲库变动无限膨胀，保存前按当前库条目剪 attempts/冷却/别名，且空集合不剪对应维度（库正在扫描/sectionKey 指错时接口会成功返回 0 条，按空集清理等于把重试计数全抹掉、已达上限条目下轮重新整轮刷），冷却期通知改为只发一次并单独持久化标记避开覆盖上一轮统计；③达重试上限/冷却中的条目先统一摘出批次，不再占槽位导致冷却期每轮空转 sleep；④状态表建表失败不再 panic（本函数在 HTTP 请求路径上，panic 会打崩请求 goroutine）改为仅日志并按 1 分钟退避重试，无退避时每次请求都跑 AutoMigrate 会拖慢路径；⑤gorilla 握手失败补 resp.Body.Close() 修重连循环持续泄漏，resolveUserAPI 收 server 参数、resolveAlertUser 回传已拉取的 sessions，每条 playing 的热路径不再重复查 DB 和 /status/sessions；⑥歌单匹配修三处误伤：去掉 with/x 标题剥离（\"With or Without You\" 会被截空）、子串包含判等加最短长度与长度比双约束、外部歌曲缺歌手改为留空（硬填\"未知歌手\"会让这类歌必然匹配不上）并在匹配层用比通用 0.94 更严的 0.98 兜底，无歌手佐证时不把同名不同歌手猜进歌单；⑦Playlists/PlaylistItems 统一走容器分页防大歌单被截断，QQ 歌单分页改硬失败 + 页数上限并去掉 SongBatchFailed/Total 影子统计；⑧本地化标签从逐标签一次 PUT 改为整字段一次 PUT 且去重（一个专辑 5 个英文 genre 原来打 5 次 PUT），threads 上限 8，pinyin 去全局互斥（Args 全是值字段，逐次拷贝即并发安全），取元数据失败保持 Errorf 不降级以免错误面板看不见；⑨三份同构分页器收口到泛型 fetchPagedMetadata（净减 87 行）、PlexMetadataType* 常量归位 types.go、删只写字段 QueueKey/Start 与死类型 musicTracksResult、共用的标题归一化工具抽到 plex_common_match.go 打破歌单导入与音乐刷新互相引用"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610032042",
-    "items": [
-      {
-        "commit": "449c9d0321cf7dcd66f7be379362e0d9a51576be",
-        "author": "GateCross",
-        "date": "2026-10-03 19:45:25",
-        "message": "feat ✨: 通知两项优化——①贡献者展示用户名+ID：云端资源使用结果新增 creator 字段（缓存缺失时经 CsHashDetail 回填），formatCsCreator 统一拼「名字 (ID)」；②单集剧集通知简介取该集概述：新增 metadata.NoticeOverview，电影/多集/拉取失败回退剧简介，strm302、媒体代理、入库三处通知接入"
       }
     ]
   }
