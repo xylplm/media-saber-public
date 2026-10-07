@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610072234",
+    "items": [
+      {
+        "commit": "5c7fa3e1d2db93506be282e0d1ef7b4ca7fa7765",
+        "author": "liurongjie",
+        "date": "2026-10-07 22:33:56",
+        "message": "feat ✨: 媒体库播放链路补齐 Plex 支持——PlaybackProvider 落地 plex_playback.go：直连按容器粗判（mp4/m4v/mov/webm/ogg+常见音频走 /library/parts 规范 key 直链带 token，mkv 等浏览器解不开的容器协商阶段直接选通用转码 HLS，起播位置烘进 offset 防播放器二次 seek，限速重协商同走转码）；进度走 /:/timeline（毫秒，转码会话的播放器时间轴相对转码起点、上报按会话缓存 offset 还原绝对位置，直连会话 offset 恒 0 防二次累加，start 零位置用起播位兜底防清零续播记忆，收尾≥90% 补 scrobble 落已看状态）；会话/条目 part 状态挂包级缓存跨请求存活（适配器按请求构建，与 plexMachineIdByHost 同因），stop 即清并兜 12h 陈旧清理；剧集/季条目无文件可播返回可读引导选单集。ItemDetail 从空壳转正：浏览入口（只带 id）拉最新元数据补全简介/评分/类型/片长/封面/背景图，同步入口（列表富字段+Etag）零请求透传不回退同步性能；Items 列表随带 SectionsAll 已有的简介/评分/Genre/时长/封面/背景图，Seasons 集条目补简介/时长/缩略图/链接，GetPrimaryImageUrl 落地 /library/metadata/{id}/thumb；api 层新增 timeline.go（Timeline+Scrobble），解码结构补 viewOffset/originalTitle/viewCount/duration；播放不支持错误文案与注释同步更新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610071945",
     "items": [
       {
@@ -173,17 +184,6 @@
         "author": "liurongjie",
         "date": "2026-10-02 00:15:42",
         "message": "feat ✨: 云存储目录同步记录支持状态筛选、文件名搜索与批量删除——records 增加 status 白名单与 keyword 参数（rel_path ILIKE 大小写不敏感，%/_/\\ 通配符转义为字面量防误命中），返回 filters/batchAction 自描述供通用表格弹窗渲染筛选工具栏与多选列；新增 deleteRecordBatch 批量删除（body.ids，单次上限 200，SQL 限定 instance_id，按实际影响行数如实回执）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610012147",
-    "items": [
-      {
-        "commit": "995bcc0443fbf2b51b153178603de4668d84d687",
-        "author": "liurongjie",
-        "date": "2026-10-01 21:46:36",
-        "message": "fix 🐛: 目录同步分页参数失效——go-zero 解析请求体强制 UseNumber（jsonx.Unmarshal），JSON 数字进 map[string]any 后是 json.Number 而非 float64，records 的 pageNum/pageSize 类型断言静默失败恒取默认值（点下一页永远返回第 1 页、台账超过一页无法翻页）；新增 cloudDirSyncBodyInt 兼容 float64/json.Number/字符串三种形态，deleteRecord 的 id 解析一并收口"
       }
     ]
   }
