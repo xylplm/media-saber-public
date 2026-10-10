@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202610110123",
+    "items": [
+      {
+        "commit": "7783fc24b12badfdecef3a90fcaa2b5386b5132b",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:23:38",
+        "message": "fix 🐛: 补提交 goctl 生成的 handler/logic 骨架——上批删除手写版后漏 add 致 CI 编译失败；两个兼容形态路由 logic 委托现有实现防空壳"
+      },
+      {
+        "commit": "eda4bb37b60d4089ca7829893929b61839b5cff5",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:15:49",
+        "message": "docs 📝: AGENTS.md 补充 commit 规范"
+      },
+      {
+        "commit": "6bf2148a8a63c8708786eef6dc0d2136b588514a",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:15:23",
+        "message": "feat ✨: 编辑媒体服务器加手动清理代理缓存入口(Plex)；恢复 goctl 生成链——迁移手改进 types/routes 的播放代理类型与 browse/item 等路由进 api 定义"
+      },
+      {
+        "commit": "fccf924a225a71cdd56c46391c8ce7bd4b03cccb",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:14:57",
+        "message": "perf ⚡: TTLLRUStore 全表过期清理按 TTL 分档节流，高频写路径不再每次 Store 全扫"
+      },
+      {
+        "commit": "9951f9cd011476d34de721d83b3f06b1bc0ce38e",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:14:40",
+        "message": "perf ⚡: strm 解析结果加 redis 二级缓存(7天,跨重启免冷解析)；part 键命中校验 file 指纹防 PMS 重扫旧值"
+      },
+      {
+        "commit": "ee0b14ef0dbda976114695706f4ab82bf891f644",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:13:46",
+        "message": "fix 🐛: strm 下载 301 主页后 token 丢失致 401——实测 header token 一票裁决，剥客户端 token 头、相对重定向补 token、part 失效联动清 pathCache/strmCache/metadata 自愈"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610080127",
     "items": [
       {
@@ -143,17 +184,6 @@
         "author": "liurongjie",
         "date": "2026-10-06 23:32:26",
         "message": "fix 🐛: 云下载失败通知补齐资源名、订阅名、失败原因"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610051341",
-    "items": [
-      {
-        "commit": "dc35e3e472e91e90320035ee10306d6ee5c6e314",
-        "author": "liurongjie",
-        "date": "2026-10-05 13:40:55",
-        "message": "feat ✨: 目录同步插件新增「复制逐条通知」开关——全局复制成功/失败钩子的通知发送改由实例配置 noticeCopy 控制，通知时判定而非入队时：改开关对在途任务立即生效，并覆盖静默机制上线前入队、TaskData 无 silent 字段的存量在途任务（关掉开关即止住存量逐条轰炸）；开关只控制通知发送，目录刷新/取大小/入库/strm/CD2 刷新联动保持原有静默行为不变；判定按源挂载点+源目录子树匹配启用实例（与台账回写钩子同口径），范围外任务沿用任务自身静默标记，实例查询失败降级沿用不阻塞回调"
       }
     ]
   }

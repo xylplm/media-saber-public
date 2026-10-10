@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610110123",
+    "items": [
+      {
+        "commit": "49e2cd0e736d20203139ebe868d9962c1d38235f",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:17:06",
+        "message": "feat ✨: 编辑媒体服务器弹窗加手动清理代理缓存入口(仅 Plex 实例)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610080021",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "GateCross",
         "date": "2026-10-01 17:24:57",
         "message": "fix: 搜索跳转云端资源带入类型与媒体"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610011033",
-    "items": [
-      {
-        "commit": "70d68e7b5f7712897681ed0755814fc23f2e6864",
-        "author": "liurongjie",
-        "date": "2026-10-01 10:32:45",
-        "message": "feat ✨: 通用秘籍弹窗支持插件表格类数据展示与行级操作——call 返回含 columns/rows 的自描述表格时在弹窗内渲染（分页、长文本省略+tooltip、加载态），rowAction 定义渲染行操作列（删除二次确认、成功后刷新、删空当前页自动回退一页）；displayContent 支持多行换行（whitespace-pre-line）"
       }
     ]
   }
