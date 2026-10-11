@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610112201",
+    "items": [
+      {
+        "commit": "b3735a9fc0d45a501624eec44178367863498c9f",
+        "author": "liurongjie",
+        "date": "2026-10-11 22:00:12",
+        "message": "feat ✨: Plex 身份解析成败观测日志——失败按 tokenFp 节流,原因区分 401 与网络错误"
+      },
+      {
+        "commit": "f1e13897d61e55ac7641de4e7c09d168e1b97504",
+        "author": "GateCross",
+        "date": "2026-10-11 21:43:41",
+        "message": "feat: 授权失败时补充探测公网连通性诊断日志"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610111614",
     "items": [
       {
@@ -143,23 +160,6 @@
         "author": "liurongjie",
         "date": "2026-10-07 23:45:18",
         "message": "perf ⚡: 云存储任务落库按任务合并写——tache 回调每次整行落库，批量 copy 任务高频进度回调把机械盘 fsync 打满（实测 136 任务 30+ 并发提交、API 查询拖到 20-60s、启动期尤甚）；状态未变化的连续写按 10s 窗口合并为一次尾写，状态变化仍立即落库，删除时作废缓冲防复活"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610072317",
-    "items": [
-      {
-        "commit": "832377a264cd66de7c3b0c9ceb9a9ffee830c89b",
-        "author": "liurongjie",
-        "date": "2026-10-07 23:12:22",
-        "message": "fix 🐛: Plex 转码客户端标识改为按 UA 派生稳定值——PMS 对转码条目按客户端独占，逐次新标识导致降级/重试连环 400（年轻的嫂子3 播放失败根因）"
-      },
-      {
-        "commit": "28108319e686e837510b80f6d2e8d6c141deeb40",
-        "author": "liurongjie",
-        "date": "2026-10-07 23:03:13",
-        "message": "fix 🐛: 回归实测揪出 hub 条目 id 形态问题——最近入库/正在播放把 /library/metadata/{id} 路径形态的 Key 当 ratingKey 下发，传进播放协商/详情/时间线会拼出双重路径 404（最近入库卡片点播放必挂）：recentlyAdded 映射改用 ratingKey（Key 兜底归一）、Playing 的 Id 改 ratingKey（Link 仍用 Key，web 页两种形态都收）；PlaybackInfo/PlayStreamUrl/ReportProgress/ItemDetail 入口统一 plexNormalizeRatingKey 容错归一，防其它来源的 Key 形态 id；Seasons 对单集 id 的 children 404 按空季返回（续播集卡片打开详情被前端按剧集误拉季集，对齐 Emby 宽松行为，不再刷 error 日志）"
       }
     ]
   }
