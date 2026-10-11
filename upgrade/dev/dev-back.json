@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610112336",
+    "items": [
+      {
+        "commit": "3d6b1c22b83b3d5739e9e6a9020dff111c8ee868",
+        "author": "liurongjie",
+        "date": "2026-10-11 23:35:08",
+        "message": "fix 🐛: 图片代理内网地址绕过全局代理直连——修复 Emby 通知封面被代理拒 503 不显示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610112317",
     "items": [
       {
@@ -143,17 +154,6 @@
         "author": "liurongjie",
         "date": "2026-10-08 00:43:37",
         "message": "perf ⚡: 云存储任务恢复期跳过原样回写——FindAllByKey 缓存供 FindOne/Save 短路，避免数万 pending 启动打满 PG"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610080021",
-    "items": [
-      {
-        "commit": "d9ba888a621544304b67d33196a00a88423cb815",
-        "author": "liurongjie",
-        "date": "2026-10-08 00:20:27",
-        "message": "fix 🐛: Plex 季集入参为季时按集短路、播放 startOver 与续播选集修正"
       }
     ]
   }
