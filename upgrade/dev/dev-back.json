@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610112317",
+    "items": [
+      {
+        "commit": "14a546638af1dfffb316cc8c56fd7b7ee1521096",
+        "author": "liurongjie",
+        "date": "2026-10-11 23:12:42",
+        "message": "feat ✨: 云目录同步复制后上报云资源哈希——上报支持远端挂载源区段采样,目标限 115/123"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610112214",
     "items": [
       {
@@ -143,23 +154,6 @@
         "author": "liurongjie",
         "date": "2026-10-08 00:20:27",
         "message": "fix 🐛: Plex 季集入参为季时按集短路、播放 startOver 与续播选集修正"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610072352",
-    "items": [
-      {
-        "commit": "72c4c43047c8ed6fd183011f8df9da7a569a5b63",
-        "author": "liurongjie",
-        "date": "2026-10-07 23:55:29",
-        "message": "feat ✨: Plex 剧集/季卡片直接播放自动解析到待播单集——从头播放取第一集、续播取首个未看完的集，进度上报按会话记录的单集 id 落到正确条目，不再弹「从季集列表选单集」引导"
-      },
-      {
-        "commit": "e485de0d78552e785cc84830621edb82497433e3",
-        "author": "liurongjie",
-        "date": "2026-10-07 23:52:16",
-        "message": "fix 🐛: Plex 季集接口对叶子条目 children 400 按空季处理——单集详情弹窗误拉季集时 PMS 返回 400 而非 404，原容忍没兜住仍弹错误提示"
       }
     ]
   }
