@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610111614",
+    "items": [
+      {
+        "commit": "6b09375a20664583b7dab720a8ee9ef094377833",
+        "author": "liurongjie",
+        "date": "2026-10-11 16:14:22",
+        "message": "feat ✨: 媒体代理 redis 水位熔断+告警——超线自动停写回落恢复,防缓存堆积拖垮宿主"
+      },
+      {
+        "commit": "9defe8e018b5f2429dc41f308ecfc9b88f7a68d2",
+        "author": "liurongjie",
+        "date": "2026-10-11 15:01:41",
+        "message": "docs 📝: 媒体路径映射说明优化——明确左边为媒体服内部路径、右边为 MS 侧路径及双向用途"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610111212",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-10-07 23:03:13",
         "message": "fix 🐛: 回归实测揪出 hub 条目 id 形态问题——最近入库/正在播放把 /library/metadata/{id} 路径形态的 Key 当 ratingKey 下发，传进播放协商/详情/时间线会拼出双重路径 404（最近入库卡片点播放必挂）：recentlyAdded 映射改用 ratingKey（Key 兜底归一）、Playing 的 Id 改 ratingKey（Link 仍用 Key，web 页两种形态都收）；PlaybackInfo/PlayStreamUrl/ReportProgress/ItemDetail 入口统一 plexNormalizeRatingKey 容错归一，防其它来源的 Key 形态 id；Seasons 对单集 id 的 children 404 按空季返回（续播集卡片打开详情被前端按剧集误拉季集，对齐 Emby 宽松行为，不再刷 error 日志）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610072234",
-    "items": [
-      {
-        "commit": "5c7fa3e1d2db93506be282e0d1ef7b4ca7fa7765",
-        "author": "liurongjie",
-        "date": "2026-10-07 22:33:56",
-        "message": "feat ✨: 媒体库播放链路补齐 Plex 支持——PlaybackProvider 落地 plex_playback.go：直连按容器粗判（mp4/m4v/mov/webm/ogg+常见音频走 /library/parts 规范 key 直链带 token，mkv 等浏览器解不开的容器协商阶段直接选通用转码 HLS，起播位置烘进 offset 防播放器二次 seek，限速重协商同走转码）；进度走 /:/timeline（毫秒，转码会话的播放器时间轴相对转码起点、上报按会话缓存 offset 还原绝对位置，直连会话 offset 恒 0 防二次累加，start 零位置用起播位兜底防清零续播记忆，收尾≥90% 补 scrobble 落已看状态）；会话/条目 part 状态挂包级缓存跨请求存活（适配器按请求构建，与 plexMachineIdByHost 同因），stop 即清并兜 12h 陈旧清理；剧集/季条目无文件可播返回可读引导选单集。ItemDetail 从空壳转正：浏览入口（只带 id）拉最新元数据补全简介/评分/类型/片长/封面/背景图，同步入口（列表富字段+Etag）零请求透传不回退同步性能；Items 列表随带 SectionsAll 已有的简介/评分/Genre/时长/封面/背景图，Seasons 集条目补简介/时长/缩略图/链接，GetPrimaryImageUrl 落地 /library/metadata/{id}/thumb；api 层新增 timeline.go（Timeline+Scrobble），解码结构补 viewOffset/originalTitle/viewCount/duration；播放不支持错误文案与注释同步更新"
       }
     ]
   }
