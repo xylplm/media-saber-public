@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610111212",
+    "items": [
+      {
+        "commit": "186a80d4c403ffd1fd951a71c7460b5c9f24d686",
+        "author": "liurongjie",
+        "date": "2026-10-11 12:05:25",
+        "message": "perf ⚡: 身份映射 redis TTL 24h→10d——与 body 缓存同寿命,重启后 peek 即恢复不再依赖 plex.tv 重解析"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610111101",
     "items": [
       {
@@ -143,53 +154,6 @@
         "author": "liurongjie",
         "date": "2026-10-07 22:33:56",
         "message": "feat ✨: 媒体库播放链路补齐 Plex 支持——PlaybackProvider 落地 plex_playback.go：直连按容器粗判（mp4/m4v/mov/webm/ogg+常见音频走 /library/parts 规范 key 直链带 token，mkv 等浏览器解不开的容器协商阶段直接选通用转码 HLS，起播位置烘进 offset 防播放器二次 seek，限速重协商同走转码）；进度走 /:/timeline（毫秒，转码会话的播放器时间轴相对转码起点、上报按会话缓存 offset 还原绝对位置，直连会话 offset 恒 0 防二次累加，start 零位置用起播位兜底防清零续播记忆，收尾≥90% 补 scrobble 落已看状态）；会话/条目 part 状态挂包级缓存跨请求存活（适配器按请求构建，与 plexMachineIdByHost 同因），stop 即清并兜 12h 陈旧清理；剧集/季条目无文件可播返回可读引导选单集。ItemDetail 从空壳转正：浏览入口（只带 id）拉最新元数据补全简介/评分/类型/片长/封面/背景图，同步入口（列表富字段+Etag）零请求透传不回退同步性能；Items 列表随带 SectionsAll 已有的简介/评分/Genre/时长/封面/背景图，Seasons 集条目补简介/时长/缩略图/链接，GetPrimaryImageUrl 落地 /library/metadata/{id}/thumb；api 层新增 timeline.go（Timeline+Scrobble），解码结构补 viewOffset/originalTitle/viewCount/duration；播放不支持错误文案与注释同步更新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610071945",
-    "items": [
-      {
-        "commit": "70d040bea8349258f90d21550e92c7b847352b2e",
-        "author": "xylplm",
-        "date": "2026-10-07 17:06:18",
-        "message": "feat ✨: 极影视条目详情补齐元数据"
-      },
-      {
-        "commit": "bfc9cd2652426a4908b34e229d435a26f0a6723d",
-        "author": "xylplm",
-        "date": "2026-10-07 16:47:17",
-        "message": "fix 🐛: 播放协商的自定义请求头加入跨域白名单"
-      },
-      {
-        "commit": "0d2e95dd6e0342bfe28b040513a050f430891bc6",
-        "author": "xylplm",
-        "date": "2026-10-07 00:36:56",
-        "message": "feat ✨: 播放直链按客户端 UA 签发，修复极影视网页端 403"
-      },
-      {
-        "commit": "63f732748fbd918268d1928995bcedd2be8c37ea",
-        "author": "xylplm",
-        "date": "2026-10-06 22:13:48",
-        "message": "feat ✨: 播放链路修复与媒体库详情富信息——修复 Emby/Jellyfin 转码地址取错位置（在 MediaSources 内而非顶层，修复后直连失败自动降级转码可用）、极影视进度上报按秒换算（原来误传 ticks 导致服务端记忆异常）；新增单条目详情接口（browse/item，返回简介/评分/类型/片长/封面/背景图）；季集接口每集补充标题/简介/时长/缩略图/播放定位 id（极影视为合集|集复合形态）；条目列表与详情补全封面/背景图/简介/评分/类型/片长（极影视封面原来恒为空导致 App 列表无图，直接取列表自带的合集封面零额外请求）；Emby 最近入库/继续观看补充库 id；Emby/Jellyfin 季集拉取携带集缩略图与时长"
-      },
-      {
-        "commit": "68b72d95e2a32eac72bce16b0c02a1382049c59e",
-        "author": "xylplm",
-        "date": "2026-10-06 11:06:04",
-        "message": "feat ✨: 极影视 strm 播放加 302 预解析（Swift 同款 Range: bytes=0-0 探测）——/transcode/play 对 strm 返回的地址在协商阶段就跟随 302 拿到最终网盘直链下发给播放器，播放器零重定向直连网盘服务器，NAS 仅承担一次 302 握手零媒体流带宽；探测 UA 与播放器全局 UA 一致（MediaSaber/1.0）保证探测通过即播放可用；探测失败回落原地址由播放器自行跟随；本地文件（非 strm）的相对地址补拼服务 Host 走服务流"
-      },
-      {
-        "commit": "fca93fd29e13f4960847baa3a7529f699179f14d",
-        "author": "xylplm",
-        "date": "2026-10-06 10:57:32",
-        "message": "feat ✨: 极影视（zspace）接入直连播放——从极影视网页播放器逆向确认播放 API：/transcode/play（file_path 取流，strm 返回直链，响应含 duration/start_time 服务端续播记忆）、/zvideo/video/updateplaytime（进度上报，10s 间隔，collection/classification/video 三 id 定位）；zSpace 实现 PlaybackProvider 与 ZspaceProgressReporter：合集内按 video_id 定位单集（电影取首个文件）、协商返回播放地址与服务端续播位置、进度上报带合集上下文；请求透传 libraryId/classificationId/videoId，加密路径（encrypted_path）暂不支持并给出可读错误"
-      },
-      {
-        "commit": "b5f89f5527b283c105a6c1a5f4e346600f81060d",
-        "author": "xylplm",
-        "date": "2026-10-05 23:05:38",
-        "message": "feat ✨: 新增媒体服务器直连播放代理三接口——播放协商(:id/playbackInfo，服务端读取续播记忆并按码率过滤候选)、直链构造(:id/playUrl，带 api_key 的原流地址，客户端零请求头依赖)、会话上报(:id/report，start/progress/stop 透传)；Emby/Jellyfin 以 PlaybackProvider 能力接口实现（Jellyfin API 与 Emby 同构），Plex 协议不同暂未接入并给出可读错误；控制面走后端代理、数据面由播放器直连媒体服务器拉流，服务端零带宽消耗"
       }
     ]
   }
