@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610111101",
+    "items": [
+      {
+        "commit": "4a9065d4a5aedbd9cb6ed313d858e45b0dd5c625",
+        "author": "liurongjie",
+        "date": "2026-10-11 10:35:35",
+        "message": "fix 🐛: 身份解析内存有值时回写 redis + plex.tv 超时 2s→5s——堵 redis user 桶长期缺失导致回源只进内存"
+      },
+      {
+        "commit": "3faae4df47592f131d1c5520ac63659976eea438",
+        "author": "liurongjie",
+        "date": "2026-10-11 10:15:53",
+        "message": "perf ⚡: 身份映射缓存 TTL 1h→24h——缩小 UserSeg 空窗导致回源只进内存的隔夜冷 miss 放大"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610110123",
     "items": [
       {
@@ -173,17 +190,6 @@
         "author": "xylplm",
         "date": "2026-10-05 23:05:38",
         "message": "feat ✨: 新增媒体服务器直连播放代理三接口——播放协商(:id/playbackInfo，服务端读取续播记忆并按码率过滤候选)、直链构造(:id/playUrl，带 api_key 的原流地址，客户端零请求头依赖)、会话上报(:id/report，start/progress/stop 透传)；Emby/Jellyfin 以 PlaybackProvider 能力接口实现（Jellyfin API 与 Emby 同构），Plex 协议不同暂未接入并给出可读错误；控制面走后端代理、数据面由播放器直连媒体服务器拉流，服务端零带宽消耗"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610062336",
-    "items": [
-      {
-        "commit": "bd8204f0237fd7816d208f6efda068bf027d89db",
-        "author": "liurongjie",
-        "date": "2026-10-06 23:32:26",
-        "message": "fix 🐛: 云下载失败通知补齐资源名、订阅名、失败原因"
       }
     ]
   }
