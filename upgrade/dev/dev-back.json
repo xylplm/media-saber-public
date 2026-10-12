@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610130010",
+    "items": [
+      {
+        "commit": "a23a0154da5bc719496f850e6bb2cb605894cbf4",
+        "author": "liurongjie",
+        "date": "2026-10-13 00:09:36",
+        "message": "fix 🐛: 已入库匹配排除未启用媒体库"
+      },
+      {
+        "commit": "1c76ecd057bfc5b3feb62da7b57f819f048490ce",
+        "author": "liurongjie",
+        "date": "2026-10-12 23:28:05",
+        "message": "feat ✨: 媒体库报告改为图文通知并配专属封面"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610112336",
     "items": [
       {
@@ -143,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-10-08 01:26:02",
         "message": "Revert \"perf ⚡: 云存储任务恢复期跳过原样回写——FindAllByKey 缓存供 FindOne/Save 短路，避免数万 pending 启动打满 PG\""
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610080043",
-    "items": [
-      {
-        "commit": "6009f0cf2ab87e9964d2bb353a47845857900360",
-        "author": "liurongjie",
-        "date": "2026-10-08 00:43:37",
-        "message": "perf ⚡: 云存储任务恢复期跳过原样回写——FindAllByKey 缓存供 FindOne/Save 短路，避免数万 pending 启动打满 PG"
       }
     ]
   }
