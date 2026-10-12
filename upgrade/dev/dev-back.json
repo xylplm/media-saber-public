@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610130025",
+    "items": [
+      {
+        "commit": "dd77c495bd80894e29590d91bccfafb128f4a14e",
+        "author": "liurongjie",
+        "date": "2026-10-13 00:25:03",
+        "message": "feat ✨: 云目录同步支持补上报历史，后台入队并按目标去重"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610130010",
     "items": [
       {
@@ -149,17 +160,6 @@
         "author": "liurongjie",
         "date": "2026-10-11 01:13:46",
         "message": "fix 🐛: strm 下载 301 主页后 token 丢失致 401——实测 header token 一票裁决，剥客户端 token 头、相对重定向补 token、part 失效联动清 pathCache/strmCache/metadata 自愈"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610080127",
-    "items": [
-      {
-        "commit": "62636958aac3a0ce03b15d98734484c7daf75955",
-        "author": "liurongjie",
-        "date": "2026-10-08 01:26:02",
-        "message": "Revert \"perf ⚡: 云存储任务恢复期跳过原样回写——FindAllByKey 缓存供 FindOne/Save 短路，避免数万 pending 启动打满 PG\""
       }
     ]
   }
