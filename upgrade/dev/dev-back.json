@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610131407",
+    "items": [
+      {
+        "commit": "6eaf9228a4e201d8c0a13b760a45b8f9211f88cb",
+        "author": "liurongjie",
+        "date": "2026-10-13 14:06:44",
+        "message": "feat ✨: 云目录同步增加同步后上报开关，默认开启"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610131130",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-11 12:05:25",
         "message": "perf ⚡: 身份映射 redis TTL 24h→10d——与 body 缓存同寿命,重启后 peek 即恢复不再依赖 plex.tv 重解析"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610111101",
-    "items": [
-      {
-        "commit": "4a9065d4a5aedbd9cb6ed313d858e45b0dd5c625",
-        "author": "liurongjie",
-        "date": "2026-10-11 10:35:35",
-        "message": "fix 🐛: 身份解析内存有值时回写 redis + plex.tv 超时 2s→5s——堵 redis user 桶长期缺失导致回源只进内存"
-      },
-      {
-        "commit": "3faae4df47592f131d1c5520ac63659976eea438",
-        "author": "liurongjie",
-        "date": "2026-10-11 10:15:53",
-        "message": "perf ⚡: 身份映射缓存 TTL 1h→24h——缩小 UserSeg 空窗导致回源只进内存的隔夜冷 miss 放大"
       }
     ]
   }
