@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610131130",
+    "items": [
+      {
+        "commit": "0408539b48941a04d1b2d0143a5ab7ea5598a7ba",
+        "author": "GateCross",
+        "date": "2026-10-13 11:27:52",
+        "message": "fix 🐛: 订阅回退后补一轮站点搜索，窗口内暂停云端搜索避免坏资源抢先销集"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610130025",
     "items": [
       {
@@ -119,47 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-11 10:15:53",
         "message": "perf ⚡: 身份映射缓存 TTL 1h→24h——缩小 UserSeg 空窗导致回源只进内存的隔夜冷 miss 放大"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610110123",
-    "items": [
-      {
-        "commit": "7783fc24b12badfdecef3a90fcaa2b5386b5132b",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:23:38",
-        "message": "fix 🐛: 补提交 goctl 生成的 handler/logic 骨架——上批删除手写版后漏 add 致 CI 编译失败；两个兼容形态路由 logic 委托现有实现防空壳"
-      },
-      {
-        "commit": "eda4bb37b60d4089ca7829893929b61839b5cff5",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:15:49",
-        "message": "docs 📝: AGENTS.md 补充 commit 规范"
-      },
-      {
-        "commit": "6bf2148a8a63c8708786eef6dc0d2136b588514a",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:15:23",
-        "message": "feat ✨: 编辑媒体服务器加手动清理代理缓存入口(Plex)；恢复 goctl 生成链——迁移手改进 types/routes 的播放代理类型与 browse/item 等路由进 api 定义"
-      },
-      {
-        "commit": "fccf924a225a71cdd56c46391c8ce7bd4b03cccb",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:14:57",
-        "message": "perf ⚡: TTLLRUStore 全表过期清理按 TTL 分档节流，高频写路径不再每次 Store 全扫"
-      },
-      {
-        "commit": "9951f9cd011476d34de721d83b3f06b1bc0ce38e",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:14:40",
-        "message": "perf ⚡: strm 解析结果加 redis 二级缓存(7天,跨重启免冷解析)；part 键命中校验 file 指纹防 PMS 重扫旧值"
-      },
-      {
-        "commit": "ee0b14ef0dbda976114695706f4ab82bf891f644",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:13:46",
-        "message": "fix 🐛: strm 下载 301 主页后 token 丢失致 401——实测 header token 一票裁决，剥客户端 token 头、相对重定向补 token、part 失效联动清 pathCache/strmCache/metadata 自愈"
       }
     ]
   }
