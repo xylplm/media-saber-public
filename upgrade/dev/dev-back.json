@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610131650",
+    "items": [
+      {
+        "commit": "3975acdf2ff26b35e5fca9d676fb26fd706ba274",
+        "author": "liurongjie",
+        "date": "2026-10-13 16:49:28",
+        "message": "fix 🐛: 云目录同步上报去重键改用 | 分隔，避免 NUL 打碎日志落库报文"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610131407",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-11 15:01:41",
         "message": "docs 📝: 媒体路径映射说明优化——明确左边为媒体服内部路径、右边为 MS 侧路径及双向用途"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610111212",
-    "items": [
-      {
-        "commit": "186a80d4c403ffd1fd951a71c7460b5c9f24d686",
-        "author": "liurongjie",
-        "date": "2026-10-11 12:05:25",
-        "message": "perf ⚡: 身份映射 redis TTL 24h→10d——与 body 缓存同寿命,重启后 peek 即恢复不再依赖 plex.tv 重解析"
       }
     ]
   }
