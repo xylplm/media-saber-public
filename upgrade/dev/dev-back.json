@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610141726",
+    "items": [
+      {
+        "commit": "8026527a4491e99cce724d49d61b3be72e0a9303",
+        "author": "GateCross",
+        "date": "2026-10-14 17:08:06",
+        "message": "feat ✨: 新增云下载失败向云端上报及新发布云资源静默期标记"
+      },
+      {
+        "commit": "e37a4bebfa657bd6b7c2381b55f9506cd3799994",
+        "author": "liurongjie",
+        "date": "2026-10-13 23:57:42",
+        "message": "fix 🐛: hubs 预热键保持请求原大小写，回源失败可见并冷却、预算收到 20s"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610131650",
     "items": [
       {
@@ -107,23 +124,6 @@
         "author": "GateCross",
         "date": "2026-10-11 21:43:41",
         "message": "feat: 授权失败时补充探测公网连通性诊断日志"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610111614",
-    "items": [
-      {
-        "commit": "6b09375a20664583b7dab720a8ee9ef094377833",
-        "author": "liurongjie",
-        "date": "2026-10-11 16:14:22",
-        "message": "feat ✨: 媒体代理 redis 水位熔断+告警——超线自动停写回落恢复,防缓存堆积拖垮宿主"
-      },
-      {
-        "commit": "9defe8e018b5f2429dc41f308ecfc9b88f7a68d2",
-        "author": "liurongjie",
-        "date": "2026-10-11 15:01:41",
-        "message": "docs 📝: 媒体路径映射说明优化——明确左边为媒体服内部路径、右边为 MS 侧路径及双向用途"
       }
     ]
   }
