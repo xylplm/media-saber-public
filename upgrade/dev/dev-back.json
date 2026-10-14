@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610141958",
+    "items": [
+      {
+        "commit": "2dc87c20b45a24f5d491a3d889da5ec4e603e9f7",
+        "author": "liurongjie",
+        "date": "2026-10-14 19:53:45",
+        "message": "fix 🐛: 云目录同步保存不再连坐取消在途任务，失败重推查存活，终态任务行纳入保留期清理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610141726",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "GateCross",
         "date": "2026-10-11 22:10:22",
         "message": "feat: 哈希上报按文件采样指纹复用下载种子的剧集/电影描述——自带文案或标签时落库，未带时按指纹补齐，替代按目录反查避免串种子描述"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610112201",
-    "items": [
-      {
-        "commit": "b3735a9fc0d45a501624eec44178367863498c9f",
-        "author": "liurongjie",
-        "date": "2026-10-11 22:00:12",
-        "message": "feat ✨: Plex 身份解析成败观测日志——失败按 tokenFp 节流,原因区分 401 与网络错误"
-      },
-      {
-        "commit": "f1e13897d61e55ac7641de4e7c09d168e1b97504",
-        "author": "GateCross",
-        "date": "2026-10-11 21:43:41",
-        "message": "feat: 授权失败时补充探测公网连通性诊断日志"
       }
     ]
   }
