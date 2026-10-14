@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610142333",
+    "items": [
+      {
+        "commit": "6f3dc8763915f2170ca35c9a64bddd049597f4e7",
+        "author": "liurongjie",
+        "date": "2026-10-14 23:32:29",
+        "message": "fix 🐛: 重试失败项去掉条数上限，改后台异步并按复制任务池去重"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610142251",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-10-11 23:35:08",
         "message": "fix 🐛: 图片代理内网地址绕过全局代理直连——修复 Emby 通知封面被代理拒 503 不显示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610112317",
-    "items": [
-      {
-        "commit": "14a546638af1dfffb316cc8c56fd7b7ee1521096",
-        "author": "liurongjie",
-        "date": "2026-10-11 23:12:42",
-        "message": "feat ✨: 云目录同步复制后上报云资源哈希——上报支持远端挂载源区段采样,目标限 115/123"
       }
     ]
   }
