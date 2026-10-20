@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610201357",
+    "items": [
+      {
+        "commit": "a25b64e509bb3fae72e945bf5a2efcb6afa14cea",
+        "author": "xylplm",
+        "date": "2026-10-20 13:42:01",
+        "message": "feat ✨: 目录分类页支持绑定订阅过滤规则——一级/二级分类编辑弹窗新增「订阅过滤规则」下拉，分类列表直接展示绑定的规则名，条件留空有提醒；新增订阅不再预填默认过滤规则，不选则按分类自动匹配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610141726",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-02 21:48:23",
         "message": "feat ✨: 插件表格弹窗支持工具栏操作与移动端适配——toolbarAction 自描述渲染（count>0 显隐、确认文案 {n} 替换，接入同步记录的「重试失败项」）；移动端弹窗宽度 min(860px,94vw)、滚动容器显式 width:100%+touch-action 双向滑动；修复 ellipsis 失效：td 的 max-width 在 auto 表格布局下被忽略导致文件名/错误列全宽撑开，截断移到内层 div（375px 视口实测：表格 847px 在 321px 容器内横向滚动可达、截断与吸顶表头正常）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610021340",
-    "items": [
-      {
-        "commit": "71e1e257f48d2dd6b0a48ed566e79d221a3253fe",
-        "author": "liurongjie",
-        "date": "2026-10-02 11:55:46",
-        "message": "fix 🐛: 云端任务状态徽章滚动穿透吸顶导航+任务列表分页默认50——page-topbar z-index 9 提到 30 压过内容层 z-10/20 定位元素且低于 CDK 浮层;undone-card 默认每页 50(记忆值优先),取消/批量后刷新沿用当前每页行数不再被 BasicQueryParams 打回 25"
-      },
-      {
-        "commit": "0e4be6fc0e498137746e5c4febed17f81d31f467",
-        "author": "liurongjie",
-        "date": "2026-10-02 00:15:30",
-        "message": "feat ✨: 通用插件表格弹窗支持筛选与批量操作——filters 自描述渲染状态下拉与关键字搜索（防抖 400ms、变更重置到第一页），batchAction 渲染首列多选（全选当前页/半选态、选中跨页保留）与批量按钮（confirm 中 {n} 替换选中数、成功后清空选中并刷新）；同步记录接入：状态筛选 + 文件名模糊搜索 + 多选批量删除"
       }
     ]
   }
