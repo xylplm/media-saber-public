@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202610211159",
+    "items": [
+      {
+        "commit": "a90e87dfaeb6ea2fc099f07fa27a04d83cdd769e",
+        "author": "liurongjie",
+        "date": "2026-10-21 11:59:08",
+        "message": "feat ✨: 复制逐条通知与上报去重，上报关闭时补发成功通知"
+      },
+      {
+        "commit": "04b2aa514dc9d8cefb116d7b1d692ceeb932463f",
+        "author": "liurongjie",
+        "date": "2026-10-21 11:39:16",
+        "message": "feat ✨: 云存储任务列表支持关键词和状态筛选"
+      },
+      {
+        "commit": "f6f01a427b45400b4703baf6d1b644a8a11def13",
+        "author": "liurongjie",
+        "date": "2026-10-21 10:22:07",
+        "message": "fix 🐛: 云上报成功通知简介按单集取，回退剧简介"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610201357",
     "items": [
       {
@@ -101,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-13 00:25:03",
         "message": "feat ✨: 云目录同步支持补上报历史，后台入队并按目标去重"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610130010",
-    "items": [
-      {
-        "commit": "a23a0154da5bc719496f850e6bb2cb605894cbf4",
-        "author": "liurongjie",
-        "date": "2026-10-13 00:09:36",
-        "message": "fix 🐛: 已入库匹配排除未启用媒体库"
-      },
-      {
-        "commit": "1c76ecd057bfc5b3feb62da7b57f819f048490ce",
-        "author": "liurongjie",
-        "date": "2026-10-12 23:28:05",
-        "message": "feat ✨: 媒体库报告改为图文通知并配专属封面"
       }
     ]
   }
