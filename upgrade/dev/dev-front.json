@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610221812",
+    "items": [
+      {
+        "commit": "3ecd33011fce207f3d58fd06a8956daf84b28e2b",
+        "author": "xylplm",
+        "date": "2026-10-22 18:10:23",
+        "message": "feat ✨: 云资源支持举报与批量拉黑（弹窗选类型并告知影响），运维管理新增云端资源管理与举报审核两页，基础配置支持屏蔽词维护与违禁惩罚倍数、举报奖励配置"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610221625",
     "items": [
       {
@@ -113,23 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-07 22:34:01",
         "message": "feat ✨: 播放弹窗转码降级起播位置以协商返回为权威——直连失败转码重建时 startTicks 改用 playbackInfo 返回的 startPositionTicks（0 也尊重）：Plex 转码地址已把起播位置烘进 offset，返回 0 表示流起点即目标位置，旧逻辑回退断点时间会在转码时间轴上二次 seek 跳到 2 倍位置；协商信息缺失才回退直连失败瞬间时间；Emby/Jellyfin 降级返回服务端续播记忆（进度 10s 粒度落库，误差≤10s），行为语义不变"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610071945",
-    "items": [
-      {
-        "commit": "c45bb83da5fbd07df512d72139a1ba103a55f96e",
-        "author": "xylplm",
-        "date": "2026-10-07 17:08:45",
-        "message": "fix 🐛: 详情弹窗剥离双层包裹，极影视资料正常显示"
-      },
-      {
-        "commit": "632835e49c02a321e9023aaf29f80e1a92c1d59c",
-        "author": "xylplm",
-        "date": "2026-10-07 00:36:51",
-        "message": "feat ✨: 媒体库支持网页内直接播放"
       }
     ]
   }
