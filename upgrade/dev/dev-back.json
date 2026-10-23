@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610240052",
+    "items": [
+      {
+        "commit": "f446f11f9f4175e73ae3ad6630e332ceabbe5475",
+        "author": "liurongjie",
+        "date": "2026-10-24 00:51:57",
+        "message": "fix 🐛: IYUU 辅种 TR 校验成功不自动做种——就绪判定恢复 CanSeed 并兜底 IsSeeding，重辅种时清旧重试计数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610232342",
     "items": [
       {
@@ -161,23 +172,6 @@
         "author": "liurongjie",
         "date": "2026-10-14 19:53:45",
         "message": "fix 🐛: 云目录同步保存不再连坐取消在途任务，失败重推查存活，终态任务行纳入保留期清理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610141726",
-    "items": [
-      {
-        "commit": "8026527a4491e99cce724d49d61b3be72e0a9303",
-        "author": "GateCross",
-        "date": "2026-10-14 17:08:06",
-        "message": "feat ✨: 新增云下载失败向云端上报及新发布云资源静默期标记"
-      },
-      {
-        "commit": "e37a4bebfa657bd6b7c2381b55f9506cd3799994",
-        "author": "liurongjie",
-        "date": "2026-10-13 23:57:42",
-        "message": "fix 🐛: hubs 预热键保持请求原大小写，回源失败可见并冷却、预算收到 20s"
       }
     ]
   }
