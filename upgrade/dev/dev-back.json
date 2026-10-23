@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610240115",
+    "items": [
+      {
+        "commit": "98057fcfccfad7d4ec2b5f81aceb52e4af2b5e7d",
+        "author": "liurongjie",
+        "date": "2026-10-24 01:14:55",
+        "message": "perf ⚡: 云端任务列表查询优化——count+find 合并单遍扫描（窗口计数），关键词编码变体去重，TMDB 装配改有界并发并随请求取消止损"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610240052",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "GateCross",
         "date": "2026-10-14 22:45:58",
         "message": "fix: 调整云资源静默缓冲期为24小时"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610141958",
-    "items": [
-      {
-        "commit": "2dc87c20b45a24f5d491a3d889da5ec4e603e9f7",
-        "author": "liurongjie",
-        "date": "2026-10-14 19:53:45",
-        "message": "fix 🐛: 云目录同步保存不再连坐取消在途任务，失败重推查存活，终态任务行纳入保留期清理"
       }
     ]
   }

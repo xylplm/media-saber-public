@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610240115",
+    "items": [
+      {
+        "commit": "6b9f041e4bc3fbe28efe97177ed570e73fe2e655",
+        "author": "liurongjie",
+        "date": "2026-10-24 01:19:41",
+        "message": "fix 🐛: 云端文件列表纯文件夹目录时间被截断——大小 span 缺席时时间独自落入 5.5rem 大小列，独占 meta 时跨满两列"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610232342",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-10-11 14:10:24",
         "message": "deps 📦: 前端依赖升级，页面加载与运行更稳更快"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610110123",
-    "items": [
-      {
-        "commit": "49e2cd0e736d20203139ebe868d9962c1d38235f",
-        "author": "liurongjie",
-        "date": "2026-10-11 01:17:06",
-        "message": "feat ✨: 编辑媒体服务器弹窗加手动清理代理缓存入口(仅 Plex 实例)"
       }
     ]
   }
