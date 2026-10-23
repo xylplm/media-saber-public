@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610240130",
+    "items": [
+      {
+        "commit": "6bb3e5d3ea91dfe889567358e6905368e7ce0bb0",
+        "author": "liurongjie",
+        "date": "2026-10-24 01:30:28",
+        "message": "perf ⚡: hubs 预热首轮等任务池恢复完成再启动，加轮级失败熔断——避开重启恢复写风暴窗口白烧 PMS"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610240115",
     "items": [
       {
@@ -161,17 +172,6 @@
         "author": "liurongjie",
         "date": "2026-10-14 23:32:29",
         "message": "fix 🐛: 重试失败项去掉条数上限，改后台异步并按复制任务池去重"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610142251",
-    "items": [
-      {
-        "commit": "4bc0ecaeb4bcdb6902a9bf5be225a7a873222967",
-        "author": "GateCross",
-        "date": "2026-10-14 22:45:58",
-        "message": "fix: 调整云资源静默缓冲期为24小时"
       }
     ]
   }
