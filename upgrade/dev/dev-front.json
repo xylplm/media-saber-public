@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610232342",
+    "items": [
+      {
+        "commit": "9640270c1131f7bd227c6437a9294ce5292e58fe",
+        "author": "xylplm",
+        "date": "2026-10-23 21:17:16",
+        "message": "feat ✨: 目录同步新增自动上报Hash开关，含关闭二次确认"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610231337",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-11 01:17:06",
         "message": "feat ✨: 编辑媒体服务器弹窗加手动清理代理缓存入口(仅 Plex 实例)"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610080021",
-    "items": [
-      {
-        "commit": "0aafbaf28d52a3ab8b026e29f363a23ad798d8ba",
-        "author": "liurongjie",
-        "date": "2026-10-08 00:20:27",
-        "message": "fix 🐛: 播放弹窗转码降级传断点并结束旧会话，播完发 stop 落 scrobble"
       }
     ]
   }
