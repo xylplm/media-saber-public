@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610231337",
+    "items": [
+      {
+        "commit": "a18f350d26653885cb5654a57c610348c92b35e7",
+        "author": "xylplm",
+        "date": "2026-10-23 13:36:46",
+        "message": "docs 📚: 新增 AGENTS.md 与 .kiro 协作规范，仓库独立开发也能正确约束 AI"
+      },
+      {
+        "commit": "4a6e5c33b2f833ada5bb2426d5e31efa41a4b521",
+        "author": "xylplm",
+        "date": "2026-10-23 13:06:59",
+        "message": "feat ✨: 云资源支持上传者自助下架和删除，举报审核可查看资源详情，修复筛选后分页错位，基础配置增加举报奖励上限"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610230949",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-08 00:20:27",
         "message": "fix 🐛: 播放弹窗转码降级传断点并结束旧会话，播完发 stop 落 scrobble"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610072352",
-    "items": [
-      {
-        "commit": "b8cf6e12a94aab9b6ccbe6cbbdfacd4cf608953f",
-        "author": "liurongjie",
-        "date": "2026-10-07 23:52:21",
-        "message": "fix 🐛: 详情弹窗分集区加载为空时整节隐藏（单集条目不再显示空的分集占位）"
       }
     ]
   }

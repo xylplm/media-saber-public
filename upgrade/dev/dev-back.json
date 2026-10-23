@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610231337",
+    "items": [
+      {
+        "commit": "7e6b2d5545e0efcb12e49e02999b42be4a27cfc6",
+        "author": "xylplm",
+        "date": "2026-10-23 13:37:06",
+        "message": "docs 📚: 补充 AGENTS.md 协作规范与 .kiro/steering，仓库独立开发也能正确约束 AI"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610221812",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-10-13 16:49:28",
         "message": "fix 🐛: 云目录同步上报去重键改用 | 分隔，避免 NUL 打碎日志落库报文"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610131407",
-    "items": [
-      {
-        "commit": "6eaf9228a4e201d8c0a13b760a45b8f9211f88cb",
-        "author": "liurongjie",
-        "date": "2026-10-13 14:06:44",
-        "message": "feat ✨: 云目录同步增加同步后上报开关，默认开启"
       }
     ]
   }
