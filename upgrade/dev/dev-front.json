@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610230949",
+    "items": [
+      {
+        "commit": "da070312fa0ef783c50be25c686a4b3c673de6a0",
+        "author": "xylplm",
+        "date": "2026-10-23 09:46:41",
+        "message": "fix 🐛: 修复目录分类保存报错——不选订阅过滤规则时按未绑定提交，不再报 filterRuleId 不能为空"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610221812",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-07 23:52:21",
         "message": "fix 🐛: 详情弹窗分集区加载为空时整节隐藏（单集条目不再显示空的分集占位）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610072234",
-    "items": [
-      {
-        "commit": "60031bb585b7879299b4eef465ddcfa303027417",
-        "author": "liurongjie",
-        "date": "2026-10-07 22:34:01",
-        "message": "feat ✨: 播放弹窗转码降级起播位置以协商返回为权威——直连失败转码重建时 startTicks 改用 playbackInfo 返回的 startPositionTicks（0 也尊重）：Plex 转码地址已把起播位置烘进 offset，返回 0 表示流起点即目标位置，旧逻辑回退断点时间会在转码时间轴上二次 seek 跳到 2 倍位置；协商信息缺失才回退直连失败瞬间时间；Emby/Jellyfin 降级返回服务端续播记忆（进度 10s 粒度落库，误差≤10s），行为语义不变"
       }
     ]
   }
