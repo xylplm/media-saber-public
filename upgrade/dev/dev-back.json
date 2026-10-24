@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610241741",
+    "items": [
+      {
+        "commit": "a0fa3d482eea63467cecc4baa1788f93c7dfbf8a",
+        "author": "liurongjie",
+        "date": "2026-10-24 17:40:47",
+        "message": "fix 🐛: CD2 外部移动目录后事件任务列目录被父缓存负结果卡死致 strm 静默失败，RefreshDir not found 清父缓存重试，transferDir 失败落库可重试"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610241500",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 03:12:11",
         "message": "fix 🐛: 搜索优化二轮 review 修正——并发装配补 recover 防 panic 崩进程，OR 条件显式括号，页码超界补 count"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610240130",
-    "items": [
-      {
-        "commit": "6bb3e5d3ea91dfe889567358e6905368e7ce0bb0",
-        "author": "liurongjie",
-        "date": "2026-10-24 01:30:28",
-        "message": "perf ⚡: hubs 预热首轮等任务池恢复完成再启动，加轮级失败熔断——避开重启恢复写风暴窗口白烧 PMS"
       }
     ]
   }
