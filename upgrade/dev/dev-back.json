@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202610240941",
+    "items": [
+      {
+        "commit": "ca08d3924d4ba6de5ec972d4c466a5f8b614e1c1",
+        "author": "liurongjie",
+        "date": "2026-10-24 09:41:07",
+        "message": "merge 🔀: review 补合并——mlist op.UpdateStorage 缓存失效修复（设置变更即失效+err 前移），记录文档补保留组件归属与 strm 表述修正"
+      },
+      {
+        "commit": "4dd8cded990e89965a073f7e23271f28cfc003cd",
+        "author": "liurongjie",
+        "date": "2026-10-24 09:26:14",
+        "message": "merge 🔀: 合并 OpenList/115driver 上游稳定性修复——115 上传 token 过期重试、光鸭秒传+分片进度、quark SHA1 摘要、189 时间解析、onedrive 锁序、strm 最小文件过滤、p115 错误/类型兼容"
+      },
+      {
+        "commit": "f854d94af69a1aca234b02f0fa598148b6133ca0",
+        "author": "liurongjie",
+        "date": "2026-10-24 09:12:17",
+        "message": "fix 🐛: review 修正——选轨测试 serverName 维度统一为写入侧 plex-test 并修 Redis 键格式断言，normalize cap 注释同步 TTL 分级口径"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610240820",
     "items": [
       {
@@ -113,59 +136,6 @@
         "author": "xylplm",
         "date": "2026-10-22 18:09:13",
         "message": "feat ✨: 云资源治理配套——手动拉黑可选违禁/死链类型，新增云端资源管理与举报审核的运维接口代理，支持用户提交资源举报，屏蔽词词库保存即时生效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610221625",
-    "items": [
-      {
-        "commit": "7fcc3d9d7db046317f56aa8341ba8a09179a8110",
-        "author": "liurongjie",
-        "date": "2026-10-22 16:20:23",
-        "message": "fix 🐛: Plex strm 协商改走 part 直链（假 HLS 网页必败），转码分片日志降噪"
-      },
-      {
-        "commit": "9a8421eb91982b3d42ef9d4cb8ecb5c1cfcfe56d",
-        "author": "xylplm",
-        "date": "2026-10-21 20:23:32",
-        "message": "fix 🐛: 修复 Jellyfin 12 最新入库为空的问题——新版服务器返回的媒体库地址不再是真实媒体目录导致范围过滤失效，改为读取库定义的真实路径；同时过滤无路径的季条目避免挤占列表"
-      },
-      {
-        "commit": "7990c2a45f2c199cf168e93e33a9993a50170980",
-        "author": "xylplm",
-        "date": "2026-10-21 20:23:20",
-        "message": "fix 🐛: 修复 strm 剧集在 Jellyfin 上无法播放的问题——改为由本服务按播放端身份预解析网盘直链给播放器直连（与极影视同链路），并修复 strm 链接生成时路径含空格未编码的隐患"
-      },
-      {
-        "commit": "32e312250ca48970c4a6aa043eb26239ee61809b",
-        "author": "xylplm",
-        "date": "2026-10-21 15:25:44",
-        "message": "fix 🐛: 修复 Jellyfin 12 下从剧集/季条目浏览与播放的问题——季集浏览支持无库 id 短路径并自动归一到剧集，媒体库归属改走祖先接口适配 12 新版目录结构，播放协商自动从季/剧集定位到首个未播集，直链与进度上报统一使用实际播放的集 id；同时客户端缓存按服务器密钥隔离，避免服务器重装后读到旧数据"
-      },
-      {
-        "commit": "95c56603ab0a7d24d76a775a9e44bf900edd56c6",
-        "author": "xylplm",
-        "date": "2026-10-21 10:14:03",
-        "message": "fix 🐛: 修复媒体服务器缓存失效不及时的问题——保存或删除媒体服务器时自动清空其请求缓存，缓存维护新增「清空媒体服务器缓存」；同步数据删除时同步清除统计快照，避免统计接口显示已删数据"
-      },
-      {
-        "commit": "50198e27b316bf048b768dab51633888003d5b70",
-        "author": "xylplm",
-        "date": "2026-10-21 10:13:55",
-        "message": "feat ✨: 全新适配 Jellyfin 12——新增 Jellyfin(12+) 服务器类型，使用官方新版鉴权与接口规范；老版本 Jellyfin 服务器请继续使用「Jellyfin(旧版)」类型，升级到 12 的用户新建或切换到新类型即可"
-      },
-      {
-        "commit": "d8bf55effce44d4d5a9b938e9ae9655974ebd942",
-        "author": "xylplm",
-        "date": "2026-10-20 19:27:21",
-        "message": "refactor 🔁: Jellyfin 适配更名为「Jellyfin(旧版)」——媒体服务器类型与提示文案同步改名，为接下来适配全新的 Jellyfin 12 铺路；现有 10.x 服务器无需任何操作，功能完全不变"
-      },
-      {
-        "commit": "fb8d0fc0a940959e1c10d71c0c43a6f172db2e99",
-        "author": "liurongjie",
-        "date": "2026-10-21 15:16:59",
-        "message": "fix 🐛: 云下载任务关键词搜索兼容中文百分号编码"
       }
     ]
   }
