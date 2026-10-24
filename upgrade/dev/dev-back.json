@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610241500",
+    "items": [
+      {
+        "commit": "592817e994279f0bbd0b7994524856542e99cfab",
+        "author": "liurongjie",
+        "date": "2026-10-24 14:41:38",
+        "message": "fix 🐛: TMDB 季详情 404 不再刷 error——season 0 特别篇多数剧不存在属预期，与集级 404 处理同口径静默返回"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610241323",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 01:30:28",
         "message": "perf ⚡: hubs 预热首轮等任务池恢复完成再启动，加轮级失败熔断——避开重启恢复写风暴窗口白烧 PMS"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610240115",
-    "items": [
-      {
-        "commit": "98057fcfccfad7d4ec2b5f81aceb52e4af2b5e7d",
-        "author": "liurongjie",
-        "date": "2026-10-24 01:14:55",
-        "message": "perf ⚡: 云端任务列表查询优化——count+find 合并单遍扫描（窗口计数），关键词编码变体去重，TMDB 装配改有界并发并随请求取消止损"
       }
     ]
   }
