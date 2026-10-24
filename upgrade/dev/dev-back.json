@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610241042",
+    "items": [
+      {
+        "commit": "a67e9218a9138415dc9e0b4450c23110b7d0ef74",
+        "author": "liurongjie",
+        "date": "2026-10-24 10:41:38",
+        "message": "fix 🐛: 115 移动目录事件目录误入 Files 致 strm 报 not a file，未开目录树时改走 transferDir 展开，失败重试目录记录改 Dir 模式"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610240941",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-10-23 13:37:06",
         "message": "docs 📚: 补充 AGENTS.md 协作规范与 .kiro/steering，仓库独立开发也能正确约束 AI"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610221812",
-    "items": [
-      {
-        "commit": "666928de60c0176ed0bc9173e0d81f19521dae67",
-        "author": "xylplm",
-        "date": "2026-10-22 18:09:13",
-        "message": "feat ✨: 云资源治理配套——手动拉黑可选违禁/死链类型，新增云端资源管理与举报审核的运维接口代理，支持用户提交资源举报，屏蔽词词库保存即时生效"
       }
     ]
   }

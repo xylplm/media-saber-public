@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610241042",
+    "items": [
+      {
+        "commit": "a98976309f041bb9eddfbc01066715645b87ad02",
+        "author": "xylplm",
+        "date": "2026-10-24 10:05:55",
+        "message": "docs 📚: 前端规范新增剪贴板复制规则，文本复制统一走 CDK Clipboard"
+      },
+      {
+        "commit": "01bbc77e1462662d305c111fc1ff13475a650bbc",
+        "author": "xylplm",
+        "date": "2026-10-24 10:05:55",
+        "message": "fix 🐛: 剪贴板复制统一改用 Angular CDK 服务，内网 http 访问不再静默失败"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610240115",
     "items": [
       {
@@ -119,17 +136,6 @@
         "author": "GateCross",
         "date": "2026-10-14 17:11:17",
         "message": "feat ✨: 新增云端新发布资源静默期徽章与等待状态展示"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610111614",
-    "items": [
-      {
-        "commit": "96966150e80f2bd556a5dcc842a4f8607bf15e99",
-        "author": "xylplm",
-        "date": "2026-10-11 14:10:24",
-        "message": "deps 📦: 前端依赖升级，页面加载与运行更稳更快"
       }
     ]
   }
