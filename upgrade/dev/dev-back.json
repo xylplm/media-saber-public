@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610241103",
+    "items": [
+      {
+        "commit": "4d9fb5425a1192571e18d4de4007d11c56db1391",
+        "author": "liurongjie",
+        "date": "2026-10-24 11:02:39",
+        "message": "fix 🐛: 目录同步失败集自动重推——长同步轮期间失败回调侧延迟重推补盲区（无锁+在途检查+去重+3次上限），修 5 集凌晨失败 6 小时无人接管"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610241042",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-10-23 21:17:03",
         "message": "feat ✨: 目录同步新增自动上报Hash开关，可关闭云资源上报与贡献奖励"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610231337",
-    "items": [
-      {
-        "commit": "7e6b2d5545e0efcb12e49e02999b42be4a27cfc6",
-        "author": "xylplm",
-        "date": "2026-10-23 13:37:06",
-        "message": "docs 📚: 补充 AGENTS.md 协作规范与 .kiro/steering，仓库独立开发也能正确约束 AI"
       }
     ]
   }
