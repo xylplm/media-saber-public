@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610240820",
+    "items": [
+      {
+        "commit": "2da276f6a8869792ae78a39e7ffede773282a46b",
+        "author": "liurongjie",
+        "date": "2026-10-24 08:20:48",
+        "message": "chore 🧹: 移除误提交的空文件 mediaproxy/.tmp"
+      },
+      {
+        "commit": "61b2e5a05d7dcefb1592a6e905af0218b3265b24",
+        "author": "liurongjie",
+        "date": "2026-10-24 08:20:19",
+        "message": "perf ⚡: mediaproxy 三项治理——body 缓存 Redis TTL 分级 10d→2h/6h/24h 退水位，选轨记忆键补实例维度防双实例串轨，详情预取 10→3（回证实证命中率≈0）"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610240341",
     "items": [
       {
@@ -149,29 +166,6 @@
         "author": "liurongjie",
         "date": "2026-10-21 15:16:59",
         "message": "fix 🐛: 云下载任务关键词搜索兼容中文百分号编码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610211159",
-    "items": [
-      {
-        "commit": "a90e87dfaeb6ea2fc099f07fa27a04d83cdd769e",
-        "author": "liurongjie",
-        "date": "2026-10-21 11:59:08",
-        "message": "feat ✨: 复制逐条通知与上报去重，上报关闭时补发成功通知"
-      },
-      {
-        "commit": "04b2aa514dc9d8cefb116d7b1d692ceeb932463f",
-        "author": "liurongjie",
-        "date": "2026-10-21 11:39:16",
-        "message": "feat ✨: 云存储任务列表支持关键词和状态筛选"
-      },
-      {
-        "commit": "f6f01a427b45400b4703baf6d1b644a8a11def13",
-        "author": "liurongjie",
-        "date": "2026-10-21 10:22:07",
-        "message": "fix 🐛: 云上报成功通知简介按单集取，回退剧简介"
       }
     ]
   }
