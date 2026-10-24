@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610241242",
+    "items": [
+      {
+        "commit": "ab07a5169a3fe13fd04273ffb2e8f45a9b6cafd9",
+        "author": "xylplm",
+        "date": "2026-10-24 11:14:40",
+        "message": "fix 🐛: 修复带认证的socks5代理连接失败，http与socks5代理现已支持用户名密码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610241103",
     "items": [
       {
@@ -113,29 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 00:51:57",
         "message": "fix 🐛: IYUU 辅种 TR 校验成功不自动做种——就绪判定恢复 CanSeed 并兜底 IsSeeding，重辅种时清旧重试计数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610232342",
-    "items": [
-      {
-        "commit": "e81b2edd7d579d01e09b5553cf8a9c8cd5d59290",
-        "author": "liurongjie",
-        "date": "2026-10-23 23:39:48",
-        "message": "fix 🐛: Plex strm 条目限速重协商保持直链，不再落入必败假 HLS 转码"
-      },
-      {
-        "commit": "92f62d41b4957675bdda786dff8cf8974619da45",
-        "author": "liurongjie",
-        "date": "2026-10-23 23:39:48",
-        "message": "fix 🐛: 云目录同步多开分身开关互相影响——实例归属按源+目标子树精确匹配拒../越界，取消在途任务加目标过滤"
-      },
-      {
-        "commit": "3c7509fc61989135e2ab779c69936eb828965678",
-        "author": "xylplm",
-        "date": "2026-10-23 21:17:03",
-        "message": "feat ✨: 目录同步新增自动上报Hash开关，可关闭云资源上报与贡献奖励"
       }
     ]
   }
