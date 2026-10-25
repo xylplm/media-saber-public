@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610260138",
+    "items": [
+      {
+        "commit": "9c2e4ab8d216962ad5439a909142b19d772123fa",
+        "author": "liurongjie",
+        "date": "2026-10-26 01:38:10",
+        "message": "perf ⚡: 补 system_log trace/span trgm 索引与 torrent_info (task_id,filtered) 复合索引, 低频日志搜索与搜索任务统计回归毫秒级"
+      },
+      {
+        "commit": "a62b1d612c9fa2421e6c83d1b01745b11b6e5334",
+        "author": "liurongjie",
+        "date": "2026-10-26 01:03:58",
+        "message": "perf ⚡: scope库名集合/媒体库浏览/搜索任务统计加缓存, 修 playStats 缓存键永不命中, logs 搜索去 stacktrace 降 count cap"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610260005",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-10-24 11:14:40",
         "message": "fix 🐛: 修复带认证的socks5代理连接失败，http与socks5代理现已支持用户名密码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610241103",
-    "items": [
-      {
-        "commit": "4d9fb5425a1192571e18d4de4007d11c56db1391",
-        "author": "liurongjie",
-        "date": "2026-10-24 11:02:39",
-        "message": "fix 🐛: 目录同步失败集自动重推——长同步轮期间失败回调侧延迟重推补盲区（无锁+在途检查+去重+3次上限），修 5 集凌晨失败 6 小时无人接管"
       }
     ]
   }
