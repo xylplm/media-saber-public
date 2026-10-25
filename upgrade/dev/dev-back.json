@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610260219",
+    "items": [
+      {
+        "commit": "0152769f4e5cd0e841a7c318362a5324e5ff1933",
+        "author": "liurongjie",
+        "date": "2026-10-26 02:19:04",
+        "message": "fix 🐛: 启用库库名集合缓存脱离 scope 前缀防配置保存误清, 加单飞合并并发首查 DISTINCT"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610260138",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 13:16:50",
         "message": "perf ⚡: 外部 PMS 库共享扫库限流——UA 识别扫库枚举走独立闸门（并发1+2s限速），不再与用户回源抢 PMS；扫库页跳过详情预取"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610241242",
-    "items": [
-      {
-        "commit": "ab07a5169a3fe13fd04273ffb2e8f45a9b6cafd9",
-        "author": "xylplm",
-        "date": "2026-10-24 11:14:40",
-        "message": "fix 🐛: 修复带认证的socks5代理连接失败，http与socks5代理现已支持用户名密码"
       }
     ]
   }
