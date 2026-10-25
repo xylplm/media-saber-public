@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610252354",
+    "items": [
+      {
+        "commit": "a4934f5a1aeb206640109fd1fc3452482b6f1faf",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:54:13",
+        "message": "fix 🐛: 补缺漏直接参数被 issueKey 必填校验拦截改 optional, 启动建 trgm 索引改 CONCURRENTLY 防锁写拖垮服务"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610252325",
     "items": [
       {
@@ -107,29 +118,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 10:41:38",
         "message": "fix 🐛: 115 移动目录事件目录误入 Files 致 strm 报 not a file，未开目录树时改走 transferDir 展开，失败重试目录记录改 Dir 模式"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610240941",
-    "items": [
-      {
-        "commit": "ca08d3924d4ba6de5ec972d4c466a5f8b614e1c1",
-        "author": "liurongjie",
-        "date": "2026-10-24 09:41:07",
-        "message": "merge 🔀: review 补合并——mlist op.UpdateStorage 缓存失效修复（设置变更即失效+err 前移），记录文档补保留组件归属与 strm 表述修正"
-      },
-      {
-        "commit": "4dd8cded990e89965a073f7e23271f28cfc003cd",
-        "author": "liurongjie",
-        "date": "2026-10-24 09:26:14",
-        "message": "merge 🔀: 合并 OpenList/115driver 上游稳定性修复——115 上传 token 过期重试、光鸭秒传+分片进度、quark SHA1 摘要、189 时间解析、onedrive 锁序、strm 最小文件过滤、p115 错误/类型兼容"
-      },
-      {
-        "commit": "f854d94af69a1aca234b02f0fa598148b6133ca0",
-        "author": "liurongjie",
-        "date": "2026-10-24 09:12:17",
-        "message": "fix 🐛: review 修正——选轨测试 serverName 维度统一为写入侧 plex-test 并修 Redis 键格式断言，normalize cap 注释同步 TTL 分级口径"
       }
     ]
   }
