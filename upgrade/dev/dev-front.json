@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202610252228",
+    "items": [
+      {
+        "commit": "3f40253c1579416092ce477e83e2cad286453964",
+        "author": "liurongjie",
+        "date": "2026-10-25 22:26:33",
+        "message": "feat ✨: 同步数据媒体详情弹窗缺集区块提供补缺漏入口"
+      },
+      {
+        "commit": "915fce719250fb29dc0f2ddcc7bf05333cce9a4c",
+        "author": "liurongjie",
+        "date": "2026-10-25 22:26:33",
+        "message": "fix 🐛: 移动端全屏弹窗滚动链断裂, component-host 子选择器改后代选择器"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610241242",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-10-21 11:39:46",
         "message": "feat ✨: 云存储任务页支持关键词和状态筛选"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610201357",
-    "items": [
-      {
-        "commit": "a25b64e509bb3fae72e945bf5a2efcb6afa14cea",
-        "author": "xylplm",
-        "date": "2026-10-20 13:42:01",
-        "message": "feat ✨: 目录分类页支持绑定订阅过滤规则——一级/二级分类编辑弹窗新增「订阅过滤规则」下拉，分类列表直接展示绑定的规则名，条件留空有提醒；新增订阅不再预填默认过滤规则，不选则按分类自动匹配"
       }
     ]
   }
