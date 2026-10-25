@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610252325",
+    "items": [
+      {
+        "commit": "86e30670fbbde8f31f1721f6a7213082c22aae1f",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:25:11",
+        "message": "perf ⚡: 观影统计修缓存键复用 scope 加 idleMedia 缓存，转存历史 total 缓存与 path 前缀索引"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610252306",
     "items": [
       {
@@ -119,23 +130,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 09:12:17",
         "message": "fix 🐛: review 修正——选轨测试 serverName 维度统一为写入侧 plex-test 并修 Redis 键格式断言，normalize cap 注释同步 TTL 分级口径"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610240820",
-    "items": [
-      {
-        "commit": "2da276f6a8869792ae78a39e7ffede773282a46b",
-        "author": "liurongjie",
-        "date": "2026-10-24 08:20:48",
-        "message": "chore 🧹: 移除误提交的空文件 mediaproxy/.tmp"
-      },
-      {
-        "commit": "61b2e5a05d7dcefb1592a6e905af0218b3265b24",
-        "author": "liurongjie",
-        "date": "2026-10-24 08:20:19",
-        "message": "perf ⚡: mediaproxy 三项治理——body 缓存 Redis TTL 分级 10d→2h/6h/24h 退水位，选轨记忆键补实例维度防双实例串轨，详情预取 10→3（回证实证命中率≈0）"
       }
     ]
   }
