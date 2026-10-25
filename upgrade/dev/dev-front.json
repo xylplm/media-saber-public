@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610252306",
+    "items": [
+      {
+        "commit": "f5921c20f727d381ed4c2cbcb34a948b694b0076",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:05:49",
+        "message": "fix 🐛: 补缺漏按钮放宽为有缺集即可, 无 TMDB 由后端解析"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610252228",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-10-20 19:27:30",
         "message": "refactor 🔁: Jellyfin 类型显示更名为「Jellyfin(旧版)」——媒体服务器与观影统计相关提示文案同步更新，为接下来适配全新的 Jellyfin 12 铺路"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610211159",
-    "items": [
-      {
-        "commit": "37a395a059ac770d79c822ca7fd9ee593f87b703",
-        "author": "liurongjie",
-        "date": "2026-10-21 11:39:46",
-        "message": "feat ✨: 云存储任务页支持关键词和状态筛选"
       }
     ]
   }

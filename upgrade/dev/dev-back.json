@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610252306",
+    "items": [
+      {
+        "commit": "5602f34075b7da2de04bd8bcddedaae253357ab6",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:05:45",
+        "message": "feat ✨: 补缺漏直接参数无 TMDB 时按标题年份解析补齐"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610252228",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 08:20:19",
         "message": "perf ⚡: mediaproxy 三项治理——body 缓存 Redis TTL 分级 10d→2h/6h/24h 退水位，选轨记忆键补实例维度防双实例串轨，详情预取 10→3（回证实证命中率≈0）"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610240341",
-    "items": [
-      {
-        "commit": "31f1b62f993f1c1d5123a4941d8292992ca54b4a",
-        "author": "liurongjie",
-        "date": "2026-10-24 03:40:47",
-        "message": "fix 🐛: 消日志误报——整理删目录后改刷父目录避免 CD2 刷已删路径报错，MQ 消费错误去重，日志落库加 error 级保留通道防风暴挤丢"
       }
     ]
   }
