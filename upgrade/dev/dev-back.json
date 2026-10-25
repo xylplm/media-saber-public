@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610260005",
+    "items": [
+      {
+        "commit": "9292d89fde7136ad58761f54cf78502666443132",
+        "author": "liurongjie",
+        "date": "2026-10-26 00:04:51",
+        "message": "fix 🐛: IYUU/TR 辅种存量自愈, 被旧判定放弃的校验完成种子按辅种标签兜底扫描恢复做种"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610252354",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 11:02:39",
         "message": "fix 🐛: 目录同步失败集自动重推——长同步轮期间失败回调侧延迟重推补盲区（无锁+在途检查+去重+3次上限），修 5 集凌晨失败 6 小时无人接管"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610241042",
-    "items": [
-      {
-        "commit": "a67e9218a9138415dc9e0b4450c23110b7d0ef74",
-        "author": "liurongjie",
-        "date": "2026-10-24 10:41:38",
-        "message": "fix 🐛: 115 移动目录事件目录误入 Files 致 strm 报 not a file，未开目录树时改走 transferDir 展开，失败重试目录记录改 Dir 模式"
       }
     ]
   }
