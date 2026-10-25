@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610260246",
+    "items": [
+      {
+        "commit": "ba71cc94ea6be49bf878453f850fbc890f4cf5a3",
+        "author": "liurongjie",
+        "date": "2026-10-26 02:45:50",
+        "message": "perf ⚡: idleMedia 缓存与分页解耦拉长到10分钟, mediaHealth 页面加 60s 缓存挡全量重建"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610260219",
     "items": [
       {
@@ -107,23 +118,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 14:41:38",
         "message": "fix 🐛: TMDB 季详情 404 不再刷 error——season 0 特别篇多数剧不存在属预期，与集级 404 处理同口径静默返回"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610241323",
-    "items": [
-      {
-        "commit": "2281029d08d591f5003be1ce4125f15b2ea1cdd9",
-        "author": "liurongjie",
-        "date": "2026-10-24 13:16:50",
-        "message": "chore 🧹: 忽略 mediaproxy/.tmp 本地目录"
-      },
-      {
-        "commit": "7b37dd9f90ac352f22382a703a6c5bb0bd560b86",
-        "author": "liurongjie",
-        "date": "2026-10-24 13:16:50",
-        "message": "perf ⚡: 外部 PMS 库共享扫库限流——UA 识别扫库枚举走独立闸门（并发1+2s限速），不再与用户回源抢 PMS；扫库页跳过详情预取"
       }
     ]
   }
