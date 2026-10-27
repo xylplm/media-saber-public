@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202610280006",
+    "items": [
+      {
+        "commit": "e734338bdbb0f7c01972db554bfc752a68305d35",
+        "author": "liurongjie",
+        "date": "2026-10-28 00:02:48",
+        "message": "feat ✨: 手动搜索过滤规则下拉新增跟随目录分类选项并更新提示文案"
+      },
+      {
+        "commit": "50b52ea2ae834c183792c0647fbabf965206ae85",
+        "author": "liurongjie",
+        "date": "2026-10-27 23:26:04",
+        "message": "fix 🐛: 服务配置测试服务按钮窄列下内容溢出, 按钮改为内容自适应宽度"
+      },
+      {
+        "commit": "90f8e6838c6183d439a65eea8580e9e797ceb4c9",
+        "author": "liurongjie",
+        "date": "2026-10-27 23:26:04",
+        "message": "feat ✨: 订阅搜索成人内容开关移至搜索与过滤分区最后"
+      },
+      {
+        "commit": "8310719ab568c3fb6e72b77374c41ca792ce6364",
+        "author": "xylplm",
+        "date": "2026-10-27 13:15:50",
+        "message": "feat ✨: 云端资源表格支持点击表头按大小和发布时间排序"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610261243",
     "items": [
       {
@@ -173,17 +202,6 @@
         "author": "xylplm",
         "date": "2026-10-23 09:46:41",
         "message": "fix 🐛: 修复目录分类保存报错——不选订阅过滤规则时按未绑定提交，不再报 filterRuleId 不能为空"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610221812",
-    "items": [
-      {
-        "commit": "3ecd33011fce207f3d58fd06a8956daf84b28e2b",
-        "author": "xylplm",
-        "date": "2026-10-22 18:10:23",
-        "message": "feat ✨: 云资源支持举报与批量拉黑（弹窗选类型并告知影响），运维管理新增云端资源管理与举报审核两页，基础配置支持屏蔽词维护与违禁惩罚倍数、举报奖励配置"
       }
     ]
   }
