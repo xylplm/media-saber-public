@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610281319",
+    "items": [
+      {
+        "commit": "d41d7c5ff816e997bc744c67f8ca73e4383a6f41",
+        "author": "xylplm",
+        "date": "2026-10-28 13:18:10",
+        "message": "fix 🐛: 修复一键对齐默认设置批量转换多字段时执行报错失败, 批量编辑多字段恢复跟随同因"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610280006",
     "items": [
       {
@@ -131,23 +142,6 @@
         "author": "liurongjie",
         "date": "2026-10-25 23:05:45",
         "message": "feat ✨: 补缺漏直接参数无 TMDB 时按标题年份解析补齐"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610252228",
-    "items": [
-      {
-        "commit": "a635885c80fa05a93cd7d8d5f4d18e97341dee08",
-        "author": "liurongjie",
-        "date": "2026-10-25 22:25:53",
-        "message": "feat ✨: 补缺漏接口支持直接参数形态与 issueKey 二选一, 供同步数据等非体检入口复用补漏决策链"
-      },
-      {
-        "commit": "c556b59dd57ca6b8b6c5d743a9cc99fe4755e2c8",
-        "author": "liurongjie",
-        "date": "2026-10-25 22:16:46",
-        "message": "perf ⚡: 同步项分页加类型游标与 missEps 部分索引，缺集筛选从秒级降到毫秒"
       }
     ]
   }
