@@ -1,5 +1,40 @@
 [
   {
+    "version": "DEV_202610292241",
+    "items": [
+      {
+        "commit": "a747b3d936556d7f15122b6f516c9ac472643ab4",
+        "author": "xylplm",
+        "date": "2026-10-29 22:35:17",
+        "message": "fix 🐛: 修复 App 发起 OIDC 登录时浏览器被误登录, 扫码筛选响应下发场景文案"
+      },
+      {
+        "commit": "d414791a74aec39830ca8def3298c39e62577fe6",
+        "author": "xylplm",
+        "date": "2026-10-29 17:15:01",
+        "message": "fix 🐛: 修改密码旧密码验证失败补安全审计"
+      },
+      {
+        "commit": "f382e6f86815b24d4a14010f05afedb3a78487a2",
+        "author": "xylplm",
+        "date": "2026-10-29 17:04:12",
+        "message": "feat ✨: 新增扫码登录, OIDC回调改前端落地, 授权闸改gRPC免密模式, 审计补loginType"
+      },
+      {
+        "commit": "a4b7da030f744f72d3e270c5435fa3246b19fa3b",
+        "author": "xylplm",
+        "date": "2026-10-29 08:09:16",
+        "message": "feat ✨: 新增OIDC单点登录, 支持外部身份源登录/账号绑定管理/登录前信息聚合"
+      },
+      {
+        "commit": "2d47424fa30100cf2ab3a5477eeaf40531a408ea",
+        "author": "xylplm",
+        "date": "2026-10-28 16:37:42",
+        "message": "feat ✨: MCP 服务连接地址由 /message 调整为 /mcp/http, 升级后旧客户端地址需同步修改"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610281319",
     "items": [
       {
@@ -131,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-10-25 23:25:11",
         "message": "perf ⚡: 观影统计修缓存键复用 scope 加 idleMedia 缓存，转存历史 total 缓存与 path 前缀索引"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610252306",
-    "items": [
-      {
-        "commit": "5602f34075b7da2de04bd8bcddedaae253357ab6",
-        "author": "liurongjie",
-        "date": "2026-10-25 23:05:45",
-        "message": "feat ✨: 补缺漏直接参数无 TMDB 时按标题年份解析补齐"
       }
     ]
   }

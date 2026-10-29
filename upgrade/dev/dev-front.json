@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202610292241",
+    "items": [
+      {
+        "commit": "da701c39aabdc2398534d5f81cf719515ce25816",
+        "author": "xylplm",
+        "date": "2026-10-29 22:35:18",
+        "message": "feat ✨: 登录页记忆扫码模式, 安全设置 OIDC 卡样式调整"
+      },
+      {
+        "commit": "55eb233cfc1bf4f8477309cc0c4d4314c8e8b39a",
+        "author": "xylplm",
+        "date": "2026-10-29 22:35:18",
+        "message": "fix 🐛: 修复 App 发起 OIDC 登录时网页被误登录, 授权完成页自动拉起应用"
+      },
+      {
+        "commit": "ae9b262ac0b633668c0fa7edb94007f3cbcb1f3f",
+        "author": "xylplm",
+        "date": "2026-10-29 17:15:01",
+        "message": "fix 🐛: 安全审计更名与密码弹窗防浏览器保存提示"
+      },
+      {
+        "commit": "677e4a1a522a0a9f7cceb8e44aac9fae1a7fbaaf",
+        "author": "xylplm",
+        "date": "2026-10-29 17:04:13",
+        "message": "feat ✨: 新增扫码登录, OIDC回调改前端SPA落地页, 登录方式全端可见"
+      },
+      {
+        "commit": "6000e94546d8ffe462fa221054029d86accaec69",
+        "author": "xylplm",
+        "date": "2026-10-29 08:09:25",
+        "message": "feat ✨: 支持OIDC单点登录, 登录页新增单点登录入口, 安全配置支持绑定管理"
+      },
+      {
+        "commit": "d4136bc6e2c7c746d04fbcdc9d387bd5d740d809",
+        "author": "xylplm",
+        "date": "2026-10-28 15:25:13",
+        "message": "feat ✨: 按文件生成 Strm——所选配置未开启目录树时隐藏文件路径栏，改显示开启指引提示，不再让按钮灰着点了没反应"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610280006",
     "items": [
       {
@@ -191,17 +232,6 @@
         "author": "xylplm",
         "date": "2026-10-23 13:06:59",
         "message": "feat ✨: 云资源支持上传者自助下架和删除，举报审核可查看资源详情，修复筛选后分页错位，基础配置增加举报奖励上限"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610230949",
-    "items": [
-      {
-        "commit": "da070312fa0ef783c50be25c686a4b3c673de6a0",
-        "author": "xylplm",
-        "date": "2026-10-23 09:46:41",
-        "message": "fix 🐛: 修复目录分类保存报错——不选订阅过滤规则时按未绑定提交，不再报 filterRuleId 不能为空"
       }
     ]
   }
