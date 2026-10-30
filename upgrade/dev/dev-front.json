@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610300935",
+    "items": [
+      {
+        "commit": "d734d83ea0627e9349e2809ef5233d377cb756c3",
+        "author": "xylplm",
+        "date": "2026-10-30 09:34:51",
+        "message": "ui 🎨: 登录方式页扫码登录卡片移至 OIDC 前"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610300910",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-10-24 01:19:41",
         "message": "fix 🐛: 云端文件列表纯文件夹目录时间被截断——大小 span 缺席时时间独自落入 5.5rem 大小列，独占 meta 时跨满两列"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610232342",
-    "items": [
-      {
-        "commit": "9640270c1131f7bd227c6437a9294ce5292e58fe",
-        "author": "xylplm",
-        "date": "2026-10-23 21:17:16",
-        "message": "feat ✨: 目录同步新增自动上报Hash开关，含关闭二次确认"
       }
     ]
   }
