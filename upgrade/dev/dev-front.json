@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610300910",
+    "items": [
+      {
+        "commit": "c02bf167a9f9a6588df79eff93e8e9372801bd1c",
+        "author": "xylplm",
+        "date": "2026-10-30 00:02:06",
+        "message": "feat ✨: 安全中心审计/拦截名单/凭据治理三页改为卡片列表, 手机到4K全尺寸响应式统一体验"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610292241",
     "items": [
       {
@@ -215,23 +226,6 @@
         "author": "xylplm",
         "date": "2026-10-23 21:17:16",
         "message": "feat ✨: 目录同步新增自动上报Hash开关，含关闭二次确认"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610231337",
-    "items": [
-      {
-        "commit": "a18f350d26653885cb5654a57c610348c92b35e7",
-        "author": "xylplm",
-        "date": "2026-10-23 13:36:46",
-        "message": "docs 📚: 新增 AGENTS.md 与 .kiro 协作规范，仓库独立开发也能正确约束 AI"
-      },
-      {
-        "commit": "4a6e5c33b2f833ada5bb2426d5e31efa41a4b521",
-        "author": "xylplm",
-        "date": "2026-10-23 13:06:59",
-        "message": "feat ✨: 云资源支持上传者自助下架和删除，举报审核可查看资源详情，修复筛选后分页错位，基础配置增加举报奖励上限"
       }
     ]
   }
