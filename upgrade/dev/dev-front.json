@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610310136",
+    "items": [
+      {
+        "commit": "7f2329205cea286a80655300b87b253f541d000e",
+        "author": "liurongjie",
+        "date": "2026-10-31 01:35:25",
+        "message": "fix 🐛: strm探测弹窗桌面端内容区限高放宽到视口减300px, 修复底部多行功能按钮把取消/应用/确认顶出视口"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610300935",
     "items": [
       {
@@ -215,17 +226,6 @@
         "author": "xylplm",
         "date": "2026-10-24 10:05:55",
         "message": "fix 🐛: 剪贴板复制统一改用 Angular CDK 服务，内网 http 访问不再静默失败"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610240115",
-    "items": [
-      {
-        "commit": "6b9f041e4bc3fbe28efe97177ed570e73fe2e655",
-        "author": "liurongjie",
-        "date": "2026-10-24 01:19:41",
-        "message": "fix 🐛: 云端文件列表纯文件夹目录时间被截断——大小 span 缺席时时间独自落入 5.5rem 大小列，独占 meta 时跨满两列"
       }
     ]
   }

@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202610310136",
+    "items": [
+      {
+        "commit": "c4887008210d6956a46ea9542db62599ac114ec0",
+        "author": "liurongjie",
+        "date": "2026-10-31 01:34:06",
+        "message": "fix 🐛: 云端hash上报unchanged校验远端size未变时mtime漂移放行防误判重试风暴, 错误消息补文件路径与size/mtime新旧值"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610292241",
     "items": [
       {
@@ -155,17 +166,6 @@
         "author": "liurongjie",
         "date": "2026-10-25 23:54:13",
         "message": "fix 🐛: 补缺漏直接参数被 issueKey 必填校验拦截改 optional, 启动建 trgm 索引改 CONCURRENTLY 防锁写拖垮服务"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610252325",
-    "items": [
-      {
-        "commit": "86e30670fbbde8f31f1721f6a7213082c22aae1f",
-        "author": "liurongjie",
-        "date": "2026-10-25 23:25:11",
-        "message": "perf ⚡: 观影统计修缓存键复用 scope 加 idleMedia 缓存，转存历史 total 缓存与 path 前缀索引"
       }
     ]
   }
