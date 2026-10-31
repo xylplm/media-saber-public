@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611010018",
+    "items": [
+      {
+        "commit": "df67c734f02f4c6a3a03e418997fe29ca82f5ee1",
+        "author": "liurongjie",
+        "date": "2026-11-01 00:17:25",
+        "message": "fix 🐛: 修复目录清理误删海报字幕与strm探测取消死锁, plex自动音轨show级标签按剧缓存, 歌单批量添加失败回退逐首, 音乐规则预编译与探测视频流口径统一"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610312129",
     "items": [
       {
@@ -185,17 +196,6 @@
         "author": "liurongjie",
         "date": "2026-10-26 01:03:58",
         "message": "perf ⚡: scope库名集合/媒体库浏览/搜索任务统计加缓存, 修 playStats 缓存键永不命中, logs 搜索去 stacktrace 降 count cap"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610260005",
-    "items": [
-      {
-        "commit": "9292d89fde7136ad58761f54cf78502666443132",
-        "author": "liurongjie",
-        "date": "2026-10-26 00:04:51",
-        "message": "fix 🐛: IYUU/TR 辅种存量自愈, 被旧判定放弃的校验完成种子按辅种标签兜底扫描恢复做种"
       }
     ]
   }
