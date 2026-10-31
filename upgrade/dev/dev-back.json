@@ -1,5 +1,46 @@
 [
   {
+    "version": "DEV_202610312129",
+    "items": [
+      {
+        "commit": "6e77541ef8962127374648de649ad3acb41c2dcf",
+        "author": "GateCross",
+        "date": "2026-10-31 21:26:58",
+        "message": "fix: 调整授权服务重试间隔为30分钟"
+      },
+      {
+        "commit": "c8ba0a44992713fa81c4f223271f5a85f00dedf5",
+        "author": "xylplm",
+        "date": "2026-10-31 20:57:21",
+        "message": "fix 🐛: 站点搜索任务写入站点总数,修复进度分母恒为零"
+      },
+      {
+        "commit": "ccf93a7bfa12e951dbd71e47451742a56dfa50d6",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:20",
+        "message": "fix 🐛: 修复单测基线,适配时钟粒度与音乐库预检"
+      },
+      {
+        "commit": "4f2e7f0198a7c078f8f936fd32f37e0f8bfa2132",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:20",
+        "message": "fix 🐛: 豆瓣与Plex空配置防御不再崩溃,Plex货架判定键值容错"
+      },
+      {
+        "commit": "e2d5858b3ed482c88ba540aca65e8c4ce34c8a26",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:19",
+        "message": "fix 🐛: 纯季目录条目不再误识别成单集,订阅拆包减少幻影命中"
+      },
+      {
+        "commit": "d57aca577785a985b1538b3451f55aa4a836e981",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:19",
+        "message": "fix 🐛: 日志组件零值回落不再崩溃,缺本地种子的测试自动跳过"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610310136",
     "items": [
       {
@@ -155,17 +196,6 @@
         "author": "liurongjie",
         "date": "2026-10-26 00:04:51",
         "message": "fix 🐛: IYUU/TR 辅种存量自愈, 被旧判定放弃的校验完成种子按辅种标签兜底扫描恢复做种"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610252354",
-    "items": [
-      {
-        "commit": "a4934f5a1aeb206640109fd1fc3452482b6f1faf",
-        "author": "liurongjie",
-        "date": "2026-10-25 23:54:13",
-        "message": "fix 🐛: 补缺漏直接参数被 issueKey 必填校验拦截改 optional, 启动建 trgm 索引改 CONCURRENTLY 防锁写拖垮服务"
       }
     ]
   }
