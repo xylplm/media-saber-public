@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611012213",
+    "items": [
+      {
+        "commit": "69832dfc59d0dc684b2490bbfadeacaaa103ce96",
+        "author": "xylplm",
+        "date": "2026-11-01 22:02:43",
+        "message": "feat ✨: 新增扩展快捷登录,已登录扩展的浏览器在登录页可一键授权网页登录"
+      },
+      {
+        "commit": "dbb5908587712ab6e1809a629d5af31726ec13b4",
+        "author": "xylplm",
+        "date": "2026-11-01 20:18:35",
+        "message": "fix 🐛: 修复极空间Emby最新入库点开剧集报错,媒体库归属改祖先接口优先解析并保留原链路兜底"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611010018",
     "items": [
       {
@@ -179,23 +196,6 @@
         "author": "liurongjie",
         "date": "2026-10-26 02:19:04",
         "message": "fix 🐛: 启用库库名集合缓存脱离 scope 前缀防配置保存误清, 加单飞合并并发首查 DISTINCT"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610260138",
-    "items": [
-      {
-        "commit": "9c2e4ab8d216962ad5439a909142b19d772123fa",
-        "author": "liurongjie",
-        "date": "2026-10-26 01:38:10",
-        "message": "perf ⚡: 补 system_log trace/span trgm 索引与 torrent_info (task_id,filtered) 复合索引, 低频日志搜索与搜索任务统计回归毫秒级"
-      },
-      {
-        "commit": "a62b1d612c9fa2421e6c83d1b01745b11b6e5334",
-        "author": "liurongjie",
-        "date": "2026-10-26 01:03:58",
-        "message": "perf ⚡: scope库名集合/媒体库浏览/搜索任务统计加缓存, 修 playStats 缓存键永不命中, logs 搜索去 stacktrace 降 count cap"
       }
     ]
   }

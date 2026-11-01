@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611012213",
+    "items": [
+      {
+        "commit": "15f02f556dcbf9da8bf93d3f285983e30992643b",
+        "author": "xylplm",
+        "date": "2026-11-01 22:05:21",
+        "message": "feat ✨: 登录页新增扩展快捷登录,检测到已登录扩展时一键授权进入系统"
+      }
+    ]
+  },
+  {
     "version": "DEV_202610310136",
     "items": [
       {
@@ -209,23 +220,6 @@
         "author": "xylplm",
         "date": "2026-10-24 11:15:00",
         "message": "feat ✨: 完善代理与站点配置更新提示，补充带认证代理填写示例"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610241042",
-    "items": [
-      {
-        "commit": "a98976309f041bb9eddfbc01066715645b87ad02",
-        "author": "xylplm",
-        "date": "2026-10-24 10:05:55",
-        "message": "docs 📚: 前端规范新增剪贴板复制规则，文本复制统一走 CDK Clipboard"
-      },
-      {
-        "commit": "01bbc77e1462662d305c111fc1ff13475a650bbc",
-        "author": "xylplm",
-        "date": "2026-10-24 10:05:55",
-        "message": "fix 🐛: 剪贴板复制统一改用 Angular CDK 服务，内网 http 访问不再静默失败"
       }
     ]
   }
