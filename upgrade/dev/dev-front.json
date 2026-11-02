@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611021142",
+    "items": [
+      {
+        "commit": "f80aa6446c0d6f9984f1a6ecafe1749b855a700c",
+        "author": "xylplm",
+        "date": "2026-11-02 11:41:47",
+        "message": "feat ✨: 播放器支持线路记忆与手动切换线路,同剧不再重复提示直连失败"
+      },
+      {
+        "commit": "d784df3a4ff2ffcae9cb9a4a2872feb6ba1353e8",
+        "author": "xylplm",
+        "date": "2026-11-02 11:41:46",
+        "message": "fix 🐛: 媒体库详情弹窗集卡片不再超宽,长剧分页加载更多不再卡顿"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611012213",
     "items": [
       {
@@ -209,17 +226,6 @@
         "author": "liurongjie",
         "date": "2026-10-25 22:26:33",
         "message": "fix 🐛: 移动端全屏弹窗滚动链断裂, component-host 子选择器改后代选择器"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610241242",
-    "items": [
-      {
-        "commit": "5f14814c0801910a4f002e383d9d3a580bc14944",
-        "author": "xylplm",
-        "date": "2026-10-24 11:15:00",
-        "message": "feat ✨: 完善代理与站点配置更新提示，补充带认证代理填写示例"
       }
     ]
   }
