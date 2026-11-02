@@ -1,5 +1,682 @@
 [
   {
+    "version": "3.0_202611021322",
+    "items": [
+      {
+        "commit": "3c32584df838644cbe98bcc9ed3741acda983199",
+        "author": "xylplm",
+        "date": "2026-11-02 11:41:36",
+        "message": "fix 🐛: 修复定制Emby点剧集播放失败,协商自动归一到首个未播集,兼容小数帧率解析"
+      },
+      {
+        "commit": "69832dfc59d0dc684b2490bbfadeacaaa103ce96",
+        "author": "xylplm",
+        "date": "2026-11-01 22:02:43",
+        "message": "feat ✨: 新增扩展快捷登录,已登录扩展的浏览器在登录页可一键授权网页登录"
+      },
+      {
+        "commit": "dbb5908587712ab6e1809a629d5af31726ec13b4",
+        "author": "xylplm",
+        "date": "2026-11-01 20:18:35",
+        "message": "fix 🐛: 修复极空间Emby最新入库点开剧集报错,媒体库归属改祖先接口优先解析并保留原链路兜底"
+      },
+      {
+        "commit": "df67c734f02f4c6a3a03e418997fe29ca82f5ee1",
+        "author": "liurongjie",
+        "date": "2026-11-01 00:17:25",
+        "message": "fix 🐛: 修复目录清理误删海报字幕与strm探测取消死锁, plex自动音轨show级标签按剧缓存, 歌单批量添加失败回退逐首, 音乐规则预编译与探测视频流口径统一"
+      },
+      {
+        "commit": "6e77541ef8962127374648de649ad3acb41c2dcf",
+        "author": "GateCross",
+        "date": "2026-10-31 21:26:58",
+        "message": "fix: 调整授权服务重试间隔为30分钟"
+      },
+      {
+        "commit": "c8ba0a44992713fa81c4f223271f5a85f00dedf5",
+        "author": "xylplm",
+        "date": "2026-10-31 20:57:21",
+        "message": "fix 🐛: 站点搜索任务写入站点总数,修复进度分母恒为零"
+      },
+      {
+        "commit": "ccf93a7bfa12e951dbd71e47451742a56dfa50d6",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:20",
+        "message": "fix 🐛: 修复单测基线,适配时钟粒度与音乐库预检"
+      },
+      {
+        "commit": "4f2e7f0198a7c078f8f936fd32f37e0f8bfa2132",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:20",
+        "message": "fix 🐛: 豆瓣与Plex空配置防御不再崩溃,Plex货架判定键值容错"
+      },
+      {
+        "commit": "e2d5858b3ed482c88ba540aca65e8c4ce34c8a26",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:19",
+        "message": "fix 🐛: 纯季目录条目不再误识别成单集,订阅拆包减少幻影命中"
+      },
+      {
+        "commit": "d57aca577785a985b1538b3451f55aa4a836e981",
+        "author": "xylplm",
+        "date": "2026-10-31 13:58:19",
+        "message": "fix 🐛: 日志组件零值回落不再崩溃,缺本地种子的测试自动跳过"
+      },
+      {
+        "commit": "c4887008210d6956a46ea9542db62599ac114ec0",
+        "author": "liurongjie",
+        "date": "2026-10-31 01:34:06",
+        "message": "fix 🐛: 云端hash上报unchanged校验远端size未变时mtime漂移放行防误判重试风暴, 错误消息补文件路径与size/mtime新旧值"
+      },
+      {
+        "commit": "a747b3d936556d7f15122b6f516c9ac472643ab4",
+        "author": "xylplm",
+        "date": "2026-10-29 22:35:17",
+        "message": "fix 🐛: 修复 App 发起 OIDC 登录时浏览器被误登录, 扫码筛选响应下发场景文案"
+      },
+      {
+        "commit": "d414791a74aec39830ca8def3298c39e62577fe6",
+        "author": "xylplm",
+        "date": "2026-10-29 17:15:01",
+        "message": "fix 🐛: 修改密码旧密码验证失败补安全审计"
+      },
+      {
+        "commit": "f382e6f86815b24d4a14010f05afedb3a78487a2",
+        "author": "xylplm",
+        "date": "2026-10-29 17:04:12",
+        "message": "feat ✨: 新增扫码登录, OIDC回调改前端落地, 授权闸改gRPC免密模式, 审计补loginType"
+      },
+      {
+        "commit": "a4b7da030f744f72d3e270c5435fa3246b19fa3b",
+        "author": "xylplm",
+        "date": "2026-10-29 08:09:16",
+        "message": "feat ✨: 新增OIDC单点登录, 支持外部身份源登录/账号绑定管理/登录前信息聚合"
+      },
+      {
+        "commit": "2d47424fa30100cf2ab3a5477eeaf40531a408ea",
+        "author": "xylplm",
+        "date": "2026-10-28 16:37:42",
+        "message": "feat ✨: MCP 服务连接地址由 /message 调整为 /mcp/http, 升级后旧客户端地址需同步修改"
+      },
+      {
+        "commit": "d41d7c5ff816e997bc744c67f8ca73e4383a6f41",
+        "author": "xylplm",
+        "date": "2026-10-28 13:18:10",
+        "message": "fix 🐛: 修复一键对齐默认设置批量转换多字段时执行报错失败, 批量编辑多字段恢复跟随同因"
+      },
+      {
+        "commit": "b594dbe0e502d632742e21ad4ce3a6f4cc9355b2",
+        "author": "liurongjie",
+        "date": "2026-10-28 00:02:41",
+        "message": "feat ✨: 手动搜索过滤规则支持跟随目录分类绑定规则, 未命中分类不过滤, bot链路去冗余二次过滤"
+      },
+      {
+        "commit": "66a4bac73e8da69f2d2d33962eaf7ffcef3fcacb",
+        "author": "xylplm",
+        "date": "2026-10-27 13:15:37",
+        "message": "feat ✨: 云端资源列表支持按大小和发布时间排序"
+      },
+      {
+        "commit": "7da91b3362a1dfad94fd09d692b67fc4c598b500",
+        "author": "xylplm",
+        "date": "2026-10-26 01:11:50",
+        "message": "fix 🐛: 修复存量订阅自愈迁移表名错误致跟随默认全量误判, 暂停竞态加固与追剧提醒/健康体检排除已暂停订阅, 一键对齐纳入运行中订阅并在锁内重读防并发覆盖"
+      },
+      {
+        "commit": "85b9c6adaf023e00374a228b7a58165975b4fe3b",
+        "author": "xylplm",
+        "date": "2026-10-25 21:25:49",
+        "message": "feat ✨: 订阅新增集数地图——编辑订阅可点选补订阅集数（缺失/已入库/下载中状态一目了然，支持全选缺失与按范围添加），精确集数模式支持界面开关与跨会话保持"
+      },
+      {
+        "commit": "81def70535d253d1ee8b7c36562c0090c2205a70",
+        "author": "xylplm",
+        "date": "2026-10-24 22:30:58",
+        "message": "docs 📚: AI 助手订阅工具说明补充——不指定下载器/站点等参数时自动跟随订阅默认设置"
+      },
+      {
+        "commit": "7690ba06321570d994d13e40a987308d193aef35",
+        "author": "xylplm",
+        "date": "2026-10-24 22:23:44",
+        "message": "feat ✨: 订阅支持跟随默认设置——不指定下载器/站点/规则等时自动用默认设置，改默认全局即时生效；订阅云端开关升级为资源来源四模式（仅站点/云端优先/仅云端/站点优先）；一键把与默认一致的存量订阅转为跟随；删下载器等时校验默认设置引用，批量编辑支持跟随默认"
+      },
+      {
+        "commit": "e4756da6ac345996dc0eaa9760971806ff42c33b",
+        "author": "xylplm",
+        "date": "2026-10-24 15:45:54",
+        "message": "feat ✨: 订阅支持暂停与恢复——临时不想追可暂停不必取消，运行中订阅也能暂停后修改，恢复自动补搜一次"
+      },
+      {
+        "commit": "ba71cc94ea6be49bf878453f850fbc890f4cf5a3",
+        "author": "liurongjie",
+        "date": "2026-10-26 02:45:50",
+        "message": "perf ⚡: idleMedia 缓存与分页解耦拉长到10分钟, mediaHealth 页面加 60s 缓存挡全量重建"
+      },
+      {
+        "commit": "0152769f4e5cd0e841a7c318362a5324e5ff1933",
+        "author": "liurongjie",
+        "date": "2026-10-26 02:19:04",
+        "message": "fix 🐛: 启用库库名集合缓存脱离 scope 前缀防配置保存误清, 加单飞合并并发首查 DISTINCT"
+      },
+      {
+        "commit": "9c2e4ab8d216962ad5439a909142b19d772123fa",
+        "author": "liurongjie",
+        "date": "2026-10-26 01:38:10",
+        "message": "perf ⚡: 补 system_log trace/span trgm 索引与 torrent_info (task_id,filtered) 复合索引, 低频日志搜索与搜索任务统计回归毫秒级"
+      },
+      {
+        "commit": "a62b1d612c9fa2421e6c83d1b01745b11b6e5334",
+        "author": "liurongjie",
+        "date": "2026-10-26 01:03:58",
+        "message": "perf ⚡: scope库名集合/媒体库浏览/搜索任务统计加缓存, 修 playStats 缓存键永不命中, logs 搜索去 stacktrace 降 count cap"
+      },
+      {
+        "commit": "9292d89fde7136ad58761f54cf78502666443132",
+        "author": "liurongjie",
+        "date": "2026-10-26 00:04:51",
+        "message": "fix 🐛: IYUU/TR 辅种存量自愈, 被旧判定放弃的校验完成种子按辅种标签兜底扫描恢复做种"
+      },
+      {
+        "commit": "a4934f5a1aeb206640109fd1fc3452482b6f1faf",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:54:13",
+        "message": "fix 🐛: 补缺漏直接参数被 issueKey 必填校验拦截改 optional, 启动建 trgm 索引改 CONCURRENTLY 防锁写拖垮服务"
+      },
+      {
+        "commit": "86e30670fbbde8f31f1721f6a7213082c22aae1f",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:25:11",
+        "message": "perf ⚡: 观影统计修缓存键复用 scope 加 idleMedia 缓存，转存历史 total 缓存与 path 前缀索引"
+      },
+      {
+        "commit": "5602f34075b7da2de04bd8bcddedaae253357ab6",
+        "author": "liurongjie",
+        "date": "2026-10-25 23:05:45",
+        "message": "feat ✨: 补缺漏直接参数无 TMDB 时按标题年份解析补齐"
+      },
+      {
+        "commit": "a635885c80fa05a93cd7d8d5f4d18e97341dee08",
+        "author": "liurongjie",
+        "date": "2026-10-25 22:25:53",
+        "message": "feat ✨: 补缺漏接口支持直接参数形态与 issueKey 二选一, 供同步数据等非体检入口复用补漏决策链"
+      },
+      {
+        "commit": "c556b59dd57ca6b8b6c5d743a9cc99fe4755e2c8",
+        "author": "liurongjie",
+        "date": "2026-10-25 22:16:46",
+        "message": "perf ⚡: 同步项分页加类型游标与 missEps 部分索引，缺集筛选从秒级降到毫秒"
+      },
+      {
+        "commit": "a0fa3d482eea63467cecc4baa1788f93c7dfbf8a",
+        "author": "liurongjie",
+        "date": "2026-10-24 17:40:47",
+        "message": "fix 🐛: CD2 外部移动目录后事件任务列目录被父缓存负结果卡死致 strm 静默失败，RefreshDir not found 清父缓存重试，transferDir 失败落库可重试"
+      },
+      {
+        "commit": "592817e994279f0bbd0b7994524856542e99cfab",
+        "author": "liurongjie",
+        "date": "2026-10-24 14:41:38",
+        "message": "fix 🐛: TMDB 季详情 404 不再刷 error——season 0 特别篇多数剧不存在属预期，与集级 404 处理同口径静默返回"
+      },
+      {
+        "commit": "2281029d08d591f5003be1ce4125f15b2ea1cdd9",
+        "author": "liurongjie",
+        "date": "2026-10-24 13:16:50",
+        "message": "chore 🧹: 忽略 mediaproxy/.tmp 本地目录"
+      },
+      {
+        "commit": "7b37dd9f90ac352f22382a703a6c5bb0bd560b86",
+        "author": "liurongjie",
+        "date": "2026-10-24 13:16:50",
+        "message": "perf ⚡: 外部 PMS 库共享扫库限流——UA 识别扫库枚举走独立闸门（并发1+2s限速），不再与用户回源抢 PMS；扫库页跳过详情预取"
+      },
+      {
+        "commit": "ab07a5169a3fe13fd04273ffb2e8f45a9b6cafd9",
+        "author": "xylplm",
+        "date": "2026-10-24 11:14:40",
+        "message": "fix 🐛: 修复带认证的socks5代理连接失败，http与socks5代理现已支持用户名密码"
+      },
+      {
+        "commit": "4d9fb5425a1192571e18d4de4007d11c56db1391",
+        "author": "liurongjie",
+        "date": "2026-10-24 11:02:39",
+        "message": "fix 🐛: 目录同步失败集自动重推——长同步轮期间失败回调侧延迟重推补盲区（无锁+在途检查+去重+3次上限），修 5 集凌晨失败 6 小时无人接管"
+      },
+      {
+        "commit": "a67e9218a9138415dc9e0b4450c23110b7d0ef74",
+        "author": "liurongjie",
+        "date": "2026-10-24 10:41:38",
+        "message": "fix 🐛: 115 移动目录事件目录误入 Files 致 strm 报 not a file，未开目录树时改走 transferDir 展开，失败重试目录记录改 Dir 模式"
+      },
+      {
+        "commit": "ca08d3924d4ba6de5ec972d4c466a5f8b614e1c1",
+        "author": "liurongjie",
+        "date": "2026-10-24 09:41:07",
+        "message": "merge 🔀: review 补合并——mlist op.UpdateStorage 缓存失效修复（设置变更即失效+err 前移），记录文档补保留组件归属与 strm 表述修正"
+      },
+      {
+        "commit": "4dd8cded990e89965a073f7e23271f28cfc003cd",
+        "author": "liurongjie",
+        "date": "2026-10-24 09:26:14",
+        "message": "merge 🔀: 合并 OpenList/115driver 上游稳定性修复——115 上传 token 过期重试、光鸭秒传+分片进度、quark SHA1 摘要、189 时间解析、onedrive 锁序、strm 最小文件过滤、p115 错误/类型兼容"
+      },
+      {
+        "commit": "f854d94af69a1aca234b02f0fa598148b6133ca0",
+        "author": "liurongjie",
+        "date": "2026-10-24 09:12:17",
+        "message": "fix 🐛: review 修正——选轨测试 serverName 维度统一为写入侧 plex-test 并修 Redis 键格式断言，normalize cap 注释同步 TTL 分级口径"
+      },
+      {
+        "commit": "2da276f6a8869792ae78a39e7ffede773282a46b",
+        "author": "liurongjie",
+        "date": "2026-10-24 08:20:48",
+        "message": "chore 🧹: 移除误提交的空文件 mediaproxy/.tmp"
+      },
+      {
+        "commit": "61b2e5a05d7dcefb1592a6e905af0218b3265b24",
+        "author": "liurongjie",
+        "date": "2026-10-24 08:20:19",
+        "message": "perf ⚡: mediaproxy 三项治理——body 缓存 Redis TTL 分级 10d→2h/6h/24h 退水位，选轨记忆键补实例维度防双实例串轨，详情预取 10→3（回证实证命中率≈0）"
+      },
+      {
+        "commit": "31f1b62f993f1c1d5123a4941d8292992ca54b4a",
+        "author": "liurongjie",
+        "date": "2026-10-24 03:40:47",
+        "message": "fix 🐛: 消日志误报——整理删目录后改刷父目录避免 CD2 刷已删路径报错，MQ 消费错误去重，日志落库加 error 级保留通道防风暴挤丢"
+      },
+      {
+        "commit": "7c76ada4f8f3d7a28d90c2b809dea8eb654bd93a",
+        "author": "liurongjie",
+        "date": "2026-10-24 03:12:11",
+        "message": "fix 🐛: 搜索优化二轮 review 修正——并发装配补 recover 防 panic 崩进程，OR 条件显式括号，页码超界补 count"
+      },
+      {
+        "commit": "6bb3e5d3ea91dfe889567358e6905368e7ce0bb0",
+        "author": "liurongjie",
+        "date": "2026-10-24 01:30:28",
+        "message": "perf ⚡: hubs 预热首轮等任务池恢复完成再启动，加轮级失败熔断——避开重启恢复写风暴窗口白烧 PMS"
+      },
+      {
+        "commit": "98057fcfccfad7d4ec2b5f81aceb52e4af2b5e7d",
+        "author": "liurongjie",
+        "date": "2026-10-24 01:14:55",
+        "message": "perf ⚡: 云端任务列表查询优化——count+find 合并单遍扫描（窗口计数），关键词编码变体去重，TMDB 装配改有界并发并随请求取消止损"
+      },
+      {
+        "commit": "f446f11f9f4175e73ae3ad6630e332ceabbe5475",
+        "author": "liurongjie",
+        "date": "2026-10-24 00:51:57",
+        "message": "fix 🐛: IYUU 辅种 TR 校验成功不自动做种——就绪判定恢复 CanSeed 并兜底 IsSeeding，重辅种时清旧重试计数"
+      },
+      {
+        "commit": "e81b2edd7d579d01e09b5553cf8a9c8cd5d59290",
+        "author": "liurongjie",
+        "date": "2026-10-23 23:39:48",
+        "message": "fix 🐛: Plex strm 条目限速重协商保持直链，不再落入必败假 HLS 转码"
+      },
+      {
+        "commit": "92f62d41b4957675bdda786dff8cf8974619da45",
+        "author": "liurongjie",
+        "date": "2026-10-23 23:39:48",
+        "message": "fix 🐛: 云目录同步多开分身开关互相影响——实例归属按源+目标子树精确匹配拒../越界，取消在途任务加目标过滤"
+      },
+      {
+        "commit": "3c7509fc61989135e2ab779c69936eb828965678",
+        "author": "xylplm",
+        "date": "2026-10-23 21:17:03",
+        "message": "feat ✨: 目录同步新增自动上报Hash开关，可关闭云资源上报与贡献奖励"
+      },
+      {
+        "commit": "7e6b2d5545e0efcb12e49e02999b42be4a27cfc6",
+        "author": "xylplm",
+        "date": "2026-10-23 13:37:06",
+        "message": "docs 📚: 补充 AGENTS.md 协作规范与 .kiro/steering，仓库独立开发也能正确约束 AI"
+      },
+      {
+        "commit": "666928de60c0176ed0bc9173e0d81f19521dae67",
+        "author": "xylplm",
+        "date": "2026-10-22 18:09:13",
+        "message": "feat ✨: 云资源治理配套——手动拉黑可选违禁/死链类型，新增云端资源管理与举报审核的运维接口代理，支持用户提交资源举报，屏蔽词词库保存即时生效"
+      },
+      {
+        "commit": "7fcc3d9d7db046317f56aa8341ba8a09179a8110",
+        "author": "liurongjie",
+        "date": "2026-10-22 16:20:23",
+        "message": "fix 🐛: Plex strm 协商改走 part 直链（假 HLS 网页必败），转码分片日志降噪"
+      },
+      {
+        "commit": "9a8421eb91982b3d42ef9d4cb8ecb5c1cfcfe56d",
+        "author": "xylplm",
+        "date": "2026-10-21 20:23:32",
+        "message": "fix 🐛: 修复 Jellyfin 12 最新入库为空的问题——新版服务器返回的媒体库地址不再是真实媒体目录导致范围过滤失效，改为读取库定义的真实路径；同时过滤无路径的季条目避免挤占列表"
+      },
+      {
+        "commit": "7990c2a45f2c199cf168e93e33a9993a50170980",
+        "author": "xylplm",
+        "date": "2026-10-21 20:23:20",
+        "message": "fix 🐛: 修复 strm 剧集在 Jellyfin 上无法播放的问题——改为由本服务按播放端身份预解析网盘直链给播放器直连（与极影视同链路），并修复 strm 链接生成时路径含空格未编码的隐患"
+      },
+      {
+        "commit": "32e312250ca48970c4a6aa043eb26239ee61809b",
+        "author": "xylplm",
+        "date": "2026-10-21 15:25:44",
+        "message": "fix 🐛: 修复 Jellyfin 12 下从剧集/季条目浏览与播放的问题——季集浏览支持无库 id 短路径并自动归一到剧集，媒体库归属改走祖先接口适配 12 新版目录结构，播放协商自动从季/剧集定位到首个未播集，直链与进度上报统一使用实际播放的集 id；同时客户端缓存按服务器密钥隔离，避免服务器重装后读到旧数据"
+      },
+      {
+        "commit": "95c56603ab0a7d24d76a775a9e44bf900edd56c6",
+        "author": "xylplm",
+        "date": "2026-10-21 10:14:03",
+        "message": "fix 🐛: 修复媒体服务器缓存失效不及时的问题——保存或删除媒体服务器时自动清空其请求缓存，缓存维护新增「清空媒体服务器缓存」；同步数据删除时同步清除统计快照，避免统计接口显示已删数据"
+      },
+      {
+        "commit": "50198e27b316bf048b768dab51633888003d5b70",
+        "author": "xylplm",
+        "date": "2026-10-21 10:13:55",
+        "message": "feat ✨: 全新适配 Jellyfin 12——新增 Jellyfin(12+) 服务器类型，使用官方新版鉴权与接口规范；老版本 Jellyfin 服务器请继续使用「Jellyfin(旧版)」类型，升级到 12 的用户新建或切换到新类型即可"
+      },
+      {
+        "commit": "d8bf55effce44d4d5a9b938e9ae9655974ebd942",
+        "author": "xylplm",
+        "date": "2026-10-20 19:27:21",
+        "message": "refactor 🔁: Jellyfin 适配更名为「Jellyfin(旧版)」——媒体服务器类型与提示文案同步改名，为接下来适配全新的 Jellyfin 12 铺路；现有 10.x 服务器无需任何操作，功能完全不变"
+      },
+      {
+        "commit": "fb8d0fc0a940959e1c10d71c0c43a6f172db2e99",
+        "author": "liurongjie",
+        "date": "2026-10-21 15:16:59",
+        "message": "fix 🐛: 云下载任务关键词搜索兼容中文百分号编码"
+      },
+      {
+        "commit": "a90e87dfaeb6ea2fc099f07fa27a04d83cdd769e",
+        "author": "liurongjie",
+        "date": "2026-10-21 11:59:08",
+        "message": "feat ✨: 复制逐条通知与上报去重，上报关闭时补发成功通知"
+      },
+      {
+        "commit": "04b2aa514dc9d8cefb116d7b1d692ceeb932463f",
+        "author": "liurongjie",
+        "date": "2026-10-21 11:39:16",
+        "message": "feat ✨: 云存储任务列表支持关键词和状态筛选"
+      },
+      {
+        "commit": "f6f01a427b45400b4703baf6d1b644a8a11def13",
+        "author": "liurongjie",
+        "date": "2026-10-21 10:22:07",
+        "message": "fix 🐛: 云上报成功通知简介按单集取，回退剧简介"
+      },
+      {
+        "commit": "e91903ad491333761199e47d3f882b985434be66",
+        "author": "xylplm",
+        "date": "2026-10-20 13:41:45",
+        "message": "feat ✨: 订阅过滤规则支持按分类自动匹配——一/二级目录分类可绑定订阅过滤规则，订阅未指定规则时自动按内容分类套用（二级优先→一级回落→默认配置兜底），绑定或兜底规则被删时自动降级并在过滤原因中标注真实来源；新增判定链单元测试"
+      },
+      {
+        "commit": "6f3dc8763915f2170ca35c9a64bddd049597f4e7",
+        "author": "liurongjie",
+        "date": "2026-10-14 23:32:29",
+        "message": "fix 🐛: 重试失败项去掉条数上限，改后台异步并按复制任务池去重"
+      },
+      {
+        "commit": "4bc0ecaeb4bcdb6902a9bf5be225a7a873222967",
+        "author": "GateCross",
+        "date": "2026-10-14 22:45:58",
+        "message": "fix: 调整云资源静默缓冲期为24小时"
+      },
+      {
+        "commit": "2dc87c20b45a24f5d491a3d889da5ec4e603e9f7",
+        "author": "liurongjie",
+        "date": "2026-10-14 19:53:45",
+        "message": "fix 🐛: 云目录同步保存不再连坐取消在途任务，失败重推查存活，终态任务行纳入保留期清理"
+      },
+      {
+        "commit": "8026527a4491e99cce724d49d61b3be72e0a9303",
+        "author": "GateCross",
+        "date": "2026-10-14 17:08:06",
+        "message": "feat ✨: 新增云下载失败向云端上报及新发布云资源静默期标记"
+      },
+      {
+        "commit": "e37a4bebfa657bd6b7c2381b55f9506cd3799994",
+        "author": "liurongjie",
+        "date": "2026-10-13 23:57:42",
+        "message": "fix 🐛: hubs 预热键保持请求原大小写，回源失败可见并冷却、预算收到 20s"
+      },
+      {
+        "commit": "3975acdf2ff26b35e5fca9d676fb26fd706ba274",
+        "author": "liurongjie",
+        "date": "2026-10-13 16:49:28",
+        "message": "fix 🐛: 云目录同步上报去重键改用 | 分隔，避免 NUL 打碎日志落库报文"
+      },
+      {
+        "commit": "6eaf9228a4e201d8c0a13b760a45b8f9211f88cb",
+        "author": "liurongjie",
+        "date": "2026-10-13 14:06:44",
+        "message": "feat ✨: 云目录同步增加同步后上报开关，默认开启"
+      },
+      {
+        "commit": "0408539b48941a04d1b2d0143a5ab7ea5598a7ba",
+        "author": "GateCross",
+        "date": "2026-10-13 11:27:52",
+        "message": "fix 🐛: 订阅回退后补一轮站点搜索，窗口内暂停云端搜索避免坏资源抢先销集"
+      },
+      {
+        "commit": "dd77c495bd80894e29590d91bccfafb128f4a14e",
+        "author": "liurongjie",
+        "date": "2026-10-13 00:25:03",
+        "message": "feat ✨: 云目录同步支持补上报历史，后台入队并按目标去重"
+      },
+      {
+        "commit": "a23a0154da5bc719496f850e6bb2cb605894cbf4",
+        "author": "liurongjie",
+        "date": "2026-10-13 00:09:36",
+        "message": "fix 🐛: 已入库匹配排除未启用媒体库"
+      },
+      {
+        "commit": "1c76ecd057bfc5b3feb62da7b57f819f048490ce",
+        "author": "liurongjie",
+        "date": "2026-10-12 23:28:05",
+        "message": "feat ✨: 媒体库报告改为图文通知并配专属封面"
+      },
+      {
+        "commit": "3d6b1c22b83b3d5739e9e6a9020dff111c8ee868",
+        "author": "liurongjie",
+        "date": "2026-10-11 23:35:08",
+        "message": "fix 🐛: 图片代理内网地址绕过全局代理直连——修复 Emby 通知封面被代理拒 503 不显示"
+      },
+      {
+        "commit": "14a546638af1dfffb316cc8c56fd7b7ee1521096",
+        "author": "liurongjie",
+        "date": "2026-10-11 23:12:42",
+        "message": "feat ✨: 云目录同步复制后上报云资源哈希——上报支持远端挂载源区段采样,目标限 115/123"
+      },
+      {
+        "commit": "5c389e630cfe8f288e0e0ee02511a65f8d150f5b",
+        "author": "GateCross",
+        "date": "2026-10-11 22:10:22",
+        "message": "feat: 哈希上报按文件采样指纹复用下载种子的剧集/电影描述——自带文案或标签时落库，未带时按指纹补齐，替代按目录反查避免串种子描述"
+      },
+      {
+        "commit": "b3735a9fc0d45a501624eec44178367863498c9f",
+        "author": "liurongjie",
+        "date": "2026-10-11 22:00:12",
+        "message": "feat ✨: Plex 身份解析成败观测日志——失败按 tokenFp 节流,原因区分 401 与网络错误"
+      },
+      {
+        "commit": "f1e13897d61e55ac7641de4e7c09d168e1b97504",
+        "author": "GateCross",
+        "date": "2026-10-11 21:43:41",
+        "message": "feat: 授权失败时补充探测公网连通性诊断日志"
+      },
+      {
+        "commit": "6b09375a20664583b7dab720a8ee9ef094377833",
+        "author": "liurongjie",
+        "date": "2026-10-11 16:14:22",
+        "message": "feat ✨: 媒体代理 redis 水位熔断+告警——超线自动停写回落恢复,防缓存堆积拖垮宿主"
+      },
+      {
+        "commit": "9defe8e018b5f2429dc41f308ecfc9b88f7a68d2",
+        "author": "liurongjie",
+        "date": "2026-10-11 15:01:41",
+        "message": "docs 📝: 媒体路径映射说明优化——明确左边为媒体服内部路径、右边为 MS 侧路径及双向用途"
+      },
+      {
+        "commit": "186a80d4c403ffd1fd951a71c7460b5c9f24d686",
+        "author": "liurongjie",
+        "date": "2026-10-11 12:05:25",
+        "message": "perf ⚡: 身份映射 redis TTL 24h→10d——与 body 缓存同寿命,重启后 peek 即恢复不再依赖 plex.tv 重解析"
+      },
+      {
+        "commit": "4a9065d4a5aedbd9cb6ed313d858e45b0dd5c625",
+        "author": "liurongjie",
+        "date": "2026-10-11 10:35:35",
+        "message": "fix 🐛: 身份解析内存有值时回写 redis + plex.tv 超时 2s→5s——堵 redis user 桶长期缺失导致回源只进内存"
+      },
+      {
+        "commit": "3faae4df47592f131d1c5520ac63659976eea438",
+        "author": "liurongjie",
+        "date": "2026-10-11 10:15:53",
+        "message": "perf ⚡: 身份映射缓存 TTL 1h→24h——缩小 UserSeg 空窗导致回源只进内存的隔夜冷 miss 放大"
+      },
+      {
+        "commit": "7783fc24b12badfdecef3a90fcaa2b5386b5132b",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:23:38",
+        "message": "fix 🐛: 补提交 goctl 生成的 handler/logic 骨架——上批删除手写版后漏 add 致 CI 编译失败；两个兼容形态路由 logic 委托现有实现防空壳"
+      },
+      {
+        "commit": "eda4bb37b60d4089ca7829893929b61839b5cff5",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:15:49",
+        "message": "docs 📝: AGENTS.md 补充 commit 规范"
+      },
+      {
+        "commit": "6bf2148a8a63c8708786eef6dc0d2136b588514a",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:15:23",
+        "message": "feat ✨: 编辑媒体服务器加手动清理代理缓存入口(Plex)；恢复 goctl 生成链——迁移手改进 types/routes 的播放代理类型与 browse/item 等路由进 api 定义"
+      },
+      {
+        "commit": "fccf924a225a71cdd56c46391c8ce7bd4b03cccb",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:14:57",
+        "message": "perf ⚡: TTLLRUStore 全表过期清理按 TTL 分档节流，高频写路径不再每次 Store 全扫"
+      },
+      {
+        "commit": "9951f9cd011476d34de721d83b3f06b1bc0ce38e",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:14:40",
+        "message": "perf ⚡: strm 解析结果加 redis 二级缓存(7天,跨重启免冷解析)；part 键命中校验 file 指纹防 PMS 重扫旧值"
+      },
+      {
+        "commit": "ee0b14ef0dbda976114695706f4ab82bf891f644",
+        "author": "liurongjie",
+        "date": "2026-10-11 01:13:46",
+        "message": "fix 🐛: strm 下载 301 主页后 token 丢失致 401——实测 header token 一票裁决，剥客户端 token 头、相对重定向补 token、part 失效联动清 pathCache/strmCache/metadata 自愈"
+      },
+      {
+        "commit": "62636958aac3a0ce03b15d98734484c7daf75955",
+        "author": "liurongjie",
+        "date": "2026-10-08 01:26:02",
+        "message": "Revert \"perf ⚡: 云存储任务恢复期跳过原样回写——FindAllByKey 缓存供 FindOne/Save 短路，避免数万 pending 启动打满 PG\""
+      },
+      {
+        "commit": "6009f0cf2ab87e9964d2bb353a47845857900360",
+        "author": "liurongjie",
+        "date": "2026-10-08 00:43:37",
+        "message": "perf ⚡: 云存储任务恢复期跳过原样回写——FindAllByKey 缓存供 FindOne/Save 短路，避免数万 pending 启动打满 PG"
+      },
+      {
+        "commit": "d9ba888a621544304b67d33196a00a88423cb815",
+        "author": "liurongjie",
+        "date": "2026-10-08 00:20:27",
+        "message": "fix 🐛: Plex 季集入参为季时按集短路、播放 startOver 与续播选集修正"
+      },
+      {
+        "commit": "72c4c43047c8ed6fd183011f8df9da7a569a5b63",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:55:29",
+        "message": "feat ✨: Plex 剧集/季卡片直接播放自动解析到待播单集——从头播放取第一集、续播取首个未看完的集，进度上报按会话记录的单集 id 落到正确条目，不再弹「从季集列表选单集」引导"
+      },
+      {
+        "commit": "e485de0d78552e785cc84830621edb82497433e3",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:52:16",
+        "message": "fix 🐛: Plex 季集接口对叶子条目 children 400 按空季处理——单集详情弹窗误拉季集时 PMS 返回 400 而非 404，原容忍没兜住仍弹错误提示"
+      },
+      {
+        "commit": "55af663f40cf32ef20f04e495690e3d0f035fe66",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:45:18",
+        "message": "perf ⚡: 云存储任务落库按任务合并写——tache 回调每次整行落库，批量 copy 任务高频进度回调把机械盘 fsync 打满（实测 136 任务 30+ 并发提交、API 查询拖到 20-60s、启动期尤甚）；状态未变化的连续写按 10s 窗口合并为一次尾写，状态变化仍立即落库，删除时作废缓冲防复活"
+      },
+      {
+        "commit": "832377a264cd66de7c3b0c9ceb9a9ffee830c89b",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:12:22",
+        "message": "fix 🐛: Plex 转码客户端标识改为按 UA 派生稳定值——PMS 对转码条目按客户端独占，逐次新标识导致降级/重试连环 400（年轻的嫂子3 播放失败根因）"
+      },
+      {
+        "commit": "28108319e686e837510b80f6d2e8d6c141deeb40",
+        "author": "liurongjie",
+        "date": "2026-10-07 23:03:13",
+        "message": "fix 🐛: 回归实测揪出 hub 条目 id 形态问题——最近入库/正在播放把 /library/metadata/{id} 路径形态的 Key 当 ratingKey 下发，传进播放协商/详情/时间线会拼出双重路径 404（最近入库卡片点播放必挂）：recentlyAdded 映射改用 ratingKey（Key 兜底归一）、Playing 的 Id 改 ratingKey（Link 仍用 Key，web 页两种形态都收）；PlaybackInfo/PlayStreamUrl/ReportProgress/ItemDetail 入口统一 plexNormalizeRatingKey 容错归一，防其它来源的 Key 形态 id；Seasons 对单集 id 的 children 404 按空季返回（续播集卡片打开详情被前端按剧集误拉季集，对齐 Emby 宽松行为，不再刷 error 日志）"
+      },
+      {
+        "commit": "5c7fa3e1d2db93506be282e0d1ef7b4ca7fa7765",
+        "author": "liurongjie",
+        "date": "2026-10-07 22:33:56",
+        "message": "feat ✨: 媒体库播放链路补齐 Plex 支持——PlaybackProvider 落地 plex_playback.go：直连按容器粗判（mp4/m4v/mov/webm/ogg+常见音频走 /library/parts 规范 key 直链带 token，mkv 等浏览器解不开的容器协商阶段直接选通用转码 HLS，起播位置烘进 offset 防播放器二次 seek，限速重协商同走转码）；进度走 /:/timeline（毫秒，转码会话的播放器时间轴相对转码起点、上报按会话缓存 offset 还原绝对位置，直连会话 offset 恒 0 防二次累加，start 零位置用起播位兜底防清零续播记忆，收尾≥90% 补 scrobble 落已看状态）；会话/条目 part 状态挂包级缓存跨请求存活（适配器按请求构建，与 plexMachineIdByHost 同因），stop 即清并兜 12h 陈旧清理；剧集/季条目无文件可播返回可读引导选单集。ItemDetail 从空壳转正：浏览入口（只带 id）拉最新元数据补全简介/评分/类型/片长/封面/背景图，同步入口（列表富字段+Etag）零请求透传不回退同步性能；Items 列表随带 SectionsAll 已有的简介/评分/Genre/时长/封面/背景图，Seasons 集条目补简介/时长/缩略图/链接，GetPrimaryImageUrl 落地 /library/metadata/{id}/thumb；api 层新增 timeline.go（Timeline+Scrobble），解码结构补 viewOffset/originalTitle/viewCount/duration；播放不支持错误文案与注释同步更新"
+      },
+      {
+        "commit": "70d040bea8349258f90d21550e92c7b847352b2e",
+        "author": "xylplm",
+        "date": "2026-10-07 17:06:18",
+        "message": "feat ✨: 极影视条目详情补齐元数据"
+      },
+      {
+        "commit": "bfc9cd2652426a4908b34e229d435a26f0a6723d",
+        "author": "xylplm",
+        "date": "2026-10-07 16:47:17",
+        "message": "fix 🐛: 播放协商的自定义请求头加入跨域白名单"
+      },
+      {
+        "commit": "0d2e95dd6e0342bfe28b040513a050f430891bc6",
+        "author": "xylplm",
+        "date": "2026-10-07 00:36:56",
+        "message": "feat ✨: 播放直链按客户端 UA 签发，修复极影视网页端 403"
+      },
+      {
+        "commit": "63f732748fbd918268d1928995bcedd2be8c37ea",
+        "author": "xylplm",
+        "date": "2026-10-06 22:13:48",
+        "message": "feat ✨: 播放链路修复与媒体库详情富信息——修复 Emby/Jellyfin 转码地址取错位置（在 MediaSources 内而非顶层，修复后直连失败自动降级转码可用）、极影视进度上报按秒换算（原来误传 ticks 导致服务端记忆异常）；新增单条目详情接口（browse/item，返回简介/评分/类型/片长/封面/背景图）；季集接口每集补充标题/简介/时长/缩略图/播放定位 id（极影视为合集|集复合形态）；条目列表与详情补全封面/背景图/简介/评分/类型/片长（极影视封面原来恒为空导致 App 列表无图，直接取列表自带的合集封面零额外请求）；Emby 最近入库/继续观看补充库 id；Emby/Jellyfin 季集拉取携带集缩略图与时长"
+      },
+      {
+        "commit": "68b72d95e2a32eac72bce16b0c02a1382049c59e",
+        "author": "xylplm",
+        "date": "2026-10-06 11:06:04",
+        "message": "feat ✨: 极影视 strm 播放加 302 预解析（Swift 同款 Range: bytes=0-0 探测）——/transcode/play 对 strm 返回的地址在协商阶段就跟随 302 拿到最终网盘直链下发给播放器，播放器零重定向直连网盘服务器，NAS 仅承担一次 302 握手零媒体流带宽；探测 UA 与播放器全局 UA 一致（MediaSaber/1.0）保证探测通过即播放可用；探测失败回落原地址由播放器自行跟随；本地文件（非 strm）的相对地址补拼服务 Host 走服务流"
+      },
+      {
+        "commit": "fca93fd29e13f4960847baa3a7529f699179f14d",
+        "author": "xylplm",
+        "date": "2026-10-06 10:57:32",
+        "message": "feat ✨: 极影视（zspace）接入直连播放——从极影视网页播放器逆向确认播放 API：/transcode/play（file_path 取流，strm 返回直链，响应含 duration/start_time 服务端续播记忆）、/zvideo/video/updateplaytime（进度上报，10s 间隔，collection/classification/video 三 id 定位）；zSpace 实现 PlaybackProvider 与 ZspaceProgressReporter：合集内按 video_id 定位单集（电影取首个文件）、协商返回播放地址与服务端续播位置、进度上报带合集上下文；请求透传 libraryId/classificationId/videoId，加密路径（encrypted_path）暂不支持并给出可读错误"
+      },
+      {
+        "commit": "b5f89f5527b283c105a6c1a5f4e346600f81060d",
+        "author": "xylplm",
+        "date": "2026-10-05 23:05:38",
+        "message": "feat ✨: 新增媒体服务器直连播放代理三接口——播放协商(:id/playbackInfo，服务端读取续播记忆并按码率过滤候选)、直链构造(:id/playUrl，带 api_key 的原流地址，客户端零请求头依赖)、会话上报(:id/report，start/progress/stop 透传)；Emby/Jellyfin 以 PlaybackProvider 能力接口实现（Jellyfin API 与 Emby 同构），Plex 协议不同暂未接入并给出可读错误；控制面走后端代理、数据面由播放器直连媒体服务器拉流，服务端零带宽消耗"
+      },
+      {
+        "commit": "bd8204f0237fd7816d208f6efda068bf027d89db",
+        "author": "liurongjie",
+        "date": "2026-10-06 23:32:26",
+        "message": "fix 🐛: 云下载失败通知补齐资源名、订阅名、失败原因"
+      }
+    ]
+  },
+  {
     "version": "3.0_202610051928",
     "items": [
       {
