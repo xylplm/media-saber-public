@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611032039",
+    "items": [
+      {
+        "commit": "2a71cfafa049b33a7a79e9d0afd755ba563be4e6",
+        "author": "xylplm",
+        "date": "2026-11-03 10:37:35",
+        "message": "feat ✨: 恢复代码登录补安全提醒与审计, 失败原因细分, API Key 认证失败纳入防护与封禁拦截已认证请求"
+      },
+      {
+        "commit": "5e49a975cfed4a8639d1f51f8d91a3917b2b6d3e",
+        "author": "xylplm",
+        "date": "2026-11-03 08:02:59",
+        "message": "feat ✨: 新增登录两步验证, 安全等级预设收紧并支持永久封禁"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611021142",
     "items": [
       {
@@ -185,17 +202,6 @@
         "author": "xylplm",
         "date": "2026-10-24 15:45:54",
         "message": "feat ✨: 订阅支持暂停与恢复——临时不想追可暂停不必取消，运行中订阅也能暂停后修改，恢复自动补搜一次"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610260246",
-    "items": [
-      {
-        "commit": "ba71cc94ea6be49bf878453f850fbc890f4cf5a3",
-        "author": "liurongjie",
-        "date": "2026-10-26 02:45:50",
-        "message": "perf ⚡: idleMedia 缓存与分页解耦拉长到10分钟, mediaHealth 页面加 60s 缓存挡全量重建"
       }
     ]
   }
