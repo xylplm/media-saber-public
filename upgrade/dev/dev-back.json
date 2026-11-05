@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611051741",
+    "items": [
+      {
+        "commit": "b5e54b83be24cf1a207d97633e84357f3f142751",
+        "author": "xylplm",
+        "date": "2026-11-05 17:22:00",
+        "message": "fix 🐛: ffprobe 下载失败报错带内容预览定位根因,支持环境变量自定义下载源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611051544",
     "items": [
       {
@@ -191,23 +202,6 @@
         "author": "xylplm",
         "date": "2026-10-28 13:18:10",
         "message": "fix 🐛: 修复一键对齐默认设置批量转换多字段时执行报错失败, 批量编辑多字段恢复跟随同因"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610280006",
-    "items": [
-      {
-        "commit": "b594dbe0e502d632742e21ad4ce3a6f4cc9355b2",
-        "author": "liurongjie",
-        "date": "2026-10-28 00:02:41",
-        "message": "feat ✨: 手动搜索过滤规则支持跟随目录分类绑定规则, 未命中分类不过滤, bot链路去冗余二次过滤"
-      },
-      {
-        "commit": "66a4bac73e8da69f2d2d33962eaf7ffcef3fcacb",
-        "author": "xylplm",
-        "date": "2026-10-27 13:15:37",
-        "message": "feat ✨: 云端资源列表支持按大小和发布时间排序"
       }
     ]
   }
