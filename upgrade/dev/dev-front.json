@@ -1,5 +1,70 @@
 [
   {
+    "version": "DEV_202611051544",
+    "items": [
+      {
+        "commit": "25f51daf7e44d0c02ecf9e68effa205ebabe636f",
+        "author": "xylplm",
+        "date": "2026-11-05 15:17:06",
+        "message": "feat ✨: 云资源筛选升级为语言与HDR多选,列表显示中字标签"
+      },
+      {
+        "commit": "cabec8e341040ca4c3972fff839f9614947bfa3a",
+        "author": "xylplm",
+        "date": "2026-11-05 13:36:55",
+        "message": "fix 🐛: 补正云资源搜索白名单构造上次未落盘的遗漏"
+      },
+      {
+        "commit": "51d7b6a7db07ef67c9d8cb0d62b45f77de577b35",
+        "author": "xylplm",
+        "date": "2026-11-05 13:11:47",
+        "message": "fix 🐛: 云资源搜索停止透传表单原值,中文筛选关闭不再误传 false 导致结果全空"
+      },
+      {
+        "commit": "758b613dd8d01977f1f12304227f7833bf7f9017",
+        "author": "xylplm",
+        "date": "2026-11-05 12:55:23",
+        "message": "feat ✨: 云资源媒体筛选空结果时提示存量资源暂无规格数据"
+      },
+      {
+        "commit": "051e9083f0cc43449eee8037715f7a1963f9cfb4",
+        "author": "xylplm",
+        "date": "2026-11-05 11:20:47",
+        "message": "feat ✨: 手动上传改为手动安装模态框,按步骤引导复制下载地址与上传安装包"
+      },
+      {
+        "commit": "40f879c5ae08ce2e899b44a9b6c008e2225a7f4c",
+        "author": "xylplm",
+        "date": "2026-11-05 10:57:49",
+        "message": "fix 🐛: ffprobe 卡片信息精简,已装态收为一行,下载地址与缓存包移入手动上传展开区"
+      },
+      {
+        "commit": "2f205522dc98490c43c0368a56abe5c05bf29fb0",
+        "author": "xylplm",
+        "date": "2026-11-05 10:36:33",
+        "message": "fix 🐛: ffprobe 卡片请求屏蔽全局 loading,卡片移至服务配置顶部"
+      },
+      {
+        "commit": "bd5725dc8412ab05718e9464cc6b6e8481de1ce2",
+        "author": "xylplm",
+        "date": "2026-11-05 10:25:50",
+        "message": "fix 🐛: 首页体检卡改为后台体检加轮询,刷新页面不再出现尚未体检假象"
+      },
+      {
+        "commit": "20f883e2e29f0e3def7a7ed3330052876781a97b",
+        "author": "xylplm",
+        "date": "2026-11-05 09:37:35",
+        "message": "feat ✨: 云端资源新增规格筛选与详情弹窗,设置页新增 ffprobe 探测组件卡片,首页新增体检摘要卡"
+      },
+      {
+        "commit": "db759821e5d9622a69a44b9a55a310d8df50f6fd",
+        "author": "xylplm",
+        "date": "2026-11-04 07:59:01",
+        "message": "feat ✨: 新增订阅默认自定义开关接入,包含排除历史值输入建议与空态提示"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611032039",
     "items": [
       {
@@ -221,17 +286,6 @@
         "author": "xylplm",
         "date": "2026-10-24 15:46:25",
         "message": "feat ✨: 订阅支持暂停与恢复——新增已暂停状态与「暂停并编辑」，修复快速操作时列表偶发不刷新"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610252306",
-    "items": [
-      {
-        "commit": "f5921c20f727d381ed4c2cbcb34a948b694b0076",
-        "author": "liurongjie",
-        "date": "2026-10-25 23:05:49",
-        "message": "fix 🐛: 补缺漏按钮放宽为有缺集即可, 无 TMDB 由后端解析"
       }
     ]
   }
