@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611051755",
+    "items": [
+      {
+        "commit": "e7753adbc9564a25300b899105db6a31ae3a0ac8",
+        "author": "xylplm",
+        "date": "2026-11-05 17:53:34",
+        "message": "feat ✨: ffprobe 下载源国内镜像优先,npmmirror BtbN 构建镜像自动回退官方源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611051741",
     "items": [
       {
@@ -191,17 +202,6 @@
         "author": "xylplm",
         "date": "2026-10-28 16:37:42",
         "message": "feat ✨: MCP 服务连接地址由 /message 调整为 /mcp/http, 升级后旧客户端地址需同步修改"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610281319",
-    "items": [
-      {
-        "commit": "d41d7c5ff816e997bc744c67f8ca73e4383a6f41",
-        "author": "xylplm",
-        "date": "2026-10-28 13:18:10",
-        "message": "fix 🐛: 修复一键对齐默认设置批量转换多字段时执行报错失败, 批量编辑多字段恢复跟随同因"
       }
     ]
   }
