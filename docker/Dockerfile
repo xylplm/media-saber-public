@@ -36,9 +36,9 @@ ENV MS_PORT="8888" \
 
 WORKDIR /app
 
-# 内置 ffprobe 静态副本（glibc/musl 通吃）：容器开箱即用，免去首启联网下载（跑在
-# GitHub Actions 构建机上直连源站无碍）；独立部署的网络下载/手动上传链路保留为兜底。
-# 后端解析链：显式配置 → PATH → 托管副本(卷) → /app/bundled 内置 → 网络下载。
+# 内置 ffprobe 静态副本（glibc/musl 通吃）：容器开箱即用（跑在 GitHub Actions 构建
+# 机上直连源站无碍）。后端只检测不安装，解析链：显式配置 → PATH → 托管副本(卷) →
+# /app/bundled 内置。
 ARG TARGETARCH=amd64
 RUN set -ex \
     && apk add --no-cache xz ca-certificates wget \
