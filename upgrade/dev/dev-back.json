@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611061215",
+    "items": [
+      {
+        "commit": "0c991d5b314cdbb74845f8b3746ff62d70a72547",
+        "author": "xylplm",
+        "date": "2026-11-06 12:12:04",
+        "message": "feat ✨: ffprobe 镜像内置开箱即用,代理被拦自动直连重试,linux 下载源仅保留静态构建"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611051815",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-10-31 13:58:19",
         "message": "fix 🐛: 日志组件零值回落不再崩溃,缺本地种子的测试自动跳过"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610310136",
-    "items": [
-      {
-        "commit": "c4887008210d6956a46ea9542db62599ac114ec0",
-        "author": "liurongjie",
-        "date": "2026-10-31 01:34:06",
-        "message": "fix 🐛: 云端hash上报unchanged校验远端size未变时mtime漂移放行防误判重试风暴, 错误消息补文件路径与size/mtime新旧值"
       }
     ]
   }
