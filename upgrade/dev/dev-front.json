@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611070328",
+    "items": [
+      {
+        "commit": "2f880ff02c63019b9297c1a5e6f432eee4061391",
+        "author": "liurongjie",
+        "date": "2026-11-06 23:37:24",
+        "message": "ui 🎨: 插件配置弹窗底部工具栏上内边距统一压缩为10px"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611061540",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "xylplm",
         "date": "2026-10-30 09:34:51",
         "message": "ui 🎨: 登录方式页扫码登录卡片移至 OIDC 前"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610300910",
-    "items": [
-      {
-        "commit": "c02bf167a9f9a6588df79eff93e8e9372801bd1c",
-        "author": "xylplm",
-        "date": "2026-10-30 00:02:06",
-        "message": "feat ✨: 安全中心审计/拦截名单/凭据治理三页改为卡片列表, 手机到4K全尺寸响应式统一体验"
       }
     ]
   }
