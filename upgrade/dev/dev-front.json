@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611061540",
+    "items": [
+      {
+        "commit": "183c1ab5c327dc11372a34e8188a817a563d6765",
+        "author": "xylplm",
+        "date": "2026-11-06 15:36:39",
+        "message": "refactor 🔁: ffprobe 卡片精简为状态检测"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611061106",
     "items": [
       {
@@ -167,47 +178,6 @@
         "author": "xylplm",
         "date": "2026-10-30 00:02:06",
         "message": "feat ✨: 安全中心审计/拦截名单/凭据治理三页改为卡片列表, 手机到4K全尺寸响应式统一体验"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610292241",
-    "items": [
-      {
-        "commit": "da701c39aabdc2398534d5f81cf719515ce25816",
-        "author": "xylplm",
-        "date": "2026-10-29 22:35:18",
-        "message": "feat ✨: 登录页记忆扫码模式, 安全设置 OIDC 卡样式调整"
-      },
-      {
-        "commit": "55eb233cfc1bf4f8477309cc0c4d4314c8e8b39a",
-        "author": "xylplm",
-        "date": "2026-10-29 22:35:18",
-        "message": "fix 🐛: 修复 App 发起 OIDC 登录时网页被误登录, 授权完成页自动拉起应用"
-      },
-      {
-        "commit": "ae9b262ac0b633668c0fa7edb94007f3cbcb1f3f",
-        "author": "xylplm",
-        "date": "2026-10-29 17:15:01",
-        "message": "fix 🐛: 安全审计更名与密码弹窗防浏览器保存提示"
-      },
-      {
-        "commit": "677e4a1a522a0a9f7cceb8e44aac9fae1a7fbaaf",
-        "author": "xylplm",
-        "date": "2026-10-29 17:04:13",
-        "message": "feat ✨: 新增扫码登录, OIDC回调改前端SPA落地页, 登录方式全端可见"
-      },
-      {
-        "commit": "6000e94546d8ffe462fa221054029d86accaec69",
-        "author": "xylplm",
-        "date": "2026-10-29 08:09:25",
-        "message": "feat ✨: 支持OIDC单点登录, 登录页新增单点登录入口, 安全配置支持绑定管理"
-      },
-      {
-        "commit": "d4136bc6e2c7c746d04fbcdc9d387bd5d740d809",
-        "author": "xylplm",
-        "date": "2026-10-28 15:25:13",
-        "message": "feat ✨: 按文件生成 Strm——所选配置未开启目录树时隐藏文件路径栏，改显示开启指引提示，不再让按钮灰着点了没反应"
       }
     ]
   }
