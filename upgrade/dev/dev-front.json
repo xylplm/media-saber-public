@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611061106",
+    "items": [
+      {
+        "commit": "8f9dfbf48d3a10ec3f459210e6a0f68c7013afab",
+        "author": "xylplm",
+        "date": "2026-11-06 11:04:04",
+        "message": "fix 🐛: 更新服务工作者配置，将 /message 路径更改为 /mcp"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611051815",
     "items": [
       {
@@ -197,35 +208,6 @@
         "author": "xylplm",
         "date": "2026-10-28 15:25:13",
         "message": "feat ✨: 按文件生成 Strm——所选配置未开启目录树时隐藏文件路径栏，改显示开启指引提示，不再让按钮灰着点了没反应"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610280006",
-    "items": [
-      {
-        "commit": "e734338bdbb0f7c01972db554bfc752a68305d35",
-        "author": "liurongjie",
-        "date": "2026-10-28 00:02:48",
-        "message": "feat ✨: 手动搜索过滤规则下拉新增跟随目录分类选项并更新提示文案"
-      },
-      {
-        "commit": "50b52ea2ae834c183792c0647fbabf965206ae85",
-        "author": "liurongjie",
-        "date": "2026-10-27 23:26:04",
-        "message": "fix 🐛: 服务配置测试服务按钮窄列下内容溢出, 按钮改为内容自适应宽度"
-      },
-      {
-        "commit": "90f8e6838c6183d439a65eea8580e9e797ceb4c9",
-        "author": "liurongjie",
-        "date": "2026-10-27 23:26:04",
-        "message": "feat ✨: 订阅搜索成人内容开关移至搜索与过滤分区最后"
-      },
-      {
-        "commit": "8310719ab568c3fb6e72b77374c41ca792ce6364",
-        "author": "xylplm",
-        "date": "2026-10-27 13:15:50",
-        "message": "feat ✨: 云端资源表格支持点击表头按大小和发布时间排序"
       }
     ]
   }
