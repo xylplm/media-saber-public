@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611071722",
+    "items": [
+      {
+        "commit": "d3b72ca74f995eb084babf83424a5d55db96dd88",
+        "author": "liurongjie",
+        "date": "2026-11-07 17:17:50",
+        "message": "feat ✨: 动态表单工具栏按钮按服务端inMore配置渲染更多菜单"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611070328",
     "items": [
       {
@@ -167,17 +178,6 @@
         "author": "liurongjie",
         "date": "2026-10-31 01:35:25",
         "message": "fix 🐛: strm探测弹窗桌面端内容区限高放宽到视口减300px, 修复底部多行功能按钮把取消/应用/确认顶出视口"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202610300935",
-    "items": [
-      {
-        "commit": "d734d83ea0627e9349e2809ef5233d377cb756c3",
-        "author": "xylplm",
-        "date": "2026-10-30 09:34:51",
-        "message": "ui 🎨: 登录方式页扫码登录卡片移至 OIDC 前"
       }
     ]
   }

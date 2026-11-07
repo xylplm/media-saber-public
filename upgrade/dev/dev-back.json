@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611071722",
+    "items": [
+      {
+        "commit": "541c346842a0ff1baf505fade3e28f902d38662f",
+        "author": "liurongjie",
+        "date": "2026-11-07 17:17:50",
+        "message": "feat ✨: 动态表单工具栏按钮支持inMore配置收进更多菜单, strm探测次要操作收纳"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611061540",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-11-01 20:18:35",
         "message": "fix 🐛: 修复极空间Emby最新入库点开剧集报错,媒体库归属改祖先接口优先解析并保留原链路兜底"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611010018",
-    "items": [
-      {
-        "commit": "df67c734f02f4c6a3a03e418997fe29ca82f5ee1",
-        "author": "liurongjie",
-        "date": "2026-11-01 00:17:25",
-        "message": "fix 🐛: 修复目录清理误删海报字幕与strm探测取消死锁, plex自动音轨show级标签按剧缓存, 歌单批量添加失败回退逐首, 音乐规则预编译与探测视频流口径统一"
       }
     ]
   }
