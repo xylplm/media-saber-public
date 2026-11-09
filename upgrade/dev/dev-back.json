@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611100000",
+    "items": [
+      {
+        "commit": "dd557786ab3d1fc40d13ddc8d9087f6f22e714a2",
+        "author": "liurongjie",
+        "date": "2026-11-09 23:54:35",
+        "message": "feat ✨: Plex媒体服务器新增分析strm开关,入库strm队列分析,定时分析媒体库strm,与探测插件共用数据"
+      },
+      {
+        "commit": "b281068ae44edb461fb7009e7db4c357819c5e9c",
+        "author": "xylplm",
+        "date": "2026-11-08 10:16:58",
+        "message": "feat ✨: 云资源人工标注升级语言数组,编辑与详情支持多选标注透传"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611071722",
     "items": [
       {
@@ -131,23 +148,6 @@
         "author": "xylplm",
         "date": "2026-11-02 11:41:36",
         "message": "fix 🐛: 修复定制Emby点剧集播放失败,协商自动归一到首个未播集,兼容小数帧率解析"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611012213",
-    "items": [
-      {
-        "commit": "69832dfc59d0dc684b2490bbfadeacaaa103ce96",
-        "author": "xylplm",
-        "date": "2026-11-01 22:02:43",
-        "message": "feat ✨: 新增扩展快捷登录,已登录扩展的浏览器在登录页可一键授权网页登录"
-      },
-      {
-        "commit": "dbb5908587712ab6e1809a629d5af31726ec13b4",
-        "author": "xylplm",
-        "date": "2026-11-01 20:18:35",
-        "message": "fix 🐛: 修复极空间Emby最新入库点开剧集报错,媒体库归属改祖先接口优先解析并保留原链路兜底"
       }
     ]
   }

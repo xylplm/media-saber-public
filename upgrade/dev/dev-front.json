@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202611100000",
+    "items": [
+      {
+        "commit": "97e534f9eae54f2bd1b31fdf5828cf6414156359",
+        "author": "liurongjie",
+        "date": "2026-11-09 23:43:54",
+        "message": "ui 🎨: 云端存储任务关键词搜索框 label 改为文件名/路径并清空 placeholder"
+      },
+      {
+        "commit": "715cdcc47e545a4329e1b798e37533a06d1c7772",
+        "author": "xylplm",
+        "date": "2026-11-09 20:26:37",
+        "message": "ui 🎨: 云资源批量栏拉黑举报删除收敛进更多菜单"
+      },
+      {
+        "commit": "8e79c8b4371c7475113b4c28bb248c6ae046c9e3",
+        "author": "xylplm",
+        "date": "2026-11-08 10:17:11",
+        "message": "feat ✨: 编辑弹窗标注升级语言多选,新增批量编辑与中字标签"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611071824",
     "items": [
       {
@@ -161,23 +184,6 @@
         "author": "xylplm",
         "date": "2026-11-03 08:03:13",
         "message": "feat ✨: 接入登录两步验证, 安全配置新增绑定向导, 封禁管理支持手动永久封禁"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611021142",
-    "items": [
-      {
-        "commit": "f80aa6446c0d6f9984f1a6ecafe1749b855a700c",
-        "author": "xylplm",
-        "date": "2026-11-02 11:41:47",
-        "message": "feat ✨: 播放器支持线路记忆与手动切换线路,同剧不再重复提示直连失败"
-      },
-      {
-        "commit": "d784df3a4ff2ffcae9cb9a4a2872feb6ba1353e8",
-        "author": "xylplm",
-        "date": "2026-11-02 11:41:46",
-        "message": "fix 🐛: 媒体库详情弹窗集卡片不再超宽,长剧分页加载更多不再卡顿"
       }
     ]
   }
