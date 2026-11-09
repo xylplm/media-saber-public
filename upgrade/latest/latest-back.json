@@ -1,5 +1,100 @@
 [
   {
+    "version": "3.0_202611092040",
+    "items": [
+      {
+        "commit": "b281068ae44edb461fb7009e7db4c357819c5e9c",
+        "author": "xylplm",
+        "date": "2026-11-08 10:16:58",
+        "message": "feat ✨: 云资源人工标注升级语言数组,编辑与详情支持多选标注透传"
+      },
+      {
+        "commit": "541c346842a0ff1baf505fade3e28f902d38662f",
+        "author": "liurongjie",
+        "date": "2026-11-07 17:17:50",
+        "message": "feat ✨: 动态表单工具栏按钮支持inMore配置收进更多菜单, strm探测次要操作收纳"
+      },
+      {
+        "commit": "74109156c351b8151588a92c3564190297aa77b4",
+        "author": "xylplm",
+        "date": "2026-11-06 15:36:28",
+        "message": "refactor 🔁: ffprobe 移除安装功能只保留检测,修复状态查询被安装链路卡死超时"
+      },
+      {
+        "commit": "0c991d5b314cdbb74845f8b3746ff62d70a72547",
+        "author": "xylplm",
+        "date": "2026-11-06 12:12:04",
+        "message": "feat ✨: ffprobe 镜像内置开箱即用,代理被拦自动直连重试,linux 下载源仅保留静态构建"
+      },
+      {
+        "commit": "2361ff09079922d005dc8e1f3d6fd0e52a86ebe3",
+        "author": "xylplm",
+        "date": "2026-11-05 18:13:58",
+        "message": "fix 🐛: 跨域配置合并单层生效,Vary: Origin 响应头不再重复下发"
+      },
+      {
+        "commit": "e7753adbc9564a25300b899105db6a31ae3a0ac8",
+        "author": "xylplm",
+        "date": "2026-11-05 17:53:34",
+        "message": "feat ✨: ffprobe 下载源国内镜像优先,npmmirror BtbN 构建镜像自动回退官方源"
+      },
+      {
+        "commit": "b5e54b83be24cf1a207d97633e84357f3f142751",
+        "author": "xylplm",
+        "date": "2026-11-05 17:22:00",
+        "message": "fix 🐛: ffprobe 下载失败报错带内容预览定位根因,支持环境变量自定义下载源"
+      },
+      {
+        "commit": "d46a075c625f0a14260422a615a2b521e88cba96",
+        "author": "xylplm",
+        "date": "2026-11-05 15:16:27",
+        "message": "feat ✨: 云资源语言筛选升级为归一键数组多选,支持简繁/普通话/粤语等精准过滤"
+      },
+      {
+        "commit": "59bfc8b58930e0dafe816886f421e83a1950d11d",
+        "author": "xylplm",
+        "date": "2026-11-05 14:31:36",
+        "message": "fix 🐛: 云资源手动搜索剔除无真数据的兜底中字标签,订阅展示不受影响"
+      },
+      {
+        "commit": "faa660112d97e5186317d9e380ea3d1dd5aa2465",
+        "author": "xylplm",
+        "date": "2026-11-05 10:36:32",
+        "message": "fix 🐛: ffprobe 状态接口加微缓存与请求头放行,探测组件卡片移至服务配置顶部"
+      },
+      {
+        "commit": "be5e1b84b9c44c969f937faec4ab413e55b59fd3",
+        "author": "xylplm",
+        "date": "2026-11-05 10:25:49",
+        "message": "feat ✨: 体检支持后台异步执行,首页触发后刷新页面不再中断扫描"
+      },
+      {
+        "commit": "c1c14d8c62e29050ca230b723f22e6b241b2431a",
+        "author": "xylplm",
+        "date": "2026-11-05 09:37:18",
+        "message": "feat ✨: 新增系统级 ffprobe 探测组件,支持一键安装/手动上传/更新检测,云资源上报自动采集媒体信息并支持规格筛选"
+      },
+      {
+        "commit": "1ec0356689a6702296c37acb95629fe37c493871",
+        "author": "xylplm",
+        "date": "2026-11-04 07:58:53",
+        "message": "feat ✨: 新增订阅默认进入自定义模式系统开关,包含排除历史值建议接口"
+      },
+      {
+        "commit": "2a71cfafa049b33a7a79e9d0afd755ba563be4e6",
+        "author": "xylplm",
+        "date": "2026-11-03 10:37:35",
+        "message": "feat ✨: 恢复代码登录补安全提醒与审计, 失败原因细分, API Key 认证失败纳入防护与封禁拦截已认证请求"
+      },
+      {
+        "commit": "5e49a975cfed4a8639d1f51f8d91a3917b2b6d3e",
+        "author": "xylplm",
+        "date": "2026-11-03 08:02:59",
+        "message": "feat ✨: 新增登录两步验证, 安全等级预设收紧并支持永久封禁"
+      }
+    ]
+  },
+  {
     "version": "3.0_202611021322",
     "items": [
       {

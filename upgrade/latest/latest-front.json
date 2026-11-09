@@ -1,5 +1,142 @@
 [
   {
+    "version": "3.0_202611092040",
+    "items": [
+      {
+        "commit": "715cdcc47e545a4329e1b798e37533a06d1c7772",
+        "author": "xylplm",
+        "date": "2026-11-09 20:26:37",
+        "message": "ui 🎨: 云资源批量栏拉黑举报删除收敛进更多菜单"
+      },
+      {
+        "commit": "8e79c8b4371c7475113b4c28bb248c6ae046c9e3",
+        "author": "xylplm",
+        "date": "2026-11-08 10:17:11",
+        "message": "feat ✨: 编辑弹窗标注升级语言多选,新增批量编辑与中字标签"
+      },
+      {
+        "commit": "e544daf619a94cc4030b11f0975f333c87b10d5e",
+        "author": "liurongjie",
+        "date": "2026-11-07 18:24:14",
+        "message": "fix 🐛: 插件配置弹窗手机端走全屏抽屉布局,底部工具栏不再被浏览器工具栏遮挡"
+      },
+      {
+        "commit": "da4f647e817f45ff503023048729c63a316a78f7",
+        "author": "liurongjie",
+        "date": "2026-11-07 18:04:42",
+        "message": "ui 🎨: 更多菜单按钮图标定尺寸与文字同行防换行"
+      },
+      {
+        "commit": "d3b72ca74f995eb084babf83424a5d55db96dd88",
+        "author": "liurongjie",
+        "date": "2026-11-07 17:17:50",
+        "message": "feat ✨: 动态表单工具栏按钮按服务端inMore配置渲染更多菜单"
+      },
+      {
+        "commit": "2f880ff02c63019b9297c1a5e6f432eee4061391",
+        "author": "liurongjie",
+        "date": "2026-11-06 23:37:24",
+        "message": "ui 🎨: 插件配置弹窗底部工具栏上内边距统一压缩为10px"
+      },
+      {
+        "commit": "183c1ab5c327dc11372a34e8188a817a563d6765",
+        "author": "xylplm",
+        "date": "2026-11-06 15:36:39",
+        "message": "refactor 🔁: ffprobe 卡片精简为状态检测"
+      },
+      {
+        "commit": "8f9dfbf48d3a10ec3f459210e6a0f68c7013afab",
+        "author": "xylplm",
+        "date": "2026-11-06 11:04:04",
+        "message": "fix 🐛: 更新服务工作者配置，将 /message 路径更改为 /mcp"
+      },
+      {
+        "commit": "008fdf05d30e423b7d32180649a375b20b52d38f",
+        "author": "xylplm",
+        "date": "2026-11-05 18:14:12",
+        "message": "fix 🐛: 服务 worker 放行 /mcp 路径,浏览器直访 MCP 接口不再被前端壳页拦截"
+      },
+      {
+        "commit": "25f51daf7e44d0c02ecf9e68effa205ebabe636f",
+        "author": "xylplm",
+        "date": "2026-11-05 15:17:06",
+        "message": "feat ✨: 云资源筛选升级为语言与HDR多选,列表显示中字标签"
+      },
+      {
+        "commit": "cabec8e341040ca4c3972fff839f9614947bfa3a",
+        "author": "xylplm",
+        "date": "2026-11-05 13:36:55",
+        "message": "fix 🐛: 补正云资源搜索白名单构造上次未落盘的遗漏"
+      },
+      {
+        "commit": "51d7b6a7db07ef67c9d8cb0d62b45f77de577b35",
+        "author": "xylplm",
+        "date": "2026-11-05 13:11:47",
+        "message": "fix 🐛: 云资源搜索停止透传表单原值,中文筛选关闭不再误传 false 导致结果全空"
+      },
+      {
+        "commit": "758b613dd8d01977f1f12304227f7833bf7f9017",
+        "author": "xylplm",
+        "date": "2026-11-05 12:55:23",
+        "message": "feat ✨: 云资源媒体筛选空结果时提示存量资源暂无规格数据"
+      },
+      {
+        "commit": "051e9083f0cc43449eee8037715f7a1963f9cfb4",
+        "author": "xylplm",
+        "date": "2026-11-05 11:20:47",
+        "message": "feat ✨: 手动上传改为手动安装模态框,按步骤引导复制下载地址与上传安装包"
+      },
+      {
+        "commit": "40f879c5ae08ce2e899b44a9b6c008e2225a7f4c",
+        "author": "xylplm",
+        "date": "2026-11-05 10:57:49",
+        "message": "fix 🐛: ffprobe 卡片信息精简,已装态收为一行,下载地址与缓存包移入手动上传展开区"
+      },
+      {
+        "commit": "2f205522dc98490c43c0368a56abe5c05bf29fb0",
+        "author": "xylplm",
+        "date": "2026-11-05 10:36:33",
+        "message": "fix 🐛: ffprobe 卡片请求屏蔽全局 loading,卡片移至服务配置顶部"
+      },
+      {
+        "commit": "bd5725dc8412ab05718e9464cc6b6e8481de1ce2",
+        "author": "xylplm",
+        "date": "2026-11-05 10:25:50",
+        "message": "fix 🐛: 首页体检卡改为后台体检加轮询,刷新页面不再出现尚未体检假象"
+      },
+      {
+        "commit": "20f883e2e29f0e3def7a7ed3330052876781a97b",
+        "author": "xylplm",
+        "date": "2026-11-05 09:37:35",
+        "message": "feat ✨: 云端资源新增规格筛选与详情弹窗,设置页新增 ffprobe 探测组件卡片,首页新增体检摘要卡"
+      },
+      {
+        "commit": "db759821e5d9622a69a44b9a55a310d8df50f6fd",
+        "author": "xylplm",
+        "date": "2026-11-04 07:59:01",
+        "message": "feat ✨: 新增订阅默认自定义开关接入,包含排除历史值输入建议与空态提示"
+      },
+      {
+        "commit": "3d9a0ea543fb4fe912082a67a27438c528b5a0bb",
+        "author": "xylplm",
+        "date": "2026-11-03 16:29:11",
+        "message": "fix 🐛: 订阅站点文案统一改 RSS 站点(消歧义), 类型选项对齐电影优先"
+      },
+      {
+        "commit": "456e2c0fd2832224b9ccc2477ef9e3f0fa5c36f5",
+        "author": "xylplm",
+        "date": "2026-11-03 10:37:45",
+        "message": "feat ✨: 安全配置卡片与绑定向导体验优化, 审计事件补失败原因与两步验证类型"
+      },
+      {
+        "commit": "256089437315531f8d9145e5e2d0956177fc95d6",
+        "author": "xylplm",
+        "date": "2026-11-03 08:03:13",
+        "message": "feat ✨: 接入登录两步验证, 安全配置新增绑定向导, 封禁管理支持手动永久封禁"
+      }
+    ]
+  },
+  {
     "version": "3.0_202611021322",
     "items": [
       {
