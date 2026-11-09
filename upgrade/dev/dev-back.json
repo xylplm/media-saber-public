@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611100051",
+    "items": [
+      {
+        "commit": "80673d4c002d7e46220896c32cc70d46b98147b5",
+        "author": "liurongjie",
+        "date": "2026-11-10 00:48:30",
+        "message": "fix 🐛: 备份pg_dump补--if-exists根治新设备还原报错, 旧包还原前改写DROP为IF EXISTS, psql单事务防半残库"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611100000",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "xylplm",
         "date": "2026-11-03 08:02:59",
         "message": "feat ✨: 新增登录两步验证, 安全等级预设收紧并支持永久封禁"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611021142",
-    "items": [
-      {
-        "commit": "3c32584df838644cbe98bcc9ed3741acda983199",
-        "author": "xylplm",
-        "date": "2026-11-02 11:41:36",
-        "message": "fix 🐛: 修复定制Emby点剧集播放失败,协商自动归一到首个未播集,兼容小数帧率解析"
       }
     ]
   }
