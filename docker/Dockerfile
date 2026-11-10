@@ -39,7 +39,9 @@ WORKDIR /app
 # 内置 ffprobe 静态副本（glibc/musl 通吃）：容器开箱即用（跑在 GitHub Actions 构建
 # 机上直连源站无碍）。后端只检测不安装，解析链：显式配置 → PATH → 托管副本(卷) →
 # /app/bundled 内置。
-ARG TARGETARCH=amd64
+# 注意：TARGETARCH 在文件顶部已裸声明（自动取构建平台值）。此处严禁写成
+# `ARG TARGETARCH=amd64`——带默认值的重声明会覆盖平台自动值，导致 arm64 镜像
+# 里混入 amd64 产物（2026-11-06 ffprobe 内置提交引入，ARM 真机 Exec format error 崩溃）。
 RUN set -ex \
     && apk add --no-cache xz ca-certificates wget \
     && case "${TARGETARCH}" in \
@@ -63,6 +65,15 @@ COPY msaber-back-${TARGETARCH}/static/. /app/static
 COPY nginx.template.conf /etc/nginx/nginx.template.conf
 COPY entrypoint.sh /entrypoint.sh
 COPY upgrade.sh /upgrade.sh
+
+# 架构守卫：主程序 ELF e_machine 必须与 TARGETARCH 一致（x86_64=3e00 / aarch64=b700），
+# 构建期即拦下「arm64 镜像装 amd64 产物」这类错误，失败信息直接指明两个值。
+RUN set -ex \
+    && M=$(dd if=/app/mediaSaber bs=1 skip=18 count=2 2>/dev/null | od -An -tx1 | tr -d ' \n') \
+    && case "${M}:${TARGETARCH}" in \
+        3e00:amd64 | b700:arm64) ;; \
+        *) echo "arch mismatch: mediaSaber e_machine=${M} TARGETARCH=${TARGETARCH}" && exit 1 ;; \
+    esac
 
 RUN apk --no-cache add \
         tzdata \
