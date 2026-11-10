@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611102146",
+    "items": [
+      {
+        "commit": "1b3330b5860903edd2a8b71d17e4bde83e7822c7",
+        "author": "xylplm",
+        "date": "2026-11-10 21:26:53",
+        "message": "fix 🐛: 贴ed2k链接识别不再错乱,链接先还原成文件名再识别,四季商人这类片名不再被误判成剧集,手动绑定的TMDB索引按标题直接生效"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611100833",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-11-05 18:13:58",
         "message": "fix 🐛: 跨域配置合并单层生效,Vary: Origin 响应头不再重复下发"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611051755",
-    "items": [
-      {
-        "commit": "e7753adbc9564a25300b899105db6a31ae3a0ac8",
-        "author": "xylplm",
-        "date": "2026-11-05 17:53:34",
-        "message": "feat ✨: ffprobe 下载源国内镜像优先,npmmirror BtbN 构建镜像自动回退官方源"
       }
     ]
   }
