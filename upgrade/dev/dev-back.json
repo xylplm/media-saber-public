@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611100833",
+    "items": [
+      {
+        "commit": "104f1bc86496f935ae176f95e347ae6ecfaec90c",
+        "author": "liurongjie",
+        "date": "2026-11-10 08:33:11",
+        "message": "fix 🐛: hosts写入Rename失败回退原地写适配容器挂载点, 删种拦截补排除正则编译失败, sms链接空格改百分号编码, tracker规则兼容裸路径写法"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611100812",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-11-05 17:53:34",
         "message": "feat ✨: ffprobe 下载源国内镜像优先,npmmirror BtbN 构建镜像自动回退官方源"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611051741",
-    "items": [
-      {
-        "commit": "b5e54b83be24cf1a207d97633e84357f3f142751",
-        "author": "xylplm",
-        "date": "2026-11-05 17:22:00",
-        "message": "fix 🐛: ffprobe 下载失败报错带内容预览定位根因,支持环境变量自定义下载源"
       }
     ]
   }
