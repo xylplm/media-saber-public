@@ -1,5 +1,64 @@
 [
   {
+    "version": "3.0_202611102023",
+    "items": [
+      {
+        "commit": "104f1bc86496f935ae176f95e347ae6ecfaec90c",
+        "author": "liurongjie",
+        "date": "2026-11-10 08:33:11",
+        "message": "fix 🐛: hosts写入Rename失败回退原地写适配容器挂载点, 删种拦截补排除正则编译失败, sms链接空格改百分号编码, tracker规则兼容裸路径写法"
+      },
+      {
+        "commit": "8038e84b8c5c01ff25a47551e050f52361b95887",
+        "author": "liurongjie",
+        "date": "2026-11-10 08:11:41",
+        "message": "fix 🐛: hosts同步区分空数组与异常响应防清空路由器, cloud2映射注释行放行, 目录清理云存储补媒体豁免, tracker规则兼容端口与完整URL写法, 回队失败记录剩余id"
+      },
+      {
+        "commit": "33923add44056950de4ee78d07608c030c7a5a47",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:31",
+        "message": "fix 🐛: iyuu队列改逐条push修复序列化必败与回队丢失, 音乐刷新状态Upsert走excluded修复持久化失败, 全局冷却即轮中断, 点号目录不再误取父, 主人解析失败负缓存, 云备份孤儿删除单条失败不再阻塞与防加密降级"
+      },
+      {
+        "commit": "f0d37ea9b44cbf9b127269bfd8b8ee8b3eaf63d3",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:26",
+        "message": "fix 🐛: hosts同步竞态与泄漏修复, tracker替换改host精确匹配保tier, 站点标签排除按完整域名, TR限速类型码修正, 诊断命令超时生效, netdata告警去重key稳定, 推荐Count默认值, cloud2配置真校验"
+      },
+      {
+        "commit": "255102ec06e30708bd42db4444fd97c501e96b57",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:26",
+        "message": "fix 🐛: 签到系并发加锁与cron读最新cookie, 失败误记成功修正, 解析失败不再报签到成功, sign115通知开关生效, 神游已签按成功, sms链接URL转义, 豆瓣榜单trim"
+      },
+      {
+        "commit": "2aef6b7fbba9c17da64ffa74450c7959296c0960",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:18",
+        "message": "fix 🐛: 目录清理广告黑名单与孤立判定豁免大体积媒体防误删, 删种体积单边生效补最少下载时间与正则失败拦截, 目录合并半截文件清理, 转移路径改前缀匹配, ptd导入限定上传目录, custom_hosts原子写与空配置清理"
+      },
+      {
+        "commit": "660090ccbc375072d40d59e6b2d6d5098ed12573",
+        "author": "liurongjie",
+        "date": "2026-11-10 01:29:49",
+        "message": "fix 🐛: tmdb识别词防年份误捕获加数字边界, part词条兼容点号分隔, 无年份防双点畸形"
+      },
+      {
+        "commit": "80673d4c002d7e46220896c32cc70d46b98147b5",
+        "author": "liurongjie",
+        "date": "2026-11-10 00:48:30",
+        "message": "fix 🐛: 备份pg_dump补--if-exists根治新设备还原报错, 旧包还原前改写DROP为IF EXISTS, psql单事务防半残库"
+      },
+      {
+        "commit": "dd557786ab3d1fc40d13ddc8d9087f6f22e714a2",
+        "author": "liurongjie",
+        "date": "2026-11-09 23:54:35",
+        "message": "feat ✨: Plex媒体服务器新增分析strm开关,入库strm队列分析,定时分析媒体库strm,与探测插件共用数据"
+      }
+    ]
+  },
+  {
     "version": "3.0_202611092040",
     "items": [
       {

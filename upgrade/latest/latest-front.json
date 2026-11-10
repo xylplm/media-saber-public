@@ -1,5 +1,22 @@
 [
   {
+    "version": "3.0_202611102023",
+    "items": [
+      {
+        "commit": "97d8860cde632f420e0a67e364aa406c7cc5583a",
+        "author": "liurongjie",
+        "date": "2026-11-10 00:21:43",
+        "message": "ui 🎨: 云端存储任务状态选择框补充全部状态占位文案"
+      },
+      {
+        "commit": "97e534f9eae54f2bd1b31fdf5828cf6414156359",
+        "author": "liurongjie",
+        "date": "2026-11-09 23:43:54",
+        "message": "ui 🎨: 云端存储任务关键词搜索框 label 改为文件名/路径并清空 placeholder"
+      }
+    ]
+  },
+  {
     "version": "3.0_202611092040",
     "items": [
       {
