@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611111549",
+    "items": [
+      {
+        "commit": "8bb934a55939bbee8090b99893a4d3f489d095ac",
+        "author": "xylplm",
+        "date": "2026-11-11 13:06:11",
+        "message": "feat ✨: 等级与仙石脱钩的前端全面改版"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611102146",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "xylplm",
         "date": "2026-11-06 11:04:04",
         "message": "fix 🐛: 更新服务工作者配置，将 /message 路径更改为 /mcp"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611051815",
-    "items": [
-      {
-        "commit": "008fdf05d30e423b7d32180649a375b20b52d38f",
-        "author": "xylplm",
-        "date": "2026-11-05 18:14:12",
-        "message": "fix 🐛: 服务 worker 放行 /mcp 路径,浏览器直访 MCP 接口不再被前端壳页拦截"
       }
     ]
   }

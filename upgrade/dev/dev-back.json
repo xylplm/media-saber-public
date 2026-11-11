@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611111549",
+    "items": [
+      {
+        "commit": "bbaaa9255061dffef0abc50f9e2e68aa69d40d1a",
+        "author": "xylplm",
+        "date": "2026-11-11 13:05:58",
+        "message": "feat ✨: 等级与仙石脱钩的后端代理层适配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611110825",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-11-07 17:17:50",
         "message": "feat ✨: 动态表单工具栏按钮支持inMore配置收进更多菜单, strm探测次要操作收纳"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611061540",
-    "items": [
-      {
-        "commit": "74109156c351b8151588a92c3564190297aa77b4",
-        "author": "xylplm",
-        "date": "2026-11-06 15:36:28",
-        "message": "refactor 🔁: ffprobe 移除安装功能只保留检测,修复状态查询被安装链路卡死超时"
       }
     ]
   }
