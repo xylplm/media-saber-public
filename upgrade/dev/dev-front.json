@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611120051",
+    "items": [
+      {
+        "commit": "055ab3fafd24c114236a3851bade07a6208b214b",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:46:51",
+        "message": "ui 🎨: 过滤规则移动端收行,卡片头部两行布局与规则卡紧凑排列"
+      },
+      {
+        "commit": "dacc02f87cd04c3ed32a47a83bed8001eb79ac03",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:46:51",
+        "message": "ui 🎨: 云端资源管理移动端适配,筛选两列网格与表格收列防横向溢出"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611111549",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-11-06 15:36:39",
         "message": "refactor 🔁: ffprobe 卡片精简为状态检测"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611061106",
-    "items": [
-      {
-        "commit": "8f9dfbf48d3a10ec3f459210e6a0f68c7013afab",
-        "author": "xylplm",
-        "date": "2026-11-06 11:04:04",
-        "message": "fix 🐛: 更新服务工作者配置，将 /message 路径更改为 /mcp"
       }
     ]
   }
