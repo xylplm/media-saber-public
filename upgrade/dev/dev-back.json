@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611120013",
+    "items": [
+      {
+        "commit": "3b175c08399f3e6dbc7815e8c23bd2b3162bc328",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:10:09",
+        "message": "hubs预热观测形态无Language时不补zh缺省修复键偏移"
+      },
+      {
+        "commit": "6ff8dca15b902138959fac98582b434e16289da5",
+        "author": "liurongjie",
+        "date": "2026-11-11 23:33:38",
+        "message": "fix 🐛: 启灵空配置放行修复plex音乐刷新与CD2配置插件无法启灵, 未配置实例改名不再被校验拦截, 自动音轨未配置启动改静默"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611111549",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-11-08 10:16:58",
         "message": "feat ✨: 云资源人工标注升级语言数组,编辑与详情支持多选标注透传"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611071722",
-    "items": [
-      {
-        "commit": "541c346842a0ff1baf505fade3e28f902d38662f",
-        "author": "liurongjie",
-        "date": "2026-11-07 17:17:50",
-        "message": "feat ✨: 动态表单工具栏按钮支持inMore配置收进更多菜单, strm探测次要操作收纳"
       }
     ]
   }
