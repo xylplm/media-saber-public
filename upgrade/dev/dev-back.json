@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611110825",
+    "items": [
+      {
+        "commit": "7154fadbf3b95336d7e41c53436668cdb3c795dd",
+        "author": "liurongjie",
+        "date": "2026-11-11 08:25:40",
+        "message": "browse大body进Redis分档4MB并纳入观测驱动预热修复反复miss回源"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611102313",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "xylplm",
         "date": "2026-11-06 15:36:28",
         "message": "refactor 🔁: ffprobe 移除安装功能只保留检测,修复状态查询被安装链路卡死超时"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611061215",
-    "items": [
-      {
-        "commit": "0c991d5b314cdbb74845f8b3746ff62d70a72547",
-        "author": "xylplm",
-        "date": "2026-11-06 12:12:04",
-        "message": "feat ✨: ffprobe 镜像内置开箱即用,代理被拦自动直连重试,linux 下载源仅保留静态构建"
       }
     ]
   }
