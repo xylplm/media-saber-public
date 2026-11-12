@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202611120900",
+    "items": [
+      {
+        "commit": "6393ec03f4bdf9b769342768184175f5eaac9af9",
+        "author": "liurongjie",
+        "date": "2026-11-12 08:46:18",
+        "message": "新增取消订阅推送类型, 用户取消订阅时推送取消订阅通知并配专属封面"
+      },
+      {
+        "commit": "5df94b9454013cf0f3251c874b3324c1b8edce67",
+        "author": "liurongjie",
+        "date": "2026-11-12 01:12:12",
+        "message": "媒体服务器同步panic恢复补堆栈记录定位深层nil ctx"
+      },
+      {
+        "commit": "52be7b90b2a0930b7fb5aa1f1f3d7f18fcaaabcf",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:57:06",
+        "message": "strm媒体信息探测通知改图文多行格式, 修Infoc格式化占位误用"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611120013",
     "items": [
       {
@@ -125,23 +148,6 @@
         "author": "liurongjie",
         "date": "2026-11-10 00:48:30",
         "message": "fix 🐛: 备份pg_dump补--if-exists根治新设备还原报错, 旧包还原前改写DROP为IF EXISTS, psql单事务防半残库"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611100000",
-    "items": [
-      {
-        "commit": "dd557786ab3d1fc40d13ddc8d9087f6f22e714a2",
-        "author": "liurongjie",
-        "date": "2026-11-09 23:54:35",
-        "message": "feat ✨: Plex媒体服务器新增分析strm开关,入库strm队列分析,定时分析媒体库strm,与探测插件共用数据"
-      },
-      {
-        "commit": "b281068ae44edb461fb7009e7db4c357819c5e9c",
-        "author": "xylplm",
-        "date": "2026-11-08 10:16:58",
-        "message": "feat ✨: 云资源人工标注升级语言数组,编辑与详情支持多选标注透传"
       }
     ]
   }
