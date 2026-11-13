@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611140023",
+    "items": [
+      {
+        "commit": "37801e307b1bdd0e92892cd8c2f9ee1fedfae530",
+        "author": "liurongjie",
+        "date": "2026-11-14 00:23:29",
+        "message": "plex browse缓存跳过PMS prefill流量写入, 防冲刷LRU致VidHub无身份键恒miss"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611132348",
     "items": [
       {
@@ -317,17 +328,6 @@
         "author": "liurongjie",
         "date": "2026-11-10 08:33:11",
         "message": "fix 🐛: hosts写入Rename失败回退原地写适配容器挂载点, 删种拦截补排除正则编译失败, sms链接空格改百分号编码, tracker规则兼容裸路径写法"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611100812",
-    "items": [
-      {
-        "commit": "8038e84b8c5c01ff25a47551e050f52361b95887",
-        "author": "liurongjie",
-        "date": "2026-11-10 08:11:41",
-        "message": "fix 🐛: hosts同步区分空数组与异常响应防清空路由器, cloud2映射注释行放行, 目录清理云存储补媒体豁免, tracker规则兼容端口与完整URL写法, 回队失败记录剩余id"
       }
     ]
   }
