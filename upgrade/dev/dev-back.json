@@ -1,5 +1,220 @@
 [
   {
+    "version": "DEV_202611132348",
+    "items": [
+      {
+        "commit": "40166344be443208431b6b5f39d2702d023ab1ab",
+        "author": "liurongjie",
+        "date": "2026-11-13 23:40:23",
+        "message": "btsite新增download_link通用下载链接签发, 必读公告拦截403改友好提示"
+      },
+      {
+        "commit": "4b64b252e701781e406ee4179de10b04bd60a09c",
+        "author": "liurongjie",
+        "date": "2026-11-13 23:17:49",
+        "message": "mlist合并OpenList/115driver上游2026-11: 115_open token轮换落库保护, onedrive重试防循环, guangyapan列表成功校验, op.Get列表错误透传, 轮换凭据写库退避重试, p115≥5GB分片上传串行修复"
+      },
+      {
+        "commit": "6393ec03f4bdf9b769342768184175f5eaac9af9",
+        "author": "liurongjie",
+        "date": "2026-11-12 08:46:18",
+        "message": "新增取消订阅推送类型, 用户取消订阅时推送取消订阅通知并配专属封面"
+      },
+      {
+        "commit": "5df94b9454013cf0f3251c874b3324c1b8edce67",
+        "author": "liurongjie",
+        "date": "2026-11-12 01:12:12",
+        "message": "媒体服务器同步panic恢复补堆栈记录定位深层nil ctx"
+      },
+      {
+        "commit": "52be7b90b2a0930b7fb5aa1f1f3d7f18fcaaabcf",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:57:06",
+        "message": "strm媒体信息探测通知改图文多行格式, 修Infoc格式化占位误用"
+      },
+      {
+        "commit": "3b175c08399f3e6dbc7815e8c23bd2b3162bc328",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:10:09",
+        "message": "hubs预热观测形态无Language时不补zh缺省修复键偏移"
+      },
+      {
+        "commit": "6ff8dca15b902138959fac98582b434e16289da5",
+        "author": "liurongjie",
+        "date": "2026-11-11 23:33:38",
+        "message": "fix 🐛: 启灵空配置放行修复plex音乐刷新与CD2配置插件无法启灵, 未配置实例改名不再被校验拦截, 自动音轨未配置启动改静默"
+      },
+      {
+        "commit": "bbaaa9255061dffef0abc50f9e2e68aa69d40d1a",
+        "author": "xylplm",
+        "date": "2026-11-11 13:05:58",
+        "message": "feat ✨: 等级与仙石脱钩的后端代理层适配"
+      },
+      {
+        "commit": "7154fadbf3b95336d7e41c53436668cdb3c795dd",
+        "author": "liurongjie",
+        "date": "2026-11-11 08:25:40",
+        "message": "browse大body进Redis分档4MB并纳入观测驱动预热修复反复miss回源"
+      },
+      {
+        "commit": "4fe22cca6c44818bdc178fa56a6e08f096675b7f",
+        "author": "liurongjie",
+        "date": "2026-11-10 23:11:21",
+        "message": "fix 🐛: 备份工具自愈, 版本检查失败清理失效缓存回退重装, apk强制升级坏包, psql还原同款自愈"
+      },
+      {
+        "commit": "1b3330b5860903edd2a8b71d17e4bde83e7822c7",
+        "author": "xylplm",
+        "date": "2026-11-10 21:26:53",
+        "message": "fix 🐛: 贴ed2k链接识别不再错乱,链接先还原成文件名再识别,四季商人这类片名不再被误判成剧集,手动绑定的TMDB索引按标题直接生效"
+      },
+      {
+        "commit": "104f1bc86496f935ae176f95e347ae6ecfaec90c",
+        "author": "liurongjie",
+        "date": "2026-11-10 08:33:11",
+        "message": "fix 🐛: hosts写入Rename失败回退原地写适配容器挂载点, 删种拦截补排除正则编译失败, sms链接空格改百分号编码, tracker规则兼容裸路径写法"
+      },
+      {
+        "commit": "8038e84b8c5c01ff25a47551e050f52361b95887",
+        "author": "liurongjie",
+        "date": "2026-11-10 08:11:41",
+        "message": "fix 🐛: hosts同步区分空数组与异常响应防清空路由器, cloud2映射注释行放行, 目录清理云存储补媒体豁免, tracker规则兼容端口与完整URL写法, 回队失败记录剩余id"
+      },
+      {
+        "commit": "33923add44056950de4ee78d07608c030c7a5a47",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:31",
+        "message": "fix 🐛: iyuu队列改逐条push修复序列化必败与回队丢失, 音乐刷新状态Upsert走excluded修复持久化失败, 全局冷却即轮中断, 点号目录不再误取父, 主人解析失败负缓存, 云备份孤儿删除单条失败不再阻塞与防加密降级"
+      },
+      {
+        "commit": "f0d37ea9b44cbf9b127269bfd8b8ee8b3eaf63d3",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:26",
+        "message": "fix 🐛: hosts同步竞态与泄漏修复, tracker替换改host精确匹配保tier, 站点标签排除按完整域名, TR限速类型码修正, 诊断命令超时生效, netdata告警去重key稳定, 推荐Count默认值, cloud2配置真校验"
+      },
+      {
+        "commit": "255102ec06e30708bd42db4444fd97c501e96b57",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:26",
+        "message": "fix 🐛: 签到系并发加锁与cron读最新cookie, 失败误记成功修正, 解析失败不再报签到成功, sign115通知开关生效, 神游已签按成功, sms链接URL转义, 豆瓣榜单trim"
+      },
+      {
+        "commit": "2aef6b7fbba9c17da64ffa74450c7959296c0960",
+        "author": "liurongjie",
+        "date": "2026-11-10 02:34:18",
+        "message": "fix 🐛: 目录清理广告黑名单与孤立判定豁免大体积媒体防误删, 删种体积单边生效补最少下载时间与正则失败拦截, 目录合并半截文件清理, 转移路径改前缀匹配, ptd导入限定上传目录, custom_hosts原子写与空配置清理"
+      },
+      {
+        "commit": "660090ccbc375072d40d59e6b2d6d5098ed12573",
+        "author": "liurongjie",
+        "date": "2026-11-10 01:29:49",
+        "message": "fix 🐛: tmdb识别词防年份误捕获加数字边界, part词条兼容点号分隔, 无年份防双点畸形"
+      },
+      {
+        "commit": "80673d4c002d7e46220896c32cc70d46b98147b5",
+        "author": "liurongjie",
+        "date": "2026-11-10 00:48:30",
+        "message": "fix 🐛: 备份pg_dump补--if-exists根治新设备还原报错, 旧包还原前改写DROP为IF EXISTS, psql单事务防半残库"
+      },
+      {
+        "commit": "dd557786ab3d1fc40d13ddc8d9087f6f22e714a2",
+        "author": "liurongjie",
+        "date": "2026-11-09 23:54:35",
+        "message": "feat ✨: Plex媒体服务器新增分析strm开关,入库strm队列分析,定时分析媒体库strm,与探测插件共用数据"
+      },
+      {
+        "commit": "b281068ae44edb461fb7009e7db4c357819c5e9c",
+        "author": "xylplm",
+        "date": "2026-11-08 10:16:58",
+        "message": "feat ✨: 云资源人工标注升级语言数组,编辑与详情支持多选标注透传"
+      },
+      {
+        "commit": "541c346842a0ff1baf505fade3e28f902d38662f",
+        "author": "liurongjie",
+        "date": "2026-11-07 17:17:50",
+        "message": "feat ✨: 动态表单工具栏按钮支持inMore配置收进更多菜单, strm探测次要操作收纳"
+      },
+      {
+        "commit": "74109156c351b8151588a92c3564190297aa77b4",
+        "author": "xylplm",
+        "date": "2026-11-06 15:36:28",
+        "message": "refactor 🔁: ffprobe 移除安装功能只保留检测,修复状态查询被安装链路卡死超时"
+      },
+      {
+        "commit": "0c991d5b314cdbb74845f8b3746ff62d70a72547",
+        "author": "xylplm",
+        "date": "2026-11-06 12:12:04",
+        "message": "feat ✨: ffprobe 镜像内置开箱即用,代理被拦自动直连重试,linux 下载源仅保留静态构建"
+      },
+      {
+        "commit": "2361ff09079922d005dc8e1f3d6fd0e52a86ebe3",
+        "author": "xylplm",
+        "date": "2026-11-05 18:13:58",
+        "message": "fix 🐛: 跨域配置合并单层生效,Vary: Origin 响应头不再重复下发"
+      },
+      {
+        "commit": "e7753adbc9564a25300b899105db6a31ae3a0ac8",
+        "author": "xylplm",
+        "date": "2026-11-05 17:53:34",
+        "message": "feat ✨: ffprobe 下载源国内镜像优先,npmmirror BtbN 构建镜像自动回退官方源"
+      },
+      {
+        "commit": "b5e54b83be24cf1a207d97633e84357f3f142751",
+        "author": "xylplm",
+        "date": "2026-11-05 17:22:00",
+        "message": "fix 🐛: ffprobe 下载失败报错带内容预览定位根因,支持环境变量自定义下载源"
+      },
+      {
+        "commit": "d46a075c625f0a14260422a615a2b521e88cba96",
+        "author": "xylplm",
+        "date": "2026-11-05 15:16:27",
+        "message": "feat ✨: 云资源语言筛选升级为归一键数组多选,支持简繁/普通话/粤语等精准过滤"
+      },
+      {
+        "commit": "59bfc8b58930e0dafe816886f421e83a1950d11d",
+        "author": "xylplm",
+        "date": "2026-11-05 14:31:36",
+        "message": "fix 🐛: 云资源手动搜索剔除无真数据的兜底中字标签,订阅展示不受影响"
+      },
+      {
+        "commit": "faa660112d97e5186317d9e380ea3d1dd5aa2465",
+        "author": "xylplm",
+        "date": "2026-11-05 10:36:32",
+        "message": "fix 🐛: ffprobe 状态接口加微缓存与请求头放行,探测组件卡片移至服务配置顶部"
+      },
+      {
+        "commit": "be5e1b84b9c44c969f937faec4ab413e55b59fd3",
+        "author": "xylplm",
+        "date": "2026-11-05 10:25:49",
+        "message": "feat ✨: 体检支持后台异步执行,首页触发后刷新页面不再中断扫描"
+      },
+      {
+        "commit": "c1c14d8c62e29050ca230b723f22e6b241b2431a",
+        "author": "xylplm",
+        "date": "2026-11-05 09:37:18",
+        "message": "feat ✨: 新增系统级 ffprobe 探测组件,支持一键安装/手动上传/更新检测,云资源上报自动采集媒体信息并支持规格筛选"
+      },
+      {
+        "commit": "1ec0356689a6702296c37acb95629fe37c493871",
+        "author": "xylplm",
+        "date": "2026-11-04 07:58:53",
+        "message": "feat ✨: 新增订阅默认进入自定义模式系统开关,包含排除历史值建议接口"
+      },
+      {
+        "commit": "2a71cfafa049b33a7a79e9d0afd755ba563be4e6",
+        "author": "xylplm",
+        "date": "2026-11-03 10:37:35",
+        "message": "feat ✨: 恢复代码登录补安全提醒与审计, 失败原因细分, API Key 认证失败纳入防护与封禁拦截已认证请求"
+      },
+      {
+        "commit": "5e49a975cfed4a8639d1f51f8d91a3917b2b6d3e",
+        "author": "xylplm",
+        "date": "2026-11-03 08:02:59",
+        "message": "feat ✨: 新增登录两步验证, 安全等级预设收紧并支持永久封禁"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611131012",
     "items": [
       {
@@ -113,41 +328,6 @@
         "author": "liurongjie",
         "date": "2026-11-10 08:11:41",
         "message": "fix 🐛: hosts同步区分空数组与异常响应防清空路由器, cloud2映射注释行放行, 目录清理云存储补媒体豁免, tracker规则兼容端口与完整URL写法, 回队失败记录剩余id"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611100235",
-    "items": [
-      {
-        "commit": "33923add44056950de4ee78d07608c030c7a5a47",
-        "author": "liurongjie",
-        "date": "2026-11-10 02:34:31",
-        "message": "fix 🐛: iyuu队列改逐条push修复序列化必败与回队丢失, 音乐刷新状态Upsert走excluded修复持久化失败, 全局冷却即轮中断, 点号目录不再误取父, 主人解析失败负缓存, 云备份孤儿删除单条失败不再阻塞与防加密降级"
-      },
-      {
-        "commit": "f0d37ea9b44cbf9b127269bfd8b8ee8b3eaf63d3",
-        "author": "liurongjie",
-        "date": "2026-11-10 02:34:26",
-        "message": "fix 🐛: hosts同步竞态与泄漏修复, tracker替换改host精确匹配保tier, 站点标签排除按完整域名, TR限速类型码修正, 诊断命令超时生效, netdata告警去重key稳定, 推荐Count默认值, cloud2配置真校验"
-      },
-      {
-        "commit": "255102ec06e30708bd42db4444fd97c501e96b57",
-        "author": "liurongjie",
-        "date": "2026-11-10 02:34:26",
-        "message": "fix 🐛: 签到系并发加锁与cron读最新cookie, 失败误记成功修正, 解析失败不再报签到成功, sign115通知开关生效, 神游已签按成功, sms链接URL转义, 豆瓣榜单trim"
-      },
-      {
-        "commit": "2aef6b7fbba9c17da64ffa74450c7959296c0960",
-        "author": "liurongjie",
-        "date": "2026-11-10 02:34:18",
-        "message": "fix 🐛: 目录清理广告黑名单与孤立判定豁免大体积媒体防误删, 删种体积单边生效补最少下载时间与正则失败拦截, 目录合并半截文件清理, 转移路径改前缀匹配, ptd导入限定上传目录, custom_hosts原子写与空配置清理"
-      },
-      {
-        "commit": "660090ccbc375072d40d59e6b2d6d5098ed12573",
-        "author": "liurongjie",
-        "date": "2026-11-10 01:29:49",
-        "message": "fix 🐛: tmdb识别词防年份误捕获加数字边界, part词条兼容点号分隔, 无年份防双点畸形"
       }
     ]
   }
