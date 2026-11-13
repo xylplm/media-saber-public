@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611140057",
+    "items": [
+      {
+        "commit": "3e5523ab301efb42eee0d61040275bfc4b68d64c",
+        "author": "liurongjie",
+        "date": "2026-11-14 00:55:44",
+        "message": "fix 🐛: 豆列搜索结果丢失, 站点删除吞错回传, btsite连接泄漏与断言panic, 过滤正则缓存, 取消订阅幂等, 后台goroutine panic兜底, StoragesLoaded裸写收敛, 删死代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611140023",
     "items": [
       {
@@ -317,17 +328,6 @@
         "author": "xylplm",
         "date": "2026-11-10 21:26:53",
         "message": "fix 🐛: 贴ed2k链接识别不再错乱,链接先还原成文件名再识别,四季商人这类片名不再被误判成剧集,手动绑定的TMDB索引按标题直接生效"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611100833",
-    "items": [
-      {
-        "commit": "104f1bc86496f935ae176f95e347ae6ecfaec90c",
-        "author": "liurongjie",
-        "date": "2026-11-10 08:33:11",
-        "message": "fix 🐛: hosts写入Rename失败回退原地写适配容器挂载点, 删种拦截补排除正则编译失败, sms链接空格改百分号编码, tracker规则兼容裸路径写法"
       }
     ]
   }
