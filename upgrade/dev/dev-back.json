@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611140151",
+    "items": [
+      {
+        "commit": "2e1a1c765b4685bca54c49ce9acd499a91d99f91",
+        "author": "liurongjie",
+        "date": "2026-11-14 01:51:10",
+        "message": "perf: UpdateWords识别词条改单次查询消除1100+点查N+1, 启动各阶段加耗时日志定位40秒卡点"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611140057",
     "items": [
       {
@@ -317,17 +328,6 @@
         "author": "liurongjie",
         "date": "2026-11-10 23:11:21",
         "message": "fix 🐛: 备份工具自愈, 版本检查失败清理失效缓存回退重装, apk强制升级坏包, psql还原同款自愈"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611102146",
-    "items": [
-      {
-        "commit": "1b3330b5860903edd2a8b71d17e4bde83e7822c7",
-        "author": "xylplm",
-        "date": "2026-11-10 21:26:53",
-        "message": "fix 🐛: 贴ed2k链接识别不再错乱,链接先还原成文件名再识别,四季商人这类片名不再被误判成剧集,手动绑定的TMDB索引按标题直接生效"
       }
     ]
   }
