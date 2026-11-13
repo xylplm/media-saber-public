@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611140241",
+    "items": [
+      {
+        "commit": "2ebd16d68d2551adf1d8ed186123b8486d8b5124",
+        "author": "liurongjie",
+        "date": "2026-11-14 02:41:32",
+        "message": "perf: 去掉plex hubs预热启动首轮, Redis层跨重启兜底后首轮冷回源只与重启风暴抢资源, 首个预热轮延后一个周期"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611140218",
     "items": [
       {
@@ -317,17 +328,6 @@
         "author": "xylplm",
         "date": "2026-11-11 13:05:58",
         "message": "feat ✨: 等级与仙石脱钩的后端代理层适配"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611110825",
-    "items": [
-      {
-        "commit": "7154fadbf3b95336d7e41c53436668cdb3c795dd",
-        "author": "liurongjie",
-        "date": "2026-11-11 08:25:40",
-        "message": "browse大body进Redis分档4MB并纳入观测驱动预热修复反复miss回源"
       }
     ]
   }
