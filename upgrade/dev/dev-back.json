@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611131012",
+    "items": [
+      {
+        "commit": "0eb53a7610ad10909fbc00b19498c411f63f9072",
+        "author": "俊臣",
+        "date": "2026-11-12 18:42:08",
+        "message": "feat ✨: 媒体库同步条目接口支持 tmdbId 直查,消除详情页播放来源按标题搜索漏配"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611120900",
     "items": [
       {
@@ -137,17 +148,6 @@
         "author": "liurongjie",
         "date": "2026-11-10 01:29:49",
         "message": "fix 🐛: tmdb识别词防年份误捕获加数字边界, part词条兼容点号分隔, 无年份防双点畸形"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611100051",
-    "items": [
-      {
-        "commit": "80673d4c002d7e46220896c32cc70d46b98147b5",
-        "author": "liurongjie",
-        "date": "2026-11-10 00:48:30",
-        "message": "fix 🐛: 备份pg_dump补--if-exists根治新设备还原报错, 旧包还原前改写DROP为IF EXISTS, psql单事务防半残库"
       }
     ]
   }

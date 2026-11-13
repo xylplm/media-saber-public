@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611131012",
+    "items": [
+      {
+        "commit": "a3a9300185a55fff5c02e9be13e473ecf6ae4e9a",
+        "author": "xylplm",
+        "date": "2026-11-13 07:29:05",
+        "message": "feat ✨: 历练弹窗摘要展示修为增减区间"
+      },
+      {
+        "commit": "e1e58c722e4df376e38fdb24f9e417f272517349",
+        "author": "xylplm",
+        "date": "2026-11-13 07:18:17",
+        "message": "feat ✨: 历练奖池编辑器支持配置修为增减"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611120051",
     "items": [
       {
@@ -113,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-11-06 23:37:24",
         "message": "ui 🎨: 插件配置弹窗底部工具栏上内边距统一压缩为10px"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611061540",
-    "items": [
-      {
-        "commit": "183c1ab5c327dc11372a34e8188a817a563d6765",
-        "author": "xylplm",
-        "date": "2026-11-06 15:36:39",
-        "message": "refactor 🔁: ffprobe 卡片精简为状态检测"
       }
     ]
   }
