@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611141311",
+    "items": [
+      {
+        "commit": "9bc0d9936c26b1a5ef5941a1408be9e1357b1990",
+        "author": "liurongjie",
+        "date": "2026-11-14 13:11:14",
+        "message": "fix: API Key鉴权缓存层错误加DB直查兜底防Redis抖动误拒, 认证失败日志带真实原因"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611140241",
     "items": [
       {
@@ -317,17 +328,6 @@
         "author": "liurongjie",
         "date": "2026-11-11 23:33:38",
         "message": "fix 🐛: 启灵空配置放行修复plex音乐刷新与CD2配置插件无法启灵, 未配置实例改名不再被校验拦截, 自动音轨未配置启动改静默"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611111549",
-    "items": [
-      {
-        "commit": "bbaaa9255061dffef0abc50f9e2e68aa69d40d1a",
-        "author": "xylplm",
-        "date": "2026-11-11 13:05:58",
-        "message": "feat ✨: 等级与仙石脱钩的后端代理层适配"
       }
     ]
   }
