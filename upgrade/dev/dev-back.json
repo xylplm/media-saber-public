@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611141355",
+    "items": [
+      {
+        "commit": "454b7f9a51c0511acd7511ce239e10931b36e7b6",
+        "author": "liurongjie",
+        "date": "2026-11-14 13:54:46",
+        "message": "fix: hubs跨变体垫底加内容签名守卫防promoted串库串类型, 预热上限48提升96覆盖观测变体"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611141311",
     "items": [
       {
@@ -311,23 +322,6 @@
         "author": "liurongjie",
         "date": "2026-11-12 00:57:06",
         "message": "strm媒体信息探测通知改图文多行格式, 修Infoc格式化占位误用"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611120013",
-    "items": [
-      {
-        "commit": "3b175c08399f3e6dbc7815e8c23bd2b3162bc328",
-        "author": "liurongjie",
-        "date": "2026-11-12 00:10:09",
-        "message": "hubs预热观测形态无Language时不补zh缺省修复键偏移"
-      },
-      {
-        "commit": "6ff8dca15b902138959fac98582b434e16289da5",
-        "author": "liurongjie",
-        "date": "2026-11-11 23:33:38",
-        "message": "fix 🐛: 启灵空配置放行修复plex音乐刷新与CD2配置插件无法启灵, 未配置实例改名不再被校验拦截, 自动音轨未配置启动改静默"
       }
     ]
   }
