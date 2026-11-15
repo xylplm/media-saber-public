@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611151243",
+    "items": [
+      {
+        "commit": "2784f98682c9c45d7552ac3f8501ff921451cec1",
+        "author": "liurongjie",
+        "date": "2026-11-15 12:43:26",
+        "message": "fix: 皇后签到提交携带csrf_token, 适配站点新增CSRF校验403"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611141517",
     "items": [
       {
@@ -305,17 +316,6 @@
         "author": "xylplm",
         "date": "2026-11-03 08:02:59",
         "message": "feat ✨: 新增登录两步验证, 安全等级预设收紧并支持永久封禁"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611131012",
-    "items": [
-      {
-        "commit": "0eb53a7610ad10909fbc00b19498c411f63f9072",
-        "author": "俊臣",
-        "date": "2026-11-12 18:42:08",
-        "message": "feat ✨: 媒体库同步条目接口支持 tmdbId 直查,消除详情页播放来源按标题搜索漏配"
       }
     ]
   }
