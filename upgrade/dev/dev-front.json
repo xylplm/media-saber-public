@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170044",
+    "items": [
+      {
+        "commit": "ca1e6f767c13621a820557f833d3d3e26c80261c",
+        "author": "liurongjie",
+        "date": "2026-11-17 00:43:26",
+        "message": "fix(ops): 云资源移动端表格抢回MDC强制padding并放宽资源名两行截断"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170021",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xylplm",
         "date": "2026-11-08 10:17:11",
         "message": "feat ✨: 编辑弹窗标注升级语言多选,新增批量编辑与中字标签"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611071824",
-    "items": [
-      {
-        "commit": "e544daf619a94cc4030b11f0975f333c87b10d5e",
-        "author": "liurongjie",
-        "date": "2026-11-07 18:24:14",
-        "message": "fix 🐛: 插件配置弹窗手机端走全屏抽屉布局,底部工具栏不再被浏览器工具栏遮挡"
       }
     ]
   }
