@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202611162322",
+    "items": [
+      {
+        "commit": "bfb5933c7a885378714f6c380805dbb939d12a78",
+        "author": "liurongjie",
+        "date": "2026-11-16 23:22:33",
+        "message": "fix: 删除csrf_token重复声明, 修复PR30遗留编译错误"
+      },
+      {
+        "commit": "dacd1df36a8be45aaa726a697181e9106447716b",
+        "author": "xylplm",
+        "date": "2026-11-16 11:03:21",
+        "message": "review修正: 皇后签到保留请求历史与失败日志正文, 撤销公共请求模块的站点硬编码"
+      },
+      {
+        "commit": "62c0cf18526bf044051f74daa5141fb2cf1d9c7e",
+        "author": "xiaojun5270",
+        "date": "2026-11-15 11:55:34",
+        "message": "fix(opencd): forward sign-in CSRF token and transient cookie"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611160053",
     "items": [
       {
@@ -101,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 00:55:44",
         "message": "fix 🐛: 豆列搜索结果丢失, 站点删除吞错回传, btsite连接泄漏与断言panic, 过滤正则缓存, 取消订阅幂等, 后台goroutine panic兜底, StoragesLoaded裸写收敛, 删死代码"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611140023",
-    "items": [
-      {
-        "commit": "37801e307b1bdd0e92892cd8c2f9ee1fedfae530",
-        "author": "liurongjie",
-        "date": "2026-11-14 00:23:29",
-        "message": "plex browse缓存跳过PMS prefill流量写入, 防冲刷LRU致VidHub无身份键恒miss"
       }
     ]
   }

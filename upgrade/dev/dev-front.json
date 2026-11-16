@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611162322",
+    "items": [
+      {
+        "commit": "05999aa993a2abe8ccf7356982c3918099a4448b",
+        "author": "xylplm",
+        "date": "2026-11-16 13:12:48",
+        "message": "fix 🐛: 文件列表搜索后分页回到第一页，翻页不再丢失过滤条件"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611131012",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-11-07 17:17:50",
         "message": "feat ✨: 动态表单工具栏按钮按服务端inMore配置渲染更多菜单"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611070328",
-    "items": [
-      {
-        "commit": "2f880ff02c63019b9297c1a5e6f432eee4061391",
-        "author": "liurongjie",
-        "date": "2026-11-06 23:37:24",
-        "message": "ui 🎨: 插件配置弹窗底部工具栏上内边距统一压缩为10px"
       }
     ]
   }
