@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170021",
+    "items": [
+      {
+        "commit": "6ca2064f75a361d8f9e7afe5258abc5151cc44ad",
+        "author": "liurongjie",
+        "date": "2026-11-17 00:20:56",
+        "message": "fix: ops用户列表客户端钳制pageSize上限100, 防远程静默截回20"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611162322",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 01:51:10",
         "message": "perf: UpdateWords识别词条改单次查询消除1100+点查N+1, 启动各阶段加耗时日志定位40秒卡点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611140057",
-    "items": [
-      {
-        "commit": "3e5523ab301efb42eee0d61040275bfc4b68d64c",
-        "author": "liurongjie",
-        "date": "2026-11-14 00:55:44",
-        "message": "fix 🐛: 豆列搜索结果丢失, 站点删除吞错回传, btsite连接泄漏与断言panic, 过滤正则缓存, 取消订阅幂等, 后台goroutine panic兜底, StoragesLoaded裸写收敛, 删死代码"
       }
     ]
   }

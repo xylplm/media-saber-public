@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170021",
+    "items": [
+      {
+        "commit": "465af378b86b9a1ae990d42abb769e5a95769890",
+        "author": "liurongjie",
+        "date": "2026-11-17 00:20:48",
+        "message": "fix(ops): 用户列表每页选项收敛到100, 避免远程截断回20与翻页错位"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611162356",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-11-07 18:24:14",
         "message": "fix 🐛: 插件配置弹窗手机端走全屏抽屉布局,底部工具栏不再被浏览器工具栏遮挡"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611071804",
-    "items": [
-      {
-        "commit": "da4f647e817f45ff503023048729c63a316a78f7",
-        "author": "liurongjie",
-        "date": "2026-11-07 18:04:42",
-        "message": "ui 🎨: 更多菜单按钮图标定尺寸与文字同行防换行"
       }
     ]
   }
