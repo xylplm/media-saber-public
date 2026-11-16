@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611162356",
+    "items": [
+      {
+        "commit": "0649d4ef68bf497b2175adf8aa35b7a08027ce5b",
+        "author": "liurongjie",
+        "date": "2026-11-16 23:56:11",
+        "message": "fix(site): 签到筛选请求失败兜底EMPTY, 修复流死亡后列表冻结不再刷新"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611162322",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-11-07 18:04:42",
         "message": "ui 🎨: 更多菜单按钮图标定尺寸与文字同行防换行"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611071722",
-    "items": [
-      {
-        "commit": "d3b72ca74f995eb084babf83424a5d55db96dd88",
-        "author": "liurongjie",
-        "date": "2026-11-07 17:17:50",
-        "message": "feat ✨: 动态表单工具栏按钮按服务端inMore配置渲染更多菜单"
       }
     ]
   }
