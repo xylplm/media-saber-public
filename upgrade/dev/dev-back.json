@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170117",
+    "items": [
+      {
+        "commit": "2cbf2438d20106377ac9b0d55773cd5b5d9c24df",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:17:02",
+        "message": "fix: 微信搜索种子选项集数挪到体积前"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170100",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 02:41:32",
         "message": "perf: 去掉plex hubs预热启动首轮, Redis层跨重启兜底后首轮冷回源只与重启风暴抢资源, 首个预热轮延后一个周期"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611140218",
-    "items": [
-      {
-        "commit": "ed3e38c2bab87dc54f9bc338f2db19905b9bd1b9",
-        "author": "liurongjie",
-        "date": "2026-11-14 02:17:54",
-        "message": "perf: model迁移收敛RunMigrations限并发4执行, 消除54并发AutoMigrate挤兑连接池的启动卡点"
       }
     ]
   }
