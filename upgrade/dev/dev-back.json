@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170238",
+    "items": [
+      {
+        "commit": "b97fce7256738026cf449933082e7f9e8f307af4",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:57:55",
+        "message": "fix: nasInfo重登独立超时防循环失效, np签到404短路视为站点未启用, 站点历史N+1改map"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170133",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 13:54:46",
         "message": "fix: hubs跨变体垫底加内容签名守卫防promoted串库串类型, 预热上限48提升96覆盖观测变体"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611141311",
-    "items": [
-      {
-        "commit": "9bc0d9936c26b1a5ef5941a1408be9e1357b1990",
-        "author": "liurongjie",
-        "date": "2026-11-14 13:11:14",
-        "message": "fix: API Key鉴权缓存层错误加DB直查兜底防Redis抖动误拒, 认证失败日志带真实原因"
       }
     ]
   }
