@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170100",
+    "items": [
+      {
+        "commit": "db25716a32f45b158b218ba9e498ddf4aa6d6f05",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:00:05",
+        "message": "feat: 微信搜索种子选项展示季集信息, 免点下载即知集数"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170021",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 02:17:54",
         "message": "perf: model迁移收敛RunMigrations限并发4执行, 消除54并发AutoMigrate挤兑连接池的启动卡点"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611140151",
-    "items": [
-      {
-        "commit": "2e1a1c765b4685bca54c49ce9acd499a91d99f91",
-        "author": "liurongjie",
-        "date": "2026-11-14 01:51:10",
-        "message": "perf: UpdateWords识别词条改单次查询消除1100+点查N+1, 启动各阶段加耗时日志定位40秒卡点"
       }
     ]
   }
