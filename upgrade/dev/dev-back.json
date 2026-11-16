@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170133",
+    "items": [
+      {
+        "commit": "11fd91d00220cfa75cfdce41b3e17980e638ef2b",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:32:40",
+        "message": "fix: 站点批量任务限并发10, 缓解出口对CF高并发reset/EOF/超时"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170117",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 13:11:14",
         "message": "fix: API Key鉴权缓存层错误加DB直查兜底防Redis抖动误拒, 认证失败日志带真实原因"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611140241",
-    "items": [
-      {
-        "commit": "2ebd16d68d2551adf1d8ed186123b8486d8b5124",
-        "author": "liurongjie",
-        "date": "2026-11-14 02:41:32",
-        "message": "perf: 去掉plex hubs预热启动首轮, Redis层跨重启兜底后首轮冷回源只与重启风暴抢资源, 首个预热轮延后一个周期"
       }
     ]
   }
