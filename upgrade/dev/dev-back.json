@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611180203",
+    "items": [
+      {
+        "commit": "db978afd26c63d3c6308e814411dd43be83d6554",
+        "author": "liurongjie",
+        "date": "2026-11-18 01:58:23",
+        "message": "perf: 启动时模型结构指纹一致则跳过全量迁移, 60表catalog检查90s收敛为毫秒级"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611180125",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 01:17:02",
         "message": "fix: 微信搜索种子选项集数挪到体积前"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170100",
-    "items": [
-      {
-        "commit": "db25716a32f45b158b218ba9e498ddf4aa6d6f05",
-        "author": "liurongjie",
-        "date": "2026-11-17 01:00:05",
-        "message": "feat: 微信搜索种子选项展示季集信息, 免点下载即知集数"
       }
     ]
   }
