@@ -1,5 +1,28 @@
 [
   {
+    "version": "DEV_202611172319",
+    "items": [
+      {
+        "commit": "2461a5357b849d6b1d561fcd4b92071b54c962a8",
+        "author": "liurongjie",
+        "date": "2026-11-17 23:15:56",
+        "message": "fix: 媒体服务刷新TaskTitle去掉实例名重复前缀"
+      },
+      {
+        "commit": "6907eeaf769d6949b471bbaa0645c3198b45b07d",
+        "author": "xylplm",
+        "date": "2026-11-17 12:19:15",
+        "message": "fix 🐛: 修复皇后签到csrf改动遗留的重复取值编译错误"
+      },
+      {
+        "commit": "3f2fa7a6c07a4e2f91b700e04f20455aa27cedd4",
+        "author": "xylplm",
+        "date": "2026-11-17 12:19:15",
+        "message": "fix 🐛: 秘籍通知统一带封面,修复17个插件微信通知只有文字没图"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170820",
     "items": [
       {
@@ -107,23 +130,6 @@
         "author": "liurongjie",
         "date": "2026-11-15 12:43:26",
         "message": "fix: 皇后签到提交携带csrf_token, 适配站点新增CSRF校验403"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611141517",
-    "items": [
-      {
-        "commit": "f1bd83a4bfaa7ef73eb323f0c6818013452c20e3",
-        "author": "liurongjie",
-        "date": "2026-11-14 15:17:29",
-        "message": "perf: hubs/metadata大body进Redis分档放开, hubs对齐内存上限1.5M, metadata同browse 4M档"
-      },
-      {
-        "commit": "599b8fc07c81f785d296d3927fbec85400307b72",
-        "author": "liurongjie",
-        "date": "2026-11-14 15:17:29",
-        "message": "fix: tracker替换目标归一化防非法announce, ugreen守卫清陈旧username, mlist退避重试补PG锁冲突判定, tmdb识别词尾边界改数字断言防过杀"
       }
     ]
   }
