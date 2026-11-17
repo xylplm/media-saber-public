@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611180052",
+    "items": [
+      {
+        "commit": "95d55369da0ed12938ddf87a4ae4d5d6472f9369",
+        "author": "liurongjie",
+        "date": "2026-11-18 00:51:40",
+        "message": "fix: mediasearch未知媒体源返回错误替代panic, 补齐三处调用错误处理"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611180035",
     "items": [
       {
@@ -107,29 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 00:20:56",
         "message": "fix: ops用户列表客户端钳制pageSize上限100, 防远程静默截回20"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611162322",
-    "items": [
-      {
-        "commit": "bfb5933c7a885378714f6c380805dbb939d12a78",
-        "author": "liurongjie",
-        "date": "2026-11-16 23:22:33",
-        "message": "fix: 删除csrf_token重复声明, 修复PR30遗留编译错误"
-      },
-      {
-        "commit": "dacd1df36a8be45aaa726a697181e9106447716b",
-        "author": "xylplm",
-        "date": "2026-11-16 11:03:21",
-        "message": "review修正: 皇后签到保留请求历史与失败日志正文, 撤销公共请求模块的站点硬编码"
-      },
-      {
-        "commit": "62c0cf18526bf044051f74daa5141fb2cf1d9c7e",
-        "author": "xiaojun5270",
-        "date": "2026-11-15 11:55:34",
-        "message": "fix(opencd): forward sign-in CSRF token and transient cookie"
       }
     ]
   }
