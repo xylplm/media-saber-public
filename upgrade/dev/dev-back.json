@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170820",
+    "items": [
+      {
+        "commit": "8682ce2aaf52561e7be4d217209528c6c31dd25c",
+        "author": "liurongjie",
+        "date": "2026-11-17 08:20:09",
+        "message": "fix: 站点批量任务锁范围收窄, 网络请求与推送移出锁内防串行拖垮整轮"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170238",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-14 15:17:29",
         "message": "fix: tracker替换目标归一化防非法announce, ugreen守卫清陈旧username, mlist退避重试补PG锁冲突判定, tmdb识别词尾边界改数字断言防过杀"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611141355",
-    "items": [
-      {
-        "commit": "454b7f9a51c0511acd7511ce239e10931b36e7b6",
-        "author": "liurongjie",
-        "date": "2026-11-14 13:54:46",
-        "message": "fix: hubs跨变体垫底加内容签名守卫防promoted串库串类型, 预热上限48提升96覆盖观测变体"
       }
     ]
   }
