@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611180035",
+    "items": [
+      {
+        "commit": "ea0502aa3b23e25812ecda4ded4d67aec98092d8",
+        "author": "liurongjie",
+        "date": "2026-11-18 00:35:10",
+        "message": "perf: 过滤规则批量预取匹配规则, 消除RSS/搜索热点路径N+1"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611172356",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "xiaojun5270",
         "date": "2026-11-15 11:55:34",
         "message": "fix(opencd): forward sign-in CSRF token and transient cookie"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611160053",
-    "items": [
-      {
-        "commit": "7bda66130e88b20a6048f5c393606380834ab73a",
-        "author": "liurongjie",
-        "date": "2026-11-16 00:52:43",
-        "message": "fix: 消息公告类响应体跳过流控关键词检查, 修复好大公告正文误触发流控告警"
       }
     ]
   }
