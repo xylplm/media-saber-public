@@ -18,6 +18,8 @@ mkdir -p /app/config/data/static/wallpaper
 envsubst '${MS_PORT}' < /etc/nginx/nginx.template.conf > /etc/nginx/nginx.conf
 groupmod -o -g "${PGID}" msaber
 usermod -o -u "${PUID}" msaber
+echo "[entrypoint] 阶段1 目录/envsubst/用户 就绪，耗时 $(( $(date +%s) - T0 ))s"
+T0=$(date +%s)
 
 # 只对运行时写路径递归 chown：config（data/tmp/logs/backup/site_config 等）、etc（配置/动态表单）、
 # static（消息背景/字体等之外的未知写路径保守兜底）。front/doc/mediaSaber 二进制保持镜像属主
@@ -31,10 +33,11 @@ chown msaber:msaber -R \
     /run/nginx \
     /var/log/nginx \
     /etc/nginx
+echo "[entrypoint] 阶段2 chown(收窄范围) 完成，耗时 $(( $(date +%s) - T0 ))s"
+T0=$(date +%s)
 
 nginx
-
-echo "[entrypoint] 目录/用户/chown/nginx 就绪，耗时 $(( $(date +%s) - T0 ))s"
+echo "[entrypoint] 阶段3 nginx 就绪，耗时 $(( $(date +%s) - T0 ))s"
 cd /app || exit
 umask "${UMASK}"
 exec su-exec msaber:msaber /app/mediaSaber
