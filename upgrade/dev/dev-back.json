@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611180125",
+    "items": [
+      {
+        "commit": "3bfb777abd73184116652e5673cd5c178251b93c",
+        "author": "liurongjie",
+        "date": "2026-11-18 01:25:31",
+        "message": "perf: Plex代理命中路径优化, LRU尾扫早停+请求级query memo+origin阻塞等待"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611180052",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 01:00:05",
         "message": "feat: 微信搜索种子选项展示季集信息, 免点下载即知集数"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170021",
-    "items": [
-      {
-        "commit": "6ca2064f75a361d8f9e7afe5258abc5151cc44ad",
-        "author": "liurongjie",
-        "date": "2026-11-17 00:20:56",
-        "message": "fix: ops用户列表客户端钳制pageSize上限100, 防远程静默截回20"
       }
     ]
   }
