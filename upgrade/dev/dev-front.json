@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611170854",
+    "items": [
+      {
+        "commit": "93fb73616522c26a0176a782e8dc7778c9e1423f",
+        "author": "liurongjie",
+        "date": "2026-11-17 08:54:27",
+        "message": "fix(site): 筛选切换移除change即时触发改走防抖, 修复筛出上一个状态数据"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611170044",
     "items": [
       {
@@ -107,29 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-10 00:21:43",
         "message": "ui 🎨: 云端存储任务状态选择框补充全部状态占位文案"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611100000",
-    "items": [
-      {
-        "commit": "97e534f9eae54f2bd1b31fdf5828cf6414156359",
-        "author": "liurongjie",
-        "date": "2026-11-09 23:43:54",
-        "message": "ui 🎨: 云端存储任务关键词搜索框 label 改为文件名/路径并清空 placeholder"
-      },
-      {
-        "commit": "715cdcc47e545a4329e1b798e37533a06d1c7772",
-        "author": "xylplm",
-        "date": "2026-11-09 20:26:37",
-        "message": "ui 🎨: 云资源批量栏拉黑举报删除收敛进更多菜单"
-      },
-      {
-        "commit": "8e79c8b4371c7475113b4c28bb248c6ae046c9e3",
-        "author": "xylplm",
-        "date": "2026-11-08 10:17:11",
-        "message": "feat ✨: 编辑弹窗标注升级语言多选,新增批量编辑与中字标签"
       }
     ]
   }
