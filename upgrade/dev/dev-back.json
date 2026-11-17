@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611172356",
+    "items": [
+      {
+        "commit": "1ca4355ae6fd0773045c26387a59d917ff0bcfe3",
+        "author": "liurongjie",
+        "date": "2026-11-17 23:56:10",
+        "message": "fix: 消息同步失败站点自动重试一轮, 兜底出口偶发EOF残留"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611172319",
     "items": [
       {
@@ -119,17 +130,6 @@
         "author": "liurongjie",
         "date": "2026-11-16 00:52:43",
         "message": "fix: 消息公告类响应体跳过流控关键词检查, 修复好大公告正文误触发流控告警"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611151243",
-    "items": [
-      {
-        "commit": "2784f98682c9c45d7552ac3f8501ff921451cec1",
-        "author": "liurongjie",
-        "date": "2026-11-15 12:43:26",
-        "message": "fix: 皇后签到提交携带csrf_token, 适配站点新增CSRF校验403"
       }
     ]
   }
