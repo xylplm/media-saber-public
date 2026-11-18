@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611190027",
+    "items": [
+      {
+        "commit": "520151f8c97593ec77dac40a39c28842ea685d10",
+        "author": "liurongjie",
+        "date": "2026-11-19 00:30:33",
+        "message": "Revert \"fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min\""
+      },
+      {
+        "commit": "497ef1954aabf6a68364ff204587887047b3f854",
+        "author": "liurongjie",
+        "date": "2026-11-19 00:26:48",
+        "message": "fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611180203",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 01:32:40",
         "message": "fix: 站点批量任务限并发10, 缓解出口对CF高并发reset/EOF/超时"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170117",
-    "items": [
-      {
-        "commit": "2cbf2438d20106377ac9b0d55773cd5b5d9c24df",
-        "author": "liurongjie",
-        "date": "2026-11-17 01:17:02",
-        "message": "fix: 微信搜索种子选项集数挪到体积前"
       }
     ]
   }
