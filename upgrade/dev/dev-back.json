@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611190221",
+    "items": [
+      {
+        "commit": "7b2d4563bd17f2725d409fe72aacd8b0f8642991",
+        "author": "liurongjie",
+        "date": "2026-11-19 02:20:34",
+        "message": "feat: 站点令牌自动续期, 定时用Cookie换新令牌更新Authorization请求头"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611190027",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 01:57:55",
         "message": "fix: nasInfo重登独立超时防循环失效, np签到404短路视为站点未启用, 站点历史N+1改map"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170133",
-    "items": [
-      {
-        "commit": "11fd91d00220cfa75cfdce41b3e17980e638ef2b",
-        "author": "liurongjie",
-        "date": "2026-11-17 01:32:40",
-        "message": "fix: 站点批量任务限并发10, 缓解出口对CF高并发reset/EOF/超时"
       }
     ]
   }
