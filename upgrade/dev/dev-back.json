@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611190837",
+    "items": [
+      {
+        "commit": "80db93c734b6259334997811fcfccf123e7a2fc3",
+        "author": "xylplm",
+        "date": "2026-11-19 08:33:28",
+        "message": "feat ✨: 站点配置新增版本信息查询、手动上传配置包与更新版本自描述解析"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611190821",
     "items": [
       {
@@ -107,29 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 23:56:10",
         "message": "fix: 消息同步失败站点自动重试一轮, 兜底出口偶发EOF残留"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611172319",
-    "items": [
-      {
-        "commit": "2461a5357b849d6b1d561fcd4b92071b54c962a8",
-        "author": "liurongjie",
-        "date": "2026-11-17 23:15:56",
-        "message": "fix: 媒体服务刷新TaskTitle去掉实例名重复前缀"
-      },
-      {
-        "commit": "6907eeaf769d6949b471bbaa0645c3198b45b07d",
-        "author": "xylplm",
-        "date": "2026-11-17 12:19:15",
-        "message": "fix 🐛: 修复皇后签到csrf改动遗留的重复取值编译错误"
-      },
-      {
-        "commit": "3f2fa7a6c07a4e2f91b700e04f20455aa27cedd4",
-        "author": "xylplm",
-        "date": "2026-11-17 12:19:15",
-        "message": "fix 🐛: 秘籍通知统一带封面,修复17个插件微信通知只有文字没图"
       }
     ]
   }

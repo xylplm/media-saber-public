@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611190837",
+    "items": [
+      {
+        "commit": "ed60fdd1922d054d4db2b2107dd53a51ef5f5cd2",
+        "author": "xylplm",
+        "date": "2026-11-19 08:34:03",
+        "message": "feat ✨: 站点维护新增站点配置卡片，支持版本展示、检查更新、手动上传与更新确认"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611190246",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-12 00:46:51",
         "message": "ui 🎨: 云端资源管理移动端适配,筛选两列网格与表格收列防横向溢出"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611111549",
-    "items": [
-      {
-        "commit": "8bb934a55939bbee8090b99893a4d3f489d095ac",
-        "author": "xylplm",
-        "date": "2026-11-11 13:06:11",
-        "message": "feat ✨: 等级与仙石脱钩的前端全面改版"
       }
     ]
   }
