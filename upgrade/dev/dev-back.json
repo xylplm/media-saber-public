@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611191136",
+    "items": [
+      {
+        "commit": "dc0e3328ba98e6d69240cabb55e6e30b84a0d464",
+        "author": "xylplm",
+        "date": "2026-11-19 09:23:52",
+        "message": "feat ✨: 认证服务消息新增专属封面，管理员系统通知全员推送"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611190837",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-18 00:35:10",
         "message": "perf: 过滤规则批量预取匹配规则, 消除RSS/搜索热点路径N+1"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611172356",
-    "items": [
-      {
-        "commit": "1ca4355ae6fd0773045c26387a59d917ff0bcfe3",
-        "author": "liurongjie",
-        "date": "2026-11-17 23:56:10",
-        "message": "fix: 消息同步失败站点自动重试一轮, 兜底出口偶发EOF残留"
       }
     ]
   }
