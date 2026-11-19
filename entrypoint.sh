@@ -26,9 +26,7 @@ T0=$(date +%s)
 # （root）只读——原先 chown -R /app 把前端产物+文档+静态资源一起递归改属主，在 NAS 磁盘/
 # 存储驱动（如 vfs copy-up）上是显著的启动开销。
 chown msaber:msaber -R \
-    /app/config \
-    /app/etc \
-    /app/static \
+    /app \
     /var/lib/nginx \
     /run/nginx \
     /var/log/nginx \
