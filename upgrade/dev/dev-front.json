@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611192356",
+    "items": [
+      {
+        "commit": "7c05e07f674082cd76f494b70765894317fe1bc4",
+        "author": "liurongjie",
+        "date": "2026-11-19 23:19:33",
+        "message": "fix(download): 近期下载标题与站点筛选去label改placeholder提示, 媒体类型保留label"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611191136",
     "items": [
       {
@@ -95,23 +106,6 @@
         "author": "xylplm",
         "date": "2026-11-16 13:12:48",
         "message": "fix 🐛: 文件列表搜索后分页回到第一页，翻页不再丢失过滤条件"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611131012",
-    "items": [
-      {
-        "commit": "a3a9300185a55fff5c02e9be13e473ecf6ae4e9a",
-        "author": "xylplm",
-        "date": "2026-11-13 07:29:05",
-        "message": "feat ✨: 历练弹窗摘要展示修为增减区间"
-      },
-      {
-        "commit": "e1e58c722e4df376e38fdb24f9e417f272517349",
-        "author": "xylplm",
-        "date": "2026-11-13 07:18:17",
-        "message": "feat ✨: 历练奖池编辑器支持配置修为增减"
       }
     ]
   }

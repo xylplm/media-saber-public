@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611192356",
+    "items": [
+      {
+        "commit": "5acf99f869f2c4a927901d061f4cc728d02b0696",
+        "author": "liurongjie",
+        "date": "2026-11-19 23:56:12",
+        "message": "fix: 刷新任务路径去重合并, Plex库分区列表30s缓存防转存风暴打满PMS"
+      },
+      {
+        "commit": "9c8ae02b7b871916f203464c1057f69237881e58",
+        "author": "liurongjie",
+        "date": "2026-11-19 23:31:08",
+        "message": "fix: cs_hash上报按源路径反查下载历史补种子文案, brush缓存不再退化描述"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611191136",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-18 00:51:40",
         "message": "fix: mediasearch未知媒体源返回错误替代panic, 补齐三处调用错误处理"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611180035",
-    "items": [
-      {
-        "commit": "ea0502aa3b23e25812ecda4ded4d67aec98092d8",
-        "author": "liurongjie",
-        "date": "2026-11-18 00:35:10",
-        "message": "perf: 过滤规则批量预取匹配规则, 消除RSS/搜索热点路径N+1"
       }
     ]
   }
