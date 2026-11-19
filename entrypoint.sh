@@ -21,10 +21,6 @@ usermod -o -u "${PUID}" msaber
 echo "[entrypoint] 阶段1 目录/envsubst/用户 就绪，耗时 $(( $(date +%s) - T0 ))s"
 T0=$(date +%s)
 
-# 只对运行时写路径递归 chown：config（data/tmp/logs/backup/site_config 等）、etc（配置/动态表单）、
-# static（消息背景/字体等之外的未知写路径保守兜底）。front/doc/mediaSaber 二进制保持镜像属主
-# （root）只读——原先 chown -R /app 把前端产物+文档+静态资源一起递归改属主，在 NAS 磁盘/
-# 存储驱动（如 vfs copy-up）上是显著的启动开销。
 chown msaber:msaber -R \
     /app \
     /var/lib/nginx \
