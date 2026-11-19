@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611200035",
+    "items": [
+      {
+        "commit": "bd0a7604c5d0c6586a8408956f8cd9eb59d6d7d7",
+        "author": "liurongjie",
+        "date": "2026-11-20 00:34:53",
+        "message": "fix: 同步条目tmdb路径标记兜底, movie短路放开0值修复, upsert防0值覆盖"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611192356",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-18 01:25:31",
         "message": "perf: Plex代理命中路径优化, LRU尾扫早停+请求级query memo+origin阻塞等待"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611180052",
-    "items": [
-      {
-        "commit": "95d55369da0ed12938ddf87a4ae4d5d6472f9369",
-        "author": "liurongjie",
-        "date": "2026-11-18 00:51:40",
-        "message": "fix: mediasearch未知媒体源返回错误替代panic, 补齐三处调用错误处理"
       }
     ]
   }
