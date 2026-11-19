@@ -1,5 +1,82 @@
 [
   {
+    "version": "3.0_202611181744",
+    "items": [
+      {
+        "commit": "d6e7c73f319588be97875d5752b16e190fcf2713",
+        "author": "liurongjie",
+        "date": "2026-11-17 23:15:20",
+        "message": "fix 🐛: 移动端卡片列表改读响应式数据源修复筛选不刷新, 云资源移动端列宽与分页选项调整, 115应用ID下拉内置常用应用"
+      },
+      {
+        "commit": "93fb73616522c26a0176a782e8dc7778c9e1423f",
+        "author": "liurongjie",
+        "date": "2026-11-17 08:54:27",
+        "message": "fix(site): 筛选切换移除change即时触发改走防抖, 修复筛出上一个状态数据"
+      },
+      {
+        "commit": "ca1e6f767c13621a820557f833d3d3e26c80261c",
+        "author": "liurongjie",
+        "date": "2026-11-17 00:43:26",
+        "message": "fix(ops): 云资源移动端表格抢回MDC强制padding并放宽资源名两行截断"
+      },
+      {
+        "commit": "465af378b86b9a1ae990d42abb769e5a95769890",
+        "author": "liurongjie",
+        "date": "2026-11-17 00:20:48",
+        "message": "fix(ops): 用户列表每页选项收敛到100, 避免远程截断回20与翻页错位"
+      },
+      {
+        "commit": "0649d4ef68bf497b2175adf8aa35b7a08027ce5b",
+        "author": "liurongjie",
+        "date": "2026-11-16 23:56:11",
+        "message": "fix(site): 签到筛选请求失败兜底EMPTY, 修复流死亡后列表冻结不再刷新"
+      },
+      {
+        "commit": "05999aa993a2abe8ccf7356982c3918099a4448b",
+        "author": "xylplm",
+        "date": "2026-11-16 13:12:48",
+        "message": "fix 🐛: 文件列表搜索后分页回到第一页，翻页不再丢失过滤条件"
+      },
+      {
+        "commit": "a3a9300185a55fff5c02e9be13e473ecf6ae4e9a",
+        "author": "xylplm",
+        "date": "2026-11-13 07:29:05",
+        "message": "feat ✨: 历练弹窗摘要展示修为增减区间"
+      },
+      {
+        "commit": "e1e58c722e4df376e38fdb24f9e417f272517349",
+        "author": "xylplm",
+        "date": "2026-11-13 07:18:17",
+        "message": "feat ✨: 历练奖池编辑器支持配置修为增减"
+      },
+      {
+        "commit": "055ab3fafd24c114236a3851bade07a6208b214b",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:46:51",
+        "message": "ui 🎨: 过滤规则移动端收行,卡片头部两行布局与规则卡紧凑排列"
+      },
+      {
+        "commit": "dacc02f87cd04c3ed32a47a83bed8001eb79ac03",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:46:51",
+        "message": "ui 🎨: 云端资源管理移动端适配,筛选两列网格与表格收列防横向溢出"
+      },
+      {
+        "commit": "8bb934a55939bbee8090b99893a4d3f489d095ac",
+        "author": "xylplm",
+        "date": "2026-11-11 13:06:11",
+        "message": "feat ✨: 等级与仙石脱钩的前端全面改版"
+      },
+      {
+        "commit": "48d51c70119fc0712cd1e28bb923fa4ed46055d5",
+        "author": "xylplm",
+        "date": "2026-11-10 21:44:22",
+        "message": "feat ✨: 云识别词支持删除云端词组，编辑删空全部词条即删除整个词组"
+      }
+    ]
+  },
+  {
     "version": "3.0_202611102023",
     "items": [
       {
@@ -7337,131 +7414,6 @@
         "author": "liurongjie",
         "date": "2025-11-26 11:04:11",
         "message": "feat(search): 添加搜索框自动建议功能"
-      }
-    ]
-  },
-  {
-    "version": "3.0_202511251429",
-    "items": [
-      {
-        "commit": "c0745f6c99bf3b4f047798044292fb5e1aa3d6b3",
-        "author": "xylplm",
-        "date": "2025-11-24 13:49:15",
-        "message": "fix: 优化 文件类型方法抽出到公共方法中"
-      },
-      {
-        "commit": "a2f5267195070636ac1bfd930e55fd0bf7322d6b",
-        "author": "xylplm",
-        "date": "2025-11-24 13:46:09",
-        "message": "fix: lint error"
-      },
-      {
-        "commit": "208e3734ba3623eefdc52290aa90c269c952f12b",
-        "author": "xylplm",
-        "date": "2025-11-24 13:36:30",
-        "message": "fix:字符串复制方法更换为angular cdk方法"
-      },
-      {
-        "commit": "cd923c883faf994b12e3c7c7cfb90cec34a824c2",
-        "author": "liurongjie",
-        "date": "2025-11-22 10:01:08",
-        "message": "fix(cloud-storage): 修复文件大小显示逻辑"
-      },
-      {
-        "commit": "76963b2328fb0fda2038d5713b4114e1b2df778b",
-        "author": "liurongjie",
-        "date": "2025-11-22 09:44:26",
-        "message": "feat(cloud-storage): 优化任务卡片界面并添加路径复制功能"
-      },
-      {
-        "commit": "da0351ef4992dfd51d3c2485c253b95b70d8354e",
-        "author": "liurongjie",
-        "date": "2025-11-21 23:34:24",
-        "message": "feat(cloud-storage): 优化云存储主页功能和界面交互"
-      },
-      {
-        "commit": "7cfaacca599c116d633af475712e18d071a3040e",
-        "author": "GateCross",
-        "date": "2025-11-21 13:56:25",
-        "message": "fix:定时任务支持时间段"
-      },
-      {
-        "commit": "b516cc64e2ff881e4c0eaa3bf4d145f1d3cf76bd",
-        "author": "xylplm",
-        "date": "2025-11-20 16:55:01",
-        "message": "fix: 清除冗余文件"
-      },
-      {
-        "commit": "977238071ccd270efca9109713413647d6edaef7",
-        "author": "liurongjie",
-        "date": "2025-11-20 15:48:42",
-        "message": "feat(search): 显示种子详细信息中的分辨率标签"
-      },
-      {
-        "commit": "d9370e9730578894745c52c2fb6518e3d052a759",
-        "author": "liurongjie",
-        "date": "2025-11-20 13:09:50",
-        "message": "style(cloud-storage): 统一进度标签的冒号样式"
-      },
-      {
-        "commit": "29b1ec8aba3da37f86ebfe2ae79db35a33c0e6e3",
-        "author": "liurongjie",
-        "date": "2025-11-20 12:34:09",
-        "message": "style(cloud-storage): 优化未完成任务卡片样式与信息展示"
-      },
-      {
-        "commit": "d1a71224d03df500e584b342cc60591745d28ae7",
-        "author": "liurongjie",
-        "date": "2025-11-20 12:28:09",
-        "message": "style(cloud-storage): 优化完成任务卡片样式与布局"
-      },
-      {
-        "commit": "3a8f61117bbc193f9629c0f1b23c231f7abd8517",
-        "author": "xylplm",
-        "date": "2025-11-20 11:28:16",
-        "message": "Update angular-best-practices.prompt.md"
-      },
-      {
-        "commit": "f2e5cd0602e581ee3cfee4a51f14e72f253bbf0a",
-        "author": "xylplm",
-        "date": "2025-11-20 10:33:22",
-        "message": "fix: 优化更新日志和提示页面的UI"
-      },
-      {
-        "commit": "cd267e83bc285798af240bdb35cc02eb1abf1e44",
-        "author": "xylplm",
-        "date": "2025-11-20 10:32:55",
-        "message": "feat:flex和宽度scss支持响应式定义"
-      },
-      {
-        "commit": "69cf4606d93fe8192d69369bf2cc8409b07aa5cf",
-        "author": "xylplm",
-        "date": "2025-11-20 09:51:09",
-        "message": "fix:优化存储管理列表样式"
-      },
-      {
-        "commit": "56d237fc90585fa57d757fdf020324ef0156cad9",
-        "author": "xylplm",
-        "date": "2025-11-20 09:28:59",
-        "message": "format code"
-      },
-      {
-        "commit": "af7a979ae1cfc06bf7b6582dd35109c8d7f2a376",
-        "author": "github-actions[bot]",
-        "date": "2025-11-19 23:48:08",
-        "message": "fix:云存储 ui 优化"
-      },
-      {
-        "commit": "c0999e5e4787c338be8b6c33c6dd6381aaaba300",
-        "author": "xylplm",
-        "date": "2025-11-19 16:30:24",
-        "message": "fix: 优化 禁用版本检测加载动画"
-      },
-      {
-        "commit": "17e5be0d9134dc621e4349f2b6b277488276fcee",
-        "author": "liurongjie",
-        "date": "2025-11-19 14:39:17",
-        "message": "feat(cloud-storage): 新增123快链转存功能"
       }
     ]
   }

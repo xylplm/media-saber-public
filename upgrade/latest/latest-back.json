@@ -1,5 +1,250 @@
 [
   {
+    "version": "3.0_202611181744",
+    "items": [
+      {
+        "commit": "db978afd26c63d3c6308e814411dd43be83d6554",
+        "author": "liurongjie",
+        "date": "2026-11-18 01:58:23",
+        "message": "perf: 启动时模型结构指纹一致则跳过全量迁移, 60表catalog检查90s收敛为毫秒级"
+      },
+      {
+        "commit": "3bfb777abd73184116652e5673cd5c178251b93c",
+        "author": "liurongjie",
+        "date": "2026-11-18 01:25:31",
+        "message": "perf: Plex代理命中路径优化, LRU尾扫早停+请求级query memo+origin阻塞等待"
+      },
+      {
+        "commit": "95d55369da0ed12938ddf87a4ae4d5d6472f9369",
+        "author": "liurongjie",
+        "date": "2026-11-18 00:51:40",
+        "message": "fix: mediasearch未知媒体源返回错误替代panic, 补齐三处调用错误处理"
+      },
+      {
+        "commit": "ea0502aa3b23e25812ecda4ded4d67aec98092d8",
+        "author": "liurongjie",
+        "date": "2026-11-18 00:35:10",
+        "message": "perf: 过滤规则批量预取匹配规则, 消除RSS/搜索热点路径N+1"
+      },
+      {
+        "commit": "1ca4355ae6fd0773045c26387a59d917ff0bcfe3",
+        "author": "liurongjie",
+        "date": "2026-11-17 23:56:10",
+        "message": "fix: 消息同步失败站点自动重试一轮, 兜底出口偶发EOF残留"
+      },
+      {
+        "commit": "2461a5357b849d6b1d561fcd4b92071b54c962a8",
+        "author": "liurongjie",
+        "date": "2026-11-17 23:15:56",
+        "message": "fix: 媒体服务刷新TaskTitle去掉实例名重复前缀"
+      },
+      {
+        "commit": "6907eeaf769d6949b471bbaa0645c3198b45b07d",
+        "author": "xylplm",
+        "date": "2026-11-17 12:19:15",
+        "message": "fix 🐛: 修复皇后签到csrf改动遗留的重复取值编译错误"
+      },
+      {
+        "commit": "3f2fa7a6c07a4e2f91b700e04f20455aa27cedd4",
+        "author": "xylplm",
+        "date": "2026-11-17 12:19:15",
+        "message": "fix 🐛: 秘籍通知统一带封面,修复17个插件微信通知只有文字没图"
+      },
+      {
+        "commit": "8682ce2aaf52561e7be4d217209528c6c31dd25c",
+        "author": "liurongjie",
+        "date": "2026-11-17 08:20:09",
+        "message": "fix: 站点批量任务锁范围收窄, 网络请求与推送移出锁内防串行拖垮整轮"
+      },
+      {
+        "commit": "b97fce7256738026cf449933082e7f9e8f307af4",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:57:55",
+        "message": "fix: nasInfo重登独立超时防循环失效, np签到404短路视为站点未启用, 站点历史N+1改map"
+      },
+      {
+        "commit": "11fd91d00220cfa75cfdce41b3e17980e638ef2b",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:32:40",
+        "message": "fix: 站点批量任务限并发10, 缓解出口对CF高并发reset/EOF/超时"
+      },
+      {
+        "commit": "2cbf2438d20106377ac9b0d55773cd5b5d9c24df",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:17:02",
+        "message": "fix: 微信搜索种子选项集数挪到体积前"
+      },
+      {
+        "commit": "db25716a32f45b158b218ba9e498ddf4aa6d6f05",
+        "author": "liurongjie",
+        "date": "2026-11-17 01:00:05",
+        "message": "feat: 微信搜索种子选项展示季集信息, 免点下载即知集数"
+      },
+      {
+        "commit": "6ca2064f75a361d8f9e7afe5258abc5151cc44ad",
+        "author": "liurongjie",
+        "date": "2026-11-17 00:20:56",
+        "message": "fix: ops用户列表客户端钳制pageSize上限100, 防远程静默截回20"
+      },
+      {
+        "commit": "bfb5933c7a885378714f6c380805dbb939d12a78",
+        "author": "liurongjie",
+        "date": "2026-11-16 23:22:33",
+        "message": "fix: 删除csrf_token重复声明, 修复PR30遗留编译错误"
+      },
+      {
+        "commit": "dacd1df36a8be45aaa726a697181e9106447716b",
+        "author": "xylplm",
+        "date": "2026-11-16 11:03:21",
+        "message": "review修正: 皇后签到保留请求历史与失败日志正文, 撤销公共请求模块的站点硬编码"
+      },
+      {
+        "commit": "7bda66130e88b20a6048f5c393606380834ab73a",
+        "author": "liurongjie",
+        "date": "2026-11-16 00:52:43",
+        "message": "fix: 消息公告类响应体跳过流控关键词检查, 修复好大公告正文误触发流控告警"
+      },
+      {
+        "commit": "2784f98682c9c45d7552ac3f8501ff921451cec1",
+        "author": "liurongjie",
+        "date": "2026-11-15 12:43:26",
+        "message": "fix: 皇后签到提交携带csrf_token, 适配站点新增CSRF校验403"
+      },
+      {
+        "commit": "62c0cf18526bf044051f74daa5141fb2cf1d9c7e",
+        "author": "xiaojun5270",
+        "date": "2026-11-15 11:55:34",
+        "message": "fix(opencd): forward sign-in CSRF token and transient cookie"
+      },
+      {
+        "commit": "f1bd83a4bfaa7ef73eb323f0c6818013452c20e3",
+        "author": "liurongjie",
+        "date": "2026-11-14 15:17:29",
+        "message": "perf: hubs/metadata大body进Redis分档放开, hubs对齐内存上限1.5M, metadata同browse 4M档"
+      },
+      {
+        "commit": "599b8fc07c81f785d296d3927fbec85400307b72",
+        "author": "liurongjie",
+        "date": "2026-11-14 15:17:29",
+        "message": "fix: tracker替换目标归一化防非法announce, ugreen守卫清陈旧username, mlist退避重试补PG锁冲突判定, tmdb识别词尾边界改数字断言防过杀"
+      },
+      {
+        "commit": "454b7f9a51c0511acd7511ce239e10931b36e7b6",
+        "author": "liurongjie",
+        "date": "2026-11-14 13:54:46",
+        "message": "fix: hubs跨变体垫底加内容签名守卫防promoted串库串类型, 预热上限48提升96覆盖观测变体"
+      },
+      {
+        "commit": "9bc0d9936c26b1a5ef5941a1408be9e1357b1990",
+        "author": "liurongjie",
+        "date": "2026-11-14 13:11:14",
+        "message": "fix: API Key鉴权缓存层错误加DB直查兜底防Redis抖动误拒, 认证失败日志带真实原因"
+      },
+      {
+        "commit": "2ebd16d68d2551adf1d8ed186123b8486d8b5124",
+        "author": "liurongjie",
+        "date": "2026-11-14 02:41:32",
+        "message": "perf: 去掉plex hubs预热启动首轮, Redis层跨重启兜底后首轮冷回源只与重启风暴抢资源, 首个预热轮延后一个周期"
+      },
+      {
+        "commit": "ed3e38c2bab87dc54f9bc338f2db19905b9bd1b9",
+        "author": "liurongjie",
+        "date": "2026-11-14 02:17:54",
+        "message": "perf: model迁移收敛RunMigrations限并发4执行, 消除54并发AutoMigrate挤兑连接池的启动卡点"
+      },
+      {
+        "commit": "2e1a1c765b4685bca54c49ce9acd499a91d99f91",
+        "author": "liurongjie",
+        "date": "2026-11-14 01:51:10",
+        "message": "perf: UpdateWords识别词条改单次查询消除1100+点查N+1, 启动各阶段加耗时日志定位40秒卡点"
+      },
+      {
+        "commit": "3e5523ab301efb42eee0d61040275bfc4b68d64c",
+        "author": "liurongjie",
+        "date": "2026-11-14 00:55:44",
+        "message": "fix 🐛: 豆列搜索结果丢失, 站点删除吞错回传, btsite连接泄漏与断言panic, 过滤正则缓存, 取消订阅幂等, 后台goroutine panic兜底, StoragesLoaded裸写收敛, 删死代码"
+      },
+      {
+        "commit": "37801e307b1bdd0e92892cd8c2f9ee1fedfae530",
+        "author": "liurongjie",
+        "date": "2026-11-14 00:23:29",
+        "message": "plex browse缓存跳过PMS prefill流量写入, 防冲刷LRU致VidHub无身份键恒miss"
+      },
+      {
+        "commit": "40166344be443208431b6b5f39d2702d023ab1ab",
+        "author": "liurongjie",
+        "date": "2026-11-13 23:40:23",
+        "message": "btsite新增download_link通用下载链接签发, 必读公告拦截403改友好提示"
+      },
+      {
+        "commit": "4b64b252e701781e406ee4179de10b04bd60a09c",
+        "author": "liurongjie",
+        "date": "2026-11-13 23:17:49",
+        "message": "mlist合并OpenList/115driver上游2026-11: 115_open token轮换落库保护, onedrive重试防循环, guangyapan列表成功校验, op.Get列表错误透传, 轮换凭据写库退避重试, p115≥5GB分片上传串行修复"
+      },
+      {
+        "commit": "0eb53a7610ad10909fbc00b19498c411f63f9072",
+        "author": "俊臣",
+        "date": "2026-11-12 18:42:08",
+        "message": "feat ✨: 媒体库同步条目接口支持 tmdbId 直查,消除详情页播放来源按标题搜索漏配"
+      },
+      {
+        "commit": "6393ec03f4bdf9b769342768184175f5eaac9af9",
+        "author": "liurongjie",
+        "date": "2026-11-12 08:46:18",
+        "message": "新增取消订阅推送类型, 用户取消订阅时推送取消订阅通知并配专属封面"
+      },
+      {
+        "commit": "5df94b9454013cf0f3251c874b3324c1b8edce67",
+        "author": "liurongjie",
+        "date": "2026-11-12 01:12:12",
+        "message": "媒体服务器同步panic恢复补堆栈记录定位深层nil ctx"
+      },
+      {
+        "commit": "52be7b90b2a0930b7fb5aa1f1f3d7f18fcaaabcf",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:57:06",
+        "message": "strm媒体信息探测通知改图文多行格式, 修Infoc格式化占位误用"
+      },
+      {
+        "commit": "3b175c08399f3e6dbc7815e8c23bd2b3162bc328",
+        "author": "liurongjie",
+        "date": "2026-11-12 00:10:09",
+        "message": "hubs预热观测形态无Language时不补zh缺省修复键偏移"
+      },
+      {
+        "commit": "6ff8dca15b902138959fac98582b434e16289da5",
+        "author": "liurongjie",
+        "date": "2026-11-11 23:33:38",
+        "message": "fix 🐛: 启灵空配置放行修复plex音乐刷新与CD2配置插件无法启灵, 未配置实例改名不再被校验拦截, 自动音轨未配置启动改静默"
+      },
+      {
+        "commit": "bbaaa9255061dffef0abc50f9e2e68aa69d40d1a",
+        "author": "xylplm",
+        "date": "2026-11-11 13:05:58",
+        "message": "feat ✨: 等级与仙石脱钩的后端代理层适配"
+      },
+      {
+        "commit": "7154fadbf3b95336d7e41c53436668cdb3c795dd",
+        "author": "liurongjie",
+        "date": "2026-11-11 08:25:40",
+        "message": "browse大body进Redis分档4MB并纳入观测驱动预热修复反复miss回源"
+      },
+      {
+        "commit": "4fe22cca6c44818bdc178fa56a6e08f096675b7f",
+        "author": "liurongjie",
+        "date": "2026-11-10 23:11:21",
+        "message": "fix 🐛: 备份工具自愈, 版本检查失败清理失效缓存回退重装, apk强制升级坏包, psql还原同款自愈"
+      },
+      {
+        "commit": "1b3330b5860903edd2a8b71d17e4bde83e7822c7",
+        "author": "xylplm",
+        "date": "2026-11-10 21:26:53",
+        "message": "fix 🐛: 贴ed2k链接识别不再错乱,链接先还原成文件名再识别,四季商人这类片名不再被误判成剧集,手动绑定的TMDB索引按标题直接生效"
+      }
+    ]
+  },
+  {
     "version": "3.0_202611102023",
     "items": [
       {
@@ -12185,131 +12430,6 @@
         "author": "liurongjie",
         "date": "2025-11-25 16:28:38",
         "message": "fix(mediaserver): 修复 Plex 媒体库刷新路径处理逻辑"
-      }
-    ]
-  },
-  {
-    "version": "3.0_202511251429",
-    "items": [
-      {
-        "commit": "5f66d6d1ad83d71c04f204a28506c66677d64324",
-        "author": "yii",
-        "date": "2025-11-25 13:20:31",
-        "message": "fix: 优化错误提示"
-      },
-      {
-        "commit": "b5226713b0c99cf35f2d0311bfdfb98fb33ab6bc",
-        "author": "yii",
-        "date": "2025-11-25 13:12:12",
-        "message": "fix: 优化错误提示"
-      },
-      {
-        "commit": "4c9222c50fedeea6479bf68b858673d841e747e1",
-        "author": "yii",
-        "date": "2025-11-25 13:00:02",
-        "message": "fix: 中间件panic"
-      },
-      {
-        "commit": "6a5e64d444f885f0942e9e158f0451d31f26b485",
-        "author": "yii",
-        "date": "2025-11-25 12:15:44",
-        "message": "del: 移除多余日志"
-      },
-      {
-        "commit": "7234e186032fb0ed61038818c074a4b58238a94f",
-        "author": "yii",
-        "date": "2025-11-25 12:15:16",
-        "message": "add: 增加暗桩"
-      },
-      {
-        "commit": "d1eba7bbaf7ba3335f161bf0d5ba5afc39653862",
-        "author": "yii",
-        "date": "2025-11-25 11:21:02",
-        "message": "fix: 增加auth patch难度"
-      },
-      {
-        "commit": "211a91bf1a9269533280549d12c08e95fca4038e",
-        "author": "xylplm",
-        "date": "2025-11-25 10:57:31",
-        "message": "feat:update version"
-      },
-      {
-        "commit": "b27aee13fe1fc00467ca3f41a11518d907474691",
-        "author": "Jolc",
-        "date": "2025-11-24 22:55:20",
-        "message": "fix:离线下载不显示速度"
-      },
-      {
-        "commit": "10911cf56298aa58619a8b5ca6e2ee301d00c70f",
-        "author": "Jolc",
-        "date": "2025-11-24 21:50:02",
-        "message": "fix: strm302 通知局域网显示问题。"
-      },
-      {
-        "commit": "c7e1a2e0962aa21b68d2fe3b1dd5dec3b62e0aa8",
-        "author": "Jolc",
-        "date": "2025-11-24 01:15:56",
-        "message": "fix:远程代理通知"
-      },
-      {
-        "commit": "0d2d379f1efbe2091027e68c9716a712bacbaacd",
-        "author": "Jolc",
-        "date": "2025-11-24 00:54:34",
-        "message": "feat:strm302通知分类"
-      },
-      {
-        "commit": "69693d73c93a454f476c129d0f1f906c25fb9cfc",
-        "author": "Jolc",
-        "date": "2025-11-23 19:27:52",
-        "message": "fix:云存储禁用状态无法修改的问题"
-      },
-      {
-        "commit": "925ce4cecd9d5388fabfd4a4d7499602655f9f11",
-        "author": "Jolc",
-        "date": "2025-11-23 14:14:48",
-        "message": "fix:通用远程代理"
-      },
-      {
-        "commit": "e4284bf8916f29cedcdd6f85b78203d2ea16f5b9",
-        "author": "Jolc",
-        "date": "2025-11-23 05:21:00",
-        "message": "feat:远程代理"
-      },
-      {
-        "commit": "2ddeffa7525e76e6063f6ec917bb14a80447201e",
-        "author": "Jolc",
-        "date": "2025-11-22 22:57:54",
-        "message": "fix:上传云存储成功后支持刷新媒体库。"
-      },
-      {
-        "commit": "f1383cf50ce6423690dc8b6f9a3f9dc0cfdc1318",
-        "author": "GateCross",
-        "date": "2025-11-22 22:44:52",
-        "message": "fix:优化bark通知"
-      },
-      {
-        "commit": "7ef56a9c40a3d0a321571f3204f81c7c77513c26",
-        "author": "Jolc",
-        "date": "2025-11-22 22:22:20",
-        "message": "fix:目录同步到云存储支持媒体库刷新"
-      },
-      {
-        "commit": "af6dba65561f526894fff648b326c92e9df9fc59",
-        "author": "Jolc",
-        "date": "2025-11-22 21:55:33",
-        "message": "feat: 123 分享链接转存（云存储任务）"
-      },
-      {
-        "commit": "20338f50e538e2881907c07f8193ea2b19d840e5",
-        "author": "GateCross",
-        "date": "2025-11-22 21:41:03",
-        "message": "fix:优化bark通知"
-      },
-      {
-        "commit": "239d5c473091ed8a1c8440769232a4560023d607",
-        "author": "Jolc",
-        "date": "2025-11-22 15:55:15",
-        "message": "fix:云整理找不到文件问题"
       }
     ]
   }

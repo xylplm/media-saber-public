@@ -1,5 +1,83 @@
 [
   {
+    "version": "DEV_202611191136",
+    "items": [
+      {
+        "commit": "dc0e3328ba98e6d69240cabb55e6e30b84a0d464",
+        "author": "xylplm",
+        "date": "2026-11-19 09:23:52",
+        "message": "feat ✨: 认证服务消息新增专属封面，管理员系统通知全员推送"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202611190837",
+    "items": [
+      {
+        "commit": "80db93c734b6259334997811fcfccf123e7a2fc3",
+        "author": "xylplm",
+        "date": "2026-11-19 08:33:28",
+        "message": "feat ✨: 站点配置新增版本信息查询、手动上传配置包与更新版本自描述解析"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202611190821",
+    "items": [
+      {
+        "commit": "a90e5ca7f6f2dccd41a18a6f29cc3180bb2d1800",
+        "author": "liurongjie",
+        "date": "2026-11-19 08:25:22",
+        "message": "docs: 迁移指纹注释同步单源化现状"
+      },
+      {
+        "commit": "42ea1f3f2d550cd77626db5583b7c58780ae1228",
+        "author": "liurongjie",
+        "date": "2026-11-19 08:20:35",
+        "message": "refactor: 迁移清单单源化, Models统一AutoMigrate, 历史修补拆Pre/Patch"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202611190812",
+    "items": [
+      {
+        "commit": "ec17333172b6734702fc8f27695fffe6bb7a1f8f",
+        "author": "liurongjie",
+        "date": "2026-11-19 03:17:36",
+        "message": "fix: review修正, origin次路径绕限回退轮询, memo快照隔离, 任务兜底IsSet区分禁用, 指纹纳入条目名"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202611190221",
+    "items": [
+      {
+        "commit": "7b2d4563bd17f2725d409fe72aacd8b0f8642991",
+        "author": "liurongjie",
+        "date": "2026-11-19 02:20:34",
+        "message": "feat: 站点令牌自动续期, 定时用Cookie换新令牌更新Authorization请求头"
+      }
+    ]
+  },
+  {
+    "version": "DEV_202611190027",
+    "items": [
+      {
+        "commit": "520151f8c97593ec77dac40a39c28842ea685d10",
+        "author": "liurongjie",
+        "date": "2026-11-19 00:30:33",
+        "message": "Revert \"fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min\""
+      },
+      {
+        "commit": "497ef1954aabf6a68364ff204587887047b3f854",
+        "author": "liurongjie",
+        "date": "2026-11-19 00:26:48",
+        "message": "fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611180203",
     "items": [
       {
@@ -40,84 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-18 00:35:10",
         "message": "perf: 过滤规则批量预取匹配规则, 消除RSS/搜索热点路径N+1"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611172356",
-    "items": [
-      {
-        "commit": "1ca4355ae6fd0773045c26387a59d917ff0bcfe3",
-        "author": "liurongjie",
-        "date": "2026-11-17 23:56:10",
-        "message": "fix: 消息同步失败站点自动重试一轮, 兜底出口偶发EOF残留"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611172319",
-    "items": [
-      {
-        "commit": "2461a5357b849d6b1d561fcd4b92071b54c962a8",
-        "author": "liurongjie",
-        "date": "2026-11-17 23:15:56",
-        "message": "fix: 媒体服务刷新TaskTitle去掉实例名重复前缀"
-      },
-      {
-        "commit": "6907eeaf769d6949b471bbaa0645c3198b45b07d",
-        "author": "xylplm",
-        "date": "2026-11-17 12:19:15",
-        "message": "fix 🐛: 修复皇后签到csrf改动遗留的重复取值编译错误"
-      },
-      {
-        "commit": "3f2fa7a6c07a4e2f91b700e04f20455aa27cedd4",
-        "author": "xylplm",
-        "date": "2026-11-17 12:19:15",
-        "message": "fix 🐛: 秘籍通知统一带封面,修复17个插件微信通知只有文字没图"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170820",
-    "items": [
-      {
-        "commit": "8682ce2aaf52561e7be4d217209528c6c31dd25c",
-        "author": "liurongjie",
-        "date": "2026-11-17 08:20:09",
-        "message": "fix: 站点批量任务锁范围收窄, 网络请求与推送移出锁内防串行拖垮整轮"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170238",
-    "items": [
-      {
-        "commit": "b97fce7256738026cf449933082e7f9e8f307af4",
-        "author": "liurongjie",
-        "date": "2026-11-17 01:57:55",
-        "message": "fix: nasInfo重登独立超时防循环失效, np签到404短路视为站点未启用, 站点历史N+1改map"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170133",
-    "items": [
-      {
-        "commit": "11fd91d00220cfa75cfdce41b3e17980e638ef2b",
-        "author": "liurongjie",
-        "date": "2026-11-17 01:32:40",
-        "message": "fix: 站点批量任务限并发10, 缓解出口对CF高并发reset/EOF/超时"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170117",
-    "items": [
-      {
-        "commit": "2cbf2438d20106377ac9b0d55773cd5b5d9c24df",
-        "author": "liurongjie",
-        "date": "2026-11-17 01:17:02",
-        "message": "fix: 微信搜索种子选项集数挪到体积前"
       }
     ]
   }
