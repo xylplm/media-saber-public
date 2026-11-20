@@ -1,5 +1,34 @@
 [
   {
+    "version": "DEV_202611202356",
+    "items": [
+      {
+        "commit": "ccb4b1420c18af6a63165c39a4b56e25696add4a",
+        "author": "liurongjie",
+        "date": "2026-11-20 23:53:16",
+        "message": "feat ✨: 消息渠道新增自定义Webhook类型, 支持请求方式/Header/请求体模板占位符"
+      },
+      {
+        "commit": "58721c353b5ac764aa82de51f6a798316445a62f",
+        "author": "liurongjie",
+        "date": "2026-11-20 23:42:42",
+        "message": "fix: 站点消息日期落库前规范化, 裸时间戳统一转日期文本"
+      },
+      {
+        "commit": "67ca37f500417524253ddcd931462c6ff41aed07",
+        "author": "xylplm",
+        "date": "2026-11-20 22:53:21",
+        "message": "feat ✨: 系统备份新增数据库工具检测安装, 一键完成工具安装修复/数据库连通检查/版本兼容确认"
+      },
+      {
+        "commit": "aba7d064adb599cb3b634412d0adfd72b69145c3",
+        "author": "xylplm",
+        "date": "2026-11-20 22:53:09",
+        "message": "fix 🐛: 系统备份非root容器直接给出处理指引不再空跑安装, 备份工具版本不符时清理旧缓存再重试"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611200827",
     "items": [
       {
@@ -113,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-11-19 00:26:48",
         "message": "fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611180203",
-    "items": [
-      {
-        "commit": "db978afd26c63d3c6308e814411dd43be83d6554",
-        "author": "liurongjie",
-        "date": "2026-11-18 01:58:23",
-        "message": "perf: 启动时模型结构指纹一致则跳过全量迁移, 60表catalog检查90s收敛为毫秒级"
       }
     ]
   }

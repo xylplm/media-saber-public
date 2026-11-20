@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611202356",
+    "items": [
+      {
+        "commit": "6630918bc2e2281ffc76b8ddd6e15fa79684dbb5",
+        "author": "liurongjie",
+        "date": "2026-11-20 23:53:45",
+        "message": "feat ✨: 消息渠道新增自定义Webhook图标"
+      },
+      {
+        "commit": "cd65aee83247487bc16add6c365d6a607fea0e82",
+        "author": "xylplm",
+        "date": "2026-11-20 22:53:24",
+        "message": "feat ✨: 系统备份数据库工具检测安装按钮, 未就绪结论弹窗完整展示处理指引"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611200827",
     "items": [
       {
@@ -101,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 00:20:48",
         "message": "fix(ops): 用户列表每页选项收敛到100, 避免远程截断回20与翻页错位"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611162356",
-    "items": [
-      {
-        "commit": "0649d4ef68bf497b2175adf8aa35b7a08027ce5b",
-        "author": "liurongjie",
-        "date": "2026-11-16 23:56:11",
-        "message": "fix(site): 签到筛选请求失败兜底EMPTY, 修复流死亡后列表冻结不再刷新"
       }
     ]
   }
