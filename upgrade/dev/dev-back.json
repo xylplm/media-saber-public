@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611200827",
+    "items": [
+      {
+        "commit": "12b80db934657103615b17915b789bb28bb94fe2",
+        "author": "xylplm",
+        "date": "2026-11-20 08:00:49",
+        "message": "feat ✨: 贡献申报透传：修为页提交、我的申报与运维审核队列、审核"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611200035",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-18 01:58:23",
         "message": "perf: 启动时模型结构指纹一致则跳过全量迁移, 60表catalog检查90s收敛为毫秒级"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611180125",
-    "items": [
-      {
-        "commit": "3bfb777abd73184116652e5673cd5c178251b93c",
-        "author": "liurongjie",
-        "date": "2026-11-18 01:25:31",
-        "message": "perf: Plex代理命中路径优化, LRU尾扫早停+请求级query memo+origin阻塞等待"
       }
     ]
   }
