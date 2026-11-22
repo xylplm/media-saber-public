@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611222135",
+    "items": [
+      {
+        "commit": "ad480947193cdf83cfb8d67e0eaf0647f92cbb09",
+        "author": "GateCross",
+        "date": "2026-11-22 21:35:08",
+        "message": "chore: 注释并清理工作台概览耗时采集代码"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611222016",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-11-19 03:17:36",
         "message": "fix: review修正, origin次路径绕限回退轮询, memo快照隔离, 任务兜底IsSet区分禁用, 指纹纳入条目名"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190221",
-    "items": [
-      {
-        "commit": "7b2d4563bd17f2725d409fe72aacd8b0f8642991",
-        "author": "liurongjie",
-        "date": "2026-11-19 02:20:34",
-        "message": "feat: 站点令牌自动续期, 定时用Cookie换新令牌更新Authorization请求头"
       }
     ]
   }
