@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611222016",
+    "items": [
+      {
+        "commit": "bb2eeceb421d2ec0b14632f768a035f0b14339b1",
+        "author": "GateCross",
+        "date": "2026-11-22 20:14:13",
+        "message": "feat: 优化云盘上传后按主键直取文案上报 Hash 并支持刷流自动上传"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611202356",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-11-19 02:20:34",
         "message": "feat: 站点令牌自动续期, 定时用Cookie换新令牌更新Authorization请求头"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190027",
-    "items": [
-      {
-        "commit": "520151f8c97593ec77dac40a39c28842ea685d10",
-        "author": "liurongjie",
-        "date": "2026-11-19 00:30:33",
-        "message": "Revert \"fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min\""
-      },
-      {
-        "commit": "497ef1954aabf6a68364ff204587887047b3f854",
-        "author": "liurongjie",
-        "date": "2026-11-19 00:26:48",
-        "message": "fix: 配置下载与调用方断连解耦, WithoutCancel+放宽tar下载超时10min"
       }
     ]
   }
