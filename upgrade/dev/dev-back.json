@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611232101",
+    "items": [
+      {
+        "commit": "4d8b5569cfb9d9e9b6dcde944f19873007516236",
+        "author": "xylplm",
+        "date": "2026-11-23 20:52:58",
+        "message": "feat ✨: 识别词举报审核代理与运维接口，下线点踩代理与阈值链路"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611222135",
     "items": [
       {
@@ -125,17 +136,6 @@
         "author": "liurongjie",
         "date": "2026-11-19 08:20:35",
         "message": "refactor: 迁移清单单源化, Models统一AutoMigrate, 历史修补拆Pre/Patch"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190812",
-    "items": [
-      {
-        "commit": "ec17333172b6734702fc8f27695fffe6bb7a1f8f",
-        "author": "liurongjie",
-        "date": "2026-11-19 03:17:36",
-        "message": "fix: review修正, origin次路径绕限回退轮询, memo快照隔离, 任务兜底IsSet区分禁用, 指纹纳入条目名"
       }
     ]
   }
