@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611241155",
+    "items": [
+      {
+        "commit": "d22d449af9da36b5b9c739c43bf3d4e5bbccfb5f",
+        "author": "GateCross",
+        "date": "2026-11-24 11:54:17",
+        "message": "chore: 删除 HASH 上报插件图标"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611232101",
     "items": [
       {
@@ -107,17 +118,6 @@
         "author": "liurongjie",
         "date": "2026-11-17 08:54:27",
         "message": "fix(site): 筛选切换移除change即时触发改走防抖, 修复筛出上一个状态数据"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611170044",
-    "items": [
-      {
-        "commit": "ca1e6f767c13621a820557f833d3d3e26c80261c",
-        "author": "liurongjie",
-        "date": "2026-11-17 00:43:26",
-        "message": "fix(ops): 云资源移动端表格抢回MDC强制padding并放宽资源名两行截断"
       }
     ]
   }

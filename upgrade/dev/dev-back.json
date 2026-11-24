@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611241155",
+    "items": [
+      {
+        "commit": "8aea6a572b0250a20af4348ff20d92aba67ecb42",
+        "author": "GateCross",
+        "date": "2026-11-24 11:54:05",
+        "message": "chore: 删除云存储与 ED2K HASH 上报插件"
+      },
+      {
+        "commit": "c17256ce3ddf37dd297505d9e01ef10c83ae0eae",
+        "author": "xylplm",
+        "date": "2026-11-24 10:24:22",
+        "message": "docs 📚: 云端识别词举报审核机制说明(表结构/状态机/预算键/点踩移除清单)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611232101",
     "items": [
       {
@@ -119,23 +136,6 @@
         "author": "xylplm",
         "date": "2026-11-19 08:33:28",
         "message": "feat ✨: 站点配置新增版本信息查询、手动上传配置包与更新版本自描述解析"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190821",
-    "items": [
-      {
-        "commit": "a90e5ca7f6f2dccd41a18a6f29cc3180bb2d1800",
-        "author": "liurongjie",
-        "date": "2026-11-19 08:25:22",
-        "message": "docs: 迁移指纹注释同步单源化现状"
-      },
-      {
-        "commit": "42ea1f3f2d550cd77626db5583b7c58780ae1228",
-        "author": "liurongjie",
-        "date": "2026-11-19 08:20:35",
-        "message": "refactor: 迁移清单单源化, Models统一AutoMigrate, 历史修补拆Pre/Patch"
       }
     ]
   }
