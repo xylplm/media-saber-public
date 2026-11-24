@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611242231",
+    "items": [
+      {
+        "commit": "a8e22ac834a4469f2eef8ffe15b9b9e8f8b36d5a",
+        "author": "GateCross",
+        "date": "2026-11-24 22:30:23",
+        "message": "fix: 优化云端资源列表分辨率标签优先展示探测规格"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611242220",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-11-19 09:23:59",
         "message": "feat ✨: 渠道推送范围提示管理员系统通知全渠道推送"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190837",
-    "items": [
-      {
-        "commit": "ed60fdd1922d054d4db2b2107dd53a51ef5f5cd2",
-        "author": "xylplm",
-        "date": "2026-11-19 08:34:03",
-        "message": "feat ✨: 站点维护新增站点配置卡片，支持版本展示、检查更新、手动上传与更新确认"
       }
     ]
   }
