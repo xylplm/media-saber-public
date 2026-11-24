@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611241615",
+    "items": [
+      {
+        "commit": "29fd7a92743257aa0e10346d33b4b7729434e652",
+        "author": "xylplm",
+        "date": "2026-11-24 16:16:21",
+        "message": "fix 🐛: 制作组识别多命中改按位置聚合, 修复剧名撞组名被拼接误报(如Dream@UBWEB)"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611241530",
     "items": [
       {
@@ -131,17 +142,6 @@
         "author": "liurongjie",
         "date": "2026-11-19 23:31:08",
         "message": "fix: cs_hash上报按源路径反查下载历史补种子文案, brush缓存不再退化描述"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611191136",
-    "items": [
-      {
-        "commit": "dc0e3328ba98e6d69240cabb55e6e30b84a0d464",
-        "author": "xylplm",
-        "date": "2026-11-19 09:23:52",
-        "message": "feat ✨: 认证服务消息新增专属封面，管理员系统通知全员推送"
       }
     ]
   }
