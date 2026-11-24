@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611242319",
+    "items": [
+      {
+        "commit": "e1c016f6861c4558edd194b633f1f085f70c06e5",
+        "author": "GateCross",
+        "date": "2026-11-24 23:18:47",
+        "message": "fix: 修复首页 Hash 贡献榜境界条窄卡溢出与挤压"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611242246",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-20 01:07:25",
         "message": "feat(site-message): 点击查看消息详情自动标记已读"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611192356",
-    "items": [
-      {
-        "commit": "7c05e07f674082cd76f494b70765894317fe1bc4",
-        "author": "liurongjie",
-        "date": "2026-11-19 23:19:33",
-        "message": "fix(download): 近期下载标题与站点筛选去label改placeholder提示, 媒体类型保留label"
       }
     ]
   }
