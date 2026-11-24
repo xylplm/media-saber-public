@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611242220",
+    "items": [
+      {
+        "commit": "99409f98f3a20c15a8111f3400db92ce1d67bb7d",
+        "author": "GateCross",
+        "date": "2026-11-24 21:43:17",
+        "message": "fix: 优化系统更新 SSE 阶段提示与重启重连恢复逻辑"
+      },
+      {
+        "commit": "79a4abd501a4463565d4f60c7bae1bce05af2658",
+        "author": "xylplm",
+        "date": "2026-11-24 20:29:33",
+        "message": "fix 🐛: 修复贡献申报审核弹窗填完额度点确认没反应"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611241615",
     "items": [
       {
@@ -107,17 +124,6 @@
         "author": "xylplm",
         "date": "2026-11-19 08:34:03",
         "message": "feat ✨: 站点维护新增站点配置卡片，支持版本展示、检查更新、手动上传与更新确认"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190246",
-    "items": [
-      {
-        "commit": "113a8767ebc0ed1e7998d309c64be03412c8193d",
-        "author": "liurongjie",
-        "date": "2026-11-19 02:46:39",
-        "message": "fix: 安全中心卡片按钮窄卡文字断行变形, 禁折行+放不下堆叠整行"
       }
     ]
   }

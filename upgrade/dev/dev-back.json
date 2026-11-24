@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611242220",
+    "items": [
+      {
+        "commit": "83078827bfee127ace5783b0b0b271f7ccafc709",
+        "author": "GateCross",
+        "date": "2026-11-24 21:43:02",
+        "message": "fix: 优化系统异步更新流程、防重入锁与升级脚本落盘顺序"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611241615",
     "items": [
       {
@@ -125,23 +136,6 @@
         "author": "liurongjie",
         "date": "2026-11-20 00:34:53",
         "message": "fix: 同步条目tmdb路径标记兜底, movie短路放开0值修复, upsert防0值覆盖"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611192356",
-    "items": [
-      {
-        "commit": "5acf99f869f2c4a927901d061f4cc728d02b0696",
-        "author": "liurongjie",
-        "date": "2026-11-19 23:56:12",
-        "message": "fix: 刷新任务路径去重合并, Plex库分区列表30s缓存防转存风暴打满PMS"
-      },
-      {
-        "commit": "9c8ae02b7b871916f203464c1057f69237881e58",
-        "author": "liurongjie",
-        "date": "2026-11-19 23:31:08",
-        "message": "fix: cs_hash上报按源路径反查下载历史补种子文案, brush缓存不再退化描述"
       }
     ]
   }
