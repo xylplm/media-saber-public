@@ -1,5 +1,16 @@
 [
   {
+    "version": "DEV_202611242246",
+    "items": [
+      {
+        "commit": "57dd5f6e0ecfb7fdae2d6a38396707f041f64a55",
+        "author": "GateCross",
+        "date": "2026-11-24 22:45:24",
+        "message": "fix: 优化云端资源探测规格为其他时回退展示分辨率"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611242231",
     "items": [
       {
@@ -113,17 +124,6 @@
         "author": "liurongjie",
         "date": "2026-11-19 23:19:33",
         "message": "fix(download): 近期下载标题与站点筛选去label改placeholder提示, 媒体类型保留label"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611191136",
-    "items": [
-      {
-        "commit": "556fbb4b46c1637fa8b058083a11da07ed584184",
-        "author": "xylplm",
-        "date": "2026-11-19 09:23:59",
-        "message": "feat ✨: 渠道推送范围提示管理员系统通知全渠道推送"
       }
     ]
   }
