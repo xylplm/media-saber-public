@@ -1,5 +1,22 @@
 [
   {
+    "version": "DEV_202611241530",
+    "items": [
+      {
+        "commit": "34f53e147ddf2afe23481fa78e5ac401fdc771ee",
+        "author": "GateCross",
+        "date": "2026-11-24 15:28:56",
+        "message": "fix: cs_hash上报文案改为按主键直取优先，修复RSS兜底反查退化为文件名"
+      },
+      {
+        "commit": "4b58deca4b291230967aec96f018da6857d3e05a",
+        "author": "xylplm",
+        "date": "2026-11-24 14:12:07",
+        "message": "feat ✨: 仅云端订阅改为绝对语义并纳入等级权限, 失败不再退回站点自动重试云端"
+      }
+    ]
+  },
+  {
     "version": "DEV_202611241155",
     "items": [
       {
@@ -125,17 +142,6 @@
         "author": "xylplm",
         "date": "2026-11-19 09:23:52",
         "message": "feat ✨: 认证服务消息新增专属封面，管理员系统通知全员推送"
-      }
-    ]
-  },
-  {
-    "version": "DEV_202611190837",
-    "items": [
-      {
-        "commit": "80db93c734b6259334997811fcfccf123e7a2fc3",
-        "author": "xylplm",
-        "date": "2026-11-19 08:33:28",
-        "message": "feat ✨: 站点配置新增版本信息查询、手动上传配置包与更新版本自描述解析"
       }
     ]
   }
